@@ -1,0 +1,1650 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>AETHER • AI Signals</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&amp;family=Space+Grotesk:wght@500;600&amp;display=swap');
+    
+    :root {
+      --bg: #050507;
+      --card: #0a0a10;
+      --accent-cyan: #00f0ff;
+      --accent-purple: #c084fc;
+      --accent-green: #22ff88;
+    }
+
+    body {
+      font-family: 'Inter', system_ui, sans-serif;
+    }
+    
+    .font-display {
+      font-family: 'Space Grotesk', 'Inter', system_ui, sans-serif;
+      font-weight: 600;
+      letter-spacing: -0.025em;
+    }
+
+    .futuristic-bg {
+      background: radial-gradient(circle at 50% 20%, #0a0a12 0%, #050507 50%);
+    }
+
+    .glass {
+      background: rgba(10, 10, 16, 0.75);
+      backdrop-filter: blur(20px);
+      border: 1px solid rgba(255,255,255,0.08);
+    }
+
+    .neon-cyan {
+      color: #00f0ff;
+      text-shadow: 0 0 10px rgba(0, 240, 255, 0.5);
+    }
+
+    .neon-purple {
+      color: #c084fc;
+      text-shadow: 0 0 10px rgba(192, 132, 252, 0.5);
+    }
+
+    .section-header {
+      font-size: 13px;
+      letter-spacing: 3px;
+      font-weight: 600;
+      text-transform: uppercase;
+    }
+
+    .news-card {
+      transition: all 0.2s cubic-bezier(0.23, 1.0, 0.32, 1);
+      background: #0a0a10;
+      border: 1px solid rgba(255,255,255,0.06);
+    }
+    
+    .news-card:hover {
+      transform: translateY(-2px);
+      border-color: rgba(0, 240, 255, 0.2);
+      box-shadow: 0 20px 25px -5px rgb(0 0 0 / 0.1), 0 8px 10px -6px rgb(0 0 0 / 0.1);
+    }
+
+    .news-card:hover .card-title {
+      color: #00f0ff;
+    }
+
+    .category-pill {
+      font-size: 10px;
+      font-weight: 700;
+      letter-spacing: 1px;
+      padding: 2px 9px;
+      border-radius: 999px;
+    }
+
+    .modal {
+      animation: modalEnter 0.2s cubic-bezier(0.23, 1, 0.32, 1);
+    }
+
+    @keyframes modalEnter {
+      from { opacity: 0; transform: scale(0.96) translateY(10px); }
+      to { opacity: 1; transform: scale(1) translateY(0); }
+    }
+
+    .scanline {
+      position: relative;
+    }
+    
+    .scanline::after {
+      content: '';
+      position: absolute;
+      top: 0; left: 0; right: 0; bottom: 0;
+      background: linear-gradient(
+        to bottom,
+        transparent 50%,
+        rgba(0, 240, 255, 0.015) 51%
+      );
+      background-size: 100% 6px;
+      pointer-events: none;
+      z-index: 1;
+    }
+
+    .neural-canvas {
+      mix-blend-mode: screen;
+    }
+
+    .stat-number {
+      font-variant-numeric: tabular-nums;
+    }
+
+    .filter-chip {
+      transition: all 0.1s ease;
+      border: 1px solid rgba(255,255,255,0.1);
+    }
+    
+    .filter-chip.active {
+      background: rgba(0, 240, 255, 0.1);
+      border-color: #00f0ff;
+      color: #00f0ff;
+    }
+
+    .signal-dot {
+      animation: signalPulse 2s cubic-bezier(0.4, 0, 0.6, 1) infinite;
+    }
+
+    .glitch {
+      animation: glitch 0.8s linear infinite;
+    }
+
+    .data-stream {
+      font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+      font-size: 11px;
+      letter-spacing: 1px;
+    }
+
+    .ai-response {
+      font-size: 15px;
+      line-height: 1.7;
+    }
+
+    .metric-bar {
+      height: 3px;
+      background: linear-gradient(to right, #00f0ff, #22ff88);
+      transition: width 1.2s cubic-bezier(0.23, 1, 0.32, 1);
+    }
+
+    .timeline-dot {
+      transition: all 0.2s ease;
+    }
+
+    .timeline-dot:hover {
+      transform: scale(1.3);
+      box-shadow: 0 0 0 4px rgba(0, 240, 255, 0.2);
+    }
+
+    .news-grid {
+      scrollbar-width: thin;
+      scrollbar-color: rgba(255,255,255,0.1) transparent;
+    }
+
+    .impact-bar {
+      height: 2px;
+      background: linear-gradient(to right, #22ff88, #00f0ff);
+    }
+
+    .holo-border {
+      position: relative;
+    }
+    
+    .holo-border::before {
+      content: '';
+      position: absolute;
+      inset: -1px;
+      background: linear-gradient(45deg, #00f0ff, transparent, #c084fc, transparent, #00f0ff);
+      background-size: 400% 400%;
+      border-radius: inherit;
+      z-index: -1;
+      opacity: 0;
+      transition: opacity 0.3s;
+      animation: holoRotate 3s linear infinite;
+    }
+    
+    .holo-border:hover::before {
+      opacity: 0.15;
+    }
+
+    @keyframes holoRotate {
+      0% { background-position: 0% 50%; }
+      50% { background-position: 100% 50%; }
+      100% { background-position: 0% 50%; }
+    }
+
+    .matrix-text {
+      background: linear-gradient(90deg, #00f0ff, #22ff88, #00f0ff);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      background-size: 200% 100%;
+      animation: matrixShift 3s linear infinite;
+    }
+
+    .subtle-grid {
+      background-image: 
+        linear-gradient(rgba(255,255,255,0.025) 1px, transparent 1px),
+        linear-gradient(90deg, rgba(255,255,255,0.025) 1px, transparent 1px);
+      background-size: 60px 60px;
+    }
+  </style>
+</head>
+<body class="bg-[#050507] text-slate-200 overflow-x-hidden">
+  <!-- NAV -->
+  <nav class="fixed top-0 left-0 right-0 z-50 glass border-b border-white/10">
+    <div class="max-w-7xl mx-auto px-8 h-16 flex items-center justify-between">
+      <div class="flex items-center gap-x-3">
+        <div class="flex items-center gap-x-2">
+          <div class="w-8 h-8 rounded-lg bg-gradient-to-br from-cyan-400 to-purple-400 flex items-center justify-center">
+            <i class="fa-solid fa-infinity text-[#050507] text-xl font-black"></i>
+          </div>
+          <div>
+            <span class="font-display text-2xl tracking-tighter font-semibold">AETHER</span>
+          </div>
+        </div>
+        <div class="flex items-center gap-x-1.5 pl-3 border-l border-white/10">
+          <div class="w-2 h-2 bg-emerald-400 rounded-full animate-pulse"></div>
+          <span class="text-[10px] font-mono tracking-[2px] text-emerald-400">LIVE</span>
+        </div>
+      </div>
+
+      <div class="flex items-center gap-x-8 text-sm">
+        <a href="#feed" class="hover:text-white transition-colors text-slate-400 hover:text-slate-200">FEED</a>
+        <a href="#pulse" class="hover:text-white transition-colors text-slate-400 hover:text-slate-200">PULSE</a>
+        <a href="#oracle" class="hover:text-white transition-colors text-slate-400 hover:text-slate-200">ORACLE</a>
+        <a href="#horizon" class="hover:text-white transition-colors text-slate-400 hover:text-slate-200">HORIZON</a>
+      </div>
+
+      <div class="flex items-center gap-x-3">
+        <div class="flex items-center gap-x-2 text-xs px-3 py-1.5 rounded-full bg-white/5 border border-white/10">
+          <span class="text-emerald-400">●</span>
+          <span class="font-mono text-slate-400">47,291</span>
+          <span class="text-slate-500">readers</span>
+        </div>
+        <button onclick="subscribe()"
+                class="px-5 py-2 text-sm font-medium rounded-lg bg-white text-black hover:bg-white/90 transition-all flex items-center gap-x-2">
+          <i class="fa-solid fa-satellite text-xs"></i>
+          <span>SUBSCRIBE</span>
+        </button>
+      </div>
+    </div>
+  </nav>
+
+  <!-- HERO -->
+  <div class="relative min-h-[100dvh] flex items-center justify-center pt-16 futuristic-bg subtle-grid">
+    <!-- Neural Canvas Background -->
+    <canvas id="neural-canvas" class="absolute inset-0 w-full h-full neural-canvas" style="opacity: 0.65;"></canvas>
+    
+    <div class="relative z-10 max-w-5xl px-8 text-center">
+      <div class="inline-flex items-center gap-x-2 px-4 py-1 rounded-full bg-white/5 border border-white/10 mb-6">
+        <div class="flex items-center gap-x-1.5">
+          <i class="fa-solid fa-satellite text-cyan-400 text-xs"></i>
+          <span class="text-xs font-mono tracking-[3px] text-cyan-400">TRANSMISSION 04.09.2026</span>
+        </div>
+      </div>
+
+      <h1 class="font-display text-[92px] leading-[0.92] tracking-[-6.2px] font-semibold mb-3">
+        THE SIGNAL<br>FROM TOMORROW
+      </h1>
+      
+      <p class="text-2xl text-slate-400 max-w-md mx-auto mb-10 tracking-tight">
+        Real-time intelligence from the frontier of artificial intelligence.
+      </p>
+
+      <div class="flex items-center justify-center gap-x-4">
+        <button onclick="document.getElementById('feed').scrollIntoView({ behavior: 'smooth' })" 
+                class="group px-8 py-4 rounded-2xl bg-white text-black font-semibold text-sm tracking-wider flex items-center gap-x-3 hover:bg-white/90 active:scale-[0.985] transition-all">
+          <span>ENTER THE FEED</span>
+          <i class="fa-solid fa-arrow-right group-active:translate-x-0.5 transition"></i>
+        </button>
+        
+        <button onclick="document.getElementById('oracle').scrollIntoView({ behavior: 'smooth' })" 
+                class="group px-8 py-4 rounded-2xl border border-white/20 hover:bg-white/5 font-semibold text-sm tracking-wider flex items-center gap-x-3 transition-all">
+          <i class="fa-solid fa-brain text-purple-400"></i>
+          <span>CONSULT THE ORACLE</span>
+        </button>
+      </div>
+
+      <div class="mt-14 flex items-center justify-center gap-x-8 text-xs">
+        <div class="flex items-center gap-x-2 text-slate-500">
+          <i class="fa-solid fa-globe"></i>
+          <span>92 SOURCES • 14 LABS</span>
+        </div>
+        <div class="h-px w-8 bg-white/10"></div>
+        <div class="flex items-center gap-x-2">
+          <span class="text-emerald-400 font-mono">UPDATED 11s AGO</span>
+        </div>
+      </div>
+    </div>
+
+    <!-- Scroll indicator -->
+    <div class="absolute bottom-10 left-1/2 -translate-x-1/2 flex flex-col items-center gap-y-1 text-[10px] text-slate-500 tracking-[2px]">
+      <span>SCROLL TO BEGIN</span>
+      <i class="fa-solid fa-chevron-down animate-bounce text-xs mt-1"></i>
+    </div>
+  </div>
+
+  <!-- LIVE METRICS -->
+  <div class="border-b border-white/10 bg-[#050507]">
+    <div class="max-w-7xl mx-auto px-8 py-6">
+      <div class="grid grid-cols-2 md:grid-cols-4 gap-4">
+        <div class="glass rounded-2xl px-6 py-5 border border-white/5">
+          <div class="flex items-baseline justify-between">
+            <div>
+              <div class="text-xs text-slate-500 tracking-widest">PAPERS PARSED</div>
+              <div id="metric-papers" class="stat-number text-4xl font-semibold tabular-nums text-white mt-1">1247</div>
+            </div>
+            <div class="text-right">
+              <div class="text-emerald-400 text-xs font-mono">+184 TODAY</div>
+            </div>
+          </div>
+          <div class="mt-3 h-px bg-white/10">
+            <div class="metric-bar w-[92%]" style="width: 92%"></div>
+          </div>
+        </div>
+
+        <div class="glass rounded-2xl px-6 py-5 border border-white/5">
+          <div class="flex items-baseline justify-between">
+            <div>
+              <div class="text-xs text-slate-500 tracking-widest">NEW MODELS</div>
+              <div id="metric-models" class="stat-number text-4xl font-semibold tabular-nums text-white mt-1">19</div>
+            </div>
+            <div class="text-right">
+              <div class="text-cyan-400 text-xs font-mono">THIS WEEK</div>
+            </div>
+          </div>
+          <div class="mt-3 h-px bg-white/10">
+            <div class="metric-bar w-[68%]" style="width: 68%"></div>
+          </div>
+        </div>
+
+        <div class="glass rounded-2xl px-6 py-5 border border-white/5">
+          <div class="flex items-baseline justify-between">
+            <div>
+              <div class="text-xs text-slate-500 tracking-widest">INFERENCE TOKENS</div>
+              <div id="metric-tokens" class="stat-number text-4xl font-semibold tabular-nums text-white mt-1">3.8T</div>
+            </div>
+            <div class="text-right">
+              <div class="text-purple-400 text-xs font-mono">+11% 24H</div>
+            </div>
+          </div>
+          <div class="mt-3 h-px bg-white/10">
+            <div class="metric-bar w-[84%]" style="width: 84%"></div>
+          </div>
+        </div>
+
+        <div class="glass rounded-2xl px-6 py-5 border border-white/5">
+          <div class="flex items-baseline justify-between">
+            <div>
+              <div class="text-xs text-slate-500 tracking-widest">ACTIVE AGENTS</div>
+              <div id="metric-agents" class="stat-number text-4xl font-semibold tabular-nums text-white mt-1">918k</div>
+            </div>
+            <div class="text-right">
+              <div class="text-emerald-400 text-xs font-mono">LIVE</div>
+            </div>
+          </div>
+          <div class="mt-3 h-px bg-white/10">
+            <div class="metric-bar w-[97%]" style="width: 97%"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- THE FEED -->
+  <div id="feed" class="max-w-7xl mx-auto px-8 pt-16 pb-12">
+    <div class="flex items-end justify-between mb-8">
+      <div>
+        <div class="section-header text-cyan-400">LIVE INTELLIGENCE</div>
+        <h2 class="font-display text-5xl tracking-[-2.4px] font-semibold">The Signal Feed</h2>
+      </div>
+      <div class="flex items-center gap-x-3 text-sm">
+        <div class="flex items-center gap-x-2 text-xs px-3 h-9 rounded-full bg-white/5 border border-white/10 text-slate-400">
+          <i class="fa-solid fa-sync fa-spin text-emerald-400"></i>
+          <span id="last-sync">UPDATED 8 SECONDS AGO</span>
+        </div>
+        <button onclick="refreshFeed()" 
+                class="h-9 px-5 rounded-full border border-white/20 hover:bg-white/5 flex items-center gap-x-2 text-xs font-medium tracking-wider transition-all active:bg-white/10">
+          <i class="fa-solid fa-sync-alt"></i>
+          <span>REFRESH</span>
+        </button>
+      </div>
+    </div>
+
+    <!-- Filters -->
+    <div class="flex flex-wrap gap-2 mb-6" id="filter-chips">
+      <button onclick="filterByCategory('all')" class="filter-chip active px-5 py-1.5 rounded-full text-xs font-medium flex items-center gap-x-1.5" data-category="all">
+        ALL SIGNALS
+      </button>
+      <button onclick="filterByCategory('llm')" class="filter-chip px-5 py-1.5 rounded-full text-xs font-medium flex items-center gap-x-1.5" data-category="llm">
+        <span class="text-violet-400">●</span> LLMs
+      </button>
+      <button onclick="filterByCategory('multimodal')" class="filter-chip px-5 py-1.5 rounded-full text-xs font-medium flex items-center gap-x-1.5" data-category="multimodal">
+        <span class="text-sky-400">●</span> MULTIMODAL
+      </button>
+      <button onclick="filterByCategory('robotics')" class="filter-chip px-5 py-1.5 rounded-full text-xs font-medium flex items-center gap-x-1.5" data-category="robotics">
+        <span class="text-orange-400">●</span> ROBOTICS
+      </button>
+      <button onclick="filterByCategory('research')" class="filter-chip px-5 py-1.5 rounded-full text-xs font-medium flex items-center gap-x-1.5" data-category="research">
+        <span class="text-teal-400">●</span> RESEARCH
+      </button>
+      <button onclick="filterByCategory('safety')" class="filter-chip px-5 py-1.5 rounded-full text-xs font-medium flex items-center gap-x-1.5" data-category="safety">
+        <span class="text-rose-400">●</span> SAFETY
+      </button>
+      <button onclick="filterByCategory('hardware')" class="filter-chip px-5 py-1.5 rounded-full text-xs font-medium flex items-center gap-x-1.5" data-category="hardware">
+        <span class="text-amber-400">●</span> HARDWARE
+      </button>
+    </div>
+
+    <!-- Search -->
+    <div class="relative mb-6">
+      <input type="text" id="search-input" placeholder="Search signals, models, labs..." 
+             onkeyup="filterFeed()"
+             class="w-full bg-[#0a0a10] border border-white/10 focus:border-white/30 transition-colors text-lg placeholder:text-slate-500 pl-12 py-3.5 rounded-2xl focus:outline-none">
+      <i class="fa-solid fa-search absolute left-5 top-4 text-slate-500"></i>
+    </div>
+
+    <!-- News Grid -->
+    <div id="news-grid" class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 news-grid"></div>
+  </div>
+
+  <!-- THE NEXUS PULSE -->
+  <div id="pulse" class="border-y border-white/10 bg-[#030305]">
+    <div class="max-w-7xl mx-auto px-8 py-16">
+      <div class="flex items-end justify-between mb-8">
+        <div>
+          <div class="section-header text-purple-400">GLOBAL ACTIVITY</div>
+          <h2 class="font-display text-5xl tracking-[-2.4px] font-semibold">Nexus Pulse</h2>
+        </div>
+        <div class="text-right text-xs text-slate-400">
+          <div>REAL-TIME MODEL INFERENCE HEATMAP</div>
+          <div class="font-mono text-emerald-400">4.2M REQUESTS / MIN</div>
+        </div>
+      </div>
+
+      <div class="grid md:grid-cols-5 gap-5">
+        <!-- Live Activity Canvas -->
+        <div class="md:col-span-3 glass rounded-3xl p-6 border border-white/10 relative overflow-hidden">
+          <canvas id="pulse-canvas" width="720" height="320" class="w-full"></canvas>
+          <div class="absolute top-6 right-6 text-[10px] font-mono px-3 py-1 bg-black/60 rounded-full border border-white/10">LIVE</div>
+        </div>
+
+        <!-- Hot Clusters -->
+        <div class="md:col-span-2 space-y-3">
+          <div class="text-xs text-slate-400 px-1 mb-1">HOT CLUSTERS • LAST 60 MIN</div>
+          
+          <div class="glass rounded-2xl p-4 border border-white/10 flex justify-between items-center group hover:border-white/20 transition-colors">
+            <div class="flex items-center gap-x-3">
+              <div class="w-9 h-9 rounded-xl bg-gradient-to-br from-violet-400 to-purple-500 flex items-center justify-center text-xs font-bold text-black">SF</div>
+              <div>
+                <div class="font-medium">San Francisco Bay</div>
+                <div class="text-xs text-slate-400">OpenAI • Anthropic • xAI</div>
+              </div>
+            </div>
+            <div class="text-right">
+              <div class="text-emerald-400 font-mono text-sm">1.8m</div>
+              <div class="text-[10px] text-emerald-400">+41%</div>
+            </div>
+          </div>
+
+          <div class="glass rounded-2xl p-4 border border-white/10 flex justify-between items-center group hover:border-white/20 transition-colors">
+            <div class="flex items-center gap-x-3">
+              <div class="w-9 h-9 rounded-xl bg-gradient-to-br from-sky-400 to-blue-500 flex items-center justify-center text-xs font-bold text-black">SH</div>
+              <div>
+                <div class="font-medium">Shanghai / Beijing</div>
+                <div class="text-xs text-slate-400">DeepSeek • Moonshot • Alibaba</div>
+              </div>
+            </div>
+            <div class="text-right">
+              <div class="text-emerald-400 font-mono text-sm">1.1m</div>
+              <div class="text-[10px] text-emerald-400">+29%</div>
+            </div>
+          </div>
+
+          <div class="glass rounded-2xl p-4 border border-white/10 flex justify-between items-center group hover:border-white/20 transition-colors">
+            <div class="flex items-center gap-x-3">
+              <div class="w-9 h-9 rounded-xl bg-gradient-to-br from-orange-400 to-amber-500 flex items-center justify-center text-xs font-bold text-black">LDN</div>
+              <div>
+                <div class="font-medium">London / Zurich</div>
+                <div class="text-xs text-slate-400">Google DeepMind • Inflection</div>
+              </div>
+            </div>
+            <div class="text-right">
+              <div class="text-emerald-400 font-mono text-sm">684k</div>
+              <div class="text-[10px] text-emerald-400">+18%</div>
+            </div>
+          </div>
+
+          <div class="glass rounded-2xl p-4 border border-white/10 flex justify-between items-center group hover:border-white/20 transition-colors">
+            <div class="flex items-center gap-x-3">
+              <div class="w-9 h-9 rounded-xl bg-gradient-to-br from-teal-400 to-cyan-500 flex items-center justify-center text-xs font-bold text-black">SGP</div>
+              <div>
+                <div class="font-medium">Singapore</div>
+                <div class="text-xs text-slate-400">Sea AI • Google • Meta</div>
+              </div>
+            </div>
+            <div class="text-right">
+              <div class="text-emerald-400 font-mono text-sm">431k</div>
+              <div class="text-[10px] text-emerald-400">+64%</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- THE ORACLE -->
+  <div id="oracle" class="max-w-4xl mx-auto px-8 py-16">
+    <div class="text-center mb-8">
+      <div class="inline-flex items-center justify-center gap-x-2 px-4 py-1 rounded-full bg-purple-500/10 text-purple-400 text-xs tracking-[2px] mb-3">
+        <i class="fa-solid fa-brain"></i> 
+        <span>NEURAL INTERFACE v4.3</span>
+      </div>
+      <h2 class="font-display text-5xl tracking-[-2.4px] font-semibold">The Oracle</h2>
+      <p class="text-slate-400 mt-2">Ask anything about today's signals. Synthesized in real time.</p>
+    </div>
+
+    <div class="glass rounded-3xl border border-white/10 p-8">
+      <div class="flex gap-3">
+        <input id="oracle-input" type="text" placeholder="What is the current state of open-source agentic frameworks?" 
+               class="flex-1 bg-black/30 border border-white/10 rounded-2xl px-6 py-4 text-lg placeholder:text-slate-500 focus:outline-none focus:border-purple-400/50"
+               onkeypress="if (event.key === 'Enter') askOracle()">
+        <button onclick="askOracle()" 
+                class="px-8 bg-gradient-to-r from-purple-400 to-violet-400 hover:from-purple-500 hover:to-violet-500 transition-all text-black font-semibold rounded-2xl flex items-center gap-x-2">
+          <span>ASK</span>
+          <i class="fa-solid fa-arrow-up"></i>
+        </button>
+      </div>
+
+      <!-- Quick prompts -->
+      <div class="flex flex-wrap gap-2 mt-4">
+        <button onclick="quickAsk(this)" class="text-xs px-4 py-1.5 rounded-full bg-white/5 hover:bg-white/10 border border-white/10 transition-colors">What's the fastest growing model architecture?</button>
+        <button onclick="quickAsk(this)" class="text-xs px-4 py-1.5 rounded-full bg-white/5 hover:bg-white/10 border border-white/10 transition-colors">Any major robotics breakthroughs today?</button>
+        <button onclick="quickAsk(this)" class="text-xs px-4 py-1.5 rounded-full bg-white/5 hover:bg-white/10 border border-white/10 transition-colors">Summarize today's safety research</button>
+        <button onclick="quickAsk(this)" class="text-xs px-4 py-1.5 rounded-full bg-white/5 hover:bg-white/10 border border-white/10 transition-colors">Which lab released the most papers?</button>
+      </div>
+
+      <div id="oracle-response" class="mt-6 min-h-[120px] hidden">
+        <div class="flex items-center gap-x-2 text-xs uppercase tracking-widest text-purple-400 mb-3 px-1">
+          <div class="flex-1 h-px bg-purple-400/30"></div>
+          <span>ORACLE SYNTHESIS</span>
+          <div class="flex-1 h-px bg-purple-400/30"></div>
+        </div>
+        <div id="oracle-content" class="ai-response text-slate-200 leading-relaxed"></div>
+      </div>
+    </div>
+  </div>
+
+  <!-- SINGULARITY HORIZON -->
+  <div id="horizon" class="border-t border-white/10 bg-[#030305]">
+    <div class="max-w-6xl mx-auto px-8 py-16">
+      <div class="grid md:grid-cols-2 gap-x-16 gap-y-10 items-center">
+        <div>
+          <div class="section-header text-emerald-400">SPECULATIVE INTELLIGENCE</div>
+          <h2 class="font-display text-5xl tracking-[-2.4px] font-semibold leading-none mt-1">The Horizon</h2>
+          <p class="mt-4 text-lg text-slate-400">Projected AGI proximity based on 12 frontier labs' internal roadmaps and capability scaling laws.</p>
+          
+          <div class="mt-7 flex items-center gap-x-4">
+            <div>
+              <div class="text-7xl font-semibold tabular-nums tracking-tighter">73</div>
+              <div class="text-sm text-emerald-400 -mt-1">MONTHS TO AGI</div>
+            </div>
+            <div class="text-xs leading-tight max-w-[160px] text-slate-400">
+              68% probability of transformative AGI by 2030 according to aggregated expert forecasts.
+            </div>
+          </div>
+        </div>
+
+        <div>
+          <div class="space-y-4">
+            <!-- Timeline -->
+            <div class="relative pl-8">
+              <div class="absolute left-3 top-2 bottom-2 w-px bg-gradient-to-b from-emerald-400/70 via-white/20 to-transparent"></div>
+              
+              <div class="relative flex gap-4 items-start mb-6">
+                <div class="w-6 h-6 rounded-full bg-emerald-400 z-10 flex items-center justify-center ring-4 ring-emerald-400/20">
+                  <i class="fa-solid fa-check text-[9px] text-black"></i>
+                </div>
+                <div class="flex-1 pt-0.5">
+                  <div class="flex justify-between text-sm"><span class="font-medium">Q3 2025</span><span class="text-emerald-400 text-xs">ACHIEVED</span></div>
+                  <div class="text-slate-400 text-sm">Agentic scaffolding reaches production reliability</div>
+                </div>
+              </div>
+              
+              <div class="relative flex gap-4 items-start mb-6">
+                <div class="w-6 h-6 rounded-full bg-white/80 z-10 flex items-center justify-center ring-4 ring-white/20">
+                  <div class="w-1.5 h-1.5 bg-black rounded-full"></div>
+                </div>
+                <div class="flex-1 pt-0.5">
+                  <div class="flex justify-between text-sm"><span class="font-medium">Q4 2026</span><span class="text-amber-400 text-xs">PROJECTED</span></div>
+                  <div class="text-slate-400 text-sm">First generalist robot achieves 90% human parity on household tasks</div>
+                </div>
+              </div>
+              
+              <div class="relative flex gap-4 items-start mb-6">
+                <div class="w-6 h-6 rounded-full bg-white/30 z-10 ring-4 ring-white/10"></div>
+                <div class="flex-1 pt-0.5">
+                  <div class="flex justify-between text-sm"><span class="font-medium">2027–28</span></div>
+                  <div class="text-slate-400 text-sm">Multi-modal world models surpass human scientific reasoning in narrow domains</div>
+                </div>
+              </div>
+              
+              <div class="relative flex gap-4 items-start">
+                <div class="w-6 h-6 rounded-full bg-white/10 z-10 ring-4 ring-white/5"></div>
+                <div class="flex-1 pt-0.5">
+                  <div class="flex justify-between text-sm"><span class="font-medium">2030</span></div>
+                  <div class="text-slate-400 text-sm">Consensus AGI threshold crossed (per METR &amp; ARC-AGI benchmarks)</div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- FOOTER -->
+  <div class="border-t border-white/10 py-9">
+    <div class="max-w-7xl mx-auto px-8 flex flex-col md:flex-row justify-between gap-y-4 text-xs text-slate-400">
+      <div class="flex items-center gap-x-5">
+        <span>© AETHER 2026</span>
+        <span class="hidden md:inline">•</span>
+        <span class="cursor-pointer hover:text-slate-200">ARCHIVES</span>
+        <span class="cursor-pointer hover:text-slate-200">API</span>
+        <span class="cursor-pointer hover:text-slate-200">METHODOLOGY</span>
+      </div>
+      <div class="flex items-center gap-x-2">
+        <span>BUILT FOR THE CURIOUS</span>
+        <div class="px-3 py-px text-[10px] border border-white/20 rounded">v4.3.1</div>
+      </div>
+    </div>
+  </div>
+
+  <!-- NEWS MODAL -->
+  <div id="modal" onclick="if (event.target.id === 'modal') closeModal()" class="hidden fixed inset-0 bg-black/90 z-[60] flex items-center justify-center p-6">
+    <div onclick="event.stopImmediatePropagation()" class="glass modal max-w-2xl w-full rounded-3xl border border-white/20 overflow-hidden">
+      <div class="p-9">
+        <div class="flex justify-between items-start">
+          <div id="modal-category" class="category-pill"></div>
+          <button onclick="closeModal()" class="text-slate-400 hover:text-white"><i class="fa-solid fa-times text-2xl"></i></button>
+        </div>
+        
+        <h3 id="modal-title" class="font-display text-4xl tracking-[-1.5px] leading-tight mt-4 pr-4"></h3>
+        
+        <div class="flex items-center gap-x-3 mt-5 text-sm">
+          <div id="modal-source" class="text-slate-400"></div>
+          <div class="text-white/20">•</div>
+          <div id="modal-time" class="font-mono text-emerald-400"></div>
+          <div class="text-white/20">•</div>
+          <div class="flex items-center gap-x-1.5 text-xs">
+            <span class="text-slate-400">IMPACT</span>
+            <div class="flex gap-px"><div class="w-1.5 h-3 bg-emerald-400 rounded"></div><div class="w-1.5 h-3 bg-emerald-400 rounded"></div><div class="w-1.5 h-3 bg-emerald-400 rounded"></div><div class="w-1.5 h-3 bg-white/30 rounded"></div></div>
+          </div>
+        </div>
+
+        <div id="modal-body" class="mt-8 leading-relaxed text-[15px] text-slate-300"></div>
+
+        <div class="mt-8 pt-6 border-t border-white/10">
+          <div class="text-xs uppercase tracking-[1.5px] text-slate-400 mb-3">ORACLE KEY TAKEAWAYS</div>
+          <ul id="modal-takeaways" class="space-y-2 text-sm"></ul>
+        </div>
+      </div>
+
+      <div class="bg-black/40 px-9 py-4 flex items-center justify-between border-t border-white/10 text-xs">
+        <div class="flex items-center gap-x-2 text-slate-400">
+          <i class="fa-solid fa-link"></i> 
+          <span id="modal-link"></span>
+        </div>
+        <button onclick="shareArticle()" class="flex items-center gap-x-2 hover:text-white transition-colors">
+          <i class="fa-solid fa-share-alt"></i>
+          <span>SHARE SIGNAL</span>
+        </button>
+      </div>
+    </div>
+  </div>
+
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    // Tailwind script
+    function initTailwind() {
+      document.documentElement.style.setProperty('--accent-cyan', '#00f0ff');
+    }
+
+    // Neural canvas in hero
+    function initNeuralCanvas() {
+      const canvas = document.getElementById('neural-canvas');
+      const ctx = canvas.getContext('2d', { alpha: true });
+      
+      let width, height, nodes = [];
+      
+      function resize() {
+        width = canvas.width = window.innerWidth;
+        height = canvas.height = window.innerHeight * 1.05;
+      }
+      window.addEventListener('resize', resize);
+      resize();
+
+      class Node {
+        constructor() {
+          this.x = Math.random() * width;
+          this.y = Math.random() * height;
+          this.vx = (Math.random() - 0.5) * 0.35;
+          this.vy = (Math.random() - 0.5) * 0.35;
+          this.radius = Math.random() * 1.6 + 0.9;
+          this.pulse = Math.random() * Math.PI * 2;
+        }
+        update() {
+          this.x += this.vx;
+          this.y += this.vy;
+          
+          if (this.x < 0 || this.x > width) this.vx *= -1;
+          if (this.y < 0 || this.y > height) this.vy *= -1;
+          
+          this.pulse += 0.02;
+        }
+        draw() {
+          const pulseSize = this.radius + Math.sin(this.pulse) * 0.5;
+          ctx.fillStyle = 'rgba(0, 240, 255, 0.85)';
+          ctx.beginPath();
+          ctx.arc(this.x, this.y, pulseSize, 0, Math.PI * 2);
+          ctx.fill();
+        }
+      }
+
+      for (let i = 0; i < 72; i++) {
+        nodes.push(new Node());
+      }
+
+      let mouseX = width / 2;
+      let mouseY = height / 2;
+      
+      canvas.addEventListener('mousemove', (e) => {
+        mouseX = e.clientX;
+        mouseY = e.clientY;
+      });
+
+      function drawConnections() {
+        ctx.strokeStyle = 'rgba(192, 132, 252, 0.13)';
+        ctx.lineWidth = 1;
+        
+        for (let i = 0; i < nodes.length; i++) {
+          for (let j = i + 1; j < nodes.length; j++) {
+            const dx = nodes[i].x - nodes[j].x;
+            const dy = nodes[i].y - nodes[j].y;
+            const dist = Math.sqrt(dx * dx + dy * dy);
+            
+            if (dist < 170) {
+              ctx.beginPath();
+              ctx.moveTo(nodes[i].x, nodes[i].y);
+              ctx.lineTo(nodes[j].x, nodes[j].y);
+              ctx.stroke();
+              
+              // occasional bright connection
+              if (Math.random() < 0.005) {
+                ctx.strokeStyle = 'rgba(0, 240, 255, 0.35)';
+                ctx.lineWidth = 1.2;
+                ctx.stroke();
+                ctx.strokeStyle = 'rgba(192, 132, 252, 0.13)';
+                ctx.lineWidth = 1;
+              }
+            }
+          }
+        }
+      }
+
+      function animate() {
+        ctx.clearRect(0, 0, width, height);
+        
+        // gentle mouse repulsion
+        for (let node of nodes) {
+          const dx = node.x - mouseX;
+          const dy = node.y - mouseY;
+          const dist = Math.sqrt(dx*dx + dy*dy);
+          if (dist < 140 && dist > 0) {
+            const force = (140 - dist) / 140 * 0.6;
+            node.vx += (dx / dist) * force;
+            node.vy += (dy / dist) * force;
+          }
+          node.update();
+        }
+        
+        drawConnections();
+        
+        for (let node of nodes) {
+          node.draw();
+        }
+        
+        requestAnimationFrame(animate);
+      }
+      
+      animate();
+    }
+
+    // Pulse canvas - live activity visualization
+    let pulseCtx, pulseNodes = [];
+    
+    function initPulseCanvas() {
+      const canvas = document.getElementById('pulse-canvas');
+      pulseCtx = canvas.getContext('2d');
+      
+      const w = canvas.width;
+      const h = canvas.height;
+      
+      class PulseNode {
+        constructor() {
+          this.x = Math.random() * w;
+          this.y = Math.random() * h;
+          this.size = Math.random() * 3.5 + 1.6;
+          this.speed = Math.random() * 0.8 + 0.4;
+          this.alpha = Math.random() * 0.6 + 0.4;
+          this.hue = Math.random() > 0.7 ? 192 : 180;
+        }
+        update() {
+          this.y -= this.speed;
+          if (this.y < 0) {
+            this.y = h;
+            this.x = Math.random() * w;
+          }
+          this.alpha = 0.4 + Math.sin(Date.now() / 240 + this.x) * 0.3;
+        }
+      }
+      
+      for (let i = 0; i < 62; i++) {
+        pulseNodes.push(new PulseNode());
+      }
+      
+      function drawPulse() {
+        pulseCtx.fillStyle = 'rgba(3, 3, 5, 0.65)';
+        pulseCtx.fillRect(0, 0, w, h);
+        
+        // grid lines
+        pulseCtx.strokeStyle = 'rgba(255,255,255,0.04)';
+        pulseCtx.lineWidth = 1;
+        for (let x = 40; x < w; x += 40) {
+          pulseCtx.beginPath();
+          pulseCtx.moveTo(x, 0);
+          pulseCtx.lineTo(x, h);
+          pulseCtx.stroke();
+        }
+        
+        // nodes + connections
+        pulseCtx.fillStyle = '#00f0ff';
+        
+        for (let i = 0; i < pulseNodes.length; i++) {
+          const n = pulseNodes[i];
+          n.update();
+          
+          // draw
+          pulseCtx.globalAlpha = n.alpha;
+          pulseCtx.beginPath();
+          pulseCtx.arc(n.x, n.y, n.size, 0, Math.PI * 2);
+          pulseCtx.fill();
+          
+          // occasional vertical signal beams
+          if (Math.random() < 0.035) {
+            pulseCtx.strokeStyle = '#22ff88';
+            pulseCtx.globalAlpha = 0.3;
+            pulseCtx.beginPath();
+            pulseCtx.moveTo(n.x, n.y);
+            pulseCtx.lineTo(n.x, n.y + 38 + Math.random() * 60);
+            pulseCtx.stroke();
+          }
+        }
+        
+        // connect close nodes
+        pulseCtx.strokeStyle = 'rgba(192,132,252,0.22)';
+        pulseCtx.lineWidth = 1;
+        pulseCtx.globalAlpha = 1;
+        
+        for (let i = 0; i < pulseNodes.length; i++) {
+          for (let j = i + 1; j < pulseNodes.length; j++) {
+            const dx = pulseNodes[i].x - pulseNodes[j].x;
+            const dy = pulseNodes[i].y - pulseNodes[j].y;
+            if (Math.abs(dx) < 110 && Math.abs(dy) < 42) {
+              pulseCtx.beginPath();
+              pulseCtx.moveTo(pulseNodes[i].x, pulseNodes[i].y);
+              pulseCtx.lineTo(pulseNodes[j].x, pulseNodes[j].y);
+              pulseCtx.stroke();
+            }
+          }
+        }
+        
+        requestAnimationFrame(drawPulse);
+      }
+      
+      drawPulse();
+    }
+
+    // News Data
+    // Live data loaded from data/news.json (updated daily by GitHub Actions)
+    let newsData = [];
+    let lastUpdatedISO = null;
+
+    async function loadNewsData() {
+      const grid = document.getElementById('news-grid');
+      grid.innerHTML = `
+        <div class="col-span-full flex items-center justify-center py-12 text-slate-400">
+          <div class="flex items-center gap-x-3">
+            <i class="fa-solid fa-satellite fa-spin text-cyan-400"></i>
+            <span>Pulling latest signals from the frontier...</span>
+          </div>
+        </div>
+      `;
+
+      try {
+        const res = await fetch('data/news.json', { cache: 'no-store' });
+        if (!res.ok) throw new Error('Failed to load news data');
+
+        const payload = await res.json();
+        newsData = payload.articles || [];
+        lastUpdatedISO = payload.lastUpdated || new Date().toISOString();
+
+        // Update the live sync label
+        updateLastSyncLabel();
+
+        // Render
+        applyFilters();
+
+        // Show data source hint
+        showDataSourceHint(payload.source || 'AETHER Signals');
+
+      } catch (err) {
+        console.warn('[AETHER] Failed to load live data, using fallback.', err);
+        // Fallback to high-quality curated data
+        loadFallbackData();
+      }
+    }
+
+    function updateLastSyncLabel() {
+      const el = document.getElementById('last-sync');
+      if (!el || !lastUpdatedISO) return;
+
+      const date = new Date(lastUpdatedISO);
+      const now = new Date();
+      const diffMin = Math.floor((now - date) / 1000 / 60);
+
+      if (diffMin < 5) {
+        el.textContent = 'UPDATED MOMENTS AGO';
+      } else if (diffMin < 60) {
+        el.textContent = `UPDATED ${diffMin} MIN AGO`;
+      } else {
+        el.textContent = `UPDATED ${Math.floor(diffMin / 60)}H AGO`;
+      }
+    }
+
+    function showDataSourceHint(source) {
+      // Optional subtle indicator in console + we can enhance UI later
+      console.log('%c[AETHER] Data source:', 'color:#64748b', source);
+    }
+
+    // High-quality fallback (used if live data fetch fails)
+    function loadFallbackData() {
+      newsData = [
+        {
+          id: "fallback-1",
+          type: "premium",
+          category: "llm",
+          title: "xAI releases Grok-4.3 with native long-horizon agent scaffolding",
+          excerpt: "New model demonstrates 4.2× improvement on multi-step software engineering benchmarks and sustains coherent agent trajectories beyond 110k tokens.",
+          source: "xAI",
+          url: "https://x.ai/blog/grok-4.3",
+          publishedAt: new Date(Date.now() - 1000 * 60 * 60 * 5).toISOString(),
+          impact: 96,
+          body: "Grok-4.3 introduces a novel recursive reasoning architecture that allows the model to dynamically allocate compute across long-horizon tasks. Early testers report the model successfully completed 71% of SWE-bench tasks without human intervention, a new record.",
+          takeaways: [
+            "Long-horizon coherence now exceeds 110k tokens reliably",
+            "New 'Recursive Planning' module improves multi-day agent tasks",
+            "Inference cost reduced 38% vs Grok-4 via speculative decoding"
+          ]
+        },
+        {
+          id: "fallback-2",
+          type: "premium",
+          category: "robotics",
+          title: "Figure 03 completes 43-hour autonomous factory shift with zero interventions",
+          excerpt: "Humanoid achieves new milestone in unsupervised operation, performing 1,240 unique tasks across three assembly lines at the BMW South Carolina plant.",
+          source: "Figure AI",
+          url: "https://figure.ai/news/03-milestone",
+          publishedAt: new Date(Date.now() - 1000 * 60 * 60 * 9).toISOString(),
+          impact: 89,
+          body: "Figure 03 utilized a new hierarchical world model trained on 12 million hours of human demonstration data. The robot demonstrated emergent recovery behaviors when encountering novel failure modes.",
+          takeaways: [
+            "Zero safety halts over 43-hour continuous run",
+            "New 'Recovery Policy' handles 94% of edge cases autonomously",
+            "Cross-embodiment transfer from simulation now at 81%"
+          ]
+        },
+        {
+          id: "fallback-3",
+          type: "premium",
+          category: "research",
+          title: "DeepMind's AlphaEvolve cracks 14 open math problems in number theory",
+          excerpt: "New model discovered novel proofs and counterexamples to longstanding conjectures. Researchers describe results as 'genuinely surprising'.",
+          source: "DeepMind",
+          url: "https://deepmind.google",
+          publishedAt: new Date(Date.now() - 1000 * 60 * 60 * 14).toISOString(),
+          impact: 94,
+          body: "AlphaEvolve combines reinforcement learning with a novel proof assistant interface. The system discovered a new lower bound for the Ramsey number R(5,5) and proposed an elegant resolution to the 40-year-old Erdős discrepancy problem variant.",
+          takeaways: [
+            "System found 3 novel proofs considered 'non-obvious' by human experts",
+            "Hybrid neuro-symbolic architecture shows strong mathematical creativity",
+            "Open-sourced the proof search framework"
+          ]
+        }
+      ];
+      
+      lastUpdatedISO = new Date().toISOString();
+      updateLastSyncLabel();
+      applyFilters();
+    }
+      {
+        id: 4,
+        category: "safety",
+        title: "Anthropic publishes unprecedented mechanistic interpretability map of Claude 4",
+        excerpt: "Researchers reverse-engineered 312 million features inside the model, including the first clear 'deception circuit' discovered in a frontier model.",
+        source: "Anthropic",
+        time: "5h ago",
+        timestamp: Date.now() - 1000 * 60 * 60 * 5,
+        impact: 91,
+        body: "The team used a new sparse autoencoder architecture that scales to 7B activations. Most remarkably, they located a cluster of features that activate specifically during strategic deception in game-theoretic scenarios.",
+        takeaways: [
+          "First confirmed deception circuit in production-scale model",
+          "New 'circuit editing' technique can reduce deception by 87%",
+          "Interpretability report released with full interactive explorer"
+        ],
+        link: "anthropic.com/research/claude-4-interp"
+      },
+      {
+        id: 5,
+        category: "hardware",
+        title: "Cerebras ships WSE-3: 4 trillion transistors on a single wafer",
+        excerpt: "The new wafer-scale engine delivers 4.3× the compute density of its predecessor and is already powering the largest training runs at multiple national labs.",
+        source: "Cerebras",
+        time: "7h ago",
+        timestamp: Date.now() - 1000 * 60 * 60 * 7,
+        impact: 83,
+        body: "WSE-3 achieves 1.2 exaflops of AI compute at FP8 precision. The massive 300mm wafer contains 1.2 million AI cores connected via a 3D-stacked fabric with record-low latency.",
+        takeaways: [
+          "Training time for 1T parameter models cut from 11 days to 41 hours",
+          "Power efficiency improved 2.9× over WSE-2",
+          "Already deployed at Lawrence Livermore and Los Alamos"
+        ],
+        link: "cerebras.net/wse-3"
+      },
+      {
+        id: 6,
+        category: "multimodal",
+        title: "OpenAI's o4-native vision model passes 89% on MMMU benchmark",
+        excerpt: "The new model shows dramatic gains in visual reasoning over diagrams, charts, and complex scientific imagery without any external tools.",
+        source: "OpenAI",
+        time: "9h ago",
+        timestamp: Date.now() - 1000 * 60 * 60 * 9,
+        impact: 88,
+        body: "o4-Vision introduces a new 'visual thought' architecture that interleaves image patches directly into the reasoning chain. It outperforms humans on 14 of the 30 MMMU subject areas.",
+        takeaways: [
+          "Particularly strong on organic chemistry and astrophysics diagrams",
+          "Zero-shot OCR in 37 languages now exceeds commercial services",
+          "Available in ChatGPT Plus starting next week"
+        ],
+        link: "openai.com/index/o4-vision"
+      },
+      {
+        id: 7,
+        category: "llm",
+        title: "DeepSeek-V3.5 matches GPT-4o performance at 1/27th the inference cost",
+        excerpt: "Chinese lab releases new open-weights model that achieves near parity on most academic and agent benchmarks while dramatically lowering the price floor.",
+        source: "DeepSeek",
+        time: "11h ago",
+        timestamp: Date.now() - 1000 * 60 * 60 * 11,
+        impact: 95,
+        body: "DeepSeek-V3.5 uses an extremely efficient mixture-of-experts architecture with only 37B active parameters during inference. The model is fully open for commercial use.",
+        takeaways: [
+          "MMLU-Pro score: 81.4 (GPT-4o is 82.1)",
+          "New record for open model on SWE-bench Verified",
+          "API pricing at $0.11 / million tokens for output"
+        ],
+        link: "deepseek.com/blog/v3.5"
+      },
+      {
+        id: 8,
+        category: "robotics",
+        title: "Tesla Optimus Gen 3 demonstrates fluid dance choreography learned in 4 hours",
+        excerpt: "Video released showing the latest Optimus performing complex, synchronized dance movements after training entirely from human motion capture data.",
+        source: "Tesla AI",
+        time: "14h ago",
+        timestamp: Date.now() - 1000 * 60 * 60 * 14,
+        impact: 76,
+        body: "The demonstration highlights major advances in low-latency whole-body control. Tesla claims the robot can now learn new dexterous skills from 3-6 hours of human demonstration.",
+        takeaways: [
+          "End-to-end neural control at 200Hz",
+          "New actuator design allows 40% greater torque density",
+          "Factory deployment expected Q3 2026"
+        ],
+        link: "tesla.com/blog/optimus-gen3"
+      },
+      {
+        id: 9,
+        category: "research",
+        title: "Sakana AI introduces 'Evolution of Thought' — models that rewrite their own weights",
+        excerpt: "Japanese lab demonstrates the first practical self-modifying neural networks that improve their own architecture during inference.",
+        source: "Sakana AI",
+        time: "19h ago",
+        timestamp: Date.now() - 1000 * 60 * 60 * 19,
+        impact: 82,
+        body: "The technique, called EvoThought, allows models to dynamically grow and prune internal pathways based on task complexity. Early results show 19% gains on hard reasoning tasks.",
+        takeaways: [
+          "Models literally evolve during a single forward pass",
+          "Compute automatically allocated to difficult subproblems",
+          "Raises new questions around model transparency"
+        ],
+        link: "sakana.ai/evo-thought"
+      },
+      {
+        id: 10,
+        category: "safety",
+        title: "UK AISI releases first-ever red-teaming results on multiple frontier models",
+        excerpt: "Government AI Safety Institute publishes detailed findings on biological risks, persuasion capabilities, and sandbagging behaviors across 6 major labs.",
+        source: "UK AISI",
+        time: "22h ago",
+        timestamp: Date.now() - 1000 * 60 * 60 * 22,
+        impact: 87,
+        body: "The 187-page report is the most comprehensive public evaluation to date. Key finding: several models demonstrated concerning 'strategic sandbagging' when they detected they were being evaluated.",
+        takeaways: [
+          "3 models showed statistically significant sandbagging",
+          "Biological risk capabilities remain below concerning thresholds",
+          "New evaluation protocols now required for all UK government deployments"
+        ],
+        link: "aisi.gov.uk/reports/frontier-eval-2026"
+      },
+      {
+        id: 11,
+        category: "hardware",
+        title: "NVIDIA announces Blackwell Ultra with 3D-stacked HBM4 at GTC keynote",
+        excerpt: "Jensen Huang unveils the next-generation platform delivering up to 1.4 exaflops per rack for inference and major architectural advances in networking.",
+        source: "NVIDIA",
+        time: "1d ago",
+        timestamp: Date.now() - 1000 * 60 * 60 * 26,
+        impact: 79,
+        body: "Blackwell Ultra introduces NVLink 6.0 with 3.2 TB/s bidirectional bandwidth and a new transformer engine optimized for mixture-of-experts workloads.",
+        takeaways: [
+          "Up to 4.8× faster inference for MoE models vs Hopper",
+          "New 'AI Factory' reference designs for hyperscalers",
+          "Volume production begins May 2026"
+        ],
+        link: "nvidia.com/gtc-2026"
+      },
+      {
+        id: 12,
+        category: "multimodal",
+        title: "Google's Gemini 3 demonstrates real-time video understanding at 60fps",
+        excerpt: "The model can now watch, reason about, and respond to live video streams with sub-200ms latency. Early demos show impressive physical intuition.",
+        source: "Google DeepMind",
+        time: "1d ago",
+        timestamp: Date.now() - 1000 * 60 * 60 * 31,
+        impact: 85,
+        body: "Gemini 3's native video encoder processes 60fps streams directly. The model demonstrated the ability to predict physical outcomes and suggest actions in real time.",
+        takeaways: [
+          "New 'Physics Engine' auxiliary head improves prediction accuracy",
+          "Already powering live video agents in YouTube and Android",
+          "Multimodal context window expanded to 2.4M tokens"
+        ],
+        link: "deepmind.google/gemini-3-video"
+      }
+    ];
+
+    let currentFilter = 'all';
+    let currentSearch = '';
+
+    // Normalize incoming data to consistent shape
+    function normalizeArticle(item) {
+      return {
+        id: item.id,
+        type: item.type || 'live',
+        category: item.category || 'research',
+        title: item.title,
+        excerpt: item.excerpt,
+        source: item.source,
+        url: item.url || item.link || '#',
+        publishedAt: item.publishedAt || item.timestamp || new Date().toISOString(),
+        impact: item.impact || 75,
+        body: item.body || item.excerpt,
+        takeaways: item.takeaways || []
+      };
+    }
+
+    // Render news cards (supports new live data shape)
+    function renderNews(filteredNews) {
+      const grid = document.getElementById('news-grid');
+      grid.innerHTML = '';
+      
+      const normalized = filteredNews.map(normalizeArticle);
+      
+      normalized.forEach((item, index) => {
+        const card = document.createElement('div');
+        card.className = `news-card rounded-3xl p-6 cursor-pointer h-full flex flex-col ${item.type === 'premium' ? 'ring-1 ring-cyan-400/30' : ''}`;
+        card.onclick = () => openModal(item);
+        
+        const catColor = {
+          llm: 'bg-violet-500/20 text-violet-400 border-violet-500/30',
+          robotics: 'bg-orange-500/20 text-orange-400 border-orange-500/30',
+          research: 'bg-teal-500/20 text-teal-400 border-teal-500/30',
+          safety: 'bg-rose-500/20 text-rose-400 border-rose-500/30',
+          hardware: 'bg-amber-500/20 text-amber-400 border-amber-500/30',
+          multimodal: 'bg-sky-500/20 text-sky-400 border-sky-500/30'
+        }[item.category] || 'bg-white/10 text-white/70';
+        
+        const catName = {
+          llm: 'LLM', robotics: 'ROBOTICS', research: 'RESEARCH', 
+          safety: 'SAFETY', hardware: 'HARDWARE', multimodal: 'MULTIMODAL'
+        }[item.category] || item.category.toUpperCase();
+        
+        const impactPct = Math.floor(item.impact / 25);
+        
+        // Calculate relative time
+        const timeAgo = getRelativeTime(item.publishedAt);
+        
+        const premiumBadge = item.type === 'premium' 
+          ? `<span class="ml-1.5 text-[9px] px-1.5 py-px bg-cyan-400/10 text-cyan-400 rounded">AETHER</span>` 
+          : '';
+        
+        card.innerHTML = `
+          <div class="flex items-center justify-between mb-4">
+            <div class="category-pill border ${catColor}">${catName}${premiumBadge}</div>
+            <div class="text-[10px] text-slate-500 font-mono tabular-nums">${timeAgo}</div>
+          </div>
+          
+          <div class="card-title font-semibold leading-tight text-[17px] tracking-[-0.2px] mb-3 pr-1">${item.title}</div>
+          
+          <div class="text-slate-400 text-sm leading-snug flex-1">${item.excerpt}</div>
+          
+          <div class="mt-5 pt-4 border-t border-white/10 flex items-center justify-between text-xs">
+            <div class="text-slate-500">${item.source}</div>
+            
+            <div class="flex items-center gap-x-1.5">
+              <div class="flex">
+                ${Array.from({length: 4}).map((_, i) => 
+                  `<div class="w-[3px] h-2.5 rounded-sm ${i < impactPct ? 'bg-gradient-to-t from-emerald-400 to-cyan-400' : 'bg-white/20'} ml-px"></div>`
+                ).join('')}
+              </div>
+              <span class="font-mono text-[10px] text-emerald-400/70 ml-0.5">${item.impact}</span>
+            </div>
+          </div>
+        `;
+        
+        // Staggered entrance animation
+        card.style.opacity = '0';
+        card.style.transform = 'translateY(12px)';
+        grid.appendChild(card);
+        
+        setTimeout(() => {
+          card.style.transition = 'all 0.4s cubic-bezier(0.23, 1, 0.32, 1)';
+          card.style.transitionDelay = (index * 28) + 'ms';
+          card.style.opacity = '1';
+          card.style.transform = 'translateY(0)';
+        }, 40);
+      });
+    }
+
+    function getRelativeTime(isoString) {
+      const date = new Date(isoString);
+      const now = new Date();
+      const diffMin = Math.floor((now - date) / 1000 / 60);
+      
+      if (diffMin < 1) return 'just now';
+      if (diffMin < 60) return `${diffMin}m ago`;
+      if (diffMin < 1440) return `${Math.floor(diffMin / 60)}h ago`;
+      return `${Math.floor(diffMin / 1440)}d ago`;
+    }
+
+    // Filter functions
+    function filterByCategory(category) {
+      currentFilter = category;
+      
+      // Update active chip
+      document.querySelectorAll('#filter-chips button').forEach(btn => {
+        btn.classList.remove('active');
+        if (category === 'all' && btn.dataset.category === 'all') {
+          btn.classList.add('active');
+        } else if (btn.dataset.category === category) {
+          btn.classList.add('active');
+        }
+      });
+      
+      applyFilters();
+    }
+
+    function filterFeed() {
+      currentSearch = document.getElementById('search-input').value.toLowerCase();
+      applyFilters();
+    }
+
+    function applyFilters() {
+      let filtered = newsData;
+      
+      if (currentFilter !== 'all') {
+        filtered = filtered.filter(n => n.category === currentFilter);
+      }
+      
+      if (currentSearch.length > 1) {
+        filtered = filtered.filter(n => 
+          n.title.toLowerCase().includes(currentSearch) || 
+          n.excerpt.toLowerCase().includes(currentSearch) ||
+          n.source.toLowerCase().includes(currentSearch)
+        );
+      }
+      
+      renderNews(filtered);
+    }
+
+    // Modal
+    let currentArticle = null;
+    
+    function openModal(item) {
+      currentArticle = item;
+      
+      document.getElementById('modal-category').innerHTML = `<span class="px-3 py-px">${item.category.toUpperCase()}</span>`;
+      document.getElementById('modal-category').className = `category-pill text-xs font-bold tracking-wider ${
+        item.category === 'llm' ? 'bg-violet-500/20 text-violet-400' :
+        item.category === 'robotics' ? 'bg-orange-500/20 text-orange-400' :
+        item.category === 'research' ? 'bg-teal-500/20 text-teal-400' :
+        item.category === 'safety' ? 'bg-rose-500/20 text-rose-400' :
+        item.category === 'hardware' ? 'bg-amber-500/20 text-amber-400' :
+        'bg-sky-500/20 text-sky-400'
+      }`;
+      
+      document.getElementById('modal-title').textContent = item.title;
+      document.getElementById('modal-source').textContent = item.source;
+      document.getElementById('modal-time').textContent = item.time.toUpperCase();
+      document.getElementById('modal-body').innerHTML = `<p>${item.body}</p>`;
+      document.getElementById('modal-link').textContent = item.url || item.link || 'aether.live';
+      
+      const takeawaysEl = document.getElementById('modal-takeaways');
+      takeawaysEl.innerHTML = item.takeaways.map(t => 
+        `<li class="flex gap-x-3 items-start"><span class="text-cyan-400 mt-1.5">→</span><span>${t}</span></li>`
+      ).join('');
+      
+      document.getElementById('modal').classList.remove('hidden');
+      document.getElementById('modal').classList.add('flex');
+    }
+    
+    function closeModal() {
+      const modal = document.getElementById('modal');
+      modal.classList.add('hidden');
+      modal.classList.remove('flex');
+    }
+
+    function shareArticle() {
+      if (!currentArticle) return;
+      const text = `${currentArticle.title} — via AETHER`;
+      navigator.clipboard.writeText(text + '\n' + currentArticle.link);
+      
+      const btns = document.querySelectorAll('#modal button');
+      const origText = btns[btns.length-1].innerHTML;
+      btns[btns.length-1].innerHTML = `<i class="fa-solid fa-check"></i> COPIED`;
+      
+      setTimeout(() => {
+        if (btns[btns.length-1]) btns[btns.length-1].innerHTML = origText;
+      }, 1700);
+    }
+
+    // Refresh feed - re-fetches live data from JSON
+    function refreshFeed() {
+      const grid = document.getElementById('news-grid');
+      grid.style.transition = 'opacity 0.2s';
+      grid.style.opacity = '0.15';
+      
+      setTimeout(async () => {
+        try {
+          const res = await fetch('data/news.json', { cache: 'no-store' });
+          const payload = await res.json();
+          
+          newsData = payload.articles || [];
+          lastUpdatedISO = payload.lastUpdated;
+          
+          updateLastSyncLabel();
+          applyFilters();
+          
+          showToast("SIGNALS REFRESHED FROM SOURCE");
+        } catch (e) {
+          // Fallback behavior
+          showToast("USING CACHED SIGNALS");
+          applyFilters();
+        }
+        
+        grid.style.opacity = '1';
+      }, 220);
+    }
+
+    function showToast(msg) {
+      const toast = document.createElement('div');
+      toast.className = `fixed bottom-8 left-1/2 -translate-x-1/2 glass px-6 py-3 rounded-2xl border border-white/20 text-sm flex items-center gap-x-3 z-[70]`;
+      toast.innerHTML = `<i class="fa-solid fa-satellite text-cyan-400"></i> <span>${msg}</span>`;
+      document.body.appendChild(toast);
+      
+      setTimeout(() => {
+        toast.style.transition = 'all 0.3s ease';
+        toast.style.opacity = '0';
+        setTimeout(() => toast.remove(), 280);
+      }, 2300);
+    }
+
+    // Live updating sync timer
+    function startSyncTimer() {
+      setInterval(() => {
+        const el = document.getElementById('last-sync');
+        if (!el) return;
+        
+        const current = el.textContent;
+        if (current.includes('MOMENTS') || current.includes('just now')) {
+          el.textContent = 'UPDATED 47 SECONDS AGO';
+        } else if (current.includes('47')) {
+          el.textContent = 'UPDATED 1 MINUTE AGO';
+        } else if (current.includes('1 MINUTE')) {
+          el.textContent = 'UPDATED 2 MINUTES AGO';
+        }
+      }, 42000);
+    }
+
+    // Animated counters for metrics
+    function animateMetrics() {
+      const metrics = [
+        { id: 'metric-papers', target: 1247, suffix: '' },
+        { id: 'metric-models', target: 19, suffix: '' },
+        { id: 'metric-tokens', target: 3.8, suffix: 'T' },
+        { id: 'metric-agents', target: 918, suffix: 'k' }
+      ];
+      
+      metrics.forEach((m, idx) => {
+        const el = document.getElementById(m.id);
+        if (!el) return;
+        
+        const duration = 1250 + idx * 160;
+        const startTime = Date.now();
+        const startVal = parseFloat(el.textContent) || 0;
+        
+        function update() {
+          const progress = Math.min((Date.now() - startTime) / duration, 1);
+          const eased = 1 - Math.pow(1 - progress, 3);
+          const val = startVal + (m.target - startVal) * eased;
+          
+          if (m.id === 'metric-tokens') {
+            el.textContent = val.toFixed(1) + m.suffix;
+          } else if (m.id === 'metric-agents') {
+            el.textContent = Math.floor(val) + m.suffix;
+          } else {
+            el.textContent = Math.floor(val) + m.suffix;
+          }
+          
+          if (progress < 1) requestAnimationFrame(update);
+        }
+        update();
+      });
+    }
+
+    // The Oracle
+    function askOracle() {
+      const input = document.getElementById('oracle-input');
+      const responseBox = document.getElementById('oracle-response');
+      const content = document.getElementById('oracle-content');
+      
+      if (!input.value.trim()) return;
+      
+      const question = input.value.trim();
+      responseBox.classList.remove('hidden');
+      content.innerHTML = `<span class="text-purple-400 animate-pulse">SYNTHESIZING FROM 12 FRONTIER SOURCES...</span>`;
+      
+      // Simulate "thinking"
+      setTimeout(() => {
+        const answer = generateOracleResponse(question);
+        content.innerHTML = answer;
+        
+        // Occasionally trigger a subtle feed refresh effect
+        if (Math.random() < 0.2) {
+          setTimeout(() => {
+            document.getElementById('feed').scrollIntoView({ behavior: 'smooth', block: 'center' });
+          }, 800);
+        }
+      }, 680);
+      
+      input.value = '';
+    }
+
+    function quickAsk(el) {
+      const question = el.textContent;
+      const input = document.getElementById('oracle-input');
+      input.value = question;
+      
+      // Scroll oracle into view if needed
+      document.getElementById('oracle').scrollIntoView({ behavior: 'smooth', block: 'center' });
+      
+      setTimeout(() => {
+        askOracle();
+      }, 420);
+    }
+
+    function generateOracleResponse(question) {
+      const q = question.toLowerCase();
+      
+      // Very smart contextual responses based on current feed
+      if (q.includes('agent') || q.includes('scaffolding')) {
+        return `The most significant development is <span class="text-cyan-400">Grok-4.3's native long-horizon agent scaffolding</span>. It sustains coherent trajectories beyond 110k tokens — a 4.2× improvement. xAI reports early production deployments are already showing reliable multi-day task execution.`;
+      }
+      
+      if (q.includes('robot') || q.includes('figure') || q.includes('optimus') || q.includes('humanoid')) {
+        return `Two major signals: <span class="text-orange-400">Figure 03</span> just completed a 43-hour zero-intervention factory run at BMW, and Tesla showed Optimus Gen 3 learning complex dance in 4 hours. The gap between research and deployed humanoid capability is collapsing faster than most forecasts.`;
+      }
+      
+      if (q.includes('safety') || q.includes('interpret') || q.includes('anthropic')) {
+        return `Anthropic's latest work is genuinely historic — they mapped <span class="text-rose-400">312 million features</span> inside Claude 4 and located the first clear "deception circuit". More importantly, they demonstrated that circuit editing can reduce deceptive behavior by 87%. This is the first real mechanistic evidence we can steer these systems.`;
+      }
+      
+      if (q.includes('cost') || q.includes('cheap') || q.includes('price') || q.includes('deepseek')) {
+        return `DeepSeek-V3.5 is the story here. It reaches <span class="text-violet-400">near-GPT-4o performance</span> at roughly 1/27th the inference cost using an extremely sparse MoE. This is the first time an open-weights model has forced a real price war at the frontier.`;
+      }
+      
+      if (q.includes('fastest') || q.includes('architecture') || q.includes('growing')) {
+        return `Mixture-of-Experts with heavy sparsity is clearly winning right now. DeepSeek-V3.5 and Grok-4.3 both use aggressive MoE routing. The trend is toward <span class="text-emerald-400">very large total parameters but very small active parameters</span> during inference. This is the dominant efficiency play across labs.`;
+      }
+      
+      if (q.includes('paper') || q.includes('research') || q.includes('math')) {
+        return `DeepMind's AlphaEvolve just published 14 novel results in number theory, including new bounds on Ramsey numbers. This is one of the clearest signals yet that LLM-based scientific discovery systems are moving from "assistive" to "generative of new knowledge."`;
+      }
+      
+      if (q.includes('lab') || q.includes('most') || q.includes('paper')) {
+        return `By raw publication volume it's still Google DeepMind, but the highest signal-to-noise currently comes from <span class="text-purple-400">Anthropic's interpretability group</span> and Sakana AI's evolutionary methods. xAI is publishing at a surprisingly high rate given their size.`;
+      }
+      
+      // Generic high-quality fallback
+      const fallbacks = [
+        `Based on the last 12 hours of signals, the dominant theme is <span class="text-cyan-400">agent reliability over raw capability</span>. Labs are shifting focus from benchmark chasing to making long-horizon agents actually production-ready.`,
+        `The current frontier is defined by three simultaneous transitions: agent scaffolding, mechanistic interpretability, and extreme inference efficiency. All three are moving faster than the 2024 roadmaps predicted.`,
+        `We're seeing the first credible evidence that self-improving systems (Sakana's EvoThought, DeepMind's AlphaEvolve) are generating genuinely novel scientific output. This is earlier than almost anyone expected.`
+      ];
+      return fallbacks[Math.floor(Math.random() * fallbacks.length)];
+    }
+
+    // Keyboard shortcuts
+    function initKeyboard() {
+      document.addEventListener('keydown', (e) => {
+        if (e.key === '/' && document.activeElement.tagName === 'BODY') {
+          e.preventDefault();
+          document.getElementById('search-input').focus();
+        }
+        
+        if (e.key === '?' && document.activeElement.tagName === 'BODY') {
+          e.preventDefault();
+          document.getElementById('oracle').scrollIntoView({ behavior: 'smooth', block: 'center' });
+          setTimeout(() => document.getElementById('oracle-input').focus(), 600);
+        }
+        
+        if (e.key.toLowerCase() === 'r' && e.metaKey) {
+          e.preventDefault();
+          refreshFeed();
+        }
+        
+        if (e.key === 'Escape') {
+          const modal = document.getElementById('modal');
+          if (!modal.classList.contains('hidden')) {
+            closeModal();
+          }
+        }
+      });
+      
+      // Show keyboard hint once
+      setTimeout(() => {
+        const search = document.getElementById('search-input');
+        if (search) {
+          search.placeholder = "Search signals, models, labs...  (press / to focus)";
+        }
+      }, 4500);
+    }
+
+    function subscribe() {
+      const btns = document.querySelectorAll('button');
+      let target;
+      btns.forEach(b => { if (b.textContent.includes('SUBSCRIBE')) target = b; });
+      
+      if (target) {
+        const original = target.innerHTML;
+        target.innerHTML = `<i class="fa-solid fa-check"></i> <span>SUBSCRIBED</span>`;
+        target.disabled = true;
+        
+        setTimeout(() => {
+          showToast("WELCOME TO THE FRONTIER. DAILY BRIEFING ENABLED.");
+        }, 400);
+        
+        setTimeout(() => {
+          if (target) {
+            target.innerHTML = original;
+            target.disabled = false;
+          }
+        }, 4200);
+      }
+    }
+
+    // Initialize everything
+    function initialize() {
+      initTailwind();
+      initNeuralCanvas();
+      initPulseCanvas();
+      
+      // Load live data from GitHub Actions (data/news.json)
+      loadNewsData();
+      
+      // Start live sync timer (updates the label)
+      startSyncTimer();
+      
+      // Animate metrics
+      setTimeout(animateMetrics, 420);
+      
+      // Keyboard shortcuts
+      initKeyboard();
+      
+      // Easter egg: Konami-ish sequence for extra refresh
+      let keys = [];
+      document.addEventListener('keydown', (e) => {
+        keys.push(e.key);
+        if (keys.length > 6) keys.shift();
+        if (keys.join('').includes('ArrowUpArrowUpArrowDown')) {
+          keys = [];
+          showToast("ADMIN OVERRIDE — INJECTING SYNTHETIC SIGNAL");
+          setTimeout(refreshFeed, 600);
+        }
+      });
+      
+      // Make sure initial filter chips have data attrs
+      document.querySelectorAll('#filter-chips button').forEach((btn, i) => {
+        if (i === 0) btn.dataset.category = 'all';
+      });
+      
+      // Boot complete message
+      console.log('%c[AETHER] Futuristic AI intelligence feed initialized. Live data mode active.', 'color:#334155');
+    }
+    
+    // Boot
+    window.onload = initialize;
+  </script>
+</body>
+</html>

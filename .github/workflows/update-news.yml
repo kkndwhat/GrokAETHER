@@ -1,0 +1,54 @@
+name: AETHER Daily News Update
+
+on:
+  schedule:
+    # Run every 6 hours (00:00, 06:00, 12:00, 18:00 UTC)
+    - cron: '0 */6 * * *'
+  
+  # Allow manual trigger from GitHub UI
+  workflow_dispatch:
+
+jobs:
+  update-news:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+          cache: 'npm'
+
+      - name: Install dependencies
+        run: npm install rss-parser --save
+
+      - name: Run news updater
+        run: node scripts/update-news.js
+
+      - name: Commit and push updated news
+        run: |
+          git config user.name "AETHER Bot"
+          git config user.email "aether@bot.local"
+          
+          git add data/news.json
+          
+          if git diff --staged --quiet; then
+            echo "No changes to commit"
+          else
+            git commit -m "chore: update news feed [$(date -u +'%Y-%m-%d %H:%M UTC')]"
+            git push
+            echo "News feed updated and pushed"
+          fi
+
+      - name: Summary
+        run: |
+          echo "✅ AETHER news update completed"
+          echo "Time: $(date -u)"
+          cat data/news.json | head -20

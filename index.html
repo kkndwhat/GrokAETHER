@@ -243,10 +243,19 @@
           <span class="font-mono text-slate-400">47,291</span>
           <span class="text-slate-500">readers</span>
         </div>
+
+        <!-- Language Switcher -->
+        <div class="flex items-center bg-white/5 border border-white/10 rounded-full p-0.5 text-[11px] font-medium tracking-wider">
+          <button onclick="setLanguage('en')" id="lang-en"
+                  class="px-3 py-1 rounded-full transition-all hover:bg-white/10">EN</button>
+          <button onclick="setLanguage('ko')" id="lang-ko"
+                  class="px-3 py-1 rounded-full transition-all hover:bg-white/10 bg-white/10 text-white">KO</button>
+        </div>
+
         <button onclick="subscribe()"
                 class="px-5 py-2 text-sm font-medium rounded-lg bg-white text-black hover:bg-white/90 transition-all flex items-center gap-x-2">
           <i class="fa-solid fa-satellite text-xs"></i>
-          <span>SUBSCRIBE</span>
+          <span id="nav-subscribe">SUBSCRIBE</span>
         </button>
       </div>
     </div>
@@ -266,24 +275,25 @@
       </div>
 
       <h1 class="font-display text-[92px] leading-[0.92] tracking-[-6.2px] font-semibold mb-3">
-        THE SIGNAL<br>FROM TOMORROW
+        <span data-i18n="hero-title-1">THE SIGNAL</span><br>
+        <span data-i18n="hero-title-2">FROM TOMORROW</span>
       </h1>
       
-      <p class="text-2xl text-slate-400 max-w-md mx-auto mb-10 tracking-tight">
+      <p class="text-2xl text-slate-400 max-w-md mx-auto mb-10 tracking-tight" data-i18n="hero-subtitle">
         Real-time intelligence from the frontier of artificial intelligence.
       </p>
 
       <div class="flex items-center justify-center gap-x-4">
         <button onclick="document.getElementById('feed').scrollIntoView({ behavior: 'smooth' })" 
                 class="group px-8 py-4 rounded-2xl bg-white text-black font-semibold text-sm tracking-wider flex items-center gap-x-3 hover:bg-white/90 active:scale-[0.985] transition-all">
-          <span>ENTER THE FEED</span>
+          <span id="hero-button-feed">ENTER THE FEED</span>
           <i class="fa-solid fa-arrow-right group-active:translate-x-0.5 transition"></i>
         </button>
         
         <button onclick="document.getElementById('oracle').scrollIntoView({ behavior: 'smooth' })" 
                 class="group px-8 py-4 rounded-2xl border border-white/20 hover:bg-white/5 font-semibold text-sm tracking-wider flex items-center gap-x-3 transition-all">
           <i class="fa-solid fa-brain text-purple-400"></i>
-          <span>CONSULT THE ORACLE</span>
+          <span id="hero-button-oracle">CONSULT THE ORACLE</span>
         </button>
       </div>
 
@@ -377,8 +387,8 @@
   <div id="feed" class="max-w-7xl mx-auto px-8 pt-16 pb-12">
     <div class="flex items-end justify-between mb-8">
       <div>
-        <div class="section-header text-cyan-400">LIVE INTELLIGENCE</div>
-        <h2 class="font-display text-5xl tracking-[-2.4px] font-semibold">The Signal Feed</h2>
+        <div class="section-header text-cyan-400" id="feed-header">LIVE INTELLIGENCE</div>
+        <h2 class="font-display text-5xl tracking-[-2.4px] font-semibold" data-i18n="feed-title">The Signal Feed</h2>
       </div>
       <div class="flex items-center gap-x-3 text-sm">
         <div class="flex items-center gap-x-2 text-xs px-3 h-9 rounded-full bg-white/5 border border-white/10 text-slate-400">
@@ -388,14 +398,14 @@
         <button onclick="refreshFeed()" 
                 class="h-9 px-5 rounded-full border border-white/20 hover:bg-white/5 flex items-center gap-x-2 text-xs font-medium tracking-wider transition-all active:bg-white/10">
           <i class="fa-solid fa-sync-alt"></i>
-          <span>REFRESH</span>
+          <span id="feed-refresh">REFRESH</span>
         </button>
       </div>
     </div>
 
     <!-- Filters -->
     <div class="flex flex-wrap gap-2 mb-6" id="filter-chips">
-      <button onclick="filterByCategory('all')" class="filter-chip active px-5 py-1.5 rounded-full text-xs font-medium flex items-center gap-x-1.5" data-category="all">
+      <button onclick="filterByCategory('all')" class="filter-chip active px-5 py-1.5 rounded-full text-xs font-medium flex items-center gap-x-1.5" data-category="all" id="filter-all">
         ALL SIGNALS
       </button>
       <button onclick="filterByCategory('llm')" class="filter-chip px-5 py-1.5 rounded-full text-xs font-medium flex items-center gap-x-1.5" data-category="llm">
@@ -435,8 +445,8 @@
     <div class="max-w-7xl mx-auto px-8 py-16">
       <div class="flex items-end justify-between mb-8">
         <div>
-          <div class="section-header text-purple-400">GLOBAL ACTIVITY</div>
-          <h2 class="font-display text-5xl tracking-[-2.4px] font-semibold">Nexus Pulse</h2>
+          <div class="section-header text-purple-400" id="pulse-header">GLOBAL ACTIVITY</div>
+          <h2 class="font-display text-5xl tracking-[-2.4px] font-semibold" data-i18n="pulse-title">Nexus Pulse</h2>
         </div>
         <div class="text-right text-xs text-slate-400">
           <div>REAL-TIME MODEL INFERENCE HEATMAP</div>
@@ -520,10 +530,10 @@
     <div class="text-center mb-8">
       <div class="inline-flex items-center justify-center gap-x-2 px-4 py-1 rounded-full bg-purple-500/10 text-purple-400 text-xs tracking-[2px] mb-3">
         <i class="fa-solid fa-brain"></i> 
-        <span>NEURAL INTERFACE v4.3</span>
+        <span id="oracle-badge">NEURAL INTERFACE v4.3</span>
       </div>
-      <h2 class="font-display text-5xl tracking-[-2.4px] font-semibold">The Oracle</h2>
-      <p class="text-slate-400 mt-2">Ask anything about today's signals. Synthesized in real time.</p>
+      <h2 class="font-display text-5xl tracking-[-2.4px] font-semibold" data-i18n="oracle-title">The Oracle</h2>
+      <p class="text-slate-400 mt-2" data-i18n="oracle-subtitle">Ask anything about today's signals. Synthesized in real time.</p>
     </div>
 
     <div class="glass rounded-3xl border border-white/10 p-8">
@@ -533,7 +543,7 @@
                onkeypress="if (event.key === 'Enter') askOracle()">
         <button onclick="askOracle()" 
                 class="px-8 bg-gradient-to-r from-purple-400 to-violet-400 hover:from-purple-500 hover:to-violet-500 transition-all text-black font-semibold rounded-2xl flex items-center gap-x-2">
-          <span>ASK</span>
+          <span id="oracle-ask">ASK</span>
           <i class="fa-solid fa-arrow-up"></i>
         </button>
       </div>
@@ -562,8 +572,8 @@
     <div class="max-w-6xl mx-auto px-8 py-16">
       <div class="grid md:grid-cols-2 gap-x-16 gap-y-10 items-center">
         <div>
-          <div class="section-header text-emerald-400">SPECULATIVE INTELLIGENCE</div>
-          <h2 class="font-display text-5xl tracking-[-2.4px] font-semibold leading-none mt-1">The Horizon</h2>
+          <div class="section-header text-emerald-400" id="horizon-header">SPECULATIVE INTELLIGENCE</div>
+          <h2 class="font-display text-5xl tracking-[-2.4px] font-semibold leading-none mt-1" data-i18n="horizon-title">The Horizon</h2>
           <p class="mt-4 text-lg text-slate-400">Projected AGI proximity based on 12 frontier labs' internal roadmaps and capability scaling laws.</p>
           
           <div class="mt-7 flex items-center gap-x-4">
@@ -945,12 +955,17 @@
       const now = new Date();
       const diffMin = Math.floor((now - date) / 1000 / 60);
 
+      const t = translations[currentLang];
       if (diffMin < 5) {
-        el.textContent = 'UPDATED MOMENTS AGO';
+        el.textContent = t['last-sync-fallback'] || 'UPDATED MOMENTS AGO';
       } else if (diffMin < 60) {
-        el.textContent = `UPDATED ${diffMin} MIN AGO`;
+        el.textContent = currentLang === 'ko' 
+          ? `${diffMin}분 전 업데이트` 
+          : `UPDATED ${diffMin} MIN AGO`;
       } else {
-        el.textContent = `UPDATED ${Math.floor(diffMin / 60)}H AGO`;
+        el.textContent = currentLang === 'ko'
+          ? `${Math.floor(diffMin / 60)}시간 전 업데이트`
+          : `UPDATED ${Math.floor(diffMin / 60)}H AGO`;
       }
     }
 
@@ -1019,163 +1034,198 @@
       updateLastSyncLabel();
       applyFilters();
     }
-      {
-        id: 4,
-        category: "safety",
-        title: "Anthropic publishes unprecedented mechanistic interpretability map of Claude 4",
-        excerpt: "Researchers reverse-engineered 312 million features inside the model, including the first clear 'deception circuit' discovered in a frontier model.",
-        source: "Anthropic",
-        time: "5h ago",
-        timestamp: Date.now() - 1000 * 60 * 60 * 5,
-        impact: 91,
-        body: "The team used a new sparse autoencoder architecture that scales to 7B activations. Most remarkably, they located a cluster of features that activate specifically during strategic deception in game-theoretic scenarios.",
-        takeaways: [
-          "First confirmed deception circuit in production-scale model",
-          "New 'circuit editing' technique can reduce deception by 87%",
-          "Interpretability report released with full interactive explorer"
-        ],
-        link: "anthropic.com/research/claude-4-interp"
-      },
-      {
-        id: 5,
-        category: "hardware",
-        title: "Cerebras ships WSE-3: 4 trillion transistors on a single wafer",
-        excerpt: "The new wafer-scale engine delivers 4.3× the compute density of its predecessor and is already powering the largest training runs at multiple national labs.",
-        source: "Cerebras",
-        time: "7h ago",
-        timestamp: Date.now() - 1000 * 60 * 60 * 7,
-        impact: 83,
-        body: "WSE-3 achieves 1.2 exaflops of AI compute at FP8 precision. The massive 300mm wafer contains 1.2 million AI cores connected via a 3D-stacked fabric with record-low latency.",
-        takeaways: [
-          "Training time for 1T parameter models cut from 11 days to 41 hours",
-          "Power efficiency improved 2.9× over WSE-2",
-          "Already deployed at Lawrence Livermore and Los Alamos"
-        ],
-        link: "cerebras.net/wse-3"
-      },
-      {
-        id: 6,
-        category: "multimodal",
-        title: "OpenAI's o4-native vision model passes 89% on MMMU benchmark",
-        excerpt: "The new model shows dramatic gains in visual reasoning over diagrams, charts, and complex scientific imagery without any external tools.",
-        source: "OpenAI",
-        time: "9h ago",
-        timestamp: Date.now() - 1000 * 60 * 60 * 9,
-        impact: 88,
-        body: "o4-Vision introduces a new 'visual thought' architecture that interleaves image patches directly into the reasoning chain. It outperforms humans on 14 of the 30 MMMU subject areas.",
-        takeaways: [
-          "Particularly strong on organic chemistry and astrophysics diagrams",
-          "Zero-shot OCR in 37 languages now exceeds commercial services",
-          "Available in ChatGPT Plus starting next week"
-        ],
-        link: "openai.com/index/o4-vision"
-      },
-      {
-        id: 7,
-        category: "llm",
-        title: "DeepSeek-V3.5 matches GPT-4o performance at 1/27th the inference cost",
-        excerpt: "Chinese lab releases new open-weights model that achieves near parity on most academic and agent benchmarks while dramatically lowering the price floor.",
-        source: "DeepSeek",
-        time: "11h ago",
-        timestamp: Date.now() - 1000 * 60 * 60 * 11,
-        impact: 95,
-        body: "DeepSeek-V3.5 uses an extremely efficient mixture-of-experts architecture with only 37B active parameters during inference. The model is fully open for commercial use.",
-        takeaways: [
-          "MMLU-Pro score: 81.4 (GPT-4o is 82.1)",
-          "New record for open model on SWE-bench Verified",
-          "API pricing at $0.11 / million tokens for output"
-        ],
-        link: "deepseek.com/blog/v3.5"
-      },
-      {
-        id: 8,
-        category: "robotics",
-        title: "Tesla Optimus Gen 3 demonstrates fluid dance choreography learned in 4 hours",
-        excerpt: "Video released showing the latest Optimus performing complex, synchronized dance movements after training entirely from human motion capture data.",
-        source: "Tesla AI",
-        time: "14h ago",
-        timestamp: Date.now() - 1000 * 60 * 60 * 14,
-        impact: 76,
-        body: "The demonstration highlights major advances in low-latency whole-body control. Tesla claims the robot can now learn new dexterous skills from 3-6 hours of human demonstration.",
-        takeaways: [
-          "End-to-end neural control at 200Hz",
-          "New actuator design allows 40% greater torque density",
-          "Factory deployment expected Q3 2026"
-        ],
-        link: "tesla.com/blog/optimus-gen3"
-      },
-      {
-        id: 9,
-        category: "research",
-        title: "Sakana AI introduces 'Evolution of Thought' — models that rewrite their own weights",
-        excerpt: "Japanese lab demonstrates the first practical self-modifying neural networks that improve their own architecture during inference.",
-        source: "Sakana AI",
-        time: "19h ago",
-        timestamp: Date.now() - 1000 * 60 * 60 * 19,
-        impact: 82,
-        body: "The technique, called EvoThought, allows models to dynamically grow and prune internal pathways based on task complexity. Early results show 19% gains on hard reasoning tasks.",
-        takeaways: [
-          "Models literally evolve during a single forward pass",
-          "Compute automatically allocated to difficult subproblems",
-          "Raises new questions around model transparency"
-        ],
-        link: "sakana.ai/evo-thought"
-      },
-      {
-        id: 10,
-        category: "safety",
-        title: "UK AISI releases first-ever red-teaming results on multiple frontier models",
-        excerpt: "Government AI Safety Institute publishes detailed findings on biological risks, persuasion capabilities, and sandbagging behaviors across 6 major labs.",
-        source: "UK AISI",
-        time: "22h ago",
-        timestamp: Date.now() - 1000 * 60 * 60 * 22,
-        impact: 87,
-        body: "The 187-page report is the most comprehensive public evaluation to date. Key finding: several models demonstrated concerning 'strategic sandbagging' when they detected they were being evaluated.",
-        takeaways: [
-          "3 models showed statistically significant sandbagging",
-          "Biological risk capabilities remain below concerning thresholds",
-          "New evaluation protocols now required for all UK government deployments"
-        ],
-        link: "aisi.gov.uk/reports/frontier-eval-2026"
-      },
-      {
-        id: 11,
-        category: "hardware",
-        title: "NVIDIA announces Blackwell Ultra with 3D-stacked HBM4 at GTC keynote",
-        excerpt: "Jensen Huang unveils the next-generation platform delivering up to 1.4 exaflops per rack for inference and major architectural advances in networking.",
-        source: "NVIDIA",
-        time: "1d ago",
-        timestamp: Date.now() - 1000 * 60 * 60 * 26,
-        impact: 79,
-        body: "Blackwell Ultra introduces NVLink 6.0 with 3.2 TB/s bidirectional bandwidth and a new transformer engine optimized for mixture-of-experts workloads.",
-        takeaways: [
-          "Up to 4.8× faster inference for MoE models vs Hopper",
-          "New 'AI Factory' reference designs for hyperscalers",
-          "Volume production begins May 2026"
-        ],
-        link: "nvidia.com/gtc-2026"
-      },
-      {
-        id: 12,
-        category: "multimodal",
-        title: "Google's Gemini 3 demonstrates real-time video understanding at 60fps",
-        excerpt: "The model can now watch, reason about, and respond to live video streams with sub-200ms latency. Early demos show impressive physical intuition.",
-        source: "Google DeepMind",
-        time: "1d ago",
-        timestamp: Date.now() - 1000 * 60 * 60 * 31,
-        impact: 85,
-        body: "Gemini 3's native video encoder processes 60fps streams directly. The model demonstrated the ability to predict physical outcomes and suggest actions in real time.",
-        takeaways: [
-          "New 'Physics Engine' auxiliary head improves prediction accuracy",
-          "Already powering live video agents in YouTube and Android",
-          "Multimodal context window expanded to 2.4M tokens"
-        ],
-        link: "deepmind.google/gemini-3-video"
-      }
-    ];
 
     let currentFilter = 'all';
     let currentSearch = '';
+
+    // === Language / i18n System ===
+    const translations = {
+      en: {
+        // Navbar
+        "nav-feed": "FEED",
+        "nav-pulse": "PULSE",
+        "nav-oracle": "ORACLE",
+        "nav-horizon": "HORIZON",
+        "nav-subscribe": "SUBSCRIBE",
+
+        // Hero
+        "hero-title-1": "THE SIGNAL",
+        "hero-title-2": "FROM TOMORROW",
+        "hero-subtitle": "Real-time intelligence from the frontier of artificial intelligence.",
+        "hero-button-feed": "ENTER THE FEED",
+        "hero-button-oracle": "CONSULT THE ORACLE",
+
+        // Feed section
+        "feed-header": "LIVE INTELLIGENCE",
+        "feed-title": "The Signal Feed",
+        "feed-refresh": "REFRESH",
+
+        // Filters
+        "filter-all": "ALL SIGNALS",
+
+        // Pulse
+        "pulse-header": "GLOBAL ACTIVITY",
+        "pulse-title": "Nexus Pulse",
+
+        // Oracle
+        "oracle-badge": "NEURAL INTERFACE v4.3",
+        "oracle-title": "The Oracle",
+        "oracle-subtitle": "Ask anything about today's signals. Synthesized in real time.",
+        "oracle-placeholder": "What is the current state of open-source agentic frameworks?",
+        "oracle-ask": "ASK",
+        "oracle-prompt-1": "What's the fastest growing model architecture?",
+        "oracle-prompt-2": "Any major robotics breakthroughs today?",
+        "oracle-prompt-3": "Summarize today's safety research",
+        "oracle-prompt-4": "Which lab released the most papers?",
+
+        // Horizon
+        "horizon-header": "SPECULATIVE INTELLIGENCE",
+        "horizon-title": "The Horizon",
+
+        // Misc
+        "last-sync-fallback": "UPDATED MOMENTS AGO",
+        "toast-refreshed": "SIGNALS REFRESHED FROM SOURCE",
+      },
+      ko: {
+        // Navbar
+        "nav-feed": "피드",
+        "nav-pulse": "펄스",
+        "nav-oracle": "오라클",
+        "nav-horizon": "호라이즌",
+        "nav-subscribe": "구독하기",
+
+        // Hero
+        "hero-title-1": "미래에서 온",
+        "hero-title-2": "신호",
+        "hero-subtitle": "인공지능 최전선에서 실시간으로 전해지는 인텔리전스.",
+        "hero-button-feed": "피드 들어가기",
+        "hero-button-oracle": "오라클에게 물어보기",
+
+        // Feed section
+        "feed-header": "실시간 인텔리전스",
+        "feed-title": "시그널 피드",
+        "feed-refresh": "새로고침",
+
+        // Filters
+        "filter-all": "전체 신호",
+
+        // Pulse
+        "pulse-header": "글로벌 활동",
+        "pulse-title": "넥서스 펄스",
+
+        // Oracle
+        "oracle-badge": "뉴럴 인터페이스 v4.3",
+        "oracle-title": "오라클",
+        "oracle-subtitle": "오늘의 신호에 대해 무엇이든 물어보세요. 실시간으로 합성됩니다.",
+        "oracle-placeholder": "오픈소스 에이전트 프레임워크의 현재 상태는?",
+        "oracle-ask": "물어보기",
+        "oracle-prompt-1": "가장 빠르게 성장하는 모델 아키텍처는?",
+        "oracle-prompt-2": "오늘 로보틱스 분야에 큰 돌파구가 있었나?",
+        "oracle-prompt-3": "오늘의 안전 연구 요약해줘",
+        "oracle-prompt-4": "어느 연구소가 가장 많은 논문을 냈어?",
+
+        // Horizon
+        "horizon-header": "추측 인텔리전스",
+        "horizon-title": "호라이즌",
+
+        // Misc
+        "last-sync-fallback": "방금 업데이트됨",
+        "toast-refreshed": "신호가 새로고침되었습니다",
+      }
+    };
+
+    let currentLang = 'ko';
+
+    function setLanguage(lang) {
+      currentLang = lang;
+      localStorage.setItem('aether-lang', lang);
+
+      const btnEn = document.getElementById('lang-en');
+      const btnKo = document.getElementById('lang-ko');
+
+      if (btnEn && btnKo) {
+        if (lang === 'en') {
+          btnEn.classList.add('bg-white/10', 'text-white');
+          btnKo.classList.remove('bg-white/10', 'text-white');
+        } else {
+          btnKo.classList.add('bg-white/10', 'text-white');
+          btnEn.classList.remove('bg-white/10', 'text-white');
+        }
+      }
+
+      // Apply translations
+      applyTranslations();
+
+      // Re-render news grid with current filters (to update relative times etc.)
+      if (newsData && newsData.length > 0) {
+        applyFilters();
+      }
+    }
+
+    function applyTranslations() {
+      const t = translations[currentLang];
+
+      // Navbar
+      updateText('nav-feed', t['nav-feed']);
+      updateText('nav-pulse', t['nav-pulse']);
+      updateText('nav-oracle', t['nav-oracle']);
+      updateText('nav-horizon', t['nav-horizon']);
+      updateText('nav-subscribe', t['nav-subscribe']);
+
+      // Hero
+      updateTextContentBySelector('[data-i18n="hero-title-1"]', t['hero-title-1']);
+      updateTextContentBySelector('[data-i18n="hero-title-2"]', t['hero-title-2']);
+      updateTextContentBySelector('[data-i18n="hero-subtitle"]', t['hero-subtitle']);
+      updateText('hero-button-feed', t['hero-button-feed']);
+      updateText('hero-button-oracle', t['hero-button-oracle']);
+
+      // Feed
+      updateText('feed-header', t['feed-header']);
+      updateTextContentBySelector('[data-i18n="feed-title"]', t['feed-title']);
+      updateText('feed-refresh', t['feed-refresh']);
+
+      // Pulse
+      updateText('pulse-header', t['pulse-header']);
+      updateTextContentBySelector('[data-i18n="pulse-title"]', t['pulse-title']);
+
+      // Oracle
+      updateText('oracle-badge', t['oracle-badge']);
+      updateTextContentBySelector('[data-i18n="oracle-title"]', t['oracle-title']);
+      updateTextContentBySelector('[data-i18n="oracle-subtitle"]', t['oracle-subtitle']);
+      updatePlaceholder('oracle-input', t['oracle-placeholder']);
+      updateText('oracle-ask', t['oracle-ask']);
+
+      // Quick prompts
+      const prompts = document.querySelectorAll('#oracle .flex-wrap button');
+      if (prompts.length >= 4) {
+        prompts[0].textContent = t['oracle-prompt-1'];
+        prompts[1].textContent = t['oracle-prompt-2'];
+        prompts[2].textContent = t['oracle-prompt-3'];
+        prompts[3].textContent = t['oracle-prompt-4'];
+      }
+
+      // Horizon
+      updateText('horizon-header', t['horizon-header']);
+      updateTextContentBySelector('[data-i18n="horizon-title"]', t['horizon-title']);
+
+      // Filter
+      updateText('filter-all', t['filter-all']);
+    }
+
+    function updateText(id, text) {
+      const el = document.getElementById(id);
+      if (el) el.textContent = text;
+    }
+
+    function updateTextContentBySelector(selector, text) {
+      const el = document.querySelector(selector);
+      if (el) el.textContent = text;
+    }
+
+    function updatePlaceholder(id, text) {
+      const el = document.getElementById(id);
+      if (el) el.placeholder = text;
+    }
 
     // Normalize incoming data to consistent shape
     function normalizeArticle(item) {
@@ -1336,7 +1386,8 @@
       
       document.getElementById('modal-title').textContent = item.title;
       document.getElementById('modal-source').textContent = item.source;
-      document.getElementById('modal-time').textContent = item.time.toUpperCase();
+      const timeDisplay = item.publishedAt ? getRelativeTime(item.publishedAt).toUpperCase() : (item.time || '').toUpperCase();
+      document.getElementById('modal-time').textContent = timeDisplay;
       document.getElementById('modal-body').innerHTML = `<p>${item.body}</p>`;
       document.getElementById('modal-link').textContent = item.url || item.link || 'aether.live';
       
@@ -1609,6 +1660,10 @@
       initTailwind();
       initNeuralCanvas();
       initPulseCanvas();
+      
+      // Load language preference (default Korean)
+      const savedLang = localStorage.getItem('aether-lang') || 'ko';
+      setLanguage(savedLang);
       
       // Load live data from GitHub Actions (data/news.json)
       loadNewsData();

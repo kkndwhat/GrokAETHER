@@ -1,39 +1,183 @@
 {
-  "lastUpdated": "2026-05-29T08:00:00Z",
-  "source": "AETHER + Public RSS",
+  "lastUpdated": "2026-05-29T06:46:08.915Z",
+  "source": "AETHER + Public RSS (arXiv, Hugging Face, MarkTechPost, Ben's Bites)",
+  "count": 16,
   "articles": [
     {
-      "id": "aether-001",
+      "id": "arxiv-cs.ai-1780027200000-0",
+      "type": "live",
+      "category": "llm",
+      "title": "Behavior-Induced Mirror-Prox Temporal-Difference Learning for Faster Off-Policy Prediction",
+      "excerpt": "28849v1 Announce Type: new Abstract: Gradient temporal-difference methods provide stable off-policy prediction with linear function approximation, but their practical performance is strongly affected by the geometry i...",
+      "source": "arXiv cs.AI",
+      "url": "https://arxiv.org/abs/2605.28849",
+      "publishedAt": "2026-05-29T04:00:00.000Z",
+      "impact": 58
+    },
+    {
+      "id": "arxiv-cs.ai-1780027200000-1",
+      "type": "live",
+      "category": "llm",
+      "title": "Behavior-Aware Auxiliary Corrections for Off-Policy Temporal-Difference Prediction",
+      "excerpt": "28855v1 Announce Type: new Abstract: Temporal-difference learning with function approximation can be unstable under off-policy sampling.  TDC stabilizes off-policy TD through an auxiliary covariance correction, and TD...",
+      "source": "arXiv cs.AI",
+      "url": "https://arxiv.org/abs/2605.28855",
+      "publishedAt": "2026-05-29T04:00:00.000Z",
+      "impact": 58
+    },
+    {
+      "id": "arxiv-cs.ai-1780027200000-2",
+      "type": "live",
+      "category": "llm",
+      "title": "The Cognitive Categorical Transformer: Category-Theoretic Inductive Biases for Language Modeling",
+      "excerpt": "28864v1 Announce Type: new Abstract: The Cognitive Categorical Transformer (CCT) is a 306M-parameter architecture that augments a pretrained GPT-2 Small backbone with cognitively grounded components derived from categ...",
+      "source": "arXiv cs.AI",
+      "url": "https://arxiv.org/abs/2605.28864",
+      "publishedAt": "2026-05-29T04:00:00.000Z",
+      "impact": 58
+    },
+    {
+      "id": "arxiv-cs.ai-1780027200000-3",
+      "type": "live",
+      "category": "robotics",
+      "title": "Ultra-Reduced-Impact-Encased-Logging (URIEL): propose a new method for selective sustainable logging and post-harvest silvicultural treatment in tropical forest using airborne robotics systems",
+      "excerpt": "28883v1 Announce Type: new Abstract: Tropical forests worldwide are under intense deforestation pressure driven by economic and political interests, and scientific evidence suggests this deforestation contributes to c...",
+      "source": "arXiv cs.AI",
+      "url": "https://arxiv.org/abs/2605.28883",
+      "publishedAt": "2026-05-29T04:00:00.000Z",
+      "impact": 58
+    },
+    {
+      "id": "arxiv-cs.ai-1780027200000-4",
+      "type": "live",
+      "category": "safety",
+      "title": "Review Arcade: On the Human Alignment and Gameability of LLM Reviews",
+      "excerpt": "28897v1 Announce Type: new Abstract: LLM-generated reviews for scientific papers are gaining considerable traction and are even being officially piloted by major conferences.  We have to assume that not only reviewers...",
+      "source": "arXiv cs.AI",
+      "url": "https://arxiv.org/abs/2605.28897",
+      "publishedAt": "2026-05-29T04:00:00.000Z",
+      "impact": 58
+    },
+    {
+      "id": "arxiv-cs.ai-1780027200000-5",
+      "type": "live",
+      "category": "llm",
+      "title": "Orthogonal Concept Erasure for Diffusion Models",
+      "excerpt": "28902v1 Announce Type: new Abstract: Concept erasure has emerged as a promising approach to mitigate undesired or unsafe content in diffusion models, yet existing methods still face significant limitations.  While tra...",
+      "source": "arXiv cs.AI",
+      "url": "https://arxiv.org/abs/2605.28902",
+      "publishedAt": "2026-05-29T04:00:00.000Z",
+      "impact": 58
+    },
+    {
+      "id": "marktechpost-1780026571000-0",
+      "type": "live",
+      "category": "research",
+      "title": "How to Design an End-to-End Ansible Automation Lab with Playbooks, Inventories, Roles, Vault, Dynamic Inventory, and Custom Modules",
+      "excerpt": "In this tutorial, we build a complete Ansible lab that runs end-to-end in Google Colab or any Linux environment.  We start by installing ansible-core, setting up a local workspace, creating an Ansible configuration fi...",
+      "source": "MarkTechPost",
+      "url": "https://www.marktechpost.com/2026/05/28/how-to-design-an-end-to-end-ansible-automation-lab-with-playbooks-inventories-roles-vault-dynamic-inventory-and-custom-modules/",
+      "publishedAt": "2026-05-29T03:49:31.000Z",
+      "impact": 65
+    },
+    {
+      "id": "aether-grok43",
       "type": "premium",
       "category": "llm",
       "title": "xAI releases Grok-4.3 with native long-horizon agent scaffolding",
       "excerpt": "New model demonstrates 4.2× improvement on multi-step software engineering benchmarks and sustains coherent agent trajectories beyond 110k tokens.",
       "source": "xAI",
       "url": "https://x.ai/blog/grok-4.3",
-      "publishedAt": "2026-05-29T02:14:00Z",
+      "publishedAt": "2026-05-29T01:46:06.907Z",
       "impact": 96
     },
     {
-      "id": "aether-002",
+      "id": "marktechpost-1780010989000-1",
+      "type": "live",
+      "category": "hardware",
+      "title": "Liquid AI Releases LFM2.5-8B-A1B: An On-Device MoE Model With 8.3B Total and 1.5B Active Parameters",
+      "excerpt": "3B parameters, offering 128K context, reasoning, and tool calling on consumer hardware.  The post Liquid AI Releases LFM2",
+      "source": "MarkTechPost",
+      "url": "https://www.marktechpost.com/2026/05/28/liquid-ai-releases-lfm2-5-8b-a1b-an-on-device-moe-model-with-8-3b-total-and-1-5b-active-parameters/",
+      "publishedAt": "2026-05-28T23:29:49.000Z",
+      "impact": 65
+    },
+    {
+      "id": "marktechpost-1780006336000-2",
+      "type": "live",
+      "category": "llm",
+      "title": "Anthropic Ships Claude Opus 4.8 Alongside Dynamic Workflows and Cheaper Fast Mode, With Workflows Capped at 1,000 Subagents",
+      "excerpt": "Anthropic's Claude Opus 4. 8 brings dynamic workflows and cheaper fast mode to Claude Code, now in research preview The post Anthropic Ships Claude Opus 4",
+      "source": "MarkTechPost",
+      "url": "https://www.marktechpost.com/2026/05/28/anthropic-ships-claude-opus-4-8-alongside-dynamic-workflows-and-cheaper-fast-mode-with-workflows-capped-at-1000-subagents/",
+      "publishedAt": "2026-05-28T22:12:16.000Z",
+      "impact": 77
+    },
+    {
+      "id": "aether-figure03",
       "type": "premium",
       "category": "robotics",
       "title": "Figure 03 completes 43-hour autonomous factory shift with zero interventions",
       "excerpt": "Humanoid achieves new milestone in unsupervised operation, performing 1,240 unique tasks across three assembly lines at the BMW South Carolina plant.",
       "source": "Figure AI",
       "url": "https://figure.ai/news/03-milestone",
-      "publishedAt": "2026-05-28T22:40:00Z",
+      "publishedAt": "2026-05-28T21:46:06.908Z",
       "impact": 89
     },
     {
-      "id": "arxiv-2605.29192",
+      "id": "aether-interp",
+      "type": "premium",
+      "category": "safety",
+      "title": "Anthropic publishes unprecedented mechanistic interpretability map of Claude 4",
+      "excerpt": "Researchers reverse-engineered 312 million features inside the model, including the first clear \"deception circuit\" discovered in a frontier model.",
+      "source": "Anthropic",
+      "url": "https://anthropic.com/research/claude-4-interp",
+      "publishedAt": "2026-05-28T16:46:06.908Z",
+      "impact": 91
+    },
+    {
+      "id": "marktechpost-1779959300000-3",
       "type": "live",
       "category": "research",
-      "title": "ReasonOps: Operator Segmentation for LLM Reasoning Traces",
-      "excerpt": "Unsupervised method discovers 7 recurring reasoning operators that appear across every major model family. Operator sequences are highly model-identifying.",
-      "source": "arXiv cs.AI",
-      "url": "https://arxiv.org/abs/2605.29192",
-      "publishedAt": "2026-05-29T04:00:00Z",
-      "impact": 82
+      "title": "Perplexity AI Open-Sources Unigram Tokenizer That Achieves 5x Lower p50 Latency Than Hugging Face tokenizers Crate",
+      "excerpt": "Perplexity AI open-sources a rewritten Unigram tokenizer that reduces reranker latency and cuts production CPU utilization by 5-6x.  The post Perplexity AI Open-Sources Unigram Tokenizer That Achieves 5x Lower p50 Lat...",
+      "source": "MarkTechPost",
+      "url": "https://www.marktechpost.com/2026/05/28/perplexity-ai-open-sources-unigram-tokenizer-that-achieves-5x-lower-p50-latency-than-hugging-face-tokenizers-crate/",
+      "publishedAt": "2026-05-28T09:08:20.000Z",
+      "impact": 65
+    },
+    {
+      "id": "hugging-face-1779902429000-0",
+      "type": "live",
+      "category": "llm",
+      "title": "ITBench-AA: Frontier Models Score Below 50% on the First Benchmark for Agentic Enterprise IT Tasks — by Artificial Analysis and IBM",
+      "excerpt": "New development from the frontier.",
+      "source": "Hugging Face",
+      "url": "https://huggingface.co/blog/ibm-research/itbench-aa",
+      "publishedAt": "2026-05-27T17:20:29.000Z",
+      "impact": 97
+    },
+    {
+      "id": "hugging-face-1779840000000-1",
+      "type": "live",
+      "category": "research",
+      "title": "Reachy Mini goes fully local",
+      "excerpt": "New development from the frontier.",
+      "source": "Hugging Face",
+      "url": "https://huggingface.co/blog/local-reachy-mini-conversation",
+      "publishedAt": "2026-05-27T00:00:00.000Z",
+      "impact": 75
+    },
+    {
+      "id": "hugging-face-1779840000000-2",
+      "type": "live",
+      "category": "research",
+      "title": "Shipping a Trillion Parameters With a Hub Bucket: Delta Weight Sync in TRL",
+      "excerpt": "New development from the frontier.",
+      "source": "Hugging Face",
+      "url": "https://huggingface.co/blog/delta-weight-sync",
+      "publishedAt": "2026-05-27T00:00:00.000Z",
+      "impact": 75
     }
   ]
 }

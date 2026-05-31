@@ -1,30 +1,8 @@
 {
-  "lastUpdated": "2026-05-31T06:01:40.343Z",
+  "lastUpdated": "2026-05-31T13:58:20.936Z",
   "source": "AETHER + Public RSS (arXiv, Hugging Face, MarkTechPost, Ben's Bites)",
   "count": 10,
   "articles": [
-    {
-      "id": "marktechpost-1780193041000-0",
-      "type": "live",
-      "category": "research",
-      "title": "Trajectory Releases a Concurrent Multi-LoRA Training Stack for Continual Learning, Reporting a 2.81× Experiment-Throughput Gain",
-      "excerpt": "Trajectory, working with UC Berkeley Sky Lab and Anyscale, built a concurrent multi-LoRA training stack for continual learning.  It maps each RL experiment to a dedicated LoRA adapter on an always-hot engine, reportin...",
-      "source": "MarkTechPost",
-      "url": "https://www.marktechpost.com/2026/05/30/trajectory-releases-a-concurrent-multi-lora-training-stack-for-continual-learning-reporting-a-2-81x-experiment-throughput-gain/",
-      "publishedAt": "2026-05-31T02:04:01.000Z",
-      "impact": 65
-    },
-    {
-      "id": "marktechpost-1780190884000-1",
-      "type": "live",
-      "category": "research",
-      "title": "Build Skill-Augmented AI Agents with SkillNet for Search, Evaluation, Graph Analysis, and Task Planning",
-      "excerpt": "In this tutorial, we implement a SkillNet use case as a practical framework for discovering, installing, inspecting, evaluating, and organizing reusable AI skills.  The post Build Skill-Augmented AI Agents with SkillN...",
-      "source": "MarkTechPost",
-      "url": "https://www.marktechpost.com/2026/05/30/build-skill-augmented-ai-agents-with-skillnet-for-search-evaluation-graph-analysis-and-task-planning/",
-      "publishedAt": "2026-05-31T01:28:04.000Z",
-      "impact": 77
-    },
     {
       "id": "aether-grok43",
       "type": "premium",
@@ -33,18 +11,18 @@
       "excerpt": "New model demonstrates 4.2× improvement on multi-step software engineering benchmarks and sustains coherent agent trajectories beyond 110k tokens.",
       "source": "xAI",
       "url": "https://x.ai/blog/grok-4.3",
-      "publishedAt": "2026-05-31T01:01:38.674Z",
+      "publishedAt": "2026-05-31T08:58:19.964Z",
       "impact": 96
     },
     {
-      "id": "marktechpost-1780176384000-2",
+      "id": "marktechpost-1780217886000-0",
       "type": "live",
-      "category": "llm",
-      "title": "Best Text-to-Speech TTS Models in 2026: A Benchmark-Based Comparison",
-      "excerpt": "Text-to-speech changed fast in 2026.  This guide ranks the leading commercial and open-weight TTS models, comparing quality, latency, cost, language coverage, and licensing so engineers can match a model to the job",
+      "category": "research",
+      "title": "A Coding Implementation on Loguru for Designing Robust, Structured, Concurrent, and Production-Ready Python Logging Pipelines",
+      "excerpt": "In this tutorial, we implement a practical use case with Loguru, a powerful, flexible, and production-ready logging library for Python.  The post A Coding Implementation on Loguru for Designing Robust, Structured, Con...",
       "source": "MarkTechPost",
-      "url": "https://www.marktechpost.com/2026/05/30/best-text-to-speech-tts-models-in-2026-a-benchmark-based-comparison/",
-      "publishedAt": "2026-05-30T21:26:24.000Z",
+      "url": "https://www.marktechpost.com/2026/05/31/a-coding-implementation-on-loguru-for-designing-robust-structured-concurrent-and-production-ready-python-logging-pipelines/",
+      "publishedAt": "2026-05-31T08:58:06.000Z",
       "impact": 65
     },
     {
@@ -55,8 +33,30 @@
       "excerpt": "Humanoid achieves new milestone in unsupervised operation, performing 1,240 unique tasks across three assembly lines at the BMW South Carolina plant.",
       "source": "Figure AI",
       "url": "https://figure.ai/news/03-milestone",
-      "publishedAt": "2026-05-30T21:01:38.674Z",
+      "publishedAt": "2026-05-31T04:58:19.964Z",
       "impact": 89
+    },
+    {
+      "id": "marktechpost-1780193041000-1",
+      "type": "live",
+      "category": "research",
+      "title": "Trajectory Releases a Concurrent Multi-LoRA Training Stack for Continual Learning, Reporting a 2.81× Experiment-Throughput Gain",
+      "excerpt": "Trajectory, working with UC Berkeley Sky Lab and Anyscale, built a concurrent multi-LoRA training stack for continual learning.  It maps each RL experiment to a dedicated LoRA adapter on an always-hot engine, reportin...",
+      "source": "MarkTechPost",
+      "url": "https://www.marktechpost.com/2026/05/30/trajectory-releases-a-concurrent-multi-lora-training-stack-for-continual-learning-reporting-a-2-81x-experiment-throughput-gain/",
+      "publishedAt": "2026-05-31T02:04:01.000Z",
+      "impact": 65
+    },
+    {
+      "id": "marktechpost-1780190884000-2",
+      "type": "live",
+      "category": "research",
+      "title": "Build Skill-Augmented AI Agents with SkillNet for Search, Evaluation, Graph Analysis, and Task Planning",
+      "excerpt": "In this tutorial, we implement a SkillNet use case as a practical framework for discovering, installing, inspecting, evaluating, and organizing reusable AI skills.  The post Build Skill-Augmented AI Agents with SkillN...",
+      "source": "MarkTechPost",
+      "url": "https://www.marktechpost.com/2026/05/30/build-skill-augmented-ai-agents-with-skillnet-for-search-evaluation-graph-analysis-and-task-planning/",
+      "publishedAt": "2026-05-31T01:28:04.000Z",
+      "impact": 77
     },
     {
       "id": "aether-interp",
@@ -66,18 +66,18 @@
       "excerpt": "Researchers reverse-engineered 312 million features inside the model, including the first clear \"deception circuit\" discovered in a frontier model.",
       "source": "Anthropic",
       "url": "https://anthropic.com/research/claude-4-interp",
-      "publishedAt": "2026-05-30T16:01:38.674Z",
+      "publishedAt": "2026-05-30T23:58:19.964Z",
       "impact": 91
     },
     {
-      "id": "marktechpost-1780133114000-3",
+      "id": "marktechpost-1780176384000-3",
       "type": "live",
-      "category": "robotics",
-      "title": "Genesis AI Releases Nyx, Quadrants, and Genesis World 1.0 Physics Platform for Scalable Robotics Foundation Model Evaluation",
-      "excerpt": "Genesis AI released Genesis World 1. 0 on May 27, 2026 — a four-component simulation platform covering physics, rendering, compilation, and tooling",
+      "category": "llm",
+      "title": "Best Text-to-Speech TTS Models in 2026: A Benchmark-Based Comparison",
+      "excerpt": "Text-to-speech changed fast in 2026.  This guide ranks the leading commercial and open-weight TTS models, comparing quality, latency, cost, language coverage, and licensing so engineers can match a model to the job",
       "source": "MarkTechPost",
-      "url": "https://www.marktechpost.com/2026/05/30/genesis-ai-releases-nyx-quadrants-and-genesis-world-1-0-physics-platform-for-scalable-robotics-foundation-model-evaluation/",
-      "publishedAt": "2026-05-30T09:25:14.000Z",
+      "url": "https://www.marktechpost.com/2026/05/30/best-text-to-speech-tts-models-in-2026-a-benchmark-based-comparison/",
+      "publishedAt": "2026-05-30T21:26:24.000Z",
       "impact": 65
     },
     {

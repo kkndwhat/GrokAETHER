@@ -1,0 +1,12 @@
+{
+  "name": "grok-aether",
+  "version": "1.0.0",
+  "description": "AETHER - SF style daily AI intelligence feed",
+  "private": true,
+  "scripts": {
+    "update-news": "node scripts/update-news.js"
+  },
+  "dependencies": {
+    "rss-parser": "^3.13.0"
+  }
+}

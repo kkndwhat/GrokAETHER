@@ -1,7 +1,7 @@
 {
-  "lastUpdated": "2026-05-31T19:25:22.165Z",
+  "lastUpdated": "2026-06-01T11:47:49.404Z",
   "source": "AETHER + Public RSS (arXiv, Hugging Face, MarkTechPost, Ben's Bites)",
-  "count": 10,
+  "count": 16,
   "articles": [
     {
       "id": "aether-grok43",
@@ -11,8 +11,96 @@
       "excerpt": "New model demonstrates 4.2× improvement on multi-step software engineering benchmarks and sustains coherent agent trajectories beyond 110k tokens.",
       "source": "xAI",
       "url": "https://x.ai/blog/grok-4.3",
-      "publishedAt": "2026-05-31T14:25:21.798Z",
+      "publishedAt": "2026-06-01T06:47:48.077Z",
       "impact": 96
+    },
+    {
+      "id": "hugging-face-1780289095000-0",
+      "type": "live",
+      "category": "llm",
+      "title": "Welcome NVIDIA Cosmos 3: The First Open Omni-model for Physical AI Reasoning and Action",
+      "excerpt": "New development from the frontier.",
+      "source": "Hugging Face",
+      "url": "https://huggingface.co/blog/nvidia/cosmos-3-for-physical-ai",
+      "publishedAt": "2026-06-01T04:44:55.000Z",
+      "impact": 75
+    },
+    {
+      "id": "marktechpost-1780288609000-0",
+      "type": "live",
+      "category": "research",
+      "title": "Parallax: A Parameterized Local Linear Attention That Keeps Softmax and Adds a Learned Covariance Correction Branch",
+      "excerpt": "Parallax replaces LLA's per-query solver with a learned projector, doubling arithmetic intensity and improving perplexity at 0.  The post Parallax: A Parameterized Local Linear Attention That Keeps Softmax and Adds a ...",
+      "source": "MarkTechPost",
+      "url": "https://www.marktechpost.com/2026/05/31/parallax-a-parameterized-local-linear-attention-that-keeps-softmax-and-adds-a-learned-covariance-correction-branch/",
+      "publishedAt": "2026-06-01T04:36:49.000Z",
+      "impact": 65
+    },
+    {
+      "id": "arxiv-cs.ai-1780286400000-0",
+      "type": "live",
+      "category": "multimodal",
+      "title": "PhyDrawGen: Physically Grounded Diagram Generation from Natural Language",
+      "excerpt": "30512v1 Announce Type: new Abstract: Generating physics diagrams from text requires strict adherence to physical laws.  While current generative models produce visually plausible outputs, they systematically hallucina...",
+      "source": "arXiv cs.AI",
+      "url": "https://arxiv.org/abs/2605.30512",
+      "publishedAt": "2026-06-01T04:00:00.000Z",
+      "impact": 58
+    },
+    {
+      "id": "arxiv-cs.ai-1780286400000-1",
+      "type": "live",
+      "category": "safety",
+      "title": "Physically Viable World Models: A Case for Query-Conditioned Embodied AI",
+      "excerpt": "30542v1 Announce Type: new Abstract: World models for embodied AI must be physically viable: constructed to answer intervention queries by representing the physical structure governing action outcomes, rather than mer...",
+      "source": "arXiv cs.AI",
+      "url": "https://arxiv.org/abs/2605.30542",
+      "publishedAt": "2026-06-01T04:00:00.000Z",
+      "impact": 58
+    },
+    {
+      "id": "arxiv-cs.ai-1780286400000-2",
+      "type": "live",
+      "category": "research",
+      "title": "Transforming and Encoding FTS for SAT Solving: What Helps, What Hurts (Extended Version)",
+      "excerpt": "30563v1 Announce Type: new Abstract: Factored tasks are a classical planning representation that extends SAS+ with limited forms of disjunctive preconditions, conditional effects, and angelic nondeterminism.  This all...",
+      "source": "arXiv cs.AI",
+      "url": "https://arxiv.org/abs/2605.30563",
+      "publishedAt": "2026-06-01T04:00:00.000Z",
+      "impact": 58
+    },
+    {
+      "id": "arxiv-cs.ai-1780286400000-3",
+      "type": "live",
+      "category": "research",
+      "title": "Procedural Generation of First Person Shooter Maps using Map-Elites",
+      "excerpt": "30570v1 Announce Type: new Abstract: We investigate the application of MAP-Elites (a well-known quality diversity algorithm) to design levels for First-Person Shooter (FPS) games.  We consider two well-known map repre...",
+      "source": "arXiv cs.AI",
+      "url": "https://arxiv.org/abs/2605.30570",
+      "publishedAt": "2026-06-01T04:00:00.000Z",
+      "impact": 58
+    },
+    {
+      "id": "arxiv-cs.ai-1780286400000-4",
+      "type": "live",
+      "category": "research",
+      "title": "Uncertainty-Aware and Temporally Regulated Expert Advice in Reinforcement Learning for Autonomous Driving",
+      "excerpt": "30576v1 Announce Type: new Abstract: Exploration in reinforcement learning for autonomous driving is inherently unsafe: agents must experience novel behaviors to learn, yet exploration can lead to collisions or off-ro...",
+      "source": "arXiv cs.AI",
+      "url": "https://arxiv.org/abs/2605.30576",
+      "publishedAt": "2026-06-01T04:00:00.000Z",
+      "impact": 58
+    },
+    {
+      "id": "arxiv-cs.ai-1780286400000-5",
+      "type": "live",
+      "category": "llm",
+      "title": "Harness Updating Is Not Harness Benefit: Disentangling Evolution Capabilities in Self-Evolving LLM Agents",
+      "excerpt": "30621v1 Announce Type: new Abstract: LLM agents are increasingly deployed as systems built around editable external harnesses, including prompts, skills, memories and tools, that shape task execution without changing ...",
+      "source": "arXiv cs.AI",
+      "url": "https://arxiv.org/abs/2605.30621",
+      "publishedAt": "2026-06-01T04:00:00.000Z",
+      "impact": 69
     },
     {
       "id": "aether-figure03",
@@ -22,11 +110,33 @@
       "excerpt": "Humanoid achieves new milestone in unsupervised operation, performing 1,240 unique tasks across three assembly lines at the BMW South Carolina plant.",
       "source": "Figure AI",
       "url": "https://figure.ai/news/03-milestone",
-      "publishedAt": "2026-05-31T10:25:21.798Z",
+      "publishedAt": "2026-06-01T02:47:48.077Z",
       "impact": 89
     },
     {
-      "id": "marktechpost-1780217886000-0",
+      "id": "aether-interp",
+      "type": "premium",
+      "category": "safety",
+      "title": "Anthropic publishes unprecedented mechanistic interpretability map of Claude 4",
+      "excerpt": "Researchers reverse-engineered 312 million features inside the model, including the first clear \"deception circuit\" discovered in a frontier model.",
+      "source": "Anthropic",
+      "url": "https://anthropic.com/research/claude-4-interp",
+      "publishedAt": "2026-05-31T21:47:48.077Z",
+      "impact": 91
+    },
+    {
+      "id": "marktechpost-1780258021000-1",
+      "type": "live",
+      "category": "research",
+      "title": "An Implementation of the Microsoft Agent Governance Toolkit for Safe AI Agent Tool Use with Policies, Approvals, Audit Logs, and Risk Controls",
+      "excerpt": "In this tutorial, we build a governed AI-agent workflow using Microsoft’s Agent Governance Toolkit as the reference point.  We create a Colab-ready implementation where agents do not directly execute tools; instead, e...",
+      "source": "MarkTechPost",
+      "url": "https://www.marktechpost.com/2026/05/31/an-implementation-of-the-microsoft-agent-governance-toolkit-for-safe-ai-agent-tool-use-with-policies-approvals-audit-logs-and-risk-controls/",
+      "publishedAt": "2026-05-31T20:07:01.000Z",
+      "impact": 77
+    },
+    {
+      "id": "marktechpost-1780217886000-2",
       "type": "live",
       "category": "research",
       "title": "A Coding Implementation on Loguru for Designing Robust, Structured, Concurrent, and Production-Ready Python Logging Pipelines",
@@ -37,18 +147,7 @@
       "impact": 65
     },
     {
-      "id": "aether-interp",
-      "type": "premium",
-      "category": "safety",
-      "title": "Anthropic publishes unprecedented mechanistic interpretability map of Claude 4",
-      "excerpt": "Researchers reverse-engineered 312 million features inside the model, including the first clear \"deception circuit\" discovered in a frontier model.",
-      "source": "Anthropic",
-      "url": "https://anthropic.com/research/claude-4-interp",
-      "publishedAt": "2026-05-31T05:25:21.798Z",
-      "impact": 91
-    },
-    {
-      "id": "marktechpost-1780193041000-1",
+      "id": "marktechpost-1780193041000-3",
       "type": "live",
       "category": "research",
       "title": "Trajectory Releases a Concurrent Multi-LoRA Training Stack for Continual Learning, Reporting a 2.81× Experiment-Throughput Gain",
@@ -59,29 +158,7 @@
       "impact": 65
     },
     {
-      "id": "marktechpost-1780190884000-2",
-      "type": "live",
-      "category": "research",
-      "title": "Build Skill-Augmented AI Agents with SkillNet for Search, Evaluation, Graph Analysis, and Task Planning",
-      "excerpt": "In this tutorial, we implement a SkillNet use case as a practical framework for discovering, installing, inspecting, evaluating, and organizing reusable AI skills.  The post Build Skill-Augmented AI Agents with SkillN...",
-      "source": "MarkTechPost",
-      "url": "https://www.marktechpost.com/2026/05/30/build-skill-augmented-ai-agents-with-skillnet-for-search-evaluation-graph-analysis-and-task-planning/",
-      "publishedAt": "2026-05-31T01:28:04.000Z",
-      "impact": 77
-    },
-    {
-      "id": "marktechpost-1780176384000-3",
-      "type": "live",
-      "category": "llm",
-      "title": "Best Text-to-Speech TTS Models in 2026: A Benchmark-Based Comparison",
-      "excerpt": "Text-to-speech changed fast in 2026.  This guide ranks the leading commercial and open-weight TTS models, comparing quality, latency, cost, language coverage, and licensing so engineers can match a model to the job",
-      "source": "MarkTechPost",
-      "url": "https://www.marktechpost.com/2026/05/30/best-text-to-speech-tts-models-in-2026-a-benchmark-based-comparison/",
-      "publishedAt": "2026-05-30T21:26:24.000Z",
-      "impact": 65
-    },
-    {
-      "id": "hugging-face-1780012800000-0",
+      "id": "hugging-face-1780012800000-1",
       "type": "live",
       "category": "research",
       "title": "Profiling in PyTorch (Part 1): A Beginner's Guide to torch.profiler",
@@ -92,7 +169,7 @@
       "impact": 75
     },
     {
-      "id": "hugging-face-1779902429000-1",
+      "id": "hugging-face-1779902429000-2",
       "type": "live",
       "category": "llm",
       "title": "ITBench-AA: Frontier Models Score Below 50% on the First Benchmark for Agentic Enterprise IT Tasks — by Artificial Analysis and IBM",
@@ -101,17 +178,6 @@
       "url": "https://huggingface.co/blog/ibm-research/itbench-aa",
       "publishedAt": "2026-05-27T17:20:29.000Z",
       "impact": 97
-    },
-    {
-      "id": "hugging-face-1779840000000-2",
-      "type": "live",
-      "category": "research",
-      "title": "Reachy Mini goes fully local",
-      "excerpt": "New development from the frontier.",
-      "source": "Hugging Face",
-      "url": "https://huggingface.co/blog/local-reachy-mini-conversation",
-      "publishedAt": "2026-05-27T00:00:00.000Z",
-      "impact": 75
     }
   ]
 }

@@ -1,8 +1,41 @@
 {
-  "lastUpdated": "2026-06-02T04:42:05.445Z",
+  "lastUpdated": "2026-06-02T10:46:54.346Z",
   "source": "AETHER + Public RSS (arXiv, Hugging Face, MarkTechPost, Ben's Bites)",
   "count": 16,
   "articles": [
+    {
+      "id": "marktechpost-1780391268000-0",
+      "type": "live",
+      "category": "multimodal",
+      "title": "Alibaba’s Qwen Team Launches Qwen3.7-Plus, Adding Vision, Deep Reasoning, Tool Invocation, and Autonomous Iteration on the Bailian Platform",
+      "excerpt": "7-Plus is Alibaba's multimodal agent model on Bailian, understanding images and video while adding self-programming and tool invocation.  The post Alibaba’s Qwen Team Launches Qwen3",
+      "source": "MarkTechPost",
+      "url": "https://www.marktechpost.com/2026/06/02/alibabas-qwen-team-launches-qwen3-7-plus-adding-vision-deep-reasoning-tool-invocation-and-autonomous-iteration-on-the-bailian-platform/",
+      "publishedAt": "2026-06-02T09:07:48.000Z",
+      "impact": 65
+    },
+    {
+      "id": "marktechpost-1780387232000-1",
+      "type": "live",
+      "category": "llm",
+      "title": "JetBrains Releases Mellum2: A 12B MoE Model for Fast, Specialized Tasks in Multi-Model AI Pipelines",
+      "excerpt": "JetBrains releases Mellum2 under Apache 2. 0 — a 12B MoE model trained on 10",
+      "source": "MarkTechPost",
+      "url": "https://www.marktechpost.com/2026/06/02/jetbrains-releases-mellum2-a-12b-moe-model-for-fast-specialized-tasks-in-multi-model-ai-pipelines/",
+      "publishedAt": "2026-06-02T08:00:32.000Z",
+      "impact": 65
+    },
+    {
+      "id": "aether-grok43",
+      "type": "premium",
+      "category": "llm",
+      "title": "xAI releases Grok-4.3 with native long-horizon agent scaffolding",
+      "excerpt": "New model demonstrates 4.2× improvement on multi-step software engineering benchmarks and sustains coherent agent trajectories beyond 110k tokens.",
+      "source": "xAI",
+      "url": "https://x.ai/blog/grok-4.3",
+      "publishedAt": "2026-06-02T05:46:53.137Z",
+      "impact": 96
+    },
     {
       "id": "arxiv-cs.ai-1780372800000-0",
       "type": "live",
@@ -70,7 +103,18 @@
       "impact": 58
     },
     {
-      "id": "marktechpost-1780364353000-0",
+      "id": "aether-figure03",
+      "type": "premium",
+      "category": "robotics",
+      "title": "Figure 03 completes 43-hour autonomous factory shift with zero interventions",
+      "excerpt": "Humanoid achieves new milestone in unsupervised operation, performing 1,240 unique tasks across three assembly lines at the BMW South Carolina plant.",
+      "source": "Figure AI",
+      "url": "https://figure.ai/news/03-milestone",
+      "publishedAt": "2026-06-02T01:46:53.137Z",
+      "impact": 89
+    },
+    {
+      "id": "marktechpost-1780364353000-2",
       "type": "live",
       "category": "research",
       "title": "How to Speed Up Transformer Training Using NVIDIA Apex (FusedAdam, FusedLayerNorm) and Native torch.amp",
@@ -81,18 +125,18 @@
       "impact": 65
     },
     {
-      "id": "aether-grok43",
+      "id": "aether-interp",
       "type": "premium",
-      "category": "llm",
-      "title": "xAI releases Grok-4.3 with native long-horizon agent scaffolding",
-      "excerpt": "New model demonstrates 4.2× improvement on multi-step software engineering benchmarks and sustains coherent agent trajectories beyond 110k tokens.",
-      "source": "xAI",
-      "url": "https://x.ai/blog/grok-4.3",
-      "publishedAt": "2026-06-01T23:42:04.358Z",
-      "impact": 96
+      "category": "safety",
+      "title": "Anthropic publishes unprecedented mechanistic interpretability map of Claude 4",
+      "excerpt": "Researchers reverse-engineered 312 million features inside the model, including the first clear \"deception circuit\" discovered in a frontier model.",
+      "source": "Anthropic",
+      "url": "https://anthropic.com/research/claude-4-interp",
+      "publishedAt": "2026-06-01T20:46:53.137Z",
+      "impact": 91
     },
     {
-      "id": "marktechpost-1780346405000-1",
+      "id": "marktechpost-1780346405000-3",
       "type": "live",
       "category": "multimodal",
       "title": "MiniMax Releases MiniMax M3 with MSA Architecture Supporting 1M-Token Context, Native Multimodality, and Agentic Coding",
@@ -100,28 +144,6 @@
       "source": "MarkTechPost",
       "url": "https://www.marktechpost.com/2026/06/01/minimax-releases-minimax-m3-with-msa-architecture-supporting-1m-token-context-native-multimodality-and-agentic-coding/",
       "publishedAt": "2026-06-01T20:40:05.000Z",
-      "impact": 77
-    },
-    {
-      "id": "aether-figure03",
-      "type": "premium",
-      "category": "robotics",
-      "title": "Figure 03 completes 43-hour autonomous factory shift with zero interventions",
-      "excerpt": "Humanoid achieves new milestone in unsupervised operation, performing 1,240 unique tasks across three assembly lines at the BMW South Carolina plant.",
-      "source": "Figure AI",
-      "url": "https://figure.ai/news/03-milestone",
-      "publishedAt": "2026-06-01T19:42:04.358Z",
-      "impact": 89
-    },
-    {
-      "id": "marktechpost-1780332787000-2",
-      "type": "live",
-      "category": "research",
-      "title": "Meet Memory OS: A 6-Layer Open-Source Memory Stack Built on Top of Hermes Agent",
-      "excerpt": "The open-source project adds local persistent memory to Hermes Agent through six layers, gated retrieval, and a wiki.  The post Meet Memory OS: A 6-Layer Open-Source Memory Stack Built on Top of Hermes Agent appeared ...",
-      "source": "MarkTechPost",
-      "url": "https://www.marktechpost.com/2026/06/01/meet-memory-os-a-6-layer-open-source-memory-stack-built-on-top-of-hermes-agent/",
-      "publishedAt": "2026-06-01T16:53:07.000Z",
       "impact": 77
     },
     {
@@ -134,17 +156,6 @@
       "url": "https://huggingface.co/blog/JetBrains/mellum2-launch",
       "publishedAt": "2026-06-01T15:45:17.000Z",
       "impact": 75
-    },
-    {
-      "id": "aether-interp",
-      "type": "premium",
-      "category": "safety",
-      "title": "Anthropic publishes unprecedented mechanistic interpretability map of Claude 4",
-      "excerpt": "Researchers reverse-engineered 312 million features inside the model, including the first clear \"deception circuit\" discovered in a frontier model.",
-      "source": "Anthropic",
-      "url": "https://anthropic.com/research/claude-4-interp",
-      "publishedAt": "2026-06-01T14:42:04.358Z",
-      "impact": 91
     },
     {
       "id": "hugging-face-1780321878000-1",
@@ -167,17 +178,6 @@
       "url": "https://huggingface.co/blog/nvidia/cosmos-3-for-physical-ai",
       "publishedAt": "2026-06-01T04:44:55.000Z",
       "impact": 75
-    },
-    {
-      "id": "marktechpost-1780288609000-3",
-      "type": "live",
-      "category": "research",
-      "title": "Parallax: A Parameterized Local Linear Attention That Keeps Softmax and Adds a Learned Covariance Correction Branch",
-      "excerpt": "Parallax replaces LLA's per-query solver with a learned projector, doubling arithmetic intensity and improving perplexity at 0.  The post Parallax: A Parameterized Local Linear Attention That Keeps Softmax and Adds a ...",
-      "source": "MarkTechPost",
-      "url": "https://www.marktechpost.com/2026/05/31/parallax-a-parameterized-local-linear-attention-that-keeps-softmax-and-adds-a-learned-covariance-correction-branch/",
-      "publishedAt": "2026-06-01T04:36:49.000Z",
-      "impact": 65
     }
   ]
 }

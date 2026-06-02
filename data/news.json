@@ -1,10 +1,98 @@
 {
-  "lastUpdated": "2026-06-01T21:39:40.194Z",
+  "lastUpdated": "2026-06-02T04:42:05.445Z",
   "source": "AETHER + Public RSS (arXiv, Hugging Face, MarkTechPost, Ben's Bites)",
   "count": 16,
   "articles": [
     {
-      "id": "marktechpost-1780346405000-0",
+      "id": "arxiv-cs.ai-1780372800000-0",
+      "type": "live",
+      "category": "research",
+      "title": "Position Paper: Post-Solve Robustness in Decision Engines: Feasible Regions and Smoothness Under Perturbations",
+      "excerpt": "00002v1 Announce Type: new Abstract: Mixed-Integer Linear Programming (MILP) decision engines routinely output nominally optimal plans for high-stakes industrial systems.  Yet deployment rarely matches solve-time assu...",
+      "source": "arXiv cs.AI",
+      "url": "https://arxiv.org/abs/2606.00002",
+      "publishedAt": "2026-06-02T04:00:00.000Z",
+      "impact": 58
+    },
+    {
+      "id": "arxiv-cs.ai-1780372800000-1",
+      "type": "live",
+      "category": "safety",
+      "title": "Emergent Collaborative Deliberation in Multi-Model AI Systems: A BFT-Derived Protocol for Epistemic Synthesis",
+      "excerpt": "00005v1 Announce Type: new Abstract: We present the Consilium Protocol, a Byzantine Fault Tolerance-derived architecture for structured multi-model AI deliberation that treats inter-model disagreement as epistemic sig...",
+      "source": "arXiv cs.AI",
+      "url": "https://arxiv.org/abs/2606.00005",
+      "publishedAt": "2026-06-02T04:00:00.000Z",
+      "impact": 58
+    },
+    {
+      "id": "arxiv-cs.ai-1780372800000-2",
+      "type": "live",
+      "category": "llm",
+      "title": "Deliberative Curation: A Protocol for Multi-Agent Knowledge Bases",
+      "excerpt": "00007v1 Announce Type: new Abstract: As AI agents transition from isolated tools to collaborative participants in shared knowledge ecosystems, governing collective knowledge curation becomes a critical challenge.  Hum...",
+      "source": "arXiv cs.AI",
+      "url": "https://arxiv.org/abs/2606.00007",
+      "publishedAt": "2026-06-02T04:00:00.000Z",
+      "impact": 69
+    },
+    {
+      "id": "arxiv-cs.ai-1780372800000-3",
+      "type": "live",
+      "category": "research",
+      "title": "Agents on a Tree: Pathwise Coordination for Multi-Objective Molecular Optimization",
+      "excerpt": "00008v1 Announce Type: new Abstract: Multi-objective molecular optimization requires searching vast chemical spaces under conflicting objectives, where early design decisions strongly constrain downstream outcomes.  E...",
+      "source": "arXiv cs.AI",
+      "url": "https://arxiv.org/abs/2606.00008",
+      "publishedAt": "2026-06-02T04:00:00.000Z",
+      "impact": 69
+    },
+    {
+      "id": "arxiv-cs.ai-1780372800000-4",
+      "type": "live",
+      "category": "research",
+      "title": "Optimal Transport-based Permutation-Invariant Bayesian Optimization of Offshore Wind Farm Layouts",
+      "excerpt": "00009v1 Announce Type: new Abstract: Bayesian Optimization (BO) is widely and successfully adopted for solving optimization problems having an expensive-to-evaluate, black-box, and non-convex objective function.  Howe...",
+      "source": "arXiv cs.AI",
+      "url": "https://arxiv.org/abs/2606.00009",
+      "publishedAt": "2026-06-02T04:00:00.000Z",
+      "impact": 58
+    },
+    {
+      "id": "arxiv-cs.ai-1780372800000-5",
+      "type": "live",
+      "category": "llm",
+      "title": "MindGames Arena Generalization Track: In2AI Solution with Delayed Per-Step Reward Attribution",
+      "excerpt": "00017v1 Announce Type: new Abstract: Training language model agents for multi-agent strategic interaction presents a core difficulty: the quality of any action may depend on future events that never materialize, on mo...",
+      "source": "arXiv cs.AI",
+      "url": "https://arxiv.org/abs/2606.00017",
+      "publishedAt": "2026-06-02T04:00:00.000Z",
+      "impact": 58
+    },
+    {
+      "id": "marktechpost-1780364353000-0",
+      "type": "live",
+      "category": "research",
+      "title": "How to Speed Up Transformer Training Using NVIDIA Apex (FusedAdam, FusedLayerNorm) and Native torch.amp",
+      "excerpt": "We build NVIDIA Apex from source, detect fused kernels, and benchmark FusedAdam, FusedLayerNorm, and torch. amp in Transformer training",
+      "source": "MarkTechPost",
+      "url": "https://www.marktechpost.com/2026/06/01/how-to-speed-up-transformer-training-using-nvidia-apex-fusedadam-fusedlayernorm-and-native-torch-amp/",
+      "publishedAt": "2026-06-02T01:39:13.000Z",
+      "impact": 65
+    },
+    {
+      "id": "aether-grok43",
+      "type": "premium",
+      "category": "llm",
+      "title": "xAI releases Grok-4.3 with native long-horizon agent scaffolding",
+      "excerpt": "New model demonstrates 4.2× improvement on multi-step software engineering benchmarks and sustains coherent agent trajectories beyond 110k tokens.",
+      "source": "xAI",
+      "url": "https://x.ai/blog/grok-4.3",
+      "publishedAt": "2026-06-01T23:42:04.358Z",
+      "impact": 96
+    },
+    {
+      "id": "marktechpost-1780346405000-1",
       "type": "live",
       "category": "multimodal",
       "title": "MiniMax Releases MiniMax M3 with MSA Architecture Supporting 1M-Token Context, Native Multimodality, and Agentic Coding",
@@ -15,7 +103,18 @@
       "impact": 77
     },
     {
-      "id": "marktechpost-1780332787000-1",
+      "id": "aether-figure03",
+      "type": "premium",
+      "category": "robotics",
+      "title": "Figure 03 completes 43-hour autonomous factory shift with zero interventions",
+      "excerpt": "Humanoid achieves new milestone in unsupervised operation, performing 1,240 unique tasks across three assembly lines at the BMW South Carolina plant.",
+      "source": "Figure AI",
+      "url": "https://figure.ai/news/03-milestone",
+      "publishedAt": "2026-06-01T19:42:04.358Z",
+      "impact": 89
+    },
+    {
+      "id": "marktechpost-1780332787000-2",
       "type": "live",
       "category": "research",
       "title": "Meet Memory OS: A 6-Layer Open-Source Memory Stack Built on Top of Hermes Agent",
@@ -24,17 +123,6 @@
       "url": "https://www.marktechpost.com/2026/06/01/meet-memory-os-a-6-layer-open-source-memory-stack-built-on-top-of-hermes-agent/",
       "publishedAt": "2026-06-01T16:53:07.000Z",
       "impact": 77
-    },
-    {
-      "id": "aether-grok43",
-      "type": "premium",
-      "category": "llm",
-      "title": "xAI releases Grok-4.3 with native long-horizon agent scaffolding",
-      "excerpt": "New model demonstrates 4.2× improvement on multi-step software engineering benchmarks and sustains coherent agent trajectories beyond 110k tokens.",
-      "source": "xAI",
-      "url": "https://x.ai/blog/grok-4.3",
-      "publishedAt": "2026-06-01T16:39:39.010Z",
-      "impact": 96
     },
     {
       "id": "hugging-face-1780328717000-0",
@@ -48,6 +136,17 @@
       "impact": 75
     },
     {
+      "id": "aether-interp",
+      "type": "premium",
+      "category": "safety",
+      "title": "Anthropic publishes unprecedented mechanistic interpretability map of Claude 4",
+      "excerpt": "Researchers reverse-engineered 312 million features inside the model, including the first clear \"deception circuit\" discovered in a frontier model.",
+      "source": "Anthropic",
+      "url": "https://anthropic.com/research/claude-4-interp",
+      "publishedAt": "2026-06-01T14:42:04.358Z",
+      "impact": 91
+    },
+    {
       "id": "hugging-face-1780321878000-1",
       "type": "live",
       "category": "llm",
@@ -57,28 +156,6 @@
       "url": "https://huggingface.co/blog/ibm-research/agent-logic-and-scalable-ai-adoption",
       "publishedAt": "2026-06-01T13:51:18.000Z",
       "impact": 87
-    },
-    {
-      "id": "aether-figure03",
-      "type": "premium",
-      "category": "robotics",
-      "title": "Figure 03 completes 43-hour autonomous factory shift with zero interventions",
-      "excerpt": "Humanoid achieves new milestone in unsupervised operation, performing 1,240 unique tasks across three assembly lines at the BMW South Carolina plant.",
-      "source": "Figure AI",
-      "url": "https://figure.ai/news/03-milestone",
-      "publishedAt": "2026-06-01T12:39:39.010Z",
-      "impact": 89
-    },
-    {
-      "id": "aether-interp",
-      "type": "premium",
-      "category": "safety",
-      "title": "Anthropic publishes unprecedented mechanistic interpretability map of Claude 4",
-      "excerpt": "Researchers reverse-engineered 312 million features inside the model, including the first clear \"deception circuit\" discovered in a frontier model.",
-      "source": "Anthropic",
-      "url": "https://anthropic.com/research/claude-4-interp",
-      "publishedAt": "2026-06-01T07:39:39.010Z",
-      "impact": 91
     },
     {
       "id": "hugging-face-1780289095000-2",
@@ -92,7 +169,7 @@
       "impact": 75
     },
     {
-      "id": "marktechpost-1780288609000-2",
+      "id": "marktechpost-1780288609000-3",
       "type": "live",
       "category": "research",
       "title": "Parallax: A Parameterized Local Linear Attention That Keeps Softmax and Adds a Learned Covariance Correction Branch",
@@ -101,83 +178,6 @@
       "url": "https://www.marktechpost.com/2026/05/31/parallax-a-parameterized-local-linear-attention-that-keeps-softmax-and-adds-a-learned-covariance-correction-branch/",
       "publishedAt": "2026-06-01T04:36:49.000Z",
       "impact": 65
-    },
-    {
-      "id": "arxiv-cs.ai-1780286400000-0",
-      "type": "live",
-      "category": "multimodal",
-      "title": "PhyDrawGen: Physically Grounded Diagram Generation from Natural Language",
-      "excerpt": "30512v1 Announce Type: new Abstract: Generating physics diagrams from text requires strict adherence to physical laws.  While current generative models produce visually plausible outputs, they systematically hallucina...",
-      "source": "arXiv cs.AI",
-      "url": "https://arxiv.org/abs/2605.30512",
-      "publishedAt": "2026-06-01T04:00:00.000Z",
-      "impact": 58
-    },
-    {
-      "id": "arxiv-cs.ai-1780286400000-1",
-      "type": "live",
-      "category": "safety",
-      "title": "Physically Viable World Models: A Case for Query-Conditioned Embodied AI",
-      "excerpt": "30542v1 Announce Type: new Abstract: World models for embodied AI must be physically viable: constructed to answer intervention queries by representing the physical structure governing action outcomes, rather than mer...",
-      "source": "arXiv cs.AI",
-      "url": "https://arxiv.org/abs/2605.30542",
-      "publishedAt": "2026-06-01T04:00:00.000Z",
-      "impact": 58
-    },
-    {
-      "id": "arxiv-cs.ai-1780286400000-2",
-      "type": "live",
-      "category": "research",
-      "title": "Transforming and Encoding FTS for SAT Solving: What Helps, What Hurts (Extended Version)",
-      "excerpt": "30563v1 Announce Type: new Abstract: Factored tasks are a classical planning representation that extends SAS+ with limited forms of disjunctive preconditions, conditional effects, and angelic nondeterminism.  This all...",
-      "source": "arXiv cs.AI",
-      "url": "https://arxiv.org/abs/2605.30563",
-      "publishedAt": "2026-06-01T04:00:00.000Z",
-      "impact": 58
-    },
-    {
-      "id": "arxiv-cs.ai-1780286400000-3",
-      "type": "live",
-      "category": "research",
-      "title": "Procedural Generation of First Person Shooter Maps using Map-Elites",
-      "excerpt": "30570v1 Announce Type: new Abstract: We investigate the application of MAP-Elites (a well-known quality diversity algorithm) to design levels for First-Person Shooter (FPS) games.  We consider two well-known map repre...",
-      "source": "arXiv cs.AI",
-      "url": "https://arxiv.org/abs/2605.30570",
-      "publishedAt": "2026-06-01T04:00:00.000Z",
-      "impact": 58
-    },
-    {
-      "id": "arxiv-cs.ai-1780286400000-4",
-      "type": "live",
-      "category": "research",
-      "title": "Uncertainty-Aware and Temporally Regulated Expert Advice in Reinforcement Learning for Autonomous Driving",
-      "excerpt": "30576v1 Announce Type: new Abstract: Exploration in reinforcement learning for autonomous driving is inherently unsafe: agents must experience novel behaviors to learn, yet exploration can lead to collisions or off-ro...",
-      "source": "arXiv cs.AI",
-      "url": "https://arxiv.org/abs/2605.30576",
-      "publishedAt": "2026-06-01T04:00:00.000Z",
-      "impact": 58
-    },
-    {
-      "id": "arxiv-cs.ai-1780286400000-5",
-      "type": "live",
-      "category": "llm",
-      "title": "Harness Updating Is Not Harness Benefit: Disentangling Evolution Capabilities in Self-Evolving LLM Agents",
-      "excerpt": "30621v1 Announce Type: new Abstract: LLM agents are increasingly deployed as systems built around editable external harnesses, including prompts, skills, memories and tools, that shape task execution without changing ...",
-      "source": "arXiv cs.AI",
-      "url": "https://arxiv.org/abs/2605.30621",
-      "publishedAt": "2026-06-01T04:00:00.000Z",
-      "impact": 69
-    },
-    {
-      "id": "marktechpost-1780258021000-3",
-      "type": "live",
-      "category": "research",
-      "title": "An Implementation of the Microsoft Agent Governance Toolkit for Safe AI Agent Tool Use with Policies, Approvals, Audit Logs, and Risk Controls",
-      "excerpt": "In this tutorial, we build a governed AI-agent workflow using Microsoft’s Agent Governance Toolkit as the reference point.  We create a Colab-ready implementation where agents do not directly execute tools; instead, e...",
-      "source": "MarkTechPost",
-      "url": "https://www.marktechpost.com/2026/05/31/an-implementation-of-the-microsoft-agent-governance-toolkit-for-safe-ai-agent-tool-use-with-policies-approvals-audit-logs-and-risk-controls/",
-      "publishedAt": "2026-05-31T20:07:01.000Z",
-      "impact": 77
     }
   ]
 }

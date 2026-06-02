@@ -1,8 +1,30 @@
 {
-  "lastUpdated": "2026-06-02T16:45:26.295Z",
+  "lastUpdated": "2026-06-02T20:57:20.386Z",
   "source": "AETHER + Public RSS (arXiv, Hugging Face, MarkTechPost, Ben's Bites)",
   "count": 16,
   "articles": [
+    {
+      "id": "marktechpost-1780423061000-0",
+      "type": "live",
+      "category": "research",
+      "title": "TinyFish Launches BigSet: An Open-Source Multi-Agent System That Builds Structured Live Datasets from Plain-English Descriptions",
+      "excerpt": "Describe a dataset in one sentence; Bigset's orchestrator and parallel sub-agents research the live web and return structured tables.  The post TinyFish Launches BigSet: An Open-Source Multi-Agent System That Builds S...",
+      "source": "MarkTechPost",
+      "url": "https://www.marktechpost.com/2026/06/02/tinyfish-launches-bigset-an-open-source-multi-agent-system-that-builds-structured-live-datasets-from-plain-english-descriptions/",
+      "publishedAt": "2026-06-02T17:57:41.000Z",
+      "impact": 77
+    },
+    {
+      "id": "aether-grok43",
+      "type": "premium",
+      "category": "llm",
+      "title": "xAI releases Grok-4.3 with native long-horizon agent scaffolding",
+      "excerpt": "New model demonstrates 4.2× improvement on multi-step software engineering benchmarks and sustains coherent agent trajectories beyond 110k tokens.",
+      "source": "xAI",
+      "url": "https://x.ai/blog/grok-4.3",
+      "publishedAt": "2026-06-02T15:57:19.010Z",
+      "impact": 96
+    },
     {
       "id": "hugging-face-1780409603000-0",
       "type": "live",
@@ -15,18 +37,18 @@
       "impact": 87
     },
     {
-      "id": "aether-grok43",
+      "id": "aether-figure03",
       "type": "premium",
-      "category": "llm",
-      "title": "xAI releases Grok-4.3 with native long-horizon agent scaffolding",
-      "excerpt": "New model demonstrates 4.2× improvement on multi-step software engineering benchmarks and sustains coherent agent trajectories beyond 110k tokens.",
-      "source": "xAI",
-      "url": "https://x.ai/blog/grok-4.3",
-      "publishedAt": "2026-06-02T11:45:25.818Z",
-      "impact": 96
+      "category": "robotics",
+      "title": "Figure 03 completes 43-hour autonomous factory shift with zero interventions",
+      "excerpt": "Humanoid achieves new milestone in unsupervised operation, performing 1,240 unique tasks across three assembly lines at the BMW South Carolina plant.",
+      "source": "Figure AI",
+      "url": "https://figure.ai/news/03-milestone",
+      "publishedAt": "2026-06-02T11:57:19.010Z",
+      "impact": 89
     },
     {
-      "id": "marktechpost-1780391268000-0",
+      "id": "marktechpost-1780391268000-1",
       "type": "live",
       "category": "multimodal",
       "title": "Alibaba’s Qwen Team Launches Qwen3.7-Plus, Adding Vision, Deep Reasoning, Tool Invocation, and Autonomous Iteration on the Bailian Platform",
@@ -37,7 +59,7 @@
       "impact": 65
     },
     {
-      "id": "marktechpost-1780387232000-1",
+      "id": "marktechpost-1780387232000-2",
       "type": "live",
       "category": "llm",
       "title": "JetBrains Releases Mellum2: A 12B MoE Model for Fast, Specialized Tasks in Multi-Model AI Pipelines",
@@ -48,15 +70,15 @@
       "impact": 65
     },
     {
-      "id": "aether-figure03",
+      "id": "aether-interp",
       "type": "premium",
-      "category": "robotics",
-      "title": "Figure 03 completes 43-hour autonomous factory shift with zero interventions",
-      "excerpt": "Humanoid achieves new milestone in unsupervised operation, performing 1,240 unique tasks across three assembly lines at the BMW South Carolina plant.",
-      "source": "Figure AI",
-      "url": "https://figure.ai/news/03-milestone",
-      "publishedAt": "2026-06-02T07:45:25.818Z",
-      "impact": 89
+      "category": "safety",
+      "title": "Anthropic publishes unprecedented mechanistic interpretability map of Claude 4",
+      "excerpt": "Researchers reverse-engineered 312 million features inside the model, including the first clear \"deception circuit\" discovered in a frontier model.",
+      "source": "Anthropic",
+      "url": "https://anthropic.com/research/claude-4-interp",
+      "publishedAt": "2026-06-02T06:57:19.010Z",
+      "impact": 91
     },
     {
       "id": "arxiv-cs.ai-1780372800000-0",
@@ -125,18 +147,7 @@
       "impact": 58
     },
     {
-      "id": "aether-interp",
-      "type": "premium",
-      "category": "safety",
-      "title": "Anthropic publishes unprecedented mechanistic interpretability map of Claude 4",
-      "excerpt": "Researchers reverse-engineered 312 million features inside the model, including the first clear \"deception circuit\" discovered in a frontier model.",
-      "source": "Anthropic",
-      "url": "https://anthropic.com/research/claude-4-interp",
-      "publishedAt": "2026-06-02T02:45:25.818Z",
-      "impact": 91
-    },
-    {
-      "id": "marktechpost-1780364353000-2",
+      "id": "marktechpost-1780364353000-3",
       "type": "live",
       "category": "research",
       "title": "How to Speed Up Transformer Training Using NVIDIA Apex (FusedAdam, FusedLayerNorm) and Native torch.amp",
@@ -145,17 +156,6 @@
       "url": "https://www.marktechpost.com/2026/06/01/how-to-speed-up-transformer-training-using-nvidia-apex-fusedadam-fusedlayernorm-and-native-torch-amp/",
       "publishedAt": "2026-06-02T01:39:13.000Z",
       "impact": 65
-    },
-    {
-      "id": "marktechpost-1780346405000-3",
-      "type": "live",
-      "category": "multimodal",
-      "title": "MiniMax Releases MiniMax M3 with MSA Architecture Supporting 1M-Token Context, Native Multimodality, and Agentic Coding",
-      "excerpt": "MiniMax M3 introduces MiniMax Sparse Attention, a 1M-token context window, and native image, video, and computer use support.  The post MiniMax Releases MiniMax M3 with MSA Architecture Supporting 1M-Token Context, Na...",
-      "source": "MarkTechPost",
-      "url": "https://www.marktechpost.com/2026/06/01/minimax-releases-minimax-m3-with-msa-architecture-supporting-1m-token-context-native-multimodality-and-agentic-coding/",
-      "publishedAt": "2026-06-01T20:40:05.000Z",
-      "impact": 77
     },
     {
       "id": "hugging-face-1780328717000-1",

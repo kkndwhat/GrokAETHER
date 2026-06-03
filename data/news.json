@@ -1,8 +1,41 @@
 {
-  "lastUpdated": "2026-06-03T04:50:46.499Z",
+  "lastUpdated": "2026-06-03T17:02:04.104Z",
   "source": "AETHER + Public RSS (arXiv, Hugging Face, MarkTechPost, Ben's Bites)",
-  "count": 9,
+  "count": 12,
   "articles": [
+    {
+      "id": "hugging-face-1780491311000-0",
+      "type": "live",
+      "category": "research",
+      "title": "Direct Preference Optimization Beyond Chatbots",
+      "excerpt": "New development from the frontier.",
+      "source": "Hugging Face",
+      "url": "https://huggingface.co/blog/Dharma-AI/direct-preference-optimization-beyond-chatbots",
+      "publishedAt": "2026-06-03T12:55:11.000Z",
+      "impact": 75
+    },
+    {
+      "id": "aether-grok43",
+      "type": "premium",
+      "category": "llm",
+      "title": "xAI releases Grok-4.3 with native long-horizon agent scaffolding",
+      "excerpt": "New model demonstrates 4.2× improvement on multi-step software engineering benchmarks and sustains coherent agent trajectories beyond 110k tokens.",
+      "source": "xAI",
+      "url": "https://x.ai/blog/grok-4.3",
+      "publishedAt": "2026-06-03T12:02:03.582Z",
+      "impact": 96
+    },
+    {
+      "id": "aether-figure03",
+      "type": "premium",
+      "category": "robotics",
+      "title": "Figure 03 completes 43-hour autonomous factory shift with zero interventions",
+      "excerpt": "Humanoid achieves new milestone in unsupervised operation, performing 1,240 unique tasks across three assembly lines at the BMW South Carolina plant.",
+      "source": "Figure AI",
+      "url": "https://figure.ai/news/03-milestone",
+      "publishedAt": "2026-06-03T08:02:03.582Z",
+      "impact": 89
+    },
     {
       "id": "arxiv-cs.ai-1780459200000-0",
       "type": "live",
@@ -70,28 +103,6 @@
       "impact": 69
     },
     {
-      "id": "aether-grok43",
-      "type": "premium",
-      "category": "llm",
-      "title": "xAI releases Grok-4.3 with native long-horizon agent scaffolding",
-      "excerpt": "New model demonstrates 4.2× improvement on multi-step software engineering benchmarks and sustains coherent agent trajectories beyond 110k tokens.",
-      "source": "xAI",
-      "url": "https://x.ai/blog/grok-4.3",
-      "publishedAt": "2026-06-02T23:50:46.258Z",
-      "impact": 96
-    },
-    {
-      "id": "aether-figure03",
-      "type": "premium",
-      "category": "robotics",
-      "title": "Figure 03 completes 43-hour autonomous factory shift with zero interventions",
-      "excerpt": "Humanoid achieves new milestone in unsupervised operation, performing 1,240 unique tasks across three assembly lines at the BMW South Carolina plant.",
-      "source": "Figure AI",
-      "url": "https://figure.ai/news/03-milestone",
-      "publishedAt": "2026-06-02T19:50:46.258Z",
-      "impact": 89
-    },
-    {
       "id": "aether-interp",
       "type": "premium",
       "category": "safety",
@@ -99,8 +110,30 @@
       "excerpt": "Researchers reverse-engineered 312 million features inside the model, including the first clear \"deception circuit\" discovered in a frontier model.",
       "source": "Anthropic",
       "url": "https://anthropic.com/research/claude-4-interp",
-      "publishedAt": "2026-06-02T14:50:46.258Z",
+      "publishedAt": "2026-06-03T03:02:03.582Z",
       "impact": 91
+    },
+    {
+      "id": "hugging-face-1780444800000-1",
+      "type": "live",
+      "category": "research",
+      "title": "Adding MCP Tools to Reachy Mini",
+      "excerpt": "New development from the frontier.",
+      "source": "Hugging Face",
+      "url": "https://huggingface.co/blog/adding-mcp-tools-to-reachy-mini",
+      "publishedAt": "2026-06-03T00:00:00.000Z",
+      "impact": 75
+    },
+    {
+      "id": "hugging-face-1780409603000-2",
+      "type": "live",
+      "category": "research",
+      "title": "Holo3.1: Fast & Local Computer Use Agents",
+      "excerpt": "New development from the frontier.",
+      "source": "Hugging Face",
+      "url": "https://huggingface.co/blog/Hcompany/holo31",
+      "publishedAt": "2026-06-02T14:13:23.000Z",
+      "impact": 87
     }
   ]
 }

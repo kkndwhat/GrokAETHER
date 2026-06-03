@@ -1,18 +1,73 @@
 {
-  "lastUpdated": "2026-06-02T20:57:20.386Z",
+  "lastUpdated": "2026-06-03T04:50:46.499Z",
   "source": "AETHER + Public RSS (arXiv, Hugging Face, MarkTechPost, Ben's Bites)",
-  "count": 16,
+  "count": 9,
   "articles": [
     {
-      "id": "marktechpost-1780423061000-0",
+      "id": "arxiv-cs.ai-1780459200000-0",
       "type": "live",
-      "category": "research",
-      "title": "TinyFish Launches BigSet: An Open-Source Multi-Agent System That Builds Structured Live Datasets from Plain-English Descriptions",
-      "excerpt": "Describe a dataset in one sentence; Bigset's orchestrator and parallel sub-agents research the live web and return structured tables.  The post TinyFish Launches BigSet: An Open-Source Multi-Agent System That Builds S...",
-      "source": "MarkTechPost",
-      "url": "https://www.marktechpost.com/2026/06/02/tinyfish-launches-bigset-an-open-source-multi-agent-system-that-builds-structured-live-datasets-from-plain-english-descriptions/",
-      "publishedAt": "2026-06-02T17:57:41.000Z",
-      "impact": 77
+      "category": "llm",
+      "title": "Visual Graph Scaffolds for Structural Reasoning in Large Language Models",
+      "excerpt": "02673v1 Announce Type: new Abstract: Graphs have been used to enhance large language models (LLMs) for structured reasoning, mostly as external knowledge sources are provided to models at test time.  In this paper, we...",
+      "source": "arXiv cs.AI",
+      "url": "https://arxiv.org/abs/2606.02673",
+      "publishedAt": "2026-06-03T04:00:00.000Z",
+      "impact": 58
+    },
+    {
+      "id": "arxiv-cs.ai-1780459200000-1",
+      "type": "live",
+      "category": "robotics",
+      "title": "AURA: Action-Gated Memory for Robot Policies at Constant VRAM",
+      "excerpt": "02775v1 Announce Type: new Abstract: The KV-cache is the right memory for datacenters but the wrong memory for robots.  Datacenter inference batches many short requests and resets them, amortizing an attention cache a...",
+      "source": "arXiv cs.AI",
+      "url": "https://arxiv.org/abs/2606.02775",
+      "publishedAt": "2026-06-03T04:00:00.000Z",
+      "impact": 58
+    },
+    {
+      "id": "arxiv-cs.ai-1780459200000-2",
+      "type": "live",
+      "category": "safety",
+      "title": "Evaluating Transformer and LSTM Frameworks for Prediction in Ungauged Basins",
+      "excerpt": "02791v1 Announce Type: new Abstract: Watershed networks exhibit convergent topologies in which multiple tributaries merge into downstream channels,integrating diverse upstream hydrological processes.  In ungauged basi...",
+      "source": "arXiv cs.AI",
+      "url": "https://arxiv.org/abs/2606.02791",
+      "publishedAt": "2026-06-03T04:00:00.000Z",
+      "impact": 58
+    },
+    {
+      "id": "arxiv-cs.ai-1780459200000-3",
+      "type": "live",
+      "category": "llm",
+      "title": "BehaviorBench: Modeling Real-World User Decisions from Behavioral Traces",
+      "excerpt": "02798v1 Announce Type: new Abstract: Many decision-support settings require systems that adapt to individual users, but evaluation data for this problem remain limited.  Existing benchmarks for user understanding ofte...",
+      "source": "arXiv cs.AI",
+      "url": "https://arxiv.org/abs/2606.02798",
+      "publishedAt": "2026-06-03T04:00:00.000Z",
+      "impact": 58
+    },
+    {
+      "id": "arxiv-cs.ai-1780459200000-4",
+      "type": "live",
+      "category": "safety",
+      "title": "ChatHealthAI: Aligning Electronic Health Record Representations with Large Language Models for Grounded Clinical Reasoning",
+      "excerpt": "02802v1 Announce Type: new Abstract: Large language models (LLMs) exhibit strong natural-language reasoning abilities for clinical decision support, but struggle to effectively model structured longitudinal electronic...",
+      "source": "arXiv cs.AI",
+      "url": "https://arxiv.org/abs/2606.02802",
+      "publishedAt": "2026-06-03T04:00:00.000Z",
+      "impact": 58
+    },
+    {
+      "id": "arxiv-cs.ai-1780459200000-5",
+      "type": "live",
+      "category": "multimodal",
+      "title": "Traj-Evolve: A Self-Evolving Multi-Agent System for Patient Trajectory Modeling in Lung Cancer Early Detection",
+      "excerpt": "02812v1 Announce Type: new Abstract: Modeling patient trajectories from longitudinal electronic health records (EHRs) requires reasoning over sparse, noisy, and long-context multimodal sequences.  Existing LLM-based m...",
+      "source": "arXiv cs.AI",
+      "url": "https://arxiv.org/abs/2606.02812",
+      "publishedAt": "2026-06-03T04:00:00.000Z",
+      "impact": 69
     },
     {
       "id": "aether-grok43",
@@ -22,19 +77,8 @@
       "excerpt": "New model demonstrates 4.2× improvement on multi-step software engineering benchmarks and sustains coherent agent trajectories beyond 110k tokens.",
       "source": "xAI",
       "url": "https://x.ai/blog/grok-4.3",
-      "publishedAt": "2026-06-02T15:57:19.010Z",
+      "publishedAt": "2026-06-02T23:50:46.258Z",
       "impact": 96
-    },
-    {
-      "id": "hugging-face-1780409603000-0",
-      "type": "live",
-      "category": "research",
-      "title": "Holo3.1: Fast & Local Computer Use Agents",
-      "excerpt": "New development from the frontier.",
-      "source": "Hugging Face",
-      "url": "https://huggingface.co/blog/Hcompany/holo31",
-      "publishedAt": "2026-06-02T14:13:23.000Z",
-      "impact": 87
     },
     {
       "id": "aether-figure03",
@@ -44,30 +88,8 @@
       "excerpt": "Humanoid achieves new milestone in unsupervised operation, performing 1,240 unique tasks across three assembly lines at the BMW South Carolina plant.",
       "source": "Figure AI",
       "url": "https://figure.ai/news/03-milestone",
-      "publishedAt": "2026-06-02T11:57:19.010Z",
+      "publishedAt": "2026-06-02T19:50:46.258Z",
       "impact": 89
-    },
-    {
-      "id": "marktechpost-1780391268000-1",
-      "type": "live",
-      "category": "multimodal",
-      "title": "Alibaba’s Qwen Team Launches Qwen3.7-Plus, Adding Vision, Deep Reasoning, Tool Invocation, and Autonomous Iteration on the Bailian Platform",
-      "excerpt": "7-Plus is Alibaba's multimodal agent model on Bailian, understanding images and video while adding self-programming and tool invocation.  The post Alibaba’s Qwen Team Launches Qwen3",
-      "source": "MarkTechPost",
-      "url": "https://www.marktechpost.com/2026/06/02/alibabas-qwen-team-launches-qwen3-7-plus-adding-vision-deep-reasoning-tool-invocation-and-autonomous-iteration-on-the-bailian-platform/",
-      "publishedAt": "2026-06-02T09:07:48.000Z",
-      "impact": 65
-    },
-    {
-      "id": "marktechpost-1780387232000-2",
-      "type": "live",
-      "category": "llm",
-      "title": "JetBrains Releases Mellum2: A 12B MoE Model for Fast, Specialized Tasks in Multi-Model AI Pipelines",
-      "excerpt": "JetBrains releases Mellum2 under Apache 2. 0 — a 12B MoE model trained on 10",
-      "source": "MarkTechPost",
-      "url": "https://www.marktechpost.com/2026/06/02/jetbrains-releases-mellum2-a-12b-moe-model-for-fast-specialized-tasks-in-multi-model-ai-pipelines/",
-      "publishedAt": "2026-06-02T08:00:32.000Z",
-      "impact": 65
     },
     {
       "id": "aether-interp",
@@ -77,107 +99,8 @@
       "excerpt": "Researchers reverse-engineered 312 million features inside the model, including the first clear \"deception circuit\" discovered in a frontier model.",
       "source": "Anthropic",
       "url": "https://anthropic.com/research/claude-4-interp",
-      "publishedAt": "2026-06-02T06:57:19.010Z",
+      "publishedAt": "2026-06-02T14:50:46.258Z",
       "impact": 91
-    },
-    {
-      "id": "arxiv-cs.ai-1780372800000-0",
-      "type": "live",
-      "category": "research",
-      "title": "Position Paper: Post-Solve Robustness in Decision Engines: Feasible Regions and Smoothness Under Perturbations",
-      "excerpt": "00002v1 Announce Type: new Abstract: Mixed-Integer Linear Programming (MILP) decision engines routinely output nominally optimal plans for high-stakes industrial systems.  Yet deployment rarely matches solve-time assu...",
-      "source": "arXiv cs.AI",
-      "url": "https://arxiv.org/abs/2606.00002",
-      "publishedAt": "2026-06-02T04:00:00.000Z",
-      "impact": 58
-    },
-    {
-      "id": "arxiv-cs.ai-1780372800000-1",
-      "type": "live",
-      "category": "safety",
-      "title": "Emergent Collaborative Deliberation in Multi-Model AI Systems: A BFT-Derived Protocol for Epistemic Synthesis",
-      "excerpt": "00005v1 Announce Type: new Abstract: We present the Consilium Protocol, a Byzantine Fault Tolerance-derived architecture for structured multi-model AI deliberation that treats inter-model disagreement as epistemic sig...",
-      "source": "arXiv cs.AI",
-      "url": "https://arxiv.org/abs/2606.00005",
-      "publishedAt": "2026-06-02T04:00:00.000Z",
-      "impact": 58
-    },
-    {
-      "id": "arxiv-cs.ai-1780372800000-2",
-      "type": "live",
-      "category": "llm",
-      "title": "Deliberative Curation: A Protocol for Multi-Agent Knowledge Bases",
-      "excerpt": "00007v1 Announce Type: new Abstract: As AI agents transition from isolated tools to collaborative participants in shared knowledge ecosystems, governing collective knowledge curation becomes a critical challenge.  Hum...",
-      "source": "arXiv cs.AI",
-      "url": "https://arxiv.org/abs/2606.00007",
-      "publishedAt": "2026-06-02T04:00:00.000Z",
-      "impact": 69
-    },
-    {
-      "id": "arxiv-cs.ai-1780372800000-3",
-      "type": "live",
-      "category": "research",
-      "title": "Agents on a Tree: Pathwise Coordination for Multi-Objective Molecular Optimization",
-      "excerpt": "00008v1 Announce Type: new Abstract: Multi-objective molecular optimization requires searching vast chemical spaces under conflicting objectives, where early design decisions strongly constrain downstream outcomes.  E...",
-      "source": "arXiv cs.AI",
-      "url": "https://arxiv.org/abs/2606.00008",
-      "publishedAt": "2026-06-02T04:00:00.000Z",
-      "impact": 69
-    },
-    {
-      "id": "arxiv-cs.ai-1780372800000-4",
-      "type": "live",
-      "category": "research",
-      "title": "Optimal Transport-based Permutation-Invariant Bayesian Optimization of Offshore Wind Farm Layouts",
-      "excerpt": "00009v1 Announce Type: new Abstract: Bayesian Optimization (BO) is widely and successfully adopted for solving optimization problems having an expensive-to-evaluate, black-box, and non-convex objective function.  Howe...",
-      "source": "arXiv cs.AI",
-      "url": "https://arxiv.org/abs/2606.00009",
-      "publishedAt": "2026-06-02T04:00:00.000Z",
-      "impact": 58
-    },
-    {
-      "id": "arxiv-cs.ai-1780372800000-5",
-      "type": "live",
-      "category": "llm",
-      "title": "MindGames Arena Generalization Track: In2AI Solution with Delayed Per-Step Reward Attribution",
-      "excerpt": "00017v1 Announce Type: new Abstract: Training language model agents for multi-agent strategic interaction presents a core difficulty: the quality of any action may depend on future events that never materialize, on mo...",
-      "source": "arXiv cs.AI",
-      "url": "https://arxiv.org/abs/2606.00017",
-      "publishedAt": "2026-06-02T04:00:00.000Z",
-      "impact": 58
-    },
-    {
-      "id": "marktechpost-1780364353000-3",
-      "type": "live",
-      "category": "research",
-      "title": "How to Speed Up Transformer Training Using NVIDIA Apex (FusedAdam, FusedLayerNorm) and Native torch.amp",
-      "excerpt": "We build NVIDIA Apex from source, detect fused kernels, and benchmark FusedAdam, FusedLayerNorm, and torch. amp in Transformer training",
-      "source": "MarkTechPost",
-      "url": "https://www.marktechpost.com/2026/06/01/how-to-speed-up-transformer-training-using-nvidia-apex-fusedadam-fusedlayernorm-and-native-torch-amp/",
-      "publishedAt": "2026-06-02T01:39:13.000Z",
-      "impact": 65
-    },
-    {
-      "id": "hugging-face-1780328717000-1",
-      "type": "live",
-      "category": "llm",
-      "title": "Introducing Mellum2: A 12B Mixture-of-Experts Model by JetBrains",
-      "excerpt": "New development from the frontier.",
-      "source": "Hugging Face",
-      "url": "https://huggingface.co/blog/JetBrains/mellum2-launch",
-      "publishedAt": "2026-06-01T15:45:17.000Z",
-      "impact": 75
-    },
-    {
-      "id": "hugging-face-1780321878000-2",
-      "type": "live",
-      "category": "llm",
-      "title": "Beyond LLMs: Why Scalable Enterprise AI Adoption Depends on Agent Logic",
-      "excerpt": "New development from the frontier.",
-      "source": "Hugging Face",
-      "url": "https://huggingface.co/blog/ibm-research/agent-logic-and-scalable-ai-adoption",
-      "publishedAt": "2026-06-01T13:51:18.000Z",
-      "impact": 87
     }
   ]
 }

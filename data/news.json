@@ -1,8 +1,74 @@
 {
-  "lastUpdated": "2026-06-03T21:22:56.049Z",
+  "lastUpdated": "2026-06-04T04:45:03.187Z",
   "source": "AETHER + Public RSS (arXiv, Hugging Face, MarkTechPost, Ben's Bites)",
-  "count": 9,
+  "count": 12,
   "articles": [
+    {
+      "id": "arxiv-cs.ai-1780545600000-0",
+      "type": "live",
+      "category": "safety",
+      "title": "Toward Pre-Deployment Assurance for Enterprise AI Agents: Ontology-Grounded Simulation and Trust Certification",
+      "excerpt": "04037v1 Announce Type: new Abstract: Pre-deployment verification of enterprise artificial intelligence (AI) agents remains a critical gap between large language model (LLM) capability benchmarking and production deplo...",
+      "source": "arXiv cs.AI",
+      "url": "https://arxiv.org/abs/2606.04037",
+      "publishedAt": "2026-06-04T04:00:00.000Z",
+      "impact": 69
+    },
+    {
+      "id": "arxiv-cs.ai-1780545600000-1",
+      "type": "live",
+      "category": "research",
+      "title": "Stumbling Into AI Emotional Dependence: How Routine AI Interactions Reshape Human Connection",
+      "excerpt": "04150v1 Announce Type: new Abstract: Public discourse and emerging policy typically assume that AI emotional support is a deliberate act: a lonely user consciously seeking comfort from a dedicated companion chatbot.  ...",
+      "source": "arXiv cs.AI",
+      "url": "https://arxiv.org/abs/2606.04150",
+      "publishedAt": "2026-06-04T04:00:00.000Z",
+      "impact": 58
+    },
+    {
+      "id": "arxiv-cs.ai-1780545600000-2",
+      "type": "live",
+      "category": "safety",
+      "title": "Thinking Through Signs: PEEL as a Semiotic Scaffolding for Epistemically Accountable AI-Enabled Research",
+      "excerpt": "04152v1 Announce Type: new Abstract: Large language models are reshaping research practice while quietly eroding researchers epistemic accountability.  This commentary introduces PEEL - Protocols for Epistemically Eng...",
+      "source": "arXiv cs.AI",
+      "url": "https://arxiv.org/abs/2606.04152",
+      "publishedAt": "2026-06-04T04:00:00.000Z",
+      "impact": 69
+    },
+    {
+      "id": "arxiv-cs.ai-1780545600000-3",
+      "type": "live",
+      "category": "safety",
+      "title": "SMAC-Talk: A Natural Language Extension of the StarCraft Multi-Agent Challenge for Large Language Models",
+      "excerpt": "04202v1 Announce Type: new Abstract: As LLMs become more widely deployed, they are increasingly expected to work alongside other AI agents rather than operating in isolation.  Effective coordination in these settings ...",
+      "source": "arXiv cs.AI",
+      "url": "https://arxiv.org/abs/2606.04202",
+      "publishedAt": "2026-06-04T04:00:00.000Z",
+      "impact": 69
+    },
+    {
+      "id": "arxiv-cs.ai-1780545600000-4",
+      "type": "live",
+      "category": "llm",
+      "title": "Consensus is Strategically Insufficient: Reasoning-Trace Disagreement as a Knowledge-Representation Signal",
+      "excerpt": "04223v1 Announce Type: new Abstract: Multi-agent systems are commonly designed to reduce disagreement through voting, consensus protocols, debate, or fault-tolerant aggregation.  We argue that this objective is insuff...",
+      "source": "arXiv cs.AI",
+      "url": "https://arxiv.org/abs/2606.04223",
+      "publishedAt": "2026-06-04T04:00:00.000Z",
+      "impact": 58
+    },
+    {
+      "id": "arxiv-cs.ai-1780545600000-5",
+      "type": "live",
+      "category": "multimodal",
+      "title": "VAMPS: Visual-Assisted Mathematical Problem Solving Benchmark",
+      "excerpt": "04244v1 Announce Type: new Abstract: Multimodal large language models are increasingly capable of complex reasoning, yet their performance often degrades when they must externalize a problem through a tool and then re...",
+      "source": "arXiv cs.AI",
+      "url": "https://arxiv.org/abs/2606.04244",
+      "publishedAt": "2026-06-04T04:00:00.000Z",
+      "impact": 58
+    },
     {
       "id": "aether-grok43",
       "type": "premium",
@@ -11,7 +77,7 @@
       "excerpt": "New model demonstrates 4.2× improvement on multi-step software engineering benchmarks and sustains coherent agent trajectories beyond 110k tokens.",
       "source": "xAI",
       "url": "https://x.ai/blog/grok-4.3",
-      "publishedAt": "2026-06-03T16:22:55.631Z",
+      "publishedAt": "2026-06-03T23:45:02.649Z",
       "impact": 96
     },
     {
@@ -22,7 +88,7 @@
       "excerpt": "Humanoid achieves new milestone in unsupervised operation, performing 1,240 unique tasks across three assembly lines at the BMW South Carolina plant.",
       "source": "Figure AI",
       "url": "https://figure.ai/news/03-milestone",
-      "publishedAt": "2026-06-03T12:22:55.632Z",
+      "publishedAt": "2026-06-03T19:45:02.649Z",
       "impact": 89
     },
     {
@@ -33,74 +99,41 @@
       "excerpt": "Researchers reverse-engineered 312 million features inside the model, including the first clear \"deception circuit\" discovered in a frontier model.",
       "source": "Anthropic",
       "url": "https://anthropic.com/research/claude-4-interp",
-      "publishedAt": "2026-06-03T07:22:55.632Z",
+      "publishedAt": "2026-06-03T14:45:02.649Z",
       "impact": 91
     },
     {
-      "id": "arxiv-cs.ai-1780459200000-0",
+      "id": "hugging-face-1780491311000-0",
       "type": "live",
-      "category": "llm",
-      "title": "Visual Graph Scaffolds for Structural Reasoning in Large Language Models",
-      "excerpt": "02673v1 Announce Type: new Abstract: Graphs have been used to enhance large language models (LLMs) for structured reasoning, mostly as external knowledge sources are provided to models at test time.  In this paper, we...",
-      "source": "arXiv cs.AI",
-      "url": "https://arxiv.org/abs/2606.02673",
-      "publishedAt": "2026-06-03T04:00:00.000Z",
-      "impact": 58
+      "category": "research",
+      "title": "Direct Preference Optimization Beyond Chatbots",
+      "excerpt": "New development from the frontier.",
+      "source": "Hugging Face",
+      "url": "https://huggingface.co/blog/Dharma-AI/direct-preference-optimization-beyond-chatbots",
+      "publishedAt": "2026-06-03T12:55:11.000Z",
+      "impact": 75
     },
     {
-      "id": "arxiv-cs.ai-1780459200000-1",
+      "id": "hugging-face-1780444800000-1",
       "type": "live",
-      "category": "robotics",
-      "title": "AURA: Action-Gated Memory for Robot Policies at Constant VRAM",
-      "excerpt": "02775v1 Announce Type: new Abstract: The KV-cache is the right memory for datacenters but the wrong memory for robots.  Datacenter inference batches many short requests and resets them, amortizing an attention cache a...",
-      "source": "arXiv cs.AI",
-      "url": "https://arxiv.org/abs/2606.02775",
-      "publishedAt": "2026-06-03T04:00:00.000Z",
-      "impact": 58
+      "category": "research",
+      "title": "Adding MCP Tools to Reachy Mini",
+      "excerpt": "New development from the frontier.",
+      "source": "Hugging Face",
+      "url": "https://huggingface.co/blog/adding-mcp-tools-to-reachy-mini",
+      "publishedAt": "2026-06-03T00:00:00.000Z",
+      "impact": 75
     },
     {
-      "id": "arxiv-cs.ai-1780459200000-2",
+      "id": "hugging-face-1780409603000-2",
       "type": "live",
-      "category": "safety",
-      "title": "Evaluating Transformer and LSTM Frameworks for Prediction in Ungauged Basins",
-      "excerpt": "02791v1 Announce Type: new Abstract: Watershed networks exhibit convergent topologies in which multiple tributaries merge into downstream channels,integrating diverse upstream hydrological processes.  In ungauged basi...",
-      "source": "arXiv cs.AI",
-      "url": "https://arxiv.org/abs/2606.02791",
-      "publishedAt": "2026-06-03T04:00:00.000Z",
-      "impact": 58
-    },
-    {
-      "id": "arxiv-cs.ai-1780459200000-3",
-      "type": "live",
-      "category": "llm",
-      "title": "BehaviorBench: Modeling Real-World User Decisions from Behavioral Traces",
-      "excerpt": "02798v1 Announce Type: new Abstract: Many decision-support settings require systems that adapt to individual users, but evaluation data for this problem remain limited.  Existing benchmarks for user understanding ofte...",
-      "source": "arXiv cs.AI",
-      "url": "https://arxiv.org/abs/2606.02798",
-      "publishedAt": "2026-06-03T04:00:00.000Z",
-      "impact": 58
-    },
-    {
-      "id": "arxiv-cs.ai-1780459200000-4",
-      "type": "live",
-      "category": "safety",
-      "title": "ChatHealthAI: Aligning Electronic Health Record Representations with Large Language Models for Grounded Clinical Reasoning",
-      "excerpt": "02802v1 Announce Type: new Abstract: Large language models (LLMs) exhibit strong natural-language reasoning abilities for clinical decision support, but struggle to effectively model structured longitudinal electronic...",
-      "source": "arXiv cs.AI",
-      "url": "https://arxiv.org/abs/2606.02802",
-      "publishedAt": "2026-06-03T04:00:00.000Z",
-      "impact": 58
-    },
-    {
-      "id": "arxiv-cs.ai-1780459200000-5",
-      "type": "live",
-      "category": "multimodal",
-      "title": "Traj-Evolve: A Self-Evolving Multi-Agent System for Patient Trajectory Modeling in Lung Cancer Early Detection",
-      "excerpt": "02812v1 Announce Type: new Abstract: Modeling patient trajectories from longitudinal electronic health records (EHRs) requires reasoning over sparse, noisy, and long-context multimodal sequences.  Existing LLM-based m...",
-      "source": "arXiv cs.AI",
-      "url": "https://arxiv.org/abs/2606.02812",
-      "publishedAt": "2026-06-03T04:00:00.000Z",
-      "impact": 69
+      "category": "research",
+      "title": "Holo3.1: Fast & Local Computer Use Agents",
+      "excerpt": "New development from the frontier.",
+      "source": "Hugging Face",
+      "url": "https://huggingface.co/blog/Hcompany/holo31",
+      "publishedAt": "2026-06-02T14:13:23.000Z",
+      "impact": 87
     }
   ]
 }

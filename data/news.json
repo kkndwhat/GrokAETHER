@@ -1,8 +1,19 @@
 {
-  "lastUpdated": "2026-06-05T10:02:43.080Z",
+  "lastUpdated": "2026-06-05T15:17:16.785Z",
   "source": "AETHER + Public RSS (arXiv, Hugging Face, MarkTechPost, Ben's Bites)",
   "count": 16,
   "articles": [
+    {
+      "id": "marktechpost-1780654992000-0",
+      "type": "live",
+      "category": "llm",
+      "title": "NVIDIA AI Releases Dynamo Snapshot: A CRIU-Based Fast Startup System for AI Inference on Kubernetes",
+      "excerpt": "NVIDIA Dynamo Snapshot checkpoints and restores vLLM inference workers on Kubernetes using CRIU and cuda-checkpoint tools.  The post NVIDIA AI Releases Dynamo Snapshot: A CRIU-Based Fast Startup System for AI Inferenc...",
+      "source": "MarkTechPost",
+      "url": "https://www.marktechpost.com/2026/06/05/nvidia-ai-releases-dynamo-snapshot-a-criu-based-fast-startup-system-for-ai-inference-on-kubernetes/",
+      "publishedAt": "2026-06-05T10:23:12.000Z",
+      "impact": 65
+    },
     {
       "id": "aether-grok43",
       "type": "premium",
@@ -11,8 +22,52 @@
       "excerpt": "New model demonstrates 4.2× improvement on multi-step software engineering benchmarks and sustains coherent agent trajectories beyond 110k tokens.",
       "source": "xAI",
       "url": "https://x.ai/blog/grok-4.3",
-      "publishedAt": "2026-06-05T05:02:42.679Z",
+      "publishedAt": "2026-06-05T10:17:15.582Z",
       "impact": 96
+    },
+    {
+      "id": "marktechpost-1780652679000-1",
+      "type": "live",
+      "category": "llm",
+      "title": "Perplexity AI Introduces Hybrid Local-Server Inference Orchestrator for Personal Computer: Automatic On-Device and Cloud Task Routing",
+      "excerpt": "Perplexity AI announces a hybrid local-server inference orchestrator for Personal Computer, automatically routing AI tasks between on-device and cloud models.  The post Perplexity AI Introduces Hybrid Local-Server Inf...",
+      "source": "MarkTechPost",
+      "url": "https://www.marktechpost.com/2026/06/05/perplexity-ai-introduces-hybrid-local-server-inference-orchestrator-for-personal-computer-automatic-on-device-and-cloud-task-routing/",
+      "publishedAt": "2026-06-05T09:44:39.000Z",
+      "impact": 65
+    },
+    {
+      "id": "marktechpost-1780650295000-2",
+      "type": "live",
+      "category": "research",
+      "title": "Microsoft Fara Tutorial: Run a Browser-Use Agent in Google Colab with a Mock OpenAI-Compatible Endpoint",
+      "excerpt": "A hands-on guide to running Microsoft Fara in Colab, testing the browser agent loop with a mock endpoint.  The post Microsoft Fara Tutorial: Run a Browser-Use Agent in Google Colab with a Mock OpenAI-Compatible Endpoi...",
+      "source": "MarkTechPost",
+      "url": "https://www.marktechpost.com/2026/06/05/microsoft-fara-tutorial-run-a-browser-use-agent-in-google-colab-with-a-mock-openai-compatible-endpoint/",
+      "publishedAt": "2026-06-05T09:04:55.000Z",
+      "impact": 77
+    },
+    {
+      "id": "marktechpost-1780646866000-3",
+      "type": "live",
+      "category": "research",
+      "title": "15 Best Vibe Coding Tools in 2026 Compared: Pricing, Features, and Best Fit",
+      "excerpt": "Vibe coding turns plain language into working software.  Explore 15 tools shaping how developers build apps in 2026",
+      "source": "MarkTechPost",
+      "url": "https://www.marktechpost.com/2026/06/05/15-best-vibe-coding-tools-in-2026-compared-pricing-features-and-best-fit/",
+      "publishedAt": "2026-06-05T08:07:46.000Z",
+      "impact": 65
+    },
+    {
+      "id": "aether-figure03",
+      "type": "premium",
+      "category": "robotics",
+      "title": "Figure 03 completes 43-hour autonomous factory shift with zero interventions",
+      "excerpt": "Humanoid achieves new milestone in unsupervised operation, performing 1,240 unique tasks across three assembly lines at the BMW South Carolina plant.",
+      "source": "Figure AI",
+      "url": "https://figure.ai/news/03-milestone",
+      "publishedAt": "2026-06-05T06:17:15.582Z",
+      "impact": 89
     },
     {
       "id": "arxiv-cs.ai-1780632000000-0",
@@ -81,39 +136,6 @@
       "impact": 69
     },
     {
-      "id": "aether-figure03",
-      "type": "premium",
-      "category": "robotics",
-      "title": "Figure 03 completes 43-hour autonomous factory shift with zero interventions",
-      "excerpt": "Humanoid achieves new milestone in unsupervised operation, performing 1,240 unique tasks across three assembly lines at the BMW South Carolina plant.",
-      "source": "Figure AI",
-      "url": "https://figure.ai/news/03-milestone",
-      "publishedAt": "2026-06-05T01:02:42.679Z",
-      "impact": 89
-    },
-    {
-      "id": "marktechpost-1780611850000-0",
-      "type": "live",
-      "category": "research",
-      "title": "Building a Semantic Search Engine and Open-Status Classifier over the ResearchMath-14k Dataset",
-      "excerpt": "This tutorial walks through a complete NLP pipeline for research-level mathematics.  Using the ResearchMath-14k dataset, we extract field-specific keywords with TF-IDF, generate sentence embeddings, visualize the prob...",
-      "source": "MarkTechPost",
-      "url": "https://www.marktechpost.com/2026/06/04/building-a-semantic-search-engine-and-open-status-classifier-over-the-researchmath-14k-dataset/",
-      "publishedAt": "2026-06-04T22:24:10.000Z",
-      "impact": 65
-    },
-    {
-      "id": "marktechpost-1780609348000-1",
-      "type": "live",
-      "category": "llm",
-      "title": "NVIDIA AI Releases Nemotron 3 Ultra: An Open 550B Mixture-of-Experts Hybrid Mamba-Transformer for Long-Running Agents",
-      "excerpt": "NVIDIA has released Nemotron 3 Ultra, a 550B total (55B active) open Mixture-of-Experts hybrid Mamba-Transformer for long-running agents.  It pairs a 1M-token context with up to ~6x higher inference throughput than co...",
-      "source": "MarkTechPost",
-      "url": "https://www.marktechpost.com/2026/06/04/nvidia-ai-releases-nemotron-3-ultra-an-open-550b-mixture-of-experts-hybrid-mamba-transformer-for-long-running-agents/",
-      "publishedAt": "2026-06-04T21:42:28.000Z",
-      "impact": 77
-    },
-    {
       "id": "aether-interp",
       "type": "premium",
       "category": "safety",
@@ -121,7 +143,7 @@
       "excerpt": "Researchers reverse-engineered 312 million features inside the model, including the first clear \"deception circuit\" discovered in a frontier model.",
       "source": "Anthropic",
       "url": "https://anthropic.com/research/claude-4-interp",
-      "publishedAt": "2026-06-04T20:02:42.679Z",
+      "publishedAt": "2026-06-05T01:17:15.582Z",
       "impact": 91
     },
     {
@@ -145,28 +167,6 @@
       "url": "https://huggingface.co/blog/ServiceNow-AI/eva-bench-data",
       "publishedAt": "2026-06-04T12:24:58.000Z",
       "impact": 75
-    },
-    {
-      "id": "marktechpost-1780560665000-2",
-      "type": "live",
-      "category": "multimodal",
-      "title": "Miso Labs Releases MisoTTS: An 8B Emotive Text-to-Speech Model with Open Weights",
-      "excerpt": "Miso Labs has released MisoTTS, an open-weights 8B text-to-speech model.  It uses residual vector quantization (RVQ) to scale its sonic range without scaling parameters, and conditions on both text and audio context t...",
-      "source": "MarkTechPost",
-      "url": "https://www.marktechpost.com/2026/06/04/miso-labs-releases-misotts-an-8b-emotive-text-to-speech-model-with-open-weights/",
-      "publishedAt": "2026-06-04T08:11:05.000Z",
-      "impact": 65
-    },
-    {
-      "id": "marktechpost-1780554190000-3",
-      "type": "live",
-      "category": "llm",
-      "title": "Meet OpenJarvis: A Local-First Framework for On-Device Personal AI Agents with Tools, Memory, and Learning",
-      "excerpt": "Stanford researchers released OpenJarvis, an open-source framework that runs inference, agents, memory, and learning entirely on-device.  It decomposes a personal AI system into five composable primitives — Intelligen...",
-      "source": "MarkTechPost",
-      "url": "https://www.marktechpost.com/2026/06/03/meet-openjarvis-a-local-first-framework-for-on-device-personal-ai-agents-with-tools-memory-and-learning/",
-      "publishedAt": "2026-06-04T06:23:10.000Z",
-      "impact": 77
     },
     {
       "id": "hugging-face-1780531200000-2",

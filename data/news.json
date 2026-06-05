@@ -1,8 +1,118 @@
 {
-  "lastUpdated": "2026-06-04T20:12:12.304Z",
+  "lastUpdated": "2026-06-05T04:19:35.074Z",
   "source": "AETHER + Public RSS (arXiv, Hugging Face, MarkTechPost, Ben's Bites)",
   "count": 16,
   "articles": [
+    {
+      "id": "arxiv-cs.ai-1780632000000-0",
+      "type": "live",
+      "category": "safety",
+      "title": "How Far Did They Go? The Persuasive Tactics of Covert LLM Agents in a Discontinued Field Experiment",
+      "excerpt": "05256v1 Announce Type: new Abstract: This study analyzes a publicly released dataset from a discontinued field experiment on Reddit's r/ChangeMyView.  The intervention, conducted by unknown, external researchers and h...",
+      "source": "arXiv cs.AI",
+      "url": "https://arxiv.org/abs/2606.05256",
+      "publishedAt": "2026-06-05T04:00:00.000Z",
+      "impact": 69
+    },
+    {
+      "id": "arxiv-cs.ai-1780632000000-1",
+      "type": "live",
+      "category": "llm",
+      "title": "What Should Agents Say? Action-state Communication for Efficient Multi-Agent Systems",
+      "excerpt": "05304v1 Announce Type: new Abstract: Multi-agent systems (MAS) built on large language models are typically organized around roles, pipelines, and turn schedules, while the content that agents pass to one another is o...",
+      "source": "arXiv cs.AI",
+      "url": "https://arxiv.org/abs/2606.05304",
+      "publishedAt": "2026-06-05T04:00:00.000Z",
+      "impact": 69
+    },
+    {
+      "id": "arxiv-cs.ai-1780632000000-2",
+      "type": "live",
+      "category": "safety",
+      "title": "I Know What You Meme, Even If it Emerged Today: Understanding Evolving Memes through Open-World Knowledge Acquisition",
+      "excerpt": "05316v1 Announce Type: new Abstract: Multimodal memes are dynamic and often require up to date background knowledge for interpretation.  Existing methods often overlook such knowledge or rely on fixed parametric knowl...",
+      "source": "arXiv cs.AI",
+      "url": "https://arxiv.org/abs/2606.05316",
+      "publishedAt": "2026-06-05T04:00:00.000Z",
+      "impact": 58
+    },
+    {
+      "id": "arxiv-cs.ai-1780632000000-3",
+      "type": "live",
+      "category": "llm",
+      "title": "GITCO: Gated Inference-Time Context Optimization in TSFMs",
+      "excerpt": "05332v1 Announce Type: new Abstract: Patch-based Time Series Foundation Models (TSFMs) suffer from context poisoning: structurally anomalous patches capture disproportionate attention and silently degrade zero-shot fo...",
+      "source": "arXiv cs.AI",
+      "url": "https://arxiv.org/abs/2606.05332",
+      "publishedAt": "2026-06-05T04:00:00.000Z",
+      "impact": 58
+    },
+    {
+      "id": "arxiv-cs.ai-1780632000000-4",
+      "type": "live",
+      "category": "llm",
+      "title": "Uncertainty Aware Functional Behavior Prediction and Material Fatigue Assessment for Circular Factory",
+      "excerpt": "05334v1 Announce Type: new Abstract: Returned products in circular factories re-enter production with heterogeneous degradation states, usage histories, and remaining capability.  Reuse cannot be decided from the curr...",
+      "source": "arXiv cs.AI",
+      "url": "https://arxiv.org/abs/2606.05334",
+      "publishedAt": "2026-06-05T04:00:00.000Z",
+      "impact": 58
+    },
+    {
+      "id": "arxiv-cs.ai-1780632000000-5",
+      "type": "live",
+      "category": "llm",
+      "title": "SentinelBench: A Benchmark for Long-Running Monitoring Agents",
+      "excerpt": "05342v1 Announce Type: new Abstract: AI agents are increasingly asked to carry out work that spans minutes, hours, or longer.  Yet the default model of agent behavior is continuous action: issuing tool calls, refreshi...",
+      "source": "arXiv cs.AI",
+      "url": "https://arxiv.org/abs/2606.05342",
+      "publishedAt": "2026-06-05T04:00:00.000Z",
+      "impact": 69
+    },
+    {
+      "id": "aether-grok43",
+      "type": "premium",
+      "category": "llm",
+      "title": "xAI releases Grok-4.3 with native long-horizon agent scaffolding",
+      "excerpt": "New model demonstrates 4.2× improvement on multi-step software engineering benchmarks and sustains coherent agent trajectories beyond 110k tokens.",
+      "source": "xAI",
+      "url": "https://x.ai/blog/grok-4.3",
+      "publishedAt": "2026-06-04T23:19:33.983Z",
+      "impact": 96
+    },
+    {
+      "id": "marktechpost-1780611850000-0",
+      "type": "live",
+      "category": "research",
+      "title": "Building a Semantic Search Engine and Open-Status Classifier over the ResearchMath-14k Dataset",
+      "excerpt": "This tutorial walks through a complete NLP pipeline for research-level mathematics.  Using the ResearchMath-14k dataset, we extract field-specific keywords with TF-IDF, generate sentence embeddings, visualize the prob...",
+      "source": "MarkTechPost",
+      "url": "https://www.marktechpost.com/2026/06/04/building-a-semantic-search-engine-and-open-status-classifier-over-the-researchmath-14k-dataset/",
+      "publishedAt": "2026-06-04T22:24:10.000Z",
+      "impact": 65
+    },
+    {
+      "id": "marktechpost-1780609348000-1",
+      "type": "live",
+      "category": "llm",
+      "title": "NVIDIA AI Releases Nemotron 3 Ultra: An Open 550B Mixture-of-Experts Hybrid Mamba-Transformer for Long-Running Agents",
+      "excerpt": "NVIDIA has released Nemotron 3 Ultra, a 550B total (55B active) open Mixture-of-Experts hybrid Mamba-Transformer for long-running agents.  It pairs a 1M-token context with up to ~6x higher inference throughput than co...",
+      "source": "MarkTechPost",
+      "url": "https://www.marktechpost.com/2026/06/04/nvidia-ai-releases-nemotron-3-ultra-an-open-550b-mixture-of-experts-hybrid-mamba-transformer-for-long-running-agents/",
+      "publishedAt": "2026-06-04T21:42:28.000Z",
+      "impact": 77
+    },
+    {
+      "id": "aether-figure03",
+      "type": "premium",
+      "category": "robotics",
+      "title": "Figure 03 completes 43-hour autonomous factory shift with zero interventions",
+      "excerpt": "Humanoid achieves new milestone in unsupervised operation, performing 1,240 unique tasks across three assembly lines at the BMW South Carolina plant.",
+      "source": "Figure AI",
+      "url": "https://figure.ai/news/03-milestone",
+      "publishedAt": "2026-06-04T19:19:33.983Z",
+      "impact": 89
+    },
     {
       "id": "hugging-face-1780599465000-0",
       "type": "live",
@@ -15,15 +125,15 @@
       "impact": 75
     },
     {
-      "id": "aether-grok43",
+      "id": "aether-interp",
       "type": "premium",
-      "category": "llm",
-      "title": "xAI releases Grok-4.3 with native long-horizon agent scaffolding",
-      "excerpt": "New model demonstrates 4.2× improvement on multi-step software engineering benchmarks and sustains coherent agent trajectories beyond 110k tokens.",
-      "source": "xAI",
-      "url": "https://x.ai/blog/grok-4.3",
-      "publishedAt": "2026-06-04T15:12:11.985Z",
-      "impact": 96
+      "category": "safety",
+      "title": "Anthropic publishes unprecedented mechanistic interpretability map of Claude 4",
+      "excerpt": "Researchers reverse-engineered 312 million features inside the model, including the first clear \"deception circuit\" discovered in a frontier model.",
+      "source": "Anthropic",
+      "url": "https://anthropic.com/research/claude-4-interp",
+      "publishedAt": "2026-06-04T14:19:33.983Z",
+      "impact": 91
     },
     {
       "id": "hugging-face-1780575898000-1",
@@ -37,18 +147,7 @@
       "impact": 75
     },
     {
-      "id": "aether-figure03",
-      "type": "premium",
-      "category": "robotics",
-      "title": "Figure 03 completes 43-hour autonomous factory shift with zero interventions",
-      "excerpt": "Humanoid achieves new milestone in unsupervised operation, performing 1,240 unique tasks across three assembly lines at the BMW South Carolina plant.",
-      "source": "Figure AI",
-      "url": "https://figure.ai/news/03-milestone",
-      "publishedAt": "2026-06-04T11:12:11.985Z",
-      "impact": 89
-    },
-    {
-      "id": "marktechpost-1780560665000-0",
+      "id": "marktechpost-1780560665000-2",
       "type": "live",
       "category": "multimodal",
       "title": "Miso Labs Releases MisoTTS: An 8B Emotive Text-to-Speech Model with Open Weights",
@@ -59,7 +158,7 @@
       "impact": 65
     },
     {
-      "id": "marktechpost-1780554190000-1",
+      "id": "marktechpost-1780554190000-3",
       "type": "live",
       "category": "llm",
       "title": "Meet OpenJarvis: A Local-First Framework for On-Device Personal AI Agents with Tools, Memory, and Learning",
@@ -68,83 +167,6 @@
       "url": "https://www.marktechpost.com/2026/06/03/meet-openjarvis-a-local-first-framework-for-on-device-personal-ai-agents-with-tools-memory-and-learning/",
       "publishedAt": "2026-06-04T06:23:10.000Z",
       "impact": 77
-    },
-    {
-      "id": "aether-interp",
-      "type": "premium",
-      "category": "safety",
-      "title": "Anthropic publishes unprecedented mechanistic interpretability map of Claude 4",
-      "excerpt": "Researchers reverse-engineered 312 million features inside the model, including the first clear \"deception circuit\" discovered in a frontier model.",
-      "source": "Anthropic",
-      "url": "https://anthropic.com/research/claude-4-interp",
-      "publishedAt": "2026-06-04T06:12:11.985Z",
-      "impact": 91
-    },
-    {
-      "id": "arxiv-cs.ai-1780545600000-0",
-      "type": "live",
-      "category": "safety",
-      "title": "Toward Pre-Deployment Assurance for Enterprise AI Agents: Ontology-Grounded Simulation and Trust Certification",
-      "excerpt": "04037v1 Announce Type: new Abstract: Pre-deployment verification of enterprise artificial intelligence (AI) agents remains a critical gap between large language model (LLM) capability benchmarking and production deplo...",
-      "source": "arXiv cs.AI",
-      "url": "https://arxiv.org/abs/2606.04037",
-      "publishedAt": "2026-06-04T04:00:00.000Z",
-      "impact": 69
-    },
-    {
-      "id": "arxiv-cs.ai-1780545600000-1",
-      "type": "live",
-      "category": "research",
-      "title": "Stumbling Into AI Emotional Dependence: How Routine AI Interactions Reshape Human Connection",
-      "excerpt": "04150v1 Announce Type: new Abstract: Public discourse and emerging policy typically assume that AI emotional support is a deliberate act: a lonely user consciously seeking comfort from a dedicated companion chatbot.  ...",
-      "source": "arXiv cs.AI",
-      "url": "https://arxiv.org/abs/2606.04150",
-      "publishedAt": "2026-06-04T04:00:00.000Z",
-      "impact": 58
-    },
-    {
-      "id": "arxiv-cs.ai-1780545600000-2",
-      "type": "live",
-      "category": "safety",
-      "title": "Thinking Through Signs: PEEL as a Semiotic Scaffolding for Epistemically Accountable AI-Enabled Research",
-      "excerpt": "04152v1 Announce Type: new Abstract: Large language models are reshaping research practice while quietly eroding researchers epistemic accountability.  This commentary introduces PEEL - Protocols for Epistemically Eng...",
-      "source": "arXiv cs.AI",
-      "url": "https://arxiv.org/abs/2606.04152",
-      "publishedAt": "2026-06-04T04:00:00.000Z",
-      "impact": 69
-    },
-    {
-      "id": "arxiv-cs.ai-1780545600000-3",
-      "type": "live",
-      "category": "safety",
-      "title": "SMAC-Talk: A Natural Language Extension of the StarCraft Multi-Agent Challenge for Large Language Models",
-      "excerpt": "04202v1 Announce Type: new Abstract: As LLMs become more widely deployed, they are increasingly expected to work alongside other AI agents rather than operating in isolation.  Effective coordination in these settings ...",
-      "source": "arXiv cs.AI",
-      "url": "https://arxiv.org/abs/2606.04202",
-      "publishedAt": "2026-06-04T04:00:00.000Z",
-      "impact": 69
-    },
-    {
-      "id": "arxiv-cs.ai-1780545600000-4",
-      "type": "live",
-      "category": "llm",
-      "title": "Consensus is Strategically Insufficient: Reasoning-Trace Disagreement as a Knowledge-Representation Signal",
-      "excerpt": "04223v1 Announce Type: new Abstract: Multi-agent systems are commonly designed to reduce disagreement through voting, consensus protocols, debate, or fault-tolerant aggregation.  We argue that this objective is insuff...",
-      "source": "arXiv cs.AI",
-      "url": "https://arxiv.org/abs/2606.04223",
-      "publishedAt": "2026-06-04T04:00:00.000Z",
-      "impact": 58
-    },
-    {
-      "id": "arxiv-cs.ai-1780545600000-5",
-      "type": "live",
-      "category": "multimodal",
-      "title": "VAMPS: Visual-Assisted Mathematical Problem Solving Benchmark",
-      "excerpt": "04244v1 Announce Type: new Abstract: Multimodal large language models are increasingly capable of complex reasoning, yet their performance often degrades when they must externalize a problem through a tool and then re...",
-      "source": "arXiv cs.AI",
-      "url": "https://arxiv.org/abs/2606.04244",
-      "publishedAt": "2026-06-04T04:00:00.000Z",
-      "impact": 58
     },
     {
       "id": "hugging-face-1780531200000-2",
@@ -156,28 +178,6 @@
       "url": "https://huggingface.co/blog/hf-cli-for-agents",
       "publishedAt": "2026-06-04T00:00:00.000Z",
       "impact": 87
-    },
-    {
-      "id": "marktechpost-1780514107000-2",
-      "type": "live",
-      "category": "research",
-      "title": "How to Build a Document Intelligence Backend with iii Using Workers, Functions, and Cron Triggers",
-      "excerpt": "We build a document intelligence backend with iii by registering modular functions and reusing them across multiple triggers.  The post How to Build a Document Intelligence Backend with iii Using Workers, Functions, a...",
-      "source": "MarkTechPost",
-      "url": "https://www.marktechpost.com/2026/06/03/how-to-build-a-document-intelligence-backend-with-iii-using-workers-functions-and-cron-triggers/",
-      "publishedAt": "2026-06-03T19:15:07.000Z",
-      "impact": 65
-    },
-    {
-      "id": "marktechpost-1780512401000-3",
-      "type": "live",
-      "category": "multimodal",
-      "title": "Google DeepMind Releases Gemma 4 12B: An Encoder-Free Multimodal Model with Native audio that runs on a 16 GB laptop",
-      "excerpt": "Gemma 4 12B feeds vision and audio straight into the LLM backbone, running locally under an Apache 2.  The post Google DeepMind Releases Gemma 4 12B: An Encoder-Free Multimodal Model with Native audio that runs on a 1...",
-      "source": "MarkTechPost",
-      "url": "https://www.marktechpost.com/2026/06/03/google-deepmind-releases-gemma-4-12b-an-encoder-free-multimodal-model-with-native-audio-that-runs-on-a-16-gb-laptop/",
-      "publishedAt": "2026-06-03T18:46:41.000Z",
-      "impact": 65
     }
   ]
 }

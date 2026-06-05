@@ -1,19 +1,8 @@
 {
-  "lastUpdated": "2026-06-05T15:17:16.785Z",
+  "lastUpdated": "2026-06-05T20:02:23.680Z",
   "source": "AETHER + Public RSS (arXiv, Hugging Face, MarkTechPost, Ben's Bites)",
-  "count": 16,
+  "count": 9,
   "articles": [
-    {
-      "id": "marktechpost-1780654992000-0",
-      "type": "live",
-      "category": "llm",
-      "title": "NVIDIA AI Releases Dynamo Snapshot: A CRIU-Based Fast Startup System for AI Inference on Kubernetes",
-      "excerpt": "NVIDIA Dynamo Snapshot checkpoints and restores vLLM inference workers on Kubernetes using CRIU and cuda-checkpoint tools.  The post NVIDIA AI Releases Dynamo Snapshot: A CRIU-Based Fast Startup System for AI Inferenc...",
-      "source": "MarkTechPost",
-      "url": "https://www.marktechpost.com/2026/06/05/nvidia-ai-releases-dynamo-snapshot-a-criu-based-fast-startup-system-for-ai-inference-on-kubernetes/",
-      "publishedAt": "2026-06-05T10:23:12.000Z",
-      "impact": 65
-    },
     {
       "id": "aether-grok43",
       "type": "premium",
@@ -22,41 +11,8 @@
       "excerpt": "New model demonstrates 4.2× improvement on multi-step software engineering benchmarks and sustains coherent agent trajectories beyond 110k tokens.",
       "source": "xAI",
       "url": "https://x.ai/blog/grok-4.3",
-      "publishedAt": "2026-06-05T10:17:15.582Z",
+      "publishedAt": "2026-06-05T15:02:23.444Z",
       "impact": 96
-    },
-    {
-      "id": "marktechpost-1780652679000-1",
-      "type": "live",
-      "category": "llm",
-      "title": "Perplexity AI Introduces Hybrid Local-Server Inference Orchestrator for Personal Computer: Automatic On-Device and Cloud Task Routing",
-      "excerpt": "Perplexity AI announces a hybrid local-server inference orchestrator for Personal Computer, automatically routing AI tasks between on-device and cloud models.  The post Perplexity AI Introduces Hybrid Local-Server Inf...",
-      "source": "MarkTechPost",
-      "url": "https://www.marktechpost.com/2026/06/05/perplexity-ai-introduces-hybrid-local-server-inference-orchestrator-for-personal-computer-automatic-on-device-and-cloud-task-routing/",
-      "publishedAt": "2026-06-05T09:44:39.000Z",
-      "impact": 65
-    },
-    {
-      "id": "marktechpost-1780650295000-2",
-      "type": "live",
-      "category": "research",
-      "title": "Microsoft Fara Tutorial: Run a Browser-Use Agent in Google Colab with a Mock OpenAI-Compatible Endpoint",
-      "excerpt": "A hands-on guide to running Microsoft Fara in Colab, testing the browser agent loop with a mock endpoint.  The post Microsoft Fara Tutorial: Run a Browser-Use Agent in Google Colab with a Mock OpenAI-Compatible Endpoi...",
-      "source": "MarkTechPost",
-      "url": "https://www.marktechpost.com/2026/06/05/microsoft-fara-tutorial-run-a-browser-use-agent-in-google-colab-with-a-mock-openai-compatible-endpoint/",
-      "publishedAt": "2026-06-05T09:04:55.000Z",
-      "impact": 77
-    },
-    {
-      "id": "marktechpost-1780646866000-3",
-      "type": "live",
-      "category": "research",
-      "title": "15 Best Vibe Coding Tools in 2026 Compared: Pricing, Features, and Best Fit",
-      "excerpt": "Vibe coding turns plain language into working software.  Explore 15 tools shaping how developers build apps in 2026",
-      "source": "MarkTechPost",
-      "url": "https://www.marktechpost.com/2026/06/05/15-best-vibe-coding-tools-in-2026-compared-pricing-features-and-best-fit/",
-      "publishedAt": "2026-06-05T08:07:46.000Z",
-      "impact": 65
     },
     {
       "id": "aether-figure03",
@@ -66,8 +22,19 @@
       "excerpt": "Humanoid achieves new milestone in unsupervised operation, performing 1,240 unique tasks across three assembly lines at the BMW South Carolina plant.",
       "source": "Figure AI",
       "url": "https://figure.ai/news/03-milestone",
-      "publishedAt": "2026-06-05T06:17:15.582Z",
+      "publishedAt": "2026-06-05T11:02:23.444Z",
       "impact": 89
+    },
+    {
+      "id": "aether-interp",
+      "type": "premium",
+      "category": "safety",
+      "title": "Anthropic publishes unprecedented mechanistic interpretability map of Claude 4",
+      "excerpt": "Researchers reverse-engineered 312 million features inside the model, including the first clear \"deception circuit\" discovered in a frontier model.",
+      "source": "Anthropic",
+      "url": "https://anthropic.com/research/claude-4-interp",
+      "publishedAt": "2026-06-05T06:02:23.444Z",
+      "impact": 91
     },
     {
       "id": "arxiv-cs.ai-1780632000000-0",
@@ -134,50 +101,6 @@
       "url": "https://arxiv.org/abs/2606.05342",
       "publishedAt": "2026-06-05T04:00:00.000Z",
       "impact": 69
-    },
-    {
-      "id": "aether-interp",
-      "type": "premium",
-      "category": "safety",
-      "title": "Anthropic publishes unprecedented mechanistic interpretability map of Claude 4",
-      "excerpt": "Researchers reverse-engineered 312 million features inside the model, including the first clear \"deception circuit\" discovered in a frontier model.",
-      "source": "Anthropic",
-      "url": "https://anthropic.com/research/claude-4-interp",
-      "publishedAt": "2026-06-05T01:17:15.582Z",
-      "impact": 91
-    },
-    {
-      "id": "hugging-face-1780599465000-0",
-      "type": "live",
-      "category": "safety",
-      "title": "Nemotron 3.5 Content Safety: Customizable Multimodal Safety for Global Enterprise AI",
-      "excerpt": "New development from the frontier.",
-      "source": "Hugging Face",
-      "url": "https://huggingface.co/blog/nvidia/nemotron-3-5-content-safety",
-      "publishedAt": "2026-06-04T18:57:45.000Z",
-      "impact": 75
-    },
-    {
-      "id": "hugging-face-1780575898000-1",
-      "type": "live",
-      "category": "research",
-      "title": "EVA-Bench Data 2.0: 3 Domains, 121 Tools, 213 Scenarios",
-      "excerpt": "New development from the frontier.",
-      "source": "Hugging Face",
-      "url": "https://huggingface.co/blog/ServiceNow-AI/eva-bench-data",
-      "publishedAt": "2026-06-04T12:24:58.000Z",
-      "impact": 75
-    },
-    {
-      "id": "hugging-face-1780531200000-2",
-      "type": "live",
-      "category": "research",
-      "title": "Designing the hf CLI as an agent-optimized way to work with the Hub",
-      "excerpt": "New development from the frontier.",
-      "source": "Hugging Face",
-      "url": "https://huggingface.co/blog/hf-cli-for-agents",
-      "publishedAt": "2026-06-04T00:00:00.000Z",
-      "impact": 87
     }
   ]
 }

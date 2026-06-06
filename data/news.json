@@ -1,8 +1,74 @@
 {
-  "lastUpdated": "2026-06-05T20:02:23.680Z",
+  "lastUpdated": "2026-06-06T08:41:11.982Z",
   "source": "AETHER + Public RSS (arXiv, Hugging Face, MarkTechPost, Ben's Bites)",
   "count": 9,
   "articles": [
+    {
+      "id": "arxiv-cs.ai-1780718400000-0",
+      "type": "live",
+      "category": "safety",
+      "title": "How Far Did They Go? The Persuasive Tactics of Covert LLM Agents in a Discontinued Field Experiment",
+      "excerpt": "05256v1 Announce Type: new Abstract: This study analyzes a publicly released dataset from a discontinued field experiment on Reddit's r/ChangeMyView.  The intervention, conducted by unknown, external researchers and h...",
+      "source": "arXiv cs.AI",
+      "url": "https://arxiv.org/abs/2606.05256",
+      "publishedAt": "2026-06-06T04:00:00.000Z",
+      "impact": 69
+    },
+    {
+      "id": "arxiv-cs.ai-1780718400000-1",
+      "type": "live",
+      "category": "llm",
+      "title": "What Should Agents Say? Action-state Communication for Efficient Multi-Agent Systems",
+      "excerpt": "05304v1 Announce Type: new Abstract: Multi-agent systems (MAS) built on large language models are typically organized around roles, pipelines, and turn schedules, while the content that agents pass to one another is o...",
+      "source": "arXiv cs.AI",
+      "url": "https://arxiv.org/abs/2606.05304",
+      "publishedAt": "2026-06-06T04:00:00.000Z",
+      "impact": 69
+    },
+    {
+      "id": "arxiv-cs.ai-1780718400000-2",
+      "type": "live",
+      "category": "safety",
+      "title": "I Know What You Meme, Even If it Emerged Today: Understanding Evolving Memes through Open-World Knowledge Acquisition",
+      "excerpt": "05316v1 Announce Type: new Abstract: Multimodal memes are dynamic and often require up to date background knowledge for interpretation.  Existing methods often overlook such knowledge or rely on fixed parametric knowl...",
+      "source": "arXiv cs.AI",
+      "url": "https://arxiv.org/abs/2606.05316",
+      "publishedAt": "2026-06-06T04:00:00.000Z",
+      "impact": 58
+    },
+    {
+      "id": "arxiv-cs.ai-1780718400000-3",
+      "type": "live",
+      "category": "llm",
+      "title": "GITCO: Gated Inference-Time Context Optimization in TSFMs",
+      "excerpt": "05332v1 Announce Type: new Abstract: Patch-based Time Series Foundation Models (TSFMs) suffer from context poisoning: structurally anomalous patches capture disproportionate attention and silently degrade zero-shot fo...",
+      "source": "arXiv cs.AI",
+      "url": "https://arxiv.org/abs/2606.05332",
+      "publishedAt": "2026-06-06T04:00:00.000Z",
+      "impact": 58
+    },
+    {
+      "id": "arxiv-cs.ai-1780718400000-4",
+      "type": "live",
+      "category": "llm",
+      "title": "Uncertainty Aware Functional Behavior Prediction and Material Fatigue Assessment for Circular Factory",
+      "excerpt": "05334v1 Announce Type: new Abstract: Returned products in circular factories re-enter production with heterogeneous degradation states, usage histories, and remaining capability.  Reuse cannot be decided from the curr...",
+      "source": "arXiv cs.AI",
+      "url": "https://arxiv.org/abs/2606.05334",
+      "publishedAt": "2026-06-06T04:00:00.000Z",
+      "impact": 58
+    },
+    {
+      "id": "arxiv-cs.ai-1780718400000-5",
+      "type": "live",
+      "category": "llm",
+      "title": "SentinelBench: A Benchmark for Long-Running Monitoring Agents",
+      "excerpt": "05342v1 Announce Type: new Abstract: AI agents are increasingly asked to carry out work that spans minutes, hours, or longer.  Yet the default model of agent behavior is continuous action: issuing tool calls, refreshi...",
+      "source": "arXiv cs.AI",
+      "url": "https://arxiv.org/abs/2606.05342",
+      "publishedAt": "2026-06-06T04:00:00.000Z",
+      "impact": 69
+    },
     {
       "id": "aether-grok43",
       "type": "premium",
@@ -11,7 +77,7 @@
       "excerpt": "New model demonstrates 4.2× improvement on multi-step software engineering benchmarks and sustains coherent agent trajectories beyond 110k tokens.",
       "source": "xAI",
       "url": "https://x.ai/blog/grok-4.3",
-      "publishedAt": "2026-06-05T15:02:23.444Z",
+      "publishedAt": "2026-06-06T03:41:11.562Z",
       "impact": 96
     },
     {
@@ -22,7 +88,7 @@
       "excerpt": "Humanoid achieves new milestone in unsupervised operation, performing 1,240 unique tasks across three assembly lines at the BMW South Carolina plant.",
       "source": "Figure AI",
       "url": "https://figure.ai/news/03-milestone",
-      "publishedAt": "2026-06-05T11:02:23.444Z",
+      "publishedAt": "2026-06-05T23:41:11.563Z",
       "impact": 89
     },
     {
@@ -33,74 +99,8 @@
       "excerpt": "Researchers reverse-engineered 312 million features inside the model, including the first clear \"deception circuit\" discovered in a frontier model.",
       "source": "Anthropic",
       "url": "https://anthropic.com/research/claude-4-interp",
-      "publishedAt": "2026-06-05T06:02:23.444Z",
+      "publishedAt": "2026-06-05T18:41:11.563Z",
       "impact": 91
-    },
-    {
-      "id": "arxiv-cs.ai-1780632000000-0",
-      "type": "live",
-      "category": "safety",
-      "title": "How Far Did They Go? The Persuasive Tactics of Covert LLM Agents in a Discontinued Field Experiment",
-      "excerpt": "05256v1 Announce Type: new Abstract: This study analyzes a publicly released dataset from a discontinued field experiment on Reddit's r/ChangeMyView.  The intervention, conducted by unknown, external researchers and h...",
-      "source": "arXiv cs.AI",
-      "url": "https://arxiv.org/abs/2606.05256",
-      "publishedAt": "2026-06-05T04:00:00.000Z",
-      "impact": 69
-    },
-    {
-      "id": "arxiv-cs.ai-1780632000000-1",
-      "type": "live",
-      "category": "llm",
-      "title": "What Should Agents Say? Action-state Communication for Efficient Multi-Agent Systems",
-      "excerpt": "05304v1 Announce Type: new Abstract: Multi-agent systems (MAS) built on large language models are typically organized around roles, pipelines, and turn schedules, while the content that agents pass to one another is o...",
-      "source": "arXiv cs.AI",
-      "url": "https://arxiv.org/abs/2606.05304",
-      "publishedAt": "2026-06-05T04:00:00.000Z",
-      "impact": 69
-    },
-    {
-      "id": "arxiv-cs.ai-1780632000000-2",
-      "type": "live",
-      "category": "safety",
-      "title": "I Know What You Meme, Even If it Emerged Today: Understanding Evolving Memes through Open-World Knowledge Acquisition",
-      "excerpt": "05316v1 Announce Type: new Abstract: Multimodal memes are dynamic and often require up to date background knowledge for interpretation.  Existing methods often overlook such knowledge or rely on fixed parametric knowl...",
-      "source": "arXiv cs.AI",
-      "url": "https://arxiv.org/abs/2606.05316",
-      "publishedAt": "2026-06-05T04:00:00.000Z",
-      "impact": 58
-    },
-    {
-      "id": "arxiv-cs.ai-1780632000000-3",
-      "type": "live",
-      "category": "llm",
-      "title": "GITCO: Gated Inference-Time Context Optimization in TSFMs",
-      "excerpt": "05332v1 Announce Type: new Abstract: Patch-based Time Series Foundation Models (TSFMs) suffer from context poisoning: structurally anomalous patches capture disproportionate attention and silently degrade zero-shot fo...",
-      "source": "arXiv cs.AI",
-      "url": "https://arxiv.org/abs/2606.05332",
-      "publishedAt": "2026-06-05T04:00:00.000Z",
-      "impact": 58
-    },
-    {
-      "id": "arxiv-cs.ai-1780632000000-4",
-      "type": "live",
-      "category": "llm",
-      "title": "Uncertainty Aware Functional Behavior Prediction and Material Fatigue Assessment for Circular Factory",
-      "excerpt": "05334v1 Announce Type: new Abstract: Returned products in circular factories re-enter production with heterogeneous degradation states, usage histories, and remaining capability.  Reuse cannot be decided from the curr...",
-      "source": "arXiv cs.AI",
-      "url": "https://arxiv.org/abs/2606.05334",
-      "publishedAt": "2026-06-05T04:00:00.000Z",
-      "impact": 58
-    },
-    {
-      "id": "arxiv-cs.ai-1780632000000-5",
-      "type": "live",
-      "category": "llm",
-      "title": "SentinelBench: A Benchmark for Long-Running Monitoring Agents",
-      "excerpt": "05342v1 Announce Type: new Abstract: AI agents are increasingly asked to carry out work that spans minutes, hours, or longer.  Yet the default model of agent behavior is continuous action: issuing tool calls, refreshi...",
-      "source": "arXiv cs.AI",
-      "url": "https://arxiv.org/abs/2606.05342",
-      "publishedAt": "2026-06-05T04:00:00.000Z",
-      "impact": 69
     }
   ]
 }

@@ -1,8 +1,41 @@
 {
-  "lastUpdated": "2026-06-07T04:38:52.536Z",
+  "lastUpdated": "2026-06-07T09:25:13.511Z",
   "source": "AETHER + Public RSS (arXiv, Hugging Face, MarkTechPost, Ben's Bites)",
-  "count": 6,
+  "count": 10,
   "articles": [
+    {
+      "id": "marktechpost-1780821625000-0",
+      "type": "live",
+      "category": "llm",
+      "title": "Best 21 Low-Code and No-Code AI Tools in 2026",
+      "excerpt": "Low-code and no-code AI platforms now turn a prompt into a working app, agent, or model.  This guide compares 21 tools across app builders, automation, AI agents, and machine learning platforms, each linked to its off...",
+      "source": "MarkTechPost",
+      "url": "https://www.marktechpost.com/2026/06/07/best-21-low-code-and-no-code-ai-tools-in-2026/",
+      "publishedAt": "2026-06-07T08:40:25.000Z",
+      "impact": 65
+    },
+    {
+      "id": "marktechpost-1780813518000-1",
+      "type": "live",
+      "category": "llm",
+      "title": "Meet Harness-1: A 20B Retrieval Subagent Trained With Reinforcement Learning Inside a Stateful Search Harness on gpt-oss-20b",
+      "excerpt": "UIUC and Chroma's Harness-1 is a 20B retrieval subagent trained with reinforcement learning inside a stateful search harness.  The harness maintains the bookkeeping — candidate pool, importance-tagged curated set, evi...",
+      "source": "MarkTechPost",
+      "url": "https://www.marktechpost.com/2026/06/06/meet-harness-1-a-20b-retrieval-subagent-trained-with-reinforcement-learning-inside-a-stateful-search-harness-on-gpt-oss-20b/",
+      "publishedAt": "2026-06-07T06:25:18.000Z",
+      "impact": 77
+    },
+    {
+      "id": "marktechpost-1780809069000-2",
+      "type": "live",
+      "category": "safety",
+      "title": "NVIDIA garak Tutorial: Build a Complete Defensive LLM Red-Teaming Workflow with Custom Probes and Detectors",
+      "excerpt": "This tutorial walks through NVIDIA garak as an end-to-end framework for defensive LLM red-teaming.  It covers setup, plugin discovery, dry runs, real-model scans on a Hugging Face generator, and multi-probe evaluations",
+      "source": "MarkTechPost",
+      "url": "https://www.marktechpost.com/2026/06/06/nvidia-garak-tutorial-build-a-complete-defensive-llm-red-teaming-workflow-with-custom-probes-and-detectors/",
+      "publishedAt": "2026-06-07T05:11:09.000Z",
+      "impact": 65
+    },
     {
       "id": "aether-grok43",
       "type": "premium",
@@ -11,7 +44,7 @@
       "excerpt": "New model demonstrates 4.2× improvement on multi-step software engineering benchmarks and sustains coherent agent trajectories beyond 110k tokens.",
       "source": "xAI",
       "url": "https://x.ai/blog/grok-4.3",
-      "publishedAt": "2026-06-06T23:38:52.245Z",
+      "publishedAt": "2026-06-07T04:25:12.295Z",
       "impact": 96
     },
     {
@@ -22,8 +55,30 @@
       "excerpt": "Humanoid achieves new milestone in unsupervised operation, performing 1,240 unique tasks across three assembly lines at the BMW South Carolina plant.",
       "source": "Figure AI",
       "url": "https://figure.ai/news/03-milestone",
-      "publishedAt": "2026-06-06T19:38:52.245Z",
+      "publishedAt": "2026-06-07T00:25:12.295Z",
       "impact": 89
+    },
+    {
+      "id": "marktechpost-1780783654000-3",
+      "type": "live",
+      "category": "hardware",
+      "title": "Google’s New Colab CLI Lets Developers and AI Agents Run Python on Remote Colab GPUs and TPUs From the Terminal",
+      "excerpt": "Google released the Colab CLI, letting developers and AI agents run local code on remote Colab GPU and TPU runtime The post Google’s New Colab CLI Lets Developers and AI Agents Run Python on Remote Colab GPUs and TPUs...",
+      "source": "MarkTechPost",
+      "url": "https://www.marktechpost.com/2026/06/06/googles-new-colab-cli-lets-developers-and-ai-agents-run-python-on-remote-colab-gpus-and-tpus-from-the-terminal/",
+      "publishedAt": "2026-06-06T22:07:34.000Z",
+      "impact": 77
+    },
+    {
+      "id": "aether-interp",
+      "type": "premium",
+      "category": "safety",
+      "title": "Anthropic publishes unprecedented mechanistic interpretability map of Claude 4",
+      "excerpt": "Researchers reverse-engineered 312 million features inside the model, including the first clear \"deception circuit\" discovered in a frontier model.",
+      "source": "Anthropic",
+      "url": "https://anthropic.com/research/claude-4-interp",
+      "publishedAt": "2026-06-06T19:25:12.295Z",
+      "impact": 91
     },
     {
       "id": "hugging-face-1780772553000-0",
@@ -35,17 +90,6 @@
       "url": "https://huggingface.co/blog/build-small-hackathon/thousand-token-wood-sim-v2",
       "publishedAt": "2026-06-06T19:02:33.000Z",
       "impact": 75
-    },
-    {
-      "id": "aether-interp",
-      "type": "premium",
-      "category": "safety",
-      "title": "Anthropic publishes unprecedented mechanistic interpretability map of Claude 4",
-      "excerpt": "Researchers reverse-engineered 312 million features inside the model, including the first clear \"deception circuit\" discovered in a frontier model.",
-      "source": "Anthropic",
-      "url": "https://anthropic.com/research/claude-4-interp",
-      "publishedAt": "2026-06-06T14:38:52.245Z",
-      "impact": 91
     },
     {
       "id": "hugging-face-1780599465000-1",

@@ -1,8 +1,30 @@
 {
-  "lastUpdated": "2026-06-07T09:25:13.511Z",
+  "lastUpdated": "2026-06-07T14:06:59.579Z",
   "source": "AETHER + Public RSS (arXiv, Hugging Face, MarkTechPost, Ben's Bites)",
   "count": 10,
   "articles": [
+    {
+      "id": "hugging-face-1780832334000-0",
+      "type": "live",
+      "category": "research",
+      "title": "Sponsors especially OPENAI CODEX voucher usage for codex - openAI challange",
+      "excerpt": "New development from the frontier.",
+      "source": "Hugging Face",
+      "url": "https://huggingface.co/blog/build-small-hackathon/sponsors-vouchers",
+      "publishedAt": "2026-06-07T11:38:54.000Z",
+      "impact": 75
+    },
+    {
+      "id": "aether-grok43",
+      "type": "premium",
+      "category": "llm",
+      "title": "xAI releases Grok-4.3 with native long-horizon agent scaffolding",
+      "excerpt": "New model demonstrates 4.2× improvement on multi-step software engineering benchmarks and sustains coherent agent trajectories beyond 110k tokens.",
+      "source": "xAI",
+      "url": "https://x.ai/blog/grok-4.3",
+      "publishedAt": "2026-06-07T09:06:59.037Z",
+      "impact": 96
+    },
     {
       "id": "marktechpost-1780821625000-0",
       "type": "live",
@@ -37,17 +59,6 @@
       "impact": 65
     },
     {
-      "id": "aether-grok43",
-      "type": "premium",
-      "category": "llm",
-      "title": "xAI releases Grok-4.3 with native long-horizon agent scaffolding",
-      "excerpt": "New model demonstrates 4.2× improvement on multi-step software engineering benchmarks and sustains coherent agent trajectories beyond 110k tokens.",
-      "source": "xAI",
-      "url": "https://x.ai/blog/grok-4.3",
-      "publishedAt": "2026-06-07T04:25:12.295Z",
-      "impact": 96
-    },
-    {
       "id": "aether-figure03",
       "type": "premium",
       "category": "robotics",
@@ -55,8 +66,19 @@
       "excerpt": "Humanoid achieves new milestone in unsupervised operation, performing 1,240 unique tasks across three assembly lines at the BMW South Carolina plant.",
       "source": "Figure AI",
       "url": "https://figure.ai/news/03-milestone",
-      "publishedAt": "2026-06-07T00:25:12.295Z",
+      "publishedAt": "2026-06-07T05:06:59.038Z",
       "impact": 89
+    },
+    {
+      "id": "aether-interp",
+      "type": "premium",
+      "category": "safety",
+      "title": "Anthropic publishes unprecedented mechanistic interpretability map of Claude 4",
+      "excerpt": "Researchers reverse-engineered 312 million features inside the model, including the first clear \"deception circuit\" discovered in a frontier model.",
+      "source": "Anthropic",
+      "url": "https://anthropic.com/research/claude-4-interp",
+      "publishedAt": "2026-06-07T00:06:59.038Z",
+      "impact": 91
     },
     {
       "id": "marktechpost-1780783654000-3",
@@ -68,28 +90,6 @@
       "url": "https://www.marktechpost.com/2026/06/06/googles-new-colab-cli-lets-developers-and-ai-agents-run-python-on-remote-colab-gpus-and-tpus-from-the-terminal/",
       "publishedAt": "2026-06-06T22:07:34.000Z",
       "impact": 77
-    },
-    {
-      "id": "aether-interp",
-      "type": "premium",
-      "category": "safety",
-      "title": "Anthropic publishes unprecedented mechanistic interpretability map of Claude 4",
-      "excerpt": "Researchers reverse-engineered 312 million features inside the model, including the first clear \"deception circuit\" discovered in a frontier model.",
-      "source": "Anthropic",
-      "url": "https://anthropic.com/research/claude-4-interp",
-      "publishedAt": "2026-06-06T19:25:12.295Z",
-      "impact": 91
-    },
-    {
-      "id": "hugging-face-1780772553000-0",
-      "type": "live",
-      "category": "llm",
-      "title": "Five labs, five minds: building a multi-model finance drama on small models",
-      "excerpt": "New development from the frontier.",
-      "source": "Hugging Face",
-      "url": "https://huggingface.co/blog/build-small-hackathon/thousand-token-wood-sim-v2",
-      "publishedAt": "2026-06-06T19:02:33.000Z",
-      "impact": 75
     },
     {
       "id": "hugging-face-1780599465000-1",

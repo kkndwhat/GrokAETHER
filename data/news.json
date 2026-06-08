@@ -1,18 +1,73 @@
 {
-  "lastUpdated": "2026-06-07T19:40:55.337Z",
+  "lastUpdated": "2026-06-08T04:44:10.057Z",
   "source": "AETHER + Public RSS (arXiv, Hugging Face, MarkTechPost, Ben's Bites)",
-  "count": 6,
+  "count": 16,
   "articles": [
     {
-      "id": "hugging-face-1780860616000-0",
+      "id": "arxiv-cs.ai-1780891200000-0",
       "type": "live",
-      "category": "multimodal",
-      "title": "Room360: Video-to-3D Spatial Reconstruction Platform",
-      "excerpt": "New development from the frontier.",
-      "source": "Hugging Face",
-      "url": "https://huggingface.co/blog/build-small-hackathon/video-to-3d-spatial-reconstruction-platform",
-      "publishedAt": "2026-06-07T19:30:16.000Z",
-      "impact": 75
+      "category": "research",
+      "title": "Detecting and Mitigating Bias by Treating Fairness as a Symmetry Operation",
+      "excerpt": "06514v1 Announce Type: new Abstract: Machine learning systems deployed in high stakes socioeconomic settings routinely display bias.  We formalize bias as a symmetry breaking operation: a classifier is fair if its out...",
+      "source": "arXiv cs.AI",
+      "url": "https://arxiv.org/abs/2606.06514",
+      "publishedAt": "2026-06-08T04:00:00.000Z",
+      "impact": 58
+    },
+    {
+      "id": "arxiv-cs.ai-1780891200000-1",
+      "type": "live",
+      "category": "llm",
+      "title": "DiBS: Diffusion-Informed Branch Selection",
+      "excerpt": "06518v1 Announce Type: new Abstract: Sudoku is a representative constraint satisfaction problem that requires global structural reasoning under strict discrete constraints.  The existing works of solving Sudoku mainly...",
+      "source": "arXiv cs.AI",
+      "url": "https://arxiv.org/abs/2606.06518",
+      "publishedAt": "2026-06-08T04:00:00.000Z",
+      "impact": 58
+    },
+    {
+      "id": "arxiv-cs.ai-1780891200000-2",
+      "type": "live",
+      "category": "safety",
+      "title": "SafeGene: Reusable Adapters for Transferable Safety Alignment",
+      "excerpt": "06519v1 Announce Type: new Abstract: Open-weight LLMs are increasingly fine-tuned into customized assistants, but downstream fine-tuning can weaken safety alignment and make models more vulnerable to malicious prompts...",
+      "source": "arXiv cs.AI",
+      "url": "https://arxiv.org/abs/2606.06519",
+      "publishedAt": "2026-06-08T04:00:00.000Z",
+      "impact": 58
+    },
+    {
+      "id": "arxiv-cs.ai-1780891200000-3",
+      "type": "live",
+      "category": "llm",
+      "title": "Lean4Agent: Formal Modeling and Verification for Agent Workflow and Trajectory",
+      "excerpt": "06523v1 Announce Type: new Abstract: Equipping Large Language Models (LLMs) to execute reliable multi-step workflows has become a central challenge in artificial intelligence.  Despite recent advances in LLMs' agentic...",
+      "source": "arXiv cs.AI",
+      "url": "https://arxiv.org/abs/2606.06523",
+      "publishedAt": "2026-06-08T04:00:00.000Z",
+      "impact": 69
+    },
+    {
+      "id": "arxiv-cs.ai-1780891200000-4",
+      "type": "live",
+      "category": "llm",
+      "title": "CrowdMath: A Dataset of Crowdsourced Mathematical Research Discussions",
+      "excerpt": "06526v1 Announce Type: new Abstract: Large language models have made substantial progress on mathematical reasoning, but existing benchmarks typically evaluate well-specified problems with final answers, step-by-step ...",
+      "source": "arXiv cs.AI",
+      "url": "https://arxiv.org/abs/2606.06526",
+      "publishedAt": "2026-06-08T04:00:00.000Z",
+      "impact": 58
+    },
+    {
+      "id": "arxiv-cs.ai-1780891200000-5",
+      "type": "live",
+      "category": "safety",
+      "title": "Attack Selection in Agentic AI Control Evaluations Meaningfully Decreases Safety",
+      "excerpt": "06529v1 Announce Type: new Abstract: An attacker that strategically chooses when to attack is much harder to catch than one that attacks indiscriminately.  AI control is a safety framework for deploying capable but un...",
+      "source": "arXiv cs.AI",
+      "url": "https://arxiv.org/abs/2606.06529",
+      "publishedAt": "2026-06-08T04:00:00.000Z",
+      "impact": 69
     },
     {
       "id": "aether-grok43",
@@ -22,8 +77,19 @@
       "excerpt": "New model demonstrates 4.2× improvement on multi-step software engineering benchmarks and sustains coherent agent trajectories beyond 110k tokens.",
       "source": "xAI",
       "url": "https://x.ai/blog/grok-4.3",
-      "publishedAt": "2026-06-07T14:40:54.980Z",
+      "publishedAt": "2026-06-07T23:44:09.285Z",
       "impact": 96
+    },
+    {
+      "id": "hugging-face-1780861467000-0",
+      "type": "live",
+      "category": "research",
+      "title": "Amazing Digital Dentures (a failed project)",
+      "excerpt": "New development from the frontier.",
+      "source": "Hugging Face",
+      "url": "https://huggingface.co/blog/build-small-hackathon/amazingdigitaldentures",
+      "publishedAt": "2026-06-07T19:44:27.000Z",
+      "impact": 75
     },
     {
       "id": "aether-figure03",
@@ -33,8 +99,19 @@
       "excerpt": "Humanoid achieves new milestone in unsupervised operation, performing 1,240 unique tasks across three assembly lines at the BMW South Carolina plant.",
       "source": "Figure AI",
       "url": "https://figure.ai/news/03-milestone",
-      "publishedAt": "2026-06-07T10:40:54.981Z",
+      "publishedAt": "2026-06-07T19:44:09.285Z",
       "impact": 89
+    },
+    {
+      "id": "marktechpost-1780851904000-0",
+      "type": "live",
+      "category": "llm",
+      "title": "Building Reflective Prompt Optimization with GEPA: Multi-Component Prompts, Structured Feedback, and Held-Out Validation",
+      "excerpt": "In this tutorial, we use GEPA as a reflective prompt-evolution framework to improve how a small language model solves multi-step arithmetic word problems.  We start from a weak seed prompt, build a deterministic bench...",
+      "source": "MarkTechPost",
+      "url": "https://www.marktechpost.com/2026/06/07/building-reflective-prompt-optimization-with-gepa-multi-component-prompts-structured-feedback-and-held-out-validation/",
+      "publishedAt": "2026-06-07T17:05:04.000Z",
+      "impact": 65
     },
     {
       "id": "aether-interp",
@@ -44,8 +121,41 @@
       "excerpt": "Researchers reverse-engineered 312 million features inside the model, including the first clear \"deception circuit\" discovered in a frontier model.",
       "source": "Anthropic",
       "url": "https://anthropic.com/research/claude-4-interp",
-      "publishedAt": "2026-06-07T05:40:54.981Z",
+      "publishedAt": "2026-06-07T14:44:09.285Z",
       "impact": 91
+    },
+    {
+      "id": "marktechpost-1780821625000-1",
+      "type": "live",
+      "category": "llm",
+      "title": "Best 21 Low-Code and No-Code AI Tools in 2026",
+      "excerpt": "Low-code and no-code AI platforms now turn a prompt into a working app, agent, or model.  This guide compares 21 tools across app builders, automation, AI agents, and machine learning platforms, each linked to its off...",
+      "source": "MarkTechPost",
+      "url": "https://www.marktechpost.com/2026/06/07/best-21-low-code-and-no-code-ai-tools-in-2026/",
+      "publishedAt": "2026-06-07T08:40:25.000Z",
+      "impact": 65
+    },
+    {
+      "id": "marktechpost-1780813518000-2",
+      "type": "live",
+      "category": "llm",
+      "title": "Meet Harness-1: A 20B Retrieval Subagent Trained With Reinforcement Learning Inside a Stateful Search Harness on gpt-oss-20b",
+      "excerpt": "UIUC and Chroma's Harness-1 is a 20B retrieval subagent trained with reinforcement learning inside a stateful search harness.  The harness maintains the bookkeeping — candidate pool, importance-tagged curated set, evi...",
+      "source": "MarkTechPost",
+      "url": "https://www.marktechpost.com/2026/06/06/meet-harness-1-a-20b-retrieval-subagent-trained-with-reinforcement-learning-inside-a-stateful-search-harness-on-gpt-oss-20b/",
+      "publishedAt": "2026-06-07T06:25:18.000Z",
+      "impact": 77
+    },
+    {
+      "id": "marktechpost-1780809069000-3",
+      "type": "live",
+      "category": "safety",
+      "title": "NVIDIA garak Tutorial: Build a Complete Defensive LLM Red-Teaming Workflow with Custom Probes and Detectors",
+      "excerpt": "This tutorial walks through NVIDIA garak as an end-to-end framework for defensive LLM red-teaming.  It covers setup, plugin discovery, dry runs, real-model scans on a Hugging Face generator, and multi-probe evaluations",
+      "source": "MarkTechPost",
+      "url": "https://www.marktechpost.com/2026/06/06/nvidia-garak-tutorial-build-a-complete-defensive-llm-red-teaming-workflow-with-custom-probes-and-detectors/",
+      "publishedAt": "2026-06-07T05:11:09.000Z",
+      "impact": 65
     },
     {
       "id": "hugging-face-1780599465000-1",

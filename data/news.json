@@ -1,8 +1,96 @@
 {
-  "lastUpdated": "2026-06-08T20:26:03.399Z",
+  "lastUpdated": "2026-06-09T04:05:20.112Z",
   "source": "AETHER + Public RSS (arXiv, Hugging Face, MarkTechPost, Ben's Bites)",
   "count": 16,
   "articles": [
+    {
+      "id": "arxiv-cs.ai-1780977600000-0",
+      "type": "live",
+      "category": "multimodal",
+      "title": "PathoSage: Towards Multi-Source Evidence Adjudication in Pathology via Experience-Aware Agentic Workflow",
+      "excerpt": "07549v1 Announce Type: new Abstract: Recent advances in Multimodal Large Language Models (MLLMs) and agent workflows have shown strong promise for computational pathology, yet reliable patch-level reasoning remains ch...",
+      "source": "arXiv cs.AI",
+      "url": "https://arxiv.org/abs/2606.07549",
+      "publishedAt": "2026-06-09T04:00:00.000Z",
+      "impact": 69
+    },
+    {
+      "id": "arxiv-cs.ai-1780977600000-1",
+      "type": "live",
+      "category": "multimodal",
+      "title": "OmniMem: Perturbation-aware Memory Compression for Streaming Audio-Visual LLMs",
+      "excerpt": "07577v1 Announce Type: new Abstract: Audio-visual large language models (LLMs) hold strong promise for long-form video understanding, yet their long-video inference is fundamentally limited by the linear growth of vid...",
+      "source": "arXiv cs.AI",
+      "url": "https://arxiv.org/abs/2606.07577",
+      "publishedAt": "2026-06-09T04:00:00.000Z",
+      "impact": 58
+    },
+    {
+      "id": "arxiv-cs.ai-1780977600000-2",
+      "type": "live",
+      "category": "multimodal",
+      "title": "Syll: Open-Source Personal Automation with Cross-Surface Execution",
+      "excerpt": "07594v1 Announce Type: new Abstract: Personal AI agents must increasingly operate across APIs, shells, web surfaces, and desktop GUIs, yet many systems remain tuned to a single interface and offer limited support for ...",
+      "source": "arXiv cs.AI",
+      "url": "https://arxiv.org/abs/2606.07594",
+      "publishedAt": "2026-06-09T04:00:00.000Z",
+      "impact": 58
+    },
+    {
+      "id": "arxiv-cs.ai-1780977600000-3",
+      "type": "live",
+      "category": "safety",
+      "title": "A case study of evaluating AI agents on a neuroscience data-to-discovery pipeline",
+      "excerpt": "07718v1 Announce Type: new Abstract: Agentic AI tools offer a promising path to automating software development bottlenecks in scientific research pipelines, particularly for stages that take domain experts days to mo...",
+      "source": "arXiv cs.AI",
+      "url": "https://arxiv.org/abs/2606.07718",
+      "publishedAt": "2026-06-09T04:00:00.000Z",
+      "impact": 69
+    },
+    {
+      "id": "arxiv-cs.ai-1780977600000-4",
+      "type": "live",
+      "category": "llm",
+      "title": "Why Limit the Residual Stream to Layers and Not Tokens? Persistent Memory for Continuous Latent Reasoning",
+      "excerpt": "07720v1 Announce Type: new Abstract: Large language models (LLMs) have demonstrated remarkable reasoning abilities on mathematical and multi-hop planning tasks.  The CoCoNuT (Chain of Continuous Thought) paradigm~\\cit...",
+      "source": "arXiv cs.AI",
+      "url": "https://arxiv.org/abs/2606.07720",
+      "publishedAt": "2026-06-09T04:00:00.000Z",
+      "impact": 58
+    },
+    {
+      "id": "arxiv-cs.ai-1780977600000-5",
+      "type": "live",
+      "category": "llm",
+      "title": "Automatic Extraction of Structured Information from Brain MRI Reports Using an Open-Weight Large Language Model",
+      "excerpt": "07721v1 Announce Type: new Abstract: Objectives: Automatic data extraction from free-text radiology reports enables large-scale research, but few studies assessed the performance of large language models (LLMs) on Dut...",
+      "source": "arXiv cs.AI",
+      "url": "https://arxiv.org/abs/2606.07721",
+      "publishedAt": "2026-06-09T04:00:00.000Z",
+      "impact": 58
+    },
+    {
+      "id": "aether-grok43",
+      "type": "premium",
+      "category": "llm",
+      "title": "xAI releases Grok-4.3 with native long-horizon agent scaffolding",
+      "excerpt": "New model demonstrates 4.2× improvement on multi-step software engineering benchmarks and sustains coherent agent trajectories beyond 110k tokens.",
+      "source": "xAI",
+      "url": "https://x.ai/blog/grok-4.3",
+      "publishedAt": "2026-06-08T23:05:19.788Z",
+      "impact": 96
+    },
+    {
+      "id": "aether-figure03",
+      "type": "premium",
+      "category": "robotics",
+      "title": "Figure 03 completes 43-hour autonomous factory shift with zero interventions",
+      "excerpt": "Humanoid achieves new milestone in unsupervised operation, performing 1,240 unique tasks across three assembly lines at the BMW South Carolina plant.",
+      "source": "Figure AI",
+      "url": "https://figure.ai/news/03-milestone",
+      "publishedAt": "2026-06-08T19:05:19.788Z",
+      "impact": 89
+    },
     {
       "id": "marktechpost-1780945039000-0",
       "type": "live",
@@ -26,26 +114,15 @@
       "impact": 65
     },
     {
-      "id": "aether-grok43",
+      "id": "aether-interp",
       "type": "premium",
-      "category": "llm",
-      "title": "xAI releases Grok-4.3 with native long-horizon agent scaffolding",
-      "excerpt": "New model demonstrates 4.2× improvement on multi-step software engineering benchmarks and sustains coherent agent trajectories beyond 110k tokens.",
-      "source": "xAI",
-      "url": "https://x.ai/blog/grok-4.3",
-      "publishedAt": "2026-06-08T15:26:02.054Z",
-      "impact": 96
-    },
-    {
-      "id": "aether-figure03",
-      "type": "premium",
-      "category": "robotics",
-      "title": "Figure 03 completes 43-hour autonomous factory shift with zero interventions",
-      "excerpt": "Humanoid achieves new milestone in unsupervised operation, performing 1,240 unique tasks across three assembly lines at the BMW South Carolina plant.",
-      "source": "Figure AI",
-      "url": "https://figure.ai/news/03-milestone",
-      "publishedAt": "2026-06-08T11:26:02.054Z",
-      "impact": 89
+      "category": "safety",
+      "title": "Anthropic publishes unprecedented mechanistic interpretability map of Claude 4",
+      "excerpt": "Researchers reverse-engineered 312 million features inside the model, including the first clear \"deception circuit\" discovered in a frontier model.",
+      "source": "Anthropic",
+      "url": "https://anthropic.com/research/claude-4-interp",
+      "publishedAt": "2026-06-08T14:05:19.788Z",
+      "impact": 91
     },
     {
       "id": "marktechpost-1780909009000-2",
@@ -68,83 +145,6 @@
       "url": "https://www.marktechpost.com/2026/06/08/google-research-adds-agentic-rag-to-gemini-enterprise-agent-platform-with-a-sufficient-context-agent-for-multi-hop-queries/",
       "publishedAt": "2026-06-08T08:25:51.000Z",
       "impact": 77
-    },
-    {
-      "id": "aether-interp",
-      "type": "premium",
-      "category": "safety",
-      "title": "Anthropic publishes unprecedented mechanistic interpretability map of Claude 4",
-      "excerpt": "Researchers reverse-engineered 312 million features inside the model, including the first clear \"deception circuit\" discovered in a frontier model.",
-      "source": "Anthropic",
-      "url": "https://anthropic.com/research/claude-4-interp",
-      "publishedAt": "2026-06-08T06:26:02.054Z",
-      "impact": 91
-    },
-    {
-      "id": "arxiv-cs.ai-1780891200000-0",
-      "type": "live",
-      "category": "research",
-      "title": "Detecting and Mitigating Bias by Treating Fairness as a Symmetry Operation",
-      "excerpt": "06514v1 Announce Type: new Abstract: Machine learning systems deployed in high stakes socioeconomic settings routinely display bias.  We formalize bias as a symmetry breaking operation: a classifier is fair if its out...",
-      "source": "arXiv cs.AI",
-      "url": "https://arxiv.org/abs/2606.06514",
-      "publishedAt": "2026-06-08T04:00:00.000Z",
-      "impact": 58
-    },
-    {
-      "id": "arxiv-cs.ai-1780891200000-1",
-      "type": "live",
-      "category": "llm",
-      "title": "DiBS: Diffusion-Informed Branch Selection",
-      "excerpt": "06518v1 Announce Type: new Abstract: Sudoku is a representative constraint satisfaction problem that requires global structural reasoning under strict discrete constraints.  The existing works of solving Sudoku mainly...",
-      "source": "arXiv cs.AI",
-      "url": "https://arxiv.org/abs/2606.06518",
-      "publishedAt": "2026-06-08T04:00:00.000Z",
-      "impact": 58
-    },
-    {
-      "id": "arxiv-cs.ai-1780891200000-2",
-      "type": "live",
-      "category": "safety",
-      "title": "SafeGene: Reusable Adapters for Transferable Safety Alignment",
-      "excerpt": "06519v1 Announce Type: new Abstract: Open-weight LLMs are increasingly fine-tuned into customized assistants, but downstream fine-tuning can weaken safety alignment and make models more vulnerable to malicious prompts...",
-      "source": "arXiv cs.AI",
-      "url": "https://arxiv.org/abs/2606.06519",
-      "publishedAt": "2026-06-08T04:00:00.000Z",
-      "impact": 58
-    },
-    {
-      "id": "arxiv-cs.ai-1780891200000-3",
-      "type": "live",
-      "category": "llm",
-      "title": "Lean4Agent: Formal Modeling and Verification for Agent Workflow and Trajectory",
-      "excerpt": "06523v1 Announce Type: new Abstract: Equipping Large Language Models (LLMs) to execute reliable multi-step workflows has become a central challenge in artificial intelligence.  Despite recent advances in LLMs' agentic...",
-      "source": "arXiv cs.AI",
-      "url": "https://arxiv.org/abs/2606.06523",
-      "publishedAt": "2026-06-08T04:00:00.000Z",
-      "impact": 69
-    },
-    {
-      "id": "arxiv-cs.ai-1780891200000-4",
-      "type": "live",
-      "category": "llm",
-      "title": "CrowdMath: A Dataset of Crowdsourced Mathematical Research Discussions",
-      "excerpt": "06526v1 Announce Type: new Abstract: Large language models have made substantial progress on mathematical reasoning, but existing benchmarks typically evaluate well-specified problems with final answers, step-by-step ...",
-      "source": "arXiv cs.AI",
-      "url": "https://arxiv.org/abs/2606.06526",
-      "publishedAt": "2026-06-08T04:00:00.000Z",
-      "impact": 58
-    },
-    {
-      "id": "arxiv-cs.ai-1780891200000-5",
-      "type": "live",
-      "category": "safety",
-      "title": "Attack Selection in Agentic AI Control Evaluations Meaningfully Decreases Safety",
-      "excerpt": "06529v1 Announce Type: new Abstract: An attacker that strategically chooses when to attack is much harder to catch than one that attacks indiscriminately.  AI control is a safety framework for deploying capable but un...",
-      "source": "arXiv cs.AI",
-      "url": "https://arxiv.org/abs/2606.06529",
-      "publishedAt": "2026-06-08T04:00:00.000Z",
-      "impact": 69
     },
     {
       "id": "hugging-face-1780876800000-0",

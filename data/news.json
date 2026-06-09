@@ -1,18 +1,29 @@
 {
-  "lastUpdated": "2026-06-09T09:56:14.961Z",
+  "lastUpdated": "2026-06-09T15:17:45.562Z",
   "source": "AETHER + Public RSS (arXiv, Hugging Face, MarkTechPost, Ben's Bites)",
   "count": 16,
   "articles": [
     {
-      "id": "hugging-face-1780995898000-0",
+      "id": "hugging-face-1781001979000-0",
       "type": "live",
-      "category": "llm",
-      "title": "NeuroBait: I fine-tuned a model to spark dopamine for ADHD brain",
+      "category": "research",
+      "title": "How an Agent Built a 3D Paris Gallery by Chaining Two Hugging Face Spaces",
       "excerpt": "New development from the frontier.",
       "source": "Hugging Face",
-      "url": "https://huggingface.co/blog/build-small-hackathon/neurobait-adhd",
-      "publishedAt": "2026-06-09T09:04:58.000Z",
-      "impact": 75
+      "url": "https://huggingface.co/blog/mishig/spaces-agents-md",
+      "publishedAt": "2026-06-09T10:46:19.000Z",
+      "impact": 87
+    },
+    {
+      "id": "aether-grok43",
+      "type": "premium",
+      "category": "llm",
+      "title": "xAI releases Grok-4.3 with native long-horizon agent scaffolding",
+      "excerpt": "New model demonstrates 4.2× improvement on multi-step software engineering benchmarks and sustains coherent agent trajectories beyond 110k tokens.",
+      "source": "xAI",
+      "url": "https://x.ai/blog/grok-4.3",
+      "publishedAt": "2026-06-09T10:17:45.005Z",
+      "impact": 96
     },
     {
       "id": "marktechpost-1780994268000-0",
@@ -26,6 +37,17 @@
       "impact": 65
     },
     {
+      "id": "aether-figure03",
+      "type": "premium",
+      "category": "robotics",
+      "title": "Figure 03 completes 43-hour autonomous factory shift with zero interventions",
+      "excerpt": "Humanoid achieves new milestone in unsupervised operation, performing 1,240 unique tasks across three assembly lines at the BMW South Carolina plant.",
+      "source": "Figure AI",
+      "url": "https://figure.ai/news/03-milestone",
+      "publishedAt": "2026-06-09T06:17:45.005Z",
+      "impact": 89
+    },
+    {
       "id": "marktechpost-1780984416000-1",
       "type": "live",
       "category": "research",
@@ -35,17 +57,6 @@
       "url": "https://www.marktechpost.com/2026/06/08/a-new-study-from-harvard-and-perplexity-finds-ai-agents-perform-26-minutes-of-autonomous-work-per-session-vs-33-seconds-for-search/",
       "publishedAt": "2026-06-09T05:53:36.000Z",
       "impact": 77
-    },
-    {
-      "id": "aether-grok43",
-      "type": "premium",
-      "category": "llm",
-      "title": "xAI releases Grok-4.3 with native long-horizon agent scaffolding",
-      "excerpt": "New model demonstrates 4.2× improvement on multi-step software engineering benchmarks and sustains coherent agent trajectories beyond 110k tokens.",
-      "source": "xAI",
-      "url": "https://x.ai/blog/grok-4.3",
-      "publishedAt": "2026-06-09T04:56:13.911Z",
-      "impact": 96
     },
     {
       "id": "arxiv-cs.ai-1780977600000-0",
@@ -114,17 +125,6 @@
       "impact": 58
     },
     {
-      "id": "aether-figure03",
-      "type": "premium",
-      "category": "robotics",
-      "title": "Figure 03 completes 43-hour autonomous factory shift with zero interventions",
-      "excerpt": "Humanoid achieves new milestone in unsupervised operation, performing 1,240 unique tasks across three assembly lines at the BMW South Carolina plant.",
-      "source": "Figure AI",
-      "url": "https://figure.ai/news/03-milestone",
-      "publishedAt": "2026-06-09T00:56:13.911Z",
-      "impact": 89
-    },
-    {
       "id": "aether-interp",
       "type": "premium",
       "category": "safety",
@@ -132,7 +132,7 @@
       "excerpt": "Researchers reverse-engineered 312 million features inside the model, including the first clear \"deception circuit\" discovered in a frontier model.",
       "source": "Anthropic",
       "url": "https://anthropic.com/research/claude-4-interp",
-      "publishedAt": "2026-06-08T19:56:13.911Z",
+      "publishedAt": "2026-06-09T01:17:45.005Z",
       "impact": 91
     },
     {

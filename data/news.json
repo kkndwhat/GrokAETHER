@@ -1,8 +1,85 @@
 {
-  "lastUpdated": "2026-06-09T20:13:25.367Z",
+  "lastUpdated": "2026-06-10T04:16:45.008Z",
   "source": "AETHER + Public RSS (arXiv, Hugging Face, MarkTechPost, Ben's Bites)",
-  "count": 16,
+  "count": 12,
   "articles": [
+    {
+      "id": "arxiv-cs.ai-1781064000000-0",
+      "type": "live",
+      "category": "llm",
+      "title": "Business World Model",
+      "excerpt": "10044v1 Announce Type: new Abstract: Businesses are increasingly adopting AI-enabled tools to improve productivity, reduce costs, and enhance products and services.  However, the transformative potential of AI extends...",
+      "source": "arXiv cs.AI",
+      "url": "https://arxiv.org/abs/2606.10044",
+      "publishedAt": "2026-06-10T04:00:00.000Z",
+      "impact": 58
+    },
+    {
+      "id": "arxiv-cs.ai-1781064000000-1",
+      "type": "live",
+      "category": "llm",
+      "title": "Deployment-Time Memorization in Foundation-Model Agents",
+      "excerpt": "10062v1 Announce Type: new Abstract: Foundation-model agents are increasingly long-lived systems that remember users across interactions, making memorization an explicit deployment-time function rather than solely a p...",
+      "source": "arXiv cs.AI",
+      "url": "https://arxiv.org/abs/2606.10062",
+      "publishedAt": "2026-06-10T04:00:00.000Z",
+      "impact": 69
+    },
+    {
+      "id": "arxiv-cs.ai-1781064000000-2",
+      "type": "live",
+      "category": "llm",
+      "title": "Exploratory Responsiveness and Adaptive Rigidity under AI-Assisted Optimization",
+      "excerpt": "10086v1 Announce Type: new Abstract: This paper develops a theory of exploratory adaptation under AI-assisted optimization.  The central argument is that the long-run adaptive effects of AI systems depend critically o...",
+      "source": "arXiv cs.AI",
+      "url": "https://arxiv.org/abs/2606.10086",
+      "publishedAt": "2026-06-10T04:00:00.000Z",
+      "impact": 58
+    },
+    {
+      "id": "arxiv-cs.ai-1781064000000-3",
+      "type": "live",
+      "category": "llm",
+      "title": "Predictive Assistance and the Temporal Dynamics of Exploratory Compression",
+      "excerpt": "10094v1 Announce Type: new Abstract: Classical theories of cognition describe problem solving as exploratory search through structured problem spaces in which repeated interaction gradually compresses search into effi...",
+      "source": "arXiv cs.AI",
+      "url": "https://arxiv.org/abs/2606.10094",
+      "publishedAt": "2026-06-10T04:00:00.000Z",
+      "impact": 58
+    },
+    {
+      "id": "arxiv-cs.ai-1781064000000-4",
+      "type": "live",
+      "category": "safety",
+      "title": "From Senses to Decisions: The Information Flow of Auditory and Visual Perception in Multimodal LLMs",
+      "excerpt": "10147v1 Announce Type: new Abstract: Multimodal Large Language Models (MLLMs) can listen and see, but how do audio and visual signals actually travel through the network to shape an answer.  Despite their growing role...",
+      "source": "arXiv cs.AI",
+      "url": "https://arxiv.org/abs/2606.10147",
+      "publishedAt": "2026-06-10T04:00:00.000Z",
+      "impact": 58
+    },
+    {
+      "id": "arxiv-cs.ai-1781064000000-5",
+      "type": "live",
+      "category": "llm",
+      "title": "Less Context, Better Agents: Efficient Context Engineering for Long-Horizon Tool-Using LLM Agents",
+      "excerpt": "10209v1 Announce Type: new Abstract: Large language models deployed as autonomous agents for enterprise workflows face a key challenge: verbose tool responses from enterprise systems can cause context overflow, stale-...",
+      "source": "arXiv cs.AI",
+      "url": "https://arxiv.org/abs/2606.10209",
+      "publishedAt": "2026-06-10T04:00:00.000Z",
+      "impact": 69
+    },
+    {
+      "id": "aether-grok43",
+      "type": "premium",
+      "category": "llm",
+      "title": "xAI releases Grok-4.3 with native long-horizon agent scaffolding",
+      "excerpt": "New model demonstrates 4.2× improvement on multi-step software engineering benchmarks and sustains coherent agent trajectories beyond 110k tokens.",
+      "source": "xAI",
+      "url": "https://x.ai/blog/grok-4.3",
+      "publishedAt": "2026-06-09T23:16:44.633Z",
+      "impact": 96
+    },
     {
       "id": "hugging-face-1781033908000-0",
       "type": "live",
@@ -15,28 +92,6 @@
       "impact": 97
     },
     {
-      "id": "marktechpost-1781025851000-0",
-      "type": "live",
-      "category": "multimodal",
-      "title": "Google Releases Gemini 3.5 Live Translate, a Streaming Speech-to-Speech Audio Model Covering 70+ Languages Across Meet, Translate, and the Live API",
-      "excerpt": "5 Live Translate streams speech-to-speech translation across 70+ languages.  It generates audio continuously, staying a few seconds behind the speaker",
-      "source": "MarkTechPost",
-      "url": "https://www.marktechpost.com/2026/06/09/google-releases-gemini-3-5-live-translate-a-streaming-speech-to-speech-audio-model-covering-70-languages-across-meet-translate-and-the-live-api/",
-      "publishedAt": "2026-06-09T17:24:11.000Z",
-      "impact": 65
-    },
-    {
-      "id": "aether-grok43",
-      "type": "premium",
-      "category": "llm",
-      "title": "xAI releases Grok-4.3 with native long-horizon agent scaffolding",
-      "excerpt": "New model demonstrates 4.2× improvement on multi-step software engineering benchmarks and sustains coherent agent trajectories beyond 110k tokens.",
-      "source": "xAI",
-      "url": "https://x.ai/blog/grok-4.3",
-      "publishedAt": "2026-06-09T15:13:24.078Z",
-      "impact": 96
-    },
-    {
       "id": "aether-figure03",
       "type": "premium",
       "category": "robotics",
@@ -44,30 +99,19 @@
       "excerpt": "Humanoid achieves new milestone in unsupervised operation, performing 1,240 unique tasks across three assembly lines at the BMW South Carolina plant.",
       "source": "Figure AI",
       "url": "https://figure.ai/news/03-milestone",
-      "publishedAt": "2026-06-09T11:13:24.078Z",
+      "publishedAt": "2026-06-09T19:16:44.633Z",
       "impact": 89
     },
     {
-      "id": "hugging-face-1781001979000-1",
+      "id": "hugging-face-1781020583000-1",
       "type": "live",
-      "category": "research",
-      "title": "How an Agent Built a 3D Paris Gallery by Chaining Two Hugging Face Spaces",
+      "category": "llm",
+      "title": "Introducing North Mini Code: Cohere’s First Model For Developers",
       "excerpt": "New development from the frontier.",
       "source": "Hugging Face",
-      "url": "https://huggingface.co/blog/mishig/spaces-agents-md",
-      "publishedAt": "2026-06-09T10:46:19.000Z",
-      "impact": 87
-    },
-    {
-      "id": "marktechpost-1780994268000-1",
-      "type": "live",
-      "category": "hardware",
-      "title": "NVIDIA cuTile Python Tutorial: Building Tiled GPU Kernels for Vector Addition, Matrix Addition, and Matrix Multiplication in Colab",
-      "excerpt": "In this tutorial, we implement a hands-on workflow for NVIDIA cuTile Python, a tile-based GPU programming interface for CUDA-style kernels in Python.  We prepare a Colab-friendly environment and check GPU, driver, CUD...",
-      "source": "MarkTechPost",
-      "url": "https://www.marktechpost.com/2026/06/09/nvidia-cutile-python-tutorial-building-tiled-gpu-kernels-for-vector-addition-matrix-addition-and-matrix-multiplication-in-colab/",
-      "publishedAt": "2026-06-09T08:37:48.000Z",
-      "impact": 65
+      "url": "https://huggingface.co/blog/CohereLabs/introducing-north-mini-code",
+      "publishedAt": "2026-06-09T15:56:23.000Z",
+      "impact": 75
     },
     {
       "id": "aether-interp",
@@ -77,106 +121,18 @@
       "excerpt": "Researchers reverse-engineered 312 million features inside the model, including the first clear \"deception circuit\" discovered in a frontier model.",
       "source": "Anthropic",
       "url": "https://anthropic.com/research/claude-4-interp",
-      "publishedAt": "2026-06-09T06:13:24.078Z",
+      "publishedAt": "2026-06-09T14:16:44.633Z",
       "impact": 91
     },
     {
-      "id": "marktechpost-1780984416000-2",
+      "id": "hugging-face-1781001979000-2",
       "type": "live",
       "category": "research",
-      "title": "A New Study from Harvard and Perplexity Finds AI Agents Perform 26 Minutes of Autonomous Work per Session vs 33 Seconds for Search",
-      "excerpt": "A new Harvard and Perplexity paper uses matched-pair sessions to compare an autonomous agent with a search assistant.  It finds large gains in autonomy, time, and cost, plus broader scope of work attempted",
-      "source": "MarkTechPost",
-      "url": "https://www.marktechpost.com/2026/06/08/a-new-study-from-harvard-and-perplexity-finds-ai-agents-perform-26-minutes-of-autonomous-work-per-session-vs-33-seconds-for-search/",
-      "publishedAt": "2026-06-09T05:53:36.000Z",
-      "impact": 77
-    },
-    {
-      "id": "arxiv-cs.ai-1780977600000-0",
-      "type": "live",
-      "category": "multimodal",
-      "title": "PathoSage: Towards Multi-Source Evidence Adjudication in Pathology via Experience-Aware Agentic Workflow",
-      "excerpt": "07549v1 Announce Type: new Abstract: Recent advances in Multimodal Large Language Models (MLLMs) and agent workflows have shown strong promise for computational pathology, yet reliable patch-level reasoning remains ch...",
-      "source": "arXiv cs.AI",
-      "url": "https://arxiv.org/abs/2606.07549",
-      "publishedAt": "2026-06-09T04:00:00.000Z",
-      "impact": 69
-    },
-    {
-      "id": "arxiv-cs.ai-1780977600000-1",
-      "type": "live",
-      "category": "multimodal",
-      "title": "OmniMem: Perturbation-aware Memory Compression for Streaming Audio-Visual LLMs",
-      "excerpt": "07577v1 Announce Type: new Abstract: Audio-visual large language models (LLMs) hold strong promise for long-form video understanding, yet their long-video inference is fundamentally limited by the linear growth of vid...",
-      "source": "arXiv cs.AI",
-      "url": "https://arxiv.org/abs/2606.07577",
-      "publishedAt": "2026-06-09T04:00:00.000Z",
-      "impact": 58
-    },
-    {
-      "id": "arxiv-cs.ai-1780977600000-2",
-      "type": "live",
-      "category": "multimodal",
-      "title": "Syll: Open-Source Personal Automation with Cross-Surface Execution",
-      "excerpt": "07594v1 Announce Type: new Abstract: Personal AI agents must increasingly operate across APIs, shells, web surfaces, and desktop GUIs, yet many systems remain tuned to a single interface and offer limited support for ...",
-      "source": "arXiv cs.AI",
-      "url": "https://arxiv.org/abs/2606.07594",
-      "publishedAt": "2026-06-09T04:00:00.000Z",
-      "impact": 58
-    },
-    {
-      "id": "arxiv-cs.ai-1780977600000-3",
-      "type": "live",
-      "category": "safety",
-      "title": "A case study of evaluating AI agents on a neuroscience data-to-discovery pipeline",
-      "excerpt": "07718v1 Announce Type: new Abstract: Agentic AI tools offer a promising path to automating software development bottlenecks in scientific research pipelines, particularly for stages that take domain experts days to mo...",
-      "source": "arXiv cs.AI",
-      "url": "https://arxiv.org/abs/2606.07718",
-      "publishedAt": "2026-06-09T04:00:00.000Z",
-      "impact": 69
-    },
-    {
-      "id": "arxiv-cs.ai-1780977600000-4",
-      "type": "live",
-      "category": "llm",
-      "title": "Why Limit the Residual Stream to Layers and Not Tokens? Persistent Memory for Continuous Latent Reasoning",
-      "excerpt": "07720v1 Announce Type: new Abstract: Large language models (LLMs) have demonstrated remarkable reasoning abilities on mathematical and multi-hop planning tasks.  The CoCoNuT (Chain of Continuous Thought) paradigm~\\cit...",
-      "source": "arXiv cs.AI",
-      "url": "https://arxiv.org/abs/2606.07720",
-      "publishedAt": "2026-06-09T04:00:00.000Z",
-      "impact": 58
-    },
-    {
-      "id": "arxiv-cs.ai-1780977600000-5",
-      "type": "live",
-      "category": "llm",
-      "title": "Automatic Extraction of Structured Information from Brain MRI Reports Using an Open-Weight Large Language Model",
-      "excerpt": "07721v1 Announce Type: new Abstract: Objectives: Automatic data extraction from free-text radiology reports enables large-scale research, but few studies assessed the performance of large language models (LLMs) on Dut...",
-      "source": "arXiv cs.AI",
-      "url": "https://arxiv.org/abs/2606.07721",
-      "publishedAt": "2026-06-09T04:00:00.000Z",
-      "impact": 58
-    },
-    {
-      "id": "marktechpost-1780945039000-3",
-      "type": "live",
-      "category": "llm",
-      "title": "ClawHub Security Signals: A Coding Guide to End-to-End Security Signal Analysis and Verdict Classification on the AI Skills Dataset",
-      "excerpt": "In this tutorial, we explore the ClawHub Security Signals dataset to see how scanners assess AI skills.  We load the data from the Hugging Face Parquet conversion and inspect verdicts, scanner outputs, and severity la...",
-      "source": "MarkTechPost",
-      "url": "https://www.marktechpost.com/2026/06/08/clawhub-security-signals-a-coding-guide-to-end-to-end-security-signal-analysis-and-verdict-classification-on-the-ai-skills-dataset/",
-      "publishedAt": "2026-06-08T18:57:19.000Z",
-      "impact": 65
-    },
-    {
-      "id": "hugging-face-1780876800000-2",
-      "type": "live",
-      "category": "research",
-      "title": "The Open Source Community is backing OpenEnv for Agentic RL",
+      "title": "How an Agent Built a 3D Paris Gallery by Chaining Two Hugging Face Spaces",
       "excerpt": "New development from the frontier.",
       "source": "Hugging Face",
-      "url": "https://huggingface.co/blog/openenv-agentic-rl",
-      "publishedAt": "2026-06-08T00:00:00.000Z",
+      "url": "https://huggingface.co/blog/mishig/spaces-agents-md",
+      "publishedAt": "2026-06-09T10:46:19.000Z",
       "impact": 87
     }
   ]

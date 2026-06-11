@@ -1,8 +1,63 @@
 {
-  "lastUpdated": "2026-06-11T04:39:29.714Z",
+  "lastUpdated": "2026-06-11T20:29:04.913Z",
   "source": "AETHER + Public RSS (arXiv, Hugging Face, MarkTechPost, Ben's Bites)",
   "count": 16,
   "articles": [
+    {
+      "id": "aether-grok43",
+      "type": "premium",
+      "category": "llm",
+      "title": "xAI releases Grok-4.3 with native long-horizon agent scaffolding",
+      "excerpt": "New model demonstrates 4.2× improvement on multi-step software engineering benchmarks and sustains coherent agent trajectories beyond 110k tokens.",
+      "source": "xAI",
+      "url": "https://x.ai/blog/grok-4.3",
+      "publishedAt": "2026-06-11T15:29:03.596Z",
+      "impact": 96
+    },
+    {
+      "id": "aether-figure03",
+      "type": "premium",
+      "category": "robotics",
+      "title": "Figure 03 completes 43-hour autonomous factory shift with zero interventions",
+      "excerpt": "Humanoid achieves new milestone in unsupervised operation, performing 1,240 unique tasks across three assembly lines at the BMW South Carolina plant.",
+      "source": "Figure AI",
+      "url": "https://figure.ai/news/03-milestone",
+      "publishedAt": "2026-06-11T11:29:03.596Z",
+      "impact": 89
+    },
+    {
+      "id": "marktechpost-1781171632000-0",
+      "type": "live",
+      "category": "llm",
+      "title": "Nous Research Ships Hermes Agent Profile Builder: Identity, Model, Skills, and MCP Servers in One Dashboard Flow",
+      "excerpt": "The Hermes Agent dashboard now builds complete agent profiles in one flow, replacing multi-step CLI setup for users.  The post Nous Research Ships Hermes Agent Profile Builder: Identity, Model, Skills, and MCP Servers...",
+      "source": "MarkTechPost",
+      "url": "https://www.marktechpost.com/2026/06/11/nous-research-ships-hermes-agent-profile-builder-identity-model-skills-and-mcp-servers-in-one-dashboard-flow/",
+      "publishedAt": "2026-06-11T09:53:52.000Z",
+      "impact": 77
+    },
+    {
+      "id": "marktechpost-1781166807000-1",
+      "type": "live",
+      "category": "llm",
+      "title": "Meet ‘North Mini Code’: Cohere’s 30B Open-Weight Mixture-of-Experts Model With 3B Active Parameters for Agentic Coding",
+      "excerpt": "Cohere's first developer coding model is a 30B mixture-of-experts running on a single H100 with 256K context length.  The post Meet ‘North Mini Code’: Cohere’s 30B Open-Weight Mixture-of-Experts Model With 3B Active P...",
+      "source": "MarkTechPost",
+      "url": "https://www.marktechpost.com/2026/06/11/meet-north-mini-code-coheres-30b-open-weight-mixture-of-experts-model-with-3b-active-parameters-for-agentic-coding/",
+      "publishedAt": "2026-06-11T08:33:27.000Z",
+      "impact": 77
+    },
+    {
+      "id": "aether-interp",
+      "type": "premium",
+      "category": "safety",
+      "title": "Anthropic publishes unprecedented mechanistic interpretability map of Claude 4",
+      "excerpt": "Researchers reverse-engineered 312 million features inside the model, including the first clear \"deception circuit\" discovered in a frontier model.",
+      "source": "Anthropic",
+      "url": "https://anthropic.com/research/claude-4-interp",
+      "publishedAt": "2026-06-11T06:29:03.596Z",
+      "impact": 91
+    },
     {
       "id": "arxiv-cs.ai-1781150400000-0",
       "type": "live",
@@ -70,18 +125,18 @@
       "impact": 69
     },
     {
-      "id": "aether-grok43",
-      "type": "premium",
-      "category": "llm",
-      "title": "xAI releases Grok-4.3 with native long-horizon agent scaffolding",
-      "excerpt": "New model demonstrates 4.2× improvement on multi-step software engineering benchmarks and sustains coherent agent trajectories beyond 110k tokens.",
-      "source": "xAI",
-      "url": "https://x.ai/blog/grok-4.3",
-      "publishedAt": "2026-06-10T23:39:28.937Z",
-      "impact": 96
+      "id": "hugging-face-1781136000000-0",
+      "type": "live",
+      "category": "research",
+      "title": "Profiling in PyTorch (Part 2): From nn.Linear to a Fused MLP",
+      "excerpt": "New development from the frontier.",
+      "source": "Hugging Face",
+      "url": "https://huggingface.co/blog/torch-mlp-fusion",
+      "publishedAt": "2026-06-11T00:00:00.000Z",
+      "impact": 75
     },
     {
-      "id": "marktechpost-1781129233000-0",
+      "id": "marktechpost-1781129233000-2",
       "type": "live",
       "category": "robotics",
       "title": "A Coding Implementation on Microsoft SkillOpt for Instrumented Prompt Optimization, Skill Evolution Analysis, and Baseline Comparison",
@@ -92,18 +147,7 @@
       "impact": 65
     },
     {
-      "id": "aether-figure03",
-      "type": "premium",
-      "category": "robotics",
-      "title": "Figure 03 completes 43-hour autonomous factory shift with zero interventions",
-      "excerpt": "Humanoid achieves new milestone in unsupervised operation, performing 1,240 unique tasks across three assembly lines at the BMW South Carolina plant.",
-      "source": "Figure AI",
-      "url": "https://figure.ai/news/03-milestone",
-      "publishedAt": "2026-06-10T19:39:28.937Z",
-      "impact": 89
-    },
-    {
-      "id": "marktechpost-1781117451000-1",
+      "id": "marktechpost-1781117451000-3",
       "type": "live",
       "category": "hardware",
       "title": "Google AI Releases DiffusionGemma, a 26B MoE Open Model Using Text Diffusion for Up to 4x Faster Generation",
@@ -114,40 +158,7 @@
       "impact": 65
     },
     {
-      "id": "aether-interp",
-      "type": "premium",
-      "category": "safety",
-      "title": "Anthropic publishes unprecedented mechanistic interpretability map of Claude 4",
-      "excerpt": "Researchers reverse-engineered 312 million features inside the model, including the first clear \"deception circuit\" discovered in a frontier model.",
-      "source": "Anthropic",
-      "url": "https://anthropic.com/research/claude-4-interp",
-      "publishedAt": "2026-06-10T14:39:28.937Z",
-      "impact": 91
-    },
-    {
-      "id": "marktechpost-1781087057000-2",
-      "type": "live",
-      "category": "multimodal",
-      "title": "Top AI Coding Agents and Development Platforms in 2026: Atoms, Devin, Windsurf, Cursor, Warp, and More Compared",
-      "excerpt": "Software development has changed.  Engineers no longer type most code by hand",
-      "source": "MarkTechPost",
-      "url": "https://www.marktechpost.com/2026/06/10/ai-coding-agents-development-platforms-2026/",
-      "publishedAt": "2026-06-10T10:24:17.000Z",
-      "impact": 77
-    },
-    {
-      "id": "marktechpost-1781079981000-3",
-      "type": "live",
-      "category": "llm",
-      "title": "Anthropic Releases Claude Fable 5 and Claude Mythos 5: Same Underlying Model, Different Safeguards, New Mythos-Class Tier",
-      "excerpt": "Claude Fable 5 ships generally available with classifiers; Mythos 5 stays limited, cyber safeguards lifted, through Project Glasswing.  The post Anthropic Releases Claude Fable 5 and Claude Mythos 5: Same Underlying M...",
-      "source": "MarkTechPost",
-      "url": "https://www.marktechpost.com/2026/06/10/anthropic-releases-claude-fable-5-and-claude-mythos-5-same-underlying-model-different-safeguards-new-mythos-class-tier/",
-      "publishedAt": "2026-06-10T08:26:21.000Z",
-      "impact": 65
-    },
-    {
-      "id": "hugging-face-1781033908000-0",
+      "id": "hugging-face-1781033908000-1",
       "type": "live",
       "category": "research",
       "title": "Can Voice Agents Handle Bilingual Customers? Benchmarking Frontier ASR on Code-Switched Speech",
@@ -158,7 +169,7 @@
       "impact": 97
     },
     {
-      "id": "hugging-face-1781020583000-1",
+      "id": "hugging-face-1781020583000-2",
       "type": "live",
       "category": "llm",
       "title": "Introducing North Mini Code: Cohere’s First Model For Developers",
@@ -167,17 +178,6 @@
       "url": "https://huggingface.co/blog/CohereLabs/introducing-north-mini-code",
       "publishedAt": "2026-06-09T15:56:23.000Z",
       "impact": 75
-    },
-    {
-      "id": "hugging-face-1781001979000-2",
-      "type": "live",
-      "category": "research",
-      "title": "How an Agent Built a 3D Paris Gallery by Chaining Two Hugging Face Spaces",
-      "excerpt": "New development from the frontier.",
-      "source": "Hugging Face",
-      "url": "https://huggingface.co/blog/mishig/spaces-agents-md",
-      "publishedAt": "2026-06-09T10:46:19.000Z",
-      "impact": 87
     }
   ]
 }

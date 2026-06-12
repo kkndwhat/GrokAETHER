@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-11T20:29:04.913Z",
+  "lastUpdated": "2026-06-12T15:29:08.357Z",
   "source": "AETHER + Public RSS (arXiv, Hugging Face, MarkTechPost, Ben's Bites)",
   "count": 16,
   "articles": [
@@ -11,8 +11,41 @@
       "excerpt": "New model demonstrates 4.2× improvement on multi-step software engineering benchmarks and sustains coherent agent trajectories beyond 110k tokens.",
       "source": "xAI",
       "url": "https://x.ai/blog/grok-4.3",
-      "publishedAt": "2026-06-11T15:29:03.596Z",
+      "publishedAt": "2026-06-12T10:29:07.125Z",
       "impact": 96
+    },
+    {
+      "id": "marktechpost-1781257050000-0",
+      "type": "live",
+      "category": "research",
+      "title": "Moonshot AI Launches Kimi Work, a Local Desktop Agent Reportedly Running on Kimi K2.6 With a 300-Sub-Agent Agent Swarm",
+      "excerpt": "Moonshot AI's Kimi Work is a local desktop agent for macOS and Windows.  It runs a 300-sub-agent swarm, drives your logged-in browser via WebBridge, and schedules background jobs",
+      "source": "MarkTechPost",
+      "url": "https://www.marktechpost.com/2026/06/12/moonshot-ai-launches-kimi-work-a-local-desktop-agent-reportedly-running-on-kimi-k2-6-with-a-300-sub-agent-agent-swarm/",
+      "publishedAt": "2026-06-12T09:37:30.000Z",
+      "impact": 77
+    },
+    {
+      "id": "marktechpost-1781251586000-1",
+      "type": "live",
+      "category": "multimodal",
+      "title": "Zyphra Release Zamba2-VL: Hybrid Mamba2–Transformer Vision-Language Models That Cut Time-to-First-Token by About an Order of Magnitude",
+      "excerpt": "Zyphra has released Zamba2-VL, a family of open vision-language models at 1. 7B, and 7B parameters",
+      "source": "MarkTechPost",
+      "url": "https://www.marktechpost.com/2026/06/12/zyphra-release-zamba2-vl-hybrid-mamba2-transformer-vision-language-models-that-cut-time-to-first-token-by-about-an-order-of-magnitude/",
+      "publishedAt": "2026-06-12T08:06:26.000Z",
+      "impact": 65
+    },
+    {
+      "id": "marktechpost-1781248200000-2",
+      "type": "live",
+      "category": "safety",
+      "title": "A Coding Implementation on MONAI for End-to-End 3D Spleen Segmentation Using UNet on Medical CT Volumes",
+      "excerpt": "In this tutorial, we build an end-to-end 3D medical image segmentation pipeline using MONAI to segment the spleen on the Medical Segmentation Decathlon Task09 dataset.  We work with volumetric CT scans, apply medical ...",
+      "source": "MarkTechPost",
+      "url": "https://www.marktechpost.com/2026/06/12/a-coding-implementation-on-monai-for-end-to-end-3d-spleen-segmentation-using-unet-on-medical-ct-volumes/",
+      "publishedAt": "2026-06-12T07:10:00.000Z",
+      "impact": 65
     },
     {
       "id": "aether-figure03",
@@ -22,30 +55,74 @@
       "excerpt": "Humanoid achieves new milestone in unsupervised operation, performing 1,240 unique tasks across three assembly lines at the BMW South Carolina plant.",
       "source": "Figure AI",
       "url": "https://figure.ai/news/03-milestone",
-      "publishedAt": "2026-06-11T11:29:03.596Z",
+      "publishedAt": "2026-06-12T06:29:07.125Z",
       "impact": 89
     },
     {
-      "id": "marktechpost-1781171632000-0",
+      "id": "arxiv-cs.ai-1781236800000-0",
       "type": "live",
       "category": "llm",
-      "title": "Nous Research Ships Hermes Agent Profile Builder: Identity, Model, Skills, and MCP Servers in One Dashboard Flow",
-      "excerpt": "The Hermes Agent dashboard now builds complete agent profiles in one flow, replacing multi-step CLI setup for users.  The post Nous Research Ships Hermes Agent Profile Builder: Identity, Model, Skills, and MCP Servers...",
-      "source": "MarkTechPost",
-      "url": "https://www.marktechpost.com/2026/06/11/nous-research-ships-hermes-agent-profile-builder-identity-model-skills-and-mcp-servers-in-one-dashboard-flow/",
-      "publishedAt": "2026-06-11T09:53:52.000Z",
-      "impact": 77
+      "title": "ToolSense: A Diagnostic Framework for Auditing Parametric Tool Knowledge in LLMs",
+      "excerpt": "12451v1 Announce Type: new Abstract: Large language models deployed as agents over large tool catalogs face a critical tool-retrieval bottleneck.  As embedding-based retrieval approaches rely on compact encoders that ...",
+      "source": "arXiv cs.AI",
+      "url": "https://arxiv.org/abs/2606.12451",
+      "publishedAt": "2026-06-12T04:00:00.000Z",
+      "impact": 58
     },
     {
-      "id": "marktechpost-1781166807000-1",
+      "id": "arxiv-cs.ai-1781236800000-1",
+      "type": "live",
+      "category": "hardware",
+      "title": "Arbor: Tree Search as a Cognition Layer for Autonomous Agents",
+      "excerpt": "12563v1 Announce Type: new Abstract: Arbor is a multi-agent framework that introduces structured tree search as a cognition layer for autonomous agents operating in large, stateful action spaces.  Prior autonomous opt...",
+      "source": "arXiv cs.AI",
+      "url": "https://arxiv.org/abs/2606.12563",
+      "publishedAt": "2026-06-12T04:00:00.000Z",
+      "impact": 69
+    },
+    {
+      "id": "arxiv-cs.ai-1781236800000-2",
+      "type": "live",
+      "category": "multimodal",
+      "title": "Strategic Decision Support for AI Agents",
+      "excerpt": "12587v1 Announce Type: new Abstract: Traditionally, decision support studies how humans use machine learning models to make better decisions.  In modern agentic systems, this division of roles is increasingly reversed...",
+      "source": "arXiv cs.AI",
+      "url": "https://arxiv.org/abs/2606.12587",
+      "publishedAt": "2026-06-12T04:00:00.000Z",
+      "impact": 69
+    },
+    {
+      "id": "arxiv-cs.ai-1781236800000-3",
       "type": "live",
       "category": "llm",
-      "title": "Meet ‘North Mini Code’: Cohere’s 30B Open-Weight Mixture-of-Experts Model With 3B Active Parameters for Agentic Coding",
-      "excerpt": "Cohere's first developer coding model is a 30B mixture-of-experts running on a single H100 with 256K context length.  The post Meet ‘North Mini Code’: Cohere’s 30B Open-Weight Mixture-of-Experts Model With 3B Active P...",
-      "source": "MarkTechPost",
-      "url": "https://www.marktechpost.com/2026/06/11/meet-north-mini-code-coheres-30b-open-weight-mixture-of-experts-model-with-3b-active-parameters-for-agentic-coding/",
-      "publishedAt": "2026-06-11T08:33:27.000Z",
-      "impact": 77
+      "title": "Pythagoras-Prover: Advancing Efficient Formal Proving via Augmented Lean Formalisation",
+      "excerpt": "12594v1 Announce Type: new Abstract: Modern Lean theorem provers achieve strong performance only with substantial training and inference compute, driven in part by scarce verified proof data and the long reasoning tra...",
+      "source": "arXiv cs.AI",
+      "url": "https://arxiv.org/abs/2606.12594",
+      "publishedAt": "2026-06-12T04:00:00.000Z",
+      "impact": 58
+    },
+    {
+      "id": "arxiv-cs.ai-1781236800000-4",
+      "type": "live",
+      "category": "multimodal",
+      "title": "PersonaDrive: Human-Style Retrieval-Augmented VLA Agents for Closed-Loop Driving Simulation",
+      "excerpt": "12616v1 Announce Type: new Abstract: Closed-loop driving simulators typically populate their environments with non-ego traffic agents that behave largely the same way, produced either by rule-based traffic managers or...",
+      "source": "arXiv cs.AI",
+      "url": "https://arxiv.org/abs/2606.12616",
+      "publishedAt": "2026-06-12T04:00:00.000Z",
+      "impact": 69
+    },
+    {
+      "id": "arxiv-cs.ai-1781236800000-5",
+      "type": "live",
+      "category": "safety",
+      "title": "\"Did you lie?\" Evaluating Lie Detectors across Model Scale and Belief-Verified Model Organisms",
+      "excerpt": "12618v1 Announce Type: new Abstract: Robust lie detectors for language models could enable powerful techniques for auditing, monitoring, and post-hoc investigation of model behaviour, but evaluating them requires test...",
+      "source": "arXiv cs.AI",
+      "url": "https://arxiv.org/abs/2606.12618",
+      "publishedAt": "2026-06-12T04:00:00.000Z",
+      "impact": 58
     },
     {
       "id": "aether-interp",
@@ -55,74 +132,19 @@
       "excerpt": "Researchers reverse-engineered 312 million features inside the model, including the first clear \"deception circuit\" discovered in a frontier model.",
       "source": "Anthropic",
       "url": "https://anthropic.com/research/claude-4-interp",
-      "publishedAt": "2026-06-11T06:29:03.596Z",
+      "publishedAt": "2026-06-12T01:29:07.125Z",
       "impact": 91
     },
     {
-      "id": "arxiv-cs.ai-1781150400000-0",
+      "id": "marktechpost-1781216492000-3",
       "type": "live",
       "category": "llm",
-      "title": "From Explicit Elements to Implicit Intent: A Predefined Library for Auditable Behavioral Inference",
-      "excerpt": "11207v1 Announce Type: new Abstract: We present SemantiClean, a modular framework for extracting structured semantic signals from e-commerce session data and driving pluggable inference targets including purchase inte...",
-      "source": "arXiv cs.AI",
-      "url": "https://arxiv.org/abs/2606.11207",
-      "publishedAt": "2026-06-11T04:00:00.000Z",
-      "impact": 58
-    },
-    {
-      "id": "arxiv-cs.ai-1781150400000-1",
-      "type": "live",
-      "category": "llm",
-      "title": "Position: Hippocampal Explicit Memory Is the Cornerstone for AGI",
-      "excerpt": "11245v1 Announce Type: new Abstract: Large Language Models (LLMs) have demonstrated remarkable capabilities across various tasks, raising expectations for Artificial General Intelligence (AGI).  This position paper ar...",
-      "source": "arXiv cs.AI",
-      "url": "https://arxiv.org/abs/2606.11245",
-      "publishedAt": "2026-06-11T04:00:00.000Z",
-      "impact": 58
-    },
-    {
-      "id": "arxiv-cs.ai-1781150400000-2",
-      "type": "live",
-      "category": "llm",
-      "title": "Can AI Agents Synthesize Scientific Conclusions?",
-      "excerpt": "11337v1 Announce Type: new Abstract: Scientific AI agents increasingly retrieve evidence, reason across sources, and synthesize conclusions used in consequential decisions.  Yet, their ability to do so in high-stakes ...",
-      "source": "arXiv cs.AI",
-      "url": "https://arxiv.org/abs/2606.11337",
-      "publishedAt": "2026-06-11T04:00:00.000Z",
-      "impact": 69
-    },
-    {
-      "id": "arxiv-cs.ai-1781150400000-3",
-      "type": "live",
-      "category": "llm",
-      "title": "Knowing When to Ask: Self-Gated Clarification for Hierarchical Language Agents",
-      "excerpt": "11349v1 Announce Type: new Abstract: In hierarchical reasoning, failures often originate at intermediate decision points where the agent commits to a wrong branch without recognizing that it lacks critical information...",
-      "source": "arXiv cs.AI",
-      "url": "https://arxiv.org/abs/2606.11349",
-      "publishedAt": "2026-06-11T04:00:00.000Z",
-      "impact": 69
-    },
-    {
-      "id": "arxiv-cs.ai-1781150400000-4",
-      "type": "live",
-      "category": "llm",
-      "title": "Automated Mediator for Human Negotiation: Pre-Mediation via a Structured LLM Pipeline",
-      "excerpt": "11379v1 Announce Type: new Abstract: Pre-mediation, the preparatory phase preceding direct human negotiation, plays a critical role in achieving mutually beneficial agreements, yet is often omitted due to cost, time, ...",
-      "source": "arXiv cs.AI",
-      "url": "https://arxiv.org/abs/2606.11379",
-      "publishedAt": "2026-06-11T04:00:00.000Z",
-      "impact": 58
-    },
-    {
-      "id": "arxiv-cs.ai-1781150400000-5",
-      "type": "live",
-      "category": "hardware",
-      "title": "INFRAMIND: Infrastructure-Aware Multi-Agent Orchestration",
-      "excerpt": "11440v1 Announce Type: new Abstract: Existing multi-agent LLM orchestration methods, ranging from brute-force ensembles to learned routers, select models and topologies based on task and model features.  However, thes...",
-      "source": "arXiv cs.AI",
-      "url": "https://arxiv.org/abs/2606.11440",
-      "publishedAt": "2026-06-11T04:00:00.000Z",
-      "impact": 69
+      "title": "Perplexity Moves Deep Research Into Computer, Routing Research Subtasks Across 20+ Frontier Models For Reports, Decks, And Dashboards",
+      "excerpt": "Deep Research now lives inside Perplexity Computer, breaking hard questions into subtasks and routing across 20+ frontier models.  The post Perplexity Moves Deep Research Into Computer, Routing Research Subtasks Acros...",
+      "source": "MarkTechPost",
+      "url": "https://www.marktechpost.com/2026/06/11/perplexity-moves-deep-research-into-computer-routing-research-subtasks-across-20-frontier-models-for-reports-decks-and-dashboards/",
+      "publishedAt": "2026-06-11T22:21:32.000Z",
+      "impact": 83
     },
     {
       "id": "hugging-face-1781136000000-0",
@@ -136,40 +158,7 @@
       "impact": 75
     },
     {
-      "id": "marktechpost-1781129233000-2",
-      "type": "live",
-      "category": "robotics",
-      "title": "A Coding Implementation on Microsoft SkillOpt for Instrumented Prompt Optimization, Skill Evolution Analysis, and Baseline Comparison",
-      "excerpt": "We implement an instrumented workflow for Microsoft SkillOpt end to end.  We set up the repository, connect OpenAI-compatible model access, and configure the optimizer and target models",
-      "source": "MarkTechPost",
-      "url": "https://www.marktechpost.com/2026/06/10/a-coding-implementation-on-microsoft-skillopt-for-instrumented-prompt-optimization-skill-evolution-analysis-and-baseline-comparison/",
-      "publishedAt": "2026-06-10T22:07:13.000Z",
-      "impact": 65
-    },
-    {
-      "id": "marktechpost-1781117451000-3",
-      "type": "live",
-      "category": "hardware",
-      "title": "Google AI Releases DiffusionGemma, a 26B MoE Open Model Using Text Diffusion for Up to 4x Faster Generation",
-      "excerpt": "DiffusionGemma is Google DeepMind's experimental 26B open model using text diffusion for up to 4x faster generation on GPUs.  The post Google AI Releases DiffusionGemma, a 26B MoE Open Model Using Text Diffusion for U...",
-      "source": "MarkTechPost",
-      "url": "https://www.marktechpost.com/2026/06/10/google-ai-releases-diffusiongemma-a-26b-moe-open-model-using-text-diffusion-for-up-to-4x-faster-generation/",
-      "publishedAt": "2026-06-10T18:50:51.000Z",
-      "impact": 65
-    },
-    {
-      "id": "hugging-face-1781033908000-1",
-      "type": "live",
-      "category": "research",
-      "title": "Can Voice Agents Handle Bilingual Customers? Benchmarking Frontier ASR on Code-Switched Speech",
-      "excerpt": "New development from the frontier.",
-      "source": "Hugging Face",
-      "url": "https://huggingface.co/blog/ServiceNow-AI/code-switching",
-      "publishedAt": "2026-06-09T19:38:28.000Z",
-      "impact": 97
-    },
-    {
-      "id": "hugging-face-1781020583000-2",
+      "id": "hugging-face-1781020583000-1",
       "type": "live",
       "category": "llm",
       "title": "Introducing North Mini Code: Cohere’s First Model For Developers",
@@ -178,6 +167,17 @@
       "url": "https://huggingface.co/blog/CohereLabs/introducing-north-mini-code",
       "publishedAt": "2026-06-09T15:56:23.000Z",
       "impact": 75
+    },
+    {
+      "id": "hugging-face-1781001979000-2",
+      "type": "live",
+      "category": "research",
+      "title": "How an Agent Built a 3D Paris Gallery by Chaining Two Hugging Face Spaces",
+      "excerpt": "New development from the frontier.",
+      "source": "Hugging Face",
+      "url": "https://huggingface.co/blog/mishig/spaces-agents-md",
+      "publishedAt": "2026-06-09T10:46:19.000Z",
+      "impact": 87
     }
   ]
 }

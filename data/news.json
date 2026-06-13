@@ -1,19 +1,8 @@
 {
-  "lastUpdated": "2026-06-13T04:20:44.217Z",
+  "lastUpdated": "2026-06-13T14:12:56.115Z",
   "source": "AETHER + Public RSS (arXiv, Hugging Face, MarkTechPost, Ben's Bites)",
   "count": 10,
   "articles": [
-    {
-      "id": "marktechpost-1781318836000-0",
-      "type": "live",
-      "category": "llm",
-      "title": "A Coding Implementation on Spatial Graph Neural Networks for Urban Function Inference Using city2graph, OSMnx, and PyTorch Geometric",
-      "excerpt": "We build an end-to-end spatial graph learning pipeline using city2graph.  We collect urban POI and street network data from OpenStreetMap, with a synthetic fallback for reliability",
-      "source": "MarkTechPost",
-      "url": "https://www.marktechpost.com/2026/06/12/a-coding-implementation-on-spatial-graph-neural-networks-for-urban-function-inference-using-city2graph-osmnx-and-pytorch-geometric/",
-      "publishedAt": "2026-06-13T02:47:16.000Z",
-      "impact": 65
-    },
     {
       "id": "aether-grok43",
       "type": "premium",
@@ -22,18 +11,18 @@
       "excerpt": "New model demonstrates 4.2× improvement on multi-step software engineering benchmarks and sustains coherent agent trajectories beyond 110k tokens.",
       "source": "xAI",
       "url": "https://x.ai/blog/grok-4.3",
-      "publishedAt": "2026-06-12T23:20:42.900Z",
+      "publishedAt": "2026-06-13T09:12:55.134Z",
       "impact": 96
     },
     {
-      "id": "marktechpost-1781298251000-1",
+      "id": "marktechpost-1781338518000-0",
       "type": "live",
       "category": "llm",
-      "title": "Google Releases Gemini-SQL2: Gemini 3.1 Pro Text-to-SQL Scores 80.04% on BIRD Single-Model Leaderboard",
-      "excerpt": "We look at Gemini-SQL2, the text-to-SQL capability Google Research announced on June 12, 2026. 04% execution accuracy on the BIRD single-model leaderboard",
+      "title": "Anthropic Disables Claude Fable 5 and Mythos 5 After US Government Order",
+      "excerpt": "shutdown followed a US government export control directive citing national security authorities.  All other Anthropic models, including Opus 4",
       "source": "MarkTechPost",
-      "url": "https://www.marktechpost.com/2026/06/12/google-releases-gemini-sql2-gemini-3-1-pro-text-to-sql-scores-80-04-on-bird-single-model-leaderboard/",
-      "publishedAt": "2026-06-12T21:04:11.000Z",
+      "url": "https://www.marktechpost.com/2026/06/13/anthropic-disables-claude-fable-5-and-mythos-5-after-us-government-order/",
+      "publishedAt": "2026-06-13T08:15:18.000Z",
       "impact": 65
     },
     {
@@ -44,8 +33,52 @@
       "excerpt": "Humanoid achieves new milestone in unsupervised operation, performing 1,240 unique tasks across three assembly lines at the BMW South Carolina plant.",
       "source": "Figure AI",
       "url": "https://figure.ai/news/03-milestone",
-      "publishedAt": "2026-06-12T19:20:42.900Z",
+      "publishedAt": "2026-06-13T05:12:55.134Z",
       "impact": 89
+    },
+    {
+      "id": "marktechpost-1781326632000-1",
+      "type": "live",
+      "category": "llm",
+      "title": "Moonshot AI Releases Kimi K2.7-Code: a Coding Model Reporting +21.8% on Kimi Code Bench v2 Over K2.6",
+      "excerpt": "Moonshot AI has open-sourced Kimi K2. 7-Code under a Modified MIT license",
+      "source": "MarkTechPost",
+      "url": "https://www.marktechpost.com/2026/06/12/moonshot-ai-releases-kimi-k2-7-code-a-coding-model-reporting-21-8-on-kimi-code-bench-v2-over-k2-6/",
+      "publishedAt": "2026-06-13T04:57:12.000Z",
+      "impact": 65
+    },
+    {
+      "id": "marktechpost-1781318836000-2",
+      "type": "live",
+      "category": "llm",
+      "title": "A Coding Implementation on Spatial Graph Neural Networks for Urban Function Inference Using city2graph, OSMnx, and PyTorch Geometric",
+      "excerpt": "We build an end-to-end spatial graph learning pipeline using city2graph.  We collect urban POI and street network data from OpenStreetMap, with a synthetic fallback for reliability",
+      "source": "MarkTechPost",
+      "url": "https://www.marktechpost.com/2026/06/12/a-coding-implementation-on-spatial-graph-neural-networks-for-urban-function-inference-using-city2graph-osmnx-and-pytorch-geometric/",
+      "publishedAt": "2026-06-13T02:47:16.000Z",
+      "impact": 65
+    },
+    {
+      "id": "aether-interp",
+      "type": "premium",
+      "category": "safety",
+      "title": "Anthropic publishes unprecedented mechanistic interpretability map of Claude 4",
+      "excerpt": "Researchers reverse-engineered 312 million features inside the model, including the first clear \"deception circuit\" discovered in a frontier model.",
+      "source": "Anthropic",
+      "url": "https://anthropic.com/research/claude-4-interp",
+      "publishedAt": "2026-06-13T00:12:55.134Z",
+      "impact": 91
+    },
+    {
+      "id": "marktechpost-1781298251000-3",
+      "type": "live",
+      "category": "llm",
+      "title": "Google Releases Gemini-SQL2: Gemini 3.1 Pro Text-to-SQL Scores 80.04% on BIRD Single-Model Leaderboard",
+      "excerpt": "We look at Gemini-SQL2, the text-to-SQL capability Google Research announced on June 12, 2026. 04% execution accuracy on the BIRD single-model leaderboard",
+      "source": "MarkTechPost",
+      "url": "https://www.marktechpost.com/2026/06/12/google-releases-gemini-sql2-gemini-3-1-pro-text-to-sql-scores-80-04-on-bird-single-model-leaderboard/",
+      "publishedAt": "2026-06-12T21:04:11.000Z",
+      "impact": 65
     },
     {
       "id": "hugging-face-1781279770000-0",
@@ -57,39 +90,6 @@
       "url": "https://huggingface.co/blog/allenai/olmo-eval",
       "publishedAt": "2026-06-12T15:56:10.000Z",
       "impact": 75
-    },
-    {
-      "id": "aether-interp",
-      "type": "premium",
-      "category": "safety",
-      "title": "Anthropic publishes unprecedented mechanistic interpretability map of Claude 4",
-      "excerpt": "Researchers reverse-engineered 312 million features inside the model, including the first clear \"deception circuit\" discovered in a frontier model.",
-      "source": "Anthropic",
-      "url": "https://anthropic.com/research/claude-4-interp",
-      "publishedAt": "2026-06-12T14:20:42.900Z",
-      "impact": 91
-    },
-    {
-      "id": "marktechpost-1781257050000-2",
-      "type": "live",
-      "category": "research",
-      "title": "Moonshot AI Launches Kimi Work, a Local Desktop Agent Reportedly Running on Kimi K2.6 With a 300-Sub-Agent Agent Swarm",
-      "excerpt": "Moonshot AI's Kimi Work is a local desktop agent for macOS and Windows.  It runs a 300-sub-agent swarm, drives your logged-in browser via WebBridge, and schedules background jobs",
-      "source": "MarkTechPost",
-      "url": "https://www.marktechpost.com/2026/06/12/moonshot-ai-launches-kimi-work-a-local-desktop-agent-reportedly-running-on-kimi-k2-6-with-a-300-sub-agent-agent-swarm/",
-      "publishedAt": "2026-06-12T09:37:30.000Z",
-      "impact": 77
-    },
-    {
-      "id": "marktechpost-1781251586000-3",
-      "type": "live",
-      "category": "multimodal",
-      "title": "Zyphra Release Zamba2-VL: Hybrid Mamba2–Transformer Vision-Language Models That Cut Time-to-First-Token by About an Order of Magnitude",
-      "excerpt": "Zyphra has released Zamba2-VL, a family of open vision-language models at 1. 7B, and 7B parameters",
-      "source": "MarkTechPost",
-      "url": "https://www.marktechpost.com/2026/06/12/zyphra-release-zamba2-vl-hybrid-mamba2-transformer-vision-language-models-that-cut-time-to-first-token-by-about-an-order-of-magnitude/",
-      "publishedAt": "2026-06-12T08:06:26.000Z",
-      "impact": 65
     },
     {
       "id": "hugging-face-1781136000000-1",

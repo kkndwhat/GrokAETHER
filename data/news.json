@@ -1,8 +1,52 @@
 {
-  "lastUpdated": "2026-06-12T20:19:13.885Z",
+  "lastUpdated": "2026-06-13T04:20:44.217Z",
   "source": "AETHER + Public RSS (arXiv, Hugging Face, MarkTechPost, Ben's Bites)",
-  "count": 16,
+  "count": 10,
   "articles": [
+    {
+      "id": "marktechpost-1781318836000-0",
+      "type": "live",
+      "category": "llm",
+      "title": "A Coding Implementation on Spatial Graph Neural Networks for Urban Function Inference Using city2graph, OSMnx, and PyTorch Geometric",
+      "excerpt": "We build an end-to-end spatial graph learning pipeline using city2graph.  We collect urban POI and street network data from OpenStreetMap, with a synthetic fallback for reliability",
+      "source": "MarkTechPost",
+      "url": "https://www.marktechpost.com/2026/06/12/a-coding-implementation-on-spatial-graph-neural-networks-for-urban-function-inference-using-city2graph-osmnx-and-pytorch-geometric/",
+      "publishedAt": "2026-06-13T02:47:16.000Z",
+      "impact": 65
+    },
+    {
+      "id": "aether-grok43",
+      "type": "premium",
+      "category": "llm",
+      "title": "xAI releases Grok-4.3 with native long-horizon agent scaffolding",
+      "excerpt": "New model demonstrates 4.2× improvement on multi-step software engineering benchmarks and sustains coherent agent trajectories beyond 110k tokens.",
+      "source": "xAI",
+      "url": "https://x.ai/blog/grok-4.3",
+      "publishedAt": "2026-06-12T23:20:42.900Z",
+      "impact": 96
+    },
+    {
+      "id": "marktechpost-1781298251000-1",
+      "type": "live",
+      "category": "llm",
+      "title": "Google Releases Gemini-SQL2: Gemini 3.1 Pro Text-to-SQL Scores 80.04% on BIRD Single-Model Leaderboard",
+      "excerpt": "We look at Gemini-SQL2, the text-to-SQL capability Google Research announced on June 12, 2026. 04% execution accuracy on the BIRD single-model leaderboard",
+      "source": "MarkTechPost",
+      "url": "https://www.marktechpost.com/2026/06/12/google-releases-gemini-sql2-gemini-3-1-pro-text-to-sql-scores-80-04-on-bird-single-model-leaderboard/",
+      "publishedAt": "2026-06-12T21:04:11.000Z",
+      "impact": 65
+    },
+    {
+      "id": "aether-figure03",
+      "type": "premium",
+      "category": "robotics",
+      "title": "Figure 03 completes 43-hour autonomous factory shift with zero interventions",
+      "excerpt": "Humanoid achieves new milestone in unsupervised operation, performing 1,240 unique tasks across three assembly lines at the BMW South Carolina plant.",
+      "source": "Figure AI",
+      "url": "https://figure.ai/news/03-milestone",
+      "publishedAt": "2026-06-12T19:20:42.900Z",
+      "impact": 89
+    },
     {
       "id": "hugging-face-1781279770000-0",
       "type": "live",
@@ -15,29 +59,18 @@
       "impact": 75
     },
     {
-      "id": "aether-grok43",
+      "id": "aether-interp",
       "type": "premium",
-      "category": "llm",
-      "title": "xAI releases Grok-4.3 with native long-horizon agent scaffolding",
-      "excerpt": "New model demonstrates 4.2× improvement on multi-step software engineering benchmarks and sustains coherent agent trajectories beyond 110k tokens.",
-      "source": "xAI",
-      "url": "https://x.ai/blog/grok-4.3",
-      "publishedAt": "2026-06-12T15:19:12.795Z",
-      "impact": 96
+      "category": "safety",
+      "title": "Anthropic publishes unprecedented mechanistic interpretability map of Claude 4",
+      "excerpt": "Researchers reverse-engineered 312 million features inside the model, including the first clear \"deception circuit\" discovered in a frontier model.",
+      "source": "Anthropic",
+      "url": "https://anthropic.com/research/claude-4-interp",
+      "publishedAt": "2026-06-12T14:20:42.900Z",
+      "impact": 91
     },
     {
-      "id": "aether-figure03",
-      "type": "premium",
-      "category": "robotics",
-      "title": "Figure 03 completes 43-hour autonomous factory shift with zero interventions",
-      "excerpt": "Humanoid achieves new milestone in unsupervised operation, performing 1,240 unique tasks across three assembly lines at the BMW South Carolina plant.",
-      "source": "Figure AI",
-      "url": "https://figure.ai/news/03-milestone",
-      "publishedAt": "2026-06-12T11:19:12.795Z",
-      "impact": 89
-    },
-    {
-      "id": "marktechpost-1781257050000-0",
+      "id": "marktechpost-1781257050000-2",
       "type": "live",
       "category": "research",
       "title": "Moonshot AI Launches Kimi Work, a Local Desktop Agent Reportedly Running on Kimi K2.6 With a 300-Sub-Agent Agent Swarm",
@@ -48,7 +81,7 @@
       "impact": 77
     },
     {
-      "id": "marktechpost-1781251586000-1",
+      "id": "marktechpost-1781251586000-3",
       "type": "live",
       "category": "multimodal",
       "title": "Zyphra Release Zamba2-VL: Hybrid Mamba2–Transformer Vision-Language Models That Cut Time-to-First-Token by About an Order of Magnitude",
@@ -57,105 +90,6 @@
       "url": "https://www.marktechpost.com/2026/06/12/zyphra-release-zamba2-vl-hybrid-mamba2-transformer-vision-language-models-that-cut-time-to-first-token-by-about-an-order-of-magnitude/",
       "publishedAt": "2026-06-12T08:06:26.000Z",
       "impact": 65
-    },
-    {
-      "id": "marktechpost-1781248200000-2",
-      "type": "live",
-      "category": "safety",
-      "title": "A Coding Implementation on MONAI for End-to-End 3D Spleen Segmentation Using UNet on Medical CT Volumes",
-      "excerpt": "In this tutorial, we build an end-to-end 3D medical image segmentation pipeline using MONAI to segment the spleen on the Medical Segmentation Decathlon Task09 dataset.  We work with volumetric CT scans, apply medical ...",
-      "source": "MarkTechPost",
-      "url": "https://www.marktechpost.com/2026/06/12/a-coding-implementation-on-monai-for-end-to-end-3d-spleen-segmentation-using-unet-on-medical-ct-volumes/",
-      "publishedAt": "2026-06-12T07:10:00.000Z",
-      "impact": 65
-    },
-    {
-      "id": "aether-interp",
-      "type": "premium",
-      "category": "safety",
-      "title": "Anthropic publishes unprecedented mechanistic interpretability map of Claude 4",
-      "excerpt": "Researchers reverse-engineered 312 million features inside the model, including the first clear \"deception circuit\" discovered in a frontier model.",
-      "source": "Anthropic",
-      "url": "https://anthropic.com/research/claude-4-interp",
-      "publishedAt": "2026-06-12T06:19:12.795Z",
-      "impact": 91
-    },
-    {
-      "id": "arxiv-cs.ai-1781236800000-0",
-      "type": "live",
-      "category": "llm",
-      "title": "ToolSense: A Diagnostic Framework for Auditing Parametric Tool Knowledge in LLMs",
-      "excerpt": "12451v1 Announce Type: new Abstract: Large language models deployed as agents over large tool catalogs face a critical tool-retrieval bottleneck.  As embedding-based retrieval approaches rely on compact encoders that ...",
-      "source": "arXiv cs.AI",
-      "url": "https://arxiv.org/abs/2606.12451",
-      "publishedAt": "2026-06-12T04:00:00.000Z",
-      "impact": 58
-    },
-    {
-      "id": "arxiv-cs.ai-1781236800000-1",
-      "type": "live",
-      "category": "hardware",
-      "title": "Arbor: Tree Search as a Cognition Layer for Autonomous Agents",
-      "excerpt": "12563v1 Announce Type: new Abstract: Arbor is a multi-agent framework that introduces structured tree search as a cognition layer for autonomous agents operating in large, stateful action spaces.  Prior autonomous opt...",
-      "source": "arXiv cs.AI",
-      "url": "https://arxiv.org/abs/2606.12563",
-      "publishedAt": "2026-06-12T04:00:00.000Z",
-      "impact": 69
-    },
-    {
-      "id": "arxiv-cs.ai-1781236800000-2",
-      "type": "live",
-      "category": "multimodal",
-      "title": "Strategic Decision Support for AI Agents",
-      "excerpt": "12587v1 Announce Type: new Abstract: Traditionally, decision support studies how humans use machine learning models to make better decisions.  In modern agentic systems, this division of roles is increasingly reversed...",
-      "source": "arXiv cs.AI",
-      "url": "https://arxiv.org/abs/2606.12587",
-      "publishedAt": "2026-06-12T04:00:00.000Z",
-      "impact": 69
-    },
-    {
-      "id": "arxiv-cs.ai-1781236800000-3",
-      "type": "live",
-      "category": "llm",
-      "title": "Pythagoras-Prover: Advancing Efficient Formal Proving via Augmented Lean Formalisation",
-      "excerpt": "12594v1 Announce Type: new Abstract: Modern Lean theorem provers achieve strong performance only with substantial training and inference compute, driven in part by scarce verified proof data and the long reasoning tra...",
-      "source": "arXiv cs.AI",
-      "url": "https://arxiv.org/abs/2606.12594",
-      "publishedAt": "2026-06-12T04:00:00.000Z",
-      "impact": 58
-    },
-    {
-      "id": "arxiv-cs.ai-1781236800000-4",
-      "type": "live",
-      "category": "multimodal",
-      "title": "PersonaDrive: Human-Style Retrieval-Augmented VLA Agents for Closed-Loop Driving Simulation",
-      "excerpt": "12616v1 Announce Type: new Abstract: Closed-loop driving simulators typically populate their environments with non-ego traffic agents that behave largely the same way, produced either by rule-based traffic managers or...",
-      "source": "arXiv cs.AI",
-      "url": "https://arxiv.org/abs/2606.12616",
-      "publishedAt": "2026-06-12T04:00:00.000Z",
-      "impact": 69
-    },
-    {
-      "id": "arxiv-cs.ai-1781236800000-5",
-      "type": "live",
-      "category": "safety",
-      "title": "\"Did you lie?\" Evaluating Lie Detectors across Model Scale and Belief-Verified Model Organisms",
-      "excerpt": "12618v1 Announce Type: new Abstract: Robust lie detectors for language models could enable powerful techniques for auditing, monitoring, and post-hoc investigation of model behaviour, but evaluating them requires test...",
-      "source": "arXiv cs.AI",
-      "url": "https://arxiv.org/abs/2606.12618",
-      "publishedAt": "2026-06-12T04:00:00.000Z",
-      "impact": 58
-    },
-    {
-      "id": "marktechpost-1781216492000-3",
-      "type": "live",
-      "category": "llm",
-      "title": "Perplexity Moves Deep Research Into Computer, Routing Research Subtasks Across 20+ Frontier Models For Reports, Decks, And Dashboards",
-      "excerpt": "Deep Research now lives inside Perplexity Computer, breaking hard questions into subtasks and routing across 20+ frontier models.  The post Perplexity Moves Deep Research Into Computer, Routing Research Subtasks Acros...",
-      "source": "MarkTechPost",
-      "url": "https://www.marktechpost.com/2026/06/11/perplexity-moves-deep-research-into-computer-routing-research-subtasks-across-20-frontier-models-for-reports-decks-and-dashboards/",
-      "publishedAt": "2026-06-11T22:21:32.000Z",
-      "impact": 83
     },
     {
       "id": "hugging-face-1781136000000-1",

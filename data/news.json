@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-13T14:12:56.115Z",
+  "lastUpdated": "2026-06-14T04:47:55.521Z",
   "source": "AETHER + Public RSS (arXiv, Hugging Face, MarkTechPost, Ben's Bites)",
   "count": 10,
   "articles": [
@@ -11,11 +11,44 @@
       "excerpt": "New model demonstrates 4.2× improvement on multi-step software engineering benchmarks and sustains coherent agent trajectories beyond 110k tokens.",
       "source": "xAI",
       "url": "https://x.ai/blog/grok-4.3",
-      "publishedAt": "2026-06-13T09:12:55.134Z",
+      "publishedAt": "2026-06-13T23:47:54.322Z",
       "impact": 96
     },
     {
-      "id": "marktechpost-1781338518000-0",
+      "id": "aether-figure03",
+      "type": "premium",
+      "category": "robotics",
+      "title": "Figure 03 completes 43-hour autonomous factory shift with zero interventions",
+      "excerpt": "Humanoid achieves new milestone in unsupervised operation, performing 1,240 unique tasks across three assembly lines at the BMW South Carolina plant.",
+      "source": "Figure AI",
+      "url": "https://figure.ai/news/03-milestone",
+      "publishedAt": "2026-06-13T19:47:54.322Z",
+      "impact": 89
+    },
+    {
+      "id": "marktechpost-1781371642000-0",
+      "type": "live",
+      "category": "robotics",
+      "title": "How to Build a QwenPaw Agent Workspace with Custom Skills, Model Providers, Console Access, and Streaming API Testing",
+      "excerpt": "In this tutorial, we implement a QwenPaw workflow that provides a practical environment for building and testing an agent-powered assistant.  We install and initialize QwenPaw, configure its working directory, set up ...",
+      "source": "MarkTechPost",
+      "url": "https://www.marktechpost.com/2026/06/13/how-to-build-a-qwenpaw-agent-workspace-with-custom-skills-model-providers-console-access-and-streaming-api-testing/",
+      "publishedAt": "2026-06-13T17:27:22.000Z",
+      "impact": 77
+    },
+    {
+      "id": "aether-interp",
+      "type": "premium",
+      "category": "safety",
+      "title": "Anthropic publishes unprecedented mechanistic interpretability map of Claude 4",
+      "excerpt": "Researchers reverse-engineered 312 million features inside the model, including the first clear \"deception circuit\" discovered in a frontier model.",
+      "source": "Anthropic",
+      "url": "https://anthropic.com/research/claude-4-interp",
+      "publishedAt": "2026-06-13T14:47:54.322Z",
+      "impact": 91
+    },
+    {
+      "id": "marktechpost-1781338518000-1",
       "type": "live",
       "category": "llm",
       "title": "Anthropic Disables Claude Fable 5 and Mythos 5 After US Government Order",
@@ -26,18 +59,7 @@
       "impact": 65
     },
     {
-      "id": "aether-figure03",
-      "type": "premium",
-      "category": "robotics",
-      "title": "Figure 03 completes 43-hour autonomous factory shift with zero interventions",
-      "excerpt": "Humanoid achieves new milestone in unsupervised operation, performing 1,240 unique tasks across three assembly lines at the BMW South Carolina plant.",
-      "source": "Figure AI",
-      "url": "https://figure.ai/news/03-milestone",
-      "publishedAt": "2026-06-13T05:12:55.134Z",
-      "impact": 89
-    },
-    {
-      "id": "marktechpost-1781326632000-1",
+      "id": "marktechpost-1781326632000-2",
       "type": "live",
       "category": "llm",
       "title": "Moonshot AI Releases Kimi K2.7-Code: a Coding Model Reporting +21.8% on Kimi Code Bench v2 Over K2.6",
@@ -48,7 +70,7 @@
       "impact": 65
     },
     {
-      "id": "marktechpost-1781318836000-2",
+      "id": "marktechpost-1781318836000-3",
       "type": "live",
       "category": "llm",
       "title": "A Coding Implementation on Spatial Graph Neural Networks for Urban Function Inference Using city2graph, OSMnx, and PyTorch Geometric",
@@ -56,28 +78,6 @@
       "source": "MarkTechPost",
       "url": "https://www.marktechpost.com/2026/06/12/a-coding-implementation-on-spatial-graph-neural-networks-for-urban-function-inference-using-city2graph-osmnx-and-pytorch-geometric/",
       "publishedAt": "2026-06-13T02:47:16.000Z",
-      "impact": 65
-    },
-    {
-      "id": "aether-interp",
-      "type": "premium",
-      "category": "safety",
-      "title": "Anthropic publishes unprecedented mechanistic interpretability map of Claude 4",
-      "excerpt": "Researchers reverse-engineered 312 million features inside the model, including the first clear \"deception circuit\" discovered in a frontier model.",
-      "source": "Anthropic",
-      "url": "https://anthropic.com/research/claude-4-interp",
-      "publishedAt": "2026-06-13T00:12:55.134Z",
-      "impact": 91
-    },
-    {
-      "id": "marktechpost-1781298251000-3",
-      "type": "live",
-      "category": "llm",
-      "title": "Google Releases Gemini-SQL2: Gemini 3.1 Pro Text-to-SQL Scores 80.04% on BIRD Single-Model Leaderboard",
-      "excerpt": "We look at Gemini-SQL2, the text-to-SQL capability Google Research announced on June 12, 2026. 04% execution accuracy on the BIRD single-model leaderboard",
-      "source": "MarkTechPost",
-      "url": "https://www.marktechpost.com/2026/06/12/google-releases-gemini-sql2-gemini-3-1-pro-text-to-sql-scores-80-04-on-bird-single-model-leaderboard/",
-      "publishedAt": "2026-06-12T21:04:11.000Z",
       "impact": 65
     },
     {

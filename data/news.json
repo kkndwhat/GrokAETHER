@@ -1,8 +1,19 @@
 {
-  "lastUpdated": "2026-06-14T04:47:55.521Z",
+  "lastUpdated": "2026-06-14T09:46:22.767Z",
   "source": "AETHER + Public RSS (arXiv, Hugging Face, MarkTechPost, Ben's Bites)",
   "count": 10,
   "articles": [
+    {
+      "id": "marktechpost-1781413299000-0",
+      "type": "live",
+      "category": "llm",
+      "title": "Databricks Open-Sources Omnigent: A Meta-Harness That Composes, Governs, and Shares AI Agents Across Claude Code, Codex, and Pi",
+      "excerpt": "Databricks has open-sourced Omnigent, a meta-harness that sits above coding agents like Claude Code, Codex, and Pi.  It adds composition, contextual policies, and live session sharing under one interface, on terminal,...",
+      "source": "MarkTechPost",
+      "url": "https://www.marktechpost.com/2026/06/13/databricks-open-sources-omnigent-a-meta-harness-that-composes-governs-and-shares-ai-agents-across-claude-code-codex-and-pi/",
+      "publishedAt": "2026-06-14T05:01:39.000Z",
+      "impact": 77
+    },
     {
       "id": "aether-grok43",
       "type": "premium",
@@ -11,7 +22,7 @@
       "excerpt": "New model demonstrates 4.2× improvement on multi-step software engineering benchmarks and sustains coherent agent trajectories beyond 110k tokens.",
       "source": "xAI",
       "url": "https://x.ai/blog/grok-4.3",
-      "publishedAt": "2026-06-13T23:47:54.322Z",
+      "publishedAt": "2026-06-14T04:46:21.567Z",
       "impact": 96
     },
     {
@@ -22,11 +33,22 @@
       "excerpt": "Humanoid achieves new milestone in unsupervised operation, performing 1,240 unique tasks across three assembly lines at the BMW South Carolina plant.",
       "source": "Figure AI",
       "url": "https://figure.ai/news/03-milestone",
-      "publishedAt": "2026-06-13T19:47:54.322Z",
+      "publishedAt": "2026-06-14T00:46:21.567Z",
       "impact": 89
     },
     {
-      "id": "marktechpost-1781371642000-0",
+      "id": "aether-interp",
+      "type": "premium",
+      "category": "safety",
+      "title": "Anthropic publishes unprecedented mechanistic interpretability map of Claude 4",
+      "excerpt": "Researchers reverse-engineered 312 million features inside the model, including the first clear \"deception circuit\" discovered in a frontier model.",
+      "source": "Anthropic",
+      "url": "https://anthropic.com/research/claude-4-interp",
+      "publishedAt": "2026-06-13T19:46:21.567Z",
+      "impact": 91
+    },
+    {
+      "id": "marktechpost-1781371642000-1",
       "type": "live",
       "category": "robotics",
       "title": "How to Build a QwenPaw Agent Workspace with Custom Skills, Model Providers, Console Access, and Streaming API Testing",
@@ -37,18 +59,7 @@
       "impact": 77
     },
     {
-      "id": "aether-interp",
-      "type": "premium",
-      "category": "safety",
-      "title": "Anthropic publishes unprecedented mechanistic interpretability map of Claude 4",
-      "excerpt": "Researchers reverse-engineered 312 million features inside the model, including the first clear \"deception circuit\" discovered in a frontier model.",
-      "source": "Anthropic",
-      "url": "https://anthropic.com/research/claude-4-interp",
-      "publishedAt": "2026-06-13T14:47:54.322Z",
-      "impact": 91
-    },
-    {
-      "id": "marktechpost-1781338518000-1",
+      "id": "marktechpost-1781338518000-2",
       "type": "live",
       "category": "llm",
       "title": "Anthropic Disables Claude Fable 5 and Mythos 5 After US Government Order",
@@ -59,7 +70,7 @@
       "impact": 65
     },
     {
-      "id": "marktechpost-1781326632000-2",
+      "id": "marktechpost-1781326632000-3",
       "type": "live",
       "category": "llm",
       "title": "Moonshot AI Releases Kimi K2.7-Code: a Coding Model Reporting +21.8% on Kimi Code Bench v2 Over K2.6",
@@ -67,17 +78,6 @@
       "source": "MarkTechPost",
       "url": "https://www.marktechpost.com/2026/06/12/moonshot-ai-releases-kimi-k2-7-code-a-coding-model-reporting-21-8-on-kimi-code-bench-v2-over-k2-6/",
       "publishedAt": "2026-06-13T04:57:12.000Z",
-      "impact": 65
-    },
-    {
-      "id": "marktechpost-1781318836000-3",
-      "type": "live",
-      "category": "llm",
-      "title": "A Coding Implementation on Spatial Graph Neural Networks for Urban Function Inference Using city2graph, OSMnx, and PyTorch Geometric",
-      "excerpt": "We build an end-to-end spatial graph learning pipeline using city2graph.  We collect urban POI and street network data from OpenStreetMap, with a synthetic fallback for reliability",
-      "source": "MarkTechPost",
-      "url": "https://www.marktechpost.com/2026/06/12/a-coding-implementation-on-spatial-graph-neural-networks-for-urban-function-inference-using-city2graph-osmnx-and-pytorch-geometric/",
-      "publishedAt": "2026-06-13T02:47:16.000Z",
       "impact": 65
     },
     {

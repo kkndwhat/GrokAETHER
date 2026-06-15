@@ -1,8 +1,19 @@
 {
-  "lastUpdated": "2026-06-15T05:03:36.367Z",
+  "lastUpdated": "2026-06-15T12:29:53.729Z",
   "source": "AETHER + Public RSS (arXiv, Hugging Face, MarkTechPost, Ben's Bites)",
-  "count": 16,
+  "count": 12,
   "articles": [
+    {
+      "id": "aether-grok43",
+      "type": "premium",
+      "category": "llm",
+      "title": "xAI releases Grok-4.3 with native long-horizon agent scaffolding",
+      "excerpt": "New model demonstrates 4.2× improvement on multi-step software engineering benchmarks and sustains coherent agent trajectories beyond 110k tokens.",
+      "source": "xAI",
+      "url": "https://x.ai/blog/grok-4.3",
+      "publishedAt": "2026-06-15T07:29:53.353Z",
+      "impact": 96
+    },
     {
       "id": "arxiv-cs.ai-1781496000000-0",
       "type": "live",
@@ -70,39 +81,6 @@
       "impact": 69
     },
     {
-      "id": "marktechpost-1781485493000-0",
-      "type": "live",
-      "category": "llm",
-      "title": "Claude Code Guide 2026: 25 Features with Examples + Demo",
-      "excerpt": "Claude Code is a layered agentic coding tool, not a single chat prompt.  This guide breaks down 25 features, from CLAUDE",
-      "source": "MarkTechPost",
-      "url": "https://www.marktechpost.com/2026/06/14/claude-code-guide-2026-25-features-with-examples-demo/",
-      "publishedAt": "2026-06-15T01:04:53.000Z",
-      "impact": 65
-    },
-    {
-      "id": "aether-grok43",
-      "type": "premium",
-      "category": "llm",
-      "title": "xAI releases Grok-4.3 with native long-horizon agent scaffolding",
-      "excerpt": "New model demonstrates 4.2× improvement on multi-step software engineering benchmarks and sustains coherent agent trajectories beyond 110k tokens.",
-      "source": "xAI",
-      "url": "https://x.ai/blog/grok-4.3",
-      "publishedAt": "2026-06-15T00:03:35.000Z",
-      "impact": 96
-    },
-    {
-      "id": "marktechpost-1781469932000-1",
-      "type": "live",
-      "category": "research",
-      "title": "A Coding Hands-On on FineWeb for Streaming, Filtering, Deduplication, Tokenization, and Large-Scale Web Corpus Analytics",
-      "excerpt": "In this tutorial, we explore the FineWeb dataset through an advanced hands-on workflow.  We stream a manageable sample of the dataset without downloading the full multi-terabyte corpus, inspect its schema and metadata...",
-      "source": "MarkTechPost",
-      "url": "https://www.marktechpost.com/2026/06/14/a-coding-hands-on-on-fineweb-for-streaming-filtering-deduplication-tokenization-and-large-scale-web-corpus-analytics/",
-      "publishedAt": "2026-06-14T20:45:32.000Z",
-      "impact": 65
-    },
-    {
       "id": "aether-figure03",
       "type": "premium",
       "category": "robotics",
@@ -110,7 +88,7 @@
       "excerpt": "Humanoid achieves new milestone in unsupervised operation, performing 1,240 unique tasks across three assembly lines at the BMW South Carolina plant.",
       "source": "Figure AI",
       "url": "https://figure.ai/news/03-milestone",
-      "publishedAt": "2026-06-14T20:03:35.000Z",
+      "publishedAt": "2026-06-15T03:29:53.353Z",
       "impact": 89
     },
     {
@@ -121,30 +99,8 @@
       "excerpt": "Researchers reverse-engineered 312 million features inside the model, including the first clear \"deception circuit\" discovered in a frontier model.",
       "source": "Anthropic",
       "url": "https://anthropic.com/research/claude-4-interp",
-      "publishedAt": "2026-06-14T15:03:35.000Z",
+      "publishedAt": "2026-06-14T22:29:53.353Z",
       "impact": 91
-    },
-    {
-      "id": "marktechpost-1781413299000-2",
-      "type": "live",
-      "category": "llm",
-      "title": "Databricks Open-Sources Omnigent: A Meta-Harness That Composes, Governs, and Shares AI Agents Across Claude Code, Codex, and Pi",
-      "excerpt": "Databricks has open-sourced Omnigent, a meta-harness that sits above coding agents like Claude Code, Codex, and Pi.  It adds composition, contextual policies, and live session sharing under one interface, on terminal,...",
-      "source": "MarkTechPost",
-      "url": "https://www.marktechpost.com/2026/06/13/databricks-open-sources-omnigent-a-meta-harness-that-composes-governs-and-shares-ai-agents-across-claude-code-codex-and-pi/",
-      "publishedAt": "2026-06-14T05:01:39.000Z",
-      "impact": 77
-    },
-    {
-      "id": "marktechpost-1781371642000-3",
-      "type": "live",
-      "category": "robotics",
-      "title": "How to Build a QwenPaw Agent Workspace with Custom Skills, Model Providers, Console Access, and Streaming API Testing",
-      "excerpt": "In this tutorial, we implement a QwenPaw workflow that provides a practical environment for building and testing an agent-powered assistant.  We install and initialize QwenPaw, configure its working directory, set up ...",
-      "source": "MarkTechPost",
-      "url": "https://www.marktechpost.com/2026/06/13/how-to-build-a-qwenpaw-agent-workspace-with-custom-skills-model-providers-console-access-and-streaming-api-testing/",
-      "publishedAt": "2026-06-13T17:27:22.000Z",
-      "impact": 77
     },
     {
       "id": "hugging-face-1781279770000-0",

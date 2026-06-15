@@ -1,8 +1,85 @@
 {
-  "lastUpdated": "2026-06-14T19:45:09.785Z",
+  "lastUpdated": "2026-06-15T05:03:36.367Z",
   "source": "AETHER + Public RSS (arXiv, Hugging Face, MarkTechPost, Ben's Bites)",
-  "count": 10,
+  "count": 16,
   "articles": [
+    {
+      "id": "arxiv-cs.ai-1781496000000-0",
+      "type": "live",
+      "category": "llm",
+      "title": "A Deep Reinforcement Learning (DRL)-Based Transformer Method for Solving the Open Shop Scheduling Problem",
+      "excerpt": "13682v1 Announce Type: new Abstract: The open shop scheduling problem (OSSP) arises in many industrial and service settings but remains computationally challenging as the number of jobs and machines increases.  While ...",
+      "source": "arXiv cs.AI",
+      "url": "https://arxiv.org/abs/2606.13682",
+      "publishedAt": "2026-06-15T04:00:00.000Z",
+      "impact": 58
+    },
+    {
+      "id": "arxiv-cs.ai-1781496000000-1",
+      "type": "live",
+      "category": "llm",
+      "title": "UP-NRPA: User Portrait based Nested Rollout Policy Adaptation for Planning with Large Language Models in Goal-oriented Dialogue Systems",
+      "excerpt": "13683v1 Announce Type: new Abstract: To address the challenge that current dialogue policy planning methods struggle to dynamically adapt to diverse user characteristics, this paper proposes a User Portrait based Nest...",
+      "source": "arXiv cs.AI",
+      "url": "https://arxiv.org/abs/2606.13683",
+      "publishedAt": "2026-06-15T04:00:00.000Z",
+      "impact": 58
+    },
+    {
+      "id": "arxiv-cs.ai-1781496000000-2",
+      "type": "live",
+      "category": "research",
+      "title": "History of the Muddy Children Puzzle",
+      "excerpt": "13703v1 Announce Type: new Abstract: The Muddy Children Puzzle is a puzzle about knowledge and ignorance that has been inspiring for the development of epistemic logic.  Who came up with it first",
+      "source": "arXiv cs.AI",
+      "url": "https://arxiv.org/abs/2606.13703",
+      "publishedAt": "2026-06-15T04:00:00.000Z",
+      "impact": 58
+    },
+    {
+      "id": "arxiv-cs.ai-1781496000000-3",
+      "type": "live",
+      "category": "multimodal",
+      "title": "Orchestra-o1: Omnimodal Agent Orchestration",
+      "excerpt": "13707v1 Announce Type: new Abstract: The recent success of agent swarms has shifted the paradigm of large language model (LLM)-based agents from single-agent workflows to multi-agent systems, highlighting the importan...",
+      "source": "arXiv cs.AI",
+      "url": "https://arxiv.org/abs/2606.13707",
+      "publishedAt": "2026-06-15T04:00:00.000Z",
+      "impact": 69
+    },
+    {
+      "id": "arxiv-cs.ai-1781496000000-4",
+      "type": "live",
+      "category": "llm",
+      "title": "Hybrid Open-Ended Tri-Evolution Makes Better Deep Researcher",
+      "excerpt": "13710v1 Announce Type: new Abstract: Deep research and agent evolution serve as de-facto tasks for AI agents in real-world applications toward artificial general intelligence.  The former enables autonomous retrieval ...",
+      "source": "arXiv cs.AI",
+      "url": "https://arxiv.org/abs/2606.13710",
+      "publishedAt": "2026-06-15T04:00:00.000Z",
+      "impact": 58
+    },
+    {
+      "id": "arxiv-cs.ai-1781496000000-5",
+      "type": "live",
+      "category": "safety",
+      "title": "WorkBench Revisited: Workplace Agents Two Years On",
+      "excerpt": "13715v1 Announce Type: new Abstract: The best agent on WorkBench in March 2024, GPT-4, completed 43% of tasks and took an unintended harmful action, such as emailing the wrong person, on 26% of them.  We re-visit the ...",
+      "source": "arXiv cs.AI",
+      "url": "https://arxiv.org/abs/2606.13715",
+      "publishedAt": "2026-06-15T04:00:00.000Z",
+      "impact": 69
+    },
+    {
+      "id": "marktechpost-1781485493000-0",
+      "type": "live",
+      "category": "llm",
+      "title": "Claude Code Guide 2026: 25 Features with Examples + Demo",
+      "excerpt": "Claude Code is a layered agentic coding tool, not a single chat prompt.  This guide breaks down 25 features, from CLAUDE",
+      "source": "MarkTechPost",
+      "url": "https://www.marktechpost.com/2026/06/14/claude-code-guide-2026-25-features-with-examples-demo/",
+      "publishedAt": "2026-06-15T01:04:53.000Z",
+      "impact": 65
+    },
     {
       "id": "aether-grok43",
       "type": "premium",
@@ -11,8 +88,19 @@
       "excerpt": "New model demonstrates 4.2× improvement on multi-step software engineering benchmarks and sustains coherent agent trajectories beyond 110k tokens.",
       "source": "xAI",
       "url": "https://x.ai/blog/grok-4.3",
-      "publishedAt": "2026-06-14T14:45:09.178Z",
+      "publishedAt": "2026-06-15T00:03:35.000Z",
       "impact": 96
+    },
+    {
+      "id": "marktechpost-1781469932000-1",
+      "type": "live",
+      "category": "research",
+      "title": "A Coding Hands-On on FineWeb for Streaming, Filtering, Deduplication, Tokenization, and Large-Scale Web Corpus Analytics",
+      "excerpt": "In this tutorial, we explore the FineWeb dataset through an advanced hands-on workflow.  We stream a manageable sample of the dataset without downloading the full multi-terabyte corpus, inspect its schema and metadata...",
+      "source": "MarkTechPost",
+      "url": "https://www.marktechpost.com/2026/06/14/a-coding-hands-on-on-fineweb-for-streaming-filtering-deduplication-tokenization-and-large-scale-web-corpus-analytics/",
+      "publishedAt": "2026-06-14T20:45:32.000Z",
+      "impact": 65
     },
     {
       "id": "aether-figure03",
@@ -22,7 +110,7 @@
       "excerpt": "Humanoid achieves new milestone in unsupervised operation, performing 1,240 unique tasks across three assembly lines at the BMW South Carolina plant.",
       "source": "Figure AI",
       "url": "https://figure.ai/news/03-milestone",
-      "publishedAt": "2026-06-14T10:45:09.178Z",
+      "publishedAt": "2026-06-14T20:03:35.000Z",
       "impact": 89
     },
     {
@@ -33,11 +121,11 @@
       "excerpt": "Researchers reverse-engineered 312 million features inside the model, including the first clear \"deception circuit\" discovered in a frontier model.",
       "source": "Anthropic",
       "url": "https://anthropic.com/research/claude-4-interp",
-      "publishedAt": "2026-06-14T05:45:09.178Z",
+      "publishedAt": "2026-06-14T15:03:35.000Z",
       "impact": 91
     },
     {
-      "id": "marktechpost-1781413299000-0",
+      "id": "marktechpost-1781413299000-2",
       "type": "live",
       "category": "llm",
       "title": "Databricks Open-Sources Omnigent: A Meta-Harness That Composes, Governs, and Shares AI Agents Across Claude Code, Codex, and Pi",
@@ -48,7 +136,7 @@
       "impact": 77
     },
     {
-      "id": "marktechpost-1781371642000-1",
+      "id": "marktechpost-1781371642000-3",
       "type": "live",
       "category": "robotics",
       "title": "How to Build a QwenPaw Agent Workspace with Custom Skills, Model Providers, Console Access, and Streaming API Testing",
@@ -57,28 +145,6 @@
       "url": "https://www.marktechpost.com/2026/06/13/how-to-build-a-qwenpaw-agent-workspace-with-custom-skills-model-providers-console-access-and-streaming-api-testing/",
       "publishedAt": "2026-06-13T17:27:22.000Z",
       "impact": 77
-    },
-    {
-      "id": "marktechpost-1781338518000-2",
-      "type": "live",
-      "category": "llm",
-      "title": "Anthropic Disables Claude Fable 5 and Mythos 5 After US Government Order",
-      "excerpt": "shutdown followed a US government export control directive citing national security authorities.  All other Anthropic models, including Opus 4",
-      "source": "MarkTechPost",
-      "url": "https://www.marktechpost.com/2026/06/13/anthropic-disables-claude-fable-5-and-mythos-5-after-us-government-order/",
-      "publishedAt": "2026-06-13T08:15:18.000Z",
-      "impact": 65
-    },
-    {
-      "id": "marktechpost-1781326632000-3",
-      "type": "live",
-      "category": "llm",
-      "title": "Moonshot AI Releases Kimi K2.7-Code: a Coding Model Reporting +21.8% on Kimi Code Bench v2 Over K2.6",
-      "excerpt": "Moonshot AI has open-sourced Kimi K2. 7-Code under a Modified MIT license",
-      "source": "MarkTechPost",
-      "url": "https://www.marktechpost.com/2026/06/12/moonshot-ai-releases-kimi-k2-7-code-a-coding-model-reporting-21-8-on-kimi-code-bench-v2-over-k2-6/",
-      "publishedAt": "2026-06-13T04:57:12.000Z",
-      "impact": 65
     },
     {
       "id": "hugging-face-1781279770000-0",
@@ -103,15 +169,15 @@
       "impact": 75
     },
     {
-      "id": "hugging-face-1781020583000-2",
+      "id": "hugging-face-1781001979000-2",
       "type": "live",
-      "category": "llm",
-      "title": "Introducing North Mini Code: Cohere’s First Model For Developers",
+      "category": "research",
+      "title": "How an Agent Built a 3D Paris Gallery by Chaining Two Hugging Face Spaces",
       "excerpt": "New development from the frontier.",
       "source": "Hugging Face",
-      "url": "https://huggingface.co/blog/CohereLabs/introducing-north-mini-code",
-      "publishedAt": "2026-06-09T15:56:23.000Z",
-      "impact": 75
+      "url": "https://huggingface.co/blog/mishig/spaces-agents-md",
+      "publishedAt": "2026-06-09T10:46:19.000Z",
+      "impact": 87
     }
   ]
 }

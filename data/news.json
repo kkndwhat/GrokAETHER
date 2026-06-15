@@ -1,7 +1,7 @@
 {
-  "lastUpdated": "2026-06-15T12:29:53.729Z",
+  "lastUpdated": "2026-06-15T21:11:32.920Z",
   "source": "AETHER + Public RSS (arXiv, Hugging Face, MarkTechPost, Ben's Bites)",
-  "count": 12,
+  "count": 16,
   "articles": [
     {
       "id": "aether-grok43",
@@ -11,8 +11,52 @@
       "excerpt": "New model demonstrates 4.2× improvement on multi-step software engineering benchmarks and sustains coherent agent trajectories beyond 110k tokens.",
       "source": "xAI",
       "url": "https://x.ai/blog/grok-4.3",
-      "publishedAt": "2026-06-15T07:29:53.353Z",
+      "publishedAt": "2026-06-15T16:11:31.677Z",
       "impact": 96
+    },
+    {
+      "id": "aether-figure03",
+      "type": "premium",
+      "category": "robotics",
+      "title": "Figure 03 completes 43-hour autonomous factory shift with zero interventions",
+      "excerpt": "Humanoid achieves new milestone in unsupervised operation, performing 1,240 unique tasks across three assembly lines at the BMW South Carolina plant.",
+      "source": "Figure AI",
+      "url": "https://figure.ai/news/03-milestone",
+      "publishedAt": "2026-06-15T12:11:31.677Z",
+      "impact": 89
+    },
+    {
+      "id": "marktechpost-1781514969000-0",
+      "type": "live",
+      "category": "hardware",
+      "title": "Meet Flash-KMeans: An IO-Aware, Exact K-Means That Runs Over 200× Faster Than FAISS on GPUs",
+      "excerpt": "Flash-KMeans is an open-source, IO-aware implementation of standard Lloyd's k-means in Triton GPU kernels.  It does not change the math or approximate",
+      "source": "MarkTechPost",
+      "url": "https://www.marktechpost.com/2026/06/15/meet-flash-kmeans-an-io-aware-exact-k-means-that-runs-over-200x-faster-than-faiss-on-gpus/",
+      "publishedAt": "2026-06-15T09:16:09.000Z",
+      "impact": 65
+    },
+    {
+      "id": "aether-interp",
+      "type": "premium",
+      "category": "safety",
+      "title": "Anthropic publishes unprecedented mechanistic interpretability map of Claude 4",
+      "excerpt": "Researchers reverse-engineered 312 million features inside the model, including the first clear \"deception circuit\" discovered in a frontier model.",
+      "source": "Anthropic",
+      "url": "https://anthropic.com/research/claude-4-interp",
+      "publishedAt": "2026-06-15T07:11:31.677Z",
+      "impact": 91
+    },
+    {
+      "id": "marktechpost-1781503823000-1",
+      "type": "live",
+      "category": "llm",
+      "title": "Z.ai Launches GLM-5.2 With a Usable 1M-Token Context, Two Thinking-Effort Levels, and No Benchmarks at Launch",
+      "excerpt": "2 on June 13, 2026, across every GLM Coding Plan tier.  The headline is a usable 1-million-token context window plus High and Max effort levels",
+      "source": "MarkTechPost",
+      "url": "https://www.marktechpost.com/2026/06/14/z-ai-launches-glm-5-2-with-a-usable-1m-token-context-two-thinking-effort-levels-and-no-benchmarks-at-launch/",
+      "publishedAt": "2026-06-15T06:10:23.000Z",
+      "impact": 65
     },
     {
       "id": "arxiv-cs.ai-1781496000000-0",
@@ -81,26 +125,26 @@
       "impact": 69
     },
     {
-      "id": "aether-figure03",
-      "type": "premium",
-      "category": "robotics",
-      "title": "Figure 03 completes 43-hour autonomous factory shift with zero interventions",
-      "excerpt": "Humanoid achieves new milestone in unsupervised operation, performing 1,240 unique tasks across three assembly lines at the BMW South Carolina plant.",
-      "source": "Figure AI",
-      "url": "https://figure.ai/news/03-milestone",
-      "publishedAt": "2026-06-15T03:29:53.353Z",
-      "impact": 89
+      "id": "marktechpost-1781485493000-2",
+      "type": "live",
+      "category": "llm",
+      "title": "Claude Code Guide 2026: 25 Features with Examples + Demo",
+      "excerpt": "Claude Code is a layered agentic coding tool, not a single chat prompt.  This guide breaks down 25 features, from CLAUDE",
+      "source": "MarkTechPost",
+      "url": "https://www.marktechpost.com/2026/06/14/claude-code-guide-2026-25-features-with-examples-demo/",
+      "publishedAt": "2026-06-15T01:04:53.000Z",
+      "impact": 65
     },
     {
-      "id": "aether-interp",
-      "type": "premium",
-      "category": "safety",
-      "title": "Anthropic publishes unprecedented mechanistic interpretability map of Claude 4",
-      "excerpt": "Researchers reverse-engineered 312 million features inside the model, including the first clear \"deception circuit\" discovered in a frontier model.",
-      "source": "Anthropic",
-      "url": "https://anthropic.com/research/claude-4-interp",
-      "publishedAt": "2026-06-14T22:29:53.353Z",
-      "impact": 91
+      "id": "marktechpost-1781469932000-3",
+      "type": "live",
+      "category": "research",
+      "title": "A Coding Hands-On on FineWeb for Streaming, Filtering, Deduplication, Tokenization, and Large-Scale Web Corpus Analytics",
+      "excerpt": "In this tutorial, we explore the FineWeb dataset through an advanced hands-on workflow.  We stream a manageable sample of the dataset without downloading the full multi-terabyte corpus, inspect its schema and metadata...",
+      "source": "MarkTechPost",
+      "url": "https://www.marktechpost.com/2026/06/14/a-coding-hands-on-on-fineweb-for-streaming-filtering-deduplication-tokenization-and-large-scale-web-corpus-analytics/",
+      "publishedAt": "2026-06-14T20:45:32.000Z",
+      "impact": 65
     },
     {
       "id": "hugging-face-1781279770000-0",

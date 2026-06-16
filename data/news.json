@@ -1,8 +1,52 @@
 {
-  "lastUpdated": "2026-06-15T21:11:32.920Z",
+  "lastUpdated": "2026-06-16T11:23:14.895Z",
   "source": "AETHER + Public RSS (arXiv, Hugging Face, MarkTechPost, Ben's Bites)",
   "count": 16,
   "articles": [
+    {
+      "id": "marktechpost-1781601672000-0",
+      "type": "live",
+      "category": "research",
+      "title": "Hermes Agent Adds Asynchronous Subagents, So Delegated Work No Longer Blocks the Parent Chat",
+      "excerpt": "We look at Hermes Agent's new asynchronous subagents from Nous Research.  The delegate tool can now spawn background agents that no longer block the parent chat",
+      "source": "MarkTechPost",
+      "url": "https://www.marktechpost.com/2026/06/16/hermes-agent-adds-asynchronous-subagents-so-delegated-work-no-longer-blocks-the-parent-chat/",
+      "publishedAt": "2026-06-16T09:21:12.000Z",
+      "impact": 77
+    },
+    {
+      "id": "marktechpost-1781599817000-1",
+      "type": "live",
+      "category": "research",
+      "title": "Meet Atoms: A Vibe Coding Tool That Uses AI Agents to Build, Deploy, and Market Your App (No Code)",
+      "excerpt": "The concept of vibe coding is interesting; you don’t need to be a developer or software engineer to build your own applications.  You can describe your idea to an AI in plain language, and it will build, edit, and ref...",
+      "source": "MarkTechPost",
+      "url": "https://www.marktechpost.com/2026/06/16/meet-atoms-a-vibe-coding-tool-that-uses-ai-agents-to-build-deploy-and-market-your-app-no-code/",
+      "publishedAt": "2026-06-16T08:50:17.000Z",
+      "impact": 77
+    },
+    {
+      "id": "marktechpost-1781597938000-2",
+      "type": "live",
+      "category": "llm",
+      "title": "Google Cloud Introduces Open Knowledge Format (OKF): A Vendor-Neutral Markdown Spec for Giving AI Agents Curated Context",
+      "excerpt": "We break down Google Cloud's new Open Knowledge Format (OKF), an open spec that formalizes the LLM-wiki pattern.  We explain how a bundle works: a directory of markdown files with YAML frontmatter, where each concept ...",
+      "source": "MarkTechPost",
+      "url": "https://www.marktechpost.com/2026/06/16/google-cloud-introduces-open-knowledge-format-okf-a-vendor-neutral-markdown-spec-for-giving-ai-agents-curated-context/",
+      "publishedAt": "2026-06-16T08:18:58.000Z",
+      "impact": 77
+    },
+    {
+      "id": "marktechpost-1781594408000-3",
+      "type": "live",
+      "category": "multimodal",
+      "title": "How to Build a Parsing Pipeline with Docling Parse for Layout-Aware Document Intelligence",
+      "excerpt": "In this tutorial, we build a workflow that uses Docling Parse to analyze PDF documents at a detailed structural level.  We prepare a stable Python environment, handle common Colab dependency issues, and generate a cus...",
+      "source": "MarkTechPost",
+      "url": "https://www.marktechpost.com/2026/06/16/how-to-build-a-parsing-pipeline-with-docling-parse-for-layout-aware-document-intelligence/",
+      "publishedAt": "2026-06-16T07:20:08.000Z",
+      "impact": 65
+    },
     {
       "id": "aether-grok43",
       "type": "premium",
@@ -11,8 +55,74 @@
       "excerpt": "New model demonstrates 4.2× improvement on multi-step software engineering benchmarks and sustains coherent agent trajectories beyond 110k tokens.",
       "source": "xAI",
       "url": "https://x.ai/blog/grok-4.3",
-      "publishedAt": "2026-06-15T16:11:31.677Z",
+      "publishedAt": "2026-06-16T06:23:13.772Z",
       "impact": 96
+    },
+    {
+      "id": "arxiv-cs.ai-1781582400000-0",
+      "type": "live",
+      "category": "llm",
+      "title": "A Definition of Good Explanations and the Challenges Explaining LLM Outputs",
+      "excerpt": "14838v1 Announce Type: new Abstract: How to define a good explanation is a long-standing philosophical debate which has found recent renewed interest in the context of AI outputs.  Explainability is crucial for AI ado...",
+      "source": "arXiv cs.AI",
+      "url": "https://arxiv.org/abs/2606.14838",
+      "publishedAt": "2026-06-16T04:00:00.000Z",
+      "impact": 58
+    },
+    {
+      "id": "arxiv-cs.ai-1781582400000-1",
+      "type": "live",
+      "category": "research",
+      "title": "Dr-DCI: Scaling Direct Corpus Interaction via Dynamic Workspace Expansion",
+      "excerpt": "14885v1 Announce Type: new Abstract: Agentic search over large corpora relies on retriever-mediated interfaces (e. , BM25 or ColBERT) for scalable candidate discovery",
+      "source": "arXiv cs.AI",
+      "url": "https://arxiv.org/abs/2606.14885",
+      "publishedAt": "2026-06-16T04:00:00.000Z",
+      "impact": 58
+    },
+    {
+      "id": "arxiv-cs.ai-1781582400000-2",
+      "type": "live",
+      "category": "llm",
+      "title": "Relational Structural Causal Models",
+      "excerpt": "14892v1 Announce Type: new Abstract: An artificial intelligence must have a model of its environment that is causal, supporting reasoning about interventions and counterfactuals, and also combinatorial, supporting gen...",
+      "source": "arXiv cs.AI",
+      "url": "https://arxiv.org/abs/2606.14892",
+      "publishedAt": "2026-06-16T04:00:00.000Z",
+      "impact": 58
+    },
+    {
+      "id": "arxiv-cs.ai-1781582400000-3",
+      "type": "live",
+      "category": "safety",
+      "title": "Trust Between AI Agents: Measuring Formation, Breakage, and Recovery, with Implications for Governing Multi-Agent Systems",
+      "excerpt": "14923v1 Announce Type: new Abstract: As language-model agents increasingly work in teams, each agent must decide how much to trust its teammates.  Yet we lack a standard way to measure trust between AI agents",
+      "source": "arXiv cs.AI",
+      "url": "https://arxiv.org/abs/2606.14923",
+      "publishedAt": "2026-06-16T04:00:00.000Z",
+      "impact": 69
+    },
+    {
+      "id": "arxiv-cs.ai-1781582400000-4",
+      "type": "live",
+      "category": "llm",
+      "title": "PrologMCP: A Standardized Prolog Tool Interface for LLM Agents",
+      "excerpt": "14935v1 Announce Type: new Abstract: Frontier reasoning-tuned language models still fail on deductive tasks at depth, and the cost of improved performance through extended internal reasoning scales poorly.  Symbolic d...",
+      "source": "arXiv cs.AI",
+      "url": "https://arxiv.org/abs/2606.14935",
+      "publishedAt": "2026-06-16T04:00:00.000Z",
+      "impact": 69
+    },
+    {
+      "id": "arxiv-cs.ai-1781582400000-5",
+      "type": "live",
+      "category": "multimodal",
+      "title": "Semantics-Enhanced Retrieval-Augmented Time Series Forecasting",
+      "excerpt": "14941v1 Announce Type: new Abstract: Time series forecasting models often benefit from historical patterns.  Inspired by Retrieval-Augmented Generation (RAG), recent research explored retrieving relevant historical ti...",
+      "source": "arXiv cs.AI",
+      "url": "https://arxiv.org/abs/2606.14941",
+      "publishedAt": "2026-06-16T04:00:00.000Z",
+      "impact": 58
     },
     {
       "id": "aether-figure03",
@@ -22,19 +132,8 @@
       "excerpt": "Humanoid achieves new milestone in unsupervised operation, performing 1,240 unique tasks across three assembly lines at the BMW South Carolina plant.",
       "source": "Figure AI",
       "url": "https://figure.ai/news/03-milestone",
-      "publishedAt": "2026-06-15T12:11:31.677Z",
+      "publishedAt": "2026-06-16T02:23:13.772Z",
       "impact": 89
-    },
-    {
-      "id": "marktechpost-1781514969000-0",
-      "type": "live",
-      "category": "hardware",
-      "title": "Meet Flash-KMeans: An IO-Aware, Exact K-Means That Runs Over 200× Faster Than FAISS on GPUs",
-      "excerpt": "Flash-KMeans is an open-source, IO-aware implementation of standard Lloyd's k-means in Triton GPU kernels.  It does not change the math or approximate",
-      "source": "MarkTechPost",
-      "url": "https://www.marktechpost.com/2026/06/15/meet-flash-kmeans-an-io-aware-exact-k-means-that-runs-over-200x-faster-than-faiss-on-gpus/",
-      "publishedAt": "2026-06-15T09:16:09.000Z",
-      "impact": 65
     },
     {
       "id": "aether-interp",
@@ -44,107 +143,8 @@
       "excerpt": "Researchers reverse-engineered 312 million features inside the model, including the first clear \"deception circuit\" discovered in a frontier model.",
       "source": "Anthropic",
       "url": "https://anthropic.com/research/claude-4-interp",
-      "publishedAt": "2026-06-15T07:11:31.677Z",
+      "publishedAt": "2026-06-15T21:23:13.772Z",
       "impact": 91
-    },
-    {
-      "id": "marktechpost-1781503823000-1",
-      "type": "live",
-      "category": "llm",
-      "title": "Z.ai Launches GLM-5.2 With a Usable 1M-Token Context, Two Thinking-Effort Levels, and No Benchmarks at Launch",
-      "excerpt": "2 on June 13, 2026, across every GLM Coding Plan tier.  The headline is a usable 1-million-token context window plus High and Max effort levels",
-      "source": "MarkTechPost",
-      "url": "https://www.marktechpost.com/2026/06/14/z-ai-launches-glm-5-2-with-a-usable-1m-token-context-two-thinking-effort-levels-and-no-benchmarks-at-launch/",
-      "publishedAt": "2026-06-15T06:10:23.000Z",
-      "impact": 65
-    },
-    {
-      "id": "arxiv-cs.ai-1781496000000-0",
-      "type": "live",
-      "category": "llm",
-      "title": "A Deep Reinforcement Learning (DRL)-Based Transformer Method for Solving the Open Shop Scheduling Problem",
-      "excerpt": "13682v1 Announce Type: new Abstract: The open shop scheduling problem (OSSP) arises in many industrial and service settings but remains computationally challenging as the number of jobs and machines increases.  While ...",
-      "source": "arXiv cs.AI",
-      "url": "https://arxiv.org/abs/2606.13682",
-      "publishedAt": "2026-06-15T04:00:00.000Z",
-      "impact": 58
-    },
-    {
-      "id": "arxiv-cs.ai-1781496000000-1",
-      "type": "live",
-      "category": "llm",
-      "title": "UP-NRPA: User Portrait based Nested Rollout Policy Adaptation for Planning with Large Language Models in Goal-oriented Dialogue Systems",
-      "excerpt": "13683v1 Announce Type: new Abstract: To address the challenge that current dialogue policy planning methods struggle to dynamically adapt to diverse user characteristics, this paper proposes a User Portrait based Nest...",
-      "source": "arXiv cs.AI",
-      "url": "https://arxiv.org/abs/2606.13683",
-      "publishedAt": "2026-06-15T04:00:00.000Z",
-      "impact": 58
-    },
-    {
-      "id": "arxiv-cs.ai-1781496000000-2",
-      "type": "live",
-      "category": "research",
-      "title": "History of the Muddy Children Puzzle",
-      "excerpt": "13703v1 Announce Type: new Abstract: The Muddy Children Puzzle is a puzzle about knowledge and ignorance that has been inspiring for the development of epistemic logic.  Who came up with it first",
-      "source": "arXiv cs.AI",
-      "url": "https://arxiv.org/abs/2606.13703",
-      "publishedAt": "2026-06-15T04:00:00.000Z",
-      "impact": 58
-    },
-    {
-      "id": "arxiv-cs.ai-1781496000000-3",
-      "type": "live",
-      "category": "multimodal",
-      "title": "Orchestra-o1: Omnimodal Agent Orchestration",
-      "excerpt": "13707v1 Announce Type: new Abstract: The recent success of agent swarms has shifted the paradigm of large language model (LLM)-based agents from single-agent workflows to multi-agent systems, highlighting the importan...",
-      "source": "arXiv cs.AI",
-      "url": "https://arxiv.org/abs/2606.13707",
-      "publishedAt": "2026-06-15T04:00:00.000Z",
-      "impact": 69
-    },
-    {
-      "id": "arxiv-cs.ai-1781496000000-4",
-      "type": "live",
-      "category": "llm",
-      "title": "Hybrid Open-Ended Tri-Evolution Makes Better Deep Researcher",
-      "excerpt": "13710v1 Announce Type: new Abstract: Deep research and agent evolution serve as de-facto tasks for AI agents in real-world applications toward artificial general intelligence.  The former enables autonomous retrieval ...",
-      "source": "arXiv cs.AI",
-      "url": "https://arxiv.org/abs/2606.13710",
-      "publishedAt": "2026-06-15T04:00:00.000Z",
-      "impact": 58
-    },
-    {
-      "id": "arxiv-cs.ai-1781496000000-5",
-      "type": "live",
-      "category": "safety",
-      "title": "WorkBench Revisited: Workplace Agents Two Years On",
-      "excerpt": "13715v1 Announce Type: new Abstract: The best agent on WorkBench in March 2024, GPT-4, completed 43% of tasks and took an unintended harmful action, such as emailing the wrong person, on 26% of them.  We re-visit the ...",
-      "source": "arXiv cs.AI",
-      "url": "https://arxiv.org/abs/2606.13715",
-      "publishedAt": "2026-06-15T04:00:00.000Z",
-      "impact": 69
-    },
-    {
-      "id": "marktechpost-1781485493000-2",
-      "type": "live",
-      "category": "llm",
-      "title": "Claude Code Guide 2026: 25 Features with Examples + Demo",
-      "excerpt": "Claude Code is a layered agentic coding tool, not a single chat prompt.  This guide breaks down 25 features, from CLAUDE",
-      "source": "MarkTechPost",
-      "url": "https://www.marktechpost.com/2026/06/14/claude-code-guide-2026-25-features-with-examples-demo/",
-      "publishedAt": "2026-06-15T01:04:53.000Z",
-      "impact": 65
-    },
-    {
-      "id": "marktechpost-1781469932000-3",
-      "type": "live",
-      "category": "research",
-      "title": "A Coding Hands-On on FineWeb for Streaming, Filtering, Deduplication, Tokenization, and Large-Scale Web Corpus Analytics",
-      "excerpt": "In this tutorial, we explore the FineWeb dataset through an advanced hands-on workflow.  We stream a manageable sample of the dataset without downloading the full multi-terabyte corpus, inspect its schema and metadata...",
-      "source": "MarkTechPost",
-      "url": "https://www.marktechpost.com/2026/06/14/a-coding-hands-on-on-fineweb-for-streaming-filtering-deduplication-tokenization-and-large-scale-web-corpus-analytics/",
-      "publishedAt": "2026-06-14T20:45:32.000Z",
-      "impact": 65
     },
     {
       "id": "hugging-face-1781279770000-0",

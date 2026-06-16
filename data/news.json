@@ -1,50 +1,17 @@
 {
-  "lastUpdated": "2026-06-16T11:23:14.895Z",
+  "lastUpdated": "2026-06-16T17:07:09.397Z",
   "source": "AETHER + Public RSS (arXiv, Hugging Face, MarkTechPost, Ben's Bites)",
   "count": 16,
   "articles": [
     {
-      "id": "marktechpost-1781601672000-0",
+      "id": "marktechpost-1781628679000-0",
       "type": "live",
-      "category": "research",
-      "title": "Hermes Agent Adds Asynchronous Subagents, So Delegated Work No Longer Blocks the Parent Chat",
-      "excerpt": "We look at Hermes Agent's new asynchronous subagents from Nous Research.  The delegate tool can now spawn background agents that no longer block the parent chat",
+      "category": "robotics",
+      "title": "Meet Qwen-RobotSuite: Three Embodied AI Models for VLA Manipulation, Video World Modeling, and Navigation",
+      "excerpt": "We break down Qwen-RobotSuite, the Qwen team's three new embodied AI models.  We cover RobotManip, a Vision-Language-Action model built on Qwen3",
       "source": "MarkTechPost",
-      "url": "https://www.marktechpost.com/2026/06/16/hermes-agent-adds-asynchronous-subagents-so-delegated-work-no-longer-blocks-the-parent-chat/",
-      "publishedAt": "2026-06-16T09:21:12.000Z",
-      "impact": 77
-    },
-    {
-      "id": "marktechpost-1781599817000-1",
-      "type": "live",
-      "category": "research",
-      "title": "Meet Atoms: A Vibe Coding Tool That Uses AI Agents to Build, Deploy, and Market Your App (No Code)",
-      "excerpt": "The concept of vibe coding is interesting; you don’t need to be a developer or software engineer to build your own applications.  You can describe your idea to an AI in plain language, and it will build, edit, and ref...",
-      "source": "MarkTechPost",
-      "url": "https://www.marktechpost.com/2026/06/16/meet-atoms-a-vibe-coding-tool-that-uses-ai-agents-to-build-deploy-and-market-your-app-no-code/",
-      "publishedAt": "2026-06-16T08:50:17.000Z",
-      "impact": 77
-    },
-    {
-      "id": "marktechpost-1781597938000-2",
-      "type": "live",
-      "category": "llm",
-      "title": "Google Cloud Introduces Open Knowledge Format (OKF): A Vendor-Neutral Markdown Spec for Giving AI Agents Curated Context",
-      "excerpt": "We break down Google Cloud's new Open Knowledge Format (OKF), an open spec that formalizes the LLM-wiki pattern.  We explain how a bundle works: a directory of markdown files with YAML frontmatter, where each concept ...",
-      "source": "MarkTechPost",
-      "url": "https://www.marktechpost.com/2026/06/16/google-cloud-introduces-open-knowledge-format-okf-a-vendor-neutral-markdown-spec-for-giving-ai-agents-curated-context/",
-      "publishedAt": "2026-06-16T08:18:58.000Z",
-      "impact": 77
-    },
-    {
-      "id": "marktechpost-1781594408000-3",
-      "type": "live",
-      "category": "multimodal",
-      "title": "How to Build a Parsing Pipeline with Docling Parse for Layout-Aware Document Intelligence",
-      "excerpt": "In this tutorial, we build a workflow that uses Docling Parse to analyze PDF documents at a detailed structural level.  We prepare a stable Python environment, handle common Colab dependency issues, and generate a cus...",
-      "source": "MarkTechPost",
-      "url": "https://www.marktechpost.com/2026/06/16/how-to-build-a-parsing-pipeline-with-docling-parse-for-layout-aware-document-intelligence/",
-      "publishedAt": "2026-06-16T07:20:08.000Z",
+      "url": "https://www.marktechpost.com/2026/06/16/meet-qwen-robotsuite-three-embodied-ai-models-for-vla-manipulation-video-world-modeling-and-navigation/",
+      "publishedAt": "2026-06-16T16:51:19.000Z",
       "impact": 65
     },
     {
@@ -55,8 +22,52 @@
       "excerpt": "New model demonstrates 4.2× improvement on multi-step software engineering benchmarks and sustains coherent agent trajectories beyond 110k tokens.",
       "source": "xAI",
       "url": "https://x.ai/blog/grok-4.3",
-      "publishedAt": "2026-06-16T06:23:13.772Z",
+      "publishedAt": "2026-06-16T12:07:08.111Z",
       "impact": 96
+    },
+    {
+      "id": "marktechpost-1781601672000-1",
+      "type": "live",
+      "category": "research",
+      "title": "Hermes Agent Adds Asynchronous Subagents, So Delegated Work No Longer Blocks the Parent Chat",
+      "excerpt": "We look at Hermes Agent's new asynchronous subagents from Nous Research.  The delegate tool can now spawn background agents that no longer block the parent chat",
+      "source": "MarkTechPost",
+      "url": "https://www.marktechpost.com/2026/06/16/hermes-agent-adds-asynchronous-subagents-so-delegated-work-no-longer-blocks-the-parent-chat/",
+      "publishedAt": "2026-06-16T09:21:12.000Z",
+      "impact": 77
+    },
+    {
+      "id": "marktechpost-1781599817000-2",
+      "type": "live",
+      "category": "research",
+      "title": "Meet Atoms: A Vibe Coding Tool That Uses AI Agents to Build, Deploy, and Market Your App (No Code)",
+      "excerpt": "The concept of vibe coding is interesting; you don’t need to be a developer or software engineer to build your own applications.  You can describe your idea to an AI in plain language, and it will build, edit, and ref...",
+      "source": "MarkTechPost",
+      "url": "https://www.marktechpost.com/2026/06/16/meet-atoms-a-vibe-coding-tool-that-uses-ai-agents-to-build-deploy-and-market-your-app-no-code/",
+      "publishedAt": "2026-06-16T08:50:17.000Z",
+      "impact": 77
+    },
+    {
+      "id": "marktechpost-1781597938000-3",
+      "type": "live",
+      "category": "llm",
+      "title": "Google Cloud Introduces Open Knowledge Format (OKF): A Vendor-Neutral Markdown Spec for Giving AI Agents Curated Context",
+      "excerpt": "We break down Google Cloud's new Open Knowledge Format (OKF), an open spec that formalizes the LLM-wiki pattern.  We explain how a bundle works: a directory of markdown files with YAML frontmatter, where each concept ...",
+      "source": "MarkTechPost",
+      "url": "https://www.marktechpost.com/2026/06/16/google-cloud-introduces-open-knowledge-format-okf-a-vendor-neutral-markdown-spec-for-giving-ai-agents-curated-context/",
+      "publishedAt": "2026-06-16T08:18:58.000Z",
+      "impact": 77
+    },
+    {
+      "id": "aether-figure03",
+      "type": "premium",
+      "category": "robotics",
+      "title": "Figure 03 completes 43-hour autonomous factory shift with zero interventions",
+      "excerpt": "Humanoid achieves new milestone in unsupervised operation, performing 1,240 unique tasks across three assembly lines at the BMW South Carolina plant.",
+      "source": "Figure AI",
+      "url": "https://figure.ai/news/03-milestone",
+      "publishedAt": "2026-06-16T08:07:08.111Z",
+      "impact": 89
     },
     {
       "id": "arxiv-cs.ai-1781582400000-0",
@@ -125,17 +136,6 @@
       "impact": 58
     },
     {
-      "id": "aether-figure03",
-      "type": "premium",
-      "category": "robotics",
-      "title": "Figure 03 completes 43-hour autonomous factory shift with zero interventions",
-      "excerpt": "Humanoid achieves new milestone in unsupervised operation, performing 1,240 unique tasks across three assembly lines at the BMW South Carolina plant.",
-      "source": "Figure AI",
-      "url": "https://figure.ai/news/03-milestone",
-      "publishedAt": "2026-06-16T02:23:13.772Z",
-      "impact": 89
-    },
-    {
       "id": "aether-interp",
       "type": "premium",
       "category": "safety",
@@ -143,7 +143,7 @@
       "excerpt": "Researchers reverse-engineered 312 million features inside the model, including the first clear \"deception circuit\" discovered in a frontier model.",
       "source": "Anthropic",
       "url": "https://anthropic.com/research/claude-4-interp",
-      "publishedAt": "2026-06-15T21:23:13.772Z",
+      "publishedAt": "2026-06-16T03:07:08.111Z",
       "impact": 91
     },
     {

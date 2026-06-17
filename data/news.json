@@ -1,7 +1,7 @@
 {
-  "lastUpdated": "2026-06-17T15:51:18.419Z",
+  "lastUpdated": "2026-06-17T20:21:53.598Z",
   "source": "AETHER + Public RSS (arXiv, Hugging Face, MarkTechPost, Ben's Bites)",
-  "count": 16,
+  "count": 12,
   "articles": [
     {
       "id": "hugging-face-1781710004000-0",
@@ -22,8 +22,19 @@
       "excerpt": "New model demonstrates 4.2× improvement on multi-step software engineering benchmarks and sustains coherent agent trajectories beyond 110k tokens.",
       "source": "xAI",
       "url": "https://x.ai/blog/grok-4.3",
-      "publishedAt": "2026-06-17T10:51:17.922Z",
+      "publishedAt": "2026-06-17T15:21:53.158Z",
       "impact": 96
+    },
+    {
+      "id": "aether-figure03",
+      "type": "premium",
+      "category": "robotics",
+      "title": "Figure 03 completes 43-hour autonomous factory shift with zero interventions",
+      "excerpt": "Humanoid achieves new milestone in unsupervised operation, performing 1,240 unique tasks across three assembly lines at the BMW South Carolina plant.",
+      "source": "Figure AI",
+      "url": "https://figure.ai/news/03-milestone",
+      "publishedAt": "2026-06-17T11:21:53.159Z",
+      "impact": 89
     },
     {
       "id": "hugging-face-1781691485000-1",
@@ -48,37 +59,15 @@
       "impact": 87
     },
     {
-      "id": "marktechpost-1781682294000-0",
-      "type": "live",
-      "category": "research",
-      "title": "MiniMax Sparse Attention (MSA): a Two-Branch Block-Sparse Attention Trained on a 109B-Parameter MoE With a 3T-Token Budget",
-      "excerpt": "MiniMax released MSA, a sparse attention built on Grouped Query Attention.  A lightweight Index Branch selects Top-k key-value blocks per query and GQA group; the Main Branch attends only to those blocks",
-      "source": "MarkTechPost",
-      "url": "https://www.marktechpost.com/2026/06/17/minimax-sparse-attention-msa-a-two-branch-block-sparse-attention-trained-on-a-109b-parameter-moe-with-a-3t-token-budget/",
-      "publishedAt": "2026-06-17T07:44:54.000Z",
-      "impact": 65
-    },
-    {
-      "id": "aether-figure03",
+      "id": "aether-interp",
       "type": "premium",
-      "category": "robotics",
-      "title": "Figure 03 completes 43-hour autonomous factory shift with zero interventions",
-      "excerpt": "Humanoid achieves new milestone in unsupervised operation, performing 1,240 unique tasks across three assembly lines at the BMW South Carolina plant.",
-      "source": "Figure AI",
-      "url": "https://figure.ai/news/03-milestone",
-      "publishedAt": "2026-06-17T06:51:17.923Z",
-      "impact": 89
-    },
-    {
-      "id": "marktechpost-1781675394000-1",
-      "type": "live",
-      "category": "llm",
-      "title": "OpenAI’s Deployment Simulation Extends Pre-Deployment Risk Assessment to Agentic Coding Through Simulated Tool Calls",
-      "excerpt": "OpenAI introduced Deployment Simulation on June 16, 2026.  The method replays past conversations through a new candidate model before release",
-      "source": "MarkTechPost",
-      "url": "https://www.marktechpost.com/2026/06/16/openai-deployment-simulation/",
-      "publishedAt": "2026-06-17T05:49:54.000Z",
-      "impact": 77
+      "category": "safety",
+      "title": "Anthropic publishes unprecedented mechanistic interpretability map of Claude 4",
+      "excerpt": "Researchers reverse-engineered 312 million features inside the model, including the first clear \"deception circuit\" discovered in a frontier model.",
+      "source": "Anthropic",
+      "url": "https://anthropic.com/research/claude-4-interp",
+      "publishedAt": "2026-06-17T06:21:53.159Z",
+      "impact": 91
     },
     {
       "id": "arxiv-cs.ai-1781668800000-0",
@@ -145,39 +134,6 @@
       "url": "https://arxiv.org/abs/2606.17312",
       "publishedAt": "2026-06-17T04:00:00.000Z",
       "impact": 58
-    },
-    {
-      "id": "aether-interp",
-      "type": "premium",
-      "category": "safety",
-      "title": "Anthropic publishes unprecedented mechanistic interpretability map of Claude 4",
-      "excerpt": "Researchers reverse-engineered 312 million features inside the model, including the first clear \"deception circuit\" discovered in a frontier model.",
-      "source": "Anthropic",
-      "url": "https://anthropic.com/research/claude-4-interp",
-      "publishedAt": "2026-06-17T01:51:17.923Z",
-      "impact": 91
-    },
-    {
-      "id": "marktechpost-1781654545000-2",
-      "type": "live",
-      "category": "hardware",
-      "title": "How to Build Memory-Efficient Transformers with xFormers Using Packed Sequences, GQA, ALiBi, SwiGLU, and Causal Attention",
-      "excerpt": "We implement xFormers, a practical toolkit for fast, memory-efficient Transformer models on GPUs.  We validate memory-efficient attention against a standard implementation, then compare speed and memory across sequenc...",
-      "source": "MarkTechPost",
-      "url": "https://www.marktechpost.com/2026/06/16/how-to-build-memory-efficient-transformers-with-xformers-using-packed-sequences-gqa-alibi-swiglu-and-causal-attention/",
-      "publishedAt": "2026-06-17T00:02:25.000Z",
-      "impact": 65
-    },
-    {
-      "id": "marktechpost-1781628679000-3",
-      "type": "live",
-      "category": "robotics",
-      "title": "Meet Qwen-RobotSuite: Three Embodied AI Models for VLA Manipulation, Video World Modeling, and Navigation",
-      "excerpt": "We break down Qwen-RobotSuite, the Qwen team's three new embodied AI models.  We cover RobotManip, a Vision-Language-Action model built on Qwen3",
-      "source": "MarkTechPost",
-      "url": "https://www.marktechpost.com/2026/06/16/meet-qwen-robotsuite-three-embodied-ai-models-for-vla-manipulation-video-world-modeling-and-navigation/",
-      "publishedAt": "2026-06-16T16:51:19.000Z",
-      "impact": 65
     }
   ]
 }

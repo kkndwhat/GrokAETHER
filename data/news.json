@@ -1,18 +1,73 @@
 {
-  "lastUpdated": "2026-06-16T21:10:30.242Z",
+  "lastUpdated": "2026-06-17T04:48:51.877Z",
   "source": "AETHER + Public RSS (arXiv, Hugging Face, MarkTechPost, Ben's Bites)",
-  "count": 16,
+  "count": 12,
   "articles": [
     {
-      "id": "marktechpost-1781628679000-0",
+      "id": "arxiv-cs.ai-1781668800000-0",
       "type": "live",
-      "category": "robotics",
-      "title": "Meet Qwen-RobotSuite: Three Embodied AI Models for VLA Manipulation, Video World Modeling, and Navigation",
-      "excerpt": "We break down Qwen-RobotSuite, the Qwen team's three new embodied AI models.  We cover RobotManip, a Vision-Language-Action model built on Qwen3",
-      "source": "MarkTechPost",
-      "url": "https://www.marktechpost.com/2026/06/16/meet-qwen-robotsuite-three-embodied-ai-models-for-vla-manipulation-video-world-modeling-and-navigation/",
-      "publishedAt": "2026-06-16T16:51:19.000Z",
-      "impact": 65
+      "category": "llm",
+      "title": "Beyond Parallel Sampling: Diverse Query Initialization for Agentic Search",
+      "excerpt": "17209v1 Announce Type: new Abstract: Test-time scaling for agentic search typically increases depth (i. , more turns and tokens per trajectory) or breadth (i",
+      "source": "arXiv cs.AI",
+      "url": "https://arxiv.org/abs/2606.17209",
+      "publishedAt": "2026-06-17T04:00:00.000Z",
+      "impact": 69
+    },
+    {
+      "id": "arxiv-cs.ai-1781668800000-1",
+      "type": "live",
+      "category": "safety",
+      "title": "When Rules Learn: A Self-Evolving Agent for Legal Case Retrieval",
+      "excerpt": "17220v1 Announce Type: new Abstract: Legal case retrieval remains challenging due to the complexity of legal language and the need for precise lexical alignment between queries and relevant cases.  Although dense retr...",
+      "source": "arXiv cs.AI",
+      "url": "https://arxiv.org/abs/2606.17220",
+      "publishedAt": "2026-06-17T04:00:00.000Z",
+      "impact": 69
+    },
+    {
+      "id": "arxiv-cs.ai-1781668800000-2",
+      "type": "live",
+      "category": "llm",
+      "title": "SkillChain-Gym: A Benchmark for Reskilling-Aware Production-Inventory Control under Disruptions",
+      "excerpt": "17266v1 Announce Type: new Abstract: Production planning increasingly has to treat workforce capability as a decision variable: certifications lapse when skills are not maintained, new products require skills the curr...",
+      "source": "arXiv cs.AI",
+      "url": "https://arxiv.org/abs/2606.17266",
+      "publishedAt": "2026-06-17T04:00:00.000Z",
+      "impact": 58
+    },
+    {
+      "id": "arxiv-cs.ai-1781668800000-3",
+      "type": "live",
+      "category": "safety",
+      "title": "Skill-Constrained Model Predictive Control for Resilient Manufacturing Supply Chains",
+      "excerpt": "17269v1 Announce Type: new Abstract: In skill-constrained production-inventory systems, the qualified human capacity available tomorrow depends on training decisions made today: production requires certified workers, ...",
+      "source": "arXiv cs.AI",
+      "url": "https://arxiv.org/abs/2606.17269",
+      "publishedAt": "2026-06-17T04:00:00.000Z",
+      "impact": 58
+    },
+    {
+      "id": "arxiv-cs.ai-1781668800000-4",
+      "type": "live",
+      "category": "llm",
+      "title": "Nothing from Something: Can a Language Model Discover 0?",
+      "excerpt": "17289v1 Announce Type: new Abstract: AI systems based on artificial neural networks are being developed with aspirations of pushing the boundary of human mathematical knowledge.  A key question for these systems is ho...",
+      "source": "arXiv cs.AI",
+      "url": "https://arxiv.org/abs/2606.17289",
+      "publishedAt": "2026-06-17T04:00:00.000Z",
+      "impact": 58
+    },
+    {
+      "id": "arxiv-cs.ai-1781668800000-5",
+      "type": "live",
+      "category": "llm",
+      "title": "Quantifying Consistency in LLM Logical Reasoning via Structural Uncertainty",
+      "excerpt": "17312v1 Announce Type: new Abstract: Large language models can arrive at the same answer through reasoning paths that are unstable, contradictory, or difficult to rank consistently -- a failure mode especially prevale...",
+      "source": "arXiv cs.AI",
+      "url": "https://arxiv.org/abs/2606.17312",
+      "publishedAt": "2026-06-17T04:00:00.000Z",
+      "impact": 58
     },
     {
       "id": "aether-grok43",
@@ -22,7 +77,7 @@
       "excerpt": "New model demonstrates 4.2× improvement on multi-step software engineering benchmarks and sustains coherent agent trajectories beyond 110k tokens.",
       "source": "xAI",
       "url": "https://x.ai/blog/grok-4.3",
-      "publishedAt": "2026-06-16T16:10:29.053Z",
+      "publishedAt": "2026-06-16T23:48:51.484Z",
       "impact": 96
     },
     {
@@ -33,41 +88,8 @@
       "excerpt": "Humanoid achieves new milestone in unsupervised operation, performing 1,240 unique tasks across three assembly lines at the BMW South Carolina plant.",
       "source": "Figure AI",
       "url": "https://figure.ai/news/03-milestone",
-      "publishedAt": "2026-06-16T12:10:29.053Z",
+      "publishedAt": "2026-06-16T19:48:51.484Z",
       "impact": 89
-    },
-    {
-      "id": "marktechpost-1781601672000-1",
-      "type": "live",
-      "category": "research",
-      "title": "Hermes Agent Adds Asynchronous Subagents, So Delegated Work No Longer Blocks the Parent Chat",
-      "excerpt": "We look at Hermes Agent's new asynchronous subagents from Nous Research.  The delegate tool can now spawn background agents that no longer block the parent chat",
-      "source": "MarkTechPost",
-      "url": "https://www.marktechpost.com/2026/06/16/hermes-agent-adds-asynchronous-subagents-so-delegated-work-no-longer-blocks-the-parent-chat/",
-      "publishedAt": "2026-06-16T09:21:12.000Z",
-      "impact": 77
-    },
-    {
-      "id": "marktechpost-1781599817000-2",
-      "type": "live",
-      "category": "research",
-      "title": "Meet Atoms: A Vibe Coding Tool That Uses AI Agents to Build, Deploy, and Market Your App (No Code)",
-      "excerpt": "The concept of vibe coding is interesting; you don’t need to be a developer or software engineer to build your own applications.  You can describe your idea to an AI in plain language, and it will build, edit, and ref...",
-      "source": "MarkTechPost",
-      "url": "https://www.marktechpost.com/2026/06/16/meet-atoms-a-vibe-coding-tool-that-uses-ai-agents-to-build-deploy-and-market-your-app-no-code/",
-      "publishedAt": "2026-06-16T08:50:17.000Z",
-      "impact": 77
-    },
-    {
-      "id": "marktechpost-1781597938000-3",
-      "type": "live",
-      "category": "llm",
-      "title": "Google Cloud Introduces Open Knowledge Format (OKF): A Vendor-Neutral Markdown Spec for Giving AI Agents Curated Context",
-      "excerpt": "We break down Google Cloud's new Open Knowledge Format (OKF), an open spec that formalizes the LLM-wiki pattern.  We explain how a bundle works: a directory of markdown files with YAML frontmatter, where each concept ...",
-      "source": "MarkTechPost",
-      "url": "https://www.marktechpost.com/2026/06/16/google-cloud-introduces-open-knowledge-format-okf-a-vendor-neutral-markdown-spec-for-giving-ai-agents-curated-context/",
-      "publishedAt": "2026-06-16T08:18:58.000Z",
-      "impact": 77
     },
     {
       "id": "aether-interp",
@@ -77,74 +99,8 @@
       "excerpt": "Researchers reverse-engineered 312 million features inside the model, including the first clear \"deception circuit\" discovered in a frontier model.",
       "source": "Anthropic",
       "url": "https://anthropic.com/research/claude-4-interp",
-      "publishedAt": "2026-06-16T07:10:29.053Z",
+      "publishedAt": "2026-06-16T14:48:51.484Z",
       "impact": 91
-    },
-    {
-      "id": "arxiv-cs.ai-1781582400000-0",
-      "type": "live",
-      "category": "llm",
-      "title": "A Definition of Good Explanations and the Challenges Explaining LLM Outputs",
-      "excerpt": "14838v1 Announce Type: new Abstract: How to define a good explanation is a long-standing philosophical debate which has found recent renewed interest in the context of AI outputs.  Explainability is crucial for AI ado...",
-      "source": "arXiv cs.AI",
-      "url": "https://arxiv.org/abs/2606.14838",
-      "publishedAt": "2026-06-16T04:00:00.000Z",
-      "impact": 58
-    },
-    {
-      "id": "arxiv-cs.ai-1781582400000-1",
-      "type": "live",
-      "category": "research",
-      "title": "Dr-DCI: Scaling Direct Corpus Interaction via Dynamic Workspace Expansion",
-      "excerpt": "14885v1 Announce Type: new Abstract: Agentic search over large corpora relies on retriever-mediated interfaces (e. , BM25 or ColBERT) for scalable candidate discovery",
-      "source": "arXiv cs.AI",
-      "url": "https://arxiv.org/abs/2606.14885",
-      "publishedAt": "2026-06-16T04:00:00.000Z",
-      "impact": 58
-    },
-    {
-      "id": "arxiv-cs.ai-1781582400000-2",
-      "type": "live",
-      "category": "llm",
-      "title": "Relational Structural Causal Models",
-      "excerpt": "14892v1 Announce Type: new Abstract: An artificial intelligence must have a model of its environment that is causal, supporting reasoning about interventions and counterfactuals, and also combinatorial, supporting gen...",
-      "source": "arXiv cs.AI",
-      "url": "https://arxiv.org/abs/2606.14892",
-      "publishedAt": "2026-06-16T04:00:00.000Z",
-      "impact": 58
-    },
-    {
-      "id": "arxiv-cs.ai-1781582400000-3",
-      "type": "live",
-      "category": "safety",
-      "title": "Trust Between AI Agents: Measuring Formation, Breakage, and Recovery, with Implications for Governing Multi-Agent Systems",
-      "excerpt": "14923v1 Announce Type: new Abstract: As language-model agents increasingly work in teams, each agent must decide how much to trust its teammates.  Yet we lack a standard way to measure trust between AI agents",
-      "source": "arXiv cs.AI",
-      "url": "https://arxiv.org/abs/2606.14923",
-      "publishedAt": "2026-06-16T04:00:00.000Z",
-      "impact": 69
-    },
-    {
-      "id": "arxiv-cs.ai-1781582400000-4",
-      "type": "live",
-      "category": "llm",
-      "title": "PrologMCP: A Standardized Prolog Tool Interface for LLM Agents",
-      "excerpt": "14935v1 Announce Type: new Abstract: Frontier reasoning-tuned language models still fail on deductive tasks at depth, and the cost of improved performance through extended internal reasoning scales poorly.  Symbolic d...",
-      "source": "arXiv cs.AI",
-      "url": "https://arxiv.org/abs/2606.14935",
-      "publishedAt": "2026-06-16T04:00:00.000Z",
-      "impact": 69
-    },
-    {
-      "id": "arxiv-cs.ai-1781582400000-5",
-      "type": "live",
-      "category": "multimodal",
-      "title": "Semantics-Enhanced Retrieval-Augmented Time Series Forecasting",
-      "excerpt": "14941v1 Announce Type: new Abstract: Time series forecasting models often benefit from historical patterns.  Inspired by Retrieval-Augmented Generation (RAG), recent research explored retrieving relevant historical ti...",
-      "source": "arXiv cs.AI",
-      "url": "https://arxiv.org/abs/2606.14941",
-      "publishedAt": "2026-06-16T04:00:00.000Z",
-      "impact": 58
     },
     {
       "id": "hugging-face-1781279770000-0",

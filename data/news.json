@@ -1,10 +1,32 @@
 {
-  "lastUpdated": "2026-06-17T11:08:03.783Z",
+  "lastUpdated": "2026-06-17T15:51:18.419Z",
   "source": "AETHER + Public RSS (arXiv, Hugging Face, MarkTechPost, Ben's Bites)",
   "count": 16,
   "articles": [
     {
-      "id": "hugging-face-1781691485000-0",
+      "id": "hugging-face-1781710004000-0",
+      "type": "live",
+      "category": "research",
+      "title": "MolmoMotion: Language-guided 3D motion forecasting",
+      "excerpt": "New development from the frontier.",
+      "source": "Hugging Face",
+      "url": "https://huggingface.co/blog/allenai/molmomotion",
+      "publishedAt": "2026-06-17T15:26:44.000Z",
+      "impact": 75
+    },
+    {
+      "id": "aether-grok43",
+      "type": "premium",
+      "category": "llm",
+      "title": "xAI releases Grok-4.3 with native long-horizon agent scaffolding",
+      "excerpt": "New model demonstrates 4.2× improvement on multi-step software engineering benchmarks and sustains coherent agent trajectories beyond 110k tokens.",
+      "source": "xAI",
+      "url": "https://x.ai/blog/grok-4.3",
+      "publishedAt": "2026-06-17T10:51:17.922Z",
+      "impact": 96
+    },
+    {
+      "id": "hugging-face-1781691485000-1",
       "type": "live",
       "category": "robotics",
       "title": "From the Hugging Face Hub to robot hardware with Strands Agents and LeRobot",
@@ -15,7 +37,7 @@
       "impact": 87
     },
     {
-      "id": "hugging-face-1781686885000-1",
+      "id": "hugging-face-1781686885000-2",
       "type": "live",
       "category": "research",
       "title": "GLM-5.2: Built for Long-Horizon Tasks",
@@ -37,15 +59,15 @@
       "impact": 65
     },
     {
-      "id": "aether-grok43",
+      "id": "aether-figure03",
       "type": "premium",
-      "category": "llm",
-      "title": "xAI releases Grok-4.3 with native long-horizon agent scaffolding",
-      "excerpt": "New model demonstrates 4.2× improvement on multi-step software engineering benchmarks and sustains coherent agent trajectories beyond 110k tokens.",
-      "source": "xAI",
-      "url": "https://x.ai/blog/grok-4.3",
-      "publishedAt": "2026-06-17T06:08:02.483Z",
-      "impact": 96
+      "category": "robotics",
+      "title": "Figure 03 completes 43-hour autonomous factory shift with zero interventions",
+      "excerpt": "Humanoid achieves new milestone in unsupervised operation, performing 1,240 unique tasks across three assembly lines at the BMW South Carolina plant.",
+      "source": "Figure AI",
+      "url": "https://figure.ai/news/03-milestone",
+      "publishedAt": "2026-06-17T06:51:17.923Z",
+      "impact": 89
     },
     {
       "id": "marktechpost-1781675394000-1",
@@ -125,15 +147,15 @@
       "impact": 58
     },
     {
-      "id": "aether-figure03",
+      "id": "aether-interp",
       "type": "premium",
-      "category": "robotics",
-      "title": "Figure 03 completes 43-hour autonomous factory shift with zero interventions",
-      "excerpt": "Humanoid achieves new milestone in unsupervised operation, performing 1,240 unique tasks across three assembly lines at the BMW South Carolina plant.",
-      "source": "Figure AI",
-      "url": "https://figure.ai/news/03-milestone",
-      "publishedAt": "2026-06-17T02:08:02.483Z",
-      "impact": 89
+      "category": "safety",
+      "title": "Anthropic publishes unprecedented mechanistic interpretability map of Claude 4",
+      "excerpt": "Researchers reverse-engineered 312 million features inside the model, including the first clear \"deception circuit\" discovered in a frontier model.",
+      "source": "Anthropic",
+      "url": "https://anthropic.com/research/claude-4-interp",
+      "publishedAt": "2026-06-17T01:51:17.923Z",
+      "impact": 91
     },
     {
       "id": "marktechpost-1781654545000-2",
@@ -147,17 +169,6 @@
       "impact": 65
     },
     {
-      "id": "aether-interp",
-      "type": "premium",
-      "category": "safety",
-      "title": "Anthropic publishes unprecedented mechanistic interpretability map of Claude 4",
-      "excerpt": "Researchers reverse-engineered 312 million features inside the model, including the first clear \"deception circuit\" discovered in a frontier model.",
-      "source": "Anthropic",
-      "url": "https://anthropic.com/research/claude-4-interp",
-      "publishedAt": "2026-06-16T21:08:02.483Z",
-      "impact": 91
-    },
-    {
       "id": "marktechpost-1781628679000-3",
       "type": "live",
       "category": "robotics",
@@ -167,17 +178,6 @@
       "url": "https://www.marktechpost.com/2026/06/16/meet-qwen-robotsuite-three-embodied-ai-models-for-vla-manipulation-video-world-modeling-and-navigation/",
       "publishedAt": "2026-06-16T16:51:19.000Z",
       "impact": 65
-    },
-    {
-      "id": "hugging-face-1781279770000-2",
-      "type": "live",
-      "category": "llm",
-      "title": "olmo-eval: An evaluation workbench for the model development loop",
-      "excerpt": "New development from the frontier.",
-      "source": "Hugging Face",
-      "url": "https://huggingface.co/blog/allenai/olmo-eval",
-      "publishedAt": "2026-06-12T15:56:10.000Z",
-      "impact": 75
     }
   ]
 }

@@ -1,8 +1,63 @@
 {
-  "lastUpdated": "2026-06-17T04:48:51.877Z",
+  "lastUpdated": "2026-06-17T11:08:03.783Z",
   "source": "AETHER + Public RSS (arXiv, Hugging Face, MarkTechPost, Ben's Bites)",
-  "count": 12,
+  "count": 16,
   "articles": [
+    {
+      "id": "hugging-face-1781691485000-0",
+      "type": "live",
+      "category": "robotics",
+      "title": "From the Hugging Face Hub to robot hardware with Strands Agents and LeRobot",
+      "excerpt": "New development from the frontier.",
+      "source": "Hugging Face",
+      "url": "https://huggingface.co/blog/amazon/strands-lerobot-hub-to-hardware",
+      "publishedAt": "2026-06-17T10:18:05.000Z",
+      "impact": 87
+    },
+    {
+      "id": "hugging-face-1781686885000-1",
+      "type": "live",
+      "category": "research",
+      "title": "GLM-5.2: Built for Long-Horizon Tasks",
+      "excerpt": "New development from the frontier.",
+      "source": "Hugging Face",
+      "url": "https://huggingface.co/blog/zai-org/glm-52-blog",
+      "publishedAt": "2026-06-17T09:01:25.000Z",
+      "impact": 87
+    },
+    {
+      "id": "marktechpost-1781682294000-0",
+      "type": "live",
+      "category": "research",
+      "title": "MiniMax Sparse Attention (MSA): a Two-Branch Block-Sparse Attention Trained on a 109B-Parameter MoE With a 3T-Token Budget",
+      "excerpt": "MiniMax released MSA, a sparse attention built on Grouped Query Attention.  A lightweight Index Branch selects Top-k key-value blocks per query and GQA group; the Main Branch attends only to those blocks",
+      "source": "MarkTechPost",
+      "url": "https://www.marktechpost.com/2026/06/17/minimax-sparse-attention-msa-a-two-branch-block-sparse-attention-trained-on-a-109b-parameter-moe-with-a-3t-token-budget/",
+      "publishedAt": "2026-06-17T07:44:54.000Z",
+      "impact": 65
+    },
+    {
+      "id": "aether-grok43",
+      "type": "premium",
+      "category": "llm",
+      "title": "xAI releases Grok-4.3 with native long-horizon agent scaffolding",
+      "excerpt": "New model demonstrates 4.2× improvement on multi-step software engineering benchmarks and sustains coherent agent trajectories beyond 110k tokens.",
+      "source": "xAI",
+      "url": "https://x.ai/blog/grok-4.3",
+      "publishedAt": "2026-06-17T06:08:02.483Z",
+      "impact": 96
+    },
+    {
+      "id": "marktechpost-1781675394000-1",
+      "type": "live",
+      "category": "llm",
+      "title": "OpenAI’s Deployment Simulation Extends Pre-Deployment Risk Assessment to Agentic Coding Through Simulated Tool Calls",
+      "excerpt": "OpenAI introduced Deployment Simulation on June 16, 2026.  The method replays past conversations through a new candidate model before release",
+      "source": "MarkTechPost",
+      "url": "https://www.marktechpost.com/2026/06/16/openai-deployment-simulation/",
+      "publishedAt": "2026-06-17T05:49:54.000Z",
+      "impact": 77
+    },
     {
       "id": "arxiv-cs.ai-1781668800000-0",
       "type": "live",
@@ -70,17 +125,6 @@
       "impact": 58
     },
     {
-      "id": "aether-grok43",
-      "type": "premium",
-      "category": "llm",
-      "title": "xAI releases Grok-4.3 with native long-horizon agent scaffolding",
-      "excerpt": "New model demonstrates 4.2× improvement on multi-step software engineering benchmarks and sustains coherent agent trajectories beyond 110k tokens.",
-      "source": "xAI",
-      "url": "https://x.ai/blog/grok-4.3",
-      "publishedAt": "2026-06-16T23:48:51.484Z",
-      "impact": 96
-    },
-    {
       "id": "aether-figure03",
       "type": "premium",
       "category": "robotics",
@@ -88,8 +132,19 @@
       "excerpt": "Humanoid achieves new milestone in unsupervised operation, performing 1,240 unique tasks across three assembly lines at the BMW South Carolina plant.",
       "source": "Figure AI",
       "url": "https://figure.ai/news/03-milestone",
-      "publishedAt": "2026-06-16T19:48:51.484Z",
+      "publishedAt": "2026-06-17T02:08:02.483Z",
       "impact": 89
+    },
+    {
+      "id": "marktechpost-1781654545000-2",
+      "type": "live",
+      "category": "hardware",
+      "title": "How to Build Memory-Efficient Transformers with xFormers Using Packed Sequences, GQA, ALiBi, SwiGLU, and Causal Attention",
+      "excerpt": "We implement xFormers, a practical toolkit for fast, memory-efficient Transformer models on GPUs.  We validate memory-efficient attention against a standard implementation, then compare speed and memory across sequenc...",
+      "source": "MarkTechPost",
+      "url": "https://www.marktechpost.com/2026/06/16/how-to-build-memory-efficient-transformers-with-xformers-using-packed-sequences-gqa-alibi-swiglu-and-causal-attention/",
+      "publishedAt": "2026-06-17T00:02:25.000Z",
+      "impact": 65
     },
     {
       "id": "aether-interp",
@@ -99,11 +154,22 @@
       "excerpt": "Researchers reverse-engineered 312 million features inside the model, including the first clear \"deception circuit\" discovered in a frontier model.",
       "source": "Anthropic",
       "url": "https://anthropic.com/research/claude-4-interp",
-      "publishedAt": "2026-06-16T14:48:51.484Z",
+      "publishedAt": "2026-06-16T21:08:02.483Z",
       "impact": 91
     },
     {
-      "id": "hugging-face-1781279770000-0",
+      "id": "marktechpost-1781628679000-3",
+      "type": "live",
+      "category": "robotics",
+      "title": "Meet Qwen-RobotSuite: Three Embodied AI Models for VLA Manipulation, Video World Modeling, and Navigation",
+      "excerpt": "We break down Qwen-RobotSuite, the Qwen team's three new embodied AI models.  We cover RobotManip, a Vision-Language-Action model built on Qwen3",
+      "source": "MarkTechPost",
+      "url": "https://www.marktechpost.com/2026/06/16/meet-qwen-robotsuite-three-embodied-ai-models-for-vla-manipulation-video-world-modeling-and-navigation/",
+      "publishedAt": "2026-06-16T16:51:19.000Z",
+      "impact": 65
+    },
+    {
+      "id": "hugging-face-1781279770000-2",
       "type": "live",
       "category": "llm",
       "title": "olmo-eval: An evaluation workbench for the model development loop",
@@ -112,28 +178,6 @@
       "url": "https://huggingface.co/blog/allenai/olmo-eval",
       "publishedAt": "2026-06-12T15:56:10.000Z",
       "impact": 75
-    },
-    {
-      "id": "hugging-face-1781136000000-1",
-      "type": "live",
-      "category": "research",
-      "title": "Profiling in PyTorch (Part 2): From nn.Linear to a Fused MLP",
-      "excerpt": "New development from the frontier.",
-      "source": "Hugging Face",
-      "url": "https://huggingface.co/blog/torch-mlp-fusion",
-      "publishedAt": "2026-06-11T00:00:00.000Z",
-      "impact": 75
-    },
-    {
-      "id": "hugging-face-1781001979000-2",
-      "type": "live",
-      "category": "research",
-      "title": "How an Agent Built a 3D Paris Gallery by Chaining Two Hugging Face Spaces",
-      "excerpt": "New development from the frontier.",
-      "source": "Hugging Face",
-      "url": "https://huggingface.co/blog/mishig/spaces-agents-md",
-      "publishedAt": "2026-06-09T10:46:19.000Z",
-      "impact": 87
     }
   ]
 }

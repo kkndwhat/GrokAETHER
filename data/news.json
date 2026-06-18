@@ -1,8 +1,96 @@
 {
-  "lastUpdated": "2026-06-17T20:21:53.598Z",
+  "lastUpdated": "2026-06-18T04:41:30.198Z",
   "source": "AETHER + Public RSS (arXiv, Hugging Face, MarkTechPost, Ben's Bites)",
   "count": 12,
   "articles": [
+    {
+      "id": "arxiv-cs.ai-1781755200000-0",
+      "type": "live",
+      "category": "llm",
+      "title": "Beyond Parallel Sampling: Diverse Query Initialization for Agentic Search",
+      "excerpt": "17209v1 Announce Type: new Abstract: Test-time scaling for agentic search typically increases depth (i. , more turns and tokens per trajectory) or breadth (i",
+      "source": "arXiv cs.AI",
+      "url": "https://arxiv.org/abs/2606.17209",
+      "publishedAt": "2026-06-18T04:00:00.000Z",
+      "impact": 69
+    },
+    {
+      "id": "arxiv-cs.ai-1781755200000-1",
+      "type": "live",
+      "category": "safety",
+      "title": "When Rules Learn: A Self-Evolving Agent for Legal Case Retrieval",
+      "excerpt": "17220v1 Announce Type: new Abstract: Legal case retrieval remains challenging due to the complexity of legal language and the need for precise lexical alignment between queries and relevant cases.  Although dense retr...",
+      "source": "arXiv cs.AI",
+      "url": "https://arxiv.org/abs/2606.17220",
+      "publishedAt": "2026-06-18T04:00:00.000Z",
+      "impact": 69
+    },
+    {
+      "id": "arxiv-cs.ai-1781755200000-2",
+      "type": "live",
+      "category": "llm",
+      "title": "SkillChain-Gym: A Benchmark for Reskilling-Aware Production-Inventory Control under Disruptions",
+      "excerpt": "17266v1 Announce Type: new Abstract: Production planning increasingly has to treat workforce capability as a decision variable: certifications lapse when skills are not maintained, new products require skills the curr...",
+      "source": "arXiv cs.AI",
+      "url": "https://arxiv.org/abs/2606.17266",
+      "publishedAt": "2026-06-18T04:00:00.000Z",
+      "impact": 58
+    },
+    {
+      "id": "arxiv-cs.ai-1781755200000-3",
+      "type": "live",
+      "category": "safety",
+      "title": "Skill-Constrained Model Predictive Control for Resilient Manufacturing Supply Chains",
+      "excerpt": "17269v1 Announce Type: new Abstract: In skill-constrained production-inventory systems, the qualified human capacity available tomorrow depends on training decisions made today: production requires certified workers, ...",
+      "source": "arXiv cs.AI",
+      "url": "https://arxiv.org/abs/2606.17269",
+      "publishedAt": "2026-06-18T04:00:00.000Z",
+      "impact": 58
+    },
+    {
+      "id": "arxiv-cs.ai-1781755200000-4",
+      "type": "live",
+      "category": "llm",
+      "title": "Nothing from Something: Can a Language Model Discover 0?",
+      "excerpt": "17289v1 Announce Type: new Abstract: AI systems based on artificial neural networks are being developed with aspirations of pushing the boundary of human mathematical knowledge.  A key question for these systems is ho...",
+      "source": "arXiv cs.AI",
+      "url": "https://arxiv.org/abs/2606.17289",
+      "publishedAt": "2026-06-18T04:00:00.000Z",
+      "impact": 58
+    },
+    {
+      "id": "arxiv-cs.ai-1781755200000-5",
+      "type": "live",
+      "category": "llm",
+      "title": "Quantifying Consistency in LLM Logical Reasoning via Structural Uncertainty",
+      "excerpt": "17312v1 Announce Type: new Abstract: Large language models can arrive at the same answer through reasoning paths that are unstable, contradictory, or difficult to rank consistently -- a failure mode especially prevale...",
+      "source": "arXiv cs.AI",
+      "url": "https://arxiv.org/abs/2606.17312",
+      "publishedAt": "2026-06-18T04:00:00.000Z",
+      "impact": 58
+    },
+    {
+      "id": "aether-grok43",
+      "type": "premium",
+      "category": "llm",
+      "title": "xAI releases Grok-4.3 with native long-horizon agent scaffolding",
+      "excerpt": "New model demonstrates 4.2× improvement on multi-step software engineering benchmarks and sustains coherent agent trajectories beyond 110k tokens.",
+      "source": "xAI",
+      "url": "https://x.ai/blog/grok-4.3",
+      "publishedAt": "2026-06-17T23:41:29.822Z",
+      "impact": 96
+    },
+    {
+      "id": "aether-figure03",
+      "type": "premium",
+      "category": "robotics",
+      "title": "Figure 03 completes 43-hour autonomous factory shift with zero interventions",
+      "excerpt": "Humanoid achieves new milestone in unsupervised operation, performing 1,240 unique tasks across three assembly lines at the BMW South Carolina plant.",
+      "source": "Figure AI",
+      "url": "https://figure.ai/news/03-milestone",
+      "publishedAt": "2026-06-17T19:41:29.823Z",
+      "impact": 89
+    },
     {
       "id": "hugging-face-1781710004000-0",
       "type": "live",
@@ -15,26 +103,15 @@
       "impact": 75
     },
     {
-      "id": "aether-grok43",
+      "id": "aether-interp",
       "type": "premium",
-      "category": "llm",
-      "title": "xAI releases Grok-4.3 with native long-horizon agent scaffolding",
-      "excerpt": "New model demonstrates 4.2× improvement on multi-step software engineering benchmarks and sustains coherent agent trajectories beyond 110k tokens.",
-      "source": "xAI",
-      "url": "https://x.ai/blog/grok-4.3",
-      "publishedAt": "2026-06-17T15:21:53.158Z",
-      "impact": 96
-    },
-    {
-      "id": "aether-figure03",
-      "type": "premium",
-      "category": "robotics",
-      "title": "Figure 03 completes 43-hour autonomous factory shift with zero interventions",
-      "excerpt": "Humanoid achieves new milestone in unsupervised operation, performing 1,240 unique tasks across three assembly lines at the BMW South Carolina plant.",
-      "source": "Figure AI",
-      "url": "https://figure.ai/news/03-milestone",
-      "publishedAt": "2026-06-17T11:21:53.159Z",
-      "impact": 89
+      "category": "safety",
+      "title": "Anthropic publishes unprecedented mechanistic interpretability map of Claude 4",
+      "excerpt": "Researchers reverse-engineered 312 million features inside the model, including the first clear \"deception circuit\" discovered in a frontier model.",
+      "source": "Anthropic",
+      "url": "https://anthropic.com/research/claude-4-interp",
+      "publishedAt": "2026-06-17T14:41:29.823Z",
+      "impact": 91
     },
     {
       "id": "hugging-face-1781691485000-1",
@@ -57,83 +134,6 @@
       "url": "https://huggingface.co/blog/zai-org/glm-52-blog",
       "publishedAt": "2026-06-17T09:01:25.000Z",
       "impact": 87
-    },
-    {
-      "id": "aether-interp",
-      "type": "premium",
-      "category": "safety",
-      "title": "Anthropic publishes unprecedented mechanistic interpretability map of Claude 4",
-      "excerpt": "Researchers reverse-engineered 312 million features inside the model, including the first clear \"deception circuit\" discovered in a frontier model.",
-      "source": "Anthropic",
-      "url": "https://anthropic.com/research/claude-4-interp",
-      "publishedAt": "2026-06-17T06:21:53.159Z",
-      "impact": 91
-    },
-    {
-      "id": "arxiv-cs.ai-1781668800000-0",
-      "type": "live",
-      "category": "llm",
-      "title": "Beyond Parallel Sampling: Diverse Query Initialization for Agentic Search",
-      "excerpt": "17209v1 Announce Type: new Abstract: Test-time scaling for agentic search typically increases depth (i. , more turns and tokens per trajectory) or breadth (i",
-      "source": "arXiv cs.AI",
-      "url": "https://arxiv.org/abs/2606.17209",
-      "publishedAt": "2026-06-17T04:00:00.000Z",
-      "impact": 69
-    },
-    {
-      "id": "arxiv-cs.ai-1781668800000-1",
-      "type": "live",
-      "category": "safety",
-      "title": "When Rules Learn: A Self-Evolving Agent for Legal Case Retrieval",
-      "excerpt": "17220v1 Announce Type: new Abstract: Legal case retrieval remains challenging due to the complexity of legal language and the need for precise lexical alignment between queries and relevant cases.  Although dense retr...",
-      "source": "arXiv cs.AI",
-      "url": "https://arxiv.org/abs/2606.17220",
-      "publishedAt": "2026-06-17T04:00:00.000Z",
-      "impact": 69
-    },
-    {
-      "id": "arxiv-cs.ai-1781668800000-2",
-      "type": "live",
-      "category": "llm",
-      "title": "SkillChain-Gym: A Benchmark for Reskilling-Aware Production-Inventory Control under Disruptions",
-      "excerpt": "17266v1 Announce Type: new Abstract: Production planning increasingly has to treat workforce capability as a decision variable: certifications lapse when skills are not maintained, new products require skills the curr...",
-      "source": "arXiv cs.AI",
-      "url": "https://arxiv.org/abs/2606.17266",
-      "publishedAt": "2026-06-17T04:00:00.000Z",
-      "impact": 58
-    },
-    {
-      "id": "arxiv-cs.ai-1781668800000-3",
-      "type": "live",
-      "category": "safety",
-      "title": "Skill-Constrained Model Predictive Control for Resilient Manufacturing Supply Chains",
-      "excerpt": "17269v1 Announce Type: new Abstract: In skill-constrained production-inventory systems, the qualified human capacity available tomorrow depends on training decisions made today: production requires certified workers, ...",
-      "source": "arXiv cs.AI",
-      "url": "https://arxiv.org/abs/2606.17269",
-      "publishedAt": "2026-06-17T04:00:00.000Z",
-      "impact": 58
-    },
-    {
-      "id": "arxiv-cs.ai-1781668800000-4",
-      "type": "live",
-      "category": "llm",
-      "title": "Nothing from Something: Can a Language Model Discover 0?",
-      "excerpt": "17289v1 Announce Type: new Abstract: AI systems based on artificial neural networks are being developed with aspirations of pushing the boundary of human mathematical knowledge.  A key question for these systems is ho...",
-      "source": "arXiv cs.AI",
-      "url": "https://arxiv.org/abs/2606.17289",
-      "publishedAt": "2026-06-17T04:00:00.000Z",
-      "impact": 58
-    },
-    {
-      "id": "arxiv-cs.ai-1781668800000-5",
-      "type": "live",
-      "category": "llm",
-      "title": "Quantifying Consistency in LLM Logical Reasoning via Structural Uncertainty",
-      "excerpt": "17312v1 Announce Type: new Abstract: Large language models can arrive at the same answer through reasoning paths that are unstable, contradictory, or difficult to rank consistently -- a failure mode especially prevale...",
-      "source": "arXiv cs.AI",
-      "url": "https://arxiv.org/abs/2606.17312",
-      "publishedAt": "2026-06-17T04:00:00.000Z",
-      "impact": 58
     }
   ]
 }

@@ -1,8 +1,30 @@
 {
-  "lastUpdated": "2026-06-18T15:39:17.261Z",
+  "lastUpdated": "2026-06-18T20:33:13.473Z",
   "source": "AETHER + Public RSS (arXiv, Hugging Face, MarkTechPost, Ben's Bites)",
-  "count": 12,
+  "count": 16,
   "articles": [
+    {
+      "id": "marktechpost-1781814380000-0",
+      "type": "live",
+      "category": "research",
+      "title": "Perplexity Launches Brain, a Self-Improving Memory System That Builds a Context Graph of an Agent’s Work and Learns Overnight",
+      "excerpt": "Perplexity has launched Brain, a self-improving memory system for its Computer agent.  Instead of remembering the user, Brain remembers the agent's work — what worked, what failed, and what corrections got made",
+      "source": "MarkTechPost",
+      "url": "https://www.marktechpost.com/2026/06/18/perplexity-launches-brain/",
+      "publishedAt": "2026-06-18T20:26:20.000Z",
+      "impact": 77
+    },
+    {
+      "id": "hugging-face-1781806393000-0",
+      "type": "live",
+      "category": "research",
+      "title": "MosaicLeaks: Can your research agent keep a secret?",
+      "excerpt": "New development from the frontier.",
+      "source": "Hugging Face",
+      "url": "https://huggingface.co/blog/ServiceNow/mosaicleaks",
+      "publishedAt": "2026-06-18T18:13:13.000Z",
+      "impact": 87
+    },
     {
       "id": "aether-grok43",
       "type": "premium",
@@ -11,7 +33,7 @@
       "excerpt": "New model demonstrates 4.2× improvement on multi-step software engineering benchmarks and sustains coherent agent trajectories beyond 110k tokens.",
       "source": "xAI",
       "url": "https://x.ai/blog/grok-4.3",
-      "publishedAt": "2026-06-18T10:39:16.623Z",
+      "publishedAt": "2026-06-18T15:33:11.915Z",
       "impact": 96
     },
     {
@@ -22,8 +44,30 @@
       "excerpt": "Humanoid achieves new milestone in unsupervised operation, performing 1,240 unique tasks across three assembly lines at the BMW South Carolina plant.",
       "source": "Figure AI",
       "url": "https://figure.ai/news/03-milestone",
-      "publishedAt": "2026-06-18T06:39:16.624Z",
+      "publishedAt": "2026-06-18T11:33:11.915Z",
       "impact": 89
+    },
+    {
+      "id": "marktechpost-1781774071000-1",
+      "type": "live",
+      "category": "llm",
+      "title": "The KV Cache Compression Race: TurboQuant vs OSCAR vs EpiCache",
+      "excerpt": "The KV cache now outweighs model weights at long context.  Here's how TurboQuant, OSCAR, and EpiCache each attack that memory bottleneck — and why they're more complementary than competitive",
+      "source": "MarkTechPost",
+      "url": "https://www.marktechpost.com/2026/06/18/the-kv-cache-compression-race-turboquant-vs-oscar-vs-epicache/",
+      "publishedAt": "2026-06-18T09:14:31.000Z",
+      "impact": 65
+    },
+    {
+      "id": "aether-interp",
+      "type": "premium",
+      "category": "safety",
+      "title": "Anthropic publishes unprecedented mechanistic interpretability map of Claude 4",
+      "excerpt": "Researchers reverse-engineered 312 million features inside the model, including the first clear \"deception circuit\" discovered in a frontier model.",
+      "source": "Anthropic",
+      "url": "https://anthropic.com/research/claude-4-interp",
+      "publishedAt": "2026-06-18T06:33:11.915Z",
+      "impact": 91
     },
     {
       "id": "arxiv-cs.ai-1781755200000-0",
@@ -92,18 +136,29 @@
       "impact": 58
     },
     {
-      "id": "aether-interp",
-      "type": "premium",
-      "category": "safety",
-      "title": "Anthropic publishes unprecedented mechanistic interpretability map of Claude 4",
-      "excerpt": "Researchers reverse-engineered 312 million features inside the model, including the first clear \"deception circuit\" discovered in a frontier model.",
-      "source": "Anthropic",
-      "url": "https://anthropic.com/research/claude-4-interp",
-      "publishedAt": "2026-06-18T01:39:16.624Z",
-      "impact": 91
+      "id": "marktechpost-1781749702000-2",
+      "type": "live",
+      "category": "llm",
+      "title": "OpenAI Releases LifeSciBench, a 750-Task Benchmark Grading AI Models on Real Life-Science Research With Expert-Written Rubric",
+      "excerpt": "OpenAI's LifeSciBench evaluates whether frontier AI can handle real life-science research across 750 expert-authored tasks, seven workflows, and seven biological domains.  Built by 173 PhD scientists with 19,020 rubri...",
+      "source": "MarkTechPost",
+      "url": "https://www.marktechpost.com/2026/06/17/openai-releases-lifescibench-a-750-task-benchmark-grading-ai-models-on-real-life-science-research-with-expert-written-rubric/",
+      "publishedAt": "2026-06-18T02:28:22.000Z",
+      "impact": 65
     },
     {
-      "id": "hugging-face-1781740800000-0",
+      "id": "marktechpost-1781746519000-3",
+      "type": "live",
+      "category": "llm",
+      "title": "NVIDIA SkillSpector Guide: Scanning AI Skills for Security Risks with Static Analysis and SARIF Reports",
+      "excerpt": "In this tutorial, we use NVIDIA SkillSpector to evaluate AI skills for security risks before deployment.  We build a corpus of benign and deliberately vulnerable skills, then scan them through SkillSpector's programma...",
+      "source": "MarkTechPost",
+      "url": "https://www.marktechpost.com/2026/06/17/nvidia-skillspector-guide-scanning-ai-skills-for-security-risks-with-static-analysis-and-sarif-reports/",
+      "publishedAt": "2026-06-18T01:35:19.000Z",
+      "impact": 65
+    },
+    {
+      "id": "hugging-face-1781740800000-1",
       "type": "live",
       "category": "research",
       "title": "Beyond LoRA: Can you beat the most popular fine-tuning technique?",
@@ -114,7 +169,7 @@
       "impact": 75
     },
     {
-      "id": "hugging-face-1781740800000-1",
+      "id": "hugging-face-1781740800000-2",
       "type": "live",
       "category": "llm",
       "title": "Is it agentic enough? Benchmarking open models on your own tooling",
@@ -123,17 +178,6 @@
       "url": "https://huggingface.co/blog/is-it-agentic-enough",
       "publishedAt": "2026-06-18T00:00:00.000Z",
       "impact": 87
-    },
-    {
-      "id": "hugging-face-1781710004000-2",
-      "type": "live",
-      "category": "research",
-      "title": "MolmoMotion: Language-guided 3D motion forecasting",
-      "excerpt": "New development from the frontier.",
-      "source": "Hugging Face",
-      "url": "https://huggingface.co/blog/allenai/molmomotion",
-      "publishedAt": "2026-06-17T15:26:44.000Z",
-      "impact": 75
     }
   ]
 }

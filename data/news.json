@@ -1,10 +1,98 @@
 {
-  "lastUpdated": "2026-06-18T20:33:13.473Z",
+  "lastUpdated": "2026-06-19T05:00:25.692Z",
   "source": "AETHER + Public RSS (arXiv, Hugging Face, MarkTechPost, Ben's Bites)",
   "count": 16,
   "articles": [
     {
-      "id": "marktechpost-1781814380000-0",
+      "id": "arxiv-cs.ai-1781841600000-0",
+      "type": "live",
+      "category": "llm",
+      "title": "Deontic Policies for Runtime Governance of Agentic AI Systems",
+      "excerpt": "19464v1 Announce Type: new Abstract: Autonomous agentic AI systems driven by Large Language Models (LLMs) introduce a new class of security, privacy, and compliance challenges: an agent that can invoke tools, manipula...",
+      "source": "arXiv cs.AI",
+      "url": "https://arxiv.org/abs/2606.19464",
+      "publishedAt": "2026-06-19T04:00:00.000Z",
+      "impact": 69
+    },
+    {
+      "id": "arxiv-cs.ai-1781841600000-1",
+      "type": "live",
+      "category": "safety",
+      "title": "Measuring Curriculum Alignment across Topical Coverage, Competency, and Cognitive Depth: A Longitudinal Framework Applied to CS2013 and CS2023",
+      "excerpt": "19469v1 Announce Type: new Abstract: Undergraduate computer science is governed by international curricular guidelines revised about once a decade, yet programs lack a reliable, reproducible way to measure how complet...",
+      "source": "arXiv cs.AI",
+      "url": "https://arxiv.org/abs/2606.19469",
+      "publishedAt": "2026-06-19T04:00:00.000Z",
+      "impact": 58
+    },
+    {
+      "id": "arxiv-cs.ai-1781841600000-2",
+      "type": "live",
+      "category": "llm",
+      "title": "Diffusion Language Models: An Experimental Analysis",
+      "excerpt": "19475v1 Announce Type: new Abstract: Large Language Models (LLMs) have revolutionized language modeling through autoregressive generation, enabling strong performance across a wide range of tasks.  Recently, Diffusion...",
+      "source": "arXiv cs.AI",
+      "url": "https://arxiv.org/abs/2606.19475",
+      "publishedAt": "2026-06-19T04:00:00.000Z",
+      "impact": 58
+    },
+    {
+      "id": "arxiv-cs.ai-1781841600000-3",
+      "type": "live",
+      "category": "llm",
+      "title": "Hidden Anchors in Multi-Agent LLM Deliberation",
+      "excerpt": "19494v1 Announce Type: new Abstract: Multi-agent LLM deliberation, where agents exchange and revise answers over several rounds, is increasingly used to improve reasoning and accuracy, yet how and why it works is rare...",
+      "source": "arXiv cs.AI",
+      "url": "https://arxiv.org/abs/2606.19494",
+      "publishedAt": "2026-06-19T04:00:00.000Z",
+      "impact": 69
+    },
+    {
+      "id": "arxiv-cs.ai-1781841600000-4",
+      "type": "live",
+      "category": "multimodal",
+      "title": "DeXposure-Claw: An Agentic System for DeFi Risk Supervision",
+      "excerpt": "19501v1 Announce Type: new Abstract: Decentralized finance exposes supervisors to fast-moving, networked credit risks.  General-purpose LLM agents fit this setting poorly: they over-read weak evidence and recommend hi...",
+      "source": "arXiv cs.AI",
+      "url": "https://arxiv.org/abs/2606.19501",
+      "publishedAt": "2026-06-19T04:00:00.000Z",
+      "impact": 69
+    },
+    {
+      "id": "arxiv-cs.ai-1781841600000-5",
+      "type": "live",
+      "category": "llm",
+      "title": "LLM Doesn't Know What It Doesn't Know: Detecting Epistemic Blind Spots via Cross-Model Attribution Divergence on Clinical Tabular Data",
+      "excerpt": "19509v1 Announce Type: new Abstract: Large language models (LLMs) are increasingly applied to structured clinical data, yet whether they can recognize the limits of their own knowledge on such tasks remains unexplored...",
+      "source": "arXiv cs.AI",
+      "url": "https://arxiv.org/abs/2606.19509",
+      "publishedAt": "2026-06-19T04:00:00.000Z",
+      "impact": 58
+    },
+    {
+      "id": "marktechpost-1781837052000-0",
+      "type": "live",
+      "category": "safety",
+      "title": "Salesforce CodeGen Tutorial: Generate, Validate, and Rerank Python Functions With Unit Tests and Safety Checks",
+      "excerpt": "We implement an end-to-end workflow for Salesforce CodeGen, loaded from Hugging Face.  We move past basic inference by adding function extraction, syntax checking, static safety checks, and unit-test validation",
+      "source": "MarkTechPost",
+      "url": "https://www.marktechpost.com/2026/06/18/salesforce-codegen-tutorial-generate-validate-and-rerank-python-functions-with-unit-tests-and-safety-checks/",
+      "publishedAt": "2026-06-19T02:44:12.000Z",
+      "impact": 65
+    },
+    {
+      "id": "aether-grok43",
+      "type": "premium",
+      "category": "llm",
+      "title": "xAI releases Grok-4.3 with native long-horizon agent scaffolding",
+      "excerpt": "New model demonstrates 4.2× improvement on multi-step software engineering benchmarks and sustains coherent agent trajectories beyond 110k tokens.",
+      "source": "xAI",
+      "url": "https://x.ai/blog/grok-4.3",
+      "publishedAt": "2026-06-19T00:00:24.465Z",
+      "impact": 96
+    },
+    {
+      "id": "marktechpost-1781814380000-1",
       "type": "live",
       "category": "research",
       "title": "Perplexity Launches Brain, a Self-Improving Memory System That Builds a Context Graph of an Agent’s Work and Learns Overnight",
@@ -13,6 +101,17 @@
       "url": "https://www.marktechpost.com/2026/06/18/perplexity-launches-brain/",
       "publishedAt": "2026-06-18T20:26:20.000Z",
       "impact": 77
+    },
+    {
+      "id": "aether-figure03",
+      "type": "premium",
+      "category": "robotics",
+      "title": "Figure 03 completes 43-hour autonomous factory shift with zero interventions",
+      "excerpt": "Humanoid achieves new milestone in unsupervised operation, performing 1,240 unique tasks across three assembly lines at the BMW South Carolina plant.",
+      "source": "Figure AI",
+      "url": "https://figure.ai/news/03-milestone",
+      "publishedAt": "2026-06-18T20:00:24.465Z",
+      "impact": 89
     },
     {
       "id": "hugging-face-1781806393000-0",
@@ -26,29 +125,18 @@
       "impact": 87
     },
     {
-      "id": "aether-grok43",
+      "id": "aether-interp",
       "type": "premium",
-      "category": "llm",
-      "title": "xAI releases Grok-4.3 with native long-horizon agent scaffolding",
-      "excerpt": "New model demonstrates 4.2× improvement on multi-step software engineering benchmarks and sustains coherent agent trajectories beyond 110k tokens.",
-      "source": "xAI",
-      "url": "https://x.ai/blog/grok-4.3",
-      "publishedAt": "2026-06-18T15:33:11.915Z",
-      "impact": 96
+      "category": "safety",
+      "title": "Anthropic publishes unprecedented mechanistic interpretability map of Claude 4",
+      "excerpt": "Researchers reverse-engineered 312 million features inside the model, including the first clear \"deception circuit\" discovered in a frontier model.",
+      "source": "Anthropic",
+      "url": "https://anthropic.com/research/claude-4-interp",
+      "publishedAt": "2026-06-18T15:00:24.465Z",
+      "impact": 91
     },
     {
-      "id": "aether-figure03",
-      "type": "premium",
-      "category": "robotics",
-      "title": "Figure 03 completes 43-hour autonomous factory shift with zero interventions",
-      "excerpt": "Humanoid achieves new milestone in unsupervised operation, performing 1,240 unique tasks across three assembly lines at the BMW South Carolina plant.",
-      "source": "Figure AI",
-      "url": "https://figure.ai/news/03-milestone",
-      "publishedAt": "2026-06-18T11:33:11.915Z",
-      "impact": 89
-    },
-    {
-      "id": "marktechpost-1781774071000-1",
+      "id": "marktechpost-1781774071000-2",
       "type": "live",
       "category": "llm",
       "title": "The KV Cache Compression Race: TurboQuant vs OSCAR vs EpiCache",
@@ -59,84 +147,7 @@
       "impact": 65
     },
     {
-      "id": "aether-interp",
-      "type": "premium",
-      "category": "safety",
-      "title": "Anthropic publishes unprecedented mechanistic interpretability map of Claude 4",
-      "excerpt": "Researchers reverse-engineered 312 million features inside the model, including the first clear \"deception circuit\" discovered in a frontier model.",
-      "source": "Anthropic",
-      "url": "https://anthropic.com/research/claude-4-interp",
-      "publishedAt": "2026-06-18T06:33:11.915Z",
-      "impact": 91
-    },
-    {
-      "id": "arxiv-cs.ai-1781755200000-0",
-      "type": "live",
-      "category": "llm",
-      "title": "Beyond Parallel Sampling: Diverse Query Initialization for Agentic Search",
-      "excerpt": "17209v1 Announce Type: new Abstract: Test-time scaling for agentic search typically increases depth (i. , more turns and tokens per trajectory) or breadth (i",
-      "source": "arXiv cs.AI",
-      "url": "https://arxiv.org/abs/2606.17209",
-      "publishedAt": "2026-06-18T04:00:00.000Z",
-      "impact": 69
-    },
-    {
-      "id": "arxiv-cs.ai-1781755200000-1",
-      "type": "live",
-      "category": "safety",
-      "title": "When Rules Learn: A Self-Evolving Agent for Legal Case Retrieval",
-      "excerpt": "17220v1 Announce Type: new Abstract: Legal case retrieval remains challenging due to the complexity of legal language and the need for precise lexical alignment between queries and relevant cases.  Although dense retr...",
-      "source": "arXiv cs.AI",
-      "url": "https://arxiv.org/abs/2606.17220",
-      "publishedAt": "2026-06-18T04:00:00.000Z",
-      "impact": 69
-    },
-    {
-      "id": "arxiv-cs.ai-1781755200000-2",
-      "type": "live",
-      "category": "llm",
-      "title": "SkillChain-Gym: A Benchmark for Reskilling-Aware Production-Inventory Control under Disruptions",
-      "excerpt": "17266v1 Announce Type: new Abstract: Production planning increasingly has to treat workforce capability as a decision variable: certifications lapse when skills are not maintained, new products require skills the curr...",
-      "source": "arXiv cs.AI",
-      "url": "https://arxiv.org/abs/2606.17266",
-      "publishedAt": "2026-06-18T04:00:00.000Z",
-      "impact": 58
-    },
-    {
-      "id": "arxiv-cs.ai-1781755200000-3",
-      "type": "live",
-      "category": "safety",
-      "title": "Skill-Constrained Model Predictive Control for Resilient Manufacturing Supply Chains",
-      "excerpt": "17269v1 Announce Type: new Abstract: In skill-constrained production-inventory systems, the qualified human capacity available tomorrow depends on training decisions made today: production requires certified workers, ...",
-      "source": "arXiv cs.AI",
-      "url": "https://arxiv.org/abs/2606.17269",
-      "publishedAt": "2026-06-18T04:00:00.000Z",
-      "impact": 58
-    },
-    {
-      "id": "arxiv-cs.ai-1781755200000-4",
-      "type": "live",
-      "category": "llm",
-      "title": "Nothing from Something: Can a Language Model Discover 0?",
-      "excerpt": "17289v1 Announce Type: new Abstract: AI systems based on artificial neural networks are being developed with aspirations of pushing the boundary of human mathematical knowledge.  A key question for these systems is ho...",
-      "source": "arXiv cs.AI",
-      "url": "https://arxiv.org/abs/2606.17289",
-      "publishedAt": "2026-06-18T04:00:00.000Z",
-      "impact": 58
-    },
-    {
-      "id": "arxiv-cs.ai-1781755200000-5",
-      "type": "live",
-      "category": "llm",
-      "title": "Quantifying Consistency in LLM Logical Reasoning via Structural Uncertainty",
-      "excerpt": "17312v1 Announce Type: new Abstract: Large language models can arrive at the same answer through reasoning paths that are unstable, contradictory, or difficult to rank consistently -- a failure mode especially prevale...",
-      "source": "arXiv cs.AI",
-      "url": "https://arxiv.org/abs/2606.17312",
-      "publishedAt": "2026-06-18T04:00:00.000Z",
-      "impact": 58
-    },
-    {
-      "id": "marktechpost-1781749702000-2",
+      "id": "marktechpost-1781749702000-3",
       "type": "live",
       "category": "llm",
       "title": "OpenAI Releases LifeSciBench, a 750-Task Benchmark Grading AI Models on Real Life-Science Research With Expert-Written Rubric",
@@ -144,17 +155,6 @@
       "source": "MarkTechPost",
       "url": "https://www.marktechpost.com/2026/06/17/openai-releases-lifescibench-a-750-task-benchmark-grading-ai-models-on-real-life-science-research-with-expert-written-rubric/",
       "publishedAt": "2026-06-18T02:28:22.000Z",
-      "impact": 65
-    },
-    {
-      "id": "marktechpost-1781746519000-3",
-      "type": "live",
-      "category": "llm",
-      "title": "NVIDIA SkillSpector Guide: Scanning AI Skills for Security Risks with Static Analysis and SARIF Reports",
-      "excerpt": "In this tutorial, we use NVIDIA SkillSpector to evaluate AI skills for security risks before deployment.  We build a corpus of benign and deliberately vulnerable skills, then scan them through SkillSpector's programma...",
-      "source": "MarkTechPost",
-      "url": "https://www.marktechpost.com/2026/06/17/nvidia-skillspector-guide-scanning-ai-skills-for-security-risks-with-static-analysis-and-sarif-reports/",
-      "publishedAt": "2026-06-18T01:35:19.000Z",
       "impact": 65
     },
     {

@@ -1,8 +1,19 @@
 {
-  "lastUpdated": "2026-06-19T05:00:25.692Z",
+  "lastUpdated": "2026-06-19T10:47:17.382Z",
   "source": "AETHER + Public RSS (arXiv, Hugging Face, MarkTechPost, Ben's Bites)",
-  "count": 16,
+  "count": 12,
   "articles": [
+    {
+      "id": "aether-grok43",
+      "type": "premium",
+      "category": "llm",
+      "title": "xAI releases Grok-4.3 with native long-horizon agent scaffolding",
+      "excerpt": "New model demonstrates 4.2× improvement on multi-step software engineering benchmarks and sustains coherent agent trajectories beyond 110k tokens.",
+      "source": "xAI",
+      "url": "https://x.ai/blog/grok-4.3",
+      "publishedAt": "2026-06-19T05:47:17.022Z",
+      "impact": 96
+    },
     {
       "id": "arxiv-cs.ai-1781841600000-0",
       "type": "live",
@@ -70,39 +81,6 @@
       "impact": 58
     },
     {
-      "id": "marktechpost-1781837052000-0",
-      "type": "live",
-      "category": "safety",
-      "title": "Salesforce CodeGen Tutorial: Generate, Validate, and Rerank Python Functions With Unit Tests and Safety Checks",
-      "excerpt": "We implement an end-to-end workflow for Salesforce CodeGen, loaded from Hugging Face.  We move past basic inference by adding function extraction, syntax checking, static safety checks, and unit-test validation",
-      "source": "MarkTechPost",
-      "url": "https://www.marktechpost.com/2026/06/18/salesforce-codegen-tutorial-generate-validate-and-rerank-python-functions-with-unit-tests-and-safety-checks/",
-      "publishedAt": "2026-06-19T02:44:12.000Z",
-      "impact": 65
-    },
-    {
-      "id": "aether-grok43",
-      "type": "premium",
-      "category": "llm",
-      "title": "xAI releases Grok-4.3 with native long-horizon agent scaffolding",
-      "excerpt": "New model demonstrates 4.2× improvement on multi-step software engineering benchmarks and sustains coherent agent trajectories beyond 110k tokens.",
-      "source": "xAI",
-      "url": "https://x.ai/blog/grok-4.3",
-      "publishedAt": "2026-06-19T00:00:24.465Z",
-      "impact": 96
-    },
-    {
-      "id": "marktechpost-1781814380000-1",
-      "type": "live",
-      "category": "research",
-      "title": "Perplexity Launches Brain, a Self-Improving Memory System That Builds a Context Graph of an Agent’s Work and Learns Overnight",
-      "excerpt": "Perplexity has launched Brain, a self-improving memory system for its Computer agent.  Instead of remembering the user, Brain remembers the agent's work — what worked, what failed, and what corrections got made",
-      "source": "MarkTechPost",
-      "url": "https://www.marktechpost.com/2026/06/18/perplexity-launches-brain/",
-      "publishedAt": "2026-06-18T20:26:20.000Z",
-      "impact": 77
-    },
-    {
       "id": "aether-figure03",
       "type": "premium",
       "category": "robotics",
@@ -110,8 +88,19 @@
       "excerpt": "Humanoid achieves new milestone in unsupervised operation, performing 1,240 unique tasks across three assembly lines at the BMW South Carolina plant.",
       "source": "Figure AI",
       "url": "https://figure.ai/news/03-milestone",
-      "publishedAt": "2026-06-18T20:00:24.465Z",
+      "publishedAt": "2026-06-19T01:47:17.022Z",
       "impact": 89
+    },
+    {
+      "id": "aether-interp",
+      "type": "premium",
+      "category": "safety",
+      "title": "Anthropic publishes unprecedented mechanistic interpretability map of Claude 4",
+      "excerpt": "Researchers reverse-engineered 312 million features inside the model, including the first clear \"deception circuit\" discovered in a frontier model.",
+      "source": "Anthropic",
+      "url": "https://anthropic.com/research/claude-4-interp",
+      "publishedAt": "2026-06-18T20:47:17.022Z",
+      "impact": 91
     },
     {
       "id": "hugging-face-1781806393000-0",
@@ -123,39 +112,6 @@
       "url": "https://huggingface.co/blog/ServiceNow/mosaicleaks",
       "publishedAt": "2026-06-18T18:13:13.000Z",
       "impact": 87
-    },
-    {
-      "id": "aether-interp",
-      "type": "premium",
-      "category": "safety",
-      "title": "Anthropic publishes unprecedented mechanistic interpretability map of Claude 4",
-      "excerpt": "Researchers reverse-engineered 312 million features inside the model, including the first clear \"deception circuit\" discovered in a frontier model.",
-      "source": "Anthropic",
-      "url": "https://anthropic.com/research/claude-4-interp",
-      "publishedAt": "2026-06-18T15:00:24.465Z",
-      "impact": 91
-    },
-    {
-      "id": "marktechpost-1781774071000-2",
-      "type": "live",
-      "category": "llm",
-      "title": "The KV Cache Compression Race: TurboQuant vs OSCAR vs EpiCache",
-      "excerpt": "The KV cache now outweighs model weights at long context.  Here's how TurboQuant, OSCAR, and EpiCache each attack that memory bottleneck — and why they're more complementary than competitive",
-      "source": "MarkTechPost",
-      "url": "https://www.marktechpost.com/2026/06/18/the-kv-cache-compression-race-turboquant-vs-oscar-vs-epicache/",
-      "publishedAt": "2026-06-18T09:14:31.000Z",
-      "impact": 65
-    },
-    {
-      "id": "marktechpost-1781749702000-3",
-      "type": "live",
-      "category": "llm",
-      "title": "OpenAI Releases LifeSciBench, a 750-Task Benchmark Grading AI Models on Real Life-Science Research With Expert-Written Rubric",
-      "excerpt": "OpenAI's LifeSciBench evaluates whether frontier AI can handle real life-science research across 750 expert-authored tasks, seven workflows, and seven biological domains.  Built by 173 PhD scientists with 19,020 rubri...",
-      "source": "MarkTechPost",
-      "url": "https://www.marktechpost.com/2026/06/17/openai-releases-lifescibench-a-750-task-benchmark-grading-ai-models-on-real-life-science-research-with-expert-written-rubric/",
-      "publishedAt": "2026-06-18T02:28:22.000Z",
-      "impact": 65
     },
     {
       "id": "hugging-face-1781740800000-1",

@@ -1,8 +1,19 @@
 {
-  "lastUpdated": "2026-06-20T09:28:08.622Z",
+  "lastUpdated": "2026-06-20T14:16:50.821Z",
   "source": "AETHER + Public RSS (arXiv, Hugging Face, MarkTechPost, Ben's Bites)",
-  "count": 12,
+  "count": 16,
   "articles": [
+    {
+      "id": "marktechpost-1781947439000-0",
+      "type": "live",
+      "category": "research",
+      "title": "Yandex Open-Sources YaFF: A Zero-Copy Wire Format for Protobuf With Near-Struct Read Speed",
+      "excerpt": "In this article we look at YaFF, Yandex's open-source zero-copy wire format for the Protobuf ecosystem. proto file as the single source of truth, changing only how data sits in memory",
+      "source": "MarkTechPost",
+      "url": "https://www.marktechpost.com/2026/06/20/yandex-open-sources-yaff-a-zero-copy-wire-format-for-protobuf-with-near-struct-read-speed/",
+      "publishedAt": "2026-06-20T09:23:59.000Z",
+      "impact": 65
+    },
     {
       "id": "aether-grok43",
       "type": "premium",
@@ -11,8 +22,30 @@
       "excerpt": "New model demonstrates 4.2× improvement on multi-step software engineering benchmarks and sustains coherent agent trajectories beyond 110k tokens.",
       "source": "xAI",
       "url": "https://x.ai/blog/grok-4.3",
-      "publishedAt": "2026-06-20T04:28:08.332Z",
+      "publishedAt": "2026-06-20T09:16:49.737Z",
       "impact": 96
+    },
+    {
+      "id": "marktechpost-1781946323000-1",
+      "type": "live",
+      "category": "hardware",
+      "title": "How to Build a Forecasting Pipeline with TimeCopilot Using Foundation Models and Automated Anomaly Detection",
+      "excerpt": "We build an end-to-end forecasting workflow with TimeCopilot on a panel of real airline passenger data and a synthetic seasonal series with injected anomalies.  We evaluate statistical, foundation, and optional GPU-ba...",
+      "source": "MarkTechPost",
+      "url": "https://www.marktechpost.com/2026/06/20/how-to-build-a-forecasting-pipeline-with-timecopilot-using-foundation-models-and-automated-anomaly-detection/",
+      "publishedAt": "2026-06-20T09:05:23.000Z",
+      "impact": 65
+    },
+    {
+      "id": "aether-figure03",
+      "type": "premium",
+      "category": "robotics",
+      "title": "Figure 03 completes 43-hour autonomous factory shift with zero interventions",
+      "excerpt": "Humanoid achieves new milestone in unsupervised operation, performing 1,240 unique tasks across three assembly lines at the BMW South Carolina plant.",
+      "source": "Figure AI",
+      "url": "https://figure.ai/news/03-milestone",
+      "publishedAt": "2026-06-20T05:16:49.737Z",
+      "impact": 89
     },
     {
       "id": "arxiv-cs.ai-1781928000000-0",
@@ -81,17 +114,6 @@
       "impact": 58
     },
     {
-      "id": "aether-figure03",
-      "type": "premium",
-      "category": "robotics",
-      "title": "Figure 03 completes 43-hour autonomous factory shift with zero interventions",
-      "excerpt": "Humanoid achieves new milestone in unsupervised operation, performing 1,240 unique tasks across three assembly lines at the BMW South Carolina plant.",
-      "source": "Figure AI",
-      "url": "https://figure.ai/news/03-milestone",
-      "publishedAt": "2026-06-20T00:28:08.332Z",
-      "impact": 89
-    },
-    {
       "id": "aether-interp",
       "type": "premium",
       "category": "safety",
@@ -99,8 +121,30 @@
       "excerpt": "Researchers reverse-engineered 312 million features inside the model, including the first clear \"deception circuit\" discovered in a frontier model.",
       "source": "Anthropic",
       "url": "https://anthropic.com/research/claude-4-interp",
-      "publishedAt": "2026-06-19T19:28:08.332Z",
+      "publishedAt": "2026-06-20T00:16:49.737Z",
       "impact": 91
+    },
+    {
+      "id": "marktechpost-1781909519000-2",
+      "type": "live",
+      "category": "research",
+      "title": "NVIDIA AI Introduce SpatialClaw: A Training-Free Agent That Treats Code as the Action Interface for Spatial Reasoning",
+      "excerpt": "SpatialClaw is a training-free agent that writes Python in a persistent kernel, composing perception tools for 3D spatial reasoning The post NVIDIA AI Introduce SpatialClaw: A Training-Free Agent That Treats Code as t...",
+      "source": "MarkTechPost",
+      "url": "https://www.marktechpost.com/2026/06/19/nvidia-ai-introduce-spatialclaw-a-training-free-agent-that-treats-code-as-the-action-interface-for-spatial-reasoning/",
+      "publishedAt": "2026-06-19T22:51:59.000Z",
+      "impact": 77
+    },
+    {
+      "id": "marktechpost-1781906791000-3",
+      "type": "live",
+      "category": "llm",
+      "title": "VibeThinker-3B: A 3B Dense Reasoning Model Built on Qwen2.5-Coder-3B With the Spectrum-to-Signal Post-Training Pipeline",
+      "excerpt": "VibeThinker-3B, a 3B MIT-licensed reasoning model matching DeepSeek V3. 5 on verifiable benchmarks",
+      "source": "MarkTechPost",
+      "url": "https://www.marktechpost.com/2026/06/19/vibethinker-3b-a-3b-dense-reasoning-model-built-on-qwen2-5-coder-3b-with-the-spectrum-to-signal-post-training-pipeline/",
+      "publishedAt": "2026-06-19T22:06:31.000Z",
+      "impact": 65
     },
     {
       "id": "hugging-face-1781806393000-0",

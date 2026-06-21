@@ -1,17 +1,17 @@
 {
-  "lastUpdated": "2026-06-20T14:16:50.821Z",
+  "lastUpdated": "2026-06-21T09:58:25.824Z",
   "source": "AETHER + Public RSS (arXiv, Hugging Face, MarkTechPost, Ben's Bites)",
-  "count": 16,
+  "count": 10,
   "articles": [
     {
-      "id": "marktechpost-1781947439000-0",
+      "id": "marktechpost-1782024730000-0",
       "type": "live",
-      "category": "research",
-      "title": "Yandex Open-Sources YaFF: A Zero-Copy Wire Format for Protobuf With Near-Struct Read Speed",
-      "excerpt": "In this article we look at YaFF, Yandex's open-source zero-copy wire format for the Protobuf ecosystem. proto file as the single source of truth, changing only how data sits in memory",
+      "category": "robotics",
+      "title": "Crawlee for Python: Build a Web Crawling Pipeline with Robots Handling, Link Graphs, and RAG Chunk Export",
+      "excerpt": "In this tutorial, we build a complete Crawlee for Python workflow from setup to AI-ready output.  We generate a local demo website, then crawl it with BeautifulSoupCrawler, ParselCrawler, and PlaywrightCrawler",
       "source": "MarkTechPost",
-      "url": "https://www.marktechpost.com/2026/06/20/yandex-open-sources-yaff-a-zero-copy-wire-format-for-protobuf-with-near-struct-read-speed/",
-      "publishedAt": "2026-06-20T09:23:59.000Z",
+      "url": "https://www.marktechpost.com/2026/06/20/crawlee-for-python-build-a-web-crawling-pipeline-with-robots-handling-link-graphs-and-rag-chunk-export/",
+      "publishedAt": "2026-06-21T06:52:10.000Z",
       "impact": 65
     },
     {
@@ -22,19 +22,8 @@
       "excerpt": "New model demonstrates 4.2× improvement on multi-step software engineering benchmarks and sustains coherent agent trajectories beyond 110k tokens.",
       "source": "xAI",
       "url": "https://x.ai/blog/grok-4.3",
-      "publishedAt": "2026-06-20T09:16:49.737Z",
+      "publishedAt": "2026-06-21T04:58:24.715Z",
       "impact": 96
-    },
-    {
-      "id": "marktechpost-1781946323000-1",
-      "type": "live",
-      "category": "hardware",
-      "title": "How to Build a Forecasting Pipeline with TimeCopilot Using Foundation Models and Automated Anomaly Detection",
-      "excerpt": "We build an end-to-end forecasting workflow with TimeCopilot on a panel of real airline passenger data and a synthetic seasonal series with injected anomalies.  We evaluate statistical, foundation, and optional GPU-ba...",
-      "source": "MarkTechPost",
-      "url": "https://www.marktechpost.com/2026/06/20/how-to-build-a-forecasting-pipeline-with-timecopilot-using-foundation-models-and-automated-anomaly-detection/",
-      "publishedAt": "2026-06-20T09:05:23.000Z",
-      "impact": 65
     },
     {
       "id": "aether-figure03",
@@ -44,74 +33,30 @@
       "excerpt": "Humanoid achieves new milestone in unsupervised operation, performing 1,240 unique tasks across three assembly lines at the BMW South Carolina plant.",
       "source": "Figure AI",
       "url": "https://figure.ai/news/03-milestone",
-      "publishedAt": "2026-06-20T05:16:49.737Z",
+      "publishedAt": "2026-06-21T00:58:24.715Z",
       "impact": 89
     },
     {
-      "id": "arxiv-cs.ai-1781928000000-0",
+      "id": "marktechpost-1781996695000-1",
       "type": "live",
       "category": "llm",
-      "title": "Deontic Policies for Runtime Governance of Agentic AI Systems",
-      "excerpt": "19464v1 Announce Type: new Abstract: Autonomous agentic AI systems driven by Large Language Models (LLMs) introduce a new class of security, privacy, and compliance challenges: an agent that can invoke tools, manipula...",
-      "source": "arXiv cs.AI",
-      "url": "https://arxiv.org/abs/2606.19464",
-      "publishedAt": "2026-06-20T04:00:00.000Z",
-      "impact": 69
+      "title": "Cisco AI Introduces FAPO: Pipeline-Aware Prompt Optimization With Step-Level Failure Attribution and Claude Code Orchestration",
+      "excerpt": "Cisco Foundation AI has open-sourced FAPO (Fully Automated Prompt Optimization), a Claude Code-driven system that autonomously optimizes multi-step LLM pipelines from baseline prompts to target accuracy.  FAPO evaluat...",
+      "source": "MarkTechPost",
+      "url": "https://www.marktechpost.com/2026/06/20/cisco-ai-introduces-fapo-pipeline-aware-prompt-optimization-with-step-level-failure-attribution-and-claude-code-orchestration/",
+      "publishedAt": "2026-06-20T23:04:55.000Z",
+      "impact": 65
     },
     {
-      "id": "arxiv-cs.ai-1781928000000-1",
-      "type": "live",
-      "category": "safety",
-      "title": "Measuring Curriculum Alignment across Topical Coverage, Competency, and Cognitive Depth: A Longitudinal Framework Applied to CS2013 and CS2023",
-      "excerpt": "19469v1 Announce Type: new Abstract: Undergraduate computer science is governed by international curricular guidelines revised about once a decade, yet programs lack a reliable, reproducible way to measure how complet...",
-      "source": "arXiv cs.AI",
-      "url": "https://arxiv.org/abs/2606.19469",
-      "publishedAt": "2026-06-20T04:00:00.000Z",
-      "impact": 58
-    },
-    {
-      "id": "arxiv-cs.ai-1781928000000-2",
+      "id": "marktechpost-1781992211000-2",
       "type": "live",
       "category": "llm",
-      "title": "Diffusion Language Models: An Experimental Analysis",
-      "excerpt": "19475v1 Announce Type: new Abstract: Large Language Models (LLMs) have revolutionized language modeling through autoregressive generation, enabling strong performance across a wide range of tasks.  Recently, Diffusion...",
-      "source": "arXiv cs.AI",
-      "url": "https://arxiv.org/abs/2606.19475",
-      "publishedAt": "2026-06-20T04:00:00.000Z",
-      "impact": 58
-    },
-    {
-      "id": "arxiv-cs.ai-1781928000000-3",
-      "type": "live",
-      "category": "llm",
-      "title": "Hidden Anchors in Multi-Agent LLM Deliberation",
-      "excerpt": "19494v1 Announce Type: new Abstract: Multi-agent LLM deliberation, where agents exchange and revise answers over several rounds, is increasingly used to improve reasoning and accuracy, yet how and why it works is rare...",
-      "source": "arXiv cs.AI",
-      "url": "https://arxiv.org/abs/2606.19494",
-      "publishedAt": "2026-06-20T04:00:00.000Z",
-      "impact": 69
-    },
-    {
-      "id": "arxiv-cs.ai-1781928000000-4",
-      "type": "live",
-      "category": "multimodal",
-      "title": "DeXposure-Claw: An Agentic System for DeFi Risk Supervision",
-      "excerpt": "19501v1 Announce Type: new Abstract: Decentralized finance exposes supervisors to fast-moving, networked credit risks.  General-purpose LLM agents fit this setting poorly: they over-read weak evidence and recommend hi...",
-      "source": "arXiv cs.AI",
-      "url": "https://arxiv.org/abs/2606.19501",
-      "publishedAt": "2026-06-20T04:00:00.000Z",
-      "impact": 69
-    },
-    {
-      "id": "arxiv-cs.ai-1781928000000-5",
-      "type": "live",
-      "category": "llm",
-      "title": "LLM Doesn't Know What It Doesn't Know: Detecting Epistemic Blind Spots via Cross-Model Attribution Divergence on Clinical Tabular Data",
-      "excerpt": "19509v1 Announce Type: new Abstract: Large language models (LLMs) are increasingly applied to structured clinical data, yet whether they can recognize the limits of their own knowledge on such tasks remains unexplored...",
-      "source": "arXiv cs.AI",
-      "url": "https://arxiv.org/abs/2606.19509",
-      "publishedAt": "2026-06-20T04:00:00.000Z",
-      "impact": 58
+      "title": "Nous Research Updates Hermes Agent With a Blank Slate Mode That Pins Toolsets via platform_toolsets.cli and disabled_toolsets",
+      "excerpt": "Nous Research has added a Blank Slate setup mode to its open-source Hermes Agent.  It starts an agent with everything off except provider, model, File Operations, and Terminal",
+      "source": "MarkTechPost",
+      "url": "https://www.marktechpost.com/2026/06/20/nous-research-updates-hermes-agent-with-a-blank-slate-mode-that-pins-toolsets-via-platform_toolsets-cli-and-disabled_toolsets/",
+      "publishedAt": "2026-06-20T21:50:11.000Z",
+      "impact": 77
     },
     {
       "id": "aether-interp",
@@ -121,29 +66,18 @@
       "excerpt": "Researchers reverse-engineered 312 million features inside the model, including the first clear \"deception circuit\" discovered in a frontier model.",
       "source": "Anthropic",
       "url": "https://anthropic.com/research/claude-4-interp",
-      "publishedAt": "2026-06-20T00:16:49.737Z",
+      "publishedAt": "2026-06-20T19:58:24.715Z",
       "impact": 91
     },
     {
-      "id": "marktechpost-1781909519000-2",
+      "id": "marktechpost-1781947439000-3",
       "type": "live",
       "category": "research",
-      "title": "NVIDIA AI Introduce SpatialClaw: A Training-Free Agent That Treats Code as the Action Interface for Spatial Reasoning",
-      "excerpt": "SpatialClaw is a training-free agent that writes Python in a persistent kernel, composing perception tools for 3D spatial reasoning The post NVIDIA AI Introduce SpatialClaw: A Training-Free Agent That Treats Code as t...",
+      "title": "Yandex Open-Sources YaFF: A Zero-Copy Wire Format for Protobuf With Near-Struct Read Speed",
+      "excerpt": "In this article we look at YaFF, Yandex's open-source zero-copy wire format for the Protobuf ecosystem. proto file as the single source of truth, changing only how data sits in memory",
       "source": "MarkTechPost",
-      "url": "https://www.marktechpost.com/2026/06/19/nvidia-ai-introduce-spatialclaw-a-training-free-agent-that-treats-code-as-the-action-interface-for-spatial-reasoning/",
-      "publishedAt": "2026-06-19T22:51:59.000Z",
-      "impact": 77
-    },
-    {
-      "id": "marktechpost-1781906791000-3",
-      "type": "live",
-      "category": "llm",
-      "title": "VibeThinker-3B: A 3B Dense Reasoning Model Built on Qwen2.5-Coder-3B With the Spectrum-to-Signal Post-Training Pipeline",
-      "excerpt": "VibeThinker-3B, a 3B MIT-licensed reasoning model matching DeepSeek V3. 5 on verifiable benchmarks",
-      "source": "MarkTechPost",
-      "url": "https://www.marktechpost.com/2026/06/19/vibethinker-3b-a-3b-dense-reasoning-model-built-on-qwen2-5-coder-3b-with-the-spectrum-to-signal-post-training-pipeline/",
-      "publishedAt": "2026-06-19T22:06:31.000Z",
+      "url": "https://www.marktechpost.com/2026/06/20/yandex-open-sources-yaff-a-zero-copy-wire-format-for-protobuf-with-near-struct-read-speed/",
+      "publishedAt": "2026-06-20T09:23:59.000Z",
       "impact": 65
     },
     {

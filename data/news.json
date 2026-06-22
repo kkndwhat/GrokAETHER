@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-22T12:16:05.145Z",
+  "lastUpdated": "2026-06-22T20:55:53.168Z",
   "source": "AETHER + Public RSS (arXiv, Hugging Face, MarkTechPost, Ben's Bites)",
   "count": 6,
   "articles": [
@@ -11,8 +11,19 @@
       "excerpt": "New model demonstrates 4.2× improvement on multi-step software engineering benchmarks and sustains coherent agent trajectories beyond 110k tokens.",
       "source": "xAI",
       "url": "https://x.ai/blog/grok-4.3",
-      "publishedAt": "2026-06-22T07:16:04.807Z",
+      "publishedAt": "2026-06-22T15:55:52.745Z",
       "impact": 96
+    },
+    {
+      "id": "hugging-face-1782134336000-0",
+      "type": "live",
+      "category": "research",
+      "title": "PP-OCRv6 on Hugging Face: 50-Language OCR from 1.5M to 34.5M Parameters",
+      "excerpt": "New development from the frontier.",
+      "source": "Hugging Face",
+      "url": "https://huggingface.co/blog/PaddlePaddle/pp-ocrv6",
+      "publishedAt": "2026-06-22T13:18:56.000Z",
+      "impact": 75
     },
     {
       "id": "aether-figure03",
@@ -22,7 +33,7 @@
       "excerpt": "Humanoid achieves new milestone in unsupervised operation, performing 1,240 unique tasks across three assembly lines at the BMW South Carolina plant.",
       "source": "Figure AI",
       "url": "https://figure.ai/news/03-milestone",
-      "publishedAt": "2026-06-22T03:16:04.807Z",
+      "publishedAt": "2026-06-22T11:55:52.745Z",
       "impact": 89
     },
     {
@@ -33,11 +44,11 @@
       "excerpt": "Researchers reverse-engineered 312 million features inside the model, including the first clear \"deception circuit\" discovered in a frontier model.",
       "source": "Anthropic",
       "url": "https://anthropic.com/research/claude-4-interp",
-      "publishedAt": "2026-06-21T22:16:04.807Z",
+      "publishedAt": "2026-06-22T06:55:52.745Z",
       "impact": 91
     },
     {
-      "id": "hugging-face-1781806393000-0",
+      "id": "hugging-face-1781806393000-1",
       "type": "live",
       "category": "research",
       "title": "MosaicLeaks: Can your research agent keep a secret?",
@@ -48,7 +59,7 @@
       "impact": 87
     },
     {
-      "id": "hugging-face-1781740800000-1",
+      "id": "hugging-face-1781740800000-2",
       "type": "live",
       "category": "research",
       "title": "Beyond LoRA: Can you beat the most popular fine-tuning technique?",
@@ -57,17 +68,6 @@
       "url": "https://huggingface.co/blog/peft-beyond-lora",
       "publishedAt": "2026-06-18T00:00:00.000Z",
       "impact": 75
-    },
-    {
-      "id": "hugging-face-1781740800000-2",
-      "type": "live",
-      "category": "llm",
-      "title": "Is it agentic enough? Benchmarking open models on your own tooling",
-      "excerpt": "New development from the frontier.",
-      "source": "Hugging Face",
-      "url": "https://huggingface.co/blog/is-it-agentic-enough",
-      "publishedAt": "2026-06-18T00:00:00.000Z",
-      "impact": 87
     }
   ]
 }

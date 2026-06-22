@@ -1,19 +1,8 @@
 {
-  "lastUpdated": "2026-06-22T05:04:19.052Z",
+  "lastUpdated": "2026-06-22T12:16:05.145Z",
   "source": "AETHER + Public RSS (arXiv, Hugging Face, MarkTechPost, Ben's Bites)",
-  "count": 10,
+  "count": 6,
   "articles": [
-    {
-      "id": "marktechpost-1782087209000-0",
-      "type": "live",
-      "category": "research",
-      "title": "How to Design Python-First Interactive Dashboards with Prefab Reactive UI Components and Static HTML Export",
-      "excerpt": "In this tutorial, we build a Prefab application that creates interactive dashboards entirely in Python.  We design an operations dashboard with reactive state, charts, tables, filters, forms, tabs, and metrics",
-      "source": "MarkTechPost",
-      "url": "https://www.marktechpost.com/2026/06/21/how-to-design-python-first-interactive-dashboards-with-prefab-reactive-ui-components-and-static-html-export/",
-      "publishedAt": "2026-06-22T00:13:29.000Z",
-      "impact": 65
-    },
     {
       "id": "aether-grok43",
       "type": "premium",
@@ -22,19 +11,8 @@
       "excerpt": "New model demonstrates 4.2× improvement on multi-step software engineering benchmarks and sustains coherent agent trajectories beyond 110k tokens.",
       "source": "xAI",
       "url": "https://x.ai/blog/grok-4.3",
-      "publishedAt": "2026-06-22T00:04:17.383Z",
+      "publishedAt": "2026-06-22T07:16:04.807Z",
       "impact": 96
-    },
-    {
-      "id": "marktechpost-1782083551000-1",
-      "type": "live",
-      "category": "llm",
-      "title": "The 7 Types of Agent Memory: A Technical Guide for AI Engineers",
-      "excerpt": "LLMs are stateless by default.  Agent memory fixes that",
-      "source": "MarkTechPost",
-      "url": "https://www.marktechpost.com/2026/06/21/the-7-types-of-agent-memory-a-technical-guide-for-ai-engineers/",
-      "publishedAt": "2026-06-21T23:12:31.000Z",
-      "impact": 77
     },
     {
       "id": "aether-figure03",
@@ -44,7 +22,7 @@
       "excerpt": "Humanoid achieves new milestone in unsupervised operation, performing 1,240 unique tasks across three assembly lines at the BMW South Carolina plant.",
       "source": "Figure AI",
       "url": "https://figure.ai/news/03-milestone",
-      "publishedAt": "2026-06-21T20:04:17.383Z",
+      "publishedAt": "2026-06-22T03:16:04.807Z",
       "impact": 89
     },
     {
@@ -55,30 +33,8 @@
       "excerpt": "Researchers reverse-engineered 312 million features inside the model, including the first clear \"deception circuit\" discovered in a frontier model.",
       "source": "Anthropic",
       "url": "https://anthropic.com/research/claude-4-interp",
-      "publishedAt": "2026-06-21T15:04:17.383Z",
+      "publishedAt": "2026-06-21T22:16:04.807Z",
       "impact": 91
-    },
-    {
-      "id": "marktechpost-1782024730000-2",
-      "type": "live",
-      "category": "robotics",
-      "title": "Crawlee for Python: Build a Web Crawling Pipeline with Robots Handling, Link Graphs, and RAG Chunk Export",
-      "excerpt": "In this tutorial, we build a complete Crawlee for Python workflow from setup to AI-ready output.  We generate a local demo website, then crawl it with BeautifulSoupCrawler, ParselCrawler, and PlaywrightCrawler",
-      "source": "MarkTechPost",
-      "url": "https://www.marktechpost.com/2026/06/20/crawlee-for-python-build-a-web-crawling-pipeline-with-robots-handling-link-graphs-and-rag-chunk-export/",
-      "publishedAt": "2026-06-21T06:52:10.000Z",
-      "impact": 65
-    },
-    {
-      "id": "marktechpost-1781996695000-3",
-      "type": "live",
-      "category": "llm",
-      "title": "Cisco AI Introduces FAPO: Pipeline-Aware Prompt Optimization With Step-Level Failure Attribution and Claude Code Orchestration",
-      "excerpt": "Cisco Foundation AI has open-sourced FAPO (Fully Automated Prompt Optimization), a Claude Code-driven system that autonomously optimizes multi-step LLM pipelines from baseline prompts to target accuracy.  FAPO evaluat...",
-      "source": "MarkTechPost",
-      "url": "https://www.marktechpost.com/2026/06/20/cisco-ai-introduces-fapo-pipeline-aware-prompt-optimization-with-step-level-failure-attribution-and-claude-code-orchestration/",
-      "publishedAt": "2026-06-20T23:04:55.000Z",
-      "impact": 65
     },
     {
       "id": "hugging-face-1781806393000-0",

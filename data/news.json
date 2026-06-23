@@ -1,8 +1,19 @@
 {
-  "lastUpdated": "2026-06-23T04:03:26.103Z",
+  "lastUpdated": "2026-06-23T15:13:51.615Z",
   "source": "AETHER + Public RSS (arXiv, Hugging Face, MarkTechPost, Ben's Bites)",
-  "count": 6,
+  "count": 16,
   "articles": [
+    {
+      "id": "hugging-face-1782219115000-0",
+      "type": "live",
+      "category": "research",
+      "title": "Build real agentic apps using CUGA: two dozen working examples on a lightweight harness",
+      "excerpt": "New development from the frontier.",
+      "source": "Hugging Face",
+      "url": "https://huggingface.co/blog/ibm-research/cuga-apps",
+      "publishedAt": "2026-06-23T12:51:55.000Z",
+      "impact": 87
+    },
     {
       "id": "aether-grok43",
       "type": "premium",
@@ -11,8 +22,30 @@
       "excerpt": "New model demonstrates 4.2× improvement on multi-step software engineering benchmarks and sustains coherent agent trajectories beyond 110k tokens.",
       "source": "xAI",
       "url": "https://x.ai/blog/grok-4.3",
-      "publishedAt": "2026-06-22T23:03:25.677Z",
+      "publishedAt": "2026-06-23T10:13:51.197Z",
       "impact": 96
+    },
+    {
+      "id": "marktechpost-1782199244000-0",
+      "type": "live",
+      "category": "llm",
+      "title": "Prime Intellect Releases prime-rl 0.6.0 to Train Trillion-Parameter MoE Models on Agentic RL Workloads",
+      "excerpt": "Prime Intellect has released prime-rl 0. 0, an open framework for asynchronous reinforcement learning on trillion-parameter Mixture-of-Experts models",
+      "source": "MarkTechPost",
+      "url": "https://www.marktechpost.com/2026/06/23/prime-intellect-releases-prime-rl-0-6-0-to-train-trillion-parameter-moe-models-on-agentic-rl-workloads/",
+      "publishedAt": "2026-06-23T07:20:44.000Z",
+      "impact": 77
+    },
+    {
+      "id": "marktechpost-1782196505000-1",
+      "type": "live",
+      "category": "llm",
+      "title": "GLM-5.2 OpenAI-Compatible API: A Hands-On Guide to Reasoning Effort, Function Calling, and Long-Context Retrieval",
+      "excerpt": "We build a practical GLM-5. 2 workflow using its hosted, OpenAI-compatible API instead of running the model locally",
+      "source": "MarkTechPost",
+      "url": "https://www.marktechpost.com/2026/06/22/glm-5-2-openai-compatible-api-a-hands-on-guide-to-reasoning-effort-function-calling-and-long-context-retrieval/",
+      "publishedAt": "2026-06-23T06:35:05.000Z",
+      "impact": 65
     },
     {
       "id": "aether-figure03",
@@ -22,8 +55,74 @@
       "excerpt": "Humanoid achieves new milestone in unsupervised operation, performing 1,240 unique tasks across three assembly lines at the BMW South Carolina plant.",
       "source": "Figure AI",
       "url": "https://figure.ai/news/03-milestone",
-      "publishedAt": "2026-06-22T19:03:25.677Z",
+      "publishedAt": "2026-06-23T06:13:51.197Z",
       "impact": 89
+    },
+    {
+      "id": "arxiv-cs.ai-1782187200000-0",
+      "type": "live",
+      "category": "safety",
+      "title": "On the Identifiability of User Adaptation in Co-Adaptive Neural Interfaces",
+      "excerpt": "20569v1 Announce Type: new Abstract: We analyze identifiability in co-adaptive human-machine systems.  We show that closed-loop encoder estimates do not uniquely identify user adaptation, but instead reflect propertie...",
+      "source": "arXiv cs.AI",
+      "url": "https://arxiv.org/abs/2606.20569",
+      "publishedAt": "2026-06-23T04:00:00.000Z",
+      "impact": 58
+    },
+    {
+      "id": "arxiv-cs.ai-1782187200000-1",
+      "type": "live",
+      "category": "llm",
+      "title": "Beyond Fixed Budgets: Characterizing the Inelasticity and Limitations of Tree-of-Thought Reasoning Strategies",
+      "excerpt": "20599v1 Announce Type: new Abstract: Tree of Thought (ToT) search has become a promising direction for improving the reasoning capabilities of large language models, but deploying these methods in practice raises a qu...",
+      "source": "arXiv cs.AI",
+      "url": "https://arxiv.org/abs/2606.20599",
+      "publishedAt": "2026-06-23T04:00:00.000Z",
+      "impact": 58
+    },
+    {
+      "id": "arxiv-cs.ai-1782187200000-2",
+      "type": "live",
+      "category": "llm",
+      "title": "The New Associationism: Lessons from Deep Learning",
+      "excerpt": "20600v1 Announce Type: new Abstract: What can the success of modern AI tell us about how humans learn.  This paper argues that taking AI seriously as a model of human learning supports a modest but genuine associationism",
+      "source": "arXiv cs.AI",
+      "url": "https://arxiv.org/abs/2606.20600",
+      "publishedAt": "2026-06-23T04:00:00.000Z",
+      "impact": 58
+    },
+    {
+      "id": "arxiv-cs.ai-1782187200000-3",
+      "type": "live",
+      "category": "llm",
+      "title": "Specifying AI-SDLC Processes: A Protocol Language for Human-Agent Boundaries",
+      "excerpt": "20615v1 Announce Type: new Abstract: AI agents now participate as first-class team members across the software development lifecycle, yet no specification language exists for expressing the human-agent responsibility ...",
+      "source": "arXiv cs.AI",
+      "url": "https://arxiv.org/abs/2606.20615",
+      "publishedAt": "2026-06-23T04:00:00.000Z",
+      "impact": 69
+    },
+    {
+      "id": "arxiv-cs.ai-1782187200000-4",
+      "type": "live",
+      "category": "robotics",
+      "title": "PEAR: Permutation-Equivariant Adaptive Routing Multi-Agent Debate",
+      "excerpt": "20621v1 Announce Type: new Abstract: Multi-agent debate improves the reliability of large language models (LLMs) through iterative peer critiques.  However, fixed topologies often introduce persistent positional biase...",
+      "source": "arXiv cs.AI",
+      "url": "https://arxiv.org/abs/2606.20621",
+      "publishedAt": "2026-06-23T04:00:00.000Z",
+      "impact": 69
+    },
+    {
+      "id": "arxiv-cs.ai-1782187200000-5",
+      "type": "live",
+      "category": "research",
+      "title": "Darwin Mobile Agent: A Roadmap for Self-Evolution",
+      "excerpt": "20622v1 Announce Type: new Abstract: The goal of artificial intelligence is to create agents capable of general, adaptive behaviour in open-ended environments.  Guided by the \"Bitter Lesson\", we argue that the most ef...",
+      "source": "arXiv cs.AI",
+      "url": "https://arxiv.org/abs/2606.20622",
+      "publishedAt": "2026-06-23T04:00:00.000Z",
+      "impact": 69
     },
     {
       "id": "aether-interp",
@@ -33,11 +132,44 @@
       "excerpt": "Researchers reverse-engineered 312 million features inside the model, including the first clear \"deception circuit\" discovered in a frontier model.",
       "source": "Anthropic",
       "url": "https://anthropic.com/research/claude-4-interp",
-      "publishedAt": "2026-06-22T14:03:25.677Z",
+      "publishedAt": "2026-06-23T01:13:51.197Z",
       "impact": 91
     },
     {
-      "id": "hugging-face-1782134336000-0",
+      "id": "hugging-face-1782172800000-1",
+      "type": "live",
+      "category": "research",
+      "title": "Shipping huggingface_hub every week with AI, open tools, and a human in the loop",
+      "excerpt": "New development from the frontier.",
+      "source": "Hugging Face",
+      "url": "https://huggingface.co/blog/huggingface-hub-release-ci",
+      "publishedAt": "2026-06-23T00:00:00.000Z",
+      "impact": 75
+    },
+    {
+      "id": "marktechpost-1782160488000-2",
+      "type": "live",
+      "category": "llm",
+      "title": "xAI Launches /goal in Grok Build, Adding Long-Running Autonomous Execution With Built-In Verification for Multi-Step Coding Tasks",
+      "excerpt": "xAI introduced /goal in Grok Build, a mode for long-running, autonomous task execution.  You hand off one objective, and the agent plans an approach, executes a progress checklist, and verifies the result until the go...",
+      "source": "MarkTechPost",
+      "url": "https://www.marktechpost.com/2026/06/22/xai-launches-goal-in-grok-build-adding-long-running-autonomous-execution-with-built-in-verification-for-multi-step-coding-tasks/",
+      "publishedAt": "2026-06-22T20:34:48.000Z",
+      "impact": 65
+    },
+    {
+      "id": "marktechpost-1782153779000-3",
+      "type": "live",
+      "category": "llm",
+      "title": "Sakana AI Launches Sakana Fugu: An Orchestration Model That Routes Tasks Across a Swappable Pool of Frontier LLMs",
+      "excerpt": "Fugu and Fugu Ultra route tasks across a swappable model pool, leading most coding, reasoning, and agentic benchmarks.  The post Sakana AI Launches Sakana Fugu: An Orchestration Model That Routes Tasks Across a Swappa...",
+      "source": "MarkTechPost",
+      "url": "https://www.marktechpost.com/2026/06/22/sakana-ai-launches-sakana-fugu-an-orchestration-model-that-routes-tasks-across-a-swappable-pool-of-frontier-llms/",
+      "publishedAt": "2026-06-22T18:42:59.000Z",
+      "impact": 83
+    },
+    {
+      "id": "hugging-face-1782134336000-2",
       "type": "live",
       "category": "research",
       "title": "PP-OCRv6 on Hugging Face: 50-Language OCR from 1.5M to 34.5M Parameters",
@@ -45,28 +177,6 @@
       "source": "Hugging Face",
       "url": "https://huggingface.co/blog/PaddlePaddle/pp-ocrv6",
       "publishedAt": "2026-06-22T13:18:56.000Z",
-      "impact": 75
-    },
-    {
-      "id": "hugging-face-1781806393000-1",
-      "type": "live",
-      "category": "research",
-      "title": "MosaicLeaks: Can your research agent keep a secret?",
-      "excerpt": "New development from the frontier.",
-      "source": "Hugging Face",
-      "url": "https://huggingface.co/blog/ServiceNow/mosaicleaks",
-      "publishedAt": "2026-06-18T18:13:13.000Z",
-      "impact": 87
-    },
-    {
-      "id": "hugging-face-1781740800000-2",
-      "type": "live",
-      "category": "research",
-      "title": "Beyond LoRA: Can you beat the most popular fine-tuning technique?",
-      "excerpt": "New development from the frontier.",
-      "source": "Hugging Face",
-      "url": "https://huggingface.co/blog/peft-beyond-lora",
-      "publishedAt": "2026-06-18T00:00:00.000Z",
       "impact": 75
     }
   ]

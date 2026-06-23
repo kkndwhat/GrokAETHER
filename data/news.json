@@ -1,8 +1,41 @@
 {
-  "lastUpdated": "2026-06-23T15:13:51.615Z",
+  "lastUpdated": "2026-06-23T20:13:23.332Z",
   "source": "AETHER + Public RSS (arXiv, Hugging Face, MarkTechPost, Ben's Bites)",
   "count": 16,
   "articles": [
+    {
+      "id": "marktechpost-1782243333000-0",
+      "type": "live",
+      "category": "multimodal",
+      "title": "Datalab Releases lift: A 9B Open-Weights Vision Model That Extracts Structured JSON From PDFs Using Schemas",
+      "excerpt": "Datalab released lift, a 9B open-weights vision model that turns PDFs and images into schema-matching JSON.  It uses schema-constrained decoding for valid structure and trained abstention to return null instead of hal...",
+      "source": "MarkTechPost",
+      "url": "https://www.marktechpost.com/2026/06/23/datalab-releases-lift-a-9b-open-weights-vision-model-that-extracts-structured-json-from-pdfs-using-schemas/",
+      "publishedAt": "2026-06-23T19:35:33.000Z",
+      "impact": 65
+    },
+    {
+      "id": "marktechpost-1782239496000-1",
+      "type": "live",
+      "category": "hardware",
+      "title": "How to Use NVIDIA Canary-1B-v2 for ASR, Translation, and Automatic SRT Subtitle Export in Python",
+      "excerpt": "In this tutorial, we build a multilingual ASR and speech translation pipeline with NVIDIA Canary-1B-v2.  We load the model on a GPU-enabled runtime, prepare audio into 16 kHz mono, and run English ASR",
+      "source": "MarkTechPost",
+      "url": "https://www.marktechpost.com/2026/06/23/how-to-use-nvidia-canary-1b-v2-for-asr-translation-and-automatic-srt-subtitle-export-in-python/",
+      "publishedAt": "2026-06-23T18:31:36.000Z",
+      "impact": 65
+    },
+    {
+      "id": "aether-grok43",
+      "type": "premium",
+      "category": "llm",
+      "title": "xAI releases Grok-4.3 with native long-horizon agent scaffolding",
+      "excerpt": "New model demonstrates 4.2× improvement on multi-step software engineering benchmarks and sustains coherent agent trajectories beyond 110k tokens.",
+      "source": "xAI",
+      "url": "https://x.ai/blog/grok-4.3",
+      "publishedAt": "2026-06-23T15:13:21.840Z",
+      "impact": 96
+    },
     {
       "id": "hugging-face-1782219115000-0",
       "type": "live",
@@ -15,18 +48,18 @@
       "impact": 87
     },
     {
-      "id": "aether-grok43",
+      "id": "aether-figure03",
       "type": "premium",
-      "category": "llm",
-      "title": "xAI releases Grok-4.3 with native long-horizon agent scaffolding",
-      "excerpt": "New model demonstrates 4.2× improvement on multi-step software engineering benchmarks and sustains coherent agent trajectories beyond 110k tokens.",
-      "source": "xAI",
-      "url": "https://x.ai/blog/grok-4.3",
-      "publishedAt": "2026-06-23T10:13:51.197Z",
-      "impact": 96
+      "category": "robotics",
+      "title": "Figure 03 completes 43-hour autonomous factory shift with zero interventions",
+      "excerpt": "Humanoid achieves new milestone in unsupervised operation, performing 1,240 unique tasks across three assembly lines at the BMW South Carolina plant.",
+      "source": "Figure AI",
+      "url": "https://figure.ai/news/03-milestone",
+      "publishedAt": "2026-06-23T11:13:21.840Z",
+      "impact": 89
     },
     {
-      "id": "marktechpost-1782199244000-0",
+      "id": "marktechpost-1782199244000-2",
       "type": "live",
       "category": "llm",
       "title": "Prime Intellect Releases prime-rl 0.6.0 to Train Trillion-Parameter MoE Models on Agentic RL Workloads",
@@ -37,7 +70,7 @@
       "impact": 77
     },
     {
-      "id": "marktechpost-1782196505000-1",
+      "id": "marktechpost-1782196505000-3",
       "type": "live",
       "category": "llm",
       "title": "GLM-5.2 OpenAI-Compatible API: A Hands-On Guide to Reasoning Effort, Function Calling, and Long-Context Retrieval",
@@ -48,15 +81,15 @@
       "impact": 65
     },
     {
-      "id": "aether-figure03",
+      "id": "aether-interp",
       "type": "premium",
-      "category": "robotics",
-      "title": "Figure 03 completes 43-hour autonomous factory shift with zero interventions",
-      "excerpt": "Humanoid achieves new milestone in unsupervised operation, performing 1,240 unique tasks across three assembly lines at the BMW South Carolina plant.",
-      "source": "Figure AI",
-      "url": "https://figure.ai/news/03-milestone",
-      "publishedAt": "2026-06-23T06:13:51.197Z",
-      "impact": 89
+      "category": "safety",
+      "title": "Anthropic publishes unprecedented mechanistic interpretability map of Claude 4",
+      "excerpt": "Researchers reverse-engineered 312 million features inside the model, including the first clear \"deception circuit\" discovered in a frontier model.",
+      "source": "Anthropic",
+      "url": "https://anthropic.com/research/claude-4-interp",
+      "publishedAt": "2026-06-23T06:13:21.840Z",
+      "impact": 91
     },
     {
       "id": "arxiv-cs.ai-1782187200000-0",
@@ -125,17 +158,6 @@
       "impact": 69
     },
     {
-      "id": "aether-interp",
-      "type": "premium",
-      "category": "safety",
-      "title": "Anthropic publishes unprecedented mechanistic interpretability map of Claude 4",
-      "excerpt": "Researchers reverse-engineered 312 million features inside the model, including the first clear \"deception circuit\" discovered in a frontier model.",
-      "source": "Anthropic",
-      "url": "https://anthropic.com/research/claude-4-interp",
-      "publishedAt": "2026-06-23T01:13:51.197Z",
-      "impact": 91
-    },
-    {
       "id": "hugging-face-1782172800000-1",
       "type": "live",
       "category": "research",
@@ -147,36 +169,14 @@
       "impact": 75
     },
     {
-      "id": "marktechpost-1782160488000-2",
-      "type": "live",
-      "category": "llm",
-      "title": "xAI Launches /goal in Grok Build, Adding Long-Running Autonomous Execution With Built-In Verification for Multi-Step Coding Tasks",
-      "excerpt": "xAI introduced /goal in Grok Build, a mode for long-running, autonomous task execution.  You hand off one objective, and the agent plans an approach, executes a progress checklist, and verifies the result until the go...",
-      "source": "MarkTechPost",
-      "url": "https://www.marktechpost.com/2026/06/22/xai-launches-goal-in-grok-build-adding-long-running-autonomous-execution-with-built-in-verification-for-multi-step-coding-tasks/",
-      "publishedAt": "2026-06-22T20:34:48.000Z",
-      "impact": 65
-    },
-    {
-      "id": "marktechpost-1782153779000-3",
-      "type": "live",
-      "category": "llm",
-      "title": "Sakana AI Launches Sakana Fugu: An Orchestration Model That Routes Tasks Across a Swappable Pool of Frontier LLMs",
-      "excerpt": "Fugu and Fugu Ultra route tasks across a swappable model pool, leading most coding, reasoning, and agentic benchmarks.  The post Sakana AI Launches Sakana Fugu: An Orchestration Model That Routes Tasks Across a Swappa...",
-      "source": "MarkTechPost",
-      "url": "https://www.marktechpost.com/2026/06/22/sakana-ai-launches-sakana-fugu-an-orchestration-model-that-routes-tasks-across-a-swappable-pool-of-frontier-llms/",
-      "publishedAt": "2026-06-22T18:42:59.000Z",
-      "impact": 83
-    },
-    {
-      "id": "hugging-face-1782134336000-2",
+      "id": "hugging-face-1782172800000-2",
       "type": "live",
       "category": "research",
-      "title": "PP-OCRv6 on Hugging Face: 50-Language OCR from 1.5M to 34.5M Parameters",
+      "title": "Experimenting with the proposed Cross-Origin Storage API in Transformers.js",
       "excerpt": "New development from the frontier.",
       "source": "Hugging Face",
-      "url": "https://huggingface.co/blog/PaddlePaddle/pp-ocrv6",
-      "publishedAt": "2026-06-22T13:18:56.000Z",
+      "url": "https://huggingface.co/blog/cross-origin-storage",
+      "publishedAt": "2026-06-23T00:00:00.000Z",
       "impact": 75
     }
   ]

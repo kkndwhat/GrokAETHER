@@ -1,8 +1,30 @@
 {
-  "lastUpdated": "2026-06-24T09:41:16.446Z",
+  "lastUpdated": "2026-06-24T19:54:20.067Z",
   "source": "AETHER + Public RSS (arXiv, Hugging Face, MarkTechPost, Ben's Bites)",
-  "count": 12,
+  "count": 16,
   "articles": [
+    {
+      "id": "marktechpost-1782328116000-0",
+      "type": "live",
+      "category": "research",
+      "title": "How to Design an OpenHarness Style Agent Runtime with Tools, Memory, Permissions, Skills, and Multi-Agent Coordination",
+      "excerpt": "In this tutorial, we build an OpenHarness style agent harness from scratch to see how a practical agent system works.  We recreate the core building blocks: tool use, typed tool schemas, permissions, lifecycle hooks, ...",
+      "source": "MarkTechPost",
+      "url": "https://www.marktechpost.com/2026/06/24/how-to-design-an-openharness-style-agent-runtime-with-tools-memory-permissions-skills-and-multi-agent-coordination/",
+      "publishedAt": "2026-06-24T19:08:36.000Z",
+      "impact": 77
+    },
+    {
+      "id": "hugging-face-1782316813000-0",
+      "type": "live",
+      "category": "llm",
+      "title": "Accelerating Transformers Fine-Tuning with NVIDIA NeMo AutoModel",
+      "excerpt": "New development from the frontier.",
+      "source": "Hugging Face",
+      "url": "https://huggingface.co/blog/nvidia/accelerating-fine-tuning-nvidia-nemo-automodel",
+      "publishedAt": "2026-06-24T16:00:13.000Z",
+      "impact": 75
+    },
     {
       "id": "aether-grok43",
       "type": "premium",
@@ -11,8 +33,63 @@
       "excerpt": "New model demonstrates 4.2× improvement on multi-step software engineering benchmarks and sustains coherent agent trajectories beyond 110k tokens.",
       "source": "xAI",
       "url": "https://x.ai/blog/grok-4.3",
-      "publishedAt": "2026-06-24T04:41:16.122Z",
+      "publishedAt": "2026-06-24T14:54:19.106Z",
       "impact": 96
+    },
+    {
+      "id": "aether-figure03",
+      "type": "premium",
+      "category": "robotics",
+      "title": "Figure 03 completes 43-hour autonomous factory shift with zero interventions",
+      "excerpt": "Humanoid achieves new milestone in unsupervised operation, performing 1,240 unique tasks across three assembly lines at the BMW South Carolina plant.",
+      "source": "Figure AI",
+      "url": "https://figure.ai/news/03-milestone",
+      "publishedAt": "2026-06-24T10:54:19.106Z",
+      "impact": 89
+    },
+    {
+      "id": "marktechpost-1782293819000-1",
+      "type": "live",
+      "category": "llm",
+      "title": "Using Graphify and NetworkX to Map Python Codebase Structure with God Nodes, Communities, and Architecture Visualizations",
+      "excerpt": "In this tutorial, we build a fully offline Graphify pipeline that turns a multi-module Python application into a knowledge graph.  We install Graphify, generate a connected sample app, and extract the graph locally us...",
+      "source": "MarkTechPost",
+      "url": "https://www.marktechpost.com/2026/06/24/using-graphify-and-networkx-to-map-python-codebase-structure-with-god-nodes-communities-and-architecture-visualizations/",
+      "publishedAt": "2026-06-24T09:36:59.000Z",
+      "impact": 65
+    },
+    {
+      "id": "marktechpost-1782292909000-2",
+      "type": "live",
+      "category": "research",
+      "title": "Nous Research Adds /learn to Hermes Agent’s Skills System, Capturing Workflows as Slash Commands Without Hand-Writing SKILL.md",
+      "excerpt": "Nous Research has added /learn to the Hermes Agent Skills System.  The command authors a standards-compliant SKILL",
+      "source": "MarkTechPost",
+      "url": "https://www.marktechpost.com/2026/06/24/nous-research-adds-learn-to-hermes-agents-skills-system-capturing-workflows-as-slash-commands-without-hand-writing-skill-md/",
+      "publishedAt": "2026-06-24T09:21:49.000Z",
+      "impact": 77
+    },
+    {
+      "id": "marktechpost-1782288747000-3",
+      "type": "live",
+      "category": "llm",
+      "title": "16 Best Generative AI Coding Tools in 2026 Compared: Features, and Best Fit",
+      "excerpt": "Generative AI has reshaped how software gets built.  What began as line-by-line autocomplete now spans full application generation, multi-agent build pipelines, and natural-language interfaces to entire codebases",
+      "source": "MarkTechPost",
+      "url": "https://www.marktechpost.com/2026/06/24/top-generative-ai-coding-tools-of-2026/",
+      "publishedAt": "2026-06-24T08:12:27.000Z",
+      "impact": 65
+    },
+    {
+      "id": "aether-interp",
+      "type": "premium",
+      "category": "safety",
+      "title": "Anthropic publishes unprecedented mechanistic interpretability map of Claude 4",
+      "excerpt": "Researchers reverse-engineered 312 million features inside the model, including the first clear \"deception circuit\" discovered in a frontier model.",
+      "source": "Anthropic",
+      "url": "https://anthropic.com/research/claude-4-interp",
+      "publishedAt": "2026-06-24T05:54:19.106Z",
+      "impact": 91
     },
     {
       "id": "arxiv-cs.ai-1782273600000-0",
@@ -81,29 +158,18 @@
       "impact": 69
     },
     {
-      "id": "aether-figure03",
-      "type": "premium",
-      "category": "robotics",
-      "title": "Figure 03 completes 43-hour autonomous factory shift with zero interventions",
-      "excerpt": "Humanoid achieves new milestone in unsupervised operation, performing 1,240 unique tasks across three assembly lines at the BMW South Carolina plant.",
-      "source": "Figure AI",
-      "url": "https://figure.ai/news/03-milestone",
-      "publishedAt": "2026-06-24T00:41:16.122Z",
-      "impact": 89
+      "id": "hugging-face-1782259200000-1",
+      "type": "live",
+      "category": "research",
+      "title": "Introducing the FFASR Leaderboard: Benchmarking ASR in the Real World",
+      "excerpt": "New development from the frontier.",
+      "source": "Hugging Face",
+      "url": "https://huggingface.co/blog/ffasr-leaderboard",
+      "publishedAt": "2026-06-24T00:00:00.000Z",
+      "impact": 75
     },
     {
-      "id": "aether-interp",
-      "type": "premium",
-      "category": "safety",
-      "title": "Anthropic publishes unprecedented mechanistic interpretability map of Claude 4",
-      "excerpt": "Researchers reverse-engineered 312 million features inside the model, including the first clear \"deception circuit\" discovered in a frontier model.",
-      "source": "Anthropic",
-      "url": "https://anthropic.com/research/claude-4-interp",
-      "publishedAt": "2026-06-23T19:41:16.122Z",
-      "impact": 91
-    },
-    {
-      "id": "hugging-face-1782219115000-0",
+      "id": "hugging-face-1782219115000-2",
       "type": "live",
       "category": "research",
       "title": "Build real agentic apps using CUGA: two dozen working examples on a lightweight harness",
@@ -112,28 +178,6 @@
       "url": "https://huggingface.co/blog/ibm-research/cuga-apps",
       "publishedAt": "2026-06-23T12:51:55.000Z",
       "impact": 87
-    },
-    {
-      "id": "hugging-face-1782172800000-1",
-      "type": "live",
-      "category": "research",
-      "title": "Shipping huggingface_hub every week with AI, open tools, and a human in the loop",
-      "excerpt": "New development from the frontier.",
-      "source": "Hugging Face",
-      "url": "https://huggingface.co/blog/huggingface-hub-release-ci",
-      "publishedAt": "2026-06-23T00:00:00.000Z",
-      "impact": 75
-    },
-    {
-      "id": "hugging-face-1782172800000-2",
-      "type": "live",
-      "category": "research",
-      "title": "Experimenting with the proposed Cross-Origin Storage API in Transformers.js",
-      "excerpt": "New development from the frontier.",
-      "source": "Hugging Face",
-      "url": "https://huggingface.co/blog/cross-origin-storage",
-      "publishedAt": "2026-06-23T00:00:00.000Z",
-      "impact": 75
     }
   ]
 }

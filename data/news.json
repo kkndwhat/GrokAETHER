@@ -1,8 +1,30 @@
 {
-  "lastUpdated": "2026-06-25T14:43:31.979Z",
+  "lastUpdated": "2026-06-26T09:38:41.792Z",
   "source": "AETHER + Public RSS (arXiv, Hugging Face, MarkTechPost, Ben's Bites)",
-  "count": 12,
+  "count": 16,
   "articles": [
+    {
+      "id": "marktechpost-1782463719000-0",
+      "type": "live",
+      "category": "research",
+      "title": "Meet container: Apple’s Open-Source Swift Tool for Running Linux Containers as Lightweight VMs on Apple Silicon",
+      "excerpt": "Apple released container 1. 0, an open-source Swift tool running Linux containers as lightweight virtual machines on Apple silicon",
+      "source": "MarkTechPost",
+      "url": "https://www.marktechpost.com/2026/06/26/meet-container-apples-open-source-swift-tool-for-running-linux-containers-as-lightweight-vms-on-apple-silicon/",
+      "publishedAt": "2026-06-26T08:48:39.000Z",
+      "impact": 65
+    },
+    {
+      "id": "marktechpost-1782460807000-1",
+      "type": "live",
+      "category": "llm",
+      "title": "Build a Nanobot-Style AI Agent in Google Colab with Tool Calling, Session Memory, Skills, and MCP Servers",
+      "excerpt": "In this tutorial, we build a lightweight personal AI agent inspired by the architecture of nanobot, runnable entirely in Google Colab.  We start from a provider abstraction, then add tool registration, session memory,...",
+      "source": "MarkTechPost",
+      "url": "https://www.marktechpost.com/2026/06/26/build-a-nanobot-style-ai-agent-in-google-colab-with-tool-calling-session-memory-skills-and-mcp-servers/",
+      "publishedAt": "2026-06-26T08:00:07.000Z",
+      "impact": 77
+    },
     {
       "id": "aether-grok43",
       "type": "premium",
@@ -11,8 +33,74 @@
       "excerpt": "New model demonstrates 4.2× improvement on multi-step software engineering benchmarks and sustains coherent agent trajectories beyond 110k tokens.",
       "source": "xAI",
       "url": "https://x.ai/blog/grok-4.3",
-      "publishedAt": "2026-06-25T09:43:31.275Z",
+      "publishedAt": "2026-06-26T04:38:40.729Z",
       "impact": 96
+    },
+    {
+      "id": "arxiv-cs.ai-1782446400000-0",
+      "type": "live",
+      "category": "safety",
+      "title": "Detecting and Controlling Sycophancy with Cascading Linear Features",
+      "excerpt": "26155v1 Announce Type: new Abstract: Interpreting and controlling model behaviors through activation steering methods requires many pairs of contrastive samples that clearly exhibit desired or undesired behavior.  The...",
+      "source": "arXiv cs.AI",
+      "url": "https://arxiv.org/abs/2606.26155",
+      "publishedAt": "2026-06-26T04:00:00.000Z",
+      "impact": 58
+    },
+    {
+      "id": "arxiv-cs.ai-1782446400000-1",
+      "type": "live",
+      "category": "llm",
+      "title": "Life After Benchmark Saturation: A Case Study of CORE-Bench",
+      "excerpt": "26158v1 Announce Type: new Abstract: When a benchmark's accuracy saturates, it is often retired and replaced with a more challenging version.  We show that this approach privileges accuracy and misses the opportunity ...",
+      "source": "arXiv cs.AI",
+      "url": "https://arxiv.org/abs/2606.26158",
+      "publishedAt": "2026-06-26T04:00:00.000Z",
+      "impact": 58
+    },
+    {
+      "id": "arxiv-cs.ai-1782446400000-2",
+      "type": "live",
+      "category": "llm",
+      "title": "Refusal Lives Downstream of Persona in Chat Models",
+      "excerpt": "26161v1 Announce Type: new Abstract: Linear directions in activation space have been identified for both refusal and persona traits in instruction-tuned chat models, but the two have been studied as separate mechanism...",
+      "source": "arXiv cs.AI",
+      "url": "https://arxiv.org/abs/2606.26161",
+      "publishedAt": "2026-06-26T04:00:00.000Z",
+      "impact": 58
+    },
+    {
+      "id": "arxiv-cs.ai-1782446400000-3",
+      "type": "live",
+      "category": "llm",
+      "title": "AlgoEvolve: LLM-driven Meta-evolution of Algorithmic Trading Programs",
+      "excerpt": "26173v1 Announce Type: new Abstract: Recent work shows that Large Language Models (LLMs) can act as semantic mutation operators for the evolutionary discovery of programs and proofs.  Most current applications focus o...",
+      "source": "arXiv cs.AI",
+      "url": "https://arxiv.org/abs/2606.26173",
+      "publishedAt": "2026-06-26T04:00:00.000Z",
+      "impact": 58
+    },
+    {
+      "id": "arxiv-cs.ai-1782446400000-4",
+      "type": "live",
+      "category": "safety",
+      "title": "Agentic Analysis for Agentic Infrastructure: An LLM-Powered Pipeline for Comparative Governance of DAO and Corporate AI Protocols",
+      "excerpt": "26203v1 Announce Type: new Abstract: As AI agent protocols proliferate, the governance structures shaping their interoperability standards remain empirically underexamined.  We introduce an LLM-powered comparative pip...",
+      "source": "arXiv cs.AI",
+      "url": "https://arxiv.org/abs/2606.26203",
+      "publishedAt": "2026-06-26T04:00:00.000Z",
+      "impact": 69
+    },
+    {
+      "id": "arxiv-cs.ai-1782446400000-5",
+      "type": "live",
+      "category": "safety",
+      "title": "Knowledge-augmented Agentic AI for Mental Health Medication Information Seeking",
+      "excerpt": "26205v1 Announce Type: new Abstract: Patients increasingly seek medication information online, yet safety knowledge for psychiatric drugs is split between regulatory adverse-event records, which are authoritative but ...",
+      "source": "arXiv cs.AI",
+      "url": "https://arxiv.org/abs/2606.26205",
+      "publishedAt": "2026-06-26T04:00:00.000Z",
+      "impact": 69
     },
     {
       "id": "aether-figure03",
@@ -22,74 +110,19 @@
       "excerpt": "Humanoid achieves new milestone in unsupervised operation, performing 1,240 unique tasks across three assembly lines at the BMW South Carolina plant.",
       "source": "Figure AI",
       "url": "https://figure.ai/news/03-milestone",
-      "publishedAt": "2026-06-25T05:43:31.275Z",
+      "publishedAt": "2026-06-26T00:38:40.729Z",
       "impact": 89
     },
     {
-      "id": "arxiv-cs.ai-1782360000000-0",
-      "type": "live",
-      "category": "safety",
-      "title": "The Hitchhiker's Guide to Agentic AI: From Foundations to Systems",
-      "excerpt": "24937v1 Announce Type: new Abstract: The Hitchhiker's Guide to Agentic AI is a comprehensive practitioner's reference for building autonomous AI systems.  The book covers the full stack from first principles to produc...",
-      "source": "arXiv cs.AI",
-      "url": "https://arxiv.org/abs/2606.24937",
-      "publishedAt": "2026-06-25T04:00:00.000Z",
-      "impact": 69
-    },
-    {
-      "id": "arxiv-cs.ai-1782360000000-1",
+      "id": "hugging-face-1782432000000-0",
       "type": "live",
       "category": "llm",
-      "title": "Project Auto-World: Towards Automated Benchmarking of Neural Relational Reasoners",
-      "excerpt": "24965v1 Announce Type: new Abstract: Reasoning about relational structures remains a significant challenge for neural models, particularly when they must systematically apply learned knowledge to problem instances tha...",
-      "source": "arXiv cs.AI",
-      "url": "https://arxiv.org/abs/2606.24965",
-      "publishedAt": "2026-06-25T04:00:00.000Z",
-      "impact": 58
-    },
-    {
-      "id": "arxiv-cs.ai-1782360000000-2",
-      "type": "live",
-      "category": "llm",
-      "title": "Diagnosing and Mitigating Compounding Failures in Agentic Persuasion via Taxonomic Strategy Retrieval",
-      "excerpt": "24976v1 Announce Type: new Abstract: Foundation-model agents in multi-step, open-ended environments frequently suffer from compounding errors, where early mistakes contaminate long-horizon trajectories.  While Multi-A...",
-      "source": "arXiv cs.AI",
-      "url": "https://arxiv.org/abs/2606.24976",
-      "publishedAt": "2026-06-25T04:00:00.000Z",
-      "impact": 69
-    },
-    {
-      "id": "arxiv-cs.ai-1782360000000-3",
-      "type": "live",
-      "category": "multimodal",
-      "title": "Do vision-language models search like humans? Reasoning tokens as a reaction-time analog in classic visual-search paradigms",
-      "excerpt": "25066v1 Announce Type: new Abstract: Visual search has been one of the most productive paradigms in the study of visual attention: the way reaction time scales with the number of items distinguishes parallel, \"pop-out...",
-      "source": "arXiv cs.AI",
-      "url": "https://arxiv.org/abs/2606.25066",
-      "publishedAt": "2026-06-25T04:00:00.000Z",
-      "impact": 58
-    },
-    {
-      "id": "arxiv-cs.ai-1782360000000-4",
-      "type": "live",
-      "category": "llm",
-      "title": "Beyond Shapley: Efficient Computation of Asymmetric Shapley Values",
-      "excerpt": "25103v1 Announce Type: new Abstract: We address the problem of explainability in machine learning models through feature attribution methods.  In particular, we consider a variant of Shapley values known as Asymmetric...",
-      "source": "arXiv cs.AI",
-      "url": "https://arxiv.org/abs/2606.25103",
-      "publishedAt": "2026-06-25T04:00:00.000Z",
-      "impact": 58
-    },
-    {
-      "id": "arxiv-cs.ai-1782360000000-5",
-      "type": "live",
-      "category": "hardware",
-      "title": "The Clinician's Veto: Navigating Trust, Liability, and Uncertainty in Autonomous AI Prescribing",
-      "excerpt": "25108v1 Announce Type: new Abstract: Autonomous AI systems are transitioning from advisory to autonomous roles for medication prescriptions.  Recent United States bill H",
-      "source": "arXiv cs.AI",
-      "url": "https://arxiv.org/abs/2606.25108",
-      "publishedAt": "2026-06-25T04:00:00.000Z",
-      "impact": 58
+      "title": "Run a vLLM Server on HF Jobs in One Command",
+      "excerpt": "New development from the frontier.",
+      "source": "Hugging Face",
+      "url": "https://huggingface.co/blog/vllm-jobs",
+      "publishedAt": "2026-06-26T00:00:00.000Z",
+      "impact": 75
     },
     {
       "id": "aether-interp",
@@ -99,11 +132,44 @@
       "excerpt": "Researchers reverse-engineered 312 million features inside the model, including the first clear \"deception circuit\" discovered in a frontier model.",
       "source": "Anthropic",
       "url": "https://anthropic.com/research/claude-4-interp",
-      "publishedAt": "2026-06-25T00:43:31.275Z",
+      "publishedAt": "2026-06-25T19:38:40.729Z",
       "impact": 91
     },
     {
-      "id": "hugging-face-1782316813000-0",
+      "id": "marktechpost-1782407497000-2",
+      "type": "live",
+      "category": "llm",
+      "title": "DeepReinforce Releases Ornith-1.0: An Open-Source Coding Model Family That Learns Its Own RL Scaffolds",
+      "excerpt": "DeepReinforce released Ornith-1. 0, an open-source coding model family built on Gemma 4 and Qwen 3",
+      "source": "MarkTechPost",
+      "url": "https://www.marktechpost.com/2026/06/25/deepreinforce-releases-ornith-1-0-an-open-source-coding-model-family-that-learns-its-own-rl-scaffolds/",
+      "publishedAt": "2026-06-25T17:11:37.000Z",
+      "impact": 65
+    },
+    {
+      "id": "hugging-face-1782403902000-1",
+      "type": "live",
+      "category": "llm",
+      "title": "Which tokens does a hybrid model predict better?",
+      "excerpt": "New development from the frontier.",
+      "source": "Hugging Face",
+      "url": "https://huggingface.co/blog/allenai/hybrid-token-prediction",
+      "publishedAt": "2026-06-25T16:11:42.000Z",
+      "impact": 75
+    },
+    {
+      "id": "marktechpost-1782365993000-3",
+      "type": "live",
+      "category": "llm",
+      "title": "Baidu Releases Unlimited OCR, a 3B Model That Keeps the KV Cache Flat for Long-Document Parsing",
+      "excerpt": "Baidu open-sourced Unlimited OCR, a 3B-parameter MoE model that parses dozens of document pages in a single forward pass.  Its Reference Sliding Window Attention (R-SWA) holds the KV cache constant, so memory and late...",
+      "source": "MarkTechPost",
+      "url": "https://www.marktechpost.com/2026/06/24/baidu-releases-unlimited-ocr-a-3b-model-that-keeps-the-kv-cache-flat-for-long-document-parsing/",
+      "publishedAt": "2026-06-25T05:39:53.000Z",
+      "impact": 65
+    },
+    {
+      "id": "hugging-face-1782316813000-2",
       "type": "live",
       "category": "llm",
       "title": "Accelerating Transformers Fine-Tuning with NVIDIA NeMo AutoModel",
@@ -112,28 +178,6 @@
       "url": "https://huggingface.co/blog/nvidia/accelerating-fine-tuning-nvidia-nemo-automodel",
       "publishedAt": "2026-06-24T16:00:13.000Z",
       "impact": 75
-    },
-    {
-      "id": "hugging-face-1782259200000-1",
-      "type": "live",
-      "category": "research",
-      "title": "Introducing the FFASR Leaderboard: Benchmarking ASR in the Real World",
-      "excerpt": "New development from the frontier.",
-      "source": "Hugging Face",
-      "url": "https://huggingface.co/blog/ffasr-leaderboard",
-      "publishedAt": "2026-06-24T00:00:00.000Z",
-      "impact": 75
-    },
-    {
-      "id": "hugging-face-1782219115000-2",
-      "type": "live",
-      "category": "research",
-      "title": "Build real agentic apps using CUGA: two dozen working examples on a lightweight harness",
-      "excerpt": "New development from the frontier.",
-      "source": "Hugging Face",
-      "url": "https://huggingface.co/blog/ibm-research/cuga-apps",
-      "publishedAt": "2026-06-23T12:51:55.000Z",
-      "impact": 87
     }
   ]
 }

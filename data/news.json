@@ -1,8 +1,30 @@
 {
-  "lastUpdated": "2026-06-26T14:36:49.896Z",
+  "lastUpdated": "2026-06-26T19:58:43.608Z",
   "source": "AETHER + Public RSS (arXiv, Hugging Face, MarkTechPost, Ben's Bites)",
   "count": 16,
   "articles": [
+    {
+      "id": "marktechpost-1782502281000-0",
+      "type": "live",
+      "category": "llm",
+      "title": "Perplexity Launches Computer for Counsel: A Multi-Model Agentic Layer for Legal Workflows",
+      "excerpt": "Perplexity's Computer for Counsel extends Perplexity Computer to legal teams.  It routes 20+ models across Midpage, MCP connectors, and Microsoft 365, with cited outputs lawyers can verify",
+      "source": "MarkTechPost",
+      "url": "https://www.marktechpost.com/2026/06/26/perplexity-launches-computer-for-counsel-a-multi-model-agentic-layer-for-legal-workflows/",
+      "publishedAt": "2026-06-26T19:31:21.000Z",
+      "impact": 77
+    },
+    {
+      "id": "marktechpost-1782501538000-1",
+      "type": "live",
+      "category": "llm",
+      "title": "OpenAI Previews GPT-5.6 With Sol, Terra, and Luna: Tiered Models, New Reasoning Modes, Limited Access",
+      "excerpt": "6 family adds tiered models with max and ultra reasoning.  Here is what early-level engineers should know",
+      "source": "MarkTechPost",
+      "url": "https://www.marktechpost.com/2026/06/26/openai-previews-gpt-5-6-with-sol-terra-and-luna-tiered-models-new-reasoning-modes-limited-access/",
+      "publishedAt": "2026-06-26T19:18:58.000Z",
+      "impact": 65
+    },
     {
       "id": "aether-grok43",
       "type": "premium",
@@ -11,11 +33,22 @@
       "excerpt": "New model demonstrates 4.2× improvement on multi-step software engineering benchmarks and sustains coherent agent trajectories beyond 110k tokens.",
       "source": "xAI",
       "url": "https://x.ai/blog/grok-4.3",
-      "publishedAt": "2026-06-26T09:36:49.281Z",
+      "publishedAt": "2026-06-26T14:58:42.183Z",
       "impact": 96
     },
     {
-      "id": "marktechpost-1782463719000-0",
+      "id": "aether-figure03",
+      "type": "premium",
+      "category": "robotics",
+      "title": "Figure 03 completes 43-hour autonomous factory shift with zero interventions",
+      "excerpt": "Humanoid achieves new milestone in unsupervised operation, performing 1,240 unique tasks across three assembly lines at the BMW South Carolina plant.",
+      "source": "Figure AI",
+      "url": "https://figure.ai/news/03-milestone",
+      "publishedAt": "2026-06-26T10:58:42.183Z",
+      "impact": 89
+    },
+    {
+      "id": "marktechpost-1782463719000-2",
       "type": "live",
       "category": "research",
       "title": "Meet container: Apple’s Open-Source Swift Tool for Running Linux Containers as Lightweight VMs on Apple Silicon",
@@ -26,7 +59,7 @@
       "impact": 65
     },
     {
-      "id": "marktechpost-1782460807000-1",
+      "id": "marktechpost-1782460807000-3",
       "type": "live",
       "category": "llm",
       "title": "Build a Nanobot-Style AI Agent in Google Colab with Tool Calling, Session Memory, Skills, and MCP Servers",
@@ -37,15 +70,15 @@
       "impact": 77
     },
     {
-      "id": "aether-figure03",
+      "id": "aether-interp",
       "type": "premium",
-      "category": "robotics",
-      "title": "Figure 03 completes 43-hour autonomous factory shift with zero interventions",
-      "excerpt": "Humanoid achieves new milestone in unsupervised operation, performing 1,240 unique tasks across three assembly lines at the BMW South Carolina plant.",
-      "source": "Figure AI",
-      "url": "https://figure.ai/news/03-milestone",
-      "publishedAt": "2026-06-26T05:36:49.282Z",
-      "impact": 89
+      "category": "safety",
+      "title": "Anthropic publishes unprecedented mechanistic interpretability map of Claude 4",
+      "excerpt": "Researchers reverse-engineered 312 million features inside the model, including the first clear \"deception circuit\" discovered in a frontier model.",
+      "source": "Anthropic",
+      "url": "https://anthropic.com/research/claude-4-interp",
+      "publishedAt": "2026-06-26T05:58:42.183Z",
+      "impact": 91
     },
     {
       "id": "arxiv-cs.ai-1782446400000-0",
@@ -114,17 +147,6 @@
       "impact": 69
     },
     {
-      "id": "aether-interp",
-      "type": "premium",
-      "category": "safety",
-      "title": "Anthropic publishes unprecedented mechanistic interpretability map of Claude 4",
-      "excerpt": "Researchers reverse-engineered 312 million features inside the model, including the first clear \"deception circuit\" discovered in a frontier model.",
-      "source": "Anthropic",
-      "url": "https://anthropic.com/research/claude-4-interp",
-      "publishedAt": "2026-06-26T00:36:49.282Z",
-      "impact": 91
-    },
-    {
       "id": "hugging-face-1782432000000-0",
       "type": "live",
       "category": "llm",
@@ -136,17 +158,6 @@
       "impact": 75
     },
     {
-      "id": "marktechpost-1782407497000-2",
-      "type": "live",
-      "category": "llm",
-      "title": "DeepReinforce Releases Ornith-1.0: An Open-Source Coding Model Family That Learns Its Own RL Scaffolds",
-      "excerpt": "DeepReinforce released Ornith-1. 0, an open-source coding model family built on Gemma 4 and Qwen 3",
-      "source": "MarkTechPost",
-      "url": "https://www.marktechpost.com/2026/06/25/deepreinforce-releases-ornith-1-0-an-open-source-coding-model-family-that-learns-its-own-rl-scaffolds/",
-      "publishedAt": "2026-06-25T17:11:37.000Z",
-      "impact": 65
-    },
-    {
       "id": "hugging-face-1782403902000-1",
       "type": "live",
       "category": "llm",
@@ -156,17 +167,6 @@
       "url": "https://huggingface.co/blog/allenai/hybrid-token-prediction",
       "publishedAt": "2026-06-25T16:11:42.000Z",
       "impact": 75
-    },
-    {
-      "id": "marktechpost-1782365993000-3",
-      "type": "live",
-      "category": "llm",
-      "title": "Baidu Releases Unlimited OCR, a 3B Model That Keeps the KV Cache Flat for Long-Document Parsing",
-      "excerpt": "Baidu open-sourced Unlimited OCR, a 3B-parameter MoE model that parses dozens of document pages in a single forward pass.  Its Reference Sliding Window Attention (R-SWA) holds the KV cache constant, so memory and late...",
-      "source": "MarkTechPost",
-      "url": "https://www.marktechpost.com/2026/06/24/baidu-releases-unlimited-ocr-a-3b-model-that-keeps-the-kv-cache-flat-for-long-document-parsing/",
-      "publishedAt": "2026-06-25T05:39:53.000Z",
-      "impact": 65
     },
     {
       "id": "hugging-face-1782316813000-2",

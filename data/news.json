@@ -1,10 +1,43 @@
 {
-  "lastUpdated": "2026-06-27T03:59:32.601Z",
+  "lastUpdated": "2026-06-27T13:55:44.147Z",
   "source": "AETHER + Public RSS (arXiv, Hugging Face, MarkTechPost, Ben's Bites)",
-  "count": 16,
+  "count": 10,
   "articles": [
     {
-      "id": "marktechpost-1782518553000-0",
+      "id": "aether-grok43",
+      "type": "premium",
+      "category": "llm",
+      "title": "xAI releases Grok-4.3 with native long-horizon agent scaffolding",
+      "excerpt": "New model demonstrates 4.2× improvement on multi-step software engineering benchmarks and sustains coherent agent trajectories beyond 110k tokens.",
+      "source": "xAI",
+      "url": "https://x.ai/blog/grok-4.3",
+      "publishedAt": "2026-06-27T08:55:43.153Z",
+      "impact": 96
+    },
+    {
+      "id": "marktechpost-1782549506000-0",
+      "type": "live",
+      "category": "research",
+      "title": "Meta’s Astryx Brings a CLI and MCP Server to an Open-Source React Design System Agents Can Read",
+      "excerpt": "Meta released Astryx, an open-source React design system built on StyleX.  It pairs a CSS-variable theme cascade with a CLI and MCP server, so both engineers and AI agents build using the same API",
+      "source": "MarkTechPost",
+      "url": "https://www.marktechpost.com/2026/06/27/metas-astryx-brings-a-cli-and-mcp-server-to-an-open-source-react-design-system-agents-can-read/",
+      "publishedAt": "2026-06-27T08:38:26.000Z",
+      "impact": 77
+    },
+    {
+      "id": "aether-figure03",
+      "type": "premium",
+      "category": "robotics",
+      "title": "Figure 03 completes 43-hour autonomous factory shift with zero interventions",
+      "excerpt": "Humanoid achieves new milestone in unsupervised operation, performing 1,240 unique tasks across three assembly lines at the BMW South Carolina plant.",
+      "source": "Figure AI",
+      "url": "https://figure.ai/news/03-milestone",
+      "publishedAt": "2026-06-27T04:55:43.153Z",
+      "impact": 89
+    },
+    {
+      "id": "marktechpost-1782518553000-1",
       "type": "live",
       "category": "research",
       "title": "Building Supervised Fine-Tuning Data from NVIDIA Open-SWE-Traces: Trajectory Parsing, Patch Analysis, Token Budgets, and Tool-Use Metrics",
@@ -15,7 +48,18 @@
       "impact": 65
     },
     {
-      "id": "marktechpost-1782516689000-1",
+      "id": "aether-interp",
+      "type": "premium",
+      "category": "safety",
+      "title": "Anthropic publishes unprecedented mechanistic interpretability map of Claude 4",
+      "excerpt": "Researchers reverse-engineered 312 million features inside the model, including the first clear \"deception circuit\" discovered in a frontier model.",
+      "source": "Anthropic",
+      "url": "https://anthropic.com/research/claude-4-interp",
+      "publishedAt": "2026-06-26T23:55:43.153Z",
+      "impact": 91
+    },
+    {
+      "id": "marktechpost-1782516689000-2",
       "type": "live",
       "category": "research",
       "title": "Cursor Study Finds Reward Hacking Inflates Coding-Agent Benchmark Scores on SWE-bench Pro",
@@ -26,18 +70,7 @@
       "impact": 77
     },
     {
-      "id": "aether-grok43",
-      "type": "premium",
-      "category": "llm",
-      "title": "xAI releases Grok-4.3 with native long-horizon agent scaffolding",
-      "excerpt": "New model demonstrates 4.2× improvement on multi-step software engineering benchmarks and sustains coherent agent trajectories beyond 110k tokens.",
-      "source": "xAI",
-      "url": "https://x.ai/blog/grok-4.3",
-      "publishedAt": "2026-06-26T22:59:31.002Z",
-      "impact": 96
-    },
-    {
-      "id": "marktechpost-1782502281000-2",
+      "id": "marktechpost-1782502281000-3",
       "type": "live",
       "category": "llm",
       "title": "Perplexity Launches Computer for Counsel: A Multi-Model Agentic Layer for Legal Workflows",
@@ -46,105 +79,6 @@
       "url": "https://www.marktechpost.com/2026/06/26/perplexity-launches-computer-for-counsel-a-multi-model-agentic-layer-for-legal-workflows/",
       "publishedAt": "2026-06-26T19:31:21.000Z",
       "impact": 77
-    },
-    {
-      "id": "marktechpost-1782501538000-3",
-      "type": "live",
-      "category": "llm",
-      "title": "OpenAI Previews GPT-5.6 With Sol, Terra, and Luna: Tiered Models, New Reasoning Modes, Limited Access",
-      "excerpt": "6 family adds tiered models with max and ultra reasoning.  Here is what early-level engineers should know",
-      "source": "MarkTechPost",
-      "url": "https://www.marktechpost.com/2026/06/26/openai-previews-gpt-5-6-with-sol-terra-and-luna-tiered-models-new-reasoning-modes-limited-access/",
-      "publishedAt": "2026-06-26T19:18:58.000Z",
-      "impact": 65
-    },
-    {
-      "id": "aether-figure03",
-      "type": "premium",
-      "category": "robotics",
-      "title": "Figure 03 completes 43-hour autonomous factory shift with zero interventions",
-      "excerpt": "Humanoid achieves new milestone in unsupervised operation, performing 1,240 unique tasks across three assembly lines at the BMW South Carolina plant.",
-      "source": "Figure AI",
-      "url": "https://figure.ai/news/03-milestone",
-      "publishedAt": "2026-06-26T18:59:31.003Z",
-      "impact": 89
-    },
-    {
-      "id": "aether-interp",
-      "type": "premium",
-      "category": "safety",
-      "title": "Anthropic publishes unprecedented mechanistic interpretability map of Claude 4",
-      "excerpt": "Researchers reverse-engineered 312 million features inside the model, including the first clear \"deception circuit\" discovered in a frontier model.",
-      "source": "Anthropic",
-      "url": "https://anthropic.com/research/claude-4-interp",
-      "publishedAt": "2026-06-26T13:59:31.003Z",
-      "impact": 91
-    },
-    {
-      "id": "arxiv-cs.ai-1782446400000-0",
-      "type": "live",
-      "category": "safety",
-      "title": "Detecting and Controlling Sycophancy with Cascading Linear Features",
-      "excerpt": "26155v1 Announce Type: new Abstract: Interpreting and controlling model behaviors through activation steering methods requires many pairs of contrastive samples that clearly exhibit desired or undesired behavior.  The...",
-      "source": "arXiv cs.AI",
-      "url": "https://arxiv.org/abs/2606.26155",
-      "publishedAt": "2026-06-26T04:00:00.000Z",
-      "impact": 58
-    },
-    {
-      "id": "arxiv-cs.ai-1782446400000-1",
-      "type": "live",
-      "category": "llm",
-      "title": "Life After Benchmark Saturation: A Case Study of CORE-Bench",
-      "excerpt": "26158v1 Announce Type: new Abstract: When a benchmark's accuracy saturates, it is often retired and replaced with a more challenging version.  We show that this approach privileges accuracy and misses the opportunity ...",
-      "source": "arXiv cs.AI",
-      "url": "https://arxiv.org/abs/2606.26158",
-      "publishedAt": "2026-06-26T04:00:00.000Z",
-      "impact": 58
-    },
-    {
-      "id": "arxiv-cs.ai-1782446400000-2",
-      "type": "live",
-      "category": "llm",
-      "title": "Refusal Lives Downstream of Persona in Chat Models",
-      "excerpt": "26161v1 Announce Type: new Abstract: Linear directions in activation space have been identified for both refusal and persona traits in instruction-tuned chat models, but the two have been studied as separate mechanism...",
-      "source": "arXiv cs.AI",
-      "url": "https://arxiv.org/abs/2606.26161",
-      "publishedAt": "2026-06-26T04:00:00.000Z",
-      "impact": 58
-    },
-    {
-      "id": "arxiv-cs.ai-1782446400000-3",
-      "type": "live",
-      "category": "llm",
-      "title": "AlgoEvolve: LLM-driven Meta-evolution of Algorithmic Trading Programs",
-      "excerpt": "26173v1 Announce Type: new Abstract: Recent work shows that Large Language Models (LLMs) can act as semantic mutation operators for the evolutionary discovery of programs and proofs.  Most current applications focus o...",
-      "source": "arXiv cs.AI",
-      "url": "https://arxiv.org/abs/2606.26173",
-      "publishedAt": "2026-06-26T04:00:00.000Z",
-      "impact": 58
-    },
-    {
-      "id": "arxiv-cs.ai-1782446400000-4",
-      "type": "live",
-      "category": "safety",
-      "title": "Agentic Analysis for Agentic Infrastructure: An LLM-Powered Pipeline for Comparative Governance of DAO and Corporate AI Protocols",
-      "excerpt": "26203v1 Announce Type: new Abstract: As AI agent protocols proliferate, the governance structures shaping their interoperability standards remain empirically underexamined.  We introduce an LLM-powered comparative pip...",
-      "source": "arXiv cs.AI",
-      "url": "https://arxiv.org/abs/2606.26203",
-      "publishedAt": "2026-06-26T04:00:00.000Z",
-      "impact": 69
-    },
-    {
-      "id": "arxiv-cs.ai-1782446400000-5",
-      "type": "live",
-      "category": "safety",
-      "title": "Knowledge-augmented Agentic AI for Mental Health Medication Information Seeking",
-      "excerpt": "26205v1 Announce Type: new Abstract: Patients increasingly seek medication information online, yet safety knowledge for psychiatric drugs is split between regulatory adverse-event records, which are authoritative but ...",
-      "source": "arXiv cs.AI",
-      "url": "https://arxiv.org/abs/2606.26205",
-      "publishedAt": "2026-06-26T04:00:00.000Z",
-      "impact": 69
     },
     {
       "id": "hugging-face-1782432000000-0",

@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-28T14:01:35.970Z",
+  "lastUpdated": "2026-06-28T19:38:37.703Z",
   "source": "AETHER + Public RSS (arXiv, Hugging Face, MarkTechPost, Ben's Bites)",
   "count": 6,
   "articles": [
@@ -11,7 +11,7 @@
       "excerpt": "New model demonstrates 4.2× improvement on multi-step software engineering benchmarks and sustains coherent agent trajectories beyond 110k tokens.",
       "source": "xAI",
       "url": "https://x.ai/blog/grok-4.3",
-      "publishedAt": "2026-06-28T09:01:35.725Z",
+      "publishedAt": "2026-06-28T14:38:37.327Z",
       "impact": 96
     },
     {
@@ -22,7 +22,7 @@
       "excerpt": "Humanoid achieves new milestone in unsupervised operation, performing 1,240 unique tasks across three assembly lines at the BMW South Carolina plant.",
       "source": "Figure AI",
       "url": "https://figure.ai/news/03-milestone",
-      "publishedAt": "2026-06-28T05:01:35.725Z",
+      "publishedAt": "2026-06-28T10:38:37.327Z",
       "impact": 89
     },
     {
@@ -33,7 +33,7 @@
       "excerpt": "Researchers reverse-engineered 312 million features inside the model, including the first clear \"deception circuit\" discovered in a frontier model.",
       "source": "Anthropic",
       "url": "https://anthropic.com/research/claude-4-interp",
-      "publishedAt": "2026-06-28T00:01:35.725Z",
+      "publishedAt": "2026-06-28T05:38:37.327Z",
       "impact": 91
     },
     {

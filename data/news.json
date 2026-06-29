@@ -1,8 +1,74 @@
 {
-  "lastUpdated": "2026-06-28T19:38:37.703Z",
+  "lastUpdated": "2026-06-29T04:41:14.182Z",
   "source": "AETHER + Public RSS (arXiv, Hugging Face, MarkTechPost, Ben's Bites)",
-  "count": 6,
+  "count": 12,
   "articles": [
+    {
+      "id": "arxiv-cs.ai-1782705600000-0",
+      "type": "live",
+      "category": "multimodal",
+      "title": "AI-Model Network: Concept, Current State and Future",
+      "excerpt": "27382v1 Announce Type: new Abstract: While the primary function of computers lies in computation and processing, the core value of the Internet is rooted in sharing and collaboration.  Computers create the Internet, a...",
+      "source": "arXiv cs.AI",
+      "url": "https://arxiv.org/abs/2606.27382",
+      "publishedAt": "2026-06-29T04:00:00.000Z",
+      "impact": 58
+    },
+    {
+      "id": "arxiv-cs.ai-1782705600000-1",
+      "type": "live",
+      "category": "llm",
+      "title": "When Does Personality Composition Matter for Multi-Agent LLM Teams?",
+      "excerpt": "27443v1 Announce Type: new Abstract: Personality prompting shapes how large language models communicate, yet whether these behavioral shifts affect objective task outcomes remains under-explored.  Prior work shows tha...",
+      "source": "arXiv cs.AI",
+      "url": "https://arxiv.org/abs/2606.27443",
+      "publishedAt": "2026-06-29T04:00:00.000Z",
+      "impact": 69
+    },
+    {
+      "id": "arxiv-cs.ai-1782705600000-2",
+      "type": "live",
+      "category": "llm",
+      "title": "Internalizing the Future: A Unified Agentic Training Paradigm for World Model Planning",
+      "excerpt": "27483v1 Announce Type: new Abstract: Large language model (LLM) agents have demonstrated strong capability in sequential decision-making, yet they remains fundamentally reactive in long-horizon tasks.  Unlike humans w...",
+      "source": "arXiv cs.AI",
+      "url": "https://arxiv.org/abs/2606.27483",
+      "publishedAt": "2026-06-29T04:00:00.000Z",
+      "impact": 69
+    },
+    {
+      "id": "arxiv-cs.ai-1782705600000-3",
+      "type": "live",
+      "category": "llm",
+      "title": "Odyssey: Constructing Verifiable Local Truth-Preserving Foundation Models",
+      "excerpt": "27593v1 Announce Type: new Abstract: We introduce a categorical framework called ODYSSEY for constructing verifiable, local truth-preserving foundation models as compositions of foundries: building-block architectural...",
+      "source": "arXiv cs.AI",
+      "url": "https://arxiv.org/abs/2606.27593",
+      "publishedAt": "2026-06-29T04:00:00.000Z",
+      "impact": 58
+    },
+    {
+      "id": "arxiv-cs.ai-1782705600000-4",
+      "type": "live",
+      "category": "safety",
+      "title": "DysLexLens: A Low-Resource LLM Framework for Analysing Dyslexic Learners Insights from Online Forums",
+      "excerpt": "27619v1 Announce Type: new Abstract: Dyslexic learners increasingly use artificial intelligence (AI) tools to support reading, writing, organisation, and study-related tasks.  However, their lived experiences with the...",
+      "source": "arXiv cs.AI",
+      "url": "https://arxiv.org/abs/2606.27619",
+      "publishedAt": "2026-06-29T04:00:00.000Z",
+      "impact": 58
+    },
+    {
+      "id": "arxiv-cs.ai-1782705600000-5",
+      "type": "live",
+      "category": "safety",
+      "title": "MER-R1: Multimodal Emotion Reasoning via Slow-Fast Thinking Synergy",
+      "excerpt": "27652v1 Announce Type: new Abstract: We find that explicit reasoning does not necessarily translate into better multimodal emotion recognition (MER) accuracy, even though it makes predictions more interpretable.  Spec...",
+      "source": "arXiv cs.AI",
+      "url": "https://arxiv.org/abs/2606.27652",
+      "publishedAt": "2026-06-29T04:00:00.000Z",
+      "impact": 58
+    },
     {
       "id": "aether-grok43",
       "type": "premium",
@@ -11,7 +77,7 @@
       "excerpt": "New model demonstrates 4.2× improvement on multi-step software engineering benchmarks and sustains coherent agent trajectories beyond 110k tokens.",
       "source": "xAI",
       "url": "https://x.ai/blog/grok-4.3",
-      "publishedAt": "2026-06-28T14:38:37.327Z",
+      "publishedAt": "2026-06-28T23:41:13.721Z",
       "impact": 96
     },
     {
@@ -22,7 +88,7 @@
       "excerpt": "Humanoid achieves new milestone in unsupervised operation, performing 1,240 unique tasks across three assembly lines at the BMW South Carolina plant.",
       "source": "Figure AI",
       "url": "https://figure.ai/news/03-milestone",
-      "publishedAt": "2026-06-28T10:38:37.327Z",
+      "publishedAt": "2026-06-28T19:41:13.721Z",
       "impact": 89
     },
     {
@@ -33,7 +99,7 @@
       "excerpt": "Researchers reverse-engineered 312 million features inside the model, including the first clear \"deception circuit\" discovered in a frontier model.",
       "source": "Anthropic",
       "url": "https://anthropic.com/research/claude-4-interp",
-      "publishedAt": "2026-06-28T05:38:37.327Z",
+      "publishedAt": "2026-06-28T14:41:13.721Z",
       "impact": 91
     },
     {

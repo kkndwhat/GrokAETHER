@@ -1,8 +1,30 @@
 {
-  "lastUpdated": "2026-06-30T04:08:12.363Z",
+  "lastUpdated": "2026-06-30T14:31:49.010Z",
   "source": "AETHER + Public RSS (arXiv, Hugging Face, MarkTechPost, Ben's Bites)",
-  "count": 16,
+  "count": 12,
   "articles": [
+    {
+      "id": "aether-grok43",
+      "type": "premium",
+      "category": "llm",
+      "title": "xAI releases Grok-4.3 with native long-horizon agent scaffolding",
+      "excerpt": "New model demonstrates 4.2× improvement on multi-step software engineering benchmarks and sustains coherent agent trajectories beyond 110k tokens.",
+      "source": "xAI",
+      "url": "https://x.ai/blog/grok-4.3",
+      "publishedAt": "2026-06-30T09:31:48.587Z",
+      "impact": 96
+    },
+    {
+      "id": "aether-figure03",
+      "type": "premium",
+      "category": "robotics",
+      "title": "Figure 03 completes 43-hour autonomous factory shift with zero interventions",
+      "excerpt": "Humanoid achieves new milestone in unsupervised operation, performing 1,240 unique tasks across three assembly lines at the BMW South Carolina plant.",
+      "source": "Figure AI",
+      "url": "https://figure.ai/news/03-milestone",
+      "publishedAt": "2026-06-30T05:31:48.588Z",
+      "impact": 89
+    },
     {
       "id": "arxiv-cs.ai-1782792000000-0",
       "type": "live",
@@ -70,62 +92,29 @@
       "impact": 58
     },
     {
-      "id": "marktechpost-1782776489000-0",
-      "type": "live",
-      "category": "hardware",
-      "title": "OpenClaw Releases iOS and Android Companion Node Apps That Connect a Phone to a Self-Hosted AI Agent Gateway",
-      "excerpt": "OpenClaw's iOS and Android apps are companion nodes, not standalone chatbots.  Each phone pairs to a self-hosted Gateway over WebSocket",
-      "source": "MarkTechPost",
-      "url": "https://www.marktechpost.com/2026/06/29/openclaw-releases-ios-and-android-companion-node-apps-that-connect-a-phone-to-a-self-hosted-ai-agent-gateway/",
-      "publishedAt": "2026-06-29T23:41:29.000Z",
-      "impact": 77
-    },
-    {
-      "id": "aether-grok43",
+      "id": "aether-interp",
       "type": "premium",
-      "category": "llm",
-      "title": "xAI releases Grok-4.3 with native long-horizon agent scaffolding",
-      "excerpt": "New model demonstrates 4.2× improvement on multi-step software engineering benchmarks and sustains coherent agent trajectories beyond 110k tokens.",
-      "source": "xAI",
-      "url": "https://x.ai/blog/grok-4.3",
-      "publishedAt": "2026-06-29T23:08:11.195Z",
-      "impact": 96
-    },
-    {
-      "id": "marktechpost-1782768882000-1",
-      "type": "live",
-      "category": "research",
-      "title": "PyGraphistry Implementation Workflow for Interactive Graph Intelligence Pipelines in Security Analytics and Risk Investigation",
-      "excerpt": "We build a Colab-ready PyGraphistry workflow for interactive graph analytics on enterprise access data.  We generate a synthetic dataset of users, devices, IPs, services, roles, and geos, then convert it into nodes an...",
-      "source": "MarkTechPost",
-      "url": "https://www.marktechpost.com/2026/06/29/pygraphistry-implementation-workflow-for-interactive-graph-intelligence-pipelines-in-security-analytics-and-risk-investigation/",
-      "publishedAt": "2026-06-29T21:34:42.000Z",
-      "impact": 65
-    },
-    {
-      "id": "aether-figure03",
-      "type": "premium",
-      "category": "robotics",
-      "title": "Figure 03 completes 43-hour autonomous factory shift with zero interventions",
-      "excerpt": "Humanoid achieves new milestone in unsupervised operation, performing 1,240 unique tasks across three assembly lines at the BMW South Carolina plant.",
-      "source": "Figure AI",
-      "url": "https://figure.ai/news/03-milestone",
-      "publishedAt": "2026-06-29T19:08:11.195Z",
-      "impact": 89
-    },
-    {
-      "id": "marktechpost-1782760007000-2",
-      "type": "live",
       "category": "safety",
-      "title": "NVIDIA BioNeMo Agent Toolkit Turns Biomolecular Models Into Callable Skills for AI Agents in Drug Discovery",
-      "excerpt": "NVIDIA's open-source BioNeMo Agent Toolkit turns biomolecular models like OpenFold3, DiffDock, and GenMol into documented, callable skills for AI agents.  Each skill describes a model's purpose, inputs, artifacts, and...",
-      "source": "MarkTechPost",
-      "url": "https://www.marktechpost.com/2026/06/29/nvidia-bionemo-agent-toolkit-turns-biomolecular-models-into-callable-skills-for-ai-agents-in-drug-discovery/",
-      "publishedAt": "2026-06-29T19:06:47.000Z",
-      "impact": 77
+      "title": "Anthropic publishes unprecedented mechanistic interpretability map of Claude 4",
+      "excerpt": "Researchers reverse-engineered 312 million features inside the model, including the first clear \"deception circuit\" discovered in a frontier model.",
+      "source": "Anthropic",
+      "url": "https://anthropic.com/research/claude-4-interp",
+      "publishedAt": "2026-06-30T00:31:48.588Z",
+      "impact": 91
     },
     {
-      "id": "hugging-face-1782756168000-0",
+      "id": "hugging-face-1782777600000-0",
+      "type": "live",
+      "category": "llm",
+      "title": "Featuring Every Eval Ever Results on Hugging Face Model Pages",
+      "excerpt": "New development from the frontier.",
+      "source": "Hugging Face",
+      "url": "https://huggingface.co/blog/eee-community-evals",
+      "publishedAt": "2026-06-30T00:00:00.000Z",
+      "impact": 75
+    },
+    {
+      "id": "hugging-face-1782756168000-1",
       "type": "live",
       "category": "research",
       "title": "DiScoFormer: One transformer for density and score, across distributions",
@@ -136,29 +125,7 @@
       "impact": 75
     },
     {
-      "id": "aether-interp",
-      "type": "premium",
-      "category": "safety",
-      "title": "Anthropic publishes unprecedented mechanistic interpretability map of Claude 4",
-      "excerpt": "Researchers reverse-engineered 312 million features inside the model, including the first clear \"deception circuit\" discovered in a frontier model.",
-      "source": "Anthropic",
-      "url": "https://anthropic.com/research/claude-4-interp",
-      "publishedAt": "2026-06-29T14:08:11.195Z",
-      "impact": 91
-    },
-    {
-      "id": "marktechpost-1782729767000-3",
-      "type": "live",
-      "category": "multimodal",
-      "title": "Meet EverOS: An Open Source Markdown-First Agent Memory Runtime With Hybrid BM25 + Vector Retrieval and Self-Evolving Skills",
-      "excerpt": "EverMind has open-sourced EverOS, a local-first memory runtime that stores AI agent memory as plain Markdown indexed by SQLite and LanceDB.  It combines hybrid BM25 + vector retrieval, multimodal ingestion, and self-e...",
-      "source": "MarkTechPost",
-      "url": "https://www.marktechpost.com/2026/06/29/meet-everos-an-open-source-markdown-first-agent-memory-runtime-with-hybrid-bm25-vector-retrieval-and-self-evolving-skills/",
-      "publishedAt": "2026-06-29T10:42:47.000Z",
-      "impact": 77
-    },
-    {
-      "id": "hugging-face-1782432000000-1",
+      "id": "hugging-face-1782432000000-2",
       "type": "live",
       "category": "llm",
       "title": "Run a vLLM Server on HF Jobs in One Command",
@@ -166,17 +133,6 @@
       "source": "Hugging Face",
       "url": "https://huggingface.co/blog/vllm-jobs",
       "publishedAt": "2026-06-26T00:00:00.000Z",
-      "impact": 75
-    },
-    {
-      "id": "hugging-face-1782316813000-2",
-      "type": "live",
-      "category": "llm",
-      "title": "Accelerating Transformers Fine-Tuning with NVIDIA NeMo AutoModel",
-      "excerpt": "New development from the frontier.",
-      "source": "Hugging Face",
-      "url": "https://huggingface.co/blog/nvidia/accelerating-fine-tuning-nvidia-nemo-automodel",
-      "publishedAt": "2026-06-24T16:00:13.000Z",
       "impact": 75
     }
   ]

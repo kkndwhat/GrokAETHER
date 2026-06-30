@@ -1,8 +1,19 @@
 {
-  "lastUpdated": "2026-06-30T14:31:49.010Z",
+  "lastUpdated": "2026-06-30T20:06:10.990Z",
   "source": "AETHER + Public RSS (arXiv, Hugging Face, MarkTechPost, Ben's Bites)",
-  "count": 12,
+  "count": 16,
   "articles": [
+    {
+      "id": "hugging-face-1782844370000-0",
+      "type": "live",
+      "category": "research",
+      "title": "ScarfBench: Benchmarking AI Agents for Enterprise Java Framework Migration",
+      "excerpt": "New development from the frontier.",
+      "source": "Hugging Face",
+      "url": "https://huggingface.co/blog/ibm-research/scarfbench",
+      "publishedAt": "2026-06-30T18:32:50.000Z",
+      "impact": 87
+    },
     {
       "id": "aether-grok43",
       "type": "premium",
@@ -11,8 +22,19 @@
       "excerpt": "New model demonstrates 4.2× improvement on multi-step software engineering benchmarks and sustains coherent agent trajectories beyond 110k tokens.",
       "source": "xAI",
       "url": "https://x.ai/blog/grok-4.3",
-      "publishedAt": "2026-06-30T09:31:48.587Z",
+      "publishedAt": "2026-06-30T15:06:09.417Z",
       "impact": 96
+    },
+    {
+      "id": "hugging-face-1782830351000-1",
+      "type": "live",
+      "category": "research",
+      "title": "Why Specialization Is Inevitable",
+      "excerpt": "New development from the frontier.",
+      "source": "Hugging Face",
+      "url": "https://huggingface.co/blog/Dharma-AI/why-specialization-is-inevitable",
+      "publishedAt": "2026-06-30T14:39:11.000Z",
+      "impact": 75
     },
     {
       "id": "aether-figure03",
@@ -22,8 +44,30 @@
       "excerpt": "Humanoid achieves new milestone in unsupervised operation, performing 1,240 unique tasks across three assembly lines at the BMW South Carolina plant.",
       "source": "Figure AI",
       "url": "https://figure.ai/news/03-milestone",
-      "publishedAt": "2026-06-30T05:31:48.588Z",
+      "publishedAt": "2026-06-30T11:06:09.417Z",
       "impact": 89
+    },
+    {
+      "id": "marktechpost-1782807221000-0",
+      "type": "live",
+      "category": "research",
+      "title": "Meta AI Releases Brain2Qwerty v2: A Non-Invasive MEG Brain-to-Text Pipeline Decoding Typed Sentences at 61% Word Accuracy",
+      "excerpt": "Meta AI releases Brain2Qwerty v2, a non-invasive MEG brain-to-text pipeline reaching 61% word accuracy with open training code.  The post Meta AI Releases Brain2Qwerty v2: A Non-Invasive MEG Brain-to-Text Pipeline Dec...",
+      "source": "MarkTechPost",
+      "url": "https://www.marktechpost.com/2026/06/30/meta-ai-releases-brain2qwerty-v2-a-non-invasive-meg-brain-to-text-pipeline-decoding-typed-sentences-at-61-word-accuracy/",
+      "publishedAt": "2026-06-30T08:13:41.000Z",
+      "impact": 65
+    },
+    {
+      "id": "aether-interp",
+      "type": "premium",
+      "category": "safety",
+      "title": "Anthropic publishes unprecedented mechanistic interpretability map of Claude 4",
+      "excerpt": "Researchers reverse-engineered 312 million features inside the model, including the first clear \"deception circuit\" discovered in a frontier model.",
+      "source": "Anthropic",
+      "url": "https://anthropic.com/research/claude-4-interp",
+      "publishedAt": "2026-06-30T06:06:09.417Z",
+      "impact": 91
     },
     {
       "id": "arxiv-cs.ai-1782792000000-0",
@@ -92,18 +136,7 @@
       "impact": 58
     },
     {
-      "id": "aether-interp",
-      "type": "premium",
-      "category": "safety",
-      "title": "Anthropic publishes unprecedented mechanistic interpretability map of Claude 4",
-      "excerpt": "Researchers reverse-engineered 312 million features inside the model, including the first clear \"deception circuit\" discovered in a frontier model.",
-      "source": "Anthropic",
-      "url": "https://anthropic.com/research/claude-4-interp",
-      "publishedAt": "2026-06-30T00:31:48.588Z",
-      "impact": 91
-    },
-    {
-      "id": "hugging-face-1782777600000-0",
+      "id": "hugging-face-1782777600000-2",
       "type": "live",
       "category": "llm",
       "title": "Featuring Every Eval Ever Results on Hugging Face Model Pages",
@@ -114,26 +147,37 @@
       "impact": 75
     },
     {
-      "id": "hugging-face-1782756168000-1",
+      "id": "marktechpost-1782776489000-1",
       "type": "live",
-      "category": "research",
-      "title": "DiScoFormer: One transformer for density and score, across distributions",
-      "excerpt": "New development from the frontier.",
-      "source": "Hugging Face",
-      "url": "https://huggingface.co/blog/allenai/discoformer",
-      "publishedAt": "2026-06-29T18:02:48.000Z",
-      "impact": 75
+      "category": "hardware",
+      "title": "OpenClaw Releases iOS and Android Companion Node Apps That Connect a Phone to a Self-Hosted AI Agent Gateway",
+      "excerpt": "OpenClaw's iOS and Android apps are companion nodes, not standalone chatbots.  Each phone pairs to a self-hosted Gateway over WebSocket",
+      "source": "MarkTechPost",
+      "url": "https://www.marktechpost.com/2026/06/29/openclaw-releases-ios-and-android-companion-node-apps-that-connect-a-phone-to-a-self-hosted-ai-agent-gateway/",
+      "publishedAt": "2026-06-29T23:41:29.000Z",
+      "impact": 77
     },
     {
-      "id": "hugging-face-1782432000000-2",
+      "id": "marktechpost-1782768882000-2",
       "type": "live",
-      "category": "llm",
-      "title": "Run a vLLM Server on HF Jobs in One Command",
-      "excerpt": "New development from the frontier.",
-      "source": "Hugging Face",
-      "url": "https://huggingface.co/blog/vllm-jobs",
-      "publishedAt": "2026-06-26T00:00:00.000Z",
-      "impact": 75
+      "category": "research",
+      "title": "PyGraphistry Implementation Workflow for Interactive Graph Intelligence Pipelines in Security Analytics and Risk Investigation",
+      "excerpt": "We build a Colab-ready PyGraphistry workflow for interactive graph analytics on enterprise access data.  We generate a synthetic dataset of users, devices, IPs, services, roles, and geos, then convert it into nodes an...",
+      "source": "MarkTechPost",
+      "url": "https://www.marktechpost.com/2026/06/29/pygraphistry-implementation-workflow-for-interactive-graph-intelligence-pipelines-in-security-analytics-and-risk-investigation/",
+      "publishedAt": "2026-06-29T21:34:42.000Z",
+      "impact": 65
+    },
+    {
+      "id": "marktechpost-1782760007000-3",
+      "type": "live",
+      "category": "safety",
+      "title": "NVIDIA BioNeMo Agent Toolkit Turns Biomolecular Models Into Callable Skills for AI Agents in Drug Discovery",
+      "excerpt": "NVIDIA's open-source BioNeMo Agent Toolkit turns biomolecular models like OpenFold3, DiffDock, and GenMol into documented, callable skills for AI agents.  Each skill describes a model's purpose, inputs, artifacts, and...",
+      "source": "MarkTechPost",
+      "url": "https://www.marktechpost.com/2026/06/29/nvidia-bionemo-agent-toolkit-turns-biomolecular-models-into-callable-skills-for-ai-agents-in-drug-discovery/",
+      "publishedAt": "2026-06-29T19:06:47.000Z",
+      "impact": 77
     }
   ]
 }

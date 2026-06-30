@@ -1,8 +1,85 @@
 {
-  "lastUpdated": "2026-06-29T15:57:05.237Z",
+  "lastUpdated": "2026-06-30T04:08:12.363Z",
   "source": "AETHER + Public RSS (arXiv, Hugging Face, MarkTechPost, Ben's Bites)",
   "count": 16,
   "articles": [
+    {
+      "id": "arxiv-cs.ai-1782792000000-0",
+      "type": "live",
+      "category": "multimodal",
+      "title": "AI-Model Network: Concept, Current State and Future",
+      "excerpt": "27382v1 Announce Type: new Abstract: While the primary function of computers lies in computation and processing, the core value of the Internet is rooted in sharing and collaboration.  Computers create the Internet, a...",
+      "source": "arXiv cs.AI",
+      "url": "https://arxiv.org/abs/2606.27382",
+      "publishedAt": "2026-06-30T04:00:00.000Z",
+      "impact": 58
+    },
+    {
+      "id": "arxiv-cs.ai-1782792000000-1",
+      "type": "live",
+      "category": "llm",
+      "title": "When Does Personality Composition Matter for Multi-Agent LLM Teams?",
+      "excerpt": "27443v1 Announce Type: new Abstract: Personality prompting shapes how large language models communicate, yet whether these behavioral shifts affect objective task outcomes remains under-explored.  Prior work shows tha...",
+      "source": "arXiv cs.AI",
+      "url": "https://arxiv.org/abs/2606.27443",
+      "publishedAt": "2026-06-30T04:00:00.000Z",
+      "impact": 69
+    },
+    {
+      "id": "arxiv-cs.ai-1782792000000-2",
+      "type": "live",
+      "category": "llm",
+      "title": "Internalizing the Future: A Unified Agentic Training Paradigm for World Model Planning",
+      "excerpt": "27483v1 Announce Type: new Abstract: Large language model (LLM) agents have demonstrated strong capability in sequential decision-making, yet they remains fundamentally reactive in long-horizon tasks.  Unlike humans w...",
+      "source": "arXiv cs.AI",
+      "url": "https://arxiv.org/abs/2606.27483",
+      "publishedAt": "2026-06-30T04:00:00.000Z",
+      "impact": 69
+    },
+    {
+      "id": "arxiv-cs.ai-1782792000000-3",
+      "type": "live",
+      "category": "llm",
+      "title": "Odyssey: Constructing Verifiable Local Truth-Preserving Foundation Models",
+      "excerpt": "27593v1 Announce Type: new Abstract: We introduce a categorical framework called ODYSSEY for constructing verifiable, local truth-preserving foundation models as compositions of foundries: building-block architectural...",
+      "source": "arXiv cs.AI",
+      "url": "https://arxiv.org/abs/2606.27593",
+      "publishedAt": "2026-06-30T04:00:00.000Z",
+      "impact": 58
+    },
+    {
+      "id": "arxiv-cs.ai-1782792000000-4",
+      "type": "live",
+      "category": "safety",
+      "title": "DysLexLens: A Low-Resource LLM Framework for Analysing Dyslexic Learners Insights from Online Forums",
+      "excerpt": "27619v1 Announce Type: new Abstract: Dyslexic learners increasingly use artificial intelligence (AI) tools to support reading, writing, organisation, and study-related tasks.  However, their lived experiences with the...",
+      "source": "arXiv cs.AI",
+      "url": "https://arxiv.org/abs/2606.27619",
+      "publishedAt": "2026-06-30T04:00:00.000Z",
+      "impact": 58
+    },
+    {
+      "id": "arxiv-cs.ai-1782792000000-5",
+      "type": "live",
+      "category": "safety",
+      "title": "MER-R1: Multimodal Emotion Reasoning via Slow-Fast Thinking Synergy",
+      "excerpt": "27652v1 Announce Type: new Abstract: We find that explicit reasoning does not necessarily translate into better multimodal emotion recognition (MER) accuracy, even though it makes predictions more interpretable.  Spec...",
+      "source": "arXiv cs.AI",
+      "url": "https://arxiv.org/abs/2606.27652",
+      "publishedAt": "2026-06-30T04:00:00.000Z",
+      "impact": 58
+    },
+    {
+      "id": "marktechpost-1782776489000-0",
+      "type": "live",
+      "category": "hardware",
+      "title": "OpenClaw Releases iOS and Android Companion Node Apps That Connect a Phone to a Self-Hosted AI Agent Gateway",
+      "excerpt": "OpenClaw's iOS and Android apps are companion nodes, not standalone chatbots.  Each phone pairs to a self-hosted Gateway over WebSocket",
+      "source": "MarkTechPost",
+      "url": "https://www.marktechpost.com/2026/06/29/openclaw-releases-ios-and-android-companion-node-apps-that-connect-a-phone-to-a-self-hosted-ai-agent-gateway/",
+      "publishedAt": "2026-06-29T23:41:29.000Z",
+      "impact": 77
+    },
     {
       "id": "aether-grok43",
       "type": "premium",
@@ -11,11 +88,66 @@
       "excerpt": "New model demonstrates 4.2× improvement on multi-step software engineering benchmarks and sustains coherent agent trajectories beyond 110k tokens.",
       "source": "xAI",
       "url": "https://x.ai/blog/grok-4.3",
-      "publishedAt": "2026-06-29T10:57:04.807Z",
+      "publishedAt": "2026-06-29T23:08:11.195Z",
       "impact": 96
     },
     {
-      "id": "marktechpost-1782729767000-0",
+      "id": "marktechpost-1782768882000-1",
+      "type": "live",
+      "category": "research",
+      "title": "PyGraphistry Implementation Workflow for Interactive Graph Intelligence Pipelines in Security Analytics and Risk Investigation",
+      "excerpt": "We build a Colab-ready PyGraphistry workflow for interactive graph analytics on enterprise access data.  We generate a synthetic dataset of users, devices, IPs, services, roles, and geos, then convert it into nodes an...",
+      "source": "MarkTechPost",
+      "url": "https://www.marktechpost.com/2026/06/29/pygraphistry-implementation-workflow-for-interactive-graph-intelligence-pipelines-in-security-analytics-and-risk-investigation/",
+      "publishedAt": "2026-06-29T21:34:42.000Z",
+      "impact": 65
+    },
+    {
+      "id": "aether-figure03",
+      "type": "premium",
+      "category": "robotics",
+      "title": "Figure 03 completes 43-hour autonomous factory shift with zero interventions",
+      "excerpt": "Humanoid achieves new milestone in unsupervised operation, performing 1,240 unique tasks across three assembly lines at the BMW South Carolina plant.",
+      "source": "Figure AI",
+      "url": "https://figure.ai/news/03-milestone",
+      "publishedAt": "2026-06-29T19:08:11.195Z",
+      "impact": 89
+    },
+    {
+      "id": "marktechpost-1782760007000-2",
+      "type": "live",
+      "category": "safety",
+      "title": "NVIDIA BioNeMo Agent Toolkit Turns Biomolecular Models Into Callable Skills for AI Agents in Drug Discovery",
+      "excerpt": "NVIDIA's open-source BioNeMo Agent Toolkit turns biomolecular models like OpenFold3, DiffDock, and GenMol into documented, callable skills for AI agents.  Each skill describes a model's purpose, inputs, artifacts, and...",
+      "source": "MarkTechPost",
+      "url": "https://www.marktechpost.com/2026/06/29/nvidia-bionemo-agent-toolkit-turns-biomolecular-models-into-callable-skills-for-ai-agents-in-drug-discovery/",
+      "publishedAt": "2026-06-29T19:06:47.000Z",
+      "impact": 77
+    },
+    {
+      "id": "hugging-face-1782756168000-0",
+      "type": "live",
+      "category": "research",
+      "title": "DiScoFormer: One transformer for density and score, across distributions",
+      "excerpt": "New development from the frontier.",
+      "source": "Hugging Face",
+      "url": "https://huggingface.co/blog/allenai/discoformer",
+      "publishedAt": "2026-06-29T18:02:48.000Z",
+      "impact": 75
+    },
+    {
+      "id": "aether-interp",
+      "type": "premium",
+      "category": "safety",
+      "title": "Anthropic publishes unprecedented mechanistic interpretability map of Claude 4",
+      "excerpt": "Researchers reverse-engineered 312 million features inside the model, including the first clear \"deception circuit\" discovered in a frontier model.",
+      "source": "Anthropic",
+      "url": "https://anthropic.com/research/claude-4-interp",
+      "publishedAt": "2026-06-29T14:08:11.195Z",
+      "impact": 91
+    },
+    {
+      "id": "marktechpost-1782729767000-3",
       "type": "live",
       "category": "multimodal",
       "title": "Meet EverOS: An Open Source Markdown-First Agent Memory Runtime With Hybrid BM25 + Vector Retrieval and Self-Evolving Skills",
@@ -26,128 +158,7 @@
       "impact": 77
     },
     {
-      "id": "aether-figure03",
-      "type": "premium",
-      "category": "robotics",
-      "title": "Figure 03 completes 43-hour autonomous factory shift with zero interventions",
-      "excerpt": "Humanoid achieves new milestone in unsupervised operation, performing 1,240 unique tasks across three assembly lines at the BMW South Carolina plant.",
-      "source": "Figure AI",
-      "url": "https://figure.ai/news/03-milestone",
-      "publishedAt": "2026-06-29T06:57:04.807Z",
-      "impact": 89
-    },
-    {
-      "id": "arxiv-cs.ai-1782705600000-0",
-      "type": "live",
-      "category": "multimodal",
-      "title": "AI-Model Network: Concept, Current State and Future",
-      "excerpt": "27382v1 Announce Type: new Abstract: While the primary function of computers lies in computation and processing, the core value of the Internet is rooted in sharing and collaboration.  Computers create the Internet, a...",
-      "source": "arXiv cs.AI",
-      "url": "https://arxiv.org/abs/2606.27382",
-      "publishedAt": "2026-06-29T04:00:00.000Z",
-      "impact": 58
-    },
-    {
-      "id": "arxiv-cs.ai-1782705600000-1",
-      "type": "live",
-      "category": "llm",
-      "title": "When Does Personality Composition Matter for Multi-Agent LLM Teams?",
-      "excerpt": "27443v1 Announce Type: new Abstract: Personality prompting shapes how large language models communicate, yet whether these behavioral shifts affect objective task outcomes remains under-explored.  Prior work shows tha...",
-      "source": "arXiv cs.AI",
-      "url": "https://arxiv.org/abs/2606.27443",
-      "publishedAt": "2026-06-29T04:00:00.000Z",
-      "impact": 69
-    },
-    {
-      "id": "arxiv-cs.ai-1782705600000-2",
-      "type": "live",
-      "category": "llm",
-      "title": "Internalizing the Future: A Unified Agentic Training Paradigm for World Model Planning",
-      "excerpt": "27483v1 Announce Type: new Abstract: Large language model (LLM) agents have demonstrated strong capability in sequential decision-making, yet they remains fundamentally reactive in long-horizon tasks.  Unlike humans w...",
-      "source": "arXiv cs.AI",
-      "url": "https://arxiv.org/abs/2606.27483",
-      "publishedAt": "2026-06-29T04:00:00.000Z",
-      "impact": 69
-    },
-    {
-      "id": "arxiv-cs.ai-1782705600000-3",
-      "type": "live",
-      "category": "llm",
-      "title": "Odyssey: Constructing Verifiable Local Truth-Preserving Foundation Models",
-      "excerpt": "27593v1 Announce Type: new Abstract: We introduce a categorical framework called ODYSSEY for constructing verifiable, local truth-preserving foundation models as compositions of foundries: building-block architectural...",
-      "source": "arXiv cs.AI",
-      "url": "https://arxiv.org/abs/2606.27593",
-      "publishedAt": "2026-06-29T04:00:00.000Z",
-      "impact": 58
-    },
-    {
-      "id": "arxiv-cs.ai-1782705600000-4",
-      "type": "live",
-      "category": "safety",
-      "title": "DysLexLens: A Low-Resource LLM Framework for Analysing Dyslexic Learners Insights from Online Forums",
-      "excerpt": "27619v1 Announce Type: new Abstract: Dyslexic learners increasingly use artificial intelligence (AI) tools to support reading, writing, organisation, and study-related tasks.  However, their lived experiences with the...",
-      "source": "arXiv cs.AI",
-      "url": "https://arxiv.org/abs/2606.27619",
-      "publishedAt": "2026-06-29T04:00:00.000Z",
-      "impact": 58
-    },
-    {
-      "id": "arxiv-cs.ai-1782705600000-5",
-      "type": "live",
-      "category": "safety",
-      "title": "MER-R1: Multimodal Emotion Reasoning via Slow-Fast Thinking Synergy",
-      "excerpt": "27652v1 Announce Type: new Abstract: We find that explicit reasoning does not necessarily translate into better multimodal emotion recognition (MER) accuracy, even though it makes predictions more interpretable.  Spec...",
-      "source": "arXiv cs.AI",
-      "url": "https://arxiv.org/abs/2606.27652",
-      "publishedAt": "2026-06-29T04:00:00.000Z",
-      "impact": 58
-    },
-    {
-      "id": "aether-interp",
-      "type": "premium",
-      "category": "safety",
-      "title": "Anthropic publishes unprecedented mechanistic interpretability map of Claude 4",
-      "excerpt": "Researchers reverse-engineered 312 million features inside the model, including the first clear \"deception circuit\" discovered in a frontier model.",
-      "source": "Anthropic",
-      "url": "https://anthropic.com/research/claude-4-interp",
-      "publishedAt": "2026-06-29T01:57:04.807Z",
-      "impact": 91
-    },
-    {
-      "id": "marktechpost-1782665270000-1",
-      "type": "live",
-      "category": "multimodal",
-      "title": "OCRmyPDF Tutorial: Convert Scanned Documents into Searchable PDF/A Files with Sidecar Text Extraction and Batch Processing",
-      "excerpt": "In this tutorial, we build a complete, self-contained OCRmyPDF pipeline in Python.  We generate synthetic image-only PDFs so we can test OCR without external files, then convert them into searchable PDFs and PDF/A out...",
-      "source": "MarkTechPost",
-      "url": "https://www.marktechpost.com/2026/06/28/ocrmypdf-tutorial-convert-scanned-documents-into-searchable-pdf-a-files-with-sidecar-text-extraction-and-batch-processing/",
-      "publishedAt": "2026-06-28T16:47:50.000Z",
-      "impact": 65
-    },
-    {
-      "id": "marktechpost-1782630174000-2",
-      "type": "live",
-      "category": "research",
-      "title": "Building a Stable Fable 5 Traces Workflow in Colab: Parsing Tool Calls, Auditing Data, and Training Baselines",
-      "excerpt": "In this tutorial, we build a stable workflow around the Fable 5 Traces dataset from Hugging Face.  We avoid fragile dependencies and manually parse the merged JSONL file to keep Colab reliable",
-      "source": "MarkTechPost",
-      "url": "https://www.marktechpost.com/2026/06/28/building-a-stable-fable-5-traces-workflow-in-colab-parsing-tool-calls-auditing-data-and-training-baselines/",
-      "publishedAt": "2026-06-28T07:02:54.000Z",
-      "impact": 65
-    },
-    {
-      "id": "marktechpost-1782622700000-3",
-      "type": "live",
-      "category": "llm",
-      "title": "Liquid AI Ships LFM2.5-230M with llama.cpp, MLX, vLLM, SGLang, and ONNX Support for On-Device Inference",
-      "excerpt": "Liquid AI released LFM2. 5-230M, its smallest model yet",
-      "source": "MarkTechPost",
-      "url": "https://www.marktechpost.com/2026/06/27/liquid-ai-ships-lfm2-5-230m-with-llama-cpp-mlx-vllm-sglang-and-onnx-support-for-on-device-inference/",
-      "publishedAt": "2026-06-28T04:58:20.000Z",
-      "impact": 65
-    },
-    {
-      "id": "hugging-face-1782432000000-0",
+      "id": "hugging-face-1782432000000-1",
       "type": "live",
       "category": "llm",
       "title": "Run a vLLM Server on HF Jobs in One Command",
@@ -155,17 +166,6 @@
       "source": "Hugging Face",
       "url": "https://huggingface.co/blog/vllm-jobs",
       "publishedAt": "2026-06-26T00:00:00.000Z",
-      "impact": 75
-    },
-    {
-      "id": "hugging-face-1782403902000-1",
-      "type": "live",
-      "category": "llm",
-      "title": "Which tokens does a hybrid model predict better?",
-      "excerpt": "New development from the frontier.",
-      "source": "Hugging Face",
-      "url": "https://huggingface.co/blog/allenai/hybrid-token-prediction",
-      "publishedAt": "2026-06-25T16:11:42.000Z",
       "impact": 75
     },
     {

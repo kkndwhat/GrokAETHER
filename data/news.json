@@ -1,8 +1,52 @@
 {
-  "lastUpdated": "2026-07-01T04:24:29.344Z",
+  "lastUpdated": "2026-07-01T10:00:28.892Z",
   "source": "AETHER + Public RSS (arXiv, Hugging Face, MarkTechPost, Ben's Bites)",
-  "count": 12,
+  "count": 16,
   "articles": [
+    {
+      "id": "marktechpost-1782893417000-0",
+      "type": "live",
+      "category": "llm",
+      "title": "NVIDIA Releases Nemotron-Labs-TwoTower: an Open-Weight Diffusion Language Model Built on a Frozen Autoregressive Nemotron-3-Nano-30B-A3B Backbone",
+      "excerpt": "NVIDIA has released Nemotron-Labs-TwoTower, a diffusion language model built on a pretrained autoregressive backbone.  It ships as open weights under the NVIDIA Nemotron Open Model License",
+      "source": "MarkTechPost",
+      "url": "https://www.marktechpost.com/2026/07/01/nvidia-releases-nemotron-labs-twotower/",
+      "publishedAt": "2026-07-01T08:10:17.000Z",
+      "impact": 65
+    },
+    {
+      "id": "marktechpost-1782892139000-1",
+      "type": "live",
+      "category": "llm",
+      "title": "Google AI Introduces TabFM: A Hybrid-Attention Tabular Foundation Model for Zero-Shot Classification and Regression",
+      "excerpt": "Google Research has released TabFM, a foundation model for tabular data.  It performs zero-shot classification and regression through in-context learning",
+      "source": "MarkTechPost",
+      "url": "https://www.marktechpost.com/2026/07/01/google-ai-introduces-tabfm-a-hybrid-attention-tabular-foundation-model-for-zero-shot-classification-and-regression/",
+      "publishedAt": "2026-07-01T07:48:59.000Z",
+      "impact": 65
+    },
+    {
+      "id": "marktechpost-1782885801000-2",
+      "type": "live",
+      "category": "research",
+      "title": "CUP (Common Useful Python): Building Reliable Python Workflows with Baidu’s Utility Toolkit",
+      "excerpt": "In this tutorial, we explore CUP, Baidu's Common Useful Python library, as a practical utility toolkit for stronger Python workflows.  We install it in a Colab-friendly environment and walk its subsystems step by step",
+      "source": "MarkTechPost",
+      "url": "https://www.marktechpost.com/2026/06/30/cup-common-useful-python-building-reliable-python-workflows-with-baidus-utility-toolkit/",
+      "publishedAt": "2026-07-01T06:03:21.000Z",
+      "impact": 65
+    },
+    {
+      "id": "aether-grok43",
+      "type": "premium",
+      "category": "llm",
+      "title": "xAI releases Grok-4.3 with native long-horizon agent scaffolding",
+      "excerpt": "New model demonstrates 4.2× improvement on multi-step software engineering benchmarks and sustains coherent agent trajectories beyond 110k tokens.",
+      "source": "xAI",
+      "url": "https://x.ai/blog/grok-4.3",
+      "publishedAt": "2026-07-01T05:00:27.626Z",
+      "impact": 96
+    },
     {
       "id": "arxiv-cs.ai-1782878400000-0",
       "type": "live",
@@ -70,17 +114,6 @@
       "impact": 69
     },
     {
-      "id": "aether-grok43",
-      "type": "premium",
-      "category": "llm",
-      "title": "xAI releases Grok-4.3 with native long-horizon agent scaffolding",
-      "excerpt": "New model demonstrates 4.2× improvement on multi-step software engineering benchmarks and sustains coherent agent trajectories beyond 110k tokens.",
-      "source": "xAI",
-      "url": "https://x.ai/blog/grok-4.3",
-      "publishedAt": "2026-06-30T23:24:28.766Z",
-      "impact": 96
-    },
-    {
       "id": "aether-figure03",
       "type": "premium",
       "category": "robotics",
@@ -88,8 +121,30 @@
       "excerpt": "Humanoid achieves new milestone in unsupervised operation, performing 1,240 unique tasks across three assembly lines at the BMW South Carolina plant.",
       "source": "Figure AI",
       "url": "https://figure.ai/news/03-milestone",
-      "publishedAt": "2026-06-30T19:24:28.766Z",
+      "publishedAt": "2026-07-01T01:00:27.627Z",
       "impact": 89
+    },
+    {
+      "id": "marktechpost-1782857876000-3",
+      "type": "live",
+      "category": "research",
+      "title": "Linq’s iMessage Apps Bring Payments, Tickets, Flights, and Games Into the iMessage Bubble Through the imessage_app Part",
+      "excerpt": "Linq launches iMessage Apps: interactive imessage_app cards that run payments, tickets, flights, and games inside the iMessage thread for agents.  The post Linq’s iMessage Apps Bring Payments, Tickets, Flights, and Ga...",
+      "source": "MarkTechPost",
+      "url": "https://www.marktechpost.com/2026/06/30/linqs-imessage-apps/",
+      "publishedAt": "2026-06-30T22:17:56.000Z",
+      "impact": 65
+    },
+    {
+      "id": "aether-interp",
+      "type": "premium",
+      "category": "safety",
+      "title": "Anthropic publishes unprecedented mechanistic interpretability map of Claude 4",
+      "excerpt": "Researchers reverse-engineered 312 million features inside the model, including the first clear \"deception circuit\" discovered in a frontier model.",
+      "source": "Anthropic",
+      "url": "https://anthropic.com/research/claude-4-interp",
+      "publishedAt": "2026-06-30T20:00:27.627Z",
+      "impact": 91
     },
     {
       "id": "hugging-face-1782844370000-0",
@@ -112,17 +167,6 @@
       "url": "https://huggingface.co/blog/Dharma-AI/why-specialization-is-inevitable",
       "publishedAt": "2026-06-30T14:39:11.000Z",
       "impact": 75
-    },
-    {
-      "id": "aether-interp",
-      "type": "premium",
-      "category": "safety",
-      "title": "Anthropic publishes unprecedented mechanistic interpretability map of Claude 4",
-      "excerpt": "Researchers reverse-engineered 312 million features inside the model, including the first clear \"deception circuit\" discovered in a frontier model.",
-      "source": "Anthropic",
-      "url": "https://anthropic.com/research/claude-4-interp",
-      "publishedAt": "2026-06-30T14:24:28.766Z",
-      "impact": 91
     },
     {
       "id": "hugging-face-1782777600000-2",

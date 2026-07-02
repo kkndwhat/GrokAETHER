@@ -1,19 +1,8 @@
 {
-  "lastUpdated": "2026-07-02T09:23:29.869Z",
+  "lastUpdated": "2026-07-02T14:17:01.516Z",
   "source": "AETHER + Public RSS (arXiv, Hugging Face, MarkTechPost, Ben's Bites)",
-  "count": 16,
+  "count": 12,
   "articles": [
-    {
-      "id": "marktechpost-1782982016000-0",
-      "type": "live",
-      "category": "research",
-      "title": "The Google Health API Got a CLI: ghealth is an Open-Source Tool for Your Fitbit Air Data",
-      "excerpt": "The Google Health API now has an open-source CLI.  ghealth is a single Go binary that exposes 40 data types as agent-ready JSON",
-      "source": "MarkTechPost",
-      "url": "https://www.marktechpost.com/2026/07/02/the-google-health-api-got-a-cli-ghealth-is-an-open-source-tool-for-your-fitbit-air-data/",
-      "publishedAt": "2026-07-02T08:46:56.000Z",
-      "impact": 65
-    },
     {
       "id": "aether-grok43",
       "type": "premium",
@@ -22,8 +11,19 @@
       "excerpt": "New model demonstrates 4.2× improvement on multi-step software engineering benchmarks and sustains coherent agent trajectories beyond 110k tokens.",
       "source": "xAI",
       "url": "https://x.ai/blog/grok-4.3",
-      "publishedAt": "2026-07-02T04:23:28.897Z",
+      "publishedAt": "2026-07-02T09:17:01.228Z",
       "impact": 96
+    },
+    {
+      "id": "aether-figure03",
+      "type": "premium",
+      "category": "robotics",
+      "title": "Figure 03 completes 43-hour autonomous factory shift with zero interventions",
+      "excerpt": "Humanoid achieves new milestone in unsupervised operation, performing 1,240 unique tasks across three assembly lines at the BMW South Carolina plant.",
+      "source": "Figure AI",
+      "url": "https://figure.ai/news/03-milestone",
+      "publishedAt": "2026-07-02T05:17:01.228Z",
+      "impact": 89
     },
     {
       "id": "arxiv-cs.ai-1782964800000-0",
@@ -92,39 +92,6 @@
       "impact": 58
     },
     {
-      "id": "aether-figure03",
-      "type": "premium",
-      "category": "robotics",
-      "title": "Figure 03 completes 43-hour autonomous factory shift with zero interventions",
-      "excerpt": "Humanoid achieves new milestone in unsupervised operation, performing 1,240 unique tasks across three assembly lines at the BMW South Carolina plant.",
-      "source": "Figure AI",
-      "url": "https://figure.ai/news/03-milestone",
-      "publishedAt": "2026-07-02T00:23:28.897Z",
-      "impact": 89
-    },
-    {
-      "id": "marktechpost-1782940193000-1",
-      "type": "live",
-      "category": "hardware",
-      "title": "Using Lift to Turn Research PDFs into Structured JSON with Controlled, Schema-Guided Field-Level Evaluation",
-      "excerpt": "In this tutorial, we build a full PDF-to-structured-data workflow around Lift, built for controlled evaluation rather than a one-off demo.  We prepare a Colab GPU environment, load Lift in 4-bit NF4, and generate synt...",
-      "source": "MarkTechPost",
-      "url": "https://www.marktechpost.com/2026/07/01/using-lift-to-turn-research-pdfs-into-structured-json-with-controlled-schema-guided-field-level-evaluation/",
-      "publishedAt": "2026-07-01T21:09:53.000Z",
-      "impact": 65
-    },
-    {
-      "id": "marktechpost-1782938516000-2",
-      "type": "live",
-      "category": "safety",
-      "title": "Anthropic Redeploys Claude Fable 5 on July 1 After US Export Controls Lift, Adds New Cybersecurity Classifier",
-      "excerpt": "Anthropic is redeploying Claude Fable 5 on July 1 after US export controls were lifted.  A new safety classifier blocks the technique in the Amazon report over 99% of the time, routing flagged requests to Opus 4",
-      "source": "MarkTechPost",
-      "url": "https://www.marktechpost.com/2026/07/01/anthropic-redeploys-claude-fable-5-on-july-1-after-us-export-controls-lift-adds-new-cybersecurity-classifier/",
-      "publishedAt": "2026-07-01T20:41:56.000Z",
-      "impact": 65
-    },
-    {
       "id": "aether-interp",
       "type": "premium",
       "category": "safety",
@@ -132,19 +99,8 @@
       "excerpt": "Researchers reverse-engineered 312 million features inside the model, including the first clear \"deception circuit\" discovered in a frontier model.",
       "source": "Anthropic",
       "url": "https://anthropic.com/research/claude-4-interp",
-      "publishedAt": "2026-07-01T19:23:28.897Z",
+      "publishedAt": "2026-07-02T00:17:01.228Z",
       "impact": 91
-    },
-    {
-      "id": "marktechpost-1782893417000-3",
-      "type": "live",
-      "category": "llm",
-      "title": "NVIDIA Releases Nemotron-Labs-TwoTower: an Open-Weight Diffusion Language Model Built on a Frozen Autoregressive Nemotron-3-Nano-30B-A3B Backbone",
-      "excerpt": "NVIDIA has released Nemotron-Labs-TwoTower, a diffusion language model built on a pretrained autoregressive backbone.  It ships as open weights under the NVIDIA Nemotron Open Model License",
-      "source": "MarkTechPost",
-      "url": "https://www.marktechpost.com/2026/07/01/nvidia-releases-nemotron-labs-twotower/",
-      "publishedAt": "2026-07-01T08:10:17.000Z",
-      "impact": 65
     },
     {
       "id": "hugging-face-1782864000000-0",

@@ -1,10 +1,98 @@
 {
-  "lastUpdated": "2026-07-03T03:49:39.994Z",
+  "lastUpdated": "2026-07-03T09:28:06.567Z",
   "source": "AETHER + Public RSS (arXiv, Hugging Face, MarkTechPost, Ben's Bites)",
   "count": 16,
   "articles": [
     {
-      "id": "marktechpost-1783049063000-0",
+      "id": "marktechpost-1783058147000-0",
+      "type": "live",
+      "category": "llm",
+      "title": "Meet WebBrain: An Open-Source, Local-First AI Browser Agent That Reads Pages and Automates Tasks in Chrome and Firefox",
+      "excerpt": "WebBrain is a free, MIT-licensed AI browser agent for Chrome and Firefox.  It reads pages, extracts data, and automates multi-step tasks through Ask and Act modes",
+      "source": "MarkTechPost",
+      "url": "https://www.marktechpost.com/2026/07/02/meet-webbrain-an-open-source-local-first-ai-browser-agent-that-reads-pages-and-automates-tasks-in-chrome-and-firefox/",
+      "publishedAt": "2026-07-03T05:55:47.000Z",
+      "impact": 77
+    },
+    {
+      "id": "aether-grok43",
+      "type": "premium",
+      "category": "llm",
+      "title": "xAI releases Grok-4.3 with native long-horizon agent scaffolding",
+      "excerpt": "New model demonstrates 4.2× improvement on multi-step software engineering benchmarks and sustains coherent agent trajectories beyond 110k tokens.",
+      "source": "xAI",
+      "url": "https://x.ai/blog/grok-4.3",
+      "publishedAt": "2026-07-03T04:28:05.260Z",
+      "impact": 96
+    },
+    {
+      "id": "arxiv-cs.ai-1783051200000-0",
+      "type": "live",
+      "category": "safety",
+      "title": "PACE: A Neuro-Symbolic Framework for Plausible and Actionable Counterfactual Explanations",
+      "excerpt": "01306v1 Announce Type: new Abstract: Counterfactual explanations explain machine learning predictions by identifying minimal input changes that would alter a model's decision.  Although many existing methods successfu...",
+      "source": "arXiv cs.AI",
+      "url": "https://arxiv.org/abs/2607.01306",
+      "publishedAt": "2026-07-03T04:00:00.000Z",
+      "impact": 58
+    },
+    {
+      "id": "arxiv-cs.ai-1783051200000-1",
+      "type": "live",
+      "category": "llm",
+      "title": "Auto-FL-Research: Agentic Search for Federated Learning Algorithms",
+      "excerpt": "01366v1 Announce Type: new Abstract: Federated learning (FL) research often depends on many small but consequential algorithmic choices: optimizer variants, server aggregation rules, local training schedules, normaliz...",
+      "source": "arXiv cs.AI",
+      "url": "https://arxiv.org/abs/2607.01366",
+      "publishedAt": "2026-07-03T04:00:00.000Z",
+      "impact": 69
+    },
+    {
+      "id": "arxiv-cs.ai-1783051200000-2",
+      "type": "live",
+      "category": "llm",
+      "title": "The Wiola Architecture for Efficient Small Language Models",
+      "excerpt": "01394v1 Announce Type: new Abstract: We present Wiola, a fully original Small Language Model (SLM) architecture built from first principles, sharing no structural lineage with any existing model family including GPT, ...",
+      "source": "arXiv cs.AI",
+      "url": "https://arxiv.org/abs/2607.01394",
+      "publishedAt": "2026-07-03T04:00:00.000Z",
+      "impact": 58
+    },
+    {
+      "id": "arxiv-cs.ai-1783051200000-3",
+      "type": "live",
+      "category": "llm",
+      "title": "Agent4cs: A Multi-agent System for Code Summarization in Large Hierarchical Codebases",
+      "excerpt": "01425v1 Announce Type: new Abstract: Understanding large, complex codebases, especially those with obfuscated structures and incomplete documentation, remains a significant challenge.  Existing code summarization solu...",
+      "source": "arXiv cs.AI",
+      "url": "https://arxiv.org/abs/2607.01425",
+      "publishedAt": "2026-07-03T04:00:00.000Z",
+      "impact": 69
+    },
+    {
+      "id": "arxiv-cs.ai-1783051200000-4",
+      "type": "live",
+      "category": "research",
+      "title": "When Should Service Agents Reconsider? Difficulty-Routed Control in Customer-Service Operations",
+      "excerpt": "01426v1 Announce Type: new Abstract: Autonomous customer-service agents are shifting from conversational interfaces toward operational execution roles: they retrieve firm records, apply service policies, and execute b...",
+      "source": "arXiv cs.AI",
+      "url": "https://arxiv.org/abs/2607.01426",
+      "publishedAt": "2026-07-03T04:00:00.000Z",
+      "impact": 69
+    },
+    {
+      "id": "arxiv-cs.ai-1783051200000-5",
+      "type": "live",
+      "category": "llm",
+      "title": "CreativityNeuro: Steering Language Model Weights to Improve Divergent Thinking and Reduce Mode Collapse",
+      "excerpt": "01433v1 Announce Type: new Abstract: Divergent thinking is a crucial aspect of creativity, yet large language models (LLMs) tend to consistently generate similar responses to open-ended questions, in what has been ter...",
+      "source": "arXiv cs.AI",
+      "url": "https://arxiv.org/abs/2607.01433",
+      "publishedAt": "2026-07-03T04:00:00.000Z",
+      "impact": 58
+    },
+    {
+      "id": "marktechpost-1783049063000-1",
       "type": "live",
       "category": "multimodal",
       "title": "Interfaze Ships diffusion-gemma-asr-small, an Open-Source Diffusion ASR Model Transcribing Six Languages via DiffusionGemma’s Parallel Denoising Decoder",
@@ -15,18 +103,18 @@
       "impact": 65
     },
     {
-      "id": "aether-grok43",
+      "id": "aether-figure03",
       "type": "premium",
-      "category": "llm",
-      "title": "xAI releases Grok-4.3 with native long-horizon agent scaffolding",
-      "excerpt": "New model demonstrates 4.2× improvement on multi-step software engineering benchmarks and sustains coherent agent trajectories beyond 110k tokens.",
-      "source": "xAI",
-      "url": "https://x.ai/blog/grok-4.3",
-      "publishedAt": "2026-07-02T22:49:38.494Z",
-      "impact": 96
+      "category": "robotics",
+      "title": "Figure 03 completes 43-hour autonomous factory shift with zero interventions",
+      "excerpt": "Humanoid achieves new milestone in unsupervised operation, performing 1,240 unique tasks across three assembly lines at the BMW South Carolina plant.",
+      "source": "Figure AI",
+      "url": "https://figure.ai/news/03-milestone",
+      "publishedAt": "2026-07-03T00:28:05.260Z",
+      "impact": 89
     },
     {
-      "id": "marktechpost-1783028314000-1",
+      "id": "marktechpost-1783028314000-2",
       "type": "live",
       "category": "robotics",
       "title": "RAG-Anything Tutorial: Build a Multimodal Retrieval Pipeline for Text, Tables, Equations, and Images in Colab",
@@ -37,7 +125,7 @@
       "impact": 65
     },
     {
-      "id": "marktechpost-1783025499000-2",
+      "id": "marktechpost-1783025499000-3",
       "type": "live",
       "category": "multimodal",
       "title": "Meet Alibaba’s Page Agent: A JavaScript In-Page GUI Agent That Controls Web Interfaces With Natural Language Through the DOM",
@@ -48,17 +136,6 @@
       "impact": 77
     },
     {
-      "id": "aether-figure03",
-      "type": "premium",
-      "category": "robotics",
-      "title": "Figure 03 completes 43-hour autonomous factory shift with zero interventions",
-      "excerpt": "Humanoid achieves new milestone in unsupervised operation, performing 1,240 unique tasks across three assembly lines at the BMW South Carolina plant.",
-      "source": "Figure AI",
-      "url": "https://figure.ai/news/03-milestone",
-      "publishedAt": "2026-07-02T18:49:38.494Z",
-      "impact": 89
-    },
-    {
       "id": "aether-interp",
       "type": "premium",
       "category": "safety",
@@ -66,85 +143,8 @@
       "excerpt": "Researchers reverse-engineered 312 million features inside the model, including the first clear \"deception circuit\" discovered in a frontier model.",
       "source": "Anthropic",
       "url": "https://anthropic.com/research/claude-4-interp",
-      "publishedAt": "2026-07-02T13:49:38.494Z",
+      "publishedAt": "2026-07-02T19:28:05.260Z",
       "impact": 91
-    },
-    {
-      "id": "marktechpost-1782982016000-3",
-      "type": "live",
-      "category": "research",
-      "title": "The Google Health API Got a CLI: ghealth is an Open-Source Tool for Your Fitbit Air Data",
-      "excerpt": "The Google Health API now has an open-source CLI.  ghealth is a single Go binary that exposes 40 data types as agent-ready JSON",
-      "source": "MarkTechPost",
-      "url": "https://www.marktechpost.com/2026/07/02/the-google-health-api-got-a-cli-ghealth-is-an-open-source-tool-for-your-fitbit-air-data/",
-      "publishedAt": "2026-07-02T08:46:56.000Z",
-      "impact": 65
-    },
-    {
-      "id": "arxiv-cs.ai-1782964800000-0",
-      "type": "live",
-      "category": "safety",
-      "title": "Constructive Alignment: Governing Preference Dynamics in Human-AI Interaction",
-      "excerpt": "00001v1 Announce Type: new Abstract: Most approaches to AI alignment treat human preferences as fixed targets to be inferred and optimized.  This assumption conflicts with extensive empirical evidence showing that pre...",
-      "source": "arXiv cs.AI",
-      "url": "https://arxiv.org/abs/2607.00001",
-      "publishedAt": "2026-07-02T04:00:00.000Z",
-      "impact": 58
-    },
-    {
-      "id": "arxiv-cs.ai-1782964800000-1",
-      "type": "live",
-      "category": "safety",
-      "title": "Bounded Morality: Defining the Space of Moral Computation",
-      "excerpt": "00002v1 Announce Type: new Abstract: Moral cognition has traditionally been modeled as adherence to fixed ethical theories--deontology, consequentialism, virtue ethics--implemented as static rules or value functions. ...",
-      "source": "arXiv cs.AI",
-      "url": "https://arxiv.org/abs/2607.00002",
-      "publishedAt": "2026-07-02T04:00:00.000Z",
-      "impact": 58
-    },
-    {
-      "id": "arxiv-cs.ai-1782964800000-2",
-      "type": "live",
-      "category": "llm",
-      "title": "The MMM Data Model -- A Normative Specification for Knowledge Interoperability in a Decentralisable Knowledge Commons",
-      "excerpt": "00032v2 Announce Type: new Abstract: Many information systems are built around documents: self-contained units optimised for print production and linear reading.  While effective for large-scale dissemination, the doc...",
-      "source": "arXiv cs.AI",
-      "url": "https://arxiv.org/abs/2607.00032",
-      "publishedAt": "2026-07-02T04:00:00.000Z",
-      "impact": 58
-    },
-    {
-      "id": "arxiv-cs.ai-1782964800000-3",
-      "type": "live",
-      "category": "llm",
-      "title": "Making Failure Safe: A Constrained, Verifiable Agent Framework for Open-Web Data Collection",
-      "excerpt": "00035v1 Announce Type: new Abstract: LLMs and agents can generate web scrapers from natural-language requirements, but direct generation remains unreliable because of dependency errors, broken selectors, schema mismat...",
-      "source": "arXiv cs.AI",
-      "url": "https://arxiv.org/abs/2607.00035",
-      "publishedAt": "2026-07-02T04:00:00.000Z",
-      "impact": 69
-    },
-    {
-      "id": "arxiv-cs.ai-1782964800000-4",
-      "type": "live",
-      "category": "safety",
-      "title": "Solution space path planning for supporting en-route air traffic control",
-      "excerpt": "00064v1 Announce Type: new Abstract: As technology advances, many path-planning algorithms have been proposed for Air Traffic Management, yet their operational adoption in tactical control remains limited, revealing a...",
-      "source": "arXiv cs.AI",
-      "url": "https://arxiv.org/abs/2607.00064",
-      "publishedAt": "2026-07-02T04:00:00.000Z",
-      "impact": 58
-    },
-    {
-      "id": "arxiv-cs.ai-1782964800000-5",
-      "type": "live",
-      "category": "llm",
-      "title": "RareDxR1: Autonomous Medical Reasoning for Rare Disease Diagnosis Beyond Human Annotation",
-      "excerpt": "00147v1 Announce Type: new Abstract: Rare disease differential diagnosis is a critical yet arduous clinical task, requiring physicians to identify precise phenotypes from complex, unstructured patient symptoms and exe...",
-      "source": "arXiv cs.AI",
-      "url": "https://arxiv.org/abs/2607.00147",
-      "publishedAt": "2026-07-02T04:00:00.000Z",
-      "impact": 58
     },
     {
       "id": "hugging-face-1782864000000-0",

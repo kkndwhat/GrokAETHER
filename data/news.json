@@ -1,7 +1,7 @@
 {
-  "lastUpdated": "2026-07-03T14:21:47.950Z",
+  "lastUpdated": "2026-07-04T08:45:14.507Z",
   "source": "AETHER + Public RSS (arXiv, Hugging Face, MarkTechPost, Ben's Bites)",
-  "count": 16,
+  "count": 6,
   "articles": [
     {
       "id": "aether-grok43",
@@ -11,19 +11,8 @@
       "excerpt": "New model demonstrates 4.2× improvement on multi-step software engineering benchmarks and sustains coherent agent trajectories beyond 110k tokens.",
       "source": "xAI",
       "url": "https://x.ai/blog/grok-4.3",
-      "publishedAt": "2026-07-03T09:21:47.422Z",
+      "publishedAt": "2026-07-04T03:45:14.228Z",
       "impact": 96
-    },
-    {
-      "id": "marktechpost-1783058147000-0",
-      "type": "live",
-      "category": "llm",
-      "title": "Meet WebBrain: An Open-Source, Local-First AI Browser Agent That Reads Pages and Automates Tasks in Chrome and Firefox",
-      "excerpt": "WebBrain is a free, MIT-licensed AI browser agent for Chrome and Firefox.  It reads pages, extracts data, and automates multi-step tasks through Ask and Act modes",
-      "source": "MarkTechPost",
-      "url": "https://www.marktechpost.com/2026/07/02/meet-webbrain-an-open-source-local-first-ai-browser-agent-that-reads-pages-and-automates-tasks-in-chrome-and-firefox/",
-      "publishedAt": "2026-07-03T05:55:47.000Z",
-      "impact": 77
     },
     {
       "id": "aether-figure03",
@@ -33,85 +22,8 @@
       "excerpt": "Humanoid achieves new milestone in unsupervised operation, performing 1,240 unique tasks across three assembly lines at the BMW South Carolina plant.",
       "source": "Figure AI",
       "url": "https://figure.ai/news/03-milestone",
-      "publishedAt": "2026-07-03T05:21:47.422Z",
+      "publishedAt": "2026-07-03T23:45:14.228Z",
       "impact": 89
-    },
-    {
-      "id": "arxiv-cs.ai-1783051200000-0",
-      "type": "live",
-      "category": "safety",
-      "title": "PACE: A Neuro-Symbolic Framework for Plausible and Actionable Counterfactual Explanations",
-      "excerpt": "01306v1 Announce Type: new Abstract: Counterfactual explanations explain machine learning predictions by identifying minimal input changes that would alter a model's decision.  Although many existing methods successfu...",
-      "source": "arXiv cs.AI",
-      "url": "https://arxiv.org/abs/2607.01306",
-      "publishedAt": "2026-07-03T04:00:00.000Z",
-      "impact": 58
-    },
-    {
-      "id": "arxiv-cs.ai-1783051200000-1",
-      "type": "live",
-      "category": "llm",
-      "title": "Auto-FL-Research: Agentic Search for Federated Learning Algorithms",
-      "excerpt": "01366v1 Announce Type: new Abstract: Federated learning (FL) research often depends on many small but consequential algorithmic choices: optimizer variants, server aggregation rules, local training schedules, normaliz...",
-      "source": "arXiv cs.AI",
-      "url": "https://arxiv.org/abs/2607.01366",
-      "publishedAt": "2026-07-03T04:00:00.000Z",
-      "impact": 69
-    },
-    {
-      "id": "arxiv-cs.ai-1783051200000-2",
-      "type": "live",
-      "category": "llm",
-      "title": "The Wiola Architecture for Efficient Small Language Models",
-      "excerpt": "01394v1 Announce Type: new Abstract: We present Wiola, a fully original Small Language Model (SLM) architecture built from first principles, sharing no structural lineage with any existing model family including GPT, ...",
-      "source": "arXiv cs.AI",
-      "url": "https://arxiv.org/abs/2607.01394",
-      "publishedAt": "2026-07-03T04:00:00.000Z",
-      "impact": 58
-    },
-    {
-      "id": "arxiv-cs.ai-1783051200000-3",
-      "type": "live",
-      "category": "llm",
-      "title": "Agent4cs: A Multi-agent System for Code Summarization in Large Hierarchical Codebases",
-      "excerpt": "01425v1 Announce Type: new Abstract: Understanding large, complex codebases, especially those with obfuscated structures and incomplete documentation, remains a significant challenge.  Existing code summarization solu...",
-      "source": "arXiv cs.AI",
-      "url": "https://arxiv.org/abs/2607.01425",
-      "publishedAt": "2026-07-03T04:00:00.000Z",
-      "impact": 69
-    },
-    {
-      "id": "arxiv-cs.ai-1783051200000-4",
-      "type": "live",
-      "category": "research",
-      "title": "When Should Service Agents Reconsider? Difficulty-Routed Control in Customer-Service Operations",
-      "excerpt": "01426v1 Announce Type: new Abstract: Autonomous customer-service agents are shifting from conversational interfaces toward operational execution roles: they retrieve firm records, apply service policies, and execute b...",
-      "source": "arXiv cs.AI",
-      "url": "https://arxiv.org/abs/2607.01426",
-      "publishedAt": "2026-07-03T04:00:00.000Z",
-      "impact": 69
-    },
-    {
-      "id": "arxiv-cs.ai-1783051200000-5",
-      "type": "live",
-      "category": "llm",
-      "title": "CreativityNeuro: Steering Language Model Weights to Improve Divergent Thinking and Reduce Mode Collapse",
-      "excerpt": "01433v1 Announce Type: new Abstract: Divergent thinking is a crucial aspect of creativity, yet large language models (LLMs) tend to consistently generate similar responses to open-ended questions, in what has been ter...",
-      "source": "arXiv cs.AI",
-      "url": "https://arxiv.org/abs/2607.01433",
-      "publishedAt": "2026-07-03T04:00:00.000Z",
-      "impact": 58
-    },
-    {
-      "id": "marktechpost-1783049063000-1",
-      "type": "live",
-      "category": "multimodal",
-      "title": "Interfaze Ships diffusion-gemma-asr-small, an Open-Source Diffusion ASR Model Transcribing Six Languages via DiffusionGemma’s Parallel Denoising Decoder",
-      "excerpt": "Interfaze open-sourced diffusion-gemma-asr-small, a multilingual ASR model that transcribes via diffusion, not autoregression.  It adds audio to Google's frozen DiffusionGemma using a ~42M-parameter adapter",
-      "source": "MarkTechPost",
-      "url": "https://www.marktechpost.com/2026/07/02/interfaze-ships-diffusion-gemma-asr-small-an-open-source-diffusion-asr-model-transcribing-six-languages-via-diffusiongemmas-parallel-denoising-decoder/",
-      "publishedAt": "2026-07-03T03:24:23.000Z",
-      "impact": 65
     },
     {
       "id": "aether-interp",
@@ -121,30 +33,8 @@
       "excerpt": "Researchers reverse-engineered 312 million features inside the model, including the first clear \"deception circuit\" discovered in a frontier model.",
       "source": "Anthropic",
       "url": "https://anthropic.com/research/claude-4-interp",
-      "publishedAt": "2026-07-03T00:21:47.422Z",
+      "publishedAt": "2026-07-03T18:45:14.228Z",
       "impact": 91
-    },
-    {
-      "id": "marktechpost-1783028314000-2",
-      "type": "live",
-      "category": "robotics",
-      "title": "RAG-Anything Tutorial: Build a Multimodal Retrieval Pipeline for Text, Tables, Equations, and Images in Colab",
-      "excerpt": "In this tutorial, we build a RAG-Anything workflow to explore how multimodal retrieval works across text, tables, equations, and images.  We prepare a Colab environment, enter our OpenAI API key at runtime, and genera...",
-      "source": "MarkTechPost",
-      "url": "https://www.marktechpost.com/2026/07/02/rag-anything-tutorial-build-a-multimodal-retrieval-pipeline-for-text-tables-equations-and-images-in-colab/",
-      "publishedAt": "2026-07-02T21:38:34.000Z",
-      "impact": 65
-    },
-    {
-      "id": "marktechpost-1783025499000-3",
-      "type": "live",
-      "category": "multimodal",
-      "title": "Meet Alibaba’s Page Agent: A JavaScript In-Page GUI Agent That Controls Web Interfaces With Natural Language Through the DOM",
-      "excerpt": "Alibaba's Page Agent runs as client-side JavaScript inside the webpage.  It reads the live DOM as text, then clicks and types from natural-language commands",
-      "source": "MarkTechPost",
-      "url": "https://www.marktechpost.com/2026/07/02/meet-alibabas-page-agent-a-javascript-in-page-gui-agent-that-controls-web-interfaces-with-natural-language-through-the-dom/",
-      "publishedAt": "2026-07-02T20:51:39.000Z",
-      "impact": 77
     },
     {
       "id": "hugging-face-1782864000000-0",

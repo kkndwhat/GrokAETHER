@@ -1,8 +1,30 @@
 {
-  "lastUpdated": "2026-07-04T13:46:43.774Z",
+  "lastUpdated": "2026-07-04T19:22:50.492Z",
   "source": "AETHER + Public RSS (arXiv, Hugging Face, MarkTechPost, Ben's Bites)",
-  "count": 6,
+  "count": 10,
   "articles": [
+    {
+      "id": "marktechpost-1783182081000-0",
+      "type": "live",
+      "category": "robotics",
+      "title": "Anthropic Launches Claude Science Beta: A Multi-Agent AI Workbench for Reproducible Genomics, Proteomics, and Cheminformatics Pipelines",
+      "excerpt": "Anthropic released Claude Science in beta on June 30, 2026.  The app runs on existing Claude models",
+      "source": "MarkTechPost",
+      "url": "https://www.marktechpost.com/2026/07/04/anthropic-launches-claude-science-beta/",
+      "publishedAt": "2026-07-04T16:21:21.000Z",
+      "impact": 77
+    },
+    {
+      "id": "marktechpost-1783181069000-1",
+      "type": "live",
+      "category": "research",
+      "title": "NVIDIA HORIZON: A Hands-Free Agent that Evolves Git Worktrees and Hits 100% RTL Benchmark Completion",
+      "excerpt": "A hands-free NVIDIA agent framework hosts each RTL problem as a versioned repository, reaching 100% completion across benchmarks.  The post NVIDIA HORIZON: A Hands-Free Agent that Evolves Git Worktrees and Hits 100% R...",
+      "source": "MarkTechPost",
+      "url": "https://www.marktechpost.com/2026/07/04/nvidia-horizon-a-hands-free-agent-that-evolves-git-worktrees-and-hits-100-rtl-benchmark-completion/",
+      "publishedAt": "2026-07-04T16:04:29.000Z",
+      "impact": 77
+    },
     {
       "id": "aether-grok43",
       "type": "premium",
@@ -11,7 +33,7 @@
       "excerpt": "New model demonstrates 4.2× improvement on multi-step software engineering benchmarks and sustains coherent agent trajectories beyond 110k tokens.",
       "source": "xAI",
       "url": "https://x.ai/blog/grok-4.3",
-      "publishedAt": "2026-07-04T08:46:43.386Z",
+      "publishedAt": "2026-07-04T14:22:49.588Z",
       "impact": 96
     },
     {
@@ -22,8 +44,19 @@
       "excerpt": "Humanoid achieves new milestone in unsupervised operation, performing 1,240 unique tasks across three assembly lines at the BMW South Carolina plant.",
       "source": "Figure AI",
       "url": "https://figure.ai/news/03-milestone",
-      "publishedAt": "2026-07-04T04:46:43.387Z",
+      "publishedAt": "2026-07-04T10:22:49.588Z",
       "impact": 89
+    },
+    {
+      "id": "marktechpost-1783146767000-2",
+      "type": "live",
+      "category": "robotics",
+      "title": "NVIDIA AI Introduces ASPIRE: A Self-Improving Robotics Framework Reaching 31% Zero-Shot on LIBERO-Pro Long Tasks",
+      "excerpt": "NVIDIA's ASPIRE writes and refines robot control programs, then distills validated repairs into a reusable skill library.  It gains up to 77 points on LIBERO-Pro and transfers zero-shot to unseen long-horizon tasks",
+      "source": "MarkTechPost",
+      "url": "https://www.marktechpost.com/2026/07/03/nvidia-ai-introduces-aspire-a-self-improving-robotics-framework-reaching-31-zero-shot-on-libero-pro-long-tasks/",
+      "publishedAt": "2026-07-04T06:32:47.000Z",
+      "impact": 65
     },
     {
       "id": "aether-interp",
@@ -33,8 +66,19 @@
       "excerpt": "Researchers reverse-engineered 312 million features inside the model, including the first clear \"deception circuit\" discovered in a frontier model.",
       "source": "Anthropic",
       "url": "https://anthropic.com/research/claude-4-interp",
-      "publishedAt": "2026-07-03T23:46:43.387Z",
+      "publishedAt": "2026-07-04T05:22:49.588Z",
       "impact": 91
+    },
+    {
+      "id": "marktechpost-1783117226000-3",
+      "type": "live",
+      "category": "llm",
+      "title": "Mistral AI Releases Leanstral 1.5: An Apache-2.0 Lean 4 Code Agent Model Solving 587 of 672 PutnamBench Problems",
+      "excerpt": "Mistral AI released Leanstral 1. 0 code agent model for Lean 4",
+      "source": "MarkTechPost",
+      "url": "https://www.marktechpost.com/2026/07/03/mistral-ai-releases-leanstral-1-5-an-apache-2-0-lean-4-code-agent-model-solving-587-of-672-putnambench-problems/",
+      "publishedAt": "2026-07-03T22:20:26.000Z",
+      "impact": 77
     },
     {
       "id": "hugging-face-1782864000000-0",

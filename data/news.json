@@ -1,28 +1,17 @@
 {
-  "lastUpdated": "2026-07-04T19:22:50.492Z",
+  "lastUpdated": "2026-07-05T09:13:49.368Z",
   "source": "AETHER + Public RSS (arXiv, Hugging Face, MarkTechPost, Ben's Bites)",
   "count": 10,
   "articles": [
     {
-      "id": "marktechpost-1783182081000-0",
+      "id": "marktechpost-1783237819000-0",
       "type": "live",
-      "category": "robotics",
-      "title": "Anthropic Launches Claude Science Beta: A Multi-Agent AI Workbench for Reproducible Genomics, Proteomics, and Cheminformatics Pipelines",
-      "excerpt": "Anthropic released Claude Science in beta on June 30, 2026.  The app runs on existing Claude models",
+      "category": "llm",
+      "title": "LlamaIndex ‘legal-kb’: Agentic Retrieval over Index v2 with retrieve, find, read, and grep Tools",
+      "excerpt": "LlamaIndex’s legal-kb is a public reference app that gives agents filesystem-style access to a document knowledge base on Index v2.  It exposes retrieve (hybrid semantic search), find, read, and grep as tools, with au...",
       "source": "MarkTechPost",
-      "url": "https://www.marktechpost.com/2026/07/04/anthropic-launches-claude-science-beta/",
-      "publishedAt": "2026-07-04T16:21:21.000Z",
-      "impact": 77
-    },
-    {
-      "id": "marktechpost-1783181069000-1",
-      "type": "live",
-      "category": "research",
-      "title": "NVIDIA HORIZON: A Hands-Free Agent that Evolves Git Worktrees and Hits 100% RTL Benchmark Completion",
-      "excerpt": "A hands-free NVIDIA agent framework hosts each RTL problem as a versioned repository, reaching 100% completion across benchmarks.  The post NVIDIA HORIZON: A Hands-Free Agent that Evolves Git Worktrees and Hits 100% R...",
-      "source": "MarkTechPost",
-      "url": "https://www.marktechpost.com/2026/07/04/nvidia-horizon-a-hands-free-agent-that-evolves-git-worktrees-and-hits-100-rtl-benchmark-completion/",
-      "publishedAt": "2026-07-04T16:04:29.000Z",
+      "url": "https://www.marktechpost.com/2026/07/05/llamaindex-legal-kb-agentic-retrieval-over-index-v2-with-retrieve-find-read-and-grep-tools/",
+      "publishedAt": "2026-07-05T07:50:19.000Z",
       "impact": 77
     },
     {
@@ -33,8 +22,30 @@
       "excerpt": "New model demonstrates 4.2× improvement on multi-step software engineering benchmarks and sustains coherent agent trajectories beyond 110k tokens.",
       "source": "xAI",
       "url": "https://x.ai/blog/grok-4.3",
-      "publishedAt": "2026-07-04T14:22:49.588Z",
+      "publishedAt": "2026-07-05T04:13:47.531Z",
       "impact": 96
+    },
+    {
+      "id": "marktechpost-1783220528000-1",
+      "type": "live",
+      "category": "hardware",
+      "title": "Structured PDF-to-JSON: A Guide to Open-Source Extraction Models in 2026",
+      "excerpt": "Most enterprise data still sits inside PDFs, scans, and slide decks.  Large language models and agents cannot use that data until it becomes structured JSON",
+      "source": "MarkTechPost",
+      "url": "https://www.marktechpost.com/2026/07/04/structured-pdf-to-json-a-guide-to-open-source-extraction-models-in-2026/",
+      "publishedAt": "2026-07-05T03:02:08.000Z",
+      "impact": 65
+    },
+    {
+      "id": "marktechpost-1783218674000-2",
+      "type": "live",
+      "category": "llm",
+      "title": "Qwen’s Former Lead on What Hybrid Thinking Got Wrong — and Why He Now Backs Agents",
+      "excerpt": "Junyang Lin, the former technical lead of Alibaba's Qwen, walked through the model family in a talk \"towards a generalist model / agent,\" then expanded it in an essay.  We read both for practitioners: Qwen3 hybrid thi...",
+      "source": "MarkTechPost",
+      "url": "https://www.marktechpost.com/2026/07/04/qwens-former-lead-on-what-hybrid-thinking-got-wrong-and-why-he-now-backs-agents/",
+      "publishedAt": "2026-07-05T02:31:14.000Z",
+      "impact": 77
     },
     {
       "id": "aether-figure03",
@@ -44,19 +55,8 @@
       "excerpt": "Humanoid achieves new milestone in unsupervised operation, performing 1,240 unique tasks across three assembly lines at the BMW South Carolina plant.",
       "source": "Figure AI",
       "url": "https://figure.ai/news/03-milestone",
-      "publishedAt": "2026-07-04T10:22:49.588Z",
+      "publishedAt": "2026-07-05T00:13:47.531Z",
       "impact": 89
-    },
-    {
-      "id": "marktechpost-1783146767000-2",
-      "type": "live",
-      "category": "robotics",
-      "title": "NVIDIA AI Introduces ASPIRE: A Self-Improving Robotics Framework Reaching 31% Zero-Shot on LIBERO-Pro Long Tasks",
-      "excerpt": "NVIDIA's ASPIRE writes and refines robot control programs, then distills validated repairs into a reusable skill library.  It gains up to 77 points on LIBERO-Pro and transfers zero-shot to unseen long-horizon tasks",
-      "source": "MarkTechPost",
-      "url": "https://www.marktechpost.com/2026/07/03/nvidia-ai-introduces-aspire-a-self-improving-robotics-framework-reaching-31-zero-shot-on-libero-pro-long-tasks/",
-      "publishedAt": "2026-07-04T06:32:47.000Z",
-      "impact": 65
     },
     {
       "id": "aether-interp",
@@ -66,18 +66,18 @@
       "excerpt": "Researchers reverse-engineered 312 million features inside the model, including the first clear \"deception circuit\" discovered in a frontier model.",
       "source": "Anthropic",
       "url": "https://anthropic.com/research/claude-4-interp",
-      "publishedAt": "2026-07-04T05:22:49.588Z",
+      "publishedAt": "2026-07-04T19:13:47.531Z",
       "impact": 91
     },
     {
-      "id": "marktechpost-1783117226000-3",
+      "id": "marktechpost-1783182081000-3",
       "type": "live",
-      "category": "llm",
-      "title": "Mistral AI Releases Leanstral 1.5: An Apache-2.0 Lean 4 Code Agent Model Solving 587 of 672 PutnamBench Problems",
-      "excerpt": "Mistral AI released Leanstral 1. 0 code agent model for Lean 4",
+      "category": "robotics",
+      "title": "Anthropic Launches Claude Science Beta: A Multi-Agent AI Workbench for Reproducible Genomics, Proteomics, and Cheminformatics Pipelines",
+      "excerpt": "Anthropic released Claude Science in beta on June 30, 2026.  The app runs on existing Claude models",
       "source": "MarkTechPost",
-      "url": "https://www.marktechpost.com/2026/07/03/mistral-ai-releases-leanstral-1-5-an-apache-2-0-lean-4-code-agent-model-solving-587-of-672-putnambench-problems/",
-      "publishedAt": "2026-07-03T22:20:26.000Z",
+      "url": "https://www.marktechpost.com/2026/07/04/anthropic-launches-claude-science-beta/",
+      "publishedAt": "2026-07-04T16:21:21.000Z",
       "impact": 77
     },
     {

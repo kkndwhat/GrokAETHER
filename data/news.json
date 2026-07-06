@@ -1,8 +1,19 @@
 {
-  "lastUpdated": "2026-07-05T19:26:18.122Z",
+  "lastUpdated": "2026-07-06T04:06:45.999Z",
   "source": "AETHER + Public RSS (arXiv, Hugging Face, MarkTechPost, Ben's Bites)",
-  "count": 10,
+  "count": 6,
   "articles": [
+    {
+      "id": "hugging-face-1783296000000-0",
+      "type": "live",
+      "category": "research",
+      "title": "🤗 Kernels: Major Updates",
+      "excerpt": "New development from the frontier.",
+      "source": "Hugging Face",
+      "url": "https://huggingface.co/blog/revamped-kernels",
+      "publishedAt": "2026-07-06T00:00:00.000Z",
+      "impact": 75
+    },
     {
       "id": "aether-grok43",
       "type": "premium",
@@ -11,7 +22,7 @@
       "excerpt": "New model demonstrates 4.2× improvement on multi-step software engineering benchmarks and sustains coherent agent trajectories beyond 110k tokens.",
       "source": "xAI",
       "url": "https://x.ai/blog/grok-4.3",
-      "publishedAt": "2026-07-05T14:26:16.978Z",
+      "publishedAt": "2026-07-05T23:06:45.666Z",
       "impact": 96
     },
     {
@@ -22,19 +33,8 @@
       "excerpt": "Humanoid achieves new milestone in unsupervised operation, performing 1,240 unique tasks across three assembly lines at the BMW South Carolina plant.",
       "source": "Figure AI",
       "url": "https://figure.ai/news/03-milestone",
-      "publishedAt": "2026-07-05T10:26:16.978Z",
+      "publishedAt": "2026-07-05T19:06:45.666Z",
       "impact": 89
-    },
-    {
-      "id": "marktechpost-1783237819000-0",
-      "type": "live",
-      "category": "llm",
-      "title": "LlamaIndex ‘legal-kb’: Agentic Retrieval over Index v2 with retrieve, find, read, and grep Tools",
-      "excerpt": "LlamaIndex’s legal-kb is a public reference app that gives agents filesystem-style access to a document knowledge base on Index v2.  It exposes retrieve (hybrid semantic search), find, read, and grep as tools, with au...",
-      "source": "MarkTechPost",
-      "url": "https://www.marktechpost.com/2026/07/05/llamaindex-legal-kb-agentic-retrieval-over-index-v2-with-retrieve-find-read-and-grep-tools/",
-      "publishedAt": "2026-07-05T07:50:19.000Z",
-      "impact": 77
     },
     {
       "id": "aether-interp",
@@ -44,44 +44,11 @@
       "excerpt": "Researchers reverse-engineered 312 million features inside the model, including the first clear \"deception circuit\" discovered in a frontier model.",
       "source": "Anthropic",
       "url": "https://anthropic.com/research/claude-4-interp",
-      "publishedAt": "2026-07-05T05:26:16.978Z",
+      "publishedAt": "2026-07-05T14:06:45.666Z",
       "impact": 91
     },
     {
-      "id": "marktechpost-1783220528000-1",
-      "type": "live",
-      "category": "hardware",
-      "title": "Structured PDF-to-JSON: A Guide to Open-Source Extraction Models in 2026",
-      "excerpt": "Most enterprise data still sits inside PDFs, scans, and slide decks.  Large language models and agents cannot use that data until it becomes structured JSON",
-      "source": "MarkTechPost",
-      "url": "https://www.marktechpost.com/2026/07/04/structured-pdf-to-json-a-guide-to-open-source-extraction-models-in-2026/",
-      "publishedAt": "2026-07-05T03:02:08.000Z",
-      "impact": 65
-    },
-    {
-      "id": "marktechpost-1783218674000-2",
-      "type": "live",
-      "category": "llm",
-      "title": "Qwen’s Former Lead on What Hybrid Thinking Got Wrong — and Why He Now Backs Agents",
-      "excerpt": "Junyang Lin, the former technical lead of Alibaba's Qwen, walked through the model family in a talk \"towards a generalist model / agent,\" then expanded it in an essay.  We read both for practitioners: Qwen3 hybrid thi...",
-      "source": "MarkTechPost",
-      "url": "https://www.marktechpost.com/2026/07/04/qwens-former-lead-on-what-hybrid-thinking-got-wrong-and-why-he-now-backs-agents/",
-      "publishedAt": "2026-07-05T02:31:14.000Z",
-      "impact": 77
-    },
-    {
-      "id": "marktechpost-1783182081000-3",
-      "type": "live",
-      "category": "robotics",
-      "title": "Anthropic Launches Claude Science Beta: A Multi-Agent AI Workbench for Reproducible Genomics, Proteomics, and Cheminformatics Pipelines",
-      "excerpt": "Anthropic released Claude Science in beta on June 30, 2026.  The app runs on existing Claude models",
-      "source": "MarkTechPost",
-      "url": "https://www.marktechpost.com/2026/07/04/anthropic-launches-claude-science-beta/",
-      "publishedAt": "2026-07-04T16:21:21.000Z",
-      "impact": 77
-    },
-    {
-      "id": "hugging-face-1782864000000-0",
+      "id": "hugging-face-1782864000000-1",
       "type": "live",
       "category": "research",
       "title": "Hugging Face and Cerebras bring Gemma 4 to real-time voice AI",
@@ -92,7 +59,7 @@
       "impact": 75
     },
     {
-      "id": "hugging-face-1782844370000-1",
+      "id": "hugging-face-1782844370000-2",
       "type": "live",
       "category": "research",
       "title": "ScarfBench: Benchmarking AI Agents for Enterprise Java Framework Migration",
@@ -101,17 +68,6 @@
       "url": "https://huggingface.co/blog/ibm-research/scarfbench",
       "publishedAt": "2026-06-30T18:32:50.000Z",
       "impact": 87
-    },
-    {
-      "id": "hugging-face-1782830351000-2",
-      "type": "live",
-      "category": "research",
-      "title": "Why Specialization Is Inevitable",
-      "excerpt": "New development from the frontier.",
-      "source": "Hugging Face",
-      "url": "https://huggingface.co/blog/Dharma-AI/why-specialization-is-inevitable",
-      "publishedAt": "2026-06-30T14:39:11.000Z",
-      "impact": 75
     }
   ]
 }

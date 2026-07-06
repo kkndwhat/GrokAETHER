@@ -1,8 +1,63 @@
 {
-  "lastUpdated": "2026-07-06T04:06:45.999Z",
+  "lastUpdated": "2026-07-06T10:50:03.817Z",
   "source": "AETHER + Public RSS (arXiv, Hugging Face, MarkTechPost, Ben's Bites)",
-  "count": 6,
+  "count": 10,
   "articles": [
+    {
+      "id": "aether-grok43",
+      "type": "premium",
+      "category": "llm",
+      "title": "xAI releases Grok-4.3 with native long-horizon agent scaffolding",
+      "excerpt": "New model demonstrates 4.2× improvement on multi-step software engineering benchmarks and sustains coherent agent trajectories beyond 110k tokens.",
+      "source": "xAI",
+      "url": "https://x.ai/blog/grok-4.3",
+      "publishedAt": "2026-07-06T05:50:02.507Z",
+      "impact": 96
+    },
+    {
+      "id": "marktechpost-1783316109000-0",
+      "type": "live",
+      "category": "llm",
+      "title": "Sakana AI Launches Sakana Translate, a Namazu-Powered Japanese–English–Chinese Translation Tool With Translate, Proofread, and Ask Modes",
+      "excerpt": "Sakana AI has added Sakana Translate to Sakana Chat.  It runs on the Namazu model series",
+      "source": "MarkTechPost",
+      "url": "https://www.marktechpost.com/2026/07/05/sakana-ai-launches-sakana-translate/",
+      "publishedAt": "2026-07-06T05:35:09.000Z",
+      "impact": 65
+    },
+    {
+      "id": "marktechpost-1783314432000-1",
+      "type": "live",
+      "category": "llm",
+      "title": "Synthetic Sciences Releases OpenScience: An Open-Source, Model-Agnostic AI Workbench for Machine Learning, Biology, Physics, and Chemistry Research",
+      "excerpt": "Synthetic Sciences has released OpenScience, an Apache-2. 0 AI workbench for scientific research",
+      "source": "MarkTechPost",
+      "url": "https://www.marktechpost.com/2026/07/05/synthetic-sciences-releases-openscience-an-open-source-model-agnostic-ai-workbench-for-machine-learning-biology-physics-and-chemistry-research/",
+      "publishedAt": "2026-07-06T05:07:12.000Z",
+      "impact": 65
+    },
+    {
+      "id": "marktechpost-1783312018000-2",
+      "type": "live",
+      "category": "llm",
+      "title": "Training Gemma-3 for Structured Mathematical Reasoning with Tunix GRPO, LoRA Adapters, and GSM8K Rewards",
+      "excerpt": "We build an end-to-end GRPO training workflow that teaches Gemma-3 to reason through GSM8K math problems.  We prepare the environment, authenticate with Hugging Face, load Gemma-3, and wrap examples into a reasoning-p...",
+      "source": "MarkTechPost",
+      "url": "https://www.marktechpost.com/2026/07/05/training-gemma-3-for-structured-mathematical-reasoning-with-tunix-grpo-lora-adapters-and-gsm8k-rewards/",
+      "publishedAt": "2026-07-06T04:26:58.000Z",
+      "impact": 65
+    },
+    {
+      "id": "aether-figure03",
+      "type": "premium",
+      "category": "robotics",
+      "title": "Figure 03 completes 43-hour autonomous factory shift with zero interventions",
+      "excerpt": "Humanoid achieves new milestone in unsupervised operation, performing 1,240 unique tasks across three assembly lines at the BMW South Carolina plant.",
+      "source": "Figure AI",
+      "url": "https://figure.ai/news/03-milestone",
+      "publishedAt": "2026-07-06T01:50:02.507Z",
+      "impact": 89
+    },
     {
       "id": "hugging-face-1783296000000-0",
       "type": "live",
@@ -15,26 +70,15 @@
       "impact": 75
     },
     {
-      "id": "aether-grok43",
-      "type": "premium",
+      "id": "marktechpost-1783286710000-3",
+      "type": "live",
       "category": "llm",
-      "title": "xAI releases Grok-4.3 with native long-horizon agent scaffolding",
-      "excerpt": "New model demonstrates 4.2× improvement on multi-step software engineering benchmarks and sustains coherent agent trajectories beyond 110k tokens.",
-      "source": "xAI",
-      "url": "https://x.ai/blog/grok-4.3",
-      "publishedAt": "2026-07-05T23:06:45.666Z",
-      "impact": 96
-    },
-    {
-      "id": "aether-figure03",
-      "type": "premium",
-      "category": "robotics",
-      "title": "Figure 03 completes 43-hour autonomous factory shift with zero interventions",
-      "excerpt": "Humanoid achieves new milestone in unsupervised operation, performing 1,240 unique tasks across three assembly lines at the BMW South Carolina plant.",
-      "source": "Figure AI",
-      "url": "https://figure.ai/news/03-milestone",
-      "publishedAt": "2026-07-05T19:06:45.666Z",
-      "impact": 89
+      "title": "Meituan Releases LongCat-2.0: A 1.6T-Parameter Open MoE Model with Native 1M Context and LongCat Sparse Attention",
+      "excerpt": "Meituan has released LongCat-2. 6 trillion-parameter Mixture-of-Experts model that activates about 48 billion parameters per token",
+      "source": "MarkTechPost",
+      "url": "https://www.marktechpost.com/2026/07/05/meituan-releases-longcat-2-0-a-1-6t-parameter-open-moe-model-with-native-1m-context-and-longcat-sparse-attention/",
+      "publishedAt": "2026-07-05T21:25:10.000Z",
+      "impact": 65
     },
     {
       "id": "aether-interp",
@@ -44,7 +88,7 @@
       "excerpt": "Researchers reverse-engineered 312 million features inside the model, including the first clear \"deception circuit\" discovered in a frontier model.",
       "source": "Anthropic",
       "url": "https://anthropic.com/research/claude-4-interp",
-      "publishedAt": "2026-07-05T14:06:45.666Z",
+      "publishedAt": "2026-07-05T20:50:02.507Z",
       "impact": 91
     },
     {

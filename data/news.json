@@ -1,8 +1,19 @@
 {
-  "lastUpdated": "2026-07-10T14:40:49.738Z",
+  "lastUpdated": "2026-07-10T19:40:42.516Z",
   "source": "AETHER + Public RSS (arXiv, Hugging Face, MarkTechPost, Ben's Bites)",
   "count": 16,
   "articles": [
+    {
+      "id": "marktechpost-1783711440000-0",
+      "type": "live",
+      "category": "hardware",
+      "title": "How to Build a T4-Friendly Autonomous Data Science Agent with DeepAnalyze-8B, Sandboxed Code Execution, and Iterative Analysis",
+      "excerpt": "We build an autonomous data science agent around DeepAnalyze-8B and run it end to end.  We prepare a stable Colab runtime, install the machine-learning dependencies, and load the tokenizer and model in 4-bit mode to f...",
+      "source": "MarkTechPost",
+      "url": "https://www.marktechpost.com/2026/07/10/how-to-build-a-t4-friendly-autonomous-data-science-agent-with-deepanalyze-8b-sandboxed-code-execution-and-iterative-analysis/",
+      "publishedAt": "2026-07-10T19:24:00.000Z",
+      "impact": 77
+    },
     {
       "id": "aether-grok43",
       "type": "premium",
@@ -11,11 +22,22 @@
       "excerpt": "New model demonstrates 4.2× improvement on multi-step software engineering benchmarks and sustains coherent agent trajectories beyond 110k tokens.",
       "source": "xAI",
       "url": "https://x.ai/blog/grok-4.3",
-      "publishedAt": "2026-07-10T09:40:48.889Z",
+      "publishedAt": "2026-07-10T14:40:41.456Z",
       "impact": 96
     },
     {
-      "id": "marktechpost-1783673524000-0",
+      "id": "aether-figure03",
+      "type": "premium",
+      "category": "robotics",
+      "title": "Figure 03 completes 43-hour autonomous factory shift with zero interventions",
+      "excerpt": "Humanoid achieves new milestone in unsupervised operation, performing 1,240 unique tasks across three assembly lines at the BMW South Carolina plant.",
+      "source": "Figure AI",
+      "url": "https://figure.ai/news/03-milestone",
+      "publishedAt": "2026-07-10T10:40:41.456Z",
+      "impact": 89
+    },
+    {
+      "id": "marktechpost-1783673524000-1",
       "type": "live",
       "category": "llm",
       "title": "Google Research Introduces SensorFM: A Wearable Health Foundation Model Pretrained on One Trillion Minutes of Sensor Data",
@@ -26,18 +48,18 @@
       "impact": 65
     },
     {
-      "id": "aether-figure03",
+      "id": "aether-interp",
       "type": "premium",
-      "category": "robotics",
-      "title": "Figure 03 completes 43-hour autonomous factory shift with zero interventions",
-      "excerpt": "Humanoid achieves new milestone in unsupervised operation, performing 1,240 unique tasks across three assembly lines at the BMW South Carolina plant.",
-      "source": "Figure AI",
-      "url": "https://figure.ai/news/03-milestone",
-      "publishedAt": "2026-07-10T05:40:48.889Z",
-      "impact": 89
+      "category": "safety",
+      "title": "Anthropic publishes unprecedented mechanistic interpretability map of Claude 4",
+      "excerpt": "Researchers reverse-engineered 312 million features inside the model, including the first clear \"deception circuit\" discovered in a frontier model.",
+      "source": "Anthropic",
+      "url": "https://anthropic.com/research/claude-4-interp",
+      "publishedAt": "2026-07-10T05:40:41.456Z",
+      "impact": 91
     },
     {
-      "id": "marktechpost-1783658300000-1",
+      "id": "marktechpost-1783658300000-2",
       "type": "live",
       "category": "multimodal",
       "title": "Meet LingBot-World-Infinity: An Open Causal World Model With An Agentic Harness",
@@ -114,17 +136,6 @@
       "impact": 69
     },
     {
-      "id": "aether-interp",
-      "type": "premium",
-      "category": "safety",
-      "title": "Anthropic publishes unprecedented mechanistic interpretability map of Claude 4",
-      "excerpt": "Researchers reverse-engineered 312 million features inside the model, including the first clear \"deception circuit\" discovered in a frontier model.",
-      "source": "Anthropic",
-      "url": "https://anthropic.com/research/claude-4-interp",
-      "publishedAt": "2026-07-10T00:40:48.889Z",
-      "impact": 91
-    },
-    {
       "id": "hugging-face-1783641600000-0",
       "type": "live",
       "category": "research",
@@ -136,7 +147,7 @@
       "impact": 75
     },
     {
-      "id": "marktechpost-1783635976000-2",
+      "id": "marktechpost-1783635976000-3",
       "type": "live",
       "category": "multimodal",
       "title": "Meta Superintelligence Labs Releases Muse Spark 1.1: A Multimodal Reasoning Model for Agentic Tasks on Meta Model API",
@@ -145,17 +156,6 @@
       "url": "https://www.marktechpost.com/2026/07/09/meta-superintelligence-labs-releases-muse-spark-1-1/",
       "publishedAt": "2026-07-09T22:26:16.000Z",
       "impact": 77
-    },
-    {
-      "id": "marktechpost-1783629942000-3",
-      "type": "live",
-      "category": "llm",
-      "title": "OpenAI Releases GPT-5.6 (Sol, Terra, Luna): A Three-Tier Model Family With Programmatic Tool Calling in the Responses API",
-      "excerpt": "6 to general availability on July 9, 2026, shipping three tiers instead of one model.  Sol is $5/$30 per 1M tokens, Terra is $2",
-      "source": "MarkTechPost",
-      "url": "https://www.marktechpost.com/2026/07/09/openai-releases-gpt-5-6-a-three-tier-model-family-with-programmatic-tool-calling/",
-      "publishedAt": "2026-07-09T20:45:42.000Z",
-      "impact": 65
     },
     {
       "id": "hugging-face-1783530965000-1",

@@ -1,7 +1,7 @@
 {
-  "lastUpdated": "2026-07-12T08:25:33.763Z",
+  "lastUpdated": "2026-07-12T13:39:39.961Z",
   "source": "AETHER + Public RSS (arXiv, Hugging Face, MarkTechPost, Ben's Bites)",
-  "count": 6,
+  "count": 10,
   "articles": [
     {
       "id": "aether-grok43",
@@ -11,7 +11,7 @@
       "excerpt": "New model demonstrates 4.2× improvement on multi-step software engineering benchmarks and sustains coherent agent trajectories beyond 110k tokens.",
       "source": "xAI",
       "url": "https://x.ai/blog/grok-4.3",
-      "publishedAt": "2026-07-12T03:25:33.293Z",
+      "publishedAt": "2026-07-12T08:39:38.734Z",
       "impact": 96
     },
     {
@@ -22,8 +22,30 @@
       "excerpt": "Humanoid achieves new milestone in unsupervised operation, performing 1,240 unique tasks across three assembly lines at the BMW South Carolina plant.",
       "source": "Figure AI",
       "url": "https://figure.ai/news/03-milestone",
-      "publishedAt": "2026-07-11T23:25:33.293Z",
+      "publishedAt": "2026-07-12T04:39:38.734Z",
       "impact": 89
+    },
+    {
+      "id": "marktechpost-1783817173000-0",
+      "type": "live",
+      "category": "safety",
+      "title": "Mira Murati’s Thinking Machines Lab Makes The Technical Case For Human-Centered AI Built On Customizable Model Weights",
+      "excerpt": "Thinking Machines Lab published \"The Future Worth Building Is Human. \" The essay frames human participation, model ownership, and decentralized alignment as technical challenges",
+      "source": "MarkTechPost",
+      "url": "https://www.marktechpost.com/2026/07/11/mira-muratis-thinking-machines-lab-makes-the-technical-case-for-human-centered-ai-built-on-customizable-model-weights/",
+      "publishedAt": "2026-07-12T00:46:13.000Z",
+      "impact": 65
+    },
+    {
+      "id": "marktechpost-1783814466000-1",
+      "type": "live",
+      "category": "hardware",
+      "title": "A Coding Guide to NVIDIA’s Tile-Based GPU Programming: From cuTile and Triton Kernels to Flash Attention",
+      "excerpt": "In this tutorial, we explore NVIDIA tile-based GPU programming with TileGym, building a Colab workflow that runs across different hardware.  We probe the CUDA environment, try the real cuTile backend, and fall back to...",
+      "source": "MarkTechPost",
+      "url": "https://www.marktechpost.com/2026/07/11/a-coding-guide-to-nvidias-tile-based-gpu-programming-from-cutile-and-triton-kernels-to-flash-attention/",
+      "publishedAt": "2026-07-12T00:01:06.000Z",
+      "impact": 65
     },
     {
       "id": "aether-interp",
@@ -33,8 +55,30 @@
       "excerpt": "Researchers reverse-engineered 312 million features inside the model, including the first clear \"deception circuit\" discovered in a frontier model.",
       "source": "Anthropic",
       "url": "https://anthropic.com/research/claude-4-interp",
-      "publishedAt": "2026-07-11T18:25:33.293Z",
+      "publishedAt": "2026-07-11T23:39:38.734Z",
       "impact": 91
+    },
+    {
+      "id": "marktechpost-1783756571000-2",
+      "type": "live",
+      "category": "robotics",
+      "title": "Ant Group’s Robbyant Unveils LingBot-VA 2.0: A Causal Video-Action Model Built Natively for Physical AI",
+      "excerpt": "Ant Group's Robbyant has released the LingBot-VA 2. 0 technical report — a Physical AI video-action foundation model built from scratch for embodiment rather than fine-tuned from a video generator",
+      "source": "MarkTechPost",
+      "url": "https://www.marktechpost.com/2026/07/11/ant-groups-robbyant-unveils-lingbot-va-2-0/",
+      "publishedAt": "2026-07-11T07:56:11.000Z",
+      "impact": 65
+    },
+    {
+      "id": "marktechpost-1783714868000-3",
+      "type": "live",
+      "category": "research",
+      "title": "Kyutai Releases MuScriptor: An Open-Weight Decoder-Only Transformer for Multi-Instrument Music Transcription to MIDI",
+      "excerpt": "MuScriptor is an open-weight, decoder-only Transformer from Kyutai and Mirelo.  Trained on 170k real recordings plus 1",
+      "source": "MarkTechPost",
+      "url": "https://www.marktechpost.com/2026/07/10/kyutai-releases-muscriptor-an-open-weight-decoder-only-transformer-for-multi-instrument-music-transcription-to-midi/",
+      "publishedAt": "2026-07-10T20:21:08.000Z",
+      "impact": 65
     },
     {
       "id": "hugging-face-1783641600000-0",

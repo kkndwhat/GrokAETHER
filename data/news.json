@@ -1,74 +1,8 @@
 {
-  "lastUpdated": "2026-07-11T08:04:22.115Z",
+  "lastUpdated": "2026-07-12T08:25:33.763Z",
   "source": "AETHER + Public RSS (arXiv, Hugging Face, MarkTechPost, Ben's Bites)",
-  "count": 12,
+  "count": 6,
   "articles": [
-    {
-      "id": "arxiv-cs.ai-1783742400000-0",
-      "type": "live",
-      "category": "llm",
-      "title": "Context Graphs for Proactive Enterprise Agents",
-      "excerpt": "07721v1 Announce Type: new Abstract: Retrieval-Augmented Generation (RAG) and agentic frameworks have advanced enterprise AI considerably, yet agents remain fundamentally reactive: they wait for a human query before a...",
-      "source": "arXiv cs.AI",
-      "url": "https://arxiv.org/abs/2607.07721",
-      "publishedAt": "2026-07-11T04:00:00.000Z",
-      "impact": 69
-    },
-    {
-      "id": "arxiv-cs.ai-1783742400000-1",
-      "type": "live",
-      "category": "llm",
-      "title": "AI-integrated models for assessing agricultural resilience",
-      "excerpt": "07759v1 Announce Type: new Abstract: Agricultural supply chains are vulnerable to disruptions through linked biophysical and economic systems.  We develop an AI-powered tool that integrates economic models (GTAP) with...",
-      "source": "arXiv cs.AI",
-      "url": "https://arxiv.org/abs/2607.07759",
-      "publishedAt": "2026-07-11T04:00:00.000Z",
-      "impact": 58
-    },
-    {
-      "id": "arxiv-cs.ai-1783742400000-2",
-      "type": "live",
-      "category": "safety",
-      "title": "Adversarial Social Epistemology for Assemblies of Humans and Large Language Models",
-      "excerpt": "07760v1 Announce Type: new Abstract: We outline an adversarial social epistemology (ASE) for densely interactive communicative landscapes in which public assertions are scaffolded by chains of testimony, inference, in...",
-      "source": "arXiv cs.AI",
-      "url": "https://arxiv.org/abs/2607.07760",
-      "publishedAt": "2026-07-11T04:00:00.000Z",
-      "impact": 58
-    },
-    {
-      "id": "arxiv-cs.ai-1783742400000-3",
-      "type": "live",
-      "category": "llm",
-      "title": "Aligning Clinical Needs and AI Capabilities: A Survey on LLMs for Medical Reasoning",
-      "excerpt": "07761v1 Announce Type: new Abstract: Large language models (LLMs) have emerged as important tools in healthcare, showing growing potential for clinical reasoning and patient care.  This survey examines recent progress...",
-      "source": "arXiv cs.AI",
-      "url": "https://arxiv.org/abs/2607.07761",
-      "publishedAt": "2026-07-11T04:00:00.000Z",
-      "impact": 58
-    },
-    {
-      "id": "arxiv-cs.ai-1783742400000-4",
-      "type": "live",
-      "category": "safety",
-      "title": "Alignment Plausibility: A New Standard for Assuring AI in Healthcare",
-      "excerpt": "07766v1 Announce Type: new Abstract: Large language models (LLMs) have become significant providers of mental health support, yet they remain products of an attention economy whose operational and commercial targets f...",
-      "source": "arXiv cs.AI",
-      "url": "https://arxiv.org/abs/2607.07766",
-      "publishedAt": "2026-07-11T04:00:00.000Z",
-      "impact": 58
-    },
-    {
-      "id": "arxiv-cs.ai-1783742400000-5",
-      "type": "live",
-      "category": "robotics",
-      "title": "Idiobionics: The Unification of Privacy and Intelligent Robotic Prostheses",
-      "excerpt": "07775v1 Announce Type: new Abstract: The human body is at the center of a growing family of technologies designed to tightly and persistently couple biological and digital systems.  Robotic prostheses are a representa...",
-      "source": "arXiv cs.AI",
-      "url": "https://arxiv.org/abs/2607.07775",
-      "publishedAt": "2026-07-11T04:00:00.000Z",
-      "impact": 58
-    },
     {
       "id": "aether-grok43",
       "type": "premium",
@@ -77,7 +11,7 @@
       "excerpt": "New model demonstrates 4.2× improvement on multi-step software engineering benchmarks and sustains coherent agent trajectories beyond 110k tokens.",
       "source": "xAI",
       "url": "https://x.ai/blog/grok-4.3",
-      "publishedAt": "2026-07-11T03:04:21.707Z",
+      "publishedAt": "2026-07-12T03:25:33.293Z",
       "impact": 96
     },
     {
@@ -88,7 +22,7 @@
       "excerpt": "Humanoid achieves new milestone in unsupervised operation, performing 1,240 unique tasks across three assembly lines at the BMW South Carolina plant.",
       "source": "Figure AI",
       "url": "https://figure.ai/news/03-milestone",
-      "publishedAt": "2026-07-10T23:04:21.707Z",
+      "publishedAt": "2026-07-11T23:25:33.293Z",
       "impact": 89
     },
     {
@@ -99,7 +33,7 @@
       "excerpt": "Researchers reverse-engineered 312 million features inside the model, including the first clear \"deception circuit\" discovered in a frontier model.",
       "source": "Anthropic",
       "url": "https://anthropic.com/research/claude-4-interp",
-      "publishedAt": "2026-07-10T18:04:21.707Z",
+      "publishedAt": "2026-07-11T18:25:33.293Z",
       "impact": 91
     },
     {

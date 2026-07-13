@@ -1,10 +1,120 @@
 {
-  "lastUpdated": "2026-07-13T03:33:27.699Z",
+  "lastUpdated": "2026-07-13T09:38:12.375Z",
   "source": "AETHER + Public RSS (arXiv, Hugging Face, MarkTechPost, Ben's Bites)",
-  "count": 10,
+  "count": 16,
   "articles": [
     {
-      "id": "marktechpost-1783902936000-0",
+      "id": "marktechpost-1783932312000-0",
+      "type": "live",
+      "category": "llm",
+      "title": "Stanford Researchers Introduce TRACE: A Capability-Targeted Agentic Training System That Turns Recurrent Agent Failures Into Synthetic RL Environment",
+      "excerpt": "Agentic LLMs keep failing the same way because they lack specific, reusable capabilities.  Stanford's TRACE diagnoses those gaps from an agent's own trajectories, synthesizes one verifiable training environment per ca...",
+      "source": "MarkTechPost",
+      "url": "https://www.marktechpost.com/2026/07/13/stanford-researchers-introduce-trace/",
+      "publishedAt": "2026-07-13T08:45:12.000Z",
+      "impact": 77
+    },
+    {
+      "id": "marktechpost-1783928418000-1",
+      "type": "live",
+      "category": "research",
+      "title": "Prime Intellect Releases Verifiers v1: Composable Tasksets, Harnesses, and Runtimes for Agentic RL Training and Evaluations",
+      "excerpt": "Prime Intellect launched verifiers 0. 0, previewing a rewritten \"v1\" core under the verifiers",
+      "source": "MarkTechPost",
+      "url": "https://www.marktechpost.com/2026/07/13/prime-intellect-releases-verifiers-v1/",
+      "publishedAt": "2026-07-13T07:40:18.000Z",
+      "impact": 77
+    },
+    {
+      "id": "aether-grok43",
+      "type": "premium",
+      "category": "llm",
+      "title": "xAI releases Grok-4.3 with native long-horizon agent scaffolding",
+      "excerpt": "New model demonstrates 4.2× improvement on multi-step software engineering benchmarks and sustains coherent agent trajectories beyond 110k tokens.",
+      "source": "xAI",
+      "url": "https://x.ai/blog/grok-4.3",
+      "publishedAt": "2026-07-13T04:38:11.418Z",
+      "impact": 96
+    },
+    {
+      "id": "arxiv-cs.ai-1783915200000-0",
+      "type": "live",
+      "category": "safety",
+      "title": "Interval Certifications for Multilayered Perceptrons via Lattice Traversal",
+      "excerpt": "08773v1 Announce Type: new Abstract: In this work we present a rigorous theoretical framework to a foundational problem of AI safety, namely adversarial robustness.  In particular, we show that the adversarial robustn...",
+      "source": "arXiv cs.AI",
+      "url": "https://arxiv.org/abs/2607.08773",
+      "publishedAt": "2026-07-13T04:00:00.000Z",
+      "impact": 58
+    },
+    {
+      "id": "arxiv-cs.ai-1783915200000-1",
+      "type": "live",
+      "category": "llm",
+      "title": "CogniConsole: Externalizing Inference-Time Control as a Formal Abstraction for Reliable LLM Interactions",
+      "excerpt": "08774v1 Announce Type: new Abstract: Reliability in large language model (LLM) systems is typically framed as a function of model capability.  We challenge this by demonstrating that reliability is significantly influ...",
+      "source": "arXiv cs.AI",
+      "url": "https://arxiv.org/abs/2607.08774",
+      "publishedAt": "2026-07-13T04:00:00.000Z",
+      "impact": 58
+    },
+    {
+      "id": "arxiv-cs.ai-1783915200000-2",
+      "type": "live",
+      "category": "llm",
+      "title": "GATS: Graph-Augmented Tree Search with Layered World Models for Efficient Agent Planning",
+      "excerpt": "08894v1 Announce Type: new Abstract: Large Language Model (LLM) agents have shown promise in multi-step planning tasks, but existing approaches like LATS (Language Agent Tree Search) and ReAct rely heavily on LLM infe...",
+      "source": "arXiv cs.AI",
+      "url": "https://arxiv.org/abs/2607.08894",
+      "publishedAt": "2026-07-13T04:00:00.000Z",
+      "impact": 69
+    },
+    {
+      "id": "arxiv-cs.ai-1783915200000-3",
+      "type": "live",
+      "category": "multimodal",
+      "title": "Long-Horizon-Terminal-Bench: Testing the Limits of Agents on Long-Horizon Terminal Tasks with Dense Reward-Based Grading",
+      "excerpt": "08964v1 Announce Type: new Abstract: AI agents have become capable of autonomously completing short, well-specified tasks.  However, existing terminal benchmarks largely focus on simple problems that finish within min...",
+      "source": "arXiv cs.AI",
+      "url": "https://arxiv.org/abs/2607.08964",
+      "publishedAt": "2026-07-13T04:00:00.000Z",
+      "impact": 69
+    },
+    {
+      "id": "arxiv-cs.ai-1783915200000-4",
+      "type": "live",
+      "category": "research",
+      "title": "A Formalization of the Mean-Field Derivation of the Vlasov Equation: AI-Assisted Lean Formalization as a Strategy Game",
+      "excerpt": "08986v1 Announce Type: new Abstract: We formalize a research result in the Lean 4 proof assistant by having a mathematician direct an AI system, and frame the activity as a formalization game.  The objective is to tur...",
+      "source": "arXiv cs.AI",
+      "url": "https://arxiv.org/abs/2607.08986",
+      "publishedAt": "2026-07-13T04:00:00.000Z",
+      "impact": 58
+    },
+    {
+      "id": "arxiv-cs.ai-1783915200000-5",
+      "type": "live",
+      "category": "hardware",
+      "title": "ARCANA: A Reflective Multi-Agent Program Synthesis Framework for ARC-AGI-2 Reasoning",
+      "excerpt": "09059v1 Announce Type: new Abstract: We present ARCANA, a collaborative multi agent framework for solving ARC AGI 2 tasks under strict test time and hardware constraints.  ARCANA decomposes each task into iterative pe...",
+      "source": "arXiv cs.AI",
+      "url": "https://arxiv.org/abs/2607.09059",
+      "publishedAt": "2026-07-13T04:00:00.000Z",
+      "impact": 69
+    },
+    {
+      "id": "aether-figure03",
+      "type": "premium",
+      "category": "robotics",
+      "title": "Figure 03 completes 43-hour autonomous factory shift with zero interventions",
+      "excerpt": "Humanoid achieves new milestone in unsupervised operation, performing 1,240 unique tasks across three assembly lines at the BMW South Carolina plant.",
+      "source": "Figure AI",
+      "url": "https://figure.ai/news/03-milestone",
+      "publishedAt": "2026-07-13T00:38:11.418Z",
+      "impact": 89
+    },
+    {
+      "id": "marktechpost-1783902936000-2",
       "type": "live",
       "category": "llm",
       "title": "Meet NeuroVFM: A New Neuroimaging Foundation Model Trained With Vol-JEPA on Uncurated Clinical MRI and CT Volumes",
@@ -15,18 +125,7 @@
       "impact": 65
     },
     {
-      "id": "aether-grok43",
-      "type": "premium",
-      "category": "llm",
-      "title": "xAI releases Grok-4.3 with native long-horizon agent scaffolding",
-      "excerpt": "New model demonstrates 4.2× improvement on multi-step software engineering benchmarks and sustains coherent agent trajectories beyond 110k tokens.",
-      "source": "xAI",
-      "url": "https://x.ai/blog/grok-4.3",
-      "publishedAt": "2026-07-12T22:33:26.732Z",
-      "impact": 96
-    },
-    {
-      "id": "marktechpost-1783886822000-1",
+      "id": "marktechpost-1783886822000-3",
       "type": "live",
       "category": "research",
       "title": "Guide to Loop Engineering: How ‘autoresearch’ and ‘Bilevel Autoresearch’ Turn AI Agents Into Autonomous Machine Learning ML Research Loops",
@@ -37,17 +136,6 @@
       "impact": 77
     },
     {
-      "id": "aether-figure03",
-      "type": "premium",
-      "category": "robotics",
-      "title": "Figure 03 completes 43-hour autonomous factory shift with zero interventions",
-      "excerpt": "Humanoid achieves new milestone in unsupervised operation, performing 1,240 unique tasks across three assembly lines at the BMW South Carolina plant.",
-      "source": "Figure AI",
-      "url": "https://figure.ai/news/03-milestone",
-      "publishedAt": "2026-07-12T18:33:26.732Z",
-      "impact": 89
-    },
-    {
       "id": "aether-interp",
       "type": "premium",
       "category": "safety",
@@ -55,30 +143,8 @@
       "excerpt": "Researchers reverse-engineered 312 million features inside the model, including the first clear \"deception circuit\" discovered in a frontier model.",
       "source": "Anthropic",
       "url": "https://anthropic.com/research/claude-4-interp",
-      "publishedAt": "2026-07-12T13:33:26.732Z",
+      "publishedAt": "2026-07-12T19:38:11.418Z",
       "impact": 91
-    },
-    {
-      "id": "marktechpost-1783817173000-2",
-      "type": "live",
-      "category": "safety",
-      "title": "Mira Murati’s Thinking Machines Lab Makes The Technical Case For Human-Centered AI Built On Customizable Model Weights",
-      "excerpt": "Thinking Machines Lab published \"The Future Worth Building Is Human. \" The essay frames human participation, model ownership, and decentralized alignment as technical challenges",
-      "source": "MarkTechPost",
-      "url": "https://www.marktechpost.com/2026/07/11/mira-muratis-thinking-machines-lab-makes-the-technical-case-for-human-centered-ai-built-on-customizable-model-weights/",
-      "publishedAt": "2026-07-12T00:46:13.000Z",
-      "impact": 65
-    },
-    {
-      "id": "marktechpost-1783814466000-3",
-      "type": "live",
-      "category": "hardware",
-      "title": "A Coding Guide to NVIDIA’s Tile-Based GPU Programming: From cuTile and Triton Kernels to Flash Attention",
-      "excerpt": "In this tutorial, we explore NVIDIA tile-based GPU programming with TileGym, building a Colab workflow that runs across different hardware.  We probe the CUDA environment, try the real cuTile backend, and fall back to...",
-      "source": "MarkTechPost",
-      "url": "https://www.marktechpost.com/2026/07/11/a-coding-guide-to-nvidias-tile-based-gpu-programming-from-cutile-and-triton-kernels-to-flash-attention/",
-      "publishedAt": "2026-07-12T00:01:06.000Z",
-      "impact": 65
     },
     {
       "id": "hugging-face-1783641600000-0",

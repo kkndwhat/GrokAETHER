@@ -1,19 +1,8 @@
 {
-  "lastUpdated": "2026-07-15T08:23:53.634Z",
+  "lastUpdated": "2026-07-15T13:54:09.649Z",
   "source": "AETHER + Public RSS (arXiv, Hugging Face, MarkTechPost, Ben's Bites)",
-  "count": 16,
+  "count": 12,
   "articles": [
-    {
-      "id": "marktechpost-1784100977000-0",
-      "type": "live",
-      "category": "hardware",
-      "title": "Google Releases LiteRT.js: A JavaScript Binding of LiteRT That Runs .tflite Models in Browsers via WebGPU",
-      "excerpt": "Google released LiteRT.  It is a JavaScript binding of LiteRT, Google's on-device inference library",
-      "source": "MarkTechPost",
-      "url": "https://www.marktechpost.com/2026/07/15/google-releases-litert-js-a-javascript-binding-of-litert-that-runs-tflite-models-in-browsers-via-webgpu/",
-      "publishedAt": "2026-07-15T07:36:17.000Z",
-      "impact": 65
-    },
     {
       "id": "aether-grok43",
       "type": "premium",
@@ -22,7 +11,7 @@
       "excerpt": "New model demonstrates 4.2× improvement on multi-step software engineering benchmarks and sustains coherent agent trajectories beyond 110k tokens.",
       "source": "xAI",
       "url": "https://x.ai/blog/grok-4.3",
-      "publishedAt": "2026-07-15T03:23:52.604Z",
+      "publishedAt": "2026-07-15T08:54:09.343Z",
       "impact": 96
     },
     {
@@ -33,41 +22,19 @@
       "excerpt": "Humanoid achieves new milestone in unsupervised operation, performing 1,240 unique tasks across three assembly lines at the BMW South Carolina plant.",
       "source": "Figure AI",
       "url": "https://figure.ai/news/03-milestone",
-      "publishedAt": "2026-07-14T23:23:52.604Z",
+      "publishedAt": "2026-07-15T04:54:09.343Z",
       "impact": 89
     },
     {
-      "id": "marktechpost-1784069494000-1",
+      "id": "hugging-face-1784073600000-0",
       "type": "live",
       "category": "research",
-      "title": "PrismML Releases Bonsai 27B: 1-bit and Ternary Builds of Qwen3.6-27B That Run on Laptops and Phones",
-      "excerpt": "PrismML just released Bonsai 27B.  It is a low-bit representation of Qwen3",
-      "source": "MarkTechPost",
-      "url": "https://www.marktechpost.com/2026/07/14/prismml-releases-bonsai-27b-1-bit-and-ternary-builds-of-qwen3-6-27b-that-run-on-laptops-and-phones/",
-      "publishedAt": "2026-07-14T22:51:34.000Z",
-      "impact": 65
-    },
-    {
-      "id": "marktechpost-1784062361000-2",
-      "type": "live",
-      "category": "llm",
-      "title": "Mistral Vibe for Code vs Claude Code vs Cursor vs Codex: Four Agents Scored on One Scaffold-to-PR Task",
-      "excerpt": "See how Vibe, Claude Code, Cursor, and Codex compare on cost, open weights, self-hosting, and async agent surfaces.  The post Mistral Vibe for Code vs Claude Code vs Cursor vs Codex: Four Agents Scored on One Scaffold...",
-      "source": "MarkTechPost",
-      "url": "https://www.marktechpost.com/2026/07/14/mistral-vibe-for-code-vs-claude-code-vs-cursor-vs-codex-four-agents-scored-on-one-scaffold-to-pr-task/",
-      "publishedAt": "2026-07-14T20:52:41.000Z",
-      "impact": 77
-    },
-    {
-      "id": "marktechpost-1784060211000-3",
-      "type": "live",
-      "category": "llm",
-      "title": "OpenCoreDev Releases Domain SDK 0.2.0: One TypeScript API to Add, Verify, and Remove Customer Domains Across Five Platforms",
-      "excerpt": "OpenCoreDev has published Domain SDK 0. 0, a TypeScript client for the custom domain lifecycle",
-      "source": "MarkTechPost",
-      "url": "https://www.marktechpost.com/2026/07/14/opencoredev-releases-domain-sdk-0-2-0-one-typescript-api-to-add-verify-and-remove-customer-domains-across-five-platforms/",
-      "publishedAt": "2026-07-14T20:16:51.000Z",
-      "impact": 65
+      "title": "Introducing Real World VoiceEQ: Measuring the human quality of voice AI",
+      "excerpt": "New development from the frontier.",
+      "source": "Hugging Face",
+      "url": "https://huggingface.co/blog/real-world-voiceeq",
+      "publishedAt": "2026-07-15T00:00:00.000Z",
+      "impact": 75
     },
     {
       "id": "aether-interp",
@@ -77,7 +44,7 @@
       "excerpt": "Researchers reverse-engineered 312 million features inside the model, including the first clear \"deception circuit\" discovered in a frontier model.",
       "source": "Anthropic",
       "url": "https://anthropic.com/research/claude-4-interp",
-      "publishedAt": "2026-07-14T18:23:52.604Z",
+      "publishedAt": "2026-07-14T23:54:09.343Z",
       "impact": 91
     },
     {
@@ -147,7 +114,7 @@
       "impact": 75
     },
     {
-      "id": "hugging-face-1783641600000-0",
+      "id": "hugging-face-1783641600000-1",
       "type": "live",
       "category": "research",
       "title": "Profiling in PyTorch (Part 3): Attention is all you profile",
@@ -158,7 +125,7 @@
       "impact": 75
     },
     {
-      "id": "hugging-face-1783530965000-1",
+      "id": "hugging-face-1783530965000-2",
       "type": "live",
       "category": "research",
       "title": "Data for Agents",
@@ -167,17 +134,6 @@
       "url": "https://huggingface.co/blog/nvidia/open-data-for-agents",
       "publishedAt": "2026-07-08T17:16:05.000Z",
       "impact": 87
-    },
-    {
-      "id": "hugging-face-1783468800000-2",
-      "type": "live",
-      "category": "llm",
-      "title": "Native-speed vLLM transformers modeling backend",
-      "excerpt": "New development from the frontier.",
-      "source": "Hugging Face",
-      "url": "https://huggingface.co/blog/native-speed-vllm-transformers-backend",
-      "publishedAt": "2026-07-08T00:00:00.000Z",
-      "impact": 75
     }
   ]
 }

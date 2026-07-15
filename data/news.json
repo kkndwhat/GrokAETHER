@@ -1,7 +1,7 @@
 {
-  "lastUpdated": "2026-07-14T19:27:35.373Z",
+  "lastUpdated": "2026-07-15T02:53:23.458Z",
   "source": "AETHER + Public RSS (arXiv, Hugging Face, MarkTechPost, Ben's Bites)",
-  "count": 16,
+  "count": 12,
   "articles": [
     {
       "id": "aether-grok43",
@@ -11,7 +11,7 @@
       "excerpt": "New model demonstrates 4.2× improvement on multi-step software engineering benchmarks and sustains coherent agent trajectories beyond 110k tokens.",
       "source": "xAI",
       "url": "https://x.ai/blog/grok-4.3",
-      "publishedAt": "2026-07-14T14:27:33.889Z",
+      "publishedAt": "2026-07-14T21:53:23.119Z",
       "impact": 96
     },
     {
@@ -22,30 +22,8 @@
       "excerpt": "Humanoid achieves new milestone in unsupervised operation, performing 1,240 unique tasks across three assembly lines at the BMW South Carolina plant.",
       "source": "Figure AI",
       "url": "https://figure.ai/news/03-milestone",
-      "publishedAt": "2026-07-14T10:27:33.889Z",
+      "publishedAt": "2026-07-14T17:53:23.119Z",
       "impact": 89
-    },
-    {
-      "id": "marktechpost-1784016929000-0",
-      "type": "live",
-      "category": "llm",
-      "title": "Meet Blume: An Open-Source, Zero-Config Documentation Framework That Ships AI-Ready Docs From a Markdown Folder",
-      "excerpt": "Developer Hayden Bleasel has released Blume, an open-source, MIT-licensed documentation framework.  It reads a folder of Markdown or MDX and generates a hidden Astro project, shipping static, AI-ready docs with local ...",
-      "source": "MarkTechPost",
-      "url": "https://www.marktechpost.com/2026/07/14/meet-blume-an-open-source-zero-config-documentation-framework-that-ships-ai-ready-docs-from-a-markdown-folder/",
-      "publishedAt": "2026-07-14T08:15:29.000Z",
-      "impact": 65
-    },
-    {
-      "id": "marktechpost-1784013638000-1",
-      "type": "live",
-      "category": "robotics",
-      "title": "Mistral AI Releases Robostral Navigate: An 8B Model Enabling Robots to Navigate Complex Environments Using a Single RGB Camera",
-      "excerpt": "Mistral AI introduced Robostral Navigate, an 8B embodied navigation model.  It moves robots from a plain-language instruction using only a single RGB camera, with no LiDAR or depth sensors",
-      "source": "MarkTechPost",
-      "url": "https://www.marktechpost.com/2026/07/14/mistral-ai-releases-robostral-navigate-an-8b-model-enabling-robots-to-navigate-complex-environments-using-a-single-rgb-camera/",
-      "publishedAt": "2026-07-14T07:20:38.000Z",
-      "impact": 65
     },
     {
       "id": "aether-interp",
@@ -55,7 +33,7 @@
       "excerpt": "Researchers reverse-engineered 312 million features inside the model, including the first clear \"deception circuit\" discovered in a frontier model.",
       "source": "Anthropic",
       "url": "https://anthropic.com/research/claude-4-interp",
-      "publishedAt": "2026-07-14T05:27:33.889Z",
+      "publishedAt": "2026-07-14T12:53:23.119Z",
       "impact": 91
     },
     {
@@ -123,28 +101,6 @@
       "url": "https://arxiv.org/abs/2607.09706",
       "publishedAt": "2026-07-14T04:00:00.000Z",
       "impact": 75
-    },
-    {
-      "id": "marktechpost-1783990727000-2",
-      "type": "live",
-      "category": "llm",
-      "title": "Anthropic Claude Sonnet 5 vs Sonnet 4.6 vs Opus 4.8: Agentic Coding Benchmarks, API Pricing, and Cost-Performance Tradeoffs Compared",
-      "excerpt": "Anthropic's Claude Sonnet 5 narrows the gap to Opus 4. 8 on agentic coding, at cheaper Sonnet token pricing",
-      "source": "MarkTechPost",
-      "url": "https://www.marktechpost.com/2026/07/13/anthropic-claude-sonnet-5-vs-sonnet-4-6-vs-opus-4-8-agentic-coding-benchmarks-api-pricing-and-cost-performance-tradeoffs-compared/",
-      "publishedAt": "2026-07-14T00:58:47.000Z",
-      "impact": 77
-    },
-    {
-      "id": "marktechpost-1783982273000-3",
-      "type": "live",
-      "category": "research",
-      "title": "Skyfall AI Releases MORPHEUS: A Persistent Enterprise Simulation Benchmark That Makes Continual Reinforcement Learning Necessary Under Structured Non-Stationarity",
-      "excerpt": "MORPHEUS from Skyfall AI is a persistent enterprise simulation platform for continual reinforcement learning.  It runs worlds that never reset, using parameterisable regime shifts and a six-metric evaluation protocol",
-      "source": "MarkTechPost",
-      "url": "https://www.marktechpost.com/2026/07/13/skyfall-ai-releases-morpheus-a-persistent-enterprise-simulation-benchmark-that-makes-continual-reinforcement-learning-necessary-under-structured-non-stationarity/",
-      "publishedAt": "2026-07-13T22:37:53.000Z",
-      "impact": 65
     },
     {
       "id": "hugging-face-1783641600000-0",

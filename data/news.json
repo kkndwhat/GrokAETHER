@@ -1,18 +1,73 @@
 {
-  "lastUpdated": "2026-07-16T03:14:51.600Z",
+  "lastUpdated": "2026-07-16T08:23:27.133Z",
   "source": "AETHER + Public RSS (arXiv, Hugging Face, MarkTechPost, Ben's Bites)",
-  "count": 16,
+  "count": 9,
   "articles": [
     {
-      "id": "marktechpost-1784159338000-0",
+      "id": "arxiv-cs.ai-1784174400000-0",
       "type": "live",
-      "category": "multimodal",
-      "title": "Thinking Machines Lab Releases Inkling: A 975B-Parameter Open-Weights Multimodal MoE With 41B Active Parameters And Controllable Thinking Effort",
-      "excerpt": "Thinking Machines Lab released Inkling on July 15, 2026, its first model trained from scratch.  The full weights ship under Apache 2",
-      "source": "MarkTechPost",
-      "url": "https://www.marktechpost.com/2026/07/15/thinking-machines-lab-releases-inkling-a-975b-parameter-open-weights-multimodal-moe-with-41b-active-parameters-and-controllable-thinking-effort/",
-      "publishedAt": "2026-07-15T23:48:58.000Z",
-      "impact": 65
+      "category": "llm",
+      "title": "OriginBlame: Record- and Token-Level Data Provenance for AI Training Datasets",
+      "excerpt": "13037v1 Announce Type: new Abstract: When a data contributor requests removal, model trainers face a practical gap: unlearning algorithms require a forget set, yet no tool can locate which training records belong to a...",
+      "source": "arXiv cs.AI",
+      "url": "https://arxiv.org/abs/2607.13037",
+      "publishedAt": "2026-07-16T04:00:00.000Z",
+      "impact": 58
+    },
+    {
+      "id": "arxiv-cs.ai-1784174400000-1",
+      "type": "live",
+      "category": "robotics",
+      "title": "SPINE: Bridging the Cyber-Physical Gap with Agentic AI",
+      "excerpt": "13049v1 Announce Type: new Abstract: Foundation models have given robots a sophisticated brain for complex decision-making, yet deploying that intelligence into a physical platform still demands tedious, expert-driven...",
+      "source": "arXiv cs.AI",
+      "url": "https://arxiv.org/abs/2607.13049",
+      "publishedAt": "2026-07-16T04:00:00.000Z",
+      "impact": 69
+    },
+    {
+      "id": "arxiv-cs.ai-1784174400000-2",
+      "type": "live",
+      "category": "llm",
+      "title": "Interventional Grounding Audits: Black-Box Premise-Dependency Tests for LLM Chain-of-Thought via Predicate Substitution",
+      "excerpt": "13069v1 Announce Type: new Abstract: Large language models produce chain-of-thought (CoT) reasoning that appears logically sound yet may not genuinely depend on its stated premises.  We introduce interventional ground...",
+      "source": "arXiv cs.AI",
+      "url": "https://arxiv.org/abs/2607.13069",
+      "publishedAt": "2026-07-16T04:00:00.000Z",
+      "impact": 58
+    },
+    {
+      "id": "arxiv-cs.ai-1784174400000-3",
+      "type": "live",
+      "category": "robotics",
+      "title": "Probabilistic Extension of Neuro-Symbolic AGI Robots based on Belnap's Typed Intensional FOL",
+      "excerpt": "13073v1 Announce Type: new Abstract: Neuro-symbolic AI based on $IFOL_B$ is a way to combine neural learning and symbolic reasoning to overcome limitations of purely neural systems (like lack of interpretability and l...",
+      "source": "arXiv cs.AI",
+      "url": "https://arxiv.org/abs/2607.13073",
+      "publishedAt": "2026-07-16T04:00:00.000Z",
+      "impact": 58
+    },
+    {
+      "id": "arxiv-cs.ai-1784174400000-4",
+      "type": "live",
+      "category": "llm",
+      "title": "Self-Improvements in Modern Agentic Systems: A Survey",
+      "excerpt": "13104v1 Announce Type: new Abstract: Self-improving autonomous agents are moving from research prototypes to deployed systems.  The primary goal is controllable evolution, or adaptation, from experience with minimal o...",
+      "source": "arXiv cs.AI",
+      "url": "https://arxiv.org/abs/2607.13104",
+      "publishedAt": "2026-07-16T04:00:00.000Z",
+      "impact": 69
+    },
+    {
+      "id": "arxiv-cs.ai-1784174400000-5",
+      "type": "live",
+      "category": "llm",
+      "title": "Improving Molecular Property Prediction in Small Language Models Using Graph-based Tools",
+      "excerpt": "13115v1 Announce Type: new Abstract: Small language models (SLMs) have shown promise for zero-shot molecular property prediction from SMILES strings, yet they often suffer from structural blindness because sequence re...",
+      "source": "arXiv cs.AI",
+      "url": "https://arxiv.org/abs/2607.13115",
+      "publishedAt": "2026-07-16T04:00:00.000Z",
+      "impact": 58
     },
     {
       "id": "aether-grok43",
@@ -22,19 +77,8 @@
       "excerpt": "New model demonstrates 4.2× improvement on multi-step software engineering benchmarks and sustains coherent agent trajectories beyond 110k tokens.",
       "source": "xAI",
       "url": "https://x.ai/blog/grok-4.3",
-      "publishedAt": "2026-07-15T22:14:50.550Z",
+      "publishedAt": "2026-07-16T03:23:12.087Z",
       "impact": 96
-    },
-    {
-      "id": "marktechpost-1784149368000-1",
-      "type": "live",
-      "category": "llm",
-      "title": "Soofi Consortium Releases Soofi S 30B-A3B: An Open Hybrid Mamba-Transformer MoE Foundation Model For German And English",
-      "excerpt": "Soofi S 30B-A3B is an open Mamba-Transformer MoE model activating 3. 6B parameters for German and English The post Soofi Consortium Releases Soofi S 30B-A3B: An Open Hybrid Mamba-Transformer MoE Foundation Model For G...",
-      "source": "MarkTechPost",
-      "url": "https://www.marktechpost.com/2026/07/15/soofi-consortium-releases-soofi-s-30b-a3b-an-open-hybrid-mamba-transformer-moe-foundation-model-for-german-and-english/",
-      "publishedAt": "2026-07-15T21:02:48.000Z",
-      "impact": 65
     },
     {
       "id": "aether-figure03",
@@ -44,41 +88,8 @@
       "excerpt": "Humanoid achieves new milestone in unsupervised operation, performing 1,240 unique tasks across three assembly lines at the BMW South Carolina plant.",
       "source": "Figure AI",
       "url": "https://figure.ai/news/03-milestone",
-      "publishedAt": "2026-07-15T18:14:50.550Z",
+      "publishedAt": "2026-07-15T23:23:12.087Z",
       "impact": 89
-    },
-    {
-      "id": "marktechpost-1784138618000-2",
-      "type": "live",
-      "category": "research",
-      "title": "Building a Gin Config Controlled PyTorch Pipeline with Configurable MLP Variants, Cosine Scheduling, and Runtime Parameter Overrides",
-      "excerpt": "We build a Gin Config controlled PyTorch pipeline where the training code stays fixed and the experiment variables move into .  We construct a nonlinear spiral binary classification task and define a configurable MLP ...",
-      "source": "MarkTechPost",
-      "url": "https://www.marktechpost.com/2026/07/15/building-a-gin-config-controlled-pytorch-pipeline-with-configurable-mlp-variants-cosine-scheduling-and-runtime-parameter-overrides/",
-      "publishedAt": "2026-07-15T18:03:38.000Z",
-      "impact": 65
-    },
-    {
-      "id": "hugging-face-1784136581000-0",
-      "type": "live",
-      "category": "research",
-      "title": "What building Shippy taught us about building agents",
-      "excerpt": "New development from the frontier.",
-      "source": "Hugging Face",
-      "url": "https://huggingface.co/blog/allenai/shippy-tech-blog",
-      "publishedAt": "2026-07-15T17:29:41.000Z",
-      "impact": 87
-    },
-    {
-      "id": "hugging-face-1784136421000-1",
-      "type": "live",
-      "category": "llm",
-      "title": "Model Routing Is Simple. Until It Isn’t.",
-      "excerpt": "New development from the frontier.",
-      "source": "Hugging Face",
-      "url": "https://huggingface.co/blog/ibm-research/model-routing-is-simple-until-it-isnt",
-      "publishedAt": "2026-07-15T17:27:01.000Z",
-      "impact": 75
     },
     {
       "id": "aether-interp",
@@ -88,96 +99,8 @@
       "excerpt": "Researchers reverse-engineered 312 million features inside the model, including the first clear \"deception circuit\" discovered in a frontier model.",
       "source": "Anthropic",
       "url": "https://anthropic.com/research/claude-4-interp",
-      "publishedAt": "2026-07-15T13:14:50.550Z",
+      "publishedAt": "2026-07-15T18:23:12.087Z",
       "impact": 91
-    },
-    {
-      "id": "marktechpost-1784100977000-3",
-      "type": "live",
-      "category": "hardware",
-      "title": "Google Releases LiteRT.js: A JavaScript Binding of LiteRT That Runs .tflite Models in Browsers via WebGPU",
-      "excerpt": "Google released LiteRT.  It is a JavaScript binding of LiteRT, Google's on-device inference library",
-      "source": "MarkTechPost",
-      "url": "https://www.marktechpost.com/2026/07/15/google-releases-litert-js-a-javascript-binding-of-litert-that-runs-tflite-models-in-browsers-via-webgpu/",
-      "publishedAt": "2026-07-15T07:36:17.000Z",
-      "impact": 65
-    },
-    {
-      "id": "arxiv-cs.ai-1784088000000-0",
-      "type": "live",
-      "category": "robotics",
-      "title": "Optimal Adaptive Market Making: A Theoretical Framework for High-Yield Liquidity Provision in Perpetual Futures Markets",
-      "excerpt": "11888v1 Announce Type: new Abstract: We develop a rigorous theoretical framework for optimal market making in perpetual futures markets with zero maker fees.  We model the market maker's problem as a stochastic optima...",
-      "source": "arXiv cs.AI",
-      "url": "https://arxiv.org/abs/2607.11888",
-      "publishedAt": "2026-07-15T04:00:00.000Z",
-      "impact": 58
-    },
-    {
-      "id": "arxiv-cs.ai-1784088000000-1",
-      "type": "live",
-      "category": "safety",
-      "title": "In-Context Reinforcement Learning under Non-Stationarity: A Survey",
-      "excerpt": "11906v1 Announce Type: new Abstract: The development of decision-pretrained transformers, algorithm distillation, long-context meta-RL, and retrieval-augmented agents has renewed interest in in-context reinforcement l...",
-      "source": "arXiv cs.AI",
-      "url": "https://arxiv.org/abs/2607.11906",
-      "publishedAt": "2026-07-15T04:00:00.000Z",
-      "impact": 58
-    },
-    {
-      "id": "arxiv-cs.ai-1784088000000-2",
-      "type": "live",
-      "category": "safety",
-      "title": "Ontology-Amplified Distillation and Contextuality Auditing for Sovereign Enterprise Language Models: A Combined Proof-of-Mechanism and Negative-Results Method Study",
-      "excerpt": "11948v1 Announce Type: new Abstract: Regulated financial institutions operating under data-residency rules need tenant-owned language models that can run inside the institution's perimeter.  This paper combines two re...",
-      "source": "arXiv cs.AI",
-      "url": "https://arxiv.org/abs/2607.11948",
-      "publishedAt": "2026-07-15T04:00:00.000Z",
-      "impact": 58
-    },
-    {
-      "id": "arxiv-cs.ai-1784088000000-3",
-      "type": "live",
-      "category": "llm",
-      "title": "GRID: Grammar-Railed Decoding for Enterprise SQL Generation",
-      "excerpt": "11951v1 Announce Type: new Abstract: Large language models can write SQL, but enterprise deployment demands more than plausible text: outputs must be syntactically valid, must respect per-role and per-schema policy, m...",
-      "source": "arXiv cs.AI",
-      "url": "https://arxiv.org/abs/2607.11951",
-      "publishedAt": "2026-07-15T04:00:00.000Z",
-      "impact": 58
-    },
-    {
-      "id": "arxiv-cs.ai-1784088000000-4",
-      "type": "live",
-      "category": "research",
-      "title": "Calibration-First Reward-Component Auditing for Reinforcement Learning Control in Smart Greenhouses",
-      "excerpt": "11959v1 Announce Type: new Abstract: Greenhouse reinforcement learning can test climate-control ideas at a speed and scale that is difficult to achieve with crop experiments alone.  For smart-greenhouse control, howev...",
-      "source": "arXiv cs.AI",
-      "url": "https://arxiv.org/abs/2607.11959",
-      "publishedAt": "2026-07-15T04:00:00.000Z",
-      "impact": 58
-    },
-    {
-      "id": "arxiv-cs.ai-1784088000000-5",
-      "type": "live",
-      "category": "safety",
-      "title": "Optimization Is Not All You Need",
-      "excerpt": "11977v2 Announce Type: new Abstract: In 2019, OpenAI released two million GPT-2 outputs-ungrammatical, half broken-to aid the detection of machine-generated text.  The alignment that produced their more fluent success...",
-      "source": "arXiv cs.AI",
-      "url": "https://arxiv.org/abs/2607.11977",
-      "publishedAt": "2026-07-15T04:00:00.000Z",
-      "impact": 58
-    },
-    {
-      "id": "hugging-face-1784073600000-2",
-      "type": "live",
-      "category": "research",
-      "title": "Welcome Inkling by Thinking Machines",
-      "excerpt": "New development from the frontier.",
-      "source": "Hugging Face",
-      "url": "https://huggingface.co/blog/thinkingmachines-inkling",
-      "publishedAt": "2026-07-15T00:00:00.000Z",
-      "impact": 75
     }
   ]
 }

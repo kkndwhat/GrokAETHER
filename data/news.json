@@ -1,10 +1,43 @@
 {
-  "lastUpdated": "2026-07-16T14:06:43.329Z",
+  "lastUpdated": "2026-07-16T19:20:50.377Z",
   "source": "AETHER + Public RSS (arXiv, Hugging Face, MarkTechPost, Ben's Bites)",
   "count": 16,
   "articles": [
     {
-      "id": "hugging-face-1784202588000-0",
+      "id": "marktechpost-1784227684000-0",
+      "type": "live",
+      "category": "multimodal",
+      "title": "OpenAI Details GPT-Red: An Internal Automated Red-Teaming Model That Beat Human Red-Teamers 84% To 13% On Prompt Injection",
+      "excerpt": "OpenAI trained GPT-Red, an internal-only attacker model, using self-play reinforcement learning against a population of defender LLMs.  It beat human red-teamers 84% to 13% on a replicated indirect prompt injection ar...",
+      "source": "MarkTechPost",
+      "url": "https://www.marktechpost.com/2026/07/16/openai-details-gpt-red-an-internal-automated-red-teaming-model-that-beat-human-red-teamers-84-to-13-on-prompt-injection/",
+      "publishedAt": "2026-07-16T18:48:04.000Z",
+      "impact": 65
+    },
+    {
+      "id": "hugging-face-1784217681000-0",
+      "type": "live",
+      "category": "research",
+      "title": "NVIDIA Nemotron 3 Embed Ranks #1 Overall on RTEB, Advancing Agentic Retrieval",
+      "excerpt": "New development from the frontier.",
+      "source": "Hugging Face",
+      "url": "https://huggingface.co/blog/nvidia/nemotron-3-embed-wins-rteb",
+      "publishedAt": "2026-07-16T16:01:21.000Z",
+      "impact": 87
+    },
+    {
+      "id": "aether-grok43",
+      "type": "premium",
+      "category": "llm",
+      "title": "xAI releases Grok-4.3 with native long-horizon agent scaffolding",
+      "excerpt": "New model demonstrates 4.2× improvement on multi-step software engineering benchmarks and sustains coherent agent trajectories beyond 110k tokens.",
+      "source": "xAI",
+      "url": "https://x.ai/blog/grok-4.3",
+      "publishedAt": "2026-07-16T14:20:49.453Z",
+      "impact": 96
+    },
+    {
+      "id": "hugging-face-1784202588000-1",
       "type": "live",
       "category": "llm",
       "title": "Newer Models, Same Advantage",
@@ -15,18 +48,18 @@
       "impact": 75
     },
     {
-      "id": "aether-grok43",
+      "id": "aether-figure03",
       "type": "premium",
-      "category": "llm",
-      "title": "xAI releases Grok-4.3 with native long-horizon agent scaffolding",
-      "excerpt": "New model demonstrates 4.2× improvement on multi-step software engineering benchmarks and sustains coherent agent trajectories beyond 110k tokens.",
-      "source": "xAI",
-      "url": "https://x.ai/blog/grok-4.3",
-      "publishedAt": "2026-07-16T09:06:42.233Z",
-      "impact": 96
+      "category": "robotics",
+      "title": "Figure 03 completes 43-hour autonomous factory shift with zero interventions",
+      "excerpt": "Humanoid achieves new milestone in unsupervised operation, performing 1,240 unique tasks across three assembly lines at the BMW South Carolina plant.",
+      "source": "Figure AI",
+      "url": "https://figure.ai/news/03-milestone",
+      "publishedAt": "2026-07-16T10:20:49.453Z",
+      "impact": 89
     },
     {
-      "id": "marktechpost-1784187769000-0",
+      "id": "marktechpost-1784187769000-1",
       "type": "live",
       "category": "safety",
       "title": "Patter SDK Guide to Building a Restaurant Booking Phone Agent with Dynamic Variables, Guardrails, Latency Dashboards, and Eval Checks",
@@ -37,7 +70,7 @@
       "impact": 77
     },
     {
-      "id": "marktechpost-1784183754000-1",
+      "id": "marktechpost-1784183754000-2",
       "type": "live",
       "category": "llm",
       "title": "SpaceXAI Open-Sources Grok Build: The Rust Agent Harness, TUI, and Tool Layer Behind Its Coding CLI",
@@ -48,15 +81,15 @@
       "impact": 77
     },
     {
-      "id": "aether-figure03",
+      "id": "aether-interp",
       "type": "premium",
-      "category": "robotics",
-      "title": "Figure 03 completes 43-hour autonomous factory shift with zero interventions",
-      "excerpt": "Humanoid achieves new milestone in unsupervised operation, performing 1,240 unique tasks across three assembly lines at the BMW South Carolina plant.",
-      "source": "Figure AI",
-      "url": "https://figure.ai/news/03-milestone",
-      "publishedAt": "2026-07-16T05:06:42.233Z",
-      "impact": 89
+      "category": "safety",
+      "title": "Anthropic publishes unprecedented mechanistic interpretability map of Claude 4",
+      "excerpt": "Researchers reverse-engineered 312 million features inside the model, including the first clear \"deception circuit\" discovered in a frontier model.",
+      "source": "Anthropic",
+      "url": "https://anthropic.com/research/claude-4-interp",
+      "publishedAt": "2026-07-16T05:20:49.453Z",
+      "impact": 91
     },
     {
       "id": "arxiv-cs.ai-1784174400000-0",
@@ -125,18 +158,7 @@
       "impact": 58
     },
     {
-      "id": "aether-interp",
-      "type": "premium",
-      "category": "safety",
-      "title": "Anthropic publishes unprecedented mechanistic interpretability map of Claude 4",
-      "excerpt": "Researchers reverse-engineered 312 million features inside the model, including the first clear \"deception circuit\" discovered in a frontier model.",
-      "source": "Anthropic",
-      "url": "https://anthropic.com/research/claude-4-interp",
-      "publishedAt": "2026-07-16T00:06:42.233Z",
-      "impact": 91
-    },
-    {
-      "id": "hugging-face-1784160000000-1",
+      "id": "hugging-face-1784160000000-2",
       "type": "live",
       "category": "research",
       "title": "Security incident disclosure — July 2026",
@@ -147,7 +169,7 @@
       "impact": 75
     },
     {
-      "id": "marktechpost-1784159338000-2",
+      "id": "marktechpost-1784159338000-3",
       "type": "live",
       "category": "multimodal",
       "title": "Thinking Machines Lab Releases Inkling: A 975B-Parameter Open-Weights Multimodal MoE With 41B Active Parameters And Controllable Thinking Effort",
@@ -156,28 +178,6 @@
       "url": "https://www.marktechpost.com/2026/07/15/thinking-machines-lab-releases-inkling-a-975b-parameter-open-weights-multimodal-moe-with-41b-active-parameters-and-controllable-thinking-effort/",
       "publishedAt": "2026-07-15T23:48:58.000Z",
       "impact": 65
-    },
-    {
-      "id": "marktechpost-1784149368000-3",
-      "type": "live",
-      "category": "llm",
-      "title": "Soofi Consortium Releases Soofi S 30B-A3B: An Open Hybrid Mamba-Transformer MoE Foundation Model For German And English",
-      "excerpt": "Soofi S 30B-A3B is an open Mamba-Transformer MoE model activating 3. 6B parameters for German and English The post Soofi Consortium Releases Soofi S 30B-A3B: An Open Hybrid Mamba-Transformer MoE Foundation Model For G...",
-      "source": "MarkTechPost",
-      "url": "https://www.marktechpost.com/2026/07/15/soofi-consortium-releases-soofi-s-30b-a3b-an-open-hybrid-mamba-transformer-moe-foundation-model-for-german-and-english/",
-      "publishedAt": "2026-07-15T21:02:48.000Z",
-      "impact": 65
-    },
-    {
-      "id": "hugging-face-1784136581000-2",
-      "type": "live",
-      "category": "research",
-      "title": "What building Shippy taught us about building agents",
-      "excerpt": "New development from the frontier.",
-      "source": "Hugging Face",
-      "url": "https://huggingface.co/blog/allenai/shippy-tech-blog",
-      "publishedAt": "2026-07-15T17:29:41.000Z",
-      "impact": 87
     }
   ]
 }

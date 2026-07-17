@@ -1,8 +1,19 @@
 {
-  "lastUpdated": "2026-07-17T13:50:17.540Z",
+  "lastUpdated": "2026-07-17T19:18:35.058Z",
   "source": "AETHER + Public RSS (arXiv, Hugging Face, MarkTechPost, Ben's Bites)",
-  "count": 12,
+  "count": 16,
   "articles": [
+    {
+      "id": "hugging-face-1784303874000-0",
+      "type": "live",
+      "category": "multimodal",
+      "title": "Fine-tune video and image models at scale with NVIDIA NeMo Automodel and 🤗 Diffusers",
+      "excerpt": "New development from the frontier.",
+      "source": "Hugging Face",
+      "url": "https://huggingface.co/blog/nvidia/scale-diffusers-finetuning-nemo-automodel",
+      "publishedAt": "2026-07-17T15:57:54.000Z",
+      "impact": 75
+    },
     {
       "id": "aether-grok43",
       "type": "premium",
@@ -11,7 +22,7 @@
       "excerpt": "New model demonstrates 4.2× improvement on multi-step software engineering benchmarks and sustains coherent agent trajectories beyond 110k tokens.",
       "source": "xAI",
       "url": "https://x.ai/blog/grok-4.3",
-      "publishedAt": "2026-07-17T08:50:17.027Z",
+      "publishedAt": "2026-07-17T14:18:34.301Z",
       "impact": 96
     },
     {
@@ -22,8 +33,30 @@
       "excerpt": "Humanoid achieves new milestone in unsupervised operation, performing 1,240 unique tasks across three assembly lines at the BMW South Carolina plant.",
       "source": "Figure AI",
       "url": "https://figure.ai/news/03-milestone",
-      "publishedAt": "2026-07-17T04:50:17.027Z",
+      "publishedAt": "2026-07-17T10:18:34.301Z",
       "impact": 89
+    },
+    {
+      "id": "marktechpost-1784274782000-0",
+      "type": "live",
+      "category": "hardware",
+      "title": "NVIDIA AI Releases Nemotron 3 Embed: An Open Embedding Collection Whose 8B Checkpoint Ranks #1 on RTEB",
+      "excerpt": "NVIDIA released Nemotron 3 Embed on July 15 and 16, 2026.  The collection has three open checkpoints: Nemotron-3-Embed-8B-BF16, Nemotron-3-Embed-1B-BF16, and Nemotron-3-Embed-1B-NVFP4",
+      "source": "MarkTechPost",
+      "url": "https://www.marktechpost.com/2026/07/17/nvidia-ai-releases-nemotron-3-embed-an-open-embedding-collection-whose-8b-checkpoint-ranks-1-on-rteb/",
+      "publishedAt": "2026-07-17T07:53:02.000Z",
+      "impact": 65
+    },
+    {
+      "id": "aether-interp",
+      "type": "premium",
+      "category": "safety",
+      "title": "Anthropic publishes unprecedented mechanistic interpretability map of Claude 4",
+      "excerpt": "Researchers reverse-engineered 312 million features inside the model, including the first clear \"deception circuit\" discovered in a frontier model.",
+      "source": "Anthropic",
+      "url": "https://anthropic.com/research/claude-4-interp",
+      "publishedAt": "2026-07-17T05:18:34.301Z",
+      "impact": 91
     },
     {
       "id": "arxiv-cs.ai-1784260800000-0",
@@ -92,26 +125,26 @@
       "impact": 58
     },
     {
-      "id": "aether-interp",
-      "type": "premium",
-      "category": "safety",
-      "title": "Anthropic publishes unprecedented mechanistic interpretability map of Claude 4",
-      "excerpt": "Researchers reverse-engineered 312 million features inside the model, including the first clear \"deception circuit\" discovered in a frontier model.",
-      "source": "Anthropic",
-      "url": "https://anthropic.com/research/claude-4-interp",
-      "publishedAt": "2026-07-16T23:50:17.027Z",
-      "impact": 91
+      "id": "marktechpost-1784245625000-1",
+      "type": "live",
+      "category": "llm",
+      "title": "Moonshot AI Releases Kimi K3: A 2.8 Trillion Parameter Open MoE Model With Kimi Delta Attention and 1M Context",
+      "excerpt": "Moonshot AI released Kimi K3 on July 16, 2026. 8-trillion-parameter open MoE model built on Kimi Delta Attention and Attention Residuals, activating 16 of 896 experts",
+      "source": "MarkTechPost",
+      "url": "https://www.marktechpost.com/2026/07/16/moonshot-ai-releases-kimi-k3-a-2-8-trillion-parameter-open-moe-model-with-kimi-delta-attention-and-1m-context/",
+      "publishedAt": "2026-07-16T23:47:05.000Z",
+      "impact": 65
     },
     {
-      "id": "hugging-face-1784217681000-0",
+      "id": "marktechpost-1784227684000-2",
       "type": "live",
-      "category": "research",
-      "title": "NVIDIA Nemotron 3 Embed Ranks #1 Overall on RTEB, Advancing Agentic Retrieval",
-      "excerpt": "New development from the frontier.",
-      "source": "Hugging Face",
-      "url": "https://huggingface.co/blog/nvidia/nemotron-3-embed-wins-rteb",
-      "publishedAt": "2026-07-16T16:01:21.000Z",
-      "impact": 87
+      "category": "multimodal",
+      "title": "OpenAI Details GPT-Red: An Internal Automated Red-Teaming Model That Beat Human Red-Teamers 84% To 13% On Prompt Injection",
+      "excerpt": "OpenAI trained GPT-Red, an internal-only attacker model, using self-play reinforcement learning against a population of defender LLMs.  It beat human red-teamers 84% to 13% on a replicated indirect prompt injection ar...",
+      "source": "MarkTechPost",
+      "url": "https://www.marktechpost.com/2026/07/16/openai-details-gpt-red-an-internal-automated-red-teaming-model-that-beat-human-red-teamers-84-to-13-on-prompt-injection/",
+      "publishedAt": "2026-07-16T18:48:04.000Z",
+      "impact": 65
     },
     {
       "id": "hugging-face-1784202588000-1",
@@ -123,6 +156,17 @@
       "url": "https://huggingface.co/blog/Dharma-AI/newer-models-same-advantages",
       "publishedAt": "2026-07-16T11:49:48.000Z",
       "impact": 75
+    },
+    {
+      "id": "marktechpost-1784187769000-3",
+      "type": "live",
+      "category": "safety",
+      "title": "Patter SDK Guide to Building a Restaurant Booking Phone Agent with Dynamic Variables, Guardrails, Latency Dashboards, and Eval Checks",
+      "excerpt": "We explore the Patter SDK by building a voice-agent workflow for a restaurant booking use case.  We define dynamic caller variables, register callable tools for availability, bookings, hours, and human transfer, and l...",
+      "source": "MarkTechPost",
+      "url": "https://www.marktechpost.com/2026/07/16/patter-sdk-guide-to-building-a-restaurant-booking-phone-agent-with-dynamic-variables-guardrails-latency-dashboards-and-eval-checks/",
+      "publishedAt": "2026-07-16T07:42:49.000Z",
+      "impact": 77
     },
     {
       "id": "hugging-face-1784160000000-2",

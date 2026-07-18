@@ -1,10 +1,65 @@
 {
-  "lastUpdated": "2026-07-18T02:54:48.465Z",
+  "lastUpdated": "2026-07-18T08:01:12.958Z",
   "source": "AETHER + Public RSS (arXiv, Hugging Face, MarkTechPost, Ben's Bites)",
-  "count": 16,
+  "count": 10,
   "articles": [
     {
-      "id": "marktechpost-1784326377000-0",
+      "id": "marktechpost-1784361471000-0",
+      "type": "live",
+      "category": "llm",
+      "title": "Google Cloud’s Always-On Memory Agent Replaces RAG and Embeddings With Continuous LLM Consolidation on Gemini 3.1 Flash-Lite",
+      "excerpt": "Google Cloud's generative-ai repository ships the Always-On Memory Agent, a reference implementation that treats memory as a running process.  Built on Google ADK and Gemini 3",
+      "source": "MarkTechPost",
+      "url": "https://www.marktechpost.com/2026/07/18/google-clouds-always-on-memory-agent-replaces-rag-and-embeddings-with-continuous-llm-consolidation-on-gemini-3-1-flash-lite/",
+      "publishedAt": "2026-07-18T07:57:51.000Z",
+      "impact": 77
+    },
+    {
+      "id": "marktechpost-1784357465000-1",
+      "type": "live",
+      "category": "research",
+      "title": "How to Build Plasmid Engineering Workbench with Circular Mapping, Restriction Analysis, Virtual Gels, and Primer Design",
+      "excerpt": "In this tutorial, we build a Google Colab-native plasmid workbench that recreates the core ideas of SpliceCraft inside an interactive notebook environment.  Instead of relying on a terminal-based TUI, we use Biopython...",
+      "source": "MarkTechPost",
+      "url": "https://www.marktechpost.com/2026/07/17/how-to-build-plasmid-engineering-workbench-with-circular-mapping-restriction-analysis-virtual-gels-and-primer-design/",
+      "publishedAt": "2026-07-18T06:51:05.000Z",
+      "impact": 65
+    },
+    {
+      "id": "marktechpost-1784356363000-2",
+      "type": "live",
+      "category": "research",
+      "title": "Sakana AI’s Error Diffusion Trains Dale-Compliant Dual-Stream Networks, Reaching 96.7% MNIST and 61.7% CIFAR-10 Without Backpropagation",
+      "excerpt": "Backpropagation relies on weight transport, which biological circuits likely cannot implement.  Sakana AI's Error Diffusion sidesteps that constraint, training dual-stream excitatory/inhibitory networks that obey Dale...",
+      "source": "MarkTechPost",
+      "url": "https://www.marktechpost.com/2026/07/17/sakana-ais-error-diffusion-trains-dale-compliant-dual-stream-networks-reaching-96-7-mnist-and-61-7-cifar-10-without-backpropagation/",
+      "publishedAt": "2026-07-18T06:32:43.000Z",
+      "impact": 65
+    },
+    {
+      "id": "aether-grok43",
+      "type": "premium",
+      "category": "llm",
+      "title": "xAI releases Grok-4.3 with native long-horizon agent scaffolding",
+      "excerpt": "New model demonstrates 4.2× improvement on multi-step software engineering benchmarks and sustains coherent agent trajectories beyond 110k tokens.",
+      "source": "xAI",
+      "url": "https://x.ai/blog/grok-4.3",
+      "publishedAt": "2026-07-18T03:01:11.785Z",
+      "impact": 96
+    },
+    {
+      "id": "aether-figure03",
+      "type": "premium",
+      "category": "robotics",
+      "title": "Figure 03 completes 43-hour autonomous factory shift with zero interventions",
+      "excerpt": "Humanoid achieves new milestone in unsupervised operation, performing 1,240 unique tasks across three assembly lines at the BMW South Carolina plant.",
+      "source": "Figure AI",
+      "url": "https://figure.ai/news/03-milestone",
+      "publishedAt": "2026-07-17T23:01:11.785Z",
+      "impact": 89
+    },
+    {
+      "id": "marktechpost-1784326377000-3",
       "type": "live",
       "category": "robotics",
       "title": "Build an Agentic Event Venue Operator with MongoDB Atlas, Voyage, and LangGraph",
@@ -15,37 +70,15 @@
       "impact": 77
     },
     {
-      "id": "aether-grok43",
+      "id": "aether-interp",
       "type": "premium",
-      "category": "llm",
-      "title": "xAI releases Grok-4.3 with native long-horizon agent scaffolding",
-      "excerpt": "New model demonstrates 4.2× improvement on multi-step software engineering benchmarks and sustains coherent agent trajectories beyond 110k tokens.",
-      "source": "xAI",
-      "url": "https://x.ai/blog/grok-4.3",
-      "publishedAt": "2026-07-17T21:54:47.581Z",
-      "impact": 96
-    },
-    {
-      "id": "marktechpost-1784324127000-1",
-      "type": "live",
-      "category": "llm",
-      "title": "Zyphra Releases ZUNA1.1: An Apache 2.0 EEG Foundation Model With Variable-Length Inputs From 0.5 To 30 Seconds",
-      "excerpt": "Zyphra released ZUNA1. 1 on July 16, 2026, under the Apache 2",
-      "source": "MarkTechPost",
-      "url": "https://www.marktechpost.com/2026/07/17/zyphra-releases-zuna1-1-an-apache-2-0-eeg-foundation-model-with-variable-length-inputs-from-0-5-to-30-seconds/",
-      "publishedAt": "2026-07-17T21:35:27.000Z",
-      "impact": 65
-    },
-    {
-      "id": "aether-figure03",
-      "type": "premium",
-      "category": "robotics",
-      "title": "Figure 03 completes 43-hour autonomous factory shift with zero interventions",
-      "excerpt": "Humanoid achieves new milestone in unsupervised operation, performing 1,240 unique tasks across three assembly lines at the BMW South Carolina plant.",
-      "source": "Figure AI",
-      "url": "https://figure.ai/news/03-milestone",
-      "publishedAt": "2026-07-17T17:54:47.581Z",
-      "impact": 89
+      "category": "safety",
+      "title": "Anthropic publishes unprecedented mechanistic interpretability map of Claude 4",
+      "excerpt": "Researchers reverse-engineered 312 million features inside the model, including the first clear \"deception circuit\" discovered in a frontier model.",
+      "source": "Anthropic",
+      "url": "https://anthropic.com/research/claude-4-interp",
+      "publishedAt": "2026-07-17T18:01:11.785Z",
+      "impact": 91
     },
     {
       "id": "hugging-face-1784303874000-0",
@@ -57,105 +90,6 @@
       "url": "https://huggingface.co/blog/nvidia/scale-diffusers-finetuning-nemo-automodel",
       "publishedAt": "2026-07-17T15:57:54.000Z",
       "impact": 75
-    },
-    {
-      "id": "aether-interp",
-      "type": "premium",
-      "category": "safety",
-      "title": "Anthropic publishes unprecedented mechanistic interpretability map of Claude 4",
-      "excerpt": "Researchers reverse-engineered 312 million features inside the model, including the first clear \"deception circuit\" discovered in a frontier model.",
-      "source": "Anthropic",
-      "url": "https://anthropic.com/research/claude-4-interp",
-      "publishedAt": "2026-07-17T12:54:47.581Z",
-      "impact": 91
-    },
-    {
-      "id": "marktechpost-1784274782000-2",
-      "type": "live",
-      "category": "hardware",
-      "title": "NVIDIA AI Releases Nemotron 3 Embed: An Open Embedding Collection Whose 8B Checkpoint Ranks #1 on RTEB",
-      "excerpt": "NVIDIA released Nemotron 3 Embed on July 15 and 16, 2026.  The collection has three open checkpoints: Nemotron-3-Embed-8B-BF16, Nemotron-3-Embed-1B-BF16, and Nemotron-3-Embed-1B-NVFP4",
-      "source": "MarkTechPost",
-      "url": "https://www.marktechpost.com/2026/07/17/nvidia-ai-releases-nemotron-3-embed-an-open-embedding-collection-whose-8b-checkpoint-ranks-1-on-rteb/",
-      "publishedAt": "2026-07-17T07:53:02.000Z",
-      "impact": 65
-    },
-    {
-      "id": "arxiv-cs.ai-1784260800000-0",
-      "type": "live",
-      "category": "llm",
-      "title": "OriginBlame: Record- and Token-Level Data Provenance for AI Training Datasets",
-      "excerpt": "13037v1 Announce Type: new Abstract: When a data contributor requests removal, model trainers face a practical gap: unlearning algorithms require a forget set, yet no tool can locate which training records belong to a...",
-      "source": "arXiv cs.AI",
-      "url": "https://arxiv.org/abs/2607.13037",
-      "publishedAt": "2026-07-17T04:00:00.000Z",
-      "impact": 58
-    },
-    {
-      "id": "arxiv-cs.ai-1784260800000-1",
-      "type": "live",
-      "category": "robotics",
-      "title": "SPINE: Bridging the Cyber-Physical Gap with Agentic AI",
-      "excerpt": "13049v1 Announce Type: new Abstract: Foundation models have given robots a sophisticated brain for complex decision-making, yet deploying that intelligence into a physical platform still demands tedious, expert-driven...",
-      "source": "arXiv cs.AI",
-      "url": "https://arxiv.org/abs/2607.13049",
-      "publishedAt": "2026-07-17T04:00:00.000Z",
-      "impact": 69
-    },
-    {
-      "id": "arxiv-cs.ai-1784260800000-2",
-      "type": "live",
-      "category": "llm",
-      "title": "Interventional Grounding Audits: Black-Box Premise-Dependency Tests for LLM Chain-of-Thought via Predicate Substitution",
-      "excerpt": "13069v1 Announce Type: new Abstract: Large language models produce chain-of-thought (CoT) reasoning that appears logically sound yet may not genuinely depend on its stated premises.  We introduce interventional ground...",
-      "source": "arXiv cs.AI",
-      "url": "https://arxiv.org/abs/2607.13069",
-      "publishedAt": "2026-07-17T04:00:00.000Z",
-      "impact": 58
-    },
-    {
-      "id": "arxiv-cs.ai-1784260800000-3",
-      "type": "live",
-      "category": "robotics",
-      "title": "Probabilistic Extension of Neuro-Symbolic AGI Robots based on Belnap's Typed Intensional FOL",
-      "excerpt": "13073v1 Announce Type: new Abstract: Neuro-symbolic AI based on $IFOL_B$ is a way to combine neural learning and symbolic reasoning to overcome limitations of purely neural systems (like lack of interpretability and l...",
-      "source": "arXiv cs.AI",
-      "url": "https://arxiv.org/abs/2607.13073",
-      "publishedAt": "2026-07-17T04:00:00.000Z",
-      "impact": 58
-    },
-    {
-      "id": "arxiv-cs.ai-1784260800000-4",
-      "type": "live",
-      "category": "llm",
-      "title": "Self-Improvements in Modern Agentic Systems: A Survey",
-      "excerpt": "13104v1 Announce Type: new Abstract: Self-improving autonomous agents are moving from research prototypes to deployed systems.  The primary goal is controllable evolution, or adaptation, from experience with minimal o...",
-      "source": "arXiv cs.AI",
-      "url": "https://arxiv.org/abs/2607.13104",
-      "publishedAt": "2026-07-17T04:00:00.000Z",
-      "impact": 69
-    },
-    {
-      "id": "arxiv-cs.ai-1784260800000-5",
-      "type": "live",
-      "category": "llm",
-      "title": "Improving Molecular Property Prediction in Small Language Models Using Graph-based Tools",
-      "excerpt": "13115v1 Announce Type: new Abstract: Small language models (SLMs) have shown promise for zero-shot molecular property prediction from SMILES strings, yet they often suffer from structural blindness because sequence re...",
-      "source": "arXiv cs.AI",
-      "url": "https://arxiv.org/abs/2607.13115",
-      "publishedAt": "2026-07-17T04:00:00.000Z",
-      "impact": 58
-    },
-    {
-      "id": "marktechpost-1784245625000-3",
-      "type": "live",
-      "category": "llm",
-      "title": "Moonshot AI Releases Kimi K3: A 2.8 Trillion Parameter Open MoE Model With Kimi Delta Attention and 1M Context",
-      "excerpt": "Moonshot AI released Kimi K3 on July 16, 2026. 8-trillion-parameter open MoE model built on Kimi Delta Attention and Attention Residuals, activating 16 of 896 experts",
-      "source": "MarkTechPost",
-      "url": "https://www.marktechpost.com/2026/07/16/moonshot-ai-releases-kimi-k3-a-2-8-trillion-parameter-open-moe-model-with-kimi-delta-attention-and-1m-context/",
-      "publishedAt": "2026-07-16T23:47:05.000Z",
-      "impact": 65
     },
     {
       "id": "hugging-face-1784202588000-1",

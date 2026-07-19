@@ -1,10 +1,43 @@
 {
-  "lastUpdated": "2026-07-19T03:26:55.583Z",
+  "lastUpdated": "2026-07-19T08:26:57.875Z",
   "source": "AETHER + Public RSS (arXiv, Hugging Face, MarkTechPost, Ben's Bites)",
   "count": 10,
   "articles": [
     {
-      "id": "marktechpost-1784425293000-0",
+      "id": "marktechpost-1784445554000-0",
+      "type": "live",
+      "category": "research",
+      "title": "Perplexity AI Releases WANDR: An Open Benchmark Evaluating Research Agents That Must Search Wide And Deep",
+      "excerpt": "Perplexity's WANDR is an open benchmark and evaluation harness with 500 evidence-heavy tasks.  It tests whether research agents can discover many qualifying entities and back each one with cited, re-verifiable evidence",
+      "source": "MarkTechPost",
+      "url": "https://www.marktechpost.com/2026/07/19/perplexity-ai-releases-wandr-an-open-benchmark-evaluating-research-agents-that-must-search-wide-and-deep/",
+      "publishedAt": "2026-07-19T07:19:14.000Z",
+      "impact": 77
+    },
+    {
+      "id": "marktechpost-1784440399000-1",
+      "type": "live",
+      "category": "llm",
+      "title": "10 Open-Source No-Code AI Platforms for Building LLM Apps, RAG Systems, and AI Agents",
+      "excerpt": "Retrieval, agents, and workflows now ship as visual and plain-English tools.  This roundup covers 10 open-source no-code and low-code platforms for building LLM apps, RAG systems, and AI agents, each with its verified...",
+      "source": "MarkTechPost",
+      "url": "https://www.marktechpost.com/2026/07/18/10-open-source-no-code-ai-platforms-for-building-llm-apps-rag-systems-and-ai-agents/",
+      "publishedAt": "2026-07-19T05:53:19.000Z",
+      "impact": 77
+    },
+    {
+      "id": "aether-grok43",
+      "type": "premium",
+      "category": "llm",
+      "title": "xAI releases Grok-4.3 with native long-horizon agent scaffolding",
+      "excerpt": "New model demonstrates 4.2× improvement on multi-step software engineering benchmarks and sustains coherent agent trajectories beyond 110k tokens.",
+      "source": "xAI",
+      "url": "https://x.ai/blog/grok-4.3",
+      "publishedAt": "2026-07-19T03:26:56.958Z",
+      "impact": 96
+    },
+    {
+      "id": "marktechpost-1784425293000-2",
       "type": "live",
       "category": "llm",
       "title": "Kimi K3 vs DeepSeek V4 Pro vs GLM-5.2: Open Trillion-Scale MoE Models Compared on Benchmarks, License, and Serving Cost",
@@ -15,7 +48,7 @@
       "impact": 65
     },
     {
-      "id": "marktechpost-1784423332000-1",
+      "id": "marktechpost-1784423332000-3",
       "type": "live",
       "category": "hardware",
       "title": "Fine-Tuning Qwen3 with LoRA Using NVIDIA NeMo AutoModel: A Complete Single-GPU Google Colab Workflow Tutorial",
@@ -26,28 +59,6 @@
       "impact": 65
     },
     {
-      "id": "aether-grok43",
-      "type": "premium",
-      "category": "llm",
-      "title": "xAI releases Grok-4.3 with native long-horizon agent scaffolding",
-      "excerpt": "New model demonstrates 4.2× improvement on multi-step software engineering benchmarks and sustains coherent agent trajectories beyond 110k tokens.",
-      "source": "xAI",
-      "url": "https://x.ai/blog/grok-4.3",
-      "publishedAt": "2026-07-18T22:26:54.346Z",
-      "impact": 96
-    },
-    {
-      "id": "marktechpost-1784402182000-2",
-      "type": "live",
-      "category": "multimodal",
-      "title": "NVIDIA Released DeepStream 9.1: Bringing Agentic AI to Vision AI With 13 Skills and Multi-View 3D Tracking",
-      "excerpt": "1 introduces 13 agentic skills that let coding agents like Claude Code and Codex build multi-camera video analytics pipelines from natural-language prompts.  Multi-View 3D Tracking (MV3DT) fuses per-camera detections ...",
-      "source": "MarkTechPost",
-      "url": "https://www.marktechpost.com/2026/07/18/nvidia-released-deepstream-9-1-bringing-agentic-ai-to-vision-ai-with-13-skills-and-multi-view-3d-tracking/",
-      "publishedAt": "2026-07-18T19:16:22.000Z",
-      "impact": 77
-    },
-    {
       "id": "aether-figure03",
       "type": "premium",
       "category": "robotics",
@@ -55,7 +66,7 @@
       "excerpt": "Humanoid achieves new milestone in unsupervised operation, performing 1,240 unique tasks across three assembly lines at the BMW South Carolina plant.",
       "source": "Figure AI",
       "url": "https://figure.ai/news/03-milestone",
-      "publishedAt": "2026-07-18T18:26:54.346Z",
+      "publishedAt": "2026-07-18T23:26:56.958Z",
       "impact": 89
     },
     {
@@ -66,19 +77,8 @@
       "excerpt": "Researchers reverse-engineered 312 million features inside the model, including the first clear \"deception circuit\" discovered in a frontier model.",
       "source": "Anthropic",
       "url": "https://anthropic.com/research/claude-4-interp",
-      "publishedAt": "2026-07-18T13:26:54.346Z",
+      "publishedAt": "2026-07-18T18:26:56.958Z",
       "impact": 91
-    },
-    {
-      "id": "marktechpost-1784361471000-3",
-      "type": "live",
-      "category": "llm",
-      "title": "Google Cloud’s Always-On Memory Agent Replaces RAG and Embeddings With Continuous LLM Consolidation on Gemini 3.1 Flash-Lite",
-      "excerpt": "Google Cloud's generative-ai repository ships the Always-On Memory Agent, a reference implementation that treats memory as a running process.  Built on Google ADK and Gemini 3",
-      "source": "MarkTechPost",
-      "url": "https://www.marktechpost.com/2026/07/18/google-clouds-always-on-memory-agent-replaces-rag-and-embeddings-with-continuous-llm-consolidation-on-gemini-3-1-flash-lite/",
-      "publishedAt": "2026-07-18T07:57:51.000Z",
-      "impact": 77
     },
     {
       "id": "hugging-face-1784303874000-0",

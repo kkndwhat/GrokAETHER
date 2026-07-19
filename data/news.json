@@ -1,7 +1,7 @@
 {
-  "lastUpdated": "2026-07-19T13:36:47.912Z",
+  "lastUpdated": "2026-07-19T19:13:45.757Z",
   "source": "AETHER + Public RSS (arXiv, Hugging Face, MarkTechPost, Ben's Bites)",
-  "count": 6,
+  "count": 10,
   "articles": [
     {
       "id": "aether-grok43",
@@ -11,7 +11,7 @@
       "excerpt": "New model demonstrates 4.2× improvement on multi-step software engineering benchmarks and sustains coherent agent trajectories beyond 110k tokens.",
       "source": "xAI",
       "url": "https://x.ai/blog/grok-4.3",
-      "publishedAt": "2026-07-19T08:36:47.399Z",
+      "publishedAt": "2026-07-19T14:13:44.926Z",
       "impact": 96
     },
     {
@@ -22,8 +22,30 @@
       "excerpt": "Humanoid achieves new milestone in unsupervised operation, performing 1,240 unique tasks across three assembly lines at the BMW South Carolina plant.",
       "source": "Figure AI",
       "url": "https://figure.ai/news/03-milestone",
-      "publishedAt": "2026-07-19T04:36:47.399Z",
+      "publishedAt": "2026-07-19T10:13:44.926Z",
       "impact": 89
+    },
+    {
+      "id": "marktechpost-1784445554000-0",
+      "type": "live",
+      "category": "research",
+      "title": "Perplexity AI Releases WANDR: An Open Benchmark Evaluating Research Agents That Must Search Wide And Deep",
+      "excerpt": "Perplexity's WANDR is an open benchmark and evaluation harness with 500 evidence-heavy tasks.  It tests whether research agents can discover many qualifying entities and back each one with cited, re-verifiable evidence",
+      "source": "MarkTechPost",
+      "url": "https://www.marktechpost.com/2026/07/19/perplexity-ai-releases-wandr-an-open-benchmark-evaluating-research-agents-that-must-search-wide-and-deep/",
+      "publishedAt": "2026-07-19T07:19:14.000Z",
+      "impact": 77
+    },
+    {
+      "id": "marktechpost-1784440399000-1",
+      "type": "live",
+      "category": "llm",
+      "title": "10 Open-Source No-Code AI Platforms for Building LLM Apps, RAG Systems, and AI Agents",
+      "excerpt": "Retrieval, agents, and workflows now ship as visual and plain-English tools.  This roundup covers 10 open-source no-code and low-code platforms for building LLM apps, RAG systems, and AI agents, each with its verified...",
+      "source": "MarkTechPost",
+      "url": "https://www.marktechpost.com/2026/07/18/10-open-source-no-code-ai-platforms-for-building-llm-apps-rag-systems-and-ai-agents/",
+      "publishedAt": "2026-07-19T05:53:19.000Z",
+      "impact": 77
     },
     {
       "id": "aether-interp",
@@ -33,8 +55,30 @@
       "excerpt": "Researchers reverse-engineered 312 million features inside the model, including the first clear \"deception circuit\" discovered in a frontier model.",
       "source": "Anthropic",
       "url": "https://anthropic.com/research/claude-4-interp",
-      "publishedAt": "2026-07-18T23:36:47.399Z",
+      "publishedAt": "2026-07-19T05:13:44.926Z",
       "impact": 91
+    },
+    {
+      "id": "marktechpost-1784425293000-2",
+      "type": "live",
+      "category": "llm",
+      "title": "Kimi K3 vs DeepSeek V4 Pro vs GLM-5.2: Open Trillion-Scale MoE Models Compared on Benchmarks, License, and Serving Cost",
+      "excerpt": "Three open MoE flagships face off on measured intelligence, MIT versus Modified MIT weights, and real serving cost The post Kimi K3 vs DeepSeek V4 Pro vs GLM-5. 2: Open Trillion-Scale MoE Models Compared on Benchmarks...",
+      "source": "MarkTechPost",
+      "url": "https://www.marktechpost.com/2026/07/18/kimi-k3-vs-deepseek-v4-pro-vs-glm-5-2-open-trillion-scale-moe-models-compared-on-benchmarks-license-and-serving-cost/",
+      "publishedAt": "2026-07-19T01:41:33.000Z",
+      "impact": 65
+    },
+    {
+      "id": "marktechpost-1784423332000-3",
+      "type": "live",
+      "category": "hardware",
+      "title": "Fine-Tuning Qwen3 with LoRA Using NVIDIA NeMo AutoModel: A Complete Single-GPU Google Colab Workflow Tutorial",
+      "excerpt": "We build an end-to-end NVIDIA NeMo AutoModel workflow in Google Colab using a single GPU.  We verify CUDA hardware and precision support, install NeMo AutoModel from source, and load an official Qwen3-0",
+      "source": "MarkTechPost",
+      "url": "https://www.marktechpost.com/2026/07/18/fine-tuning-qwen3-with-lora-using-nvidia-nemo-automodel-a-complete-single-gpu-google-colab-workflow-tutorial/",
+      "publishedAt": "2026-07-19T01:08:52.000Z",
+      "impact": 65
     },
     {
       "id": "hugging-face-1784303874000-0",

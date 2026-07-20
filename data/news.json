@@ -1,8 +1,85 @@
 {
-  "lastUpdated": "2026-07-20T03:40:52.468Z",
+  "lastUpdated": "2026-07-20T09:25:52.339Z",
   "source": "AETHER + Public RSS (arXiv, Hugging Face, MarkTechPost, Ben's Bites)",
-  "count": 10,
+  "count": 16,
   "articles": [
+    {
+      "id": "aether-grok43",
+      "type": "premium",
+      "category": "llm",
+      "title": "xAI releases Grok-4.3 with native long-horizon agent scaffolding",
+      "excerpt": "New model demonstrates 4.2× improvement on multi-step software engineering benchmarks and sustains coherent agent trajectories beyond 110k tokens.",
+      "source": "xAI",
+      "url": "https://x.ai/blog/grok-4.3",
+      "publishedAt": "2026-07-20T04:25:50.982Z",
+      "impact": 96
+    },
+    {
+      "id": "arxiv-cs.ai-1784520000000-0",
+      "type": "live",
+      "category": "safety",
+      "title": "GraphDx: A Cost-Aware Knowledge-Enhanced Multi-Agent Framework for Sequential Diagnosis",
+      "excerpt": "15280v1 Announce Type: new Abstract: Sequential diagnosis requires balancing diagnostic accuracy against resource costs through iterative information gathering.  Existing Large Language Model (LLM) approaches exhibit ...",
+      "source": "arXiv cs.AI",
+      "url": "https://arxiv.org/abs/2607.15280",
+      "publishedAt": "2026-07-20T04:00:00.000Z",
+      "impact": 69
+    },
+    {
+      "id": "arxiv-cs.ai-1784520000000-1",
+      "type": "live",
+      "category": "safety",
+      "title": "Causal-Audit: Explicit and Auditable Graph-based Reasoning via Target-Aware Causal Chain Construction",
+      "excerpt": "15281v1 Announce Type: new Abstract: Causal and intervention-based question answering is fundamental to advancing large language models (LLMs) toward reasoning beyond surface-level correlations and understanding under...",
+      "source": "arXiv cs.AI",
+      "url": "https://arxiv.org/abs/2607.15281",
+      "publishedAt": "2026-07-20T04:00:00.000Z",
+      "impact": 58
+    },
+    {
+      "id": "arxiv-cs.ai-1784520000000-2",
+      "type": "live",
+      "category": "multimodal",
+      "title": "Cura 1T: Specialized Model for Agentic Healthcare",
+      "excerpt": "15314v1 Announce Type: new Abstract: Healthcare spans high-stakes communication, expert reasoning, and workflow execution, yet specialized LLMs that cover these use cases together remain limited.  A healthcare model m...",
+      "source": "arXiv cs.AI",
+      "url": "https://arxiv.org/abs/2607.15314",
+      "publishedAt": "2026-07-20T04:00:00.000Z",
+      "impact": 69
+    },
+    {
+      "id": "arxiv-cs.ai-1784520000000-3",
+      "type": "live",
+      "category": "safety",
+      "title": "AnovaX: A Local, Multi-Agent Voice Assistant with LLM Planning, Typed Executors, and Adaptive Recovery",
+      "excerpt": "15367v1 Announce Type: new Abstract: Desktop voice assistants are still dominated by cloud pipelines that ship raw audio off the machine and expose a fixed set of skills.  We describe AnovaX, a small local-first assis...",
+      "source": "arXiv cs.AI",
+      "url": "https://arxiv.org/abs/2607.15367",
+      "publishedAt": "2026-07-20T04:00:00.000Z",
+      "impact": 69
+    },
+    {
+      "id": "arxiv-cs.ai-1784520000000-4",
+      "type": "live",
+      "category": "llm",
+      "title": "Precise but Uncoupled: Reviewer Precision Does Not Guarantee Critique Uptake in Multi-Agent Math Reasoning",
+      "excerpt": "15388v1 Announce Type: new Abstract: Many math- and science-oriented agent systems use hierarchical designs with specialized reviewer roles, assuming that a dedicated review stage should help turn wrong candidates int...",
+      "source": "arXiv cs.AI",
+      "url": "https://arxiv.org/abs/2607.15388",
+      "publishedAt": "2026-07-20T04:00:00.000Z",
+      "impact": 69
+    },
+    {
+      "id": "arxiv-cs.ai-1784520000000-5",
+      "type": "live",
+      "category": "safety",
+      "title": "DrawingVQA: A Real-World Benchmark for Multi-Depth Visual-Textual Reasoning on Construction Drawings",
+      "excerpt": "15418v1 Announce Type: new Abstract: We introduce DrawingVQA, the first benchmark designed to evaluate multimodal large language models (MLLMs) on real-world construction drawings -- a core media in architecture, civi...",
+      "source": "arXiv cs.AI",
+      "url": "https://arxiv.org/abs/2607.15418",
+      "publishedAt": "2026-07-20T04:00:00.000Z",
+      "impact": 58
+    },
     {
       "id": "marktechpost-1784512610000-0",
       "type": "live",
@@ -26,15 +103,15 @@
       "impact": 65
     },
     {
-      "id": "aether-grok43",
+      "id": "aether-figure03",
       "type": "premium",
-      "category": "llm",
-      "title": "xAI releases Grok-4.3 with native long-horizon agent scaffolding",
-      "excerpt": "New model demonstrates 4.2× improvement on multi-step software engineering benchmarks and sustains coherent agent trajectories beyond 110k tokens.",
-      "source": "xAI",
-      "url": "https://x.ai/blog/grok-4.3",
-      "publishedAt": "2026-07-19T22:40:51.216Z",
-      "impact": 96
+      "category": "robotics",
+      "title": "Figure 03 completes 43-hour autonomous factory shift with zero interventions",
+      "excerpt": "Humanoid achieves new milestone in unsupervised operation, performing 1,240 unique tasks across three assembly lines at the BMW South Carolina plant.",
+      "source": "Figure AI",
+      "url": "https://figure.ai/news/03-milestone",
+      "publishedAt": "2026-07-20T00:25:50.982Z",
+      "impact": 89
     },
     {
       "id": "marktechpost-1784499623000-2",
@@ -59,17 +136,6 @@
       "impact": 65
     },
     {
-      "id": "aether-figure03",
-      "type": "premium",
-      "category": "robotics",
-      "title": "Figure 03 completes 43-hour autonomous factory shift with zero interventions",
-      "excerpt": "Humanoid achieves new milestone in unsupervised operation, performing 1,240 unique tasks across three assembly lines at the BMW South Carolina plant.",
-      "source": "Figure AI",
-      "url": "https://figure.ai/news/03-milestone",
-      "publishedAt": "2026-07-19T18:40:51.216Z",
-      "impact": 89
-    },
-    {
       "id": "aether-interp",
       "type": "premium",
       "category": "safety",
@@ -77,7 +143,7 @@
       "excerpt": "Researchers reverse-engineered 312 million features inside the model, including the first clear \"deception circuit\" discovered in a frontier model.",
       "source": "Anthropic",
       "url": "https://anthropic.com/research/claude-4-interp",
-      "publishedAt": "2026-07-19T13:40:51.216Z",
+      "publishedAt": "2026-07-19T19:25:50.982Z",
       "impact": 91
     },
     {

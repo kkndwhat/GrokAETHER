@@ -1,8 +1,30 @@
 {
-  "lastUpdated": "2026-07-19T19:13:45.757Z",
+  "lastUpdated": "2026-07-20T03:40:52.468Z",
   "source": "AETHER + Public RSS (arXiv, Hugging Face, MarkTechPost, Ben's Bites)",
   "count": 10,
   "articles": [
+    {
+      "id": "marktechpost-1784512610000-0",
+      "type": "live",
+      "category": "llm",
+      "title": "Someone Fine-Tuned OpenBMB’s MiniCPM5-1B on Claude Fable 5 Traces to Ship a 657MB Local Thinking Model",
+      "excerpt": "A community developer fine-tuned OpenBMB's MiniCPM5-1B on Claude Fable 5 traces into a 1B model that runs fully local — a 657MB smallest build, 128K context, and visible reasoning.  We verify every spec against the Hu...",
+      "source": "MarkTechPost",
+      "url": "https://www.marktechpost.com/2026/07/19/someone-fine-tuned-openbmbs-minicpm5-1b-on-claude-fable-5-traces-to-ship-a-657mb-local-thinking-model/",
+      "publishedAt": "2026-07-20T01:56:50.000Z",
+      "impact": 65
+    },
+    {
+      "id": "marktechpost-1784510326000-1",
+      "type": "live",
+      "category": "hardware",
+      "title": "Best Local LLMs You Can Run on a Single 24GB GPU in 2026: Qwen, Gemma, Mistral, DeepSeek Compared",
+      "excerpt": "A single 24GB GPU is the practical floor for serious local inference.  This guide compares six open-weight models that fit one card at Q4_K_M",
+      "source": "MarkTechPost",
+      "url": "https://www.marktechpost.com/2026/07/19/best-local-llms-you-can-run-on-a-single-24gb-gpu-in-2026-qwen-gemma-mistral-deepseek-compared/",
+      "publishedAt": "2026-07-20T01:18:46.000Z",
+      "impact": 65
+    },
     {
       "id": "aether-grok43",
       "type": "premium",
@@ -11,8 +33,30 @@
       "excerpt": "New model demonstrates 4.2× improvement on multi-step software engineering benchmarks and sustains coherent agent trajectories beyond 110k tokens.",
       "source": "xAI",
       "url": "https://x.ai/blog/grok-4.3",
-      "publishedAt": "2026-07-19T14:13:44.926Z",
+      "publishedAt": "2026-07-19T22:40:51.216Z",
       "impact": 96
+    },
+    {
+      "id": "marktechpost-1784499623000-2",
+      "type": "live",
+      "category": "llm",
+      "title": "Feyn AI Releases SQRL, a Text-to-SQL Model Family That Inspects the Database Before Writing a Query",
+      "excerpt": "Feyn Labs has released SQRL, a family of text-to-SQL models that inspect a database with read-only probes before committing to a query.  The flagship SQRL-35B-A3B reports 70",
+      "source": "MarkTechPost",
+      "url": "https://www.marktechpost.com/2026/07/19/feyn-ai-releases-sqrl-a-text-to-sql-model-family-that-inspects-the-database-before-writing-a-query/",
+      "publishedAt": "2026-07-19T22:20:23.000Z",
+      "impact": 65
+    },
+    {
+      "id": "marktechpost-1784497370000-3",
+      "type": "live",
+      "category": "multimodal",
+      "title": "Alibaba Previews Qwen3.8-Max, a 2.4 Trillion-Parameter Multimodal Model, Days After Moonshot’s Kimi K3 Open-Weight Launch",
+      "excerpt": "Alibaba's Qwen team previewed Qwen3. 4 trillion-parameter multimodal MoE model it calls \"second only to Fable 5",
+      "source": "MarkTechPost",
+      "url": "https://www.marktechpost.com/2026/07/19/alibaba-previews-qwen3-8-max-a-2-4-trillion-parameter-multimodal-model-days-after-moonshots-kimi-k3-open-weight-launch/",
+      "publishedAt": "2026-07-19T21:42:50.000Z",
+      "impact": 65
     },
     {
       "id": "aether-figure03",
@@ -22,30 +66,8 @@
       "excerpt": "Humanoid achieves new milestone in unsupervised operation, performing 1,240 unique tasks across three assembly lines at the BMW South Carolina plant.",
       "source": "Figure AI",
       "url": "https://figure.ai/news/03-milestone",
-      "publishedAt": "2026-07-19T10:13:44.926Z",
+      "publishedAt": "2026-07-19T18:40:51.216Z",
       "impact": 89
-    },
-    {
-      "id": "marktechpost-1784445554000-0",
-      "type": "live",
-      "category": "research",
-      "title": "Perplexity AI Releases WANDR: An Open Benchmark Evaluating Research Agents That Must Search Wide And Deep",
-      "excerpt": "Perplexity's WANDR is an open benchmark and evaluation harness with 500 evidence-heavy tasks.  It tests whether research agents can discover many qualifying entities and back each one with cited, re-verifiable evidence",
-      "source": "MarkTechPost",
-      "url": "https://www.marktechpost.com/2026/07/19/perplexity-ai-releases-wandr-an-open-benchmark-evaluating-research-agents-that-must-search-wide-and-deep/",
-      "publishedAt": "2026-07-19T07:19:14.000Z",
-      "impact": 77
-    },
-    {
-      "id": "marktechpost-1784440399000-1",
-      "type": "live",
-      "category": "llm",
-      "title": "10 Open-Source No-Code AI Platforms for Building LLM Apps, RAG Systems, and AI Agents",
-      "excerpt": "Retrieval, agents, and workflows now ship as visual and plain-English tools.  This roundup covers 10 open-source no-code and low-code platforms for building LLM apps, RAG systems, and AI agents, each with its verified...",
-      "source": "MarkTechPost",
-      "url": "https://www.marktechpost.com/2026/07/18/10-open-source-no-code-ai-platforms-for-building-llm-apps-rag-systems-and-ai-agents/",
-      "publishedAt": "2026-07-19T05:53:19.000Z",
-      "impact": 77
     },
     {
       "id": "aether-interp",
@@ -55,30 +77,8 @@
       "excerpt": "Researchers reverse-engineered 312 million features inside the model, including the first clear \"deception circuit\" discovered in a frontier model.",
       "source": "Anthropic",
       "url": "https://anthropic.com/research/claude-4-interp",
-      "publishedAt": "2026-07-19T05:13:44.926Z",
+      "publishedAt": "2026-07-19T13:40:51.216Z",
       "impact": 91
-    },
-    {
-      "id": "marktechpost-1784425293000-2",
-      "type": "live",
-      "category": "llm",
-      "title": "Kimi K3 vs DeepSeek V4 Pro vs GLM-5.2: Open Trillion-Scale MoE Models Compared on Benchmarks, License, and Serving Cost",
-      "excerpt": "Three open MoE flagships face off on measured intelligence, MIT versus Modified MIT weights, and real serving cost The post Kimi K3 vs DeepSeek V4 Pro vs GLM-5. 2: Open Trillion-Scale MoE Models Compared on Benchmarks...",
-      "source": "MarkTechPost",
-      "url": "https://www.marktechpost.com/2026/07/18/kimi-k3-vs-deepseek-v4-pro-vs-glm-5-2-open-trillion-scale-moe-models-compared-on-benchmarks-license-and-serving-cost/",
-      "publishedAt": "2026-07-19T01:41:33.000Z",
-      "impact": 65
-    },
-    {
-      "id": "marktechpost-1784423332000-3",
-      "type": "live",
-      "category": "hardware",
-      "title": "Fine-Tuning Qwen3 with LoRA Using NVIDIA NeMo AutoModel: A Complete Single-GPU Google Colab Workflow Tutorial",
-      "excerpt": "We build an end-to-end NVIDIA NeMo AutoModel workflow in Google Colab using a single GPU.  We verify CUDA hardware and precision support, install NeMo AutoModel from source, and load an official Qwen3-0",
-      "source": "MarkTechPost",
-      "url": "https://www.marktechpost.com/2026/07/18/fine-tuning-qwen3-with-lora-using-nvidia-nemo-automodel-a-complete-single-gpu-google-colab-workflow-tutorial/",
-      "publishedAt": "2026-07-19T01:08:52.000Z",
-      "impact": 65
     },
     {
       "id": "hugging-face-1784303874000-0",

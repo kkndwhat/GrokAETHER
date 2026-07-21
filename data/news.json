@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-07-21T14:06:23.225Z",
+  "lastUpdated": "2026-07-21T19:39:29.492Z",
   "source": "AETHER + Public RSS (arXiv, Hugging Face, MarkTechPost, Ben's Bites)",
   "count": 12,
   "articles": [
@@ -11,7 +11,7 @@
       "excerpt": "New model demonstrates 4.2× improvement on multi-step software engineering benchmarks and sustains coherent agent trajectories beyond 110k tokens.",
       "source": "xAI",
       "url": "https://x.ai/blog/grok-4.3",
-      "publishedAt": "2026-07-21T09:06:22.862Z",
+      "publishedAt": "2026-07-21T14:39:29.229Z",
       "impact": 96
     },
     {
@@ -22,8 +22,19 @@
       "excerpt": "Humanoid achieves new milestone in unsupervised operation, performing 1,240 unique tasks across three assembly lines at the BMW South Carolina plant.",
       "source": "Figure AI",
       "url": "https://figure.ai/news/03-milestone",
-      "publishedAt": "2026-07-21T05:06:22.862Z",
+      "publishedAt": "2026-07-21T10:39:29.229Z",
       "impact": 89
+    },
+    {
+      "id": "aether-interp",
+      "type": "premium",
+      "category": "safety",
+      "title": "Anthropic publishes unprecedented mechanistic interpretability map of Claude 4",
+      "excerpt": "Researchers reverse-engineered 312 million features inside the model, including the first clear \"deception circuit\" discovered in a frontier model.",
+      "source": "Anthropic",
+      "url": "https://anthropic.com/research/claude-4-interp",
+      "publishedAt": "2026-07-21T05:39:29.229Z",
+      "impact": 91
     },
     {
       "id": "arxiv-cs.ai-1784606400000-0",
@@ -90,17 +101,6 @@
       "url": "https://arxiv.org/abs/2607.16200",
       "publishedAt": "2026-07-21T04:00:00.000Z",
       "impact": 69
-    },
-    {
-      "id": "aether-interp",
-      "type": "premium",
-      "category": "safety",
-      "title": "Anthropic publishes unprecedented mechanistic interpretability map of Claude 4",
-      "excerpt": "Researchers reverse-engineered 312 million features inside the model, including the first clear \"deception circuit\" discovered in a frontier model.",
-      "source": "Anthropic",
-      "url": "https://anthropic.com/research/claude-4-interp",
-      "publishedAt": "2026-07-21T00:06:22.862Z",
-      "impact": 91
     },
     {
       "id": "hugging-face-1784592000000-0",

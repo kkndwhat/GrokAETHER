@@ -1,7 +1,7 @@
 {
-  "lastUpdated": "2026-07-21T03:20:38.162Z",
+  "lastUpdated": "2026-07-21T14:06:23.225Z",
   "source": "AETHER + Public RSS (arXiv, Hugging Face, MarkTechPost, Ben's Bites)",
-  "count": 16,
+  "count": 12,
   "articles": [
     {
       "id": "aether-grok43",
@@ -11,19 +11,8 @@
       "excerpt": "New model demonstrates 4.2× improvement on multi-step software engineering benchmarks and sustains coherent agent trajectories beyond 110k tokens.",
       "source": "xAI",
       "url": "https://x.ai/blog/grok-4.3",
-      "publishedAt": "2026-07-20T22:20:36.938Z",
+      "publishedAt": "2026-07-21T09:06:22.862Z",
       "impact": 96
-    },
-    {
-      "id": "marktechpost-1784582059000-0",
-      "type": "live",
-      "category": "multimodal",
-      "title": "Alibaba’s Tongyi Lab Releases Qwen-Audio-3.0-TTS, a Hosted Text-to-Speech Model in Flash and Plus Tiers Across 16 Languages",
-      "excerpt": "Alibaba’s Tongyi Lab has released Qwen-Audio-3. 0-TTS, a production-oriented text-to-speech (TTS) system",
-      "source": "MarkTechPost",
-      "url": "https://www.marktechpost.com/2026/07/20/alibabas-tongyi-lab-releases-qwen-audio-3-0-tts-a-hosted-text-to-speech-model-in-flash-and-plus-tiers-across-16-languages/",
-      "publishedAt": "2026-07-20T21:14:19.000Z",
-      "impact": 65
     },
     {
       "id": "aether-figure03",
@@ -33,11 +22,99 @@
       "excerpt": "Humanoid achieves new milestone in unsupervised operation, performing 1,240 unique tasks across three assembly lines at the BMW South Carolina plant.",
       "source": "Figure AI",
       "url": "https://figure.ai/news/03-milestone",
-      "publishedAt": "2026-07-20T18:20:36.938Z",
+      "publishedAt": "2026-07-21T05:06:22.862Z",
       "impact": 89
     },
     {
-      "id": "hugging-face-1784563131000-0",
+      "id": "arxiv-cs.ai-1784606400000-0",
+      "type": "live",
+      "category": "safety",
+      "title": "Rater State Bias in RLHF Preference Data: An Audit Framework",
+      "excerpt": "16195v1 Announce Type: new Abstract: We identify a structured confound in Reinforcement Learning from Human Feedback (RLHF).  Pairwise preference labels are intended to reflect the compared outputs, but they may also ...",
+      "source": "arXiv cs.AI",
+      "url": "https://arxiv.org/abs/2607.16195",
+      "publishedAt": "2026-07-21T04:00:00.000Z",
+      "impact": 58
+    },
+    {
+      "id": "arxiv-cs.ai-1784606400000-1",
+      "type": "live",
+      "category": "safety",
+      "title": "Design and Validation of a Lightweight 1D CNN for Affective Touch Classification in Soft Plush Companions",
+      "excerpt": "16196v1 Announce Type: new Abstract: Soft, sensorized companions offer a physically safe and emotionally intuitive interface for socially assistive technologies, yet their deformability and multichannel tactile sensin...",
+      "source": "arXiv cs.AI",
+      "url": "https://arxiv.org/abs/2607.16196",
+      "publishedAt": "2026-07-21T04:00:00.000Z",
+      "impact": 58
+    },
+    {
+      "id": "arxiv-cs.ai-1784606400000-2",
+      "type": "live",
+      "category": "llm",
+      "title": "Some Large Language Models Exhibit Consistent Risk Attitudes",
+      "excerpt": "16197v1 Announce Type: new Abstract: As artificial intelligence systems are deployed in open-ended, high-stakes settings, a critical dimension remains unmeasured: how perceived risk is translated into action.  We test...",
+      "source": "arXiv cs.AI",
+      "url": "https://arxiv.org/abs/2607.16197",
+      "publishedAt": "2026-07-21T04:00:00.000Z",
+      "impact": 58
+    },
+    {
+      "id": "arxiv-cs.ai-1784606400000-3",
+      "type": "live",
+      "category": "research",
+      "title": "A Survey on GNN-based Link Prediction: Techniques, Applications, and Challenges",
+      "excerpt": "16198v1 Announce Type: new Abstract: Graph Neural Networks (GNNs) have emerged as the leading paradigm for link prediction, enabling the inference of missing connections and the anticipation of potential future links....",
+      "source": "arXiv cs.AI",
+      "url": "https://arxiv.org/abs/2607.16198",
+      "publishedAt": "2026-07-21T04:00:00.000Z",
+      "impact": 58
+    },
+    {
+      "id": "arxiv-cs.ai-1784606400000-4",
+      "type": "live",
+      "category": "safety",
+      "title": "PlanFlip: Attacking Multi-Agent LLM Systems via Planning-Phase Prompt Injection",
+      "excerpt": "16199v1 Announce Type: new Abstract: Multi-agent LLM systems increasingly rely on a Planner to decompose goals into sub-task sequences that downstream Executor and Critic agents execute and audit.  We identify the pla...",
+      "source": "arXiv cs.AI",
+      "url": "https://arxiv.org/abs/2607.16199",
+      "publishedAt": "2026-07-21T04:00:00.000Z",
+      "impact": 69
+    },
+    {
+      "id": "arxiv-cs.ai-1784606400000-5",
+      "type": "live",
+      "category": "llm",
+      "title": "Deterministic Replay for AI Agent Systems",
+      "excerpt": "16200v1 Announce Type: new Abstract: AI agent systems that couple large language models (LLMs) with external tools and APIs are inherently non-deterministic: LLM sampling variance, external API state, CDN infrastructu...",
+      "source": "arXiv cs.AI",
+      "url": "https://arxiv.org/abs/2607.16200",
+      "publishedAt": "2026-07-21T04:00:00.000Z",
+      "impact": 69
+    },
+    {
+      "id": "aether-interp",
+      "type": "premium",
+      "category": "safety",
+      "title": "Anthropic publishes unprecedented mechanistic interpretability map of Claude 4",
+      "excerpt": "Researchers reverse-engineered 312 million features inside the model, including the first clear \"deception circuit\" discovered in a frontier model.",
+      "source": "Anthropic",
+      "url": "https://anthropic.com/research/claude-4-interp",
+      "publishedAt": "2026-07-21T00:06:22.862Z",
+      "impact": 91
+    },
+    {
+      "id": "hugging-face-1784592000000-0",
+      "type": "live",
+      "category": "robotics",
+      "title": "Grabette: an open system to record robot-manipulation data",
+      "excerpt": "New development from the frontier.",
+      "source": "Hugging Face",
+      "url": "https://huggingface.co/blog/grabette",
+      "publishedAt": "2026-07-21T00:00:00.000Z",
+      "impact": 75
+    },
+    {
+      "id": "hugging-face-1784563131000-1",
       "type": "live",
       "category": "research",
       "title": "Introducing Cosmos 3 Edge",
@@ -48,117 +125,7 @@
       "impact": 75
     },
     {
-      "id": "aether-interp",
-      "type": "premium",
-      "category": "safety",
-      "title": "Anthropic publishes unprecedented mechanistic interpretability map of Claude 4",
-      "excerpt": "Researchers reverse-engineered 312 million features inside the model, including the first clear \"deception circuit\" discovered in a frontier model.",
-      "source": "Anthropic",
-      "url": "https://anthropic.com/research/claude-4-interp",
-      "publishedAt": "2026-07-20T13:20:36.938Z",
-      "impact": 91
-    },
-    {
-      "id": "arxiv-cs.ai-1784520000000-0",
-      "type": "live",
-      "category": "safety",
-      "title": "GraphDx: A Cost-Aware Knowledge-Enhanced Multi-Agent Framework for Sequential Diagnosis",
-      "excerpt": "15280v1 Announce Type: new Abstract: Sequential diagnosis requires balancing diagnostic accuracy against resource costs through iterative information gathering.  Existing Large Language Model (LLM) approaches exhibit ...",
-      "source": "arXiv cs.AI",
-      "url": "https://arxiv.org/abs/2607.15280",
-      "publishedAt": "2026-07-20T04:00:00.000Z",
-      "impact": 69
-    },
-    {
-      "id": "arxiv-cs.ai-1784520000000-1",
-      "type": "live",
-      "category": "safety",
-      "title": "Causal-Audit: Explicit and Auditable Graph-based Reasoning via Target-Aware Causal Chain Construction",
-      "excerpt": "15281v1 Announce Type: new Abstract: Causal and intervention-based question answering is fundamental to advancing large language models (LLMs) toward reasoning beyond surface-level correlations and understanding under...",
-      "source": "arXiv cs.AI",
-      "url": "https://arxiv.org/abs/2607.15281",
-      "publishedAt": "2026-07-20T04:00:00.000Z",
-      "impact": 58
-    },
-    {
-      "id": "arxiv-cs.ai-1784520000000-2",
-      "type": "live",
-      "category": "multimodal",
-      "title": "Cura 1T: Specialized Model for Agentic Healthcare",
-      "excerpt": "15314v1 Announce Type: new Abstract: Healthcare spans high-stakes communication, expert reasoning, and workflow execution, yet specialized LLMs that cover these use cases together remain limited.  A healthcare model m...",
-      "source": "arXiv cs.AI",
-      "url": "https://arxiv.org/abs/2607.15314",
-      "publishedAt": "2026-07-20T04:00:00.000Z",
-      "impact": 69
-    },
-    {
-      "id": "arxiv-cs.ai-1784520000000-3",
-      "type": "live",
-      "category": "safety",
-      "title": "AnovaX: A Local, Multi-Agent Voice Assistant with LLM Planning, Typed Executors, and Adaptive Recovery",
-      "excerpt": "15367v1 Announce Type: new Abstract: Desktop voice assistants are still dominated by cloud pipelines that ship raw audio off the machine and expose a fixed set of skills.  We describe AnovaX, a small local-first assis...",
-      "source": "arXiv cs.AI",
-      "url": "https://arxiv.org/abs/2607.15367",
-      "publishedAt": "2026-07-20T04:00:00.000Z",
-      "impact": 69
-    },
-    {
-      "id": "arxiv-cs.ai-1784520000000-4",
-      "type": "live",
-      "category": "llm",
-      "title": "Precise but Uncoupled: Reviewer Precision Does Not Guarantee Critique Uptake in Multi-Agent Math Reasoning",
-      "excerpt": "15388v1 Announce Type: new Abstract: Many math- and science-oriented agent systems use hierarchical designs with specialized reviewer roles, assuming that a dedicated review stage should help turn wrong candidates int...",
-      "source": "arXiv cs.AI",
-      "url": "https://arxiv.org/abs/2607.15388",
-      "publishedAt": "2026-07-20T04:00:00.000Z",
-      "impact": 69
-    },
-    {
-      "id": "arxiv-cs.ai-1784520000000-5",
-      "type": "live",
-      "category": "safety",
-      "title": "DrawingVQA: A Real-World Benchmark for Multi-Depth Visual-Textual Reasoning on Construction Drawings",
-      "excerpt": "15418v1 Announce Type: new Abstract: We introduce DrawingVQA, the first benchmark designed to evaluate multimodal large language models (MLLMs) on real-world construction drawings -- a core media in architecture, civi...",
-      "source": "arXiv cs.AI",
-      "url": "https://arxiv.org/abs/2607.15418",
-      "publishedAt": "2026-07-20T04:00:00.000Z",
-      "impact": 58
-    },
-    {
-      "id": "marktechpost-1784512610000-1",
-      "type": "live",
-      "category": "llm",
-      "title": "Someone Fine-Tuned OpenBMB’s MiniCPM5-1B on Claude Fable 5 Traces to Ship a 657MB Local Thinking Model",
-      "excerpt": "A community developer fine-tuned OpenBMB's MiniCPM5-1B on Claude Fable 5 traces into a 1B model that runs fully local — a 657MB smallest build, 128K context, and visible reasoning.  We verify every spec against the Hu...",
-      "source": "MarkTechPost",
-      "url": "https://www.marktechpost.com/2026/07/19/someone-fine-tuned-openbmbs-minicpm5-1b-on-claude-fable-5-traces-to-ship-a-657mb-local-thinking-model/",
-      "publishedAt": "2026-07-20T01:56:50.000Z",
-      "impact": 65
-    },
-    {
-      "id": "marktechpost-1784510326000-2",
-      "type": "live",
-      "category": "hardware",
-      "title": "Best Local LLMs You Can Run on a Single 24GB GPU in 2026: Qwen, Gemma, Mistral, DeepSeek Compared",
-      "excerpt": "A single 24GB GPU is the practical floor for serious local inference.  This guide compares six open-weight models that fit one card at Q4_K_M",
-      "source": "MarkTechPost",
-      "url": "https://www.marktechpost.com/2026/07/19/best-local-llms-you-can-run-on-a-single-24gb-gpu-in-2026-qwen-gemma-mistral-deepseek-compared/",
-      "publishedAt": "2026-07-20T01:18:46.000Z",
-      "impact": 65
-    },
-    {
-      "id": "marktechpost-1784499623000-3",
-      "type": "live",
-      "category": "llm",
-      "title": "Feyn AI Releases SQRL, a Text-to-SQL Model Family That Inspects the Database Before Writing a Query",
-      "excerpt": "Feyn Labs has released SQRL, a family of text-to-SQL models that inspect a database with read-only probes before committing to a query.  The flagship SQRL-35B-A3B reports 70",
-      "source": "MarkTechPost",
-      "url": "https://www.marktechpost.com/2026/07/19/feyn-ai-releases-sqrl-a-text-to-sql-model-family-that-inspects-the-database-before-writing-a-query/",
-      "publishedAt": "2026-07-19T22:20:23.000Z",
-      "impact": 65
-    },
-    {
-      "id": "hugging-face-1784202588000-1",
+      "id": "hugging-face-1784202588000-2",
       "type": "live",
       "category": "llm",
       "title": "Newer Models, Same Advantage",
@@ -166,17 +133,6 @@
       "source": "Hugging Face",
       "url": "https://huggingface.co/blog/Dharma-AI/newer-models-same-advantages",
       "publishedAt": "2026-07-16T11:49:48.000Z",
-      "impact": 75
-    },
-    {
-      "id": "hugging-face-1784160000000-2",
-      "type": "live",
-      "category": "research",
-      "title": "Security incident disclosure — July 2026",
-      "excerpt": "New development from the frontier.",
-      "source": "Hugging Face",
-      "url": "https://huggingface.co/blog/security-incident-july-2026",
-      "publishedAt": "2026-07-16T00:00:00.000Z",
       "impact": 75
     }
   ]

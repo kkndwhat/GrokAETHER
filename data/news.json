@@ -1,8 +1,41 @@
 {
-  "lastUpdated": "2026-07-20T19:49:21.181Z",
+  "lastUpdated": "2026-07-21T03:20:38.162Z",
   "source": "AETHER + Public RSS (arXiv, Hugging Face, MarkTechPost, Ben's Bites)",
   "count": 16,
   "articles": [
+    {
+      "id": "aether-grok43",
+      "type": "premium",
+      "category": "llm",
+      "title": "xAI releases Grok-4.3 with native long-horizon agent scaffolding",
+      "excerpt": "New model demonstrates 4.2× improvement on multi-step software engineering benchmarks and sustains coherent agent trajectories beyond 110k tokens.",
+      "source": "xAI",
+      "url": "https://x.ai/blog/grok-4.3",
+      "publishedAt": "2026-07-20T22:20:36.938Z",
+      "impact": 96
+    },
+    {
+      "id": "marktechpost-1784582059000-0",
+      "type": "live",
+      "category": "multimodal",
+      "title": "Alibaba’s Tongyi Lab Releases Qwen-Audio-3.0-TTS, a Hosted Text-to-Speech Model in Flash and Plus Tiers Across 16 Languages",
+      "excerpt": "Alibaba’s Tongyi Lab has released Qwen-Audio-3. 0-TTS, a production-oriented text-to-speech (TTS) system",
+      "source": "MarkTechPost",
+      "url": "https://www.marktechpost.com/2026/07/20/alibabas-tongyi-lab-releases-qwen-audio-3-0-tts-a-hosted-text-to-speech-model-in-flash-and-plus-tiers-across-16-languages/",
+      "publishedAt": "2026-07-20T21:14:19.000Z",
+      "impact": 65
+    },
+    {
+      "id": "aether-figure03",
+      "type": "premium",
+      "category": "robotics",
+      "title": "Figure 03 completes 43-hour autonomous factory shift with zero interventions",
+      "excerpt": "Humanoid achieves new milestone in unsupervised operation, performing 1,240 unique tasks across three assembly lines at the BMW South Carolina plant.",
+      "source": "Figure AI",
+      "url": "https://figure.ai/news/03-milestone",
+      "publishedAt": "2026-07-20T18:20:36.938Z",
+      "impact": 89
+    },
     {
       "id": "hugging-face-1784563131000-0",
       "type": "live",
@@ -15,28 +48,6 @@
       "impact": 75
     },
     {
-      "id": "aether-grok43",
-      "type": "premium",
-      "category": "llm",
-      "title": "xAI releases Grok-4.3 with native long-horizon agent scaffolding",
-      "excerpt": "New model demonstrates 4.2× improvement on multi-step software engineering benchmarks and sustains coherent agent trajectories beyond 110k tokens.",
-      "source": "xAI",
-      "url": "https://x.ai/blog/grok-4.3",
-      "publishedAt": "2026-07-20T14:49:20.357Z",
-      "impact": 96
-    },
-    {
-      "id": "aether-figure03",
-      "type": "premium",
-      "category": "robotics",
-      "title": "Figure 03 completes 43-hour autonomous factory shift with zero interventions",
-      "excerpt": "Humanoid achieves new milestone in unsupervised operation, performing 1,240 unique tasks across three assembly lines at the BMW South Carolina plant.",
-      "source": "Figure AI",
-      "url": "https://figure.ai/news/03-milestone",
-      "publishedAt": "2026-07-20T10:49:20.357Z",
-      "impact": 89
-    },
-    {
       "id": "aether-interp",
       "type": "premium",
       "category": "safety",
@@ -44,7 +55,7 @@
       "excerpt": "Researchers reverse-engineered 312 million features inside the model, including the first clear \"deception circuit\" discovered in a frontier model.",
       "source": "Anthropic",
       "url": "https://anthropic.com/research/claude-4-interp",
-      "publishedAt": "2026-07-20T05:49:20.357Z",
+      "publishedAt": "2026-07-20T13:20:36.938Z",
       "impact": 91
     },
     {
@@ -114,7 +125,7 @@
       "impact": 58
     },
     {
-      "id": "marktechpost-1784512610000-0",
+      "id": "marktechpost-1784512610000-1",
       "type": "live",
       "category": "llm",
       "title": "Someone Fine-Tuned OpenBMB’s MiniCPM5-1B on Claude Fable 5 Traces to Ship a 657MB Local Thinking Model",
@@ -125,7 +136,7 @@
       "impact": 65
     },
     {
-      "id": "marktechpost-1784510326000-1",
+      "id": "marktechpost-1784510326000-2",
       "type": "live",
       "category": "hardware",
       "title": "Best Local LLMs You Can Run on a Single 24GB GPU in 2026: Qwen, Gemma, Mistral, DeepSeek Compared",
@@ -136,7 +147,7 @@
       "impact": 65
     },
     {
-      "id": "marktechpost-1784499623000-2",
+      "id": "marktechpost-1784499623000-3",
       "type": "live",
       "category": "llm",
       "title": "Feyn AI Releases SQRL, a Text-to-SQL Model Family That Inspects the Database Before Writing a Query",
@@ -144,17 +155,6 @@
       "source": "MarkTechPost",
       "url": "https://www.marktechpost.com/2026/07/19/feyn-ai-releases-sqrl-a-text-to-sql-model-family-that-inspects-the-database-before-writing-a-query/",
       "publishedAt": "2026-07-19T22:20:23.000Z",
-      "impact": 65
-    },
-    {
-      "id": "marktechpost-1784497370000-3",
-      "type": "live",
-      "category": "multimodal",
-      "title": "Alibaba Previews Qwen3.8-Max, a 2.4 Trillion-Parameter Multimodal Model, Days After Moonshot’s Kimi K3 Open-Weight Launch",
-      "excerpt": "Alibaba's Qwen team previewed Qwen3. 4 trillion-parameter multimodal MoE model it calls \"second only to Fable 5",
-      "source": "MarkTechPost",
-      "url": "https://www.marktechpost.com/2026/07/19/alibaba-previews-qwen3-8-max-a-2-4-trillion-parameter-multimodal-model-days-after-moonshots-kimi-k3-open-weight-launch/",
-      "publishedAt": "2026-07-19T21:42:50.000Z",
       "impact": 65
     },
     {

@@ -1,7 +1,7 @@
 {
-  "lastUpdated": "2026-07-22T14:08:49.219Z",
+  "lastUpdated": "2026-07-22T19:34:43.212Z",
   "source": "AETHER + Public RSS (arXiv, Hugging Face, MarkTechPost, Ben's Bites)",
-  "count": 12,
+  "count": 16,
   "articles": [
     {
       "id": "aether-grok43",
@@ -11,7 +11,7 @@
       "excerpt": "New model demonstrates 4.2× improvement on multi-step software engineering benchmarks and sustains coherent agent trajectories beyond 110k tokens.",
       "source": "xAI",
       "url": "https://x.ai/blog/grok-4.3",
-      "publishedAt": "2026-07-22T09:08:48.909Z",
+      "publishedAt": "2026-07-22T14:34:41.984Z",
       "impact": 96
     },
     {
@@ -22,8 +22,41 @@
       "excerpt": "Humanoid achieves new milestone in unsupervised operation, performing 1,240 unique tasks across three assembly lines at the BMW South Carolina plant.",
       "source": "Figure AI",
       "url": "https://figure.ai/news/03-milestone",
-      "publishedAt": "2026-07-22T05:08:48.909Z",
+      "publishedAt": "2026-07-22T10:34:41.984Z",
       "impact": 89
+    },
+    {
+      "id": "marktechpost-1784711800000-0",
+      "type": "live",
+      "category": "hardware",
+      "title": "Unsloth vs Axolotl vs TRL vs LLaMA-Factory: A Fine-Tuning Framework Comparison on Speed, VRAM, and Multi-GPU",
+      "excerpt": "Four open source projects dominate LLM fine-tuning today.  Unsloth, Axolotl, TRL, and LLaMA-Factory all wrap the same underlying PyTorch and Hugging Face stack",
+      "source": "MarkTechPost",
+      "url": "https://www.marktechpost.com/2026/07/22/unsloth-vs-axolotl-vs-trl-vs-llama-factory-a-fine-tuning-framework-comparison-on-speed-vram-and-multi-gpu/",
+      "publishedAt": "2026-07-22T09:16:40.000Z",
+      "impact": 65
+    },
+    {
+      "id": "marktechpost-1784701622000-1",
+      "type": "live",
+      "category": "llm",
+      "title": "Cisco Foundation AI Releases Antares: 350M and 1B Open-Weight Models That Localize Known Vulnerabilities Inside Real Codebases",
+      "excerpt": "Cisco Foundation AI has released Antares, a family of small language models trained to pinpoint where known vulnerabilities live inside a codebase. 209 File F1 on the new Vulnerability Localization Benchmark, above GLM-5",
+      "source": "MarkTechPost",
+      "url": "https://www.marktechpost.com/2026/07/21/cisco-foundation-ai-releases-antares-350m-and-1b-open-weight-models-that-localize-known-vulnerabilities-inside-real-codebases/",
+      "publishedAt": "2026-07-22T06:27:02.000Z",
+      "impact": 65
+    },
+    {
+      "id": "aether-interp",
+      "type": "premium",
+      "category": "safety",
+      "title": "Anthropic publishes unprecedented mechanistic interpretability map of Claude 4",
+      "excerpt": "Researchers reverse-engineered 312 million features inside the model, including the first clear \"deception circuit\" discovered in a frontier model.",
+      "source": "Anthropic",
+      "url": "https://anthropic.com/research/claude-4-interp",
+      "publishedAt": "2026-07-22T05:34:41.984Z",
+      "impact": 91
     },
     {
       "id": "arxiv-cs.ai-1784692800000-0",
@@ -92,15 +125,15 @@
       "impact": 69
     },
     {
-      "id": "aether-interp",
-      "type": "premium",
-      "category": "safety",
-      "title": "Anthropic publishes unprecedented mechanistic interpretability map of Claude 4",
-      "excerpt": "Researchers reverse-engineered 312 million features inside the model, including the first clear \"deception circuit\" discovered in a frontier model.",
-      "source": "Anthropic",
-      "url": "https://anthropic.com/research/claude-4-interp",
-      "publishedAt": "2026-07-22T00:08:48.909Z",
-      "impact": 91
+      "id": "marktechpost-1784678492000-2",
+      "type": "live",
+      "category": "llm",
+      "title": "Poolside Releases Laguna S 2.1, an Open-Weight Agentic Coding Model Punching Above Its Weight Class on SWE-Bench Multilingual",
+      "excerpt": "Poolside has released Laguna S 2. 1, a 118B open-weight Mixture-of-Experts coding model with 8B active parameters per token and a 1M-token context",
+      "source": "MarkTechPost",
+      "url": "https://www.marktechpost.com/2026/07/21/poolside-releases-laguna-s-2-1/",
+      "publishedAt": "2026-07-22T00:01:32.000Z",
+      "impact": 77
     },
     {
       "id": "hugging-face-1784664027000-0",
@@ -112,6 +145,17 @@
       "url": "https://huggingface.co/blog/nvidia/state-of-simulation-for-physical-ai",
       "publishedAt": "2026-07-21T20:00:27.000Z",
       "impact": 75
+    },
+    {
+      "id": "marktechpost-1784655908000-3",
+      "type": "live",
+      "category": "research",
+      "title": "Google Releases Gemini 3.6 Flash, 3.5 Flash-Lite, and 3.5 Flash Cyber: A Cheaper, More Token-Efficient Flash Tier Built for Agentic Workloads",
+      "excerpt": "Google released Gemini 3. 5 Flash Cyber on July 21, 2026",
+      "source": "MarkTechPost",
+      "url": "https://www.marktechpost.com/2026/07/21/google-releases-gemini-3-6-flash-3-5-flash-lite-and-3-5-flash-cyber-a-cheaper-more-token-efficient-flash-tier-built-for-agentic-workloads/",
+      "publishedAt": "2026-07-21T17:45:08.000Z",
+      "impact": 77
     },
     {
       "id": "hugging-face-1784592000000-1",

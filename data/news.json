@@ -1,10 +1,32 @@
 {
-  "lastUpdated": "2026-07-23T08:38:47.404Z",
+  "lastUpdated": "2026-07-23T14:16:43.925Z",
   "source": "AETHER + Public RSS (arXiv, Hugging Face, MarkTechPost, Ben's Bites)",
   "count": 16,
   "articles": [
     {
-      "id": "marktechpost-1784793682000-0",
+      "id": "marktechpost-1784798800000-0",
+      "type": "live",
+      "category": "llm",
+      "title": "Best Open Speech Recognition (ASR) Models in 2026: WER, Languages, Latency, and License Compared",
+      "excerpt": "Open speech recognition stopped being a Whisper monoculture in 2026.  Cohere Transcribe, IBM Granite Speech 4",
+      "source": "MarkTechPost",
+      "url": "https://www.marktechpost.com/2026/07/23/best-open-speech-recognition-asr-models-in-2026-wer-languages-latency-and-license-compared/",
+      "publishedAt": "2026-07-23T09:26:40.000Z",
+      "impact": 65
+    },
+    {
+      "id": "aether-grok43",
+      "type": "premium",
+      "category": "llm",
+      "title": "xAI releases Grok-4.3 with native long-horizon agent scaffolding",
+      "excerpt": "New model demonstrates 4.2× improvement on multi-step software engineering benchmarks and sustains coherent agent trajectories beyond 110k tokens.",
+      "source": "xAI",
+      "url": "https://x.ai/blog/grok-4.3",
+      "publishedAt": "2026-07-23T09:16:42.866Z",
+      "impact": 96
+    },
+    {
+      "id": "marktechpost-1784793682000-1",
       "type": "live",
       "category": "llm",
       "title": "Meet Gigatoken: A Rust BPE Tokenizer that Encodes Text at 24.53 GB/s, up to 989x Faster than HuggingFace Tokenizers",
@@ -15,7 +37,7 @@
       "impact": 65
     },
     {
-      "id": "marktechpost-1784787125000-1",
+      "id": "marktechpost-1784787125000-2",
       "type": "live",
       "category": "llm",
       "title": "Anthropic Releases Claude Security Plugin for Claude Code in Beta: A Multi-Agent Vulnerability Scanner That Runs in Your Terminal",
@@ -24,6 +46,17 @@
       "url": "https://www.marktechpost.com/2026/07/22/anthropic-releases-claude-security-plugin-for-claude-code-in-beta-a-multi-agent-vulnerability-scanner-that-runs-in-your-terminal/",
       "publishedAt": "2026-07-23T06:12:05.000Z",
       "impact": 77
+    },
+    {
+      "id": "aether-figure03",
+      "type": "premium",
+      "category": "robotics",
+      "title": "Figure 03 completes 43-hour autonomous factory shift with zero interventions",
+      "excerpt": "Humanoid achieves new milestone in unsupervised operation, performing 1,240 unique tasks across three assembly lines at the BMW South Carolina plant.",
+      "source": "Figure AI",
+      "url": "https://figure.ai/news/03-milestone",
+      "publishedAt": "2026-07-23T05:16:42.866Z",
+      "impact": 89
     },
     {
       "id": "arxiv-cs.ai-1784779200000-0",
@@ -92,15 +125,15 @@
       "impact": 69
     },
     {
-      "id": "aether-grok43",
+      "id": "aether-interp",
       "type": "premium",
-      "category": "llm",
-      "title": "xAI releases Grok-4.3 with native long-horizon agent scaffolding",
-      "excerpt": "New model demonstrates 4.2× improvement on multi-step software engineering benchmarks and sustains coherent agent trajectories beyond 110k tokens.",
-      "source": "xAI",
-      "url": "https://x.ai/blog/grok-4.3",
-      "publishedAt": "2026-07-23T03:38:46.468Z",
-      "impact": 96
+      "category": "safety",
+      "title": "Anthropic publishes unprecedented mechanistic interpretability map of Claude 4",
+      "excerpt": "Researchers reverse-engineered 312 million features inside the model, including the first clear \"deception circuit\" discovered in a frontier model.",
+      "source": "Anthropic",
+      "url": "https://anthropic.com/research/claude-4-interp",
+      "publishedAt": "2026-07-23T00:16:42.866Z",
+      "impact": 91
     },
     {
       "id": "hugging-face-1784764800000-0",
@@ -114,18 +147,7 @@
       "impact": 75
     },
     {
-      "id": "aether-figure03",
-      "type": "premium",
-      "category": "robotics",
-      "title": "Figure 03 completes 43-hour autonomous factory shift with zero interventions",
-      "excerpt": "Humanoid achieves new milestone in unsupervised operation, performing 1,240 unique tasks across three assembly lines at the BMW South Carolina plant.",
-      "source": "Figure AI",
-      "url": "https://figure.ai/news/03-milestone",
-      "publishedAt": "2026-07-22T23:38:46.468Z",
-      "impact": 89
-    },
-    {
-      "id": "marktechpost-1784759864000-2",
+      "id": "marktechpost-1784759864000-3",
       "type": "live",
       "category": "llm",
       "title": "Cursor Releases Cursor Router: A Request-Level Classifier Delivering Frontier Coding Quality at 30–50% Lower Cost",
@@ -134,28 +156,6 @@
       "url": "https://www.marktechpost.com/2026/07/22/cursor-releases-cursor-router-a-request-level-classifier/",
       "publishedAt": "2026-07-22T22:37:44.000Z",
       "impact": 83
-    },
-    {
-      "id": "marktechpost-1784757238000-3",
-      "type": "live",
-      "category": "research",
-      "title": "Research-Grade EdgeBench Analysis: AI Agent Benchmarking, Leaderboard Analytics, Scaling Laws, and Evaluation Metrics",
-      "excerpt": "In this tutorial, we explore EdgeBench as a practical benchmark for evaluating advanced AI agents across diverse task categories, runtime environments, and interaction-time budgets.  We begin by downloading the datase...",
-      "source": "MarkTechPost",
-      "url": "https://www.marktechpost.com/2026/07/22/research-grade-edgebench-analysis-ai-agent-benchmarking-leaderboard-analytics-scaling-laws-and-evaluation-metrics/",
-      "publishedAt": "2026-07-22T21:53:58.000Z",
-      "impact": 77
-    },
-    {
-      "id": "aether-interp",
-      "type": "premium",
-      "category": "safety",
-      "title": "Anthropic publishes unprecedented mechanistic interpretability map of Claude 4",
-      "excerpt": "Researchers reverse-engineered 312 million features inside the model, including the first clear \"deception circuit\" discovered in a frontier model.",
-      "source": "Anthropic",
-      "url": "https://anthropic.com/research/claude-4-interp",
-      "publishedAt": "2026-07-22T18:38:46.468Z",
-      "impact": 91
     },
     {
       "id": "hugging-face-1784664027000-1",

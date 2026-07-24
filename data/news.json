@@ -1,10 +1,65 @@
 {
-  "lastUpdated": "2026-07-23T14:16:43.925Z",
+  "lastUpdated": "2026-07-24T03:19:49.754Z",
   "source": "AETHER + Public RSS (arXiv, Hugging Face, MarkTechPost, Ben's Bites)",
   "count": 16,
   "articles": [
     {
-      "id": "marktechpost-1784798800000-0",
+      "id": "aether-grok43",
+      "type": "premium",
+      "category": "llm",
+      "title": "xAI releases Grok-4.3 with native long-horizon agent scaffolding",
+      "excerpt": "New model demonstrates 4.2× improvement on multi-step software engineering benchmarks and sustains coherent agent trajectories beyond 110k tokens.",
+      "source": "xAI",
+      "url": "https://x.ai/blog/grok-4.3",
+      "publishedAt": "2026-07-23T22:19:48.301Z",
+      "impact": 96
+    },
+    {
+      "id": "marktechpost-1784835119000-0",
+      "type": "live",
+      "category": "llm",
+      "title": "Andrew Ng Just Released OpenWorker: An Open-Source, Local-First Desktop AI Coworker That Returns Finished Deliverables Instead of Chat",
+      "excerpt": "Andrew Ng has released OpenWorker, an MIT-licensed desktop AI agent that returns finished deliverables instead of chat replies.  It runs a local Python agent server under a Tauri shell, supports 30 curated tool-callin...",
+      "source": "MarkTechPost",
+      "url": "https://www.marktechpost.com/2026/07/23/andrew-ng-just-released-openworker-an-open-source-local-first-desktop-ai-coworker-that-returns-finished-deliverables-instead-of-chat/",
+      "publishedAt": "2026-07-23T19:31:59.000Z",
+      "impact": 65
+    },
+    {
+      "id": "aether-figure03",
+      "type": "premium",
+      "category": "robotics",
+      "title": "Figure 03 completes 43-hour autonomous factory shift with zero interventions",
+      "excerpt": "Humanoid achieves new milestone in unsupervised operation, performing 1,240 unique tasks across three assembly lines at the BMW South Carolina plant.",
+      "source": "Figure AI",
+      "url": "https://figure.ai/news/03-milestone",
+      "publishedAt": "2026-07-23T18:19:48.301Z",
+      "impact": 89
+    },
+    {
+      "id": "marktechpost-1784830075000-1",
+      "type": "live",
+      "category": "llm",
+      "title": "You Didn’t Get the AI Model You Paid For",
+      "excerpt": "The line in the response object You call the API.  You pass model: “claude-fable-5”",
+      "source": "MarkTechPost",
+      "url": "https://www.marktechpost.com/2026/07/23/you-didnt-get-the-ai-model-you-paid-for/",
+      "publishedAt": "2026-07-23T18:07:55.000Z",
+      "impact": 65
+    },
+    {
+      "id": "aether-interp",
+      "type": "premium",
+      "category": "safety",
+      "title": "Anthropic publishes unprecedented mechanistic interpretability map of Claude 4",
+      "excerpt": "Researchers reverse-engineered 312 million features inside the model, including the first clear \"deception circuit\" discovered in a frontier model.",
+      "source": "Anthropic",
+      "url": "https://anthropic.com/research/claude-4-interp",
+      "publishedAt": "2026-07-23T13:19:48.301Z",
+      "impact": 91
+    },
+    {
+      "id": "marktechpost-1784798800000-2",
       "type": "live",
       "category": "llm",
       "title": "Best Open Speech Recognition (ASR) Models in 2026: WER, Languages, Latency, and License Compared",
@@ -15,18 +70,7 @@
       "impact": 65
     },
     {
-      "id": "aether-grok43",
-      "type": "premium",
-      "category": "llm",
-      "title": "xAI releases Grok-4.3 with native long-horizon agent scaffolding",
-      "excerpt": "New model demonstrates 4.2× improvement on multi-step software engineering benchmarks and sustains coherent agent trajectories beyond 110k tokens.",
-      "source": "xAI",
-      "url": "https://x.ai/blog/grok-4.3",
-      "publishedAt": "2026-07-23T09:16:42.866Z",
-      "impact": 96
-    },
-    {
-      "id": "marktechpost-1784793682000-1",
+      "id": "marktechpost-1784793682000-3",
       "type": "live",
       "category": "llm",
       "title": "Meet Gigatoken: A Rust BPE Tokenizer that Encodes Text at 24.53 GB/s, up to 989x Faster than HuggingFace Tokenizers",
@@ -37,103 +81,70 @@
       "impact": 65
     },
     {
-      "id": "marktechpost-1784787125000-2",
-      "type": "live",
-      "category": "llm",
-      "title": "Anthropic Releases Claude Security Plugin for Claude Code in Beta: A Multi-Agent Vulnerability Scanner That Runs in Your Terminal",
-      "excerpt": "Anthropic has released the Claude Security plugin for Claude Code in beta.  The plugin runs a multi-agent vulnerability scan of a repository from inside an existing Claude Code session, then turns the findings you sel...",
-      "source": "MarkTechPost",
-      "url": "https://www.marktechpost.com/2026/07/22/anthropic-releases-claude-security-plugin-for-claude-code-in-beta-a-multi-agent-vulnerability-scanner-that-runs-in-your-terminal/",
-      "publishedAt": "2026-07-23T06:12:05.000Z",
-      "impact": 77
-    },
-    {
-      "id": "aether-figure03",
-      "type": "premium",
-      "category": "robotics",
-      "title": "Figure 03 completes 43-hour autonomous factory shift with zero interventions",
-      "excerpt": "Humanoid achieves new milestone in unsupervised operation, performing 1,240 unique tasks across three assembly lines at the BMW South Carolina plant.",
-      "source": "Figure AI",
-      "url": "https://figure.ai/news/03-milestone",
-      "publishedAt": "2026-07-23T05:16:42.866Z",
-      "impact": 89
-    },
-    {
       "id": "arxiv-cs.ai-1784779200000-0",
       "type": "live",
-      "category": "safety",
-      "title": "SysAdmin: Measuring Instrumental Power-Seeking in Frontier AI",
-      "excerpt": "18239v1 Announce Type: new Abstract: Power-seeking defined as behaviors where AI systems acquire resources, evade oversight, or resist termination beyond task requirements is identified as a key driver of Loss of Cont...",
+      "category": "llm",
+      "title": "FineServe: A Fine-Grained Dataset and Characterization of Global LLM Serving Workloads",
+      "excerpt": "19349v1 Announce Type: new Abstract: Large language models (LLMs) are increasingly deployed as always-on online services, making efficient LLM serving a critical systems challenge.  Achieving low latency and high thro...",
       "source": "arXiv cs.AI",
-      "url": "https://arxiv.org/abs/2607.18239",
+      "url": "https://arxiv.org/abs/2607.19349",
       "publishedAt": "2026-07-23T04:00:00.000Z",
-      "impact": 75
+      "impact": 58
     },
     {
       "id": "arxiv-cs.ai-1784779200000-1",
       "type": "live",
-      "category": "safety",
-      "title": "Calibrated Selective Fact-Checking via Evidence Chain Evaluation",
-      "excerpt": "18240v1 Announce Type: new Abstract: Large language models (LLMs) can achieve strong fact-checking accuracy, yet forced binary decisions conceal a critical reliability problem: systems may issue confident verdicts eve...",
+      "category": "llm",
+      "title": "Hybrid LSTM-Graph Neural Framework for Robust Financial Fraud Detection and Adversarial Resilience",
+      "excerpt": "19350v1 Announce Type: new Abstract: Financial institutions face significant challenges in detecting sophisticated money laundering patterns, such as smurfing and layering, due to extreme data imbalance (0. 13% fraud ...",
       "source": "arXiv cs.AI",
-      "url": "https://arxiv.org/abs/2607.18240",
+      "url": "https://arxiv.org/abs/2607.19350",
       "publishedAt": "2026-07-23T04:00:00.000Z",
       "impact": 58
     },
     {
       "id": "arxiv-cs.ai-1784779200000-2",
       "type": "live",
-      "category": "llm",
-      "title": "BatchDAG: LLM-Planned Execution Graphs for Scalable Ad-Hoc Analysis Over Enterprise Data",
-      "excerpt": "18241v1 Announce Type: new Abstract: Large language models (LLMs) excel at analyzing individual documents but break down on exhaustive, cross-entity analytical questions over enterprise-scale datasets due to context o...",
+      "category": "safety",
+      "title": "OpenEvoShield: Dual Non-Stationary Continual Defense for Open-World Multi-Agent System Attacks",
+      "excerpt": "19351v1 Announce Type: new Abstract: LLM-based multi-agent systems (LLM-MAS) are increasingly deployed in safety-critical applications, where adversaries inject malicious instructions through inter-agent communication...",
       "source": "arXiv cs.AI",
-      "url": "https://arxiv.org/abs/2607.18241",
+      "url": "https://arxiv.org/abs/2607.19351",
       "publishedAt": "2026-07-23T04:00:00.000Z",
-      "impact": 58
+      "impact": 69
     },
     {
       "id": "arxiv-cs.ai-1784779200000-3",
       "type": "live",
-      "category": "research",
-      "title": "AI Tool Discovery at Scale: All You Need is DNS",
-      "excerpt": "18242v1 Announce Type: new Abstract: The coming era of autonomous AI agents demands a discovery mechanism capable of navigating millions of tools, yet existing solutions buckle under O(N) complexity and centralized go...",
+      "category": "hardware",
+      "title": "Benchmarking Confidential GPU Inference on NVIDIA H100 under Intel TDX",
+      "excerpt": "19353v1 Announce Type: new Abstract: Confidential computing is becoming a practical deployment requirement for AI inference workloads that process sensitive inputs or protect proprietary model assets.  However, the pe...",
       "source": "arXiv cs.AI",
-      "url": "https://arxiv.org/abs/2607.18242",
+      "url": "https://arxiv.org/abs/2607.19353",
       "publishedAt": "2026-07-23T04:00:00.000Z",
       "impact": 58
     },
     {
       "id": "arxiv-cs.ai-1784779200000-4",
       "type": "live",
-      "category": "robotics",
-      "title": "From Agent Failure Paths to Quantified Residual Risk: A Compositional Framework for Resilient Agentic AI",
-      "excerpt": "18243v1 Announce Type: new Abstract: Agentic AI is crossing trust boundaries faster than current risk models can represent.  Existing approaches provide one of two partial views",
+      "category": "multimodal",
+      "title": "FormulaSPIN: Self-Play Fine-Tuning for Natural Language to Spreadsheet Formula Generation",
+      "excerpt": "19354v1 Announce Type: new Abstract: Spreadsheet applications are used by hundreds of millions worldwide, yet writing formulas remains a significant barrier.  Existing approaches rely on static supervised data, which ...",
       "source": "arXiv cs.AI",
-      "url": "https://arxiv.org/abs/2607.18243",
+      "url": "https://arxiv.org/abs/2607.19354",
       "publishedAt": "2026-07-23T04:00:00.000Z",
-      "impact": 69
+      "impact": 58
     },
     {
       "id": "arxiv-cs.ai-1784779200000-5",
       "type": "live",
       "category": "safety",
-      "title": "SAAG: Structured Agent Assessment and Grounding",
-      "excerpt": "18245v1 Announce Type: new Abstract: Exact-match evaluation of agent-calling obscures qualitatively different failure modes: a model may select the right function yet hallucinate argument values, or satisfy a schema w...",
+      "title": "Information Discernment in Large Language Models",
+      "excerpt": "19355v1 Announce Type: new Abstract: LLMs are increasingly used with external knowledge sources like the internet.  Do they weigh information appropriately -- updating more for reliable sources (source discernment) an...",
       "source": "arXiv cs.AI",
-      "url": "https://arxiv.org/abs/2607.18245",
+      "url": "https://arxiv.org/abs/2607.19355",
       "publishedAt": "2026-07-23T04:00:00.000Z",
-      "impact": 69
-    },
-    {
-      "id": "aether-interp",
-      "type": "premium",
-      "category": "safety",
-      "title": "Anthropic publishes unprecedented mechanistic interpretability map of Claude 4",
-      "excerpt": "Researchers reverse-engineered 312 million features inside the model, including the first clear \"deception circuit\" discovered in a frontier model.",
-      "source": "Anthropic",
-      "url": "https://anthropic.com/research/claude-4-interp",
-      "publishedAt": "2026-07-23T00:16:42.866Z",
-      "impact": 91
+      "impact": 58
     },
     {
       "id": "hugging-face-1784764800000-0",
@@ -145,17 +156,6 @@
       "url": "https://huggingface.co/blog/nunchaku-diffusers",
       "publishedAt": "2026-07-23T00:00:00.000Z",
       "impact": 75
-    },
-    {
-      "id": "marktechpost-1784759864000-3",
-      "type": "live",
-      "category": "llm",
-      "title": "Cursor Releases Cursor Router: A Request-Level Classifier Delivering Frontier Coding Quality at 30–50% Lower Cost",
-      "excerpt": "Cursor has made Cursor Router generally available for Teams and Enterprise plans.  The system classifies each request on query, context, task complexity and domain, then routes it to the most suitable model",
-      "source": "MarkTechPost",
-      "url": "https://www.marktechpost.com/2026/07/22/cursor-releases-cursor-router-a-request-level-classifier/",
-      "publishedAt": "2026-07-22T22:37:44.000Z",
-      "impact": 83
     },
     {
       "id": "hugging-face-1784664027000-1",

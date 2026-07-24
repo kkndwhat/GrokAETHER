@@ -1,8 +1,85 @@
 {
-  "lastUpdated": "2026-07-24T03:19:49.754Z",
+  "lastUpdated": "2026-07-24T08:34:38.013Z",
   "source": "AETHER + Public RSS (arXiv, Hugging Face, MarkTechPost, Ben's Bites)",
   "count": 16,
   "articles": [
+    {
+      "id": "marktechpost-1784870188000-0",
+      "type": "live",
+      "category": "hardware",
+      "title": "How to Build an End-to-End OCR Pipeline with Baidu’s Unlimited-OCR for High-Resolution Images and Multi-Page PDF Parsing",
+      "excerpt": "In this tutorial, we build a complete workflow for running Baidu’s Unlimited-OCR model on document images and multi-page PDFs.  From configuring the GPU environment to comparing high-detail tiled Gundam inference and ...",
+      "source": "MarkTechPost",
+      "url": "https://www.marktechpost.com/2026/07/23/how-to-build-an-end-to-end-ocr-pipeline-with-baidus-unlimited-ocr-for-high-resolution-images-and-multi-page-pdf-parsing/",
+      "publishedAt": "2026-07-24T05:16:28.000Z",
+      "impact": 65
+    },
+    {
+      "id": "arxiv-cs.ai-1784865600000-0",
+      "type": "live",
+      "category": "llm",
+      "title": "AINTMA: Agentic AI Architecture for Autonomous Test Management with Generative Intelligence, Secure Cloud Communication and Adaptive Quality Analytics",
+      "excerpt": "20452v1 Announce Type: new Abstract: Modern software quality assurance demands intelligent, autonomous systems capable of adaptive decision-making across distributed cloud environments.  This paper presents AINTMA (Ag...",
+      "source": "arXiv cs.AI",
+      "url": "https://arxiv.org/abs/2607.20452",
+      "publishedAt": "2026-07-24T04:00:00.000Z",
+      "impact": 69
+    },
+    {
+      "id": "arxiv-cs.ai-1784865600000-1",
+      "type": "live",
+      "category": "multimodal",
+      "title": "Marking the Wrong Symptoms: Evaluating LLM Watermarks in Medical Texts",
+      "excerpt": "20462v1 Announce Type: new Abstract: Large language models (LLMs) are increasingly integrated into clinical workflows, stressing the need for reliable traceability of model-generated output with watermarking.  Yet, mo...",
+      "source": "arXiv cs.AI",
+      "url": "https://arxiv.org/abs/2607.20462",
+      "publishedAt": "2026-07-24T04:00:00.000Z",
+      "impact": 58
+    },
+    {
+      "id": "arxiv-cs.ai-1784865600000-2",
+      "type": "live",
+      "category": "multimodal",
+      "title": "ClickGuard: Detecting and Spoiling Clickbait News with Informativeness Measures and Large Language Models",
+      "excerpt": "20463v1 Announce Type: new Abstract: This paper presents an AI-driven browser extension that identifies clickbait to help users avoid misleading Internet articles.  Moving beyond traditional detection, the application...",
+      "source": "arXiv cs.AI",
+      "url": "https://arxiv.org/abs/2607.20463",
+      "publishedAt": "2026-07-24T04:00:00.000Z",
+      "impact": 58
+    },
+    {
+      "id": "arxiv-cs.ai-1784865600000-3",
+      "type": "live",
+      "category": "llm",
+      "title": "Stochastic Sampling is Epistemically Shallow: The Dimensionality Gap Between Temperature Variation and Model Diversity in LLMs",
+      "excerpt": "20464v1 Announce Type: new Abstract: When a language model gives different answers on repeated runs, does that variation reveal what it does not know.  Self-consistency turns the variation into a per-question uncertai...",
+      "source": "arXiv cs.AI",
+      "url": "https://arxiv.org/abs/2607.20464",
+      "publishedAt": "2026-07-24T04:00:00.000Z",
+      "impact": 58
+    },
+    {
+      "id": "arxiv-cs.ai-1784865600000-4",
+      "type": "live",
+      "category": "hardware",
+      "title": "JAXBench: Benchmarking Autonomous TPU Kernel Optimization",
+      "excerpt": "20466v1 Announce Type: new Abstract: Rigorous benchmarks have driven progress in autonomous GPU kernel performance optimization by establishing a shared target to hillclimb on, but no equivalent exists for TPUs.  We p...",
+      "source": "arXiv cs.AI",
+      "url": "https://arxiv.org/abs/2607.20466",
+      "publishedAt": "2026-07-24T04:00:00.000Z",
+      "impact": 58
+    },
+    {
+      "id": "arxiv-cs.ai-1784865600000-5",
+      "type": "live",
+      "category": "llm",
+      "title": "DC-Leap: Training-Free Acceleration of dLLMs via Draft-Guided Contiguous Leaping Decoding",
+      "excerpt": "20467v1 Announce Type: new Abstract: While parallel decoding is central to the efficiency of Diffusion Large Language Models (dLLMs), current strategies are often hindered by overly conservative confidence thresholds....",
+      "source": "arXiv cs.AI",
+      "url": "https://arxiv.org/abs/2607.20467",
+      "publishedAt": "2026-07-24T04:00:00.000Z",
+      "impact": 58
+    },
     {
       "id": "aether-grok43",
       "type": "premium",
@@ -11,11 +88,22 @@
       "excerpt": "New model demonstrates 4.2× improvement on multi-step software engineering benchmarks and sustains coherent agent trajectories beyond 110k tokens.",
       "source": "xAI",
       "url": "https://x.ai/blog/grok-4.3",
-      "publishedAt": "2026-07-23T22:19:48.301Z",
+      "publishedAt": "2026-07-24T03:34:36.965Z",
       "impact": 96
     },
     {
-      "id": "marktechpost-1784835119000-0",
+      "id": "aether-figure03",
+      "type": "premium",
+      "category": "robotics",
+      "title": "Figure 03 completes 43-hour autonomous factory shift with zero interventions",
+      "excerpt": "Humanoid achieves new milestone in unsupervised operation, performing 1,240 unique tasks across three assembly lines at the BMW South Carolina plant.",
+      "source": "Figure AI",
+      "url": "https://figure.ai/news/03-milestone",
+      "publishedAt": "2026-07-23T23:34:36.965Z",
+      "impact": 89
+    },
+    {
+      "id": "marktechpost-1784835119000-1",
       "type": "live",
       "category": "llm",
       "title": "Andrew Ng Just Released OpenWorker: An Open-Source, Local-First Desktop AI Coworker That Returns Finished Deliverables Instead of Chat",
@@ -26,18 +114,18 @@
       "impact": 65
     },
     {
-      "id": "aether-figure03",
+      "id": "aether-interp",
       "type": "premium",
-      "category": "robotics",
-      "title": "Figure 03 completes 43-hour autonomous factory shift with zero interventions",
-      "excerpt": "Humanoid achieves new milestone in unsupervised operation, performing 1,240 unique tasks across three assembly lines at the BMW South Carolina plant.",
-      "source": "Figure AI",
-      "url": "https://figure.ai/news/03-milestone",
-      "publishedAt": "2026-07-23T18:19:48.301Z",
-      "impact": 89
+      "category": "safety",
+      "title": "Anthropic publishes unprecedented mechanistic interpretability map of Claude 4",
+      "excerpt": "Researchers reverse-engineered 312 million features inside the model, including the first clear \"deception circuit\" discovered in a frontier model.",
+      "source": "Anthropic",
+      "url": "https://anthropic.com/research/claude-4-interp",
+      "publishedAt": "2026-07-23T18:34:36.965Z",
+      "impact": 91
     },
     {
-      "id": "marktechpost-1784830075000-1",
+      "id": "marktechpost-1784830075000-2",
       "type": "live",
       "category": "llm",
       "title": "You Didn’t Get the AI Model You Paid For",
@@ -48,18 +136,7 @@
       "impact": 65
     },
     {
-      "id": "aether-interp",
-      "type": "premium",
-      "category": "safety",
-      "title": "Anthropic publishes unprecedented mechanistic interpretability map of Claude 4",
-      "excerpt": "Researchers reverse-engineered 312 million features inside the model, including the first clear \"deception circuit\" discovered in a frontier model.",
-      "source": "Anthropic",
-      "url": "https://anthropic.com/research/claude-4-interp",
-      "publishedAt": "2026-07-23T13:19:48.301Z",
-      "impact": 91
-    },
-    {
-      "id": "marktechpost-1784798800000-2",
+      "id": "marktechpost-1784798800000-3",
       "type": "live",
       "category": "llm",
       "title": "Best Open Speech Recognition (ASR) Models in 2026: WER, Languages, Latency, and License Compared",
@@ -68,83 +145,6 @@
       "url": "https://www.marktechpost.com/2026/07/23/best-open-speech-recognition-asr-models-in-2026-wer-languages-latency-and-license-compared/",
       "publishedAt": "2026-07-23T09:26:40.000Z",
       "impact": 65
-    },
-    {
-      "id": "marktechpost-1784793682000-3",
-      "type": "live",
-      "category": "llm",
-      "title": "Meet Gigatoken: A Rust BPE Tokenizer that Encodes Text at 24.53 GB/s, up to 989x Faster than HuggingFace Tokenizers",
-      "excerpt": "Gigatoken is an MIT-licensed Rust BPE tokenizer that encodes text at gigabytes per second.  On a 144-core AMD EPYC 9565, it runs GPT-2 tokenization at 24",
-      "source": "MarkTechPost",
-      "url": "https://www.marktechpost.com/2026/07/23/meet-gigatoken-a-rust-bpe-tokenizer-that-encodes-text-at-24-53-gb-s-up-to-989x-faster-than-huggingface-tokenizers/",
-      "publishedAt": "2026-07-23T08:01:22.000Z",
-      "impact": 65
-    },
-    {
-      "id": "arxiv-cs.ai-1784779200000-0",
-      "type": "live",
-      "category": "llm",
-      "title": "FineServe: A Fine-Grained Dataset and Characterization of Global LLM Serving Workloads",
-      "excerpt": "19349v1 Announce Type: new Abstract: Large language models (LLMs) are increasingly deployed as always-on online services, making efficient LLM serving a critical systems challenge.  Achieving low latency and high thro...",
-      "source": "arXiv cs.AI",
-      "url": "https://arxiv.org/abs/2607.19349",
-      "publishedAt": "2026-07-23T04:00:00.000Z",
-      "impact": 58
-    },
-    {
-      "id": "arxiv-cs.ai-1784779200000-1",
-      "type": "live",
-      "category": "llm",
-      "title": "Hybrid LSTM-Graph Neural Framework for Robust Financial Fraud Detection and Adversarial Resilience",
-      "excerpt": "19350v1 Announce Type: new Abstract: Financial institutions face significant challenges in detecting sophisticated money laundering patterns, such as smurfing and layering, due to extreme data imbalance (0. 13% fraud ...",
-      "source": "arXiv cs.AI",
-      "url": "https://arxiv.org/abs/2607.19350",
-      "publishedAt": "2026-07-23T04:00:00.000Z",
-      "impact": 58
-    },
-    {
-      "id": "arxiv-cs.ai-1784779200000-2",
-      "type": "live",
-      "category": "safety",
-      "title": "OpenEvoShield: Dual Non-Stationary Continual Defense for Open-World Multi-Agent System Attacks",
-      "excerpt": "19351v1 Announce Type: new Abstract: LLM-based multi-agent systems (LLM-MAS) are increasingly deployed in safety-critical applications, where adversaries inject malicious instructions through inter-agent communication...",
-      "source": "arXiv cs.AI",
-      "url": "https://arxiv.org/abs/2607.19351",
-      "publishedAt": "2026-07-23T04:00:00.000Z",
-      "impact": 69
-    },
-    {
-      "id": "arxiv-cs.ai-1784779200000-3",
-      "type": "live",
-      "category": "hardware",
-      "title": "Benchmarking Confidential GPU Inference on NVIDIA H100 under Intel TDX",
-      "excerpt": "19353v1 Announce Type: new Abstract: Confidential computing is becoming a practical deployment requirement for AI inference workloads that process sensitive inputs or protect proprietary model assets.  However, the pe...",
-      "source": "arXiv cs.AI",
-      "url": "https://arxiv.org/abs/2607.19353",
-      "publishedAt": "2026-07-23T04:00:00.000Z",
-      "impact": 58
-    },
-    {
-      "id": "arxiv-cs.ai-1784779200000-4",
-      "type": "live",
-      "category": "multimodal",
-      "title": "FormulaSPIN: Self-Play Fine-Tuning for Natural Language to Spreadsheet Formula Generation",
-      "excerpt": "19354v1 Announce Type: new Abstract: Spreadsheet applications are used by hundreds of millions worldwide, yet writing formulas remains a significant barrier.  Existing approaches rely on static supervised data, which ...",
-      "source": "arXiv cs.AI",
-      "url": "https://arxiv.org/abs/2607.19354",
-      "publishedAt": "2026-07-23T04:00:00.000Z",
-      "impact": 58
-    },
-    {
-      "id": "arxiv-cs.ai-1784779200000-5",
-      "type": "live",
-      "category": "safety",
-      "title": "Information Discernment in Large Language Models",
-      "excerpt": "19355v1 Announce Type: new Abstract: LLMs are increasingly used with external knowledge sources like the internet.  Do they weigh information appropriately -- updating more for reliable sources (source discernment) an...",
-      "source": "arXiv cs.AI",
-      "url": "https://arxiv.org/abs/2607.19355",
-      "publishedAt": "2026-07-23T04:00:00.000Z",
-      "impact": 58
     },
     {
       "id": "hugging-face-1784764800000-0",

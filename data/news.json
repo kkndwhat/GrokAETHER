@@ -1,7 +1,7 @@
 {
-  "lastUpdated": "2026-07-24T19:37:30.703Z",
+  "lastUpdated": "2026-07-25T03:18:11.518Z",
   "source": "AETHER + Public RSS (arXiv, Hugging Face, MarkTechPost, Ben's Bites)",
-  "count": 16,
+  "count": 12,
   "articles": [
     {
       "id": "aether-grok43",
@@ -11,7 +11,7 @@
       "excerpt": "New model demonstrates 4.2× improvement on multi-step software engineering benchmarks and sustains coherent agent trajectories beyond 110k tokens.",
       "source": "xAI",
       "url": "https://x.ai/blog/grok-4.3",
-      "publishedAt": "2026-07-24T14:37:29.398Z",
+      "publishedAt": "2026-07-24T22:18:11.093Z",
       "impact": 96
     },
     {
@@ -22,7 +22,7 @@
       "excerpt": "Humanoid achieves new milestone in unsupervised operation, performing 1,240 unique tasks across three assembly lines at the BMW South Carolina plant.",
       "source": "Figure AI",
       "url": "https://figure.ai/news/03-milestone",
-      "publishedAt": "2026-07-24T10:37:29.398Z",
+      "publishedAt": "2026-07-24T18:18:11.093Z",
       "impact": 89
     },
     {
@@ -33,19 +33,8 @@
       "excerpt": "Researchers reverse-engineered 312 million features inside the model, including the first clear \"deception circuit\" discovered in a frontier model.",
       "source": "Anthropic",
       "url": "https://anthropic.com/research/claude-4-interp",
-      "publishedAt": "2026-07-24T05:37:29.398Z",
+      "publishedAt": "2026-07-24T13:18:11.093Z",
       "impact": 91
-    },
-    {
-      "id": "marktechpost-1784870188000-0",
-      "type": "live",
-      "category": "hardware",
-      "title": "How to Build an End-to-End OCR Pipeline with Baidu’s Unlimited-OCR for High-Resolution Images and Multi-Page PDF Parsing",
-      "excerpt": "In this tutorial, we build a complete workflow for running Baidu’s Unlimited-OCR model on document images and multi-page PDFs.  From configuring the GPU environment to comparing high-detail tiled Gundam inference and ...",
-      "source": "MarkTechPost",
-      "url": "https://www.marktechpost.com/2026/07/23/how-to-build-an-end-to-end-ocr-pipeline-with-baidus-unlimited-ocr-for-high-resolution-images-and-multi-page-pdf-parsing/",
-      "publishedAt": "2026-07-24T05:16:28.000Z",
-      "impact": 65
     },
     {
       "id": "arxiv-cs.ai-1784865600000-0",
@@ -112,39 +101,6 @@
       "url": "https://arxiv.org/abs/2607.20467",
       "publishedAt": "2026-07-24T04:00:00.000Z",
       "impact": 58
-    },
-    {
-      "id": "marktechpost-1784835119000-1",
-      "type": "live",
-      "category": "llm",
-      "title": "Andrew Ng Just Released OpenWorker: An Open-Source, Local-First Desktop AI Coworker That Returns Finished Deliverables Instead of Chat",
-      "excerpt": "Andrew Ng has released OpenWorker, an MIT-licensed desktop AI agent that returns finished deliverables instead of chat replies.  It runs a local Python agent server under a Tauri shell, supports 30 curated tool-callin...",
-      "source": "MarkTechPost",
-      "url": "https://www.marktechpost.com/2026/07/23/andrew-ng-just-released-openworker-an-open-source-local-first-desktop-ai-coworker-that-returns-finished-deliverables-instead-of-chat/",
-      "publishedAt": "2026-07-23T19:31:59.000Z",
-      "impact": 65
-    },
-    {
-      "id": "marktechpost-1784830075000-2",
-      "type": "live",
-      "category": "llm",
-      "title": "You Didn’t Get the AI Model You Paid For",
-      "excerpt": "The line in the response object You call the API.  You pass model: “claude-fable-5”",
-      "source": "MarkTechPost",
-      "url": "https://www.marktechpost.com/2026/07/23/you-didnt-get-the-ai-model-you-paid-for/",
-      "publishedAt": "2026-07-23T18:07:55.000Z",
-      "impact": 65
-    },
-    {
-      "id": "marktechpost-1784798800000-3",
-      "type": "live",
-      "category": "llm",
-      "title": "Best Open Speech Recognition (ASR) Models in 2026: WER, Languages, Latency, and License Compared",
-      "excerpt": "Open speech recognition stopped being a Whisper monoculture in 2026.  Cohere Transcribe, IBM Granite Speech 4",
-      "source": "MarkTechPost",
-      "url": "https://www.marktechpost.com/2026/07/23/best-open-speech-recognition-asr-models-in-2026-wer-languages-latency-and-license-compared/",
-      "publishedAt": "2026-07-23T09:26:40.000Z",
-      "impact": 65
     },
     {
       "id": "hugging-face-1784764800000-0",

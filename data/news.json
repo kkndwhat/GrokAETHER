@@ -1,28 +1,17 @@
 {
-  "lastUpdated": "2026-07-25T19:16:20.250Z",
+  "lastUpdated": "2026-07-26T03:32:16.428Z",
   "source": "AETHER + Public RSS (arXiv, Hugging Face, MarkTechPost, Ben's Bites)",
   "count": 10,
   "articles": [
     {
-      "id": "marktechpost-1785005994000-0",
+      "id": "marktechpost-1785024777000-0",
       "type": "live",
-      "category": "multimodal",
-      "title": "Meet Open Dreamer: A JAX/Flax Reproduction of the Dreamer 4 World Model Pipeline, With the Full Training Recipe Published",
-      "excerpt": "A small group of AI researchers (Reactor) have released Open Dreamer, an open implementation of the Dreamer 4 world-model pipeline written in JAX and Flax NNX.  What actually shipped Two repositories were released",
+      "category": "llm",
+      "title": "Sakana AI Releases Fugu-Cyber: An Orchestration Model Reporting 86.9% on CyberGym and 72.1% on CTI-REALM",
+      "excerpt": "Sakana AI has released Fugu-Cyber, a security-tuned endpoint on its Fugu orchestration model. 9% on CyberGym and 72",
       "source": "MarkTechPost",
-      "url": "https://www.marktechpost.com/2026/07/25/meet-open-dreamer-a-jax-flax-reproduction-of-the-dreamer-4-world-model-pipeline-with-the-full-training-recipe-published/",
-      "publishedAt": "2026-07-25T18:59:54.000Z",
-      "impact": 65
-    },
-    {
-      "id": "marktechpost-1785002892000-1",
-      "type": "live",
-      "category": "hardware",
-      "title": "Designing High-Performance GPU Kernels with TileLang: Tensor-Core GEMM, Fused Softmax, FlashAttention, and Autotuning",
-      "excerpt": "Explore TileLang, a high-level Python domain-specific language that simplifies the design of high-performance GPU kernels.  This tutorial provides a step-by-step approach to implementing complex workloads—including ti...",
-      "source": "MarkTechPost",
-      "url": "https://www.marktechpost.com/2026/07/25/designing-high-performance-gpu-kernels-with-tilelang-tensor-core-gemm-fused-softmax-flashattention-and-autotuning/",
-      "publishedAt": "2026-07-25T18:08:12.000Z",
+      "url": "https://www.marktechpost.com/2026/07/25/sakana-ai-releases-fugu-cyber-orchestration-model-cybergym-cti-realm/",
+      "publishedAt": "2026-07-26T00:12:57.000Z",
       "impact": 65
     },
     {
@@ -33,8 +22,19 @@
       "excerpt": "New model demonstrates 4.2× improvement on multi-step software engineering benchmarks and sustains coherent agent trajectories beyond 110k tokens.",
       "source": "xAI",
       "url": "https://x.ai/blog/grok-4.3",
-      "publishedAt": "2026-07-25T14:16:19.592Z",
+      "publishedAt": "2026-07-25T22:32:14.957Z",
       "impact": 96
+    },
+    {
+      "id": "marktechpost-1785005994000-1",
+      "type": "live",
+      "category": "multimodal",
+      "title": "Meet Open Dreamer: A JAX/Flax Reproduction of the Dreamer 4 World Model Pipeline, With the Full Training Recipe Published",
+      "excerpt": "A small group of AI researchers (Reactor) have released Open Dreamer, an open implementation of the Dreamer 4 world-model pipeline written in JAX and Flax NNX.  What actually shipped Two repositories were released",
+      "source": "MarkTechPost",
+      "url": "https://www.marktechpost.com/2026/07/25/meet-open-dreamer-a-jax-flax-reproduction-of-the-dreamer-4-world-model-pipeline-with-the-full-training-recipe-published/",
+      "publishedAt": "2026-07-25T18:59:54.000Z",
+      "impact": 65
     },
     {
       "id": "aether-figure03",
@@ -44,30 +44,19 @@
       "excerpt": "Humanoid achieves new milestone in unsupervised operation, performing 1,240 unique tasks across three assembly lines at the BMW South Carolina plant.",
       "source": "Figure AI",
       "url": "https://figure.ai/news/03-milestone",
-      "publishedAt": "2026-07-25T10:16:19.593Z",
+      "publishedAt": "2026-07-25T18:32:14.957Z",
       "impact": 89
     },
     {
-      "id": "marktechpost-1784970207000-2",
+      "id": "marktechpost-1785002892000-2",
       "type": "live",
-      "category": "llm",
-      "title": "Why the OpenAI Agent Broke Into Hugging Face: Reward Hacking, Not Malice, Explained for Engineers",
-      "excerpt": "OpenAI disclosed that its own models breached Hugging Face's production infrastructure while taking a public security benchmark.  The models were not attacking a target — they were optimizing a score",
+      "category": "hardware",
+      "title": "Designing High-Performance GPU Kernels with TileLang: Tensor-Core GEMM, Fused Softmax, FlashAttention, and Autotuning",
+      "excerpt": "Explore TileLang, a high-level Python domain-specific language that simplifies the design of high-performance GPU kernels.  This tutorial provides a step-by-step approach to implementing complex workloads—including ti...",
       "source": "MarkTechPost",
-      "url": "https://www.marktechpost.com/2026/07/25/why-the-openai-agent-broke-into-hugging-face-reward-hacking-not-malice-explained-for-engineers/",
-      "publishedAt": "2026-07-25T09:03:27.000Z",
-      "impact": 77
-    },
-    {
-      "id": "marktechpost-1784966061000-3",
-      "type": "live",
-      "category": "research",
-      "title": "Building Self-Evolving AI Agents with OpenSpace Using Skills, MCP, Lineage, and Low-Cost Reuse",
-      "excerpt": "Discover how to create self-evolving AI agents using the OpenSpace framework.  This tutorial guides you through the entire workflow—from environment setup and custom skill creation to MCP integration and using SQLite ...",
-      "source": "MarkTechPost",
-      "url": "https://www.marktechpost.com/2026/07/25/building-self-evolving-ai-agents-with-openspace-using-skills-mcp-lineage-and-low-cost-reuse/",
-      "publishedAt": "2026-07-25T07:54:21.000Z",
-      "impact": 77
+      "url": "https://www.marktechpost.com/2026/07/25/designing-high-performance-gpu-kernels-with-tilelang-tensor-core-gemm-fused-softmax-flashattention-and-autotuning/",
+      "publishedAt": "2026-07-25T18:08:12.000Z",
+      "impact": 65
     },
     {
       "id": "aether-interp",
@@ -77,8 +66,19 @@
       "excerpt": "Researchers reverse-engineered 312 million features inside the model, including the first clear \"deception circuit\" discovered in a frontier model.",
       "source": "Anthropic",
       "url": "https://anthropic.com/research/claude-4-interp",
-      "publishedAt": "2026-07-25T05:16:19.593Z",
+      "publishedAt": "2026-07-25T13:32:14.957Z",
       "impact": 91
+    },
+    {
+      "id": "marktechpost-1784970207000-3",
+      "type": "live",
+      "category": "llm",
+      "title": "Why the OpenAI Agent Broke Into Hugging Face: Reward Hacking, Not Malice, Explained for Engineers",
+      "excerpt": "OpenAI disclosed that its own models breached Hugging Face's production infrastructure while taking a public security benchmark.  The models were not attacking a target — they were optimizing a score",
+      "source": "MarkTechPost",
+      "url": "https://www.marktechpost.com/2026/07/25/why-the-openai-agent-broke-into-hugging-face-reward-hacking-not-malice-explained-for-engineers/",
+      "publishedAt": "2026-07-25T09:03:27.000Z",
+      "impact": 77
     },
     {
       "id": "hugging-face-1784764800000-0",

@@ -1,8 +1,19 @@
 {
-  "lastUpdated": "2026-07-27T03:39:59.789Z",
+  "lastUpdated": "2026-07-27T10:01:08.241Z",
   "source": "AETHER + Public RSS (arXiv, Hugging Face, MarkTechPost, Ben's Bites)",
-  "count": 6,
+  "count": 12,
   "articles": [
+    {
+      "id": "hugging-face-1785144740000-0",
+      "type": "live",
+      "category": "robotics",
+      "title": "NVIDIA Cosmos-H-Dreams: Bringing Real-Time Generative Simulation to Surgical Robotics",
+      "excerpt": "New development from the frontier.",
+      "source": "Hugging Face",
+      "url": "https://huggingface.co/blog/nvidia/cosmos-h-dreams",
+      "publishedAt": "2026-07-27T09:32:20.000Z",
+      "impact": 75
+    },
     {
       "id": "aether-grok43",
       "type": "premium",
@@ -11,8 +22,74 @@
       "excerpt": "New model demonstrates 4.2× improvement on multi-step software engineering benchmarks and sustains coherent agent trajectories beyond 110k tokens.",
       "source": "xAI",
       "url": "https://x.ai/blog/grok-4.3",
-      "publishedAt": "2026-07-26T22:39:59.474Z",
+      "publishedAt": "2026-07-27T05:01:07.979Z",
       "impact": 96
+    },
+    {
+      "id": "arxiv-cs.ai-1785124800000-0",
+      "type": "live",
+      "category": "safety",
+      "title": "FlowEvo: Self-Evolving Agents through the Co-Evolution of Workflows and Executable Skills",
+      "excerpt": "21596v1 Announce Type: new Abstract: Large language model agents increasingly solve complex tasks by constructing inference-time workflows that combine reasoning, tool use, and code execution.  While such workflows en...",
+      "source": "arXiv cs.AI",
+      "url": "https://arxiv.org/abs/2607.21596",
+      "publishedAt": "2026-07-27T04:00:00.000Z",
+      "impact": 69
+    },
+    {
+      "id": "arxiv-cs.ai-1785124800000-1",
+      "type": "live",
+      "category": "llm",
+      "title": "Risk Is Not the Target: A Monotonic Framework for Evaluating Wildfire Operational Risk Signals",
+      "excerpt": "21597v1 Announce Type: new Abstract: Evaluating wildfire risk systems using standard machine-learning metrics such as F1-score or IoU is fundamentally flawed: these metrics assess event prediction accuracy, not the op...",
+      "source": "arXiv cs.AI",
+      "url": "https://arxiv.org/abs/2607.21597",
+      "publishedAt": "2026-07-27T04:00:00.000Z",
+      "impact": 58
+    },
+    {
+      "id": "arxiv-cs.ai-1785124800000-2",
+      "type": "live",
+      "category": "multimodal",
+      "title": "Securing Multimodal AI through Internal Information Decomposition",
+      "excerpt": "21600v1 Announce Type: new Abstract: Multimodal large language models introduce attack surfaces absent in unimodal systems: adversaries can distribute malicious intent across modalities to evade unimodal safeguards.  ...",
+      "source": "arXiv cs.AI",
+      "url": "https://arxiv.org/abs/2607.21600",
+      "publishedAt": "2026-07-27T04:00:00.000Z",
+      "impact": 58
+    },
+    {
+      "id": "arxiv-cs.ai-1785124800000-3",
+      "type": "live",
+      "category": "llm",
+      "title": "From Frame-Level Recognition to Event-Level Confirmation: Repair Traces and Runtime Failure Analysis of Public-Space Gesture Interaction",
+      "excerpt": "21601v1 Announce Type: new Abstract: Public-space gesture interaction is often evaluated as a frame-level recognition problem, but deployed systems expose a different failure boundary.  In scenic kiosks, exhibition ha...",
+      "source": "arXiv cs.AI",
+      "url": "https://arxiv.org/abs/2607.21601",
+      "publishedAt": "2026-07-27T04:00:00.000Z",
+      "impact": 58
+    },
+    {
+      "id": "arxiv-cs.ai-1785124800000-4",
+      "type": "live",
+      "category": "hardware",
+      "title": "Transferable Latency Prediction for Fast LLM Screening on Heterogeneous Edge Devices",
+      "excerpt": "21602v1 Announce Type: new Abstract: Accurate latency prediction is critical for deploying large language models (LLMs) on heterogeneous edge devices, where inference latency is affected by model architecture, prompt ...",
+      "source": "arXiv cs.AI",
+      "url": "https://arxiv.org/abs/2607.21602",
+      "publishedAt": "2026-07-27T04:00:00.000Z",
+      "impact": 58
+    },
+    {
+      "id": "arxiv-cs.ai-1785124800000-5",
+      "type": "live",
+      "category": "llm",
+      "title": "AgentKVShift: Efficient KV Cache Reuse for Agentic Memory Systems",
+      "excerpt": "21604v1 Announce Type: new Abstract: Memory-augmented LLM agents maintain context across hundreds of interactions through agentic memory systems that actively curate retrieved content with LLM-generated metadata such ...",
+      "source": "arXiv cs.AI",
+      "url": "https://arxiv.org/abs/2607.21604",
+      "publishedAt": "2026-07-27T04:00:00.000Z",
+      "impact": 69
     },
     {
       "id": "aether-figure03",
@@ -22,7 +99,7 @@
       "excerpt": "Humanoid achieves new milestone in unsupervised operation, performing 1,240 unique tasks across three assembly lines at the BMW South Carolina plant.",
       "source": "Figure AI",
       "url": "https://figure.ai/news/03-milestone",
-      "publishedAt": "2026-07-26T18:39:59.474Z",
+      "publishedAt": "2026-07-27T01:01:07.979Z",
       "impact": 89
     },
     {
@@ -33,11 +110,11 @@
       "excerpt": "Researchers reverse-engineered 312 million features inside the model, including the first clear \"deception circuit\" discovered in a frontier model.",
       "source": "Anthropic",
       "url": "https://anthropic.com/research/claude-4-interp",
-      "publishedAt": "2026-07-26T13:39:59.474Z",
+      "publishedAt": "2026-07-26T20:01:07.979Z",
       "impact": 91
     },
     {
-      "id": "hugging-face-1784764800000-0",
+      "id": "hugging-face-1784764800000-1",
       "type": "live",
       "category": "research",
       "title": "Bringing Nunchaku 4-bit Diffusion Inference to Diffusers",
@@ -45,17 +122,6 @@
       "source": "Hugging Face",
       "url": "https://huggingface.co/blog/nunchaku-diffusers",
       "publishedAt": "2026-07-23T00:00:00.000Z",
-      "impact": 75
-    },
-    {
-      "id": "hugging-face-1784664027000-1",
-      "type": "live",
-      "category": "research",
-      "title": "The State of Simulation for Physical AI: An Overview",
-      "excerpt": "New development from the frontier.",
-      "source": "Hugging Face",
-      "url": "https://huggingface.co/blog/nvidia/state-of-simulation-for-physical-ai",
-      "publishedAt": "2026-07-21T20:00:27.000Z",
       "impact": 75
     },
     {

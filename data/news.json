@@ -1,8 +1,30 @@
 {
-  "lastUpdated": "2026-07-27T14:48:33.842Z",
+  "lastUpdated": "2026-07-27T19:42:58.893Z",
   "source": "AETHER + Public RSS (arXiv, Hugging Face, MarkTechPost, Ben's Bites)",
   "count": 16,
   "articles": [
+    {
+      "id": "marktechpost-1785175704000-0",
+      "type": "live",
+      "category": "llm",
+      "title": "Designing Skill-Driven Financial Analysis Agents with Claude, Python, MCP Connectors, and Automated Deliverables",
+      "excerpt": "In this tutorial, we build an advanced workflow around Anthropic’s financial-services repository and reproduce its skill-driven architecture in pure Python.  We begin by installing the required libraries, cloning the ...",
+      "source": "MarkTechPost",
+      "url": "https://www.marktechpost.com/2026/07/27/designing-skill-driven-financial-analysis-agents-with-claude-python-mcp-connectors-and-automated-deliverables/",
+      "publishedAt": "2026-07-27T18:08:24.000Z",
+      "impact": 77
+    },
+    {
+      "id": "marktechpost-1785169967000-1",
+      "type": "live",
+      "category": "llm",
+      "title": "Perplexity Releases pplx, a Single-Binary CLI That Puts Its Search API in the Terminal for Coding Agents",
+      "excerpt": "Perplexity has released pplx, an official command line client for its Search API.  The tool exposes two commands — pplx search web and pplx content fetch — and returns exactly one JSON object on stdout",
+      "source": "MarkTechPost",
+      "url": "https://www.marktechpost.com/2026/07/27/perplexity-releases-pplx/",
+      "publishedAt": "2026-07-27T16:32:47.000Z",
+      "impact": 77
+    },
     {
       "id": "aether-grok43",
       "type": "premium",
@@ -11,8 +33,19 @@
       "excerpt": "New model demonstrates 4.2× improvement on multi-step software engineering benchmarks and sustains coherent agent trajectories beyond 110k tokens.",
       "source": "xAI",
       "url": "https://x.ai/blog/grok-4.3",
-      "publishedAt": "2026-07-27T09:48:33.101Z",
+      "publishedAt": "2026-07-27T14:42:57.749Z",
       "impact": 96
+    },
+    {
+      "id": "aether-figure03",
+      "type": "premium",
+      "category": "robotics",
+      "title": "Figure 03 completes 43-hour autonomous factory shift with zero interventions",
+      "excerpt": "Humanoid achieves new milestone in unsupervised operation, performing 1,240 unique tasks across three assembly lines at the BMW South Carolina plant.",
+      "source": "Figure AI",
+      "url": "https://figure.ai/news/03-milestone",
+      "publishedAt": "2026-07-27T10:42:57.749Z",
+      "impact": 89
     },
     {
       "id": "hugging-face-1785144740000-0",
@@ -26,15 +59,15 @@
       "impact": 75
     },
     {
-      "id": "aether-figure03",
+      "id": "aether-interp",
       "type": "premium",
-      "category": "robotics",
-      "title": "Figure 03 completes 43-hour autonomous factory shift with zero interventions",
-      "excerpt": "Humanoid achieves new milestone in unsupervised operation, performing 1,240 unique tasks across three assembly lines at the BMW South Carolina plant.",
-      "source": "Figure AI",
-      "url": "https://figure.ai/news/03-milestone",
-      "publishedAt": "2026-07-27T05:48:33.101Z",
-      "impact": 89
+      "category": "safety",
+      "title": "Anthropic publishes unprecedented mechanistic interpretability map of Claude 4",
+      "excerpt": "Researchers reverse-engineered 312 million features inside the model, including the first clear \"deception circuit\" discovered in a frontier model.",
+      "source": "Anthropic",
+      "url": "https://anthropic.com/research/claude-4-interp",
+      "publishedAt": "2026-07-27T05:42:57.749Z",
+      "impact": 91
     },
     {
       "id": "arxiv-cs.ai-1785124800000-0",
@@ -103,18 +136,7 @@
       "impact": 69
     },
     {
-      "id": "aether-interp",
-      "type": "premium",
-      "category": "safety",
-      "title": "Anthropic publishes unprecedented mechanistic interpretability map of Claude 4",
-      "excerpt": "Researchers reverse-engineered 312 million features inside the model, including the first clear \"deception circuit\" discovered in a frontier model.",
-      "source": "Anthropic",
-      "url": "https://anthropic.com/research/claude-4-interp",
-      "publishedAt": "2026-07-27T00:48:33.101Z",
-      "impact": 91
-    },
-    {
-      "id": "marktechpost-1785088223000-0",
+      "id": "marktechpost-1785088223000-2",
       "type": "live",
       "category": "robotics",
       "title": "Black Forest Labs Releases FLUX 3: A Multimodal Flow Model for Image, Video, Audio and Robot Action Prediction",
@@ -125,7 +147,7 @@
       "impact": 65
     },
     {
-      "id": "marktechpost-1785062779000-1",
+      "id": "marktechpost-1785062779000-3",
       "type": "live",
       "category": "llm",
       "title": "KwaiKAT Team Releases KAT-Coder-V2.5: An Agentic Coding Model Trained on 100,000+ Verifiable Repository Environments",
@@ -134,28 +156,6 @@
       "url": "https://www.marktechpost.com/2026/07/26/kwaikat-team-releases-kat-coder-v2-5-an-agentic-coding-model-trained-on-100000-verifiable-repository-environments/",
       "publishedAt": "2026-07-26T10:46:19.000Z",
       "impact": 77
-    },
-    {
-      "id": "marktechpost-1785057262000-2",
-      "type": "live",
-      "category": "multimodal",
-      "title": "Induction Labs Photon-1 Simulates Desktops, Plays Checkers, and Models Billiard Physics From One Pretraining Run",
-      "excerpt": "Most agents that learn from video need to know what action produced each frame.  Induction Labs is arguing that this requirement is the bottleneck",
-      "source": "MarkTechPost",
-      "url": "https://www.marktechpost.com/2026/07/26/induction-labs-photon-1-simulates-desktops-plays-checkers-and-models-billiard-physics-from-one-pretraining-run/",
-      "publishedAt": "2026-07-26T09:14:22.000Z",
-      "impact": 65
-    },
-    {
-      "id": "marktechpost-1785055089000-3",
-      "type": "live",
-      "category": "robotics",
-      "title": "FAIRChem v2 UMA for Multidomain Atomistic Simulation across Molecules, Catalysts, Materials, Vibrations, and Molecular Dynamics",
-      "excerpt": "In this tutorial, we explore FAIRChem v2 and the UMA universal machine-learning interatomic potential as a unified framework for atomistic simulation across molecular chemistry, catalysis, and inorganic materials.  We...",
-      "source": "MarkTechPost",
-      "url": "https://www.marktechpost.com/2026/07/26/fairchem-v2-uma-for-multidomain-atomistic-simulation-across-molecules-catalysts-materials-vibrations-and-molecular-dynamics/",
-      "publishedAt": "2026-07-26T08:38:09.000Z",
-      "impact": 65
     },
     {
       "id": "hugging-face-1784764800000-1",

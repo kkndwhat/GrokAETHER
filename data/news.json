@@ -1,29 +1,29 @@
 {
-  "lastUpdated": "2026-07-28T08:44:18.366Z",
+  "lastUpdated": "2026-07-28T14:23:14.855Z",
   "source": "AETHER + Public RSS (arXiv, Hugging Face, MarkTechPost, Ben's Bites)",
-  "count": 16,
+  "count": 12,
   "articles": [
     {
-      "id": "marktechpost-1785227610000-0",
-      "type": "live",
+      "id": "aether-grok43",
+      "type": "premium",
       "category": "llm",
-      "title": "Microsoft AI Releases MAI-Cyber-1-Flash: A 5B-Active-Parameter Cyber Model That Pushes MDASH to 95.95% on CyberGym",
-      "excerpt": "Microsoft AI has released MAI-Cyber-1-Flash, its first model built specifically for cyber defense.  It is a 137B total, 5B active sparse MoE fine-tune of MAI-Code-1-Flash with a 256k context window",
-      "source": "MarkTechPost",
-      "url": "https://www.marktechpost.com/2026/07/28/microsoft-ai-releases-mai-cyber-1-flash-a-5b-active-parameter-cyber-model-that-pushes-mdash-to-95-95-on-cybergym/",
-      "publishedAt": "2026-07-28T08:33:30.000Z",
-      "impact": 65
+      "title": "xAI releases Grok-4.3 with native long-horizon agent scaffolding",
+      "excerpt": "New model demonstrates 4.2× improvement on multi-step software engineering benchmarks and sustains coherent agent trajectories beyond 110k tokens.",
+      "source": "xAI",
+      "url": "https://x.ai/blog/grok-4.3",
+      "publishedAt": "2026-07-28T09:23:14.599Z",
+      "impact": 96
     },
     {
-      "id": "marktechpost-1785225228000-1",
-      "type": "live",
-      "category": "llm",
-      "title": "Deploying a 1-Bit Bonsai-27B Model with PrismML llama.cpp and OpenAI-Compatible Local Inference Workflows",
-      "excerpt": "In this tutorial, we deploy the 1-bit Bonsai-27B language model using the PrismML fork of llama. cpp, which provides the specialized CUDA kernels required to decode the model’s Q1_0_g128 GGUF quantization format The p...",
-      "source": "MarkTechPost",
-      "url": "https://www.marktechpost.com/2026/07/28/deploying-a-1-bit-bonsai-27b-model-with-prismml-llama-cpp-and-openai-compatible-local-inference-workflows/",
-      "publishedAt": "2026-07-28T07:53:48.000Z",
-      "impact": 65
+      "id": "aether-figure03",
+      "type": "premium",
+      "category": "robotics",
+      "title": "Figure 03 completes 43-hour autonomous factory shift with zero interventions",
+      "excerpt": "Humanoid achieves new milestone in unsupervised operation, performing 1,240 unique tasks across three assembly lines at the BMW South Carolina plant.",
+      "source": "Figure AI",
+      "url": "https://figure.ai/news/03-milestone",
+      "publishedAt": "2026-07-28T05:23:14.600Z",
+      "impact": 89
     },
     {
       "id": "arxiv-cs.ai-1785211200000-0",
@@ -92,39 +92,6 @@
       "impact": 69
     },
     {
-      "id": "aether-grok43",
-      "type": "premium",
-      "category": "llm",
-      "title": "xAI releases Grok-4.3 with native long-horizon agent scaffolding",
-      "excerpt": "New model demonstrates 4.2× improvement on multi-step software engineering benchmarks and sustains coherent agent trajectories beyond 110k tokens.",
-      "source": "xAI",
-      "url": "https://x.ai/blog/grok-4.3",
-      "publishedAt": "2026-07-28T03:44:17.281Z",
-      "impact": 96
-    },
-    {
-      "id": "aether-figure03",
-      "type": "premium",
-      "category": "robotics",
-      "title": "Figure 03 completes 43-hour autonomous factory shift with zero interventions",
-      "excerpt": "Humanoid achieves new milestone in unsupervised operation, performing 1,240 unique tasks across three assembly lines at the BMW South Carolina plant.",
-      "source": "Figure AI",
-      "url": "https://figure.ai/news/03-milestone",
-      "publishedAt": "2026-07-27T23:44:17.281Z",
-      "impact": 89
-    },
-    {
-      "id": "marktechpost-1785185333000-2",
-      "type": "live",
-      "category": "research",
-      "title": "Kimi AI and kvcache-ai Open Sources ‘AgentENV’: A Distributed System that Powers Agentic Reinforcement Learning (RL) Training for Kimi K3",
-      "excerpt": "Moonshot AI's Kimi team and kvcache-ai open-sourced AgentENV (AENV) under MIT, as part of Kimi K3 Open Day.  It runs agent sandboxes as Firecracker microVMs with millisecond snapshot, resume, and 16-way fork, behind a...",
-      "source": "MarkTechPost",
-      "url": "https://www.marktechpost.com/2026/07/27/kimi-ai-and-kvcache-ai-open-sources-agentenv/",
-      "publishedAt": "2026-07-27T20:48:53.000Z",
-      "impact": 77
-    },
-    {
       "id": "aether-interp",
       "type": "premium",
       "category": "safety",
@@ -132,19 +99,8 @@
       "excerpt": "Researchers reverse-engineered 312 million features inside the model, including the first clear \"deception circuit\" discovered in a frontier model.",
       "source": "Anthropic",
       "url": "https://anthropic.com/research/claude-4-interp",
-      "publishedAt": "2026-07-27T18:44:17.281Z",
+      "publishedAt": "2026-07-28T00:23:14.600Z",
       "impact": 91
-    },
-    {
-      "id": "marktechpost-1785175704000-3",
-      "type": "live",
-      "category": "llm",
-      "title": "Designing Skill-Driven Financial Analysis Agents with Claude, Python, MCP Connectors, and Automated Deliverables",
-      "excerpt": "In this tutorial, we build an advanced workflow around Anthropic’s financial-services repository and reproduce its skill-driven architecture in pure Python.  We begin by installing the required libraries, cloning the ...",
-      "source": "MarkTechPost",
-      "url": "https://www.marktechpost.com/2026/07/27/designing-skill-driven-financial-analysis-agents-with-claude-python-mcp-connectors-and-automated-deliverables/",
-      "publishedAt": "2026-07-27T18:08:24.000Z",
-      "impact": 77
     },
     {
       "id": "hugging-face-1785144740000-0",

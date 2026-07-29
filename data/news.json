@@ -1,8 +1,30 @@
 {
-  "lastUpdated": "2026-07-29T08:48:55.300Z",
+  "lastUpdated": "2026-07-29T14:22:07.009Z",
   "source": "AETHER + Public RSS (arXiv, Hugging Face, MarkTechPost, Ben's Bites)",
-  "count": 16,
+  "count": 12,
   "articles": [
+    {
+      "id": "aether-grok43",
+      "type": "premium",
+      "category": "llm",
+      "title": "xAI releases Grok-4.3 with native long-horizon agent scaffolding",
+      "excerpt": "New model demonstrates 4.2× improvement on multi-step software engineering benchmarks and sustains coherent agent trajectories beyond 110k tokens.",
+      "source": "xAI",
+      "url": "https://x.ai/blog/grok-4.3",
+      "publishedAt": "2026-07-29T09:22:06.626Z",
+      "impact": 96
+    },
+    {
+      "id": "aether-figure03",
+      "type": "premium",
+      "category": "robotics",
+      "title": "Figure 03 completes 43-hour autonomous factory shift with zero interventions",
+      "excerpt": "Humanoid achieves new milestone in unsupervised operation, performing 1,240 unique tasks across three assembly lines at the BMW South Carolina plant.",
+      "source": "Figure AI",
+      "url": "https://figure.ai/news/03-milestone",
+      "publishedAt": "2026-07-29T05:22:06.626Z",
+      "impact": 89
+    },
     {
       "id": "arxiv-cs.ai-1785297600000-0",
       "type": "live",
@@ -70,50 +92,6 @@
       "impact": 58
     },
     {
-      "id": "aether-grok43",
-      "type": "premium",
-      "category": "llm",
-      "title": "xAI releases Grok-4.3 with native long-horizon agent scaffolding",
-      "excerpt": "New model demonstrates 4.2× improvement on multi-step software engineering benchmarks and sustains coherent agent trajectories beyond 110k tokens.",
-      "source": "xAI",
-      "url": "https://x.ai/blog/grok-4.3",
-      "publishedAt": "2026-07-29T03:48:53.718Z",
-      "impact": 96
-    },
-    {
-      "id": "aether-figure03",
-      "type": "premium",
-      "category": "robotics",
-      "title": "Figure 03 completes 43-hour autonomous factory shift with zero interventions",
-      "excerpt": "Humanoid achieves new milestone in unsupervised operation, performing 1,240 unique tasks across three assembly lines at the BMW South Carolina plant.",
-      "source": "Figure AI",
-      "url": "https://figure.ai/news/03-milestone",
-      "publishedAt": "2026-07-28T23:48:53.718Z",
-      "impact": 89
-    },
-    {
-      "id": "marktechpost-1785279884000-0",
-      "type": "live",
-      "category": "robotics",
-      "title": "Building Non-Interactive Agentic Coding Workflows with Moonshot AI’s Kimi CLI, JSONL Streaming, Testing, and Session Memory",
-      "excerpt": "In this tutorial, we configure and operate Kimi CLI as a fully non-interactive AI coding agent.  We install the CLI through uv with an isolated Python 3",
-      "source": "MarkTechPost",
-      "url": "https://www.marktechpost.com/2026/07/28/building-non-interactive-agentic-coding-workflows-with-moonshot-ais-kimi-cli-jsonl-streaming-testing-and-session-memory/",
-      "publishedAt": "2026-07-28T23:04:44.000Z",
-      "impact": 77
-    },
-    {
-      "id": "marktechpost-1785278756000-1",
-      "type": "live",
-      "category": "llm",
-      "title": "Fireworks AI Releases Fireworks Nexus: A Drop-In Routing and Cost-Control Layer That Moves Routine Coding Work to Open-Weight Models",
-      "excerpt": "Fireworks AI has released Fireworks Nexus, an AI management and routing platform aimed at engineering organizations.  It connects the coding tools developers already use to a managed layer of open-weight models",
-      "source": "MarkTechPost",
-      "url": "https://www.marktechpost.com/2026/07/28/fireworks-ai-releases-fireworks-nexus-a-drop-in-routing-and-cost-control-layer-that-moves-routine-coding-work-to-open-weight-models/",
-      "publishedAt": "2026-07-28T22:45:56.000Z",
-      "impact": 65
-    },
-    {
       "id": "aether-interp",
       "type": "premium",
       "category": "safety",
@@ -121,7 +99,7 @@
       "excerpt": "Researchers reverse-engineered 312 million features inside the model, including the first clear \"deception circuit\" discovered in a frontier model.",
       "source": "Anthropic",
       "url": "https://anthropic.com/research/claude-4-interp",
-      "publishedAt": "2026-07-28T18:48:53.718Z",
+      "publishedAt": "2026-07-29T00:22:06.626Z",
       "impact": 91
     },
     {
@@ -145,28 +123,6 @@
       "url": "https://huggingface.co/blog/LiquidAI/lfm2-5-encoders",
       "publishedAt": "2026-07-28T15:01:45.000Z",
       "impact": 75
-    },
-    {
-      "id": "marktechpost-1785227610000-2",
-      "type": "live",
-      "category": "llm",
-      "title": "Microsoft AI Releases MAI-Cyber-1-Flash: A 5B-Active-Parameter Cyber Model That Pushes MDASH to 95.95% on CyberGym",
-      "excerpt": "Microsoft AI has released MAI-Cyber-1-Flash, its first model built specifically for cyber defense.  It is a 137B total, 5B active sparse MoE fine-tune of MAI-Code-1-Flash with a 256k context window",
-      "source": "MarkTechPost",
-      "url": "https://www.marktechpost.com/2026/07/28/microsoft-ai-releases-mai-cyber-1-flash-a-5b-active-parameter-cyber-model-that-pushes-mdash-to-95-95-on-cybergym/",
-      "publishedAt": "2026-07-28T08:33:30.000Z",
-      "impact": 65
-    },
-    {
-      "id": "marktechpost-1785225228000-3",
-      "type": "live",
-      "category": "llm",
-      "title": "Deploying a 1-Bit Bonsai-27B Model with PrismML llama.cpp and OpenAI-Compatible Local Inference Workflows",
-      "excerpt": "In this tutorial, we deploy the 1-bit Bonsai-27B language model using the PrismML fork of llama. cpp, which provides the specialized CUDA kernels required to decode the model’s Q1_0_g128 GGUF quantization format The p...",
-      "source": "MarkTechPost",
-      "url": "https://www.marktechpost.com/2026/07/28/deploying-a-1-bit-bonsai-27b-model-with-prismml-llama-cpp-and-openai-compatible-local-inference-workflows/",
-      "publishedAt": "2026-07-28T07:53:48.000Z",
-      "impact": 65
     },
     {
       "id": "hugging-face-1785144740000-2",

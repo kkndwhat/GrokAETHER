@@ -1,8 +1,30 @@
 {
-  "lastUpdated": "2026-07-28T19:40:19.885Z",
+  "lastUpdated": "2026-07-29T03:15:37.763Z",
   "source": "AETHER + Public RSS (arXiv, Hugging Face, MarkTechPost, Ben's Bites)",
   "count": 12,
   "articles": [
+    {
+      "id": "aether-grok43",
+      "type": "premium",
+      "category": "llm",
+      "title": "xAI releases Grok-4.3 with native long-horizon agent scaffolding",
+      "excerpt": "New model demonstrates 4.2× improvement on multi-step software engineering benchmarks and sustains coherent agent trajectories beyond 110k tokens.",
+      "source": "xAI",
+      "url": "https://x.ai/blog/grok-4.3",
+      "publishedAt": "2026-07-28T22:15:37.273Z",
+      "impact": 96
+    },
+    {
+      "id": "aether-figure03",
+      "type": "premium",
+      "category": "robotics",
+      "title": "Figure 03 completes 43-hour autonomous factory shift with zero interventions",
+      "excerpt": "Humanoid achieves new milestone in unsupervised operation, performing 1,240 unique tasks across three assembly lines at the BMW South Carolina plant.",
+      "source": "Figure AI",
+      "url": "https://figure.ai/news/03-milestone",
+      "publishedAt": "2026-07-28T18:15:37.273Z",
+      "impact": 89
+    },
     {
       "id": "hugging-face-1785256062000-0",
       "type": "live",
@@ -26,28 +48,6 @@
       "impact": 75
     },
     {
-      "id": "aether-grok43",
-      "type": "premium",
-      "category": "llm",
-      "title": "xAI releases Grok-4.3 with native long-horizon agent scaffolding",
-      "excerpt": "New model demonstrates 4.2× improvement on multi-step software engineering benchmarks and sustains coherent agent trajectories beyond 110k tokens.",
-      "source": "xAI",
-      "url": "https://x.ai/blog/grok-4.3",
-      "publishedAt": "2026-07-28T14:40:19.183Z",
-      "impact": 96
-    },
-    {
-      "id": "aether-figure03",
-      "type": "premium",
-      "category": "robotics",
-      "title": "Figure 03 completes 43-hour autonomous factory shift with zero interventions",
-      "excerpt": "Humanoid achieves new milestone in unsupervised operation, performing 1,240 unique tasks across three assembly lines at the BMW South Carolina plant.",
-      "source": "Figure AI",
-      "url": "https://figure.ai/news/03-milestone",
-      "publishedAt": "2026-07-28T10:40:19.183Z",
-      "impact": 89
-    },
-    {
       "id": "aether-interp",
       "type": "premium",
       "category": "safety",
@@ -55,74 +55,74 @@
       "excerpt": "Researchers reverse-engineered 312 million features inside the model, including the first clear \"deception circuit\" discovered in a frontier model.",
       "source": "Anthropic",
       "url": "https://anthropic.com/research/claude-4-interp",
-      "publishedAt": "2026-07-28T05:40:19.183Z",
+      "publishedAt": "2026-07-28T13:15:37.273Z",
       "impact": 91
     },
     {
       "id": "arxiv-cs.ai-1785211200000-0",
       "type": "live",
       "category": "safety",
-      "title": "FlowEvo: Self-Evolving Agents through the Co-Evolution of Workflows and Executable Skills",
-      "excerpt": "21596v1 Announce Type: new Abstract: Large language model agents increasingly solve complex tasks by constructing inference-time workflows that combine reasoning, tool use, and code execution.  While such workflows en...",
+      "title": "Concept-based Visual Counterfactual Explanations with Diffusion Models",
+      "excerpt": "22544v1 Announce Type: new Abstract: Visual counterfactual explanations aim to answer \"what minimal change to this image would flip the model's prediction. \", and are increasingly important as vision models are deploy...",
       "source": "arXiv cs.AI",
-      "url": "https://arxiv.org/abs/2607.21596",
+      "url": "https://arxiv.org/abs/2607.22544",
       "publishedAt": "2026-07-28T04:00:00.000Z",
-      "impact": 69
+      "impact": 58
     },
     {
       "id": "arxiv-cs.ai-1785211200000-1",
       "type": "live",
       "category": "llm",
-      "title": "Risk Is Not the Target: A Monotonic Framework for Evaluating Wildfire Operational Risk Signals",
-      "excerpt": "21597v1 Announce Type: new Abstract: Evaluating wildfire risk systems using standard machine-learning metrics such as F1-score or IoU is fundamentally flawed: these metrics assess event prediction accuracy, not the op...",
+      "title": "SeT-Diff: Towards Semantic Foundation Models for HPC Telemetry and Time-Series",
+      "excerpt": "22548v1 Announce Type: new Abstract: Data centers and their compute nodes require accurate and flexible digital twins capable of modeling the complex interplay of workloads, environmental parameters, and physical metr...",
       "source": "arXiv cs.AI",
-      "url": "https://arxiv.org/abs/2607.21597",
+      "url": "https://arxiv.org/abs/2607.22548",
       "publishedAt": "2026-07-28T04:00:00.000Z",
       "impact": 58
     },
     {
       "id": "arxiv-cs.ai-1785211200000-2",
       "type": "live",
-      "category": "multimodal",
-      "title": "Securing Multimodal AI through Internal Information Decomposition",
-      "excerpt": "21600v1 Announce Type: new Abstract: Multimodal large language models introduce attack surfaces absent in unimodal systems: adversaries can distribute malicious intent across modalities to evade unimodal safeguards.  ...",
+      "category": "research",
+      "title": "QFoldAgent: An Autonomous Quantum Optimization Multi-Agent System for Protein Structure Prediction",
+      "excerpt": "22549v1 Announce Type: new Abstract: Hybrid quantum-classical protein structure prediction depends strongly on Hamiltonian penalty weights, yet existing lattice-based workflows typically fix these coefficients by hand...",
       "source": "arXiv cs.AI",
-      "url": "https://arxiv.org/abs/2607.21600",
+      "url": "https://arxiv.org/abs/2607.22549",
       "publishedAt": "2026-07-28T04:00:00.000Z",
-      "impact": 58
+      "impact": 69
     },
     {
       "id": "arxiv-cs.ai-1785211200000-3",
       "type": "live",
       "category": "llm",
-      "title": "From Frame-Level Recognition to Event-Level Confirmation: Repair Traces and Runtime Failure Analysis of Public-Space Gesture Interaction",
-      "excerpt": "21601v1 Announce Type: new Abstract: Public-space gesture interaction is often evaluated as a frame-level recognition problem, but deployed systems expose a different failure boundary.  In scenic kiosks, exhibition ha...",
+      "title": "Same Question, Different Answers: Evaluating LLM Reliability Beyond Accuracy",
+      "excerpt": "22554v1 Announce Type: new Abstract: Large language models (LLMs) often achieve strong accuracy on benchmarks, yet it remains unclear how reliably they apply this knowledge when the same question is phrased in differe...",
       "source": "arXiv cs.AI",
-      "url": "https://arxiv.org/abs/2607.21601",
+      "url": "https://arxiv.org/abs/2607.22554",
       "publishedAt": "2026-07-28T04:00:00.000Z",
       "impact": 58
     },
     {
       "id": "arxiv-cs.ai-1785211200000-4",
       "type": "live",
-      "category": "hardware",
-      "title": "Transferable Latency Prediction for Fast LLM Screening on Heterogeneous Edge Devices",
-      "excerpt": "21602v1 Announce Type: new Abstract: Accurate latency prediction is critical for deploying large language models (LLMs) on heterogeneous edge devices, where inference latency is affected by model architecture, prompt ...",
+      "category": "llm",
+      "title": "DeepLens Diagnosis Agent: Agentic Workflow Design Lets a Small Reasoning Model Compete with Frontier LLMs",
+      "excerpt": "22555v1 Announce Type: new Abstract: Medical diagnosis is a multi-stage process: extract facts, consult knowledge, generate a differential analysis, and select the best diagnosis with explanations.  Frontier LLMs are ...",
       "source": "arXiv cs.AI",
-      "url": "https://arxiv.org/abs/2607.21602",
+      "url": "https://arxiv.org/abs/2607.22555",
       "publishedAt": "2026-07-28T04:00:00.000Z",
-      "impact": 58
+      "impact": 87
     },
     {
       "id": "arxiv-cs.ai-1785211200000-5",
       "type": "live",
-      "category": "llm",
-      "title": "AgentKVShift: Efficient KV Cache Reuse for Agentic Memory Systems",
-      "excerpt": "21604v1 Announce Type: new Abstract: Memory-augmented LLM agents maintain context across hundreds of interactions through agentic memory systems that actively curate retrieved content with LLM-generated metadata such ...",
+      "category": "multimodal",
+      "title": "MIITA: Memory-Induced Inference-Time Adaptation for Continual Learning with Small Language Models",
+      "excerpt": "22556v1 Announce Type: new Abstract: Continual learning (CL) is essential for small language models (SLMs) to adapt to evolving real-world needs in resource-constrained deployments.  However, directly updating their l...",
       "source": "arXiv cs.AI",
-      "url": "https://arxiv.org/abs/2607.21604",
+      "url": "https://arxiv.org/abs/2607.22556",
       "publishedAt": "2026-07-28T04:00:00.000Z",
-      "impact": 69
+      "impact": 58
     },
     {
       "id": "hugging-face-1785144740000-2",

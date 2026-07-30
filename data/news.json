@@ -1,10 +1,65 @@
 {
-  "lastUpdated": "2026-07-30T08:36:47.609Z",
+  "lastUpdated": "2026-07-30T19:41:16.278Z",
   "source": "AETHER + Public RSS (arXiv, Hugging Face, MarkTechPost, Ben's Bites)",
   "count": 16,
   "articles": [
     {
-      "id": "marktechpost-1785397409000-0",
+      "id": "marktechpost-1785432050000-0",
+      "type": "live",
+      "category": "robotics",
+      "title": "Google DeepMind Ships Three Physical AI Models For Whole Body Control, Dexterity And Multi Robot Collaboration",
+      "excerpt": "Google DeepMind has released Gemini Robotics 2, the intelligence layer for its next generation of robots.  The release ships three models: a vision-language-action model for whole body humanoid control, Gemini Robotic...",
+      "source": "MarkTechPost",
+      "url": "https://www.marktechpost.com/2026/07/30/google-deepmind-gemini-robotics-2-whole-body-control-dexterity-multi-robot-collaboration/",
+      "publishedAt": "2026-07-30T17:20:50.000Z",
+      "impact": 65
+    },
+    {
+      "id": "hugging-face-1785424149000-0",
+      "type": "live",
+      "category": "hardware",
+      "title": "GPU Management: Why Idle GPUs Are the New Grounded Aircraft",
+      "excerpt": "New development from the frontier.",
+      "source": "Hugging Face",
+      "url": "https://huggingface.co/blog/Dharma-AI/gpu-management",
+      "publishedAt": "2026-07-30T15:09:09.000Z",
+      "impact": 75
+    },
+    {
+      "id": "aether-grok43",
+      "type": "premium",
+      "category": "llm",
+      "title": "xAI releases Grok-4.3 with native long-horizon agent scaffolding",
+      "excerpt": "New model demonstrates 4.2× improvement on multi-step software engineering benchmarks and sustains coherent agent trajectories beyond 110k tokens.",
+      "source": "xAI",
+      "url": "https://x.ai/blog/grok-4.3",
+      "publishedAt": "2026-07-30T14:41:15.219Z",
+      "impact": 96
+    },
+    {
+      "id": "aether-figure03",
+      "type": "premium",
+      "category": "robotics",
+      "title": "Figure 03 completes 43-hour autonomous factory shift with zero interventions",
+      "excerpt": "Humanoid achieves new milestone in unsupervised operation, performing 1,240 unique tasks across three assembly lines at the BMW South Carolina plant.",
+      "source": "Figure AI",
+      "url": "https://figure.ai/news/03-milestone",
+      "publishedAt": "2026-07-30T10:41:15.219Z",
+      "impact": 89
+    },
+    {
+      "id": "marktechpost-1785406098000-1",
+      "type": "live",
+      "category": "llm",
+      "title": "Tencent Open-Sources AngelSpec: A Unified Training Framework for MTP and Block-Parallel Speculative Decoding on Hy3 Models",
+      "excerpt": "Tencent has released AngelSpec, an open-source torch-native framework for training speculative-decoding draft models across six architectures.  It introduces DFly, a block-diffusion drafter with hybrid target conditio...",
+      "source": "MarkTechPost",
+      "url": "https://www.marktechpost.com/2026/07/30/tencent-open-sources-angelspec-a-unified-training-framework-for-mtp-and-block-parallel-speculative-decoding-on-hy3-models/",
+      "publishedAt": "2026-07-30T10:08:18.000Z",
+      "impact": 65
+    },
+    {
+      "id": "marktechpost-1785397409000-2",
       "type": "live",
       "category": "llm",
       "title": "Meet Token Saver: An Open-Source MCP Extension Using Local Hybrid RAG to Cut Claude PDF Token Costs 90-99%",
@@ -15,7 +70,7 @@
       "impact": 65
     },
     {
-      "id": "marktechpost-1785390353000-1",
+      "id": "marktechpost-1785390353000-3",
       "type": "live",
       "category": "research",
       "title": "Prompt Engineering vs Loop Engineering vs Graph Engineering: What Changes at Each Layer",
@@ -26,15 +81,15 @@
       "impact": 65
     },
     {
-      "id": "marktechpost-1785389319000-2",
-      "type": "live",
-      "category": "llm",
-      "title": "Moonshot AI Open-Sources MoonEP: A Perfectly Balanced Expert Parallelism Library for MoE Training",
-      "excerpt": "Moonshot AI has open-sourced MoonEP, an Expert Parallelism (EP) communication library for distributed Mixture-of-Experts (MoE) workloads.  The team announced the release as a library built to make expert-parallel comm...",
-      "source": "MarkTechPost",
-      "url": "https://www.marktechpost.com/2026/07/29/moonshot-ai-open-sources-moonep-a-perfectly-balanced-expert-parallelism-library-for-moe-training/",
-      "publishedAt": "2026-07-30T05:28:39.000Z",
-      "impact": 65
+      "id": "aether-interp",
+      "type": "premium",
+      "category": "safety",
+      "title": "Anthropic publishes unprecedented mechanistic interpretability map of Claude 4",
+      "excerpt": "Researchers reverse-engineered 312 million features inside the model, including the first clear \"deception circuit\" discovered in a frontier model.",
+      "source": "Anthropic",
+      "url": "https://anthropic.com/research/claude-4-interp",
+      "publishedAt": "2026-07-30T05:41:15.219Z",
+      "impact": 91
     },
     {
       "id": "arxiv-cs.ai-1785384000000-0",
@@ -103,51 +158,7 @@
       "impact": 69
     },
     {
-      "id": "aether-grok43",
-      "type": "premium",
-      "category": "llm",
-      "title": "xAI releases Grok-4.3 with native long-horizon agent scaffolding",
-      "excerpt": "New model demonstrates 4.2× improvement on multi-step software engineering benchmarks and sustains coherent agent trajectories beyond 110k tokens.",
-      "source": "xAI",
-      "url": "https://x.ai/blog/grok-4.3",
-      "publishedAt": "2026-07-30T03:36:46.416Z",
-      "impact": 96
-    },
-    {
-      "id": "aether-figure03",
-      "type": "premium",
-      "category": "robotics",
-      "title": "Figure 03 completes 43-hour autonomous factory shift with zero interventions",
-      "excerpt": "Humanoid achieves new milestone in unsupervised operation, performing 1,240 unique tasks across three assembly lines at the BMW South Carolina plant.",
-      "source": "Figure AI",
-      "url": "https://figure.ai/news/03-milestone",
-      "publishedAt": "2026-07-29T23:36:46.416Z",
-      "impact": 89
-    },
-    {
-      "id": "aether-interp",
-      "type": "premium",
-      "category": "safety",
-      "title": "Anthropic publishes unprecedented mechanistic interpretability map of Claude 4",
-      "excerpt": "Researchers reverse-engineered 312 million features inside the model, including the first clear \"deception circuit\" discovered in a frontier model.",
-      "source": "Anthropic",
-      "url": "https://anthropic.com/research/claude-4-interp",
-      "publishedAt": "2026-07-29T18:36:46.416Z",
-      "impact": 91
-    },
-    {
-      "id": "marktechpost-1785317922000-3",
-      "type": "live",
-      "category": "llm",
-      "title": "Liquid AI Releases LFM2.5-Encoder-230M and LFM2.5-Encoder-350M: Bidirectional Encoders That Stay Fast at 8K Context on CPU",
-      "excerpt": "Liquid AI released two open-weight bidirectional encoders, LFM2. 5-Encoder-230M and LFM2",
-      "source": "MarkTechPost",
-      "url": "https://www.marktechpost.com/2026/07/29/liquid-ai-releases-lfm2-5-encoder-230m-and-lfm2-5-encoder-350m-bidirectional-encoders-that-stay-fast-at-8k-context-on-cpu/",
-      "publishedAt": "2026-07-29T09:38:42.000Z",
-      "impact": 65
-    },
-    {
-      "id": "hugging-face-1785256062000-0",
+      "id": "hugging-face-1785256062000-1",
       "type": "live",
       "category": "research",
       "title": "The OlmoEarth Platform: Geospatial inference at planetary scale",
@@ -158,7 +169,7 @@
       "impact": 75
     },
     {
-      "id": "hugging-face-1785250905000-1",
+      "id": "hugging-face-1785250905000-2",
       "type": "live",
       "category": "research",
       "title": "LFM2.5-Encoders for Fast Long-Context Inference on CPU",
@@ -166,17 +177,6 @@
       "source": "Hugging Face",
       "url": "https://huggingface.co/blog/LiquidAI/lfm2-5-encoders",
       "publishedAt": "2026-07-28T15:01:45.000Z",
-      "impact": 75
-    },
-    {
-      "id": "hugging-face-1785144740000-2",
-      "type": "live",
-      "category": "robotics",
-      "title": "NVIDIA Cosmos-H-Dreams: Bringing Real-Time Generative Simulation to Surgical Robotics",
-      "excerpt": "New development from the frontier.",
-      "source": "Hugging Face",
-      "url": "https://huggingface.co/blog/nvidia/cosmos-h-dreams",
-      "publishedAt": "2026-07-27T09:32:20.000Z",
       "impact": 75
     }
   ]

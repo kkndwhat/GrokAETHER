@@ -1,8 +1,107 @@
 {
-  "lastUpdated": "2026-07-30T02:48:11.457Z",
+  "lastUpdated": "2026-07-30T08:36:47.609Z",
   "source": "AETHER + Public RSS (arXiv, Hugging Face, MarkTechPost, Ben's Bites)",
-  "count": 12,
+  "count": 16,
   "articles": [
+    {
+      "id": "marktechpost-1785397409000-0",
+      "type": "live",
+      "category": "llm",
+      "title": "Meet Token Saver: An Open-Source MCP Extension Using Local Hybrid RAG to Cut Claude PDF Token Costs 90-99%",
+      "excerpt": "Marktechpost AI has released Token Saver, an open-source MCP extension for Claude Desktop that uses local Hybrid RAG to slash PDF token consumption by up to 99% while ensuring absolute document privacy.  The post Meet...",
+      "source": "MarkTechPost",
+      "url": "https://www.marktechpost.com/2026/07/30/token-saver-an-open-source-mcp-extension-using-local-hybrid-rag/",
+      "publishedAt": "2026-07-30T07:43:29.000Z",
+      "impact": 65
+    },
+    {
+      "id": "marktechpost-1785390353000-1",
+      "type": "live",
+      "category": "research",
+      "title": "Prompt Engineering vs Loop Engineering vs Graph Engineering: What Changes at Each Layer",
+      "excerpt": "Three terms now compete for the same line in AI engineering job descriptions.  Prompt engineering is the established one",
+      "source": "MarkTechPost",
+      "url": "https://www.marktechpost.com/2026/07/29/prompt-engineering-vs-loop-engineering-vs-graph-engineering/",
+      "publishedAt": "2026-07-30T05:45:53.000Z",
+      "impact": 65
+    },
+    {
+      "id": "marktechpost-1785389319000-2",
+      "type": "live",
+      "category": "llm",
+      "title": "Moonshot AI Open-Sources MoonEP: A Perfectly Balanced Expert Parallelism Library for MoE Training",
+      "excerpt": "Moonshot AI has open-sourced MoonEP, an Expert Parallelism (EP) communication library for distributed Mixture-of-Experts (MoE) workloads.  The team announced the release as a library built to make expert-parallel comm...",
+      "source": "MarkTechPost",
+      "url": "https://www.marktechpost.com/2026/07/29/moonshot-ai-open-sources-moonep-a-perfectly-balanced-expert-parallelism-library-for-moe-training/",
+      "publishedAt": "2026-07-30T05:28:39.000Z",
+      "impact": 65
+    },
+    {
+      "id": "arxiv-cs.ai-1785384000000-0",
+      "type": "live",
+      "category": "llm",
+      "title": "Probing the Origins of Reasoning Performance: Representational Quality for Mathematical Problem-Solving in RL vs. SFT Fine-Tuned Models",
+      "excerpt": "26119v1 Announce Type: new Abstract: Large reasoning models trained via reinforcement learning (RL) have been increasingly shown to outperform their supervised fine-tuned (SFT) counterparts on mathematical reasoning t...",
+      "source": "arXiv cs.AI",
+      "url": "https://arxiv.org/abs/2607.26119",
+      "publishedAt": "2026-07-30T04:00:00.000Z",
+      "impact": 58
+    },
+    {
+      "id": "arxiv-cs.ai-1785384000000-1",
+      "type": "live",
+      "category": "safety",
+      "title": "Even More Deception: Objective Misalignment in Mixed-Motive LLM Multi-Agent Systems",
+      "excerpt": "26120v1 Announce Type: new Abstract: Large Language Models (LLMs)-powered multi-agent systems are increasingly deployed in mixed-motive environments, where agents operate under asymmetric information and strategic dec...",
+      "source": "arXiv cs.AI",
+      "url": "https://arxiv.org/abs/2607.26120",
+      "publishedAt": "2026-07-30T04:00:00.000Z",
+      "impact": 69
+    },
+    {
+      "id": "arxiv-cs.ai-1785384000000-2",
+      "type": "live",
+      "category": "robotics",
+      "title": "ClinLens: Towards Long-Horizon Coding Agents for Longitudinal Multimodal Clinical Data Science",
+      "excerpt": "26155v1 Announce Type: new Abstract: Clinical data-science agents must transform heterogeneous longitudinal records into auditable analyses, yet existing benchmarks largely isolate medical question answering, structur...",
+      "source": "arXiv cs.AI",
+      "url": "https://arxiv.org/abs/2607.26155",
+      "publishedAt": "2026-07-30T04:00:00.000Z",
+      "impact": 69
+    },
+    {
+      "id": "arxiv-cs.ai-1785384000000-3",
+      "type": "live",
+      "category": "safety",
+      "title": "When benchmark inferences do not compose: Projectibility in AI evaluation",
+      "excerpt": "26159v1 Announce Type: new Abstract: An AI benchmark result rarely reaches a consequential claim in one step.  Evaluators generalize it to further cases, interpret it as evidence of capability, extrapolate it to new t...",
+      "source": "arXiv cs.AI",
+      "url": "https://arxiv.org/abs/2607.26159",
+      "publishedAt": "2026-07-30T04:00:00.000Z",
+      "impact": 58
+    },
+    {
+      "id": "arxiv-cs.ai-1785384000000-4",
+      "type": "live",
+      "category": "llm",
+      "title": "GuideSkill: Evolving Executable LLM Agent Skills for Guideline-Grounded Clinical Reasoning",
+      "excerpt": "26160v1 Announce Type: new Abstract: Clinical practice guidelines (CPGs) encode diagnostic criteria, but LLM systems typically retrieve guideline text or absorb it through training rather than execute its rules.  We i...",
+      "source": "arXiv cs.AI",
+      "url": "https://arxiv.org/abs/2607.26160",
+      "publishedAt": "2026-07-30T04:00:00.000Z",
+      "impact": 69
+    },
+    {
+      "id": "arxiv-cs.ai-1785384000000-5",
+      "type": "live",
+      "category": "llm",
+      "title": "GoGoTB: Agentic RTL Verification with Specification-Grounded Coverage Closure",
+      "excerpt": "26181v1 Announce Type: new Abstract: Functional verification dominates integrated circuit (IC) front-end engineering effort, and a single missed bug that escapes to silicon can trigger a costly respin.  Recent large l...",
+      "source": "arXiv cs.AI",
+      "url": "https://arxiv.org/abs/2607.26181",
+      "publishedAt": "2026-07-30T04:00:00.000Z",
+      "impact": 69
+    },
     {
       "id": "aether-grok43",
       "type": "premium",
@@ -11,7 +110,7 @@
       "excerpt": "New model demonstrates 4.2× improvement on multi-step software engineering benchmarks and sustains coherent agent trajectories beyond 110k tokens.",
       "source": "xAI",
       "url": "https://x.ai/blog/grok-4.3",
-      "publishedAt": "2026-07-29T21:48:11.104Z",
+      "publishedAt": "2026-07-30T03:36:46.416Z",
       "impact": 96
     },
     {
@@ -22,7 +121,7 @@
       "excerpt": "Humanoid achieves new milestone in unsupervised operation, performing 1,240 unique tasks across three assembly lines at the BMW South Carolina plant.",
       "source": "Figure AI",
       "url": "https://figure.ai/news/03-milestone",
-      "publishedAt": "2026-07-29T17:48:11.104Z",
+      "publishedAt": "2026-07-29T23:36:46.416Z",
       "impact": 89
     },
     {
@@ -33,74 +132,19 @@
       "excerpt": "Researchers reverse-engineered 312 million features inside the model, including the first clear \"deception circuit\" discovered in a frontier model.",
       "source": "Anthropic",
       "url": "https://anthropic.com/research/claude-4-interp",
-      "publishedAt": "2026-07-29T12:48:11.104Z",
+      "publishedAt": "2026-07-29T18:36:46.416Z",
       "impact": 91
     },
     {
-      "id": "arxiv-cs.ai-1785297600000-0",
-      "type": "live",
-      "category": "safety",
-      "title": "Do Models Fake Alignment Without Clear Consequences?",
-      "excerpt": "24758v2 Announce Type: new Abstract: Large language models are capable of recognizing evaluation contexts and altering their behavior to reflect evaluator expectations rather than typical deployment behaviors, a pheno...",
-      "source": "arXiv cs.AI",
-      "url": "https://arxiv.org/abs/2607.24758",
-      "publishedAt": "2026-07-29T04:00:00.000Z",
-      "impact": 58
-    },
-    {
-      "id": "arxiv-cs.ai-1785297600000-1",
+      "id": "marktechpost-1785317922000-3",
       "type": "live",
       "category": "llm",
-      "title": "Beyond Memory: A Templated Substrate for Heterogeneous Collaborative Knowledge Work with LLM Agents",
-      "excerpt": "24759v1 Announce Type: new Abstract: Research projects, educational efforts, and adjacent knowledge work accumulate findings, decisions, and reasoning that future collaborators rarely recover.  The parts most useful t...",
-      "source": "arXiv cs.AI",
-      "url": "https://arxiv.org/abs/2607.24759",
-      "publishedAt": "2026-07-29T04:00:00.000Z",
-      "impact": 69
-    },
-    {
-      "id": "arxiv-cs.ai-1785297600000-2",
-      "type": "live",
-      "category": "hardware",
-      "title": "Kernel Forge: An Agent Harness for LLM-based Generation and Optimization of CUDA Kernels",
-      "excerpt": "24762v1 Announce Type: new Abstract: Machine learning models are increasingly embedded in everyday software, and most of their runtime is spent in a small set of compute kernels such as matrix multiplication, convolut...",
-      "source": "arXiv cs.AI",
-      "url": "https://arxiv.org/abs/2607.24762",
-      "publishedAt": "2026-07-29T04:00:00.000Z",
-      "impact": 69
-    },
-    {
-      "id": "arxiv-cs.ai-1785297600000-3",
-      "type": "live",
-      "category": "safety",
-      "title": "CaRE Compute-aware Remasking Evaluation Protocol for Masked Diffusion Language Models",
-      "excerpt": "24763v1 Announce Type: new Abstract: Masked diffusion language models (MDLMs) are advancing rapidly, yet the evaluation standards needed to reliably interpret their progress have not kept pace.  Despite MDLMs becoming...",
-      "source": "arXiv cs.AI",
-      "url": "https://arxiv.org/abs/2607.24763",
-      "publishedAt": "2026-07-29T04:00:00.000Z",
-      "impact": 58
-    },
-    {
-      "id": "arxiv-cs.ai-1785297600000-4",
-      "type": "live",
-      "category": "llm",
-      "title": "GrocLM: Grocery Category Recommendation in E-Commerce with Large Language Models",
-      "excerpt": "24764v1 Announce Type: new Abstract: The rapid growth of online grocery shopping requires recommendation systems that capture cyclical purchasing behavior and diverse user intents.  Traditional item-level methods face...",
-      "source": "arXiv cs.AI",
-      "url": "https://arxiv.org/abs/2607.24764",
-      "publishedAt": "2026-07-29T04:00:00.000Z",
-      "impact": 58
-    },
-    {
-      "id": "arxiv-cs.ai-1785297600000-5",
-      "type": "live",
-      "category": "llm",
-      "title": "Crystalis: Progressive Nucleation and Semantic Annealing for Coordinated Multi-View Visualization Generation",
-      "excerpt": "24766v1 Announce Type: new Abstract: Large language models (LLMs) can generate individual charts, but coordinated multi-view visualizations (CMVs), where views share data flows and cross-view interactions, remain out ...",
-      "source": "arXiv cs.AI",
-      "url": "https://arxiv.org/abs/2607.24766",
-      "publishedAt": "2026-07-29T04:00:00.000Z",
-      "impact": 58
+      "title": "Liquid AI Releases LFM2.5-Encoder-230M and LFM2.5-Encoder-350M: Bidirectional Encoders That Stay Fast at 8K Context on CPU",
+      "excerpt": "Liquid AI released two open-weight bidirectional encoders, LFM2. 5-Encoder-230M and LFM2",
+      "source": "MarkTechPost",
+      "url": "https://www.marktechpost.com/2026/07/29/liquid-ai-releases-lfm2-5-encoder-230m-and-lfm2-5-encoder-350m-bidirectional-encoders-that-stay-fast-at-8k-context-on-cpu/",
+      "publishedAt": "2026-07-29T09:38:42.000Z",
+      "impact": 65
     },
     {
       "id": "hugging-face-1785256062000-0",

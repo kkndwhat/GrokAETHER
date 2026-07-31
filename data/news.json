@@ -1,18 +1,29 @@
 {
-  "lastUpdated": "2026-07-30T19:41:16.278Z",
+  "lastUpdated": "2026-07-31T03:30:59.464Z",
   "source": "AETHER + Public RSS (arXiv, Hugging Face, MarkTechPost, Ben's Bites)",
-  "count": 16,
+  "count": 12,
   "articles": [
     {
-      "id": "marktechpost-1785432050000-0",
-      "type": "live",
+      "id": "aether-grok43",
+      "type": "premium",
+      "category": "llm",
+      "title": "xAI releases Grok-4.3 with native long-horizon agent scaffolding",
+      "excerpt": "New model demonstrates 4.2× improvement on multi-step software engineering benchmarks and sustains coherent agent trajectories beyond 110k tokens.",
+      "source": "xAI",
+      "url": "https://x.ai/blog/grok-4.3",
+      "publishedAt": "2026-07-30T22:30:59.039Z",
+      "impact": 96
+    },
+    {
+      "id": "aether-figure03",
+      "type": "premium",
       "category": "robotics",
-      "title": "Google DeepMind Ships Three Physical AI Models For Whole Body Control, Dexterity And Multi Robot Collaboration",
-      "excerpt": "Google DeepMind has released Gemini Robotics 2, the intelligence layer for its next generation of robots.  The release ships three models: a vision-language-action model for whole body humanoid control, Gemini Robotic...",
-      "source": "MarkTechPost",
-      "url": "https://www.marktechpost.com/2026/07/30/google-deepmind-gemini-robotics-2-whole-body-control-dexterity-multi-robot-collaboration/",
-      "publishedAt": "2026-07-30T17:20:50.000Z",
-      "impact": 65
+      "title": "Figure 03 completes 43-hour autonomous factory shift with zero interventions",
+      "excerpt": "Humanoid achieves new milestone in unsupervised operation, performing 1,240 unique tasks across three assembly lines at the BMW South Carolina plant.",
+      "source": "Figure AI",
+      "url": "https://figure.ai/news/03-milestone",
+      "publishedAt": "2026-07-30T18:30:59.039Z",
+      "impact": 89
     },
     {
       "id": "hugging-face-1785424149000-0",
@@ -26,61 +37,6 @@
       "impact": 75
     },
     {
-      "id": "aether-grok43",
-      "type": "premium",
-      "category": "llm",
-      "title": "xAI releases Grok-4.3 with native long-horizon agent scaffolding",
-      "excerpt": "New model demonstrates 4.2× improvement on multi-step software engineering benchmarks and sustains coherent agent trajectories beyond 110k tokens.",
-      "source": "xAI",
-      "url": "https://x.ai/blog/grok-4.3",
-      "publishedAt": "2026-07-30T14:41:15.219Z",
-      "impact": 96
-    },
-    {
-      "id": "aether-figure03",
-      "type": "premium",
-      "category": "robotics",
-      "title": "Figure 03 completes 43-hour autonomous factory shift with zero interventions",
-      "excerpt": "Humanoid achieves new milestone in unsupervised operation, performing 1,240 unique tasks across three assembly lines at the BMW South Carolina plant.",
-      "source": "Figure AI",
-      "url": "https://figure.ai/news/03-milestone",
-      "publishedAt": "2026-07-30T10:41:15.219Z",
-      "impact": 89
-    },
-    {
-      "id": "marktechpost-1785406098000-1",
-      "type": "live",
-      "category": "llm",
-      "title": "Tencent Open-Sources AngelSpec: A Unified Training Framework for MTP and Block-Parallel Speculative Decoding on Hy3 Models",
-      "excerpt": "Tencent has released AngelSpec, an open-source torch-native framework for training speculative-decoding draft models across six architectures.  It introduces DFly, a block-diffusion drafter with hybrid target conditio...",
-      "source": "MarkTechPost",
-      "url": "https://www.marktechpost.com/2026/07/30/tencent-open-sources-angelspec-a-unified-training-framework-for-mtp-and-block-parallel-speculative-decoding-on-hy3-models/",
-      "publishedAt": "2026-07-30T10:08:18.000Z",
-      "impact": 65
-    },
-    {
-      "id": "marktechpost-1785397409000-2",
-      "type": "live",
-      "category": "llm",
-      "title": "Meet Token Saver: An Open-Source MCP Extension Using Local Hybrid RAG to Cut Claude PDF Token Costs 90-99%",
-      "excerpt": "Marktechpost AI has released Token Saver, an open-source MCP extension for Claude Desktop that uses local Hybrid RAG to slash PDF token consumption by up to 99% while ensuring absolute document privacy.  The post Meet...",
-      "source": "MarkTechPost",
-      "url": "https://www.marktechpost.com/2026/07/30/token-saver-an-open-source-mcp-extension-using-local-hybrid-rag/",
-      "publishedAt": "2026-07-30T07:43:29.000Z",
-      "impact": 65
-    },
-    {
-      "id": "marktechpost-1785390353000-3",
-      "type": "live",
-      "category": "research",
-      "title": "Prompt Engineering vs Loop Engineering vs Graph Engineering: What Changes at Each Layer",
-      "excerpt": "Three terms now compete for the same line in AI engineering job descriptions.  Prompt engineering is the established one",
-      "source": "MarkTechPost",
-      "url": "https://www.marktechpost.com/2026/07/29/prompt-engineering-vs-loop-engineering-vs-graph-engineering/",
-      "publishedAt": "2026-07-30T05:45:53.000Z",
-      "impact": 65
-    },
-    {
       "id": "aether-interp",
       "type": "premium",
       "category": "safety",
@@ -88,7 +44,7 @@
       "excerpt": "Researchers reverse-engineered 312 million features inside the model, including the first clear \"deception circuit\" discovered in a frontier model.",
       "source": "Anthropic",
       "url": "https://anthropic.com/research/claude-4-interp",
-      "publishedAt": "2026-07-30T05:41:15.219Z",
+      "publishedAt": "2026-07-30T13:30:59.039Z",
       "impact": 91
     },
     {

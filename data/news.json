@@ -1,8 +1,74 @@
 {
-  "lastUpdated": "2026-07-31T03:30:59.464Z",
+  "lastUpdated": "2026-07-31T08:57:13.329Z",
   "source": "AETHER + Public RSS (arXiv, Hugging Face, MarkTechPost, Ben's Bites)",
   "count": 12,
   "articles": [
+    {
+      "id": "arxiv-cs.ai-1785470400000-0",
+      "type": "live",
+      "category": "llm",
+      "title": "Probing the Origins of Reasoning Performance: Representational Quality for Mathematical Problem-Solving in RL vs. SFT Fine-Tuned Models",
+      "excerpt": "26119v1 Announce Type: new Abstract: Large reasoning models trained via reinforcement learning (RL) have been increasingly shown to outperform their supervised fine-tuned (SFT) counterparts on mathematical reasoning t...",
+      "source": "arXiv cs.AI",
+      "url": "https://arxiv.org/abs/2607.26119",
+      "publishedAt": "2026-07-31T04:00:00.000Z",
+      "impact": 58
+    },
+    {
+      "id": "arxiv-cs.ai-1785470400000-1",
+      "type": "live",
+      "category": "safety",
+      "title": "Even More Deception: Objective Misalignment in Mixed-Motive LLM Multi-Agent Systems",
+      "excerpt": "26120v1 Announce Type: new Abstract: Large Language Models (LLMs)-powered multi-agent systems are increasingly deployed in mixed-motive environments, where agents operate under asymmetric information and strategic dec...",
+      "source": "arXiv cs.AI",
+      "url": "https://arxiv.org/abs/2607.26120",
+      "publishedAt": "2026-07-31T04:00:00.000Z",
+      "impact": 69
+    },
+    {
+      "id": "arxiv-cs.ai-1785470400000-2",
+      "type": "live",
+      "category": "robotics",
+      "title": "ClinLens: Towards Long-Horizon Coding Agents for Longitudinal Multimodal Clinical Data Science",
+      "excerpt": "26155v1 Announce Type: new Abstract: Clinical data-science agents must transform heterogeneous longitudinal records into auditable analyses, yet existing benchmarks largely isolate medical question answering, structur...",
+      "source": "arXiv cs.AI",
+      "url": "https://arxiv.org/abs/2607.26155",
+      "publishedAt": "2026-07-31T04:00:00.000Z",
+      "impact": 69
+    },
+    {
+      "id": "arxiv-cs.ai-1785470400000-3",
+      "type": "live",
+      "category": "safety",
+      "title": "When benchmark inferences do not compose: Projectibility in AI evaluation",
+      "excerpt": "26159v1 Announce Type: new Abstract: An AI benchmark result rarely reaches a consequential claim in one step.  Evaluators generalize it to further cases, interpret it as evidence of capability, extrapolate it to new t...",
+      "source": "arXiv cs.AI",
+      "url": "https://arxiv.org/abs/2607.26159",
+      "publishedAt": "2026-07-31T04:00:00.000Z",
+      "impact": 58
+    },
+    {
+      "id": "arxiv-cs.ai-1785470400000-4",
+      "type": "live",
+      "category": "llm",
+      "title": "GuideSkill: Evolving Executable LLM Agent Skills for Guideline-Grounded Clinical Reasoning",
+      "excerpt": "26160v1 Announce Type: new Abstract: Clinical practice guidelines (CPGs) encode diagnostic criteria, but LLM systems typically retrieve guideline text or absorb it through training rather than execute its rules.  We i...",
+      "source": "arXiv cs.AI",
+      "url": "https://arxiv.org/abs/2607.26160",
+      "publishedAt": "2026-07-31T04:00:00.000Z",
+      "impact": 69
+    },
+    {
+      "id": "arxiv-cs.ai-1785470400000-5",
+      "type": "live",
+      "category": "llm",
+      "title": "GoGoTB: Agentic RTL Verification with Specification-Grounded Coverage Closure",
+      "excerpt": "26181v1 Announce Type: new Abstract: Functional verification dominates integrated circuit (IC) front-end engineering effort, and a single missed bug that escapes to silicon can trigger a costly respin.  Recent large l...",
+      "source": "arXiv cs.AI",
+      "url": "https://arxiv.org/abs/2607.26181",
+      "publishedAt": "2026-07-31T04:00:00.000Z",
+      "impact": 69
+    },
     {
       "id": "aether-grok43",
       "type": "premium",
@@ -11,7 +77,7 @@
       "excerpt": "New model demonstrates 4.2× improvement on multi-step software engineering benchmarks and sustains coherent agent trajectories beyond 110k tokens.",
       "source": "xAI",
       "url": "https://x.ai/blog/grok-4.3",
-      "publishedAt": "2026-07-30T22:30:59.039Z",
+      "publishedAt": "2026-07-31T03:57:12.806Z",
       "impact": 96
     },
     {
@@ -22,8 +88,19 @@
       "excerpt": "Humanoid achieves new milestone in unsupervised operation, performing 1,240 unique tasks across three assembly lines at the BMW South Carolina plant.",
       "source": "Figure AI",
       "url": "https://figure.ai/news/03-milestone",
-      "publishedAt": "2026-07-30T18:30:59.039Z",
+      "publishedAt": "2026-07-30T23:57:12.806Z",
       "impact": 89
+    },
+    {
+      "id": "aether-interp",
+      "type": "premium",
+      "category": "safety",
+      "title": "Anthropic publishes unprecedented mechanistic interpretability map of Claude 4",
+      "excerpt": "Researchers reverse-engineered 312 million features inside the model, including the first clear \"deception circuit\" discovered in a frontier model.",
+      "source": "Anthropic",
+      "url": "https://anthropic.com/research/claude-4-interp",
+      "publishedAt": "2026-07-30T18:57:12.806Z",
+      "impact": 91
     },
     {
       "id": "hugging-face-1785424149000-0",
@@ -35,83 +112,6 @@
       "url": "https://huggingface.co/blog/Dharma-AI/gpu-management",
       "publishedAt": "2026-07-30T15:09:09.000Z",
       "impact": 75
-    },
-    {
-      "id": "aether-interp",
-      "type": "premium",
-      "category": "safety",
-      "title": "Anthropic publishes unprecedented mechanistic interpretability map of Claude 4",
-      "excerpt": "Researchers reverse-engineered 312 million features inside the model, including the first clear \"deception circuit\" discovered in a frontier model.",
-      "source": "Anthropic",
-      "url": "https://anthropic.com/research/claude-4-interp",
-      "publishedAt": "2026-07-30T13:30:59.039Z",
-      "impact": 91
-    },
-    {
-      "id": "arxiv-cs.ai-1785384000000-0",
-      "type": "live",
-      "category": "llm",
-      "title": "Probing the Origins of Reasoning Performance: Representational Quality for Mathematical Problem-Solving in RL vs. SFT Fine-Tuned Models",
-      "excerpt": "26119v1 Announce Type: new Abstract: Large reasoning models trained via reinforcement learning (RL) have been increasingly shown to outperform their supervised fine-tuned (SFT) counterparts on mathematical reasoning t...",
-      "source": "arXiv cs.AI",
-      "url": "https://arxiv.org/abs/2607.26119",
-      "publishedAt": "2026-07-30T04:00:00.000Z",
-      "impact": 58
-    },
-    {
-      "id": "arxiv-cs.ai-1785384000000-1",
-      "type": "live",
-      "category": "safety",
-      "title": "Even More Deception: Objective Misalignment in Mixed-Motive LLM Multi-Agent Systems",
-      "excerpt": "26120v1 Announce Type: new Abstract: Large Language Models (LLMs)-powered multi-agent systems are increasingly deployed in mixed-motive environments, where agents operate under asymmetric information and strategic dec...",
-      "source": "arXiv cs.AI",
-      "url": "https://arxiv.org/abs/2607.26120",
-      "publishedAt": "2026-07-30T04:00:00.000Z",
-      "impact": 69
-    },
-    {
-      "id": "arxiv-cs.ai-1785384000000-2",
-      "type": "live",
-      "category": "robotics",
-      "title": "ClinLens: Towards Long-Horizon Coding Agents for Longitudinal Multimodal Clinical Data Science",
-      "excerpt": "26155v1 Announce Type: new Abstract: Clinical data-science agents must transform heterogeneous longitudinal records into auditable analyses, yet existing benchmarks largely isolate medical question answering, structur...",
-      "source": "arXiv cs.AI",
-      "url": "https://arxiv.org/abs/2607.26155",
-      "publishedAt": "2026-07-30T04:00:00.000Z",
-      "impact": 69
-    },
-    {
-      "id": "arxiv-cs.ai-1785384000000-3",
-      "type": "live",
-      "category": "safety",
-      "title": "When benchmark inferences do not compose: Projectibility in AI evaluation",
-      "excerpt": "26159v1 Announce Type: new Abstract: An AI benchmark result rarely reaches a consequential claim in one step.  Evaluators generalize it to further cases, interpret it as evidence of capability, extrapolate it to new t...",
-      "source": "arXiv cs.AI",
-      "url": "https://arxiv.org/abs/2607.26159",
-      "publishedAt": "2026-07-30T04:00:00.000Z",
-      "impact": 58
-    },
-    {
-      "id": "arxiv-cs.ai-1785384000000-4",
-      "type": "live",
-      "category": "llm",
-      "title": "GuideSkill: Evolving Executable LLM Agent Skills for Guideline-Grounded Clinical Reasoning",
-      "excerpt": "26160v1 Announce Type: new Abstract: Clinical practice guidelines (CPGs) encode diagnostic criteria, but LLM systems typically retrieve guideline text or absorb it through training rather than execute its rules.  We i...",
-      "source": "arXiv cs.AI",
-      "url": "https://arxiv.org/abs/2607.26160",
-      "publishedAt": "2026-07-30T04:00:00.000Z",
-      "impact": 69
-    },
-    {
-      "id": "arxiv-cs.ai-1785384000000-5",
-      "type": "live",
-      "category": "llm",
-      "title": "GoGoTB: Agentic RTL Verification with Specification-Grounded Coverage Closure",
-      "excerpt": "26181v1 Announce Type: new Abstract: Functional verification dominates integrated circuit (IC) front-end engineering effort, and a single missed bug that escapes to silicon can trigger a costly respin.  Recent large l...",
-      "source": "arXiv cs.AI",
-      "url": "https://arxiv.org/abs/2607.26181",
-      "publishedAt": "2026-07-30T04:00:00.000Z",
-      "impact": 69
     },
     {
       "id": "hugging-face-1785256062000-1",

@@ -1,8 +1,19 @@
 {
-  "lastUpdated": "2026-07-31T19:42:43.228Z",
+  "lastUpdated": "2026-08-01T08:28:21.563Z",
   "source": "AETHER + Public RSS (arXiv, Hugging Face, MarkTechPost, Ben's Bites)",
-  "count": 16,
+  "count": 10,
   "articles": [
+    {
+      "id": "marktechpost-1785572887000-0",
+      "type": "live",
+      "category": "multimodal",
+      "title": "MiniMax Releases MiniMax H3: An Omni-Modal Video Model That Generates 15-Second 2K Clips With Native Stereo Audio",
+      "excerpt": "MiniMax releases MiniMax H3, a general-purpose multimodal generation model.  MiniMax H3 is not a text-to-video model with add-ons",
+      "source": "MarkTechPost",
+      "url": "https://www.marktechpost.com/2026/08/01/minimax-releases-minimax-h3-an-omni-modal-video-model-that-generates-15-second-2k-clips-with-native-stereo-audio/",
+      "publishedAt": "2026-08-01T08:28:07.000Z",
+      "impact": 65
+    },
     {
       "id": "aether-grok43",
       "type": "premium",
@@ -11,7 +22,7 @@
       "excerpt": "New model demonstrates 4.2× improvement on multi-step software engineering benchmarks and sustains coherent agent trajectories beyond 110k tokens.",
       "source": "xAI",
       "url": "https://x.ai/blog/grok-4.3",
-      "publishedAt": "2026-07-31T14:42:42.098Z",
+      "publishedAt": "2026-08-01T03:28:20.584Z",
       "impact": 96
     },
     {
@@ -22,30 +33,30 @@
       "excerpt": "Humanoid achieves new milestone in unsupervised operation, performing 1,240 unique tasks across three assembly lines at the BMW South Carolina plant.",
       "source": "Figure AI",
       "url": "https://figure.ai/news/03-milestone",
-      "publishedAt": "2026-07-31T10:42:42.098Z",
+      "publishedAt": "2026-07-31T23:28:20.585Z",
       "impact": 89
     },
     {
-      "id": "marktechpost-1785493973000-0",
+      "id": "marktechpost-1785535419000-1",
       "type": "live",
       "category": "llm",
-      "title": "JetBrains Open-Sources KotlinLLM: Smart Macros That Generate Kotlin Source Code at Runtime and Hot-Reload It Through JDI",
-      "excerpt": "JetBrains Research has open-sourced KotlinLLM under the Apache License 2.  The IntelliJ IDEA plugin prototype adds Smart macros, asLlm and mockLlm, whose bodies are generated Kotlin source rather than live model calls",
+      "title": "DeepSeek Upgrades DeepSeek-V4-Flash-0731 with Major Agentic and Coding Gains",
+      "excerpt": "DeepSeek published DeepSeek-V4-Flash-0731 on Hugging Face and moved the official V4-Flash API into public beta on July 31, 2026.  The model card is explicit that this is the official release superseding the preview, a...",
       "source": "MarkTechPost",
-      "url": "https://www.marktechpost.com/2026/07/31/jetbrains-research-open-sources-kotlinllm-intellij-plugin-kotlin-runtime-llm/",
-      "publishedAt": "2026-07-31T10:32:53.000Z",
-      "impact": 65
+      "url": "https://www.marktechpost.com/2026/07/31/deepseek-upgrades-deepseek-v4-flash-0731-with-major-agentic-and-coding-gains/",
+      "publishedAt": "2026-07-31T22:03:39.000Z",
+      "impact": 77
     },
     {
-      "id": "marktechpost-1785488893000-1",
+      "id": "marktechpost-1785529633000-2",
       "type": "live",
-      "category": "research",
-      "title": "Nous Research Ships Three Integration Paths for Hermes Agent and Buzz, Block’s Open Source Nostr Workspace for Humans and Agents",
-      "excerpt": "Nous Research has released Hermes Agent support for Buzz, Block's open source, self-hostable Nostr workspace where humans and AI agents share the same channels.  Three integration paths cover Desktop runtime, relay br...",
+      "category": "hardware",
+      "title": "LingBot-Map Tutorial: GPU-Aware Inference and Point Cloud Export",
+      "excerpt": "Discover how to implement a streaming 3D reconstruction pipeline using LingBot-Map.  From GPU-aware configuration and preprocessing to GCTStream model inference and point cloud generation, this guide walks you through...",
       "source": "MarkTechPost",
-      "url": "https://www.marktechpost.com/2026/07/31/nous-research-ships-three-integration-paths-for-hermes-agent-and-buzz-blocks-open-source-nostr-workspace-for-humans-and-agents/",
-      "publishedAt": "2026-07-31T09:08:13.000Z",
-      "impact": 77
+      "url": "https://www.marktechpost.com/2026/07/31/lingbot-map-tutorial-gpu-aware-inference-and-point-cloud-export/",
+      "publishedAt": "2026-07-31T20:27:13.000Z",
+      "impact": 65
     },
     {
       "id": "aether-interp",
@@ -55,96 +66,19 @@
       "excerpt": "Researchers reverse-engineered 312 million features inside the model, including the first clear \"deception circuit\" discovered in a frontier model.",
       "source": "Anthropic",
       "url": "https://anthropic.com/research/claude-4-interp",
-      "publishedAt": "2026-07-31T05:42:42.098Z",
+      "publishedAt": "2026-07-31T18:28:20.585Z",
       "impact": 91
     },
     {
-      "id": "marktechpost-1785474403000-2",
+      "id": "marktechpost-1785493973000-3",
       "type": "live",
-      "category": "multimodal",
-      "title": "PolyAI Releases Dialog-RSN-1: An Audio-Native Dialog Model That Fuses Turn-Taking, Speech Recognition, Function Calling, And Response",
-      "excerpt": "PolyAI has introduced Dialog-RSN-1, a dialog model that perceives caller audio directly instead of reading an ASR transcript.  It fuses turn-taking, speech recognition, function calling, and response generation into a...",
+      "category": "llm",
+      "title": "JetBrains Open-Sources KotlinLLM: Smart Macros That Generate Kotlin Source Code at Runtime and Hot-Reload It Through JDI",
+      "excerpt": "JetBrains Research has open-sourced KotlinLLM under the Apache License 2.  The IntelliJ IDEA plugin prototype adds Smart macros, asLlm and mockLlm, whose bodies are generated Kotlin source rather than live model calls",
       "source": "MarkTechPost",
-      "url": "https://www.marktechpost.com/2026/07/30/polyai-releases-dialog-rsn-1-an-audio-native-dialog-model-that-fuses-turn-taking-speech-recognition-function-calling-and-response/",
-      "publishedAt": "2026-07-31T05:06:43.000Z",
+      "url": "https://www.marktechpost.com/2026/07/31/jetbrains-research-open-sources-kotlinllm-intellij-plugin-kotlin-runtime-llm/",
+      "publishedAt": "2026-07-31T10:32:53.000Z",
       "impact": 65
-    },
-    {
-      "id": "marktechpost-1785473052000-3",
-      "type": "live",
-      "category": "research",
-      "title": "Building a Policy-Governed Multi-Agent Financial Research Workflow with Omnigent",
-      "excerpt": "In this tutorial, we demonstrate how to build and execute a multi-agent workflow with Omnigent in a secure, isolated Python environment.  Learn to integrate live exchange-rate data, implement hierarchical agent delega...",
-      "source": "MarkTechPost",
-      "url": "https://www.marktechpost.com/2026/07/30/building-a-policy-governed-multi-agent-financial-research-workflow-with-omnigent/",
-      "publishedAt": "2026-07-31T04:44:12.000Z",
-      "impact": 77
-    },
-    {
-      "id": "arxiv-cs.ai-1785470400000-0",
-      "type": "live",
-      "category": "llm",
-      "title": "Probing the Origins of Reasoning Performance: Representational Quality for Mathematical Problem-Solving in RL vs. SFT Fine-Tuned Models",
-      "excerpt": "26119v1 Announce Type: new Abstract: Large reasoning models trained via reinforcement learning (RL) have been increasingly shown to outperform their supervised fine-tuned (SFT) counterparts on mathematical reasoning t...",
-      "source": "arXiv cs.AI",
-      "url": "https://arxiv.org/abs/2607.26119",
-      "publishedAt": "2026-07-31T04:00:00.000Z",
-      "impact": 58
-    },
-    {
-      "id": "arxiv-cs.ai-1785470400000-1",
-      "type": "live",
-      "category": "safety",
-      "title": "Even More Deception: Objective Misalignment in Mixed-Motive LLM Multi-Agent Systems",
-      "excerpt": "26120v1 Announce Type: new Abstract: Large Language Models (LLMs)-powered multi-agent systems are increasingly deployed in mixed-motive environments, where agents operate under asymmetric information and strategic dec...",
-      "source": "arXiv cs.AI",
-      "url": "https://arxiv.org/abs/2607.26120",
-      "publishedAt": "2026-07-31T04:00:00.000Z",
-      "impact": 69
-    },
-    {
-      "id": "arxiv-cs.ai-1785470400000-2",
-      "type": "live",
-      "category": "robotics",
-      "title": "ClinLens: Towards Long-Horizon Coding Agents for Longitudinal Multimodal Clinical Data Science",
-      "excerpt": "26155v1 Announce Type: new Abstract: Clinical data-science agents must transform heterogeneous longitudinal records into auditable analyses, yet existing benchmarks largely isolate medical question answering, structur...",
-      "source": "arXiv cs.AI",
-      "url": "https://arxiv.org/abs/2607.26155",
-      "publishedAt": "2026-07-31T04:00:00.000Z",
-      "impact": 69
-    },
-    {
-      "id": "arxiv-cs.ai-1785470400000-3",
-      "type": "live",
-      "category": "safety",
-      "title": "When benchmark inferences do not compose: Projectibility in AI evaluation",
-      "excerpt": "26159v1 Announce Type: new Abstract: An AI benchmark result rarely reaches a consequential claim in one step.  Evaluators generalize it to further cases, interpret it as evidence of capability, extrapolate it to new t...",
-      "source": "arXiv cs.AI",
-      "url": "https://arxiv.org/abs/2607.26159",
-      "publishedAt": "2026-07-31T04:00:00.000Z",
-      "impact": 58
-    },
-    {
-      "id": "arxiv-cs.ai-1785470400000-4",
-      "type": "live",
-      "category": "llm",
-      "title": "GuideSkill: Evolving Executable LLM Agent Skills for Guideline-Grounded Clinical Reasoning",
-      "excerpt": "26160v1 Announce Type: new Abstract: Clinical practice guidelines (CPGs) encode diagnostic criteria, but LLM systems typically retrieve guideline text or absorb it through training rather than execute its rules.  We i...",
-      "source": "arXiv cs.AI",
-      "url": "https://arxiv.org/abs/2607.26160",
-      "publishedAt": "2026-07-31T04:00:00.000Z",
-      "impact": 69
-    },
-    {
-      "id": "arxiv-cs.ai-1785470400000-5",
-      "type": "live",
-      "category": "llm",
-      "title": "GoGoTB: Agentic RTL Verification with Specification-Grounded Coverage Closure",
-      "excerpt": "26181v1 Announce Type: new Abstract: Functional verification dominates integrated circuit (IC) front-end engineering effort, and a single missed bug that escapes to silicon can trigger a costly respin.  Recent large l...",
-      "source": "arXiv cs.AI",
-      "url": "https://arxiv.org/abs/2607.26181",
-      "publishedAt": "2026-07-31T04:00:00.000Z",
-      "impact": 69
     },
     {
       "id": "hugging-face-1785424149000-0",

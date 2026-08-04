@@ -1,10 +1,43 @@
 {
-  "lastUpdated": "2026-08-04T08:47:08.534Z",
+  "lastUpdated": "2026-08-04T14:28:39.164Z",
   "source": "AETHER + Public RSS (arXiv, Hugging Face, MarkTechPost, Ben's Bites)",
   "count": 16,
   "articles": [
     {
-      "id": "marktechpost-1785831156000-0",
+      "id": "hugging-face-1785851909000-0",
+      "type": "live",
+      "category": "research",
+      "title": "Deploy local agents everywhere with LFM2.5-2.6B",
+      "excerpt": "New development from the frontier.",
+      "source": "Hugging Face",
+      "url": "https://huggingface.co/blog/LiquidAI/lfm2-5-2-6b",
+      "publishedAt": "2026-08-04T13:58:29.000Z",
+      "impact": 87
+    },
+    {
+      "id": "marktechpost-1785836740000-0",
+      "type": "live",
+      "category": "research",
+      "title": "Reflex Open Sources XY: A Rust-Backed Super-Fast Python Charting Library That Keeps 100 Million Point Charts Interactive",
+      "excerpt": "Reflex has released XY, an Apache-2. 0 Python charting library that moves rendering work into a native Rust core and a WebGL2 client",
+      "source": "MarkTechPost",
+      "url": "https://www.marktechpost.com/2026/08/04/reflex-open-sources-xy/",
+      "publishedAt": "2026-08-04T09:45:40.000Z",
+      "impact": 65
+    },
+    {
+      "id": "aether-grok43",
+      "type": "premium",
+      "category": "llm",
+      "title": "xAI releases Grok-4.3 with native long-horizon agent scaffolding",
+      "excerpt": "New model demonstrates 4.2× improvement on multi-step software engineering benchmarks and sustains coherent agent trajectories beyond 110k tokens.",
+      "source": "xAI",
+      "url": "https://x.ai/blog/grok-4.3",
+      "publishedAt": "2026-08-04T09:28:37.658Z",
+      "impact": 96
+    },
+    {
+      "id": "marktechpost-1785831156000-1",
       "type": "live",
       "category": "research",
       "title": "Building an Advanced AI Skill Security Auditing Pipeline with NVIDIA SkillSpector, LangGraph, YARA Rules, SARIF, and CI Policy Gates",
@@ -15,7 +48,18 @@
       "impact": 65
     },
     {
-      "id": "marktechpost-1785817038000-1",
+      "id": "aether-figure03",
+      "type": "premium",
+      "category": "robotics",
+      "title": "Figure 03 completes 43-hour autonomous factory shift with zero interventions",
+      "excerpt": "Humanoid achieves new milestone in unsupervised operation, performing 1,240 unique tasks across three assembly lines at the BMW South Carolina plant.",
+      "source": "Figure AI",
+      "url": "https://figure.ai/news/03-milestone",
+      "publishedAt": "2026-08-04T05:28:37.658Z",
+      "impact": 89
+    },
+    {
+      "id": "marktechpost-1785817038000-2",
       "type": "live",
       "category": "llm",
       "title": "Y Combinator Open-Sources QM: An MIT-Licensed Multiplayer Agent Harness That Runs In Slack And The Web",
@@ -92,18 +136,7 @@
       "impact": 58
     },
     {
-      "id": "aether-grok43",
-      "type": "premium",
-      "category": "llm",
-      "title": "xAI releases Grok-4.3 with native long-horizon agent scaffolding",
-      "excerpt": "New model demonstrates 4.2× improvement on multi-step software engineering benchmarks and sustains coherent agent trajectories beyond 110k tokens.",
-      "source": "xAI",
-      "url": "https://x.ai/blog/grok-4.3",
-      "publishedAt": "2026-08-04T03:47:07.573Z",
-      "impact": 96
-    },
-    {
-      "id": "marktechpost-1785815176000-2",
+      "id": "marktechpost-1785815176000-3",
       "type": "live",
       "category": "research",
       "title": "Genspark Open Sources GenOffice: A Free, Ad-Free AI Office Suite for macOS and Windows with Docs, Sheets, Slides, PDF",
@@ -114,28 +147,6 @@
       "impact": 65
     },
     {
-      "id": "aether-figure03",
-      "type": "premium",
-      "category": "robotics",
-      "title": "Figure 03 completes 43-hour autonomous factory shift with zero interventions",
-      "excerpt": "Humanoid achieves new milestone in unsupervised operation, performing 1,240 unique tasks across three assembly lines at the BMW South Carolina plant.",
-      "source": "Figure AI",
-      "url": "https://figure.ai/news/03-milestone",
-      "publishedAt": "2026-08-03T23:47:07.574Z",
-      "impact": 89
-    },
-    {
-      "id": "marktechpost-1785795992000-3",
-      "type": "live",
-      "category": "multimodal",
-      "title": "Evaluating Multimodal Vision Models with Moonshot PerceptionBench Using Robust Data Loading and Automated Judging",
-      "excerpt": "In this tutorial, we design an end-to-end evaluation workflow for PerceptionBench.  This multimodal benchmark measures fine-grained visual perception capabilities across tasks such as OCR, counting, localization, cont...",
-      "source": "MarkTechPost",
-      "url": "https://www.marktechpost.com/2026/08/03/evaluating-multimodal-vision-models-with-moonshot-perceptionbench-using-robust-data-loading-and-automated-judging/",
-      "publishedAt": "2026-08-03T22:26:32.000Z",
-      "impact": 65
-    },
-    {
       "id": "aether-interp",
       "type": "premium",
       "category": "safety",
@@ -143,11 +154,11 @@
       "excerpt": "Researchers reverse-engineered 312 million features inside the model, including the first clear \"deception circuit\" discovered in a frontier model.",
       "source": "Anthropic",
       "url": "https://anthropic.com/research/claude-4-interp",
-      "publishedAt": "2026-08-03T18:47:07.574Z",
+      "publishedAt": "2026-08-04T00:28:37.658Z",
       "impact": 91
     },
     {
-      "id": "hugging-face-1785424149000-0",
+      "id": "hugging-face-1785424149000-1",
       "type": "live",
       "category": "hardware",
       "title": "GPU Management: Why Idle GPUs Are the New Grounded Aircraft",
@@ -158,7 +169,7 @@
       "impact": 75
     },
     {
-      "id": "hugging-face-1785256062000-1",
+      "id": "hugging-face-1785256062000-2",
       "type": "live",
       "category": "research",
       "title": "The OlmoEarth Platform: Geospatial inference at planetary scale",
@@ -166,17 +177,6 @@
       "source": "Hugging Face",
       "url": "https://huggingface.co/blog/allenai/olmoearth-infrastructure",
       "publishedAt": "2026-07-28T16:27:42.000Z",
-      "impact": 75
-    },
-    {
-      "id": "hugging-face-1785250905000-2",
-      "type": "live",
-      "category": "research",
-      "title": "LFM2.5-Encoders for Fast Long-Context Inference on CPU",
-      "excerpt": "New development from the frontier.",
-      "source": "Hugging Face",
-      "url": "https://huggingface.co/blog/LiquidAI/lfm2-5-encoders",
-      "publishedAt": "2026-07-28T15:01:45.000Z",
       "impact": 75
     }
   ]

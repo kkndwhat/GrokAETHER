@@ -1,8 +1,19 @@
 {
-  "lastUpdated": "2026-08-04T14:28:39.164Z",
+  "lastUpdated": "2026-08-04T19:43:49.332Z",
   "source": "AETHER + Public RSS (arXiv, Hugging Face, MarkTechPost, Ben's Bites)",
-  "count": 16,
+  "count": 12,
   "articles": [
+    {
+      "id": "aether-grok43",
+      "type": "premium",
+      "category": "llm",
+      "title": "xAI releases Grok-4.3 with native long-horizon agent scaffolding",
+      "excerpt": "New model demonstrates 4.2× improvement on multi-step software engineering benchmarks and sustains coherent agent trajectories beyond 110k tokens.",
+      "source": "xAI",
+      "url": "https://x.ai/blog/grok-4.3",
+      "publishedAt": "2026-08-04T14:43:48.904Z",
+      "impact": 96
+    },
     {
       "id": "hugging-face-1785851909000-0",
       "type": "live",
@@ -15,39 +26,6 @@
       "impact": 87
     },
     {
-      "id": "marktechpost-1785836740000-0",
-      "type": "live",
-      "category": "research",
-      "title": "Reflex Open Sources XY: A Rust-Backed Super-Fast Python Charting Library That Keeps 100 Million Point Charts Interactive",
-      "excerpt": "Reflex has released XY, an Apache-2. 0 Python charting library that moves rendering work into a native Rust core and a WebGL2 client",
-      "source": "MarkTechPost",
-      "url": "https://www.marktechpost.com/2026/08/04/reflex-open-sources-xy/",
-      "publishedAt": "2026-08-04T09:45:40.000Z",
-      "impact": 65
-    },
-    {
-      "id": "aether-grok43",
-      "type": "premium",
-      "category": "llm",
-      "title": "xAI releases Grok-4.3 with native long-horizon agent scaffolding",
-      "excerpt": "New model demonstrates 4.2× improvement on multi-step software engineering benchmarks and sustains coherent agent trajectories beyond 110k tokens.",
-      "source": "xAI",
-      "url": "https://x.ai/blog/grok-4.3",
-      "publishedAt": "2026-08-04T09:28:37.658Z",
-      "impact": 96
-    },
-    {
-      "id": "marktechpost-1785831156000-1",
-      "type": "live",
-      "category": "research",
-      "title": "Building an Advanced AI Skill Security Auditing Pipeline with NVIDIA SkillSpector, LangGraph, YARA Rules, SARIF, and CI Policy Gates",
-      "excerpt": "Learn how to build an end-to-end security assessment pipeline for AI agent skills using NVIDIA SkillSpector and LangGraph.  In this tutorial, we construct a synthetic skill marketplace, scan for malicious prompt injec...",
-      "source": "MarkTechPost",
-      "url": "https://www.marktechpost.com/2026/08/04/building-an-advanced-ai-skill-security-auditing-pipeline-with-nvidia-skillspector-langgraph-yara-rules-sarif-and-ci-policy-gates/",
-      "publishedAt": "2026-08-04T08:12:36.000Z",
-      "impact": 65
-    },
-    {
       "id": "aether-figure03",
       "type": "premium",
       "category": "robotics",
@@ -55,19 +33,19 @@
       "excerpt": "Humanoid achieves new milestone in unsupervised operation, performing 1,240 unique tasks across three assembly lines at the BMW South Carolina plant.",
       "source": "Figure AI",
       "url": "https://figure.ai/news/03-milestone",
-      "publishedAt": "2026-08-04T05:28:37.658Z",
+      "publishedAt": "2026-08-04T10:43:48.904Z",
       "impact": 89
     },
     {
-      "id": "marktechpost-1785817038000-2",
-      "type": "live",
-      "category": "llm",
-      "title": "Y Combinator Open-Sources QM: An MIT-Licensed Multiplayer Agent Harness That Runs In Slack And The Web",
-      "excerpt": "Y Combinator has open-sourced QM, the multiplayer agent harness it uses internally across accounting, legal, events, and engineering.  Released July 31, 2026 under an MIT license, QM gives each employee an isolated wo...",
-      "source": "MarkTechPost",
-      "url": "https://www.marktechpost.com/2026/08/03/y-combinator-open-sources-qm-multiplayer-ai-agent-harness/",
-      "publishedAt": "2026-08-04T04:17:18.000Z",
-      "impact": 77
+      "id": "aether-interp",
+      "type": "premium",
+      "category": "safety",
+      "title": "Anthropic publishes unprecedented mechanistic interpretability map of Claude 4",
+      "excerpt": "Researchers reverse-engineered 312 million features inside the model, including the first clear \"deception circuit\" discovered in a frontier model.",
+      "source": "Anthropic",
+      "url": "https://anthropic.com/research/claude-4-interp",
+      "publishedAt": "2026-08-04T05:43:48.904Z",
+      "impact": 91
     },
     {
       "id": "arxiv-cs.ai-1785816000000-0",
@@ -134,28 +112,6 @@
       "url": "https://arxiv.org/abs/2608.00015",
       "publishedAt": "2026-08-04T04:00:00.000Z",
       "impact": 58
-    },
-    {
-      "id": "marktechpost-1785815176000-3",
-      "type": "live",
-      "category": "research",
-      "title": "Genspark Open Sources GenOffice: A Free, Ad-Free AI Office Suite for macOS and Windows with Docs, Sheets, Slides, PDF",
-      "excerpt": "Genspark has open sourced GenOffice under the Apache License 2.  It is an AI-native office suite for macOS and Windows, covering Docs, Sheets, Slides and PDF as five Electron apps over one shared engine layer",
-      "source": "MarkTechPost",
-      "url": "https://www.marktechpost.com/2026/08/03/genspark-open-sources-genoffice-a-free-ad-free-ai-office-suite-for-macos-and-windows-with-docs-sheets-slides-pdf/",
-      "publishedAt": "2026-08-04T03:46:16.000Z",
-      "impact": 65
-    },
-    {
-      "id": "aether-interp",
-      "type": "premium",
-      "category": "safety",
-      "title": "Anthropic publishes unprecedented mechanistic interpretability map of Claude 4",
-      "excerpt": "Researchers reverse-engineered 312 million features inside the model, including the first clear \"deception circuit\" discovered in a frontier model.",
-      "source": "Anthropic",
-      "url": "https://anthropic.com/research/claude-4-interp",
-      "publishedAt": "2026-08-04T00:28:37.658Z",
-      "impact": 91
     },
     {
       "id": "hugging-face-1785424149000-1",

@@ -1,8 +1,52 @@
 {
-  "lastUpdated": "2026-08-05T08:44:11.073Z",
+  "lastUpdated": "2026-08-05T14:21:27.612Z",
   "source": "AETHER + Public RSS (arXiv, Hugging Face, MarkTechPost, Ben's Bites)",
-  "count": 12,
+  "count": 16,
   "articles": [
+    {
+      "id": "aether-grok43",
+      "type": "premium",
+      "category": "llm",
+      "title": "xAI releases Grok-4.3 with native long-horizon agent scaffolding",
+      "excerpt": "New model demonstrates 4.2× improvement on multi-step software engineering benchmarks and sustains coherent agent trajectories beyond 110k tokens.",
+      "source": "xAI",
+      "url": "https://x.ai/blog/grok-4.3",
+      "publishedAt": "2026-08-05T09:21:26.621Z",
+      "impact": 96
+    },
+    {
+      "id": "marktechpost-1785918311000-0",
+      "type": "live",
+      "category": "robotics",
+      "title": "NVIDIA Releases Alpamayo 2 Super: A 34B Open Vision-Language-Action Model for Robotaxis and Autonomous Driving Under OpenMDW-1.1",
+      "excerpt": "NVIDIA released Alpamayo 2 Super, a 34B vision-language-action model for autonomous driving, under OpenMDW-1. 1 — a permissive license covering fine-tuning, derivatives and commercial redistribution",
+      "source": "MarkTechPost",
+      "url": "https://www.marktechpost.com/2026/08/05/nvidia-alpamayo-2-super-open-vla-model-autonomous-driving/",
+      "publishedAt": "2026-08-05T08:25:11.000Z",
+      "impact": 65
+    },
+    {
+      "id": "aether-figure03",
+      "type": "premium",
+      "category": "robotics",
+      "title": "Figure 03 completes 43-hour autonomous factory shift with zero interventions",
+      "excerpt": "Humanoid achieves new milestone in unsupervised operation, performing 1,240 unique tasks across three assembly lines at the BMW South Carolina plant.",
+      "source": "Figure AI",
+      "url": "https://figure.ai/news/03-milestone",
+      "publishedAt": "2026-08-05T05:21:26.621Z",
+      "impact": 89
+    },
+    {
+      "id": "marktechpost-1785904997000-1",
+      "type": "live",
+      "category": "research",
+      "title": "CopilotKit Open Sources Channels SDK: An MIT Licensed Library That Runs Any AG-UI Agent Inside Slack And Microsoft Teams",
+      "excerpt": "CopilotKit has published the Channels SDK, an MIT licensed library that runs an existing AG-UI agent inside Slack and Microsoft Teams. 0 ships five platform adapters and a documented runtime contract",
+      "source": "MarkTechPost",
+      "url": "https://www.marktechpost.com/2026/08/04/copilotkit-open-sources-channels-sdk/",
+      "publishedAt": "2026-08-05T04:43:17.000Z",
+      "impact": 77
+    },
     {
       "id": "arxiv-cs.ai-1785902400000-0",
       "type": "live",
@@ -70,28 +114,6 @@
       "impact": 58
     },
     {
-      "id": "aether-grok43",
-      "type": "premium",
-      "category": "llm",
-      "title": "xAI releases Grok-4.3 with native long-horizon agent scaffolding",
-      "excerpt": "New model demonstrates 4.2× improvement on multi-step software engineering benchmarks and sustains coherent agent trajectories beyond 110k tokens.",
-      "source": "xAI",
-      "url": "https://x.ai/blog/grok-4.3",
-      "publishedAt": "2026-08-05T03:44:10.750Z",
-      "impact": 96
-    },
-    {
-      "id": "aether-figure03",
-      "type": "premium",
-      "category": "robotics",
-      "title": "Figure 03 completes 43-hour autonomous factory shift with zero interventions",
-      "excerpt": "Humanoid achieves new milestone in unsupervised operation, performing 1,240 unique tasks across three assembly lines at the BMW South Carolina plant.",
-      "source": "Figure AI",
-      "url": "https://figure.ai/news/03-milestone",
-      "publishedAt": "2026-08-04T23:44:10.750Z",
-      "impact": 89
-    },
-    {
       "id": "aether-interp",
       "type": "premium",
       "category": "safety",
@@ -99,8 +121,30 @@
       "excerpt": "Researchers reverse-engineered 312 million features inside the model, including the first clear \"deception circuit\" discovered in a frontier model.",
       "source": "Anthropic",
       "url": "https://anthropic.com/research/claude-4-interp",
-      "publishedAt": "2026-08-04T18:44:10.750Z",
+      "publishedAt": "2026-08-05T00:21:26.621Z",
       "impact": 91
+    },
+    {
+      "id": "marktechpost-1785882458000-2",
+      "type": "live",
+      "category": "multimodal",
+      "title": "Pixel-Native RAG: A Practical Guide to Visual Document Indexing",
+      "excerpt": "Move beyond traditional text-based parsing with PixelRAG, an end-to-end system that treats web pages and PDFs as images.  This tutorial explores the complete pipeline—from rendering and tiling to multimodal embedding ...",
+      "source": "MarkTechPost",
+      "url": "https://www.marktechpost.com/2026/08/04/pixel-native-rag-a-practical-guide-to-visual-document-indexing/",
+      "publishedAt": "2026-08-04T22:27:38.000Z",
+      "impact": 65
+    },
+    {
+      "id": "marktechpost-1785868721000-3",
+      "type": "live",
+      "category": "hardware",
+      "title": "Cursor Open-Sources Mixture-of-Kittens (MoK): A Deterministic MoE Training Megakernel for GB300 NVL72 Racks",
+      "excerpt": "Cursor Research has open-sourced Mixture-of-Kittens (MoK), the MoE training megakernel behind its Composer models.  MoK fuses all mixture-of-experts communication and computation into a single deterministic kernel, an...",
+      "source": "MarkTechPost",
+      "url": "https://www.marktechpost.com/2026/08/04/cursor-open-sources-mixture-of-kittens-mok-a-deterministic-moe-training-megakernel-for-gb300-nvl72-racks/",
+      "publishedAt": "2026-08-04T18:38:41.000Z",
+      "impact": 65
     },
     {
       "id": "hugging-face-1785851909000-0",

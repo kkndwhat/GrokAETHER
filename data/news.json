@@ -1,8 +1,74 @@
 {
-  "lastUpdated": "2026-08-06T03:13:43.327Z",
+  "lastUpdated": "2026-08-06T08:45:47.174Z",
   "source": "AETHER + Public RSS (arXiv, Hugging Face, MarkTechPost, Ben's Bites)",
-  "count": 12,
+  "count": 16,
   "articles": [
+    {
+      "id": "arxiv-cs.ai-1785988800000-0",
+      "type": "live",
+      "category": "llm",
+      "title": "A Long-Run Persistence Theory for AI Systems under the Redundancy-Adjusted Artificial Age Score (AAS)",
+      "excerpt": "04012v1 Announce Type: new Abstract: Artificial intelligence systems are increasingly expected to operate over repeated cycles of interaction, adaptation, and update rather than through isolated one-shot outputs.  Thi...",
+      "source": "arXiv cs.AI",
+      "url": "https://arxiv.org/abs/2608.04012",
+      "publishedAt": "2026-08-06T04:00:00.000Z",
+      "impact": 58
+    },
+    {
+      "id": "arxiv-cs.ai-1785988800000-1",
+      "type": "live",
+      "category": "llm",
+      "title": "The LLM Proposes, the Executive Disposes: A Self-Verifying Agent Instrument that Dissociates Commitment Drift from Binding Drift in Long-Horizon Agents",
+      "excerpt": "04066v1 Announce Type: new Abstract: How do you verify a long-horizon agent when its own state and self-reports are exactly what you cannot trust.  We present an agent instrument built so that verification is structur...",
+      "source": "arXiv cs.AI",
+      "url": "https://arxiv.org/abs/2608.04066",
+      "publishedAt": "2026-08-06T04:00:00.000Z",
+      "impact": 69
+    },
+    {
+      "id": "arxiv-cs.ai-1785988800000-2",
+      "type": "live",
+      "category": "safety",
+      "title": "Monte Carlo Tree Search for Table-to-Multimodal Report Generation",
+      "excerpt": "04071v1 Announce Type: new Abstract: Automatically generating professional multimodal reports comprising both textual analysis and visual charts from structured tabular data is a critical challenge in data intelligenc...",
+      "source": "arXiv cs.AI",
+      "url": "https://arxiv.org/abs/2608.04071",
+      "publishedAt": "2026-08-06T04:00:00.000Z",
+      "impact": 58
+    },
+    {
+      "id": "arxiv-cs.ai-1785988800000-3",
+      "type": "live",
+      "category": "llm",
+      "title": "FinProBench: Evaluating Financial AI Agents with Role-Grounded Rubrics Derived from Professional Deliverables",
+      "excerpt": "04077v1 Announce Type: new Abstract: Evaluating financial AI agents requires criteria aligned with real professional work.  Existing rubric methods typically derive criteria from task prompts or model outputs, overloo...",
+      "source": "arXiv cs.AI",
+      "url": "https://arxiv.org/abs/2608.04077",
+      "publishedAt": "2026-08-06T04:00:00.000Z",
+      "impact": 69
+    },
+    {
+      "id": "arxiv-cs.ai-1785988800000-4",
+      "type": "live",
+      "category": "llm",
+      "title": "FinPerMA: A Theory-Informed, Event-Grounded Personalized-Memory Benchmark for LLM Agents",
+      "excerpt": "04095v1 Announce Type: new Abstract: Large language model (LLM) agents are increasingly used as personalized assistants in high-stakes domains such as financial advising, yet it remains unclear whether they can mainta...",
+      "source": "arXiv cs.AI",
+      "url": "https://arxiv.org/abs/2608.04095",
+      "publishedAt": "2026-08-06T04:00:00.000Z",
+      "impact": 69
+    },
+    {
+      "id": "arxiv-cs.ai-1785988800000-5",
+      "type": "live",
+      "category": "safety",
+      "title": "BrainBench: Benchmarking Large Language Models for Comprehensive EEG Understanding",
+      "excerpt": "04156v1 Announce Type: new Abstract: Electroencephalography (EEG) analysis extends beyond assigning predefined labels to recordings; it requires workflows connecting natural-language instructions, signal processing, q...",
+      "source": "arXiv cs.AI",
+      "url": "https://arxiv.org/abs/2608.04156",
+      "publishedAt": "2026-08-06T04:00:00.000Z",
+      "impact": 58
+    },
     {
       "id": "aether-grok43",
       "type": "premium",
@@ -11,8 +77,19 @@
       "excerpt": "New model demonstrates 4.2× improvement on multi-step software engineering benchmarks and sustains coherent agent trajectories beyond 110k tokens.",
       "source": "xAI",
       "url": "https://x.ai/blog/grok-4.3",
-      "publishedAt": "2026-08-05T22:13:42.826Z",
+      "publishedAt": "2026-08-06T03:45:46.150Z",
       "impact": 96
+    },
+    {
+      "id": "marktechpost-1785976662000-0",
+      "type": "live",
+      "category": "llm",
+      "title": "Microsoft’s SkillOpt Shows Optimized Agent Skill Artifacts Transfer Across Model Scales and Between Codex and Claude Code Harnesses",
+      "excerpt": "Most coverage of Microsoft's SkillOpt centers on its 52/52 result.  The more consequential finding is in Section 4",
+      "source": "MarkTechPost",
+      "url": "https://www.marktechpost.com/2026/08/05/microsoft-skillopt-agent-skill-transfer-portability/",
+      "publishedAt": "2026-08-06T00:37:42.000Z",
+      "impact": 77
     },
     {
       "id": "aether-figure03",
@@ -22,8 +99,30 @@
       "excerpt": "Humanoid achieves new milestone in unsupervised operation, performing 1,240 unique tasks across three assembly lines at the BMW South Carolina plant.",
       "source": "Figure AI",
       "url": "https://figure.ai/news/03-milestone",
-      "publishedAt": "2026-08-05T18:13:42.827Z",
+      "publishedAt": "2026-08-05T23:45:46.150Z",
       "impact": 89
+    },
+    {
+      "id": "marktechpost-1785966963000-1",
+      "type": "live",
+      "category": "safety",
+      "title": "End-to-End Bayesian Marketing Mix Modeling with Google Meridian: Media Measurement, ROI Analysis, and Budget Optimization",
+      "excerpt": "In this tutorial, we build a complete Bayesian marketing mix modeling workflow using Google Meridian.  We begin by installing the required libraries, verifying GPU availability, and exploring a geo-level marketing dat...",
+      "source": "MarkTechPost",
+      "url": "https://www.marktechpost.com/2026/08/05/end-to-end-bayesian-marketing-mix-modeling-with-google-meridian-media-measurement-roi-analysis-and-budget-optimization/",
+      "publishedAt": "2026-08-05T21:56:03.000Z",
+      "impact": 65
+    },
+    {
+      "id": "marktechpost-1785960452000-2",
+      "type": "live",
+      "category": "llm",
+      "title": "Meta AI Releases Muse Code (Beta): A Terminal Coding Agent Powered by the New Muse Spark 1.2 Model",
+      "excerpt": "Meta Superintelligence Labs has released Muse Code, a terminal coding agent in beta, powered by the new Muse Spark 1.  Muse Code plans changes, writes code, and validates results across large repositories",
+      "source": "MarkTechPost",
+      "url": "https://www.marktechpost.com/2026/08/05/meta-superintelligence-labs-releases-muse-code/",
+      "publishedAt": "2026-08-05T20:07:32.000Z",
+      "impact": 77
     },
     {
       "id": "aether-interp",
@@ -33,74 +132,19 @@
       "excerpt": "Researchers reverse-engineered 312 million features inside the model, including the first clear \"deception circuit\" discovered in a frontier model.",
       "source": "Anthropic",
       "url": "https://anthropic.com/research/claude-4-interp",
-      "publishedAt": "2026-08-05T13:13:42.827Z",
+      "publishedAt": "2026-08-05T18:45:46.150Z",
       "impact": 91
     },
     {
-      "id": "arxiv-cs.ai-1785902400000-0",
-      "type": "live",
-      "category": "llm",
-      "title": "ISEE: Interactive Semantic Enrichment for Database Fields",
-      "excerpt": "02604v1 Announce Type: new Abstract: LLM-based agents are increasingly being deployed for data-related tasks, including data sense-making, exploration, and retrieval.  However, their performance heavily depends on the...",
-      "source": "arXiv cs.AI",
-      "url": "https://arxiv.org/abs/2608.02604",
-      "publishedAt": "2026-08-05T04:00:00.000Z",
-      "impact": 58
-    },
-    {
-      "id": "arxiv-cs.ai-1785902400000-1",
+      "id": "marktechpost-1785918311000-3",
       "type": "live",
       "category": "robotics",
-      "title": "Self-Organising Digital Circuits",
-      "excerpt": "02606v1 Announce Type: new Abstract: Fault tolerance in classical computing has traditionally relied on static strategies like hardware redundancy and error-correcting codes.  Biological systems, in contrast, exhibit ...",
-      "source": "arXiv cs.AI",
-      "url": "https://arxiv.org/abs/2608.02606",
-      "publishedAt": "2026-08-05T04:00:00.000Z",
-      "impact": 58
-    },
-    {
-      "id": "arxiv-cs.ai-1785902400000-2",
-      "type": "live",
-      "category": "llm",
-      "title": "Beyond the Hivemind: Escaping LLM Homogeneity via Meta-Persona Anchoring and Sequential Temperature Scaling",
-      "excerpt": "02618v1 Announce Type: new Abstract: Recent studies have identified an ``Artificial Hivemind'' effect in Large Language Models (LLMs) causing models to converge on a narrow, homogenized consensus even for open questio...",
-      "source": "arXiv cs.AI",
-      "url": "https://arxiv.org/abs/2608.02618",
-      "publishedAt": "2026-08-05T04:00:00.000Z",
-      "impact": 58
-    },
-    {
-      "id": "arxiv-cs.ai-1785902400000-3",
-      "type": "live",
-      "category": "safety",
-      "title": "PULSE: An Executable Contract Language for Spatiotemporal Knowledge Graph Engineering",
-      "excerpt": "02630v1 Announce Type: new Abstract: Knowledge graph engineering often distributes accepted state, observations, constraints, processes, and hypothetical scenarios across artifacts whose combined execution contract re...",
-      "source": "arXiv cs.AI",
-      "url": "https://arxiv.org/abs/2608.02630",
-      "publishedAt": "2026-08-05T04:00:00.000Z",
-      "impact": 58
-    },
-    {
-      "id": "arxiv-cs.ai-1785902400000-4",
-      "type": "live",
-      "category": "llm",
-      "title": "HyperAgent: Planning and Acting over Tool-Schema Hypergraphs for Tool-Use LLM Agents",
-      "excerpt": "02650v1 Announce Type: new Abstract: Large language model (LLM) agents increasingly rely on external tools to complete complex real-world tasks.  However, reliable tool-use planning remains challenging due to the limi...",
-      "source": "arXiv cs.AI",
-      "url": "https://arxiv.org/abs/2608.02650",
-      "publishedAt": "2026-08-05T04:00:00.000Z",
-      "impact": 69
-    },
-    {
-      "id": "arxiv-cs.ai-1785902400000-5",
-      "type": "live",
-      "category": "research",
-      "title": "Explainable AI for the EU Right to Explanation: A Systematic Review of the Law-XAI Translation Gap",
-      "excerpt": "02699v1 Announce Type: new Abstract: When algorithms make or influence consequential decisions---about loan eligibility, hiring, or healthcare---EU law grants affected individuals a Right to Explanation.  Yet whether ...",
-      "source": "arXiv cs.AI",
-      "url": "https://arxiv.org/abs/2608.02699",
-      "publishedAt": "2026-08-05T04:00:00.000Z",
-      "impact": 58
+      "title": "NVIDIA Releases Alpamayo 2 Super: A 34B Open Vision-Language-Action Model for Robotaxis and Autonomous Driving Under OpenMDW-1.1",
+      "excerpt": "NVIDIA released Alpamayo 2 Super, a 34B vision-language-action model for autonomous driving, under OpenMDW-1. 1 — a permissive license covering fine-tuning, derivatives and commercial redistribution",
+      "source": "MarkTechPost",
+      "url": "https://www.marktechpost.com/2026/08/05/nvidia-alpamayo-2-super-open-vla-model-autonomous-driving/",
+      "publishedAt": "2026-08-05T08:25:11.000Z",
+      "impact": 65
     },
     {
       "id": "hugging-face-1785851909000-0",

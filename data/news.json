@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-05T19:42:54.006Z",
+  "lastUpdated": "2026-08-06T03:13:43.327Z",
   "source": "AETHER + Public RSS (arXiv, Hugging Face, MarkTechPost, Ben's Bites)",
   "count": 12,
   "articles": [
@@ -11,7 +11,7 @@
       "excerpt": "New model demonstrates 4.2× improvement on multi-step software engineering benchmarks and sustains coherent agent trajectories beyond 110k tokens.",
       "source": "xAI",
       "url": "https://x.ai/blog/grok-4.3",
-      "publishedAt": "2026-08-05T14:42:53.598Z",
+      "publishedAt": "2026-08-05T22:13:42.826Z",
       "impact": 96
     },
     {
@@ -22,7 +22,7 @@
       "excerpt": "Humanoid achieves new milestone in unsupervised operation, performing 1,240 unique tasks across three assembly lines at the BMW South Carolina plant.",
       "source": "Figure AI",
       "url": "https://figure.ai/news/03-milestone",
-      "publishedAt": "2026-08-05T10:42:53.599Z",
+      "publishedAt": "2026-08-05T18:13:42.827Z",
       "impact": 89
     },
     {
@@ -33,50 +33,50 @@
       "excerpt": "Researchers reverse-engineered 312 million features inside the model, including the first clear \"deception circuit\" discovered in a frontier model.",
       "source": "Anthropic",
       "url": "https://anthropic.com/research/claude-4-interp",
-      "publishedAt": "2026-08-05T05:42:53.599Z",
+      "publishedAt": "2026-08-05T13:13:42.827Z",
       "impact": 91
     },
     {
       "id": "arxiv-cs.ai-1785902400000-0",
       "type": "live",
-      "category": "safety",
-      "title": "Revisiting Classic Thought Experiments to Measure Consciousness for Artificial Intelligence Safety",
-      "excerpt": "00001v1 Announce Type: new Abstract: This research note revisits Leibniz's mill, Turing's imitation game, and Searle's Chinese Room through the Conservation-Congruent Encoding (CCE) framework.  It formalises a toy sym...",
+      "category": "llm",
+      "title": "ISEE: Interactive Semantic Enrichment for Database Fields",
+      "excerpt": "02604v1 Announce Type: new Abstract: LLM-based agents are increasingly being deployed for data-related tasks, including data sense-making, exploration, and retrieval.  However, their performance heavily depends on the...",
       "source": "arXiv cs.AI",
-      "url": "https://arxiv.org/abs/2608.00001",
+      "url": "https://arxiv.org/abs/2608.02604",
       "publishedAt": "2026-08-05T04:00:00.000Z",
       "impact": 58
     },
     {
       "id": "arxiv-cs.ai-1785902400000-1",
       "type": "live",
-      "category": "llm",
-      "title": "AutoFOAM: The Self-Refining Autonomous OpenFOAM Agent",
-      "excerpt": "00003v1 Announce Type: new Abstract: Computational Fluid Dynamics (CFD) plays an important role in modern engineering, but using open-source solvers such as OpenFOAM requires considerable knowledge and skills, as well...",
+      "category": "robotics",
+      "title": "Self-Organising Digital Circuits",
+      "excerpt": "02606v1 Announce Type: new Abstract: Fault tolerance in classical computing has traditionally relied on static strategies like hardware redundancy and error-correcting codes.  Biological systems, in contrast, exhibit ...",
       "source": "arXiv cs.AI",
-      "url": "https://arxiv.org/abs/2608.00003",
+      "url": "https://arxiv.org/abs/2608.02606",
       "publishedAt": "2026-08-05T04:00:00.000Z",
-      "impact": 69
+      "impact": 58
     },
     {
       "id": "arxiv-cs.ai-1785902400000-2",
       "type": "live",
-      "category": "safety",
-      "title": "Enhancing LLMs with Context-Specific Knowledge for Mitigating Misinformation in SMEs: A RAG-based Modeling and Analysis",
-      "excerpt": "00006v1 Announce Type: new Abstract: Large Language Models (LLMs), a part of artificial intelligence (AI), are increasingly being adopted by Small and Medium Enterprises (SMEs) to enhance question-answering capabiliti...",
+      "category": "llm",
+      "title": "Beyond the Hivemind: Escaping LLM Homogeneity via Meta-Persona Anchoring and Sequential Temperature Scaling",
+      "excerpt": "02618v1 Announce Type: new Abstract: Recent studies have identified an ``Artificial Hivemind'' effect in Large Language Models (LLMs) causing models to converge on a narrow, homogenized consensus even for open questio...",
       "source": "arXiv cs.AI",
-      "url": "https://arxiv.org/abs/2608.00006",
+      "url": "https://arxiv.org/abs/2608.02618",
       "publishedAt": "2026-08-05T04:00:00.000Z",
       "impact": 58
     },
     {
       "id": "arxiv-cs.ai-1785902400000-3",
       "type": "live",
-      "category": "hardware",
-      "title": "Energy Efficiency of Locally Deployed LLMs: A Preliminary Quantitative GPU Power Benchmark on Consumer Hardware",
-      "excerpt": "00008v1 Announce Type: new Abstract: The local deployment of large language models (LLMs) is gaining traction due to privacy concerns and the desire for on-premise inference.  However, the energy costs on consumer har...",
+      "category": "safety",
+      "title": "PULSE: An Executable Contract Language for Spatiotemporal Knowledge Graph Engineering",
+      "excerpt": "02630v1 Announce Type: new Abstract: Knowledge graph engineering often distributes accepted state, observations, constraints, processes, and hypothetical scenarios across artifacts whose combined execution contract re...",
       "source": "arXiv cs.AI",
-      "url": "https://arxiv.org/abs/2608.00008",
+      "url": "https://arxiv.org/abs/2608.02630",
       "publishedAt": "2026-08-05T04:00:00.000Z",
       "impact": 58
     },
@@ -84,21 +84,21 @@
       "id": "arxiv-cs.ai-1785902400000-4",
       "type": "live",
       "category": "llm",
-      "title": "CoT-Core: Accelerating LLM Evaluation via CoT-Aware Coreset Selection",
-      "excerpt": "00014v1 Announce Type: new Abstract: Evaluating Large Language Models (LLMs) incurs prohibitive computational overhead during continuous development processes.  While coreset selection accelerates evaluation, existing...",
+      "title": "HyperAgent: Planning and Acting over Tool-Schema Hypergraphs for Tool-Use LLM Agents",
+      "excerpt": "02650v1 Announce Type: new Abstract: Large language model (LLM) agents increasingly rely on external tools to complete complex real-world tasks.  However, reliable tool-use planning remains challenging due to the limi...",
       "source": "arXiv cs.AI",
-      "url": "https://arxiv.org/abs/2608.00014",
+      "url": "https://arxiv.org/abs/2608.02650",
       "publishedAt": "2026-08-05T04:00:00.000Z",
-      "impact": 58
+      "impact": 69
     },
     {
       "id": "arxiv-cs.ai-1785902400000-5",
       "type": "live",
-      "category": "llm",
-      "title": "Optimization and Constraint Modeling using LLMs with a Retrieval Augmented Generation Process",
-      "excerpt": "00015v1 Announce Type: new Abstract: Both optimization modeling and constraint modeling are non-trivial problems requiring deep domain expertise and proficiency in modeling formalism languages.  Despite their importan...",
+      "category": "research",
+      "title": "Explainable AI for the EU Right to Explanation: A Systematic Review of the Law-XAI Translation Gap",
+      "excerpt": "02699v1 Announce Type: new Abstract: When algorithms make or influence consequential decisions---about loan eligibility, hiring, or healthcare---EU law grants affected individuals a Right to Explanation.  Yet whether ...",
       "source": "arXiv cs.AI",
-      "url": "https://arxiv.org/abs/2608.00015",
+      "url": "https://arxiv.org/abs/2608.02699",
       "publishedAt": "2026-08-05T04:00:00.000Z",
       "impact": 58
     },

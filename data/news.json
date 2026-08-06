@@ -1,8 +1,41 @@
 {
-  "lastUpdated": "2026-08-06T08:45:47.174Z",
+  "lastUpdated": "2026-08-06T14:25:18.071Z",
   "source": "AETHER + Public RSS (arXiv, Hugging Face, MarkTechPost, Ben's Bites)",
   "count": 16,
   "articles": [
+    {
+      "id": "aether-grok43",
+      "type": "premium",
+      "category": "llm",
+      "title": "xAI releases Grok-4.3 with native long-horizon agent scaffolding",
+      "excerpt": "New model demonstrates 4.2× improvement on multi-step software engineering benchmarks and sustains coherent agent trajectories beyond 110k tokens.",
+      "source": "xAI",
+      "url": "https://x.ai/blog/grok-4.3",
+      "publishedAt": "2026-08-06T09:25:16.763Z",
+      "impact": 96
+    },
+    {
+      "id": "marktechpost-1786006808000-0",
+      "type": "live",
+      "category": "llm",
+      "title": "Prime Intellect Releases Prime Agent: An Open-Source RLM Harness Where Sub-Agents Are Function Calls Inside Persistent IPython Kernel",
+      "excerpt": "Prime Intellect has open-sourced Prime Agent, a coding and research harness built on two abstractions: the Recursive Language Model, which turns sub-agent calls into functions inside a persistent IPython kernel, and t...",
+      "source": "MarkTechPost",
+      "url": "https://www.marktechpost.com/2026/08/06/prime-intellect-releases-prime-agent/",
+      "publishedAt": "2026-08-06T09:00:08.000Z",
+      "impact": 77
+    },
+    {
+      "id": "aether-figure03",
+      "type": "premium",
+      "category": "robotics",
+      "title": "Figure 03 completes 43-hour autonomous factory shift with zero interventions",
+      "excerpt": "Humanoid achieves new milestone in unsupervised operation, performing 1,240 unique tasks across three assembly lines at the BMW South Carolina plant.",
+      "source": "Figure AI",
+      "url": "https://figure.ai/news/03-milestone",
+      "publishedAt": "2026-08-06T05:25:16.763Z",
+      "impact": 89
+    },
     {
       "id": "arxiv-cs.ai-1785988800000-0",
       "type": "live",
@@ -70,18 +103,7 @@
       "impact": 58
     },
     {
-      "id": "aether-grok43",
-      "type": "premium",
-      "category": "llm",
-      "title": "xAI releases Grok-4.3 with native long-horizon agent scaffolding",
-      "excerpt": "New model demonstrates 4.2× improvement on multi-step software engineering benchmarks and sustains coherent agent trajectories beyond 110k tokens.",
-      "source": "xAI",
-      "url": "https://x.ai/blog/grok-4.3",
-      "publishedAt": "2026-08-06T03:45:46.150Z",
-      "impact": 96
-    },
-    {
-      "id": "marktechpost-1785976662000-0",
+      "id": "marktechpost-1785976662000-1",
       "type": "live",
       "category": "llm",
       "title": "Microsoft’s SkillOpt Shows Optimized Agent Skill Artifacts Transfer Across Model Scales and Between Codex and Claude Code Harnesses",
@@ -92,18 +114,29 @@
       "impact": 77
     },
     {
-      "id": "aether-figure03",
+      "id": "aether-interp",
       "type": "premium",
-      "category": "robotics",
-      "title": "Figure 03 completes 43-hour autonomous factory shift with zero interventions",
-      "excerpt": "Humanoid achieves new milestone in unsupervised operation, performing 1,240 unique tasks across three assembly lines at the BMW South Carolina plant.",
-      "source": "Figure AI",
-      "url": "https://figure.ai/news/03-milestone",
-      "publishedAt": "2026-08-05T23:45:46.150Z",
-      "impact": 89
+      "category": "safety",
+      "title": "Anthropic publishes unprecedented mechanistic interpretability map of Claude 4",
+      "excerpt": "Researchers reverse-engineered 312 million features inside the model, including the first clear \"deception circuit\" discovered in a frontier model.",
+      "source": "Anthropic",
+      "url": "https://anthropic.com/research/claude-4-interp",
+      "publishedAt": "2026-08-06T00:25:16.763Z",
+      "impact": 91
     },
     {
-      "id": "marktechpost-1785966963000-1",
+      "id": "hugging-face-1785974400000-0",
+      "type": "live",
+      "category": "research",
+      "title": "Baseten on Hugging Face Inference Providers 🔥",
+      "excerpt": "New development from the frontier.",
+      "source": "Hugging Face",
+      "url": "https://huggingface.co/blog/baseten",
+      "publishedAt": "2026-08-06T00:00:00.000Z",
+      "impact": 75
+    },
+    {
+      "id": "marktechpost-1785966963000-2",
       "type": "live",
       "category": "safety",
       "title": "End-to-End Bayesian Marketing Mix Modeling with Google Meridian: Media Measurement, ROI Analysis, and Budget Optimization",
@@ -114,7 +147,7 @@
       "impact": 65
     },
     {
-      "id": "marktechpost-1785960452000-2",
+      "id": "marktechpost-1785960452000-3",
       "type": "live",
       "category": "llm",
       "title": "Meta AI Releases Muse Code (Beta): A Terminal Coding Agent Powered by the New Muse Spark 1.2 Model",
@@ -125,29 +158,7 @@
       "impact": 77
     },
     {
-      "id": "aether-interp",
-      "type": "premium",
-      "category": "safety",
-      "title": "Anthropic publishes unprecedented mechanistic interpretability map of Claude 4",
-      "excerpt": "Researchers reverse-engineered 312 million features inside the model, including the first clear \"deception circuit\" discovered in a frontier model.",
-      "source": "Anthropic",
-      "url": "https://anthropic.com/research/claude-4-interp",
-      "publishedAt": "2026-08-05T18:45:46.150Z",
-      "impact": 91
-    },
-    {
-      "id": "marktechpost-1785918311000-3",
-      "type": "live",
-      "category": "robotics",
-      "title": "NVIDIA Releases Alpamayo 2 Super: A 34B Open Vision-Language-Action Model for Robotaxis and Autonomous Driving Under OpenMDW-1.1",
-      "excerpt": "NVIDIA released Alpamayo 2 Super, a 34B vision-language-action model for autonomous driving, under OpenMDW-1. 1 — a permissive license covering fine-tuning, derivatives and commercial redistribution",
-      "source": "MarkTechPost",
-      "url": "https://www.marktechpost.com/2026/08/05/nvidia-alpamayo-2-super-open-vla-model-autonomous-driving/",
-      "publishedAt": "2026-08-05T08:25:11.000Z",
-      "impact": 65
-    },
-    {
-      "id": "hugging-face-1785851909000-0",
+      "id": "hugging-face-1785851909000-1",
       "type": "live",
       "category": "research",
       "title": "Deploy local agents everywhere with LFM2.5-2.6B",
@@ -158,7 +169,7 @@
       "impact": 87
     },
     {
-      "id": "hugging-face-1785424149000-1",
+      "id": "hugging-face-1785424149000-2",
       "type": "live",
       "category": "hardware",
       "title": "GPU Management: Why Idle GPUs Are the New Grounded Aircraft",
@@ -166,17 +177,6 @@
       "source": "Hugging Face",
       "url": "https://huggingface.co/blog/Dharma-AI/gpu-management",
       "publishedAt": "2026-07-30T15:09:09.000Z",
-      "impact": 75
-    },
-    {
-      "id": "hugging-face-1785256062000-2",
-      "type": "live",
-      "category": "research",
-      "title": "The OlmoEarth Platform: Geospatial inference at planetary scale",
-      "excerpt": "New development from the frontier.",
-      "source": "Hugging Face",
-      "url": "https://huggingface.co/blog/allenai/olmoearth-infrastructure",
-      "publishedAt": "2026-07-28T16:27:42.000Z",
       "impact": 75
     }
   ]

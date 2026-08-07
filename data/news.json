@@ -1,8 +1,41 @@
 {
-  "lastUpdated": "2026-08-07T07:24:32.288Z",
+  "lastUpdated": "2026-08-07T13:15:42.308Z",
   "source": "AETHER + Public RSS (arXiv, Hugging Face, MarkTechPost, Ben's Bites)",
-  "count": 12,
+  "count": 16,
   "articles": [
+    {
+      "id": "aether-grok43",
+      "type": "premium",
+      "category": "llm",
+      "title": "xAI releases Grok-4.3 with native long-horizon agent scaffolding",
+      "excerpt": "New model demonstrates 4.2× improvement on multi-step software engineering benchmarks and sustains coherent agent trajectories beyond 110k tokens.",
+      "source": "xAI",
+      "url": "https://x.ai/blog/grok-4.3",
+      "publishedAt": "2026-08-07T08:15:41.306Z",
+      "impact": 96
+    },
+    {
+      "id": "marktechpost-1786081365000-0",
+      "type": "live",
+      "category": "llm",
+      "title": "Microsoft Open Sources code-testing-generator: a Polyglot Unit-Test Agent That Hits 92.1% Task Completion Versus 78.9% for Stock Copilot",
+      "excerpt": "Microsoft has open sourced code-testing-generator, a polyglot unit-test agent shipping in the MIT-licensed dotnet/skills repository.  It reads a repository before writing anything — detecting the language, test framew...",
+      "source": "MarkTechPost",
+      "url": "https://www.marktechpost.com/2026/08/06/microsoft-open-sources-code-testing-generator/",
+      "publishedAt": "2026-08-07T05:42:45.000Z",
+      "impact": 77
+    },
+    {
+      "id": "aether-figure03",
+      "type": "premium",
+      "category": "robotics",
+      "title": "Figure 03 completes 43-hour autonomous factory shift with zero interventions",
+      "excerpt": "Humanoid achieves new milestone in unsupervised operation, performing 1,240 unique tasks across three assembly lines at the BMW South Carolina plant.",
+      "source": "Figure AI",
+      "url": "https://figure.ai/news/03-milestone",
+      "publishedAt": "2026-08-07T04:15:41.307Z",
+      "impact": 89
+    },
     {
       "id": "arxiv-cs.ai-1786075200000-0",
       "type": "live",
@@ -70,26 +103,15 @@
       "impact": 58
     },
     {
-      "id": "aether-grok43",
-      "type": "premium",
+      "id": "marktechpost-1786074147000-1",
+      "type": "live",
       "category": "llm",
-      "title": "xAI releases Grok-4.3 with native long-horizon agent scaffolding",
-      "excerpt": "New model demonstrates 4.2× improvement on multi-step software engineering benchmarks and sustains coherent agent trajectories beyond 110k tokens.",
-      "source": "xAI",
-      "url": "https://x.ai/blog/grok-4.3",
-      "publishedAt": "2026-08-07T02:24:31.883Z",
-      "impact": 96
-    },
-    {
-      "id": "aether-figure03",
-      "type": "premium",
-      "category": "robotics",
-      "title": "Figure 03 completes 43-hour autonomous factory shift with zero interventions",
-      "excerpt": "Humanoid achieves new milestone in unsupervised operation, performing 1,240 unique tasks across three assembly lines at the BMW South Carolina plant.",
-      "source": "Figure AI",
-      "url": "https://figure.ai/news/03-milestone",
-      "publishedAt": "2026-08-06T22:24:31.883Z",
-      "impact": 89
+      "title": "Liquid AI Releases LFM2.5-2.6B: An On-Device Agentic Model With 128K Context, Tool Calling, And Open Weights",
+      "excerpt": "Liquid AI released LFM2. 6B, an agentic model that plans, calls tools, and completes multi-step tasks entirely on-device",
+      "source": "MarkTechPost",
+      "url": "https://www.marktechpost.com/2026/08/06/liquid-ai-lfm2-5-2-6b-on-device-agentic-model/",
+      "publishedAt": "2026-08-07T03:42:27.000Z",
+      "impact": 77
     },
     {
       "id": "aether-interp",
@@ -99,8 +121,30 @@
       "excerpt": "Researchers reverse-engineered 312 million features inside the model, including the first clear \"deception circuit\" discovered in a frontier model.",
       "source": "Anthropic",
       "url": "https://anthropic.com/research/claude-4-interp",
-      "publishedAt": "2026-08-06T17:24:31.883Z",
+      "publishedAt": "2026-08-06T23:15:41.307Z",
       "impact": 91
+    },
+    {
+      "id": "marktechpost-1786044932000-2",
+      "type": "live",
+      "category": "research",
+      "title": "Cloudflare Introduces Kitesurf: An Agent-First Web Browser That Runs Entirely in V8 Isolates on Cloudflare Workers",
+      "excerpt": "Cloudflare has released Kitesurf, a stateless web browser built specifically for AI agents that runs entirely in V8 isolates on Cloudflare Workers, with no Chromium underneath.  The browser drops human-facing features...",
+      "source": "MarkTechPost",
+      "url": "https://www.marktechpost.com/2026/08/06/cloudflare-introduces-kitesurf-an-agent-first-web-browser-that-runs-entirely-in-v8-isolates-on-cloudflare-workers/",
+      "publishedAt": "2026-08-06T19:35:32.000Z",
+      "impact": 77
+    },
+    {
+      "id": "marktechpost-1786036672000-3",
+      "type": "live",
+      "category": "llm",
+      "title": "Adaptive Experimentation with Meta’s Ax: A Practical Coding Guide",
+      "excerpt": "In this tutorial, we explore adaptive experimentation using Meta’s Ax with the modern Client API.  We work through a complete workflow where we tune a RandomForest model on a synthetic classification dataset while bal...",
+      "source": "MarkTechPost",
+      "url": "https://www.marktechpost.com/2026/08/06/adaptive-experimentation-with-metas-ax-a-practical-coding-guide/",
+      "publishedAt": "2026-08-06T17:17:52.000Z",
+      "impact": 65
     },
     {
       "id": "hugging-face-1785974400000-0",

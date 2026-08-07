@@ -1,8 +1,74 @@
 {
-  "lastUpdated": "2026-08-06T14:25:18.071Z",
+  "lastUpdated": "2026-08-07T07:24:32.288Z",
   "source": "AETHER + Public RSS (arXiv, Hugging Face, MarkTechPost, Ben's Bites)",
-  "count": 16,
+  "count": 12,
   "articles": [
+    {
+      "id": "arxiv-cs.ai-1786075200000-0",
+      "type": "live",
+      "category": "robotics",
+      "title": "Agentic Nesting: A New Methodology for Existing Enterprise Application Integration and Services",
+      "excerpt": "05159v1 Announce Type: new Abstract: Enterprise operations extensively rely on multiple heterogeneous business systems and information applications, which also result in severe data silos and process fragmentation.  E...",
+      "source": "arXiv cs.AI",
+      "url": "https://arxiv.org/abs/2608.05159",
+      "publishedAt": "2026-08-07T04:00:00.000Z",
+      "impact": 69
+    },
+    {
+      "id": "arxiv-cs.ai-1786075200000-1",
+      "type": "live",
+      "category": "safety",
+      "title": "The Ignition Index: Measuring Global Workspace Dynamics in Language Models",
+      "excerpt": "05160v1 Announce Type: new Abstract: We introduce the Ignition Index (I), a validated scalar metric that operationalizes Global Workspace Theory's (GWT) all-or-none ignition prediction in transformer language models. ...",
+      "source": "arXiv cs.AI",
+      "url": "https://arxiv.org/abs/2608.05160",
+      "publishedAt": "2026-08-07T04:00:00.000Z",
+      "impact": 58
+    },
+    {
+      "id": "arxiv-cs.ai-1786075200000-2",
+      "type": "live",
+      "category": "llm",
+      "title": "Woodpecker Distillation: Weak Models Diagnose Reasoning Bugs in Strong Models",
+      "excerpt": "05168v1 Announce Type: new Abstract: Large language models often fail on reasoning tasks despite possessing the capability to solve them.  We argue that many such failures arise from localized reasoning bugs in interm...",
+      "source": "arXiv cs.AI",
+      "url": "https://arxiv.org/abs/2608.05168",
+      "publishedAt": "2026-08-07T04:00:00.000Z",
+      "impact": 58
+    },
+    {
+      "id": "arxiv-cs.ai-1786075200000-3",
+      "type": "live",
+      "category": "safety",
+      "title": "From Continuous Predictors to Clinical Thresholds: Early Evidence on Performance Trade-offs of Guideline-Based Categorisation for Ischaemic Stroke Outcome Prediction",
+      "excerpt": "05203v1 Announce Type: new Abstract: Machine learning models achieve strong predictive accuracy for 90-day outcome prediction in acute ischaemic stroke, yet clinical adoption is limited by the misalignment of model ex...",
+      "source": "arXiv cs.AI",
+      "url": "https://arxiv.org/abs/2608.05203",
+      "publishedAt": "2026-08-07T04:00:00.000Z",
+      "impact": 58
+    },
+    {
+      "id": "arxiv-cs.ai-1786075200000-4",
+      "type": "live",
+      "category": "llm",
+      "title": "SkillTrace: Multi-Trace Provenance Auditing for LLM-Agent Skill Reuse",
+      "excerpt": "05204v1 Announce Type: new Abstract: LLM-agent ecosystems are rapidly growing around reusable skills: mixed-modality packages of metadata, natural-language instructions, code, tools, references, and operational workfl...",
+      "source": "arXiv cs.AI",
+      "url": "https://arxiv.org/abs/2608.05204",
+      "publishedAt": "2026-08-07T04:00:00.000Z",
+      "impact": 69
+    },
+    {
+      "id": "arxiv-cs.ai-1786075200000-5",
+      "type": "live",
+      "category": "research",
+      "title": "Abstract Event Causal Rules: Induction and Application",
+      "excerpt": "05205v1 Announce Type: new Abstract: Event-centric intelligent analytical systems heavily depend on explicit causal event knowledge for risk early warning, decision-making support and narrative comprehension.  Neverth...",
+      "source": "arXiv cs.AI",
+      "url": "https://arxiv.org/abs/2608.05205",
+      "publishedAt": "2026-08-07T04:00:00.000Z",
+      "impact": 58
+    },
     {
       "id": "aether-grok43",
       "type": "premium",
@@ -11,19 +77,8 @@
       "excerpt": "New model demonstrates 4.2× improvement on multi-step software engineering benchmarks and sustains coherent agent trajectories beyond 110k tokens.",
       "source": "xAI",
       "url": "https://x.ai/blog/grok-4.3",
-      "publishedAt": "2026-08-06T09:25:16.763Z",
+      "publishedAt": "2026-08-07T02:24:31.883Z",
       "impact": 96
-    },
-    {
-      "id": "marktechpost-1786006808000-0",
-      "type": "live",
-      "category": "llm",
-      "title": "Prime Intellect Releases Prime Agent: An Open-Source RLM Harness Where Sub-Agents Are Function Calls Inside Persistent IPython Kernel",
-      "excerpt": "Prime Intellect has open-sourced Prime Agent, a coding and research harness built on two abstractions: the Recursive Language Model, which turns sub-agent calls into functions inside a persistent IPython kernel, and t...",
-      "source": "MarkTechPost",
-      "url": "https://www.marktechpost.com/2026/08/06/prime-intellect-releases-prime-agent/",
-      "publishedAt": "2026-08-06T09:00:08.000Z",
-      "impact": 77
     },
     {
       "id": "aether-figure03",
@@ -33,85 +88,8 @@
       "excerpt": "Humanoid achieves new milestone in unsupervised operation, performing 1,240 unique tasks across three assembly lines at the BMW South Carolina plant.",
       "source": "Figure AI",
       "url": "https://figure.ai/news/03-milestone",
-      "publishedAt": "2026-08-06T05:25:16.763Z",
+      "publishedAt": "2026-08-06T22:24:31.883Z",
       "impact": 89
-    },
-    {
-      "id": "arxiv-cs.ai-1785988800000-0",
-      "type": "live",
-      "category": "llm",
-      "title": "A Long-Run Persistence Theory for AI Systems under the Redundancy-Adjusted Artificial Age Score (AAS)",
-      "excerpt": "04012v1 Announce Type: new Abstract: Artificial intelligence systems are increasingly expected to operate over repeated cycles of interaction, adaptation, and update rather than through isolated one-shot outputs.  Thi...",
-      "source": "arXiv cs.AI",
-      "url": "https://arxiv.org/abs/2608.04012",
-      "publishedAt": "2026-08-06T04:00:00.000Z",
-      "impact": 58
-    },
-    {
-      "id": "arxiv-cs.ai-1785988800000-1",
-      "type": "live",
-      "category": "llm",
-      "title": "The LLM Proposes, the Executive Disposes: A Self-Verifying Agent Instrument that Dissociates Commitment Drift from Binding Drift in Long-Horizon Agents",
-      "excerpt": "04066v1 Announce Type: new Abstract: How do you verify a long-horizon agent when its own state and self-reports are exactly what you cannot trust.  We present an agent instrument built so that verification is structur...",
-      "source": "arXiv cs.AI",
-      "url": "https://arxiv.org/abs/2608.04066",
-      "publishedAt": "2026-08-06T04:00:00.000Z",
-      "impact": 69
-    },
-    {
-      "id": "arxiv-cs.ai-1785988800000-2",
-      "type": "live",
-      "category": "safety",
-      "title": "Monte Carlo Tree Search for Table-to-Multimodal Report Generation",
-      "excerpt": "04071v1 Announce Type: new Abstract: Automatically generating professional multimodal reports comprising both textual analysis and visual charts from structured tabular data is a critical challenge in data intelligenc...",
-      "source": "arXiv cs.AI",
-      "url": "https://arxiv.org/abs/2608.04071",
-      "publishedAt": "2026-08-06T04:00:00.000Z",
-      "impact": 58
-    },
-    {
-      "id": "arxiv-cs.ai-1785988800000-3",
-      "type": "live",
-      "category": "llm",
-      "title": "FinProBench: Evaluating Financial AI Agents with Role-Grounded Rubrics Derived from Professional Deliverables",
-      "excerpt": "04077v1 Announce Type: new Abstract: Evaluating financial AI agents requires criteria aligned with real professional work.  Existing rubric methods typically derive criteria from task prompts or model outputs, overloo...",
-      "source": "arXiv cs.AI",
-      "url": "https://arxiv.org/abs/2608.04077",
-      "publishedAt": "2026-08-06T04:00:00.000Z",
-      "impact": 69
-    },
-    {
-      "id": "arxiv-cs.ai-1785988800000-4",
-      "type": "live",
-      "category": "llm",
-      "title": "FinPerMA: A Theory-Informed, Event-Grounded Personalized-Memory Benchmark for LLM Agents",
-      "excerpt": "04095v1 Announce Type: new Abstract: Large language model (LLM) agents are increasingly used as personalized assistants in high-stakes domains such as financial advising, yet it remains unclear whether they can mainta...",
-      "source": "arXiv cs.AI",
-      "url": "https://arxiv.org/abs/2608.04095",
-      "publishedAt": "2026-08-06T04:00:00.000Z",
-      "impact": 69
-    },
-    {
-      "id": "arxiv-cs.ai-1785988800000-5",
-      "type": "live",
-      "category": "safety",
-      "title": "BrainBench: Benchmarking Large Language Models for Comprehensive EEG Understanding",
-      "excerpt": "04156v1 Announce Type: new Abstract: Electroencephalography (EEG) analysis extends beyond assigning predefined labels to recordings; it requires workflows connecting natural-language instructions, signal processing, q...",
-      "source": "arXiv cs.AI",
-      "url": "https://arxiv.org/abs/2608.04156",
-      "publishedAt": "2026-08-06T04:00:00.000Z",
-      "impact": 58
-    },
-    {
-      "id": "marktechpost-1785976662000-1",
-      "type": "live",
-      "category": "llm",
-      "title": "Microsoft’s SkillOpt Shows Optimized Agent Skill Artifacts Transfer Across Model Scales and Between Codex and Claude Code Harnesses",
-      "excerpt": "Most coverage of Microsoft's SkillOpt centers on its 52/52 result.  The more consequential finding is in Section 4",
-      "source": "MarkTechPost",
-      "url": "https://www.marktechpost.com/2026/08/05/microsoft-skillopt-agent-skill-transfer-portability/",
-      "publishedAt": "2026-08-06T00:37:42.000Z",
-      "impact": 77
     },
     {
       "id": "aether-interp",
@@ -121,7 +99,7 @@
       "excerpt": "Researchers reverse-engineered 312 million features inside the model, including the first clear \"deception circuit\" discovered in a frontier model.",
       "source": "Anthropic",
       "url": "https://anthropic.com/research/claude-4-interp",
-      "publishedAt": "2026-08-06T00:25:16.763Z",
+      "publishedAt": "2026-08-06T17:24:31.883Z",
       "impact": 91
     },
     {
@@ -134,28 +112,6 @@
       "url": "https://huggingface.co/blog/baseten",
       "publishedAt": "2026-08-06T00:00:00.000Z",
       "impact": 75
-    },
-    {
-      "id": "marktechpost-1785966963000-2",
-      "type": "live",
-      "category": "safety",
-      "title": "End-to-End Bayesian Marketing Mix Modeling with Google Meridian: Media Measurement, ROI Analysis, and Budget Optimization",
-      "excerpt": "In this tutorial, we build a complete Bayesian marketing mix modeling workflow using Google Meridian.  We begin by installing the required libraries, verifying GPU availability, and exploring a geo-level marketing dat...",
-      "source": "MarkTechPost",
-      "url": "https://www.marktechpost.com/2026/08/05/end-to-end-bayesian-marketing-mix-modeling-with-google-meridian-media-measurement-roi-analysis-and-budget-optimization/",
-      "publishedAt": "2026-08-05T21:56:03.000Z",
-      "impact": 65
-    },
-    {
-      "id": "marktechpost-1785960452000-3",
-      "type": "live",
-      "category": "llm",
-      "title": "Meta AI Releases Muse Code (Beta): A Terminal Coding Agent Powered by the New Muse Spark 1.2 Model",
-      "excerpt": "Meta Superintelligence Labs has released Muse Code, a terminal coding agent in beta, powered by the new Muse Spark 1.  Muse Code plans changes, writes code, and validates results across large repositories",
-      "source": "MarkTechPost",
-      "url": "https://www.marktechpost.com/2026/08/05/meta-superintelligence-labs-releases-muse-code/",
-      "publishedAt": "2026-08-05T20:07:32.000Z",
-      "impact": 77
     },
     {
       "id": "hugging-face-1785851909000-1",

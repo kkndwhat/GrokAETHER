@@ -1,8 +1,19 @@
 {
-  "lastUpdated": "2026-08-08T07:01:46.605Z",
+  "lastUpdated": "2026-08-08T12:59:06.685Z",
   "source": "AETHER + Public RSS (arXiv, Hugging Face, MarkTechPost, Ben's Bites)",
-  "count": 6,
+  "count": 10,
   "articles": [
+    {
+      "id": "marktechpost-1786182138000-0",
+      "type": "live",
+      "category": "research",
+      "title": "Designing Scalable Interactive Visualizations with Reflex XY: Composition, Million-Point Rendering, Streaming, Custom Marks, and Export",
+      "excerpt": "Dive into the advanced visualization capabilities of the Reflex XY Python library.  This tutorial guides you through building high-performance, interactive charts—from handling million-point datasets and real-time str...",
+      "source": "MarkTechPost",
+      "url": "https://www.marktechpost.com/2026/08/08/designing-scalable-interactive-visualizations-with-reflex-xy-composition-million-point-rendering-streaming-custom-marks-and-export/",
+      "publishedAt": "2026-08-08T09:42:18.000Z",
+      "impact": 65
+    },
     {
       "id": "aether-grok43",
       "type": "premium",
@@ -11,8 +22,19 @@
       "excerpt": "New model demonstrates 4.2× improvement on multi-step software engineering benchmarks and sustains coherent agent trajectories beyond 110k tokens.",
       "source": "xAI",
       "url": "https://x.ai/blog/grok-4.3",
-      "publishedAt": "2026-08-08T02:01:46.286Z",
+      "publishedAt": "2026-08-08T07:59:05.748Z",
       "impact": 96
+    },
+    {
+      "id": "marktechpost-1786163786000-1",
+      "type": "live",
+      "category": "safety",
+      "title": "Mistral AI Releases Shieldstral 1.0 3B: An Open-Weights Policy-Adaptive Multimodal Safety Classifier Matching Models 7× Its Size",
+      "excerpt": "Mistral AI has released Shieldstral 1. 0 3B, an open-weights, policy-adaptive multimodal safety classifier that frames content moderation as a single yes/no question instead of a fixed harm taxonomy",
+      "source": "MarkTechPost",
+      "url": "https://www.marktechpost.com/2026/08/07/mistral-ai-releases-shieldstral-1-0-3b/",
+      "publishedAt": "2026-08-08T04:36:26.000Z",
+      "impact": 65
     },
     {
       "id": "aether-figure03",
@@ -22,8 +44,41 @@
       "excerpt": "Humanoid achieves new milestone in unsupervised operation, performing 1,240 unique tasks across three assembly lines at the BMW South Carolina plant.",
       "source": "Figure AI",
       "url": "https://figure.ai/news/03-milestone",
-      "publishedAt": "2026-08-07T22:01:46.287Z",
+      "publishedAt": "2026-08-08T03:59:05.748Z",
       "impact": 89
+    },
+    {
+      "id": "aether-interp",
+      "type": "premium",
+      "category": "safety",
+      "title": "Anthropic publishes unprecedented mechanistic interpretability map of Claude 4",
+      "excerpt": "Researchers reverse-engineered 312 million features inside the model, including the first clear \"deception circuit\" discovered in a frontier model.",
+      "source": "Anthropic",
+      "url": "https://anthropic.com/research/claude-4-interp",
+      "publishedAt": "2026-08-07T22:59:05.748Z",
+      "impact": 91
+    },
+    {
+      "id": "marktechpost-1786139568000-2",
+      "type": "live",
+      "category": "llm",
+      "title": "Tencent Cloud Open-Sources TencentDB Agent Memory v2.0: A Team-Level Memory Hub for AI Coding Agents",
+      "excerpt": "Tencent Cloud has open-sourced TencentDB Agent Memory v2. 0, a team-level memory hub that turns conversations, documents and code into four governed, reusable assets — Chat Memory, Skill, LLM-Wiki and Code-Graph",
+      "source": "MarkTechPost",
+      "url": "https://www.marktechpost.com/2026/08/07/tencent-cloud-open-sources-tencentdb-agent-memory-v2-0/",
+      "publishedAt": "2026-08-07T21:52:48.000Z",
+      "impact": 77
+    },
+    {
+      "id": "marktechpost-1786137218000-3",
+      "type": "live",
+      "category": "hardware",
+      "title": "Building a Multimodal RAG Pipeline with NVIDIA NeMo Retriever, Hosted NIMs, LanceDB, Reranking, and Grounded Generation",
+      "excerpt": "In this tutorial, we build an advanced multimodal retrieval-augmented generation pipeline with NVIDIA NeMo Retriever.  We begin by configuring a Python 3",
+      "source": "MarkTechPost",
+      "url": "https://www.marktechpost.com/2026/08/07/building-a-multimodal-rag-pipeline-with-nvidia-nemo-retriever-hosted-nims-lancedb-reranking-and-grounded-generation/",
+      "publishedAt": "2026-08-07T21:13:38.000Z",
+      "impact": 65
     },
     {
       "id": "hugging-face-1786125212000-0",
@@ -35,17 +90,6 @@
       "url": "https://huggingface.co/blog/allenai/tutormoments",
       "publishedAt": "2026-08-07T17:53:32.000Z",
       "impact": 75
-    },
-    {
-      "id": "aether-interp",
-      "type": "premium",
-      "category": "safety",
-      "title": "Anthropic publishes unprecedented mechanistic interpretability map of Claude 4",
-      "excerpt": "Researchers reverse-engineered 312 million features inside the model, including the first clear \"deception circuit\" discovered in a frontier model.",
-      "source": "Anthropic",
-      "url": "https://anthropic.com/research/claude-4-interp",
-      "publishedAt": "2026-08-07T17:01:46.287Z",
-      "impact": 91
     },
     {
       "id": "hugging-face-1785974400000-1",

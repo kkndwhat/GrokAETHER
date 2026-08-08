@@ -1,8 +1,52 @@
 {
-  "lastUpdated": "2026-08-07T19:04:18.101Z",
+  "lastUpdated": "2026-08-08T01:59:54.281Z",
   "source": "AETHER + Public RSS (arXiv, Hugging Face, MarkTechPost, Ben's Bites)",
   "count": 16,
   "articles": [
+    {
+      "id": "marktechpost-1786139568000-0",
+      "type": "live",
+      "category": "llm",
+      "title": "Tencent Cloud Open-Sources TencentDB Agent Memory v2.0: A Team-Level Memory Hub for AI Coding Agents",
+      "excerpt": "Tencent Cloud has open-sourced TencentDB Agent Memory v2. 0, a team-level memory hub that turns conversations, documents and code into four governed, reusable assets — Chat Memory, Skill, LLM-Wiki and Code-Graph",
+      "source": "MarkTechPost",
+      "url": "https://www.marktechpost.com/2026/08/07/tencent-cloud-open-sources-tencentdb-agent-memory-v2-0/",
+      "publishedAt": "2026-08-07T21:52:48.000Z",
+      "impact": 77
+    },
+    {
+      "id": "marktechpost-1786137218000-1",
+      "type": "live",
+      "category": "hardware",
+      "title": "Building a Multimodal RAG Pipeline with NVIDIA NeMo Retriever, Hosted NIMs, LanceDB, Reranking, and Grounded Generation",
+      "excerpt": "In this tutorial, we build an advanced multimodal retrieval-augmented generation pipeline with NVIDIA NeMo Retriever.  We begin by configuring a Python 3",
+      "source": "MarkTechPost",
+      "url": "https://www.marktechpost.com/2026/08/07/building-a-multimodal-rag-pipeline-with-nvidia-nemo-retriever-hosted-nims-lancedb-reranking-and-grounded-generation/",
+      "publishedAt": "2026-08-07T21:13:38.000Z",
+      "impact": 65
+    },
+    {
+      "id": "aether-grok43",
+      "type": "premium",
+      "category": "llm",
+      "title": "xAI releases Grok-4.3 with native long-horizon agent scaffolding",
+      "excerpt": "New model demonstrates 4.2× improvement on multi-step software engineering benchmarks and sustains coherent agent trajectories beyond 110k tokens.",
+      "source": "xAI",
+      "url": "https://x.ai/blog/grok-4.3",
+      "publishedAt": "2026-08-07T20:59:53.438Z",
+      "impact": 96
+    },
+    {
+      "id": "marktechpost-1786135322000-2",
+      "type": "live",
+      "category": "llm",
+      "title": "NVIDIA AI Releases NOOA: An Object-Oriented Python Framework That Turns an AI Agent Into a Single Python Class",
+      "excerpt": "NVIDIA Labs has open-sourced NOOA (NVIDIA Object-Oriented Agents), a model-agnostic Python framework for building AI agents.  Agent development today is split across prompt templates, tool schemas, callback code, and ...",
+      "source": "MarkTechPost",
+      "url": "https://www.marktechpost.com/2026/08/07/nvidia-ai-releases-nooa-an-object-oriented-python-framework/",
+      "publishedAt": "2026-08-07T20:42:02.000Z",
+      "impact": 77
+    },
     {
       "id": "hugging-face-1786125212000-0",
       "type": "live",
@@ -15,17 +59,6 @@
       "impact": 75
     },
     {
-      "id": "aether-grok43",
-      "type": "premium",
-      "category": "llm",
-      "title": "xAI releases Grok-4.3 with native long-horizon agent scaffolding",
-      "excerpt": "New model demonstrates 4.2× improvement on multi-step software engineering benchmarks and sustains coherent agent trajectories beyond 110k tokens.",
-      "source": "xAI",
-      "url": "https://x.ai/blog/grok-4.3",
-      "publishedAt": "2026-08-07T14:04:17.453Z",
-      "impact": 96
-    },
-    {
       "id": "aether-figure03",
       "type": "premium",
       "category": "robotics",
@@ -33,19 +66,8 @@
       "excerpt": "Humanoid achieves new milestone in unsupervised operation, performing 1,240 unique tasks across three assembly lines at the BMW South Carolina plant.",
       "source": "Figure AI",
       "url": "https://figure.ai/news/03-milestone",
-      "publishedAt": "2026-08-07T10:04:17.453Z",
+      "publishedAt": "2026-08-07T16:59:53.438Z",
       "impact": 89
-    },
-    {
-      "id": "marktechpost-1786081365000-0",
-      "type": "live",
-      "category": "llm",
-      "title": "Microsoft Open Sources code-testing-generator: a Polyglot Unit-Test Agent That Hits 92.1% Task Completion Versus 78.9% for Stock Copilot",
-      "excerpt": "Microsoft has open sourced code-testing-generator, a polyglot unit-test agent shipping in the MIT-licensed dotnet/skills repository.  It reads a repository before writing anything — detecting the language, test framew...",
-      "source": "MarkTechPost",
-      "url": "https://www.marktechpost.com/2026/08/06/microsoft-open-sources-code-testing-generator/",
-      "publishedAt": "2026-08-07T05:42:45.000Z",
-      "impact": 77
     },
     {
       "id": "aether-interp",
@@ -55,8 +77,19 @@
       "excerpt": "Researchers reverse-engineered 312 million features inside the model, including the first clear \"deception circuit\" discovered in a frontier model.",
       "source": "Anthropic",
       "url": "https://anthropic.com/research/claude-4-interp",
-      "publishedAt": "2026-08-07T05:04:17.453Z",
+      "publishedAt": "2026-08-07T11:59:53.438Z",
       "impact": 91
+    },
+    {
+      "id": "marktechpost-1786081365000-3",
+      "type": "live",
+      "category": "llm",
+      "title": "Microsoft Open Sources code-testing-generator: a Polyglot Unit-Test Agent That Hits 92.1% Task Completion Versus 78.9% for Stock Copilot",
+      "excerpt": "Microsoft has open sourced code-testing-generator, a polyglot unit-test agent shipping in the MIT-licensed dotnet/skills repository.  It reads a repository before writing anything — detecting the language, test framew...",
+      "source": "MarkTechPost",
+      "url": "https://www.marktechpost.com/2026/08/06/microsoft-open-sources-code-testing-generator/",
+      "publishedAt": "2026-08-07T05:42:45.000Z",
+      "impact": 77
     },
     {
       "id": "arxiv-cs.ai-1786075200000-0",
@@ -123,39 +156,6 @@
       "url": "https://arxiv.org/abs/2608.05205",
       "publishedAt": "2026-08-07T04:00:00.000Z",
       "impact": 58
-    },
-    {
-      "id": "marktechpost-1786074147000-1",
-      "type": "live",
-      "category": "llm",
-      "title": "Liquid AI Releases LFM2.5-2.6B: An On-Device Agentic Model With 128K Context, Tool Calling, And Open Weights",
-      "excerpt": "Liquid AI released LFM2. 6B, an agentic model that plans, calls tools, and completes multi-step tasks entirely on-device",
-      "source": "MarkTechPost",
-      "url": "https://www.marktechpost.com/2026/08/06/liquid-ai-lfm2-5-2-6b-on-device-agentic-model/",
-      "publishedAt": "2026-08-07T03:42:27.000Z",
-      "impact": 77
-    },
-    {
-      "id": "marktechpost-1786044932000-2",
-      "type": "live",
-      "category": "research",
-      "title": "Cloudflare Introduces Kitesurf: An Agent-First Web Browser That Runs Entirely in V8 Isolates on Cloudflare Workers",
-      "excerpt": "Cloudflare has released Kitesurf, a stateless web browser built specifically for AI agents that runs entirely in V8 isolates on Cloudflare Workers, with no Chromium underneath.  The browser drops human-facing features...",
-      "source": "MarkTechPost",
-      "url": "https://www.marktechpost.com/2026/08/06/cloudflare-introduces-kitesurf-an-agent-first-web-browser-that-runs-entirely-in-v8-isolates-on-cloudflare-workers/",
-      "publishedAt": "2026-08-06T19:35:32.000Z",
-      "impact": 77
-    },
-    {
-      "id": "marktechpost-1786036672000-3",
-      "type": "live",
-      "category": "llm",
-      "title": "Adaptive Experimentation with Meta’s Ax: A Practical Coding Guide",
-      "excerpt": "In this tutorial, we explore adaptive experimentation using Meta’s Ax with the modern Client API.  We work through a complete workflow where we tune a RandomForest model on a synthetic classification dataset while bal...",
-      "source": "MarkTechPost",
-      "url": "https://www.marktechpost.com/2026/08/06/adaptive-experimentation-with-metas-ax-a-practical-coding-guide/",
-      "publishedAt": "2026-08-06T17:17:52.000Z",
-      "impact": 65
     },
     {
       "id": "hugging-face-1785974400000-1",

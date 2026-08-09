@@ -1,19 +1,8 @@
 {
-  "lastUpdated": "2026-08-08T18:45:21.926Z",
+  "lastUpdated": "2026-08-09T02:07:15.171Z",
   "source": "AETHER + Public RSS (arXiv, Hugging Face, MarkTechPost, Ben's Bites)",
-  "count": 10,
+  "count": 6,
   "articles": [
-    {
-      "id": "marktechpost-1786208679000-0",
-      "type": "live",
-      "category": "llm",
-      "title": "Pokee AI Releases Pokee-Isaac 28B: A 10M-Token Context Agentic Model Built to Run Inside the Customer Boundary",
-      "excerpt": "Pokee AI released Pokee-Isaac 28B, a 28B text-only foundation model with a 10M-token context window built to run inside the customer boundary. 3% on RULER at 10M tokens, where every baseline in its comparison panel re...",
-      "source": "MarkTechPost",
-      "url": "https://www.marktechpost.com/2026/08/08/pokee-ai-releases-pokee-isaac-28b-a-10m-token-context-agentic-model-built-to-run-inside-the-customer-boundary/",
-      "publishedAt": "2026-08-08T17:04:39.000Z",
-      "impact": 77
-    },
     {
       "id": "aether-grok43",
       "type": "premium",
@@ -22,7 +11,7 @@
       "excerpt": "New model demonstrates 4.2× improvement on multi-step software engineering benchmarks and sustains coherent agent trajectories beyond 110k tokens.",
       "source": "xAI",
       "url": "https://x.ai/blog/grok-4.3",
-      "publishedAt": "2026-08-08T13:45:21.301Z",
+      "publishedAt": "2026-08-08T21:07:14.643Z",
       "impact": 96
     },
     {
@@ -33,19 +22,8 @@
       "excerpt": "Humanoid achieves new milestone in unsupervised operation, performing 1,240 unique tasks across three assembly lines at the BMW South Carolina plant.",
       "source": "Figure AI",
       "url": "https://figure.ai/news/03-milestone",
-      "publishedAt": "2026-08-08T09:45:21.301Z",
+      "publishedAt": "2026-08-08T17:07:14.643Z",
       "impact": 89
-    },
-    {
-      "id": "marktechpost-1786182138000-1",
-      "type": "live",
-      "category": "research",
-      "title": "Designing Scalable Interactive Visualizations with Reflex XY: Composition, Million-Point Rendering, Streaming, Custom Marks, and Export",
-      "excerpt": "Dive into the advanced visualization capabilities of the Reflex XY Python library.  This tutorial guides you through building high-performance, interactive charts—from handling million-point datasets and real-time str...",
-      "source": "MarkTechPost",
-      "url": "https://www.marktechpost.com/2026/08/08/designing-scalable-interactive-visualizations-with-reflex-xy-composition-million-point-rendering-streaming-custom-marks-and-export/",
-      "publishedAt": "2026-08-08T09:42:18.000Z",
-      "impact": 65
     },
     {
       "id": "aether-interp",
@@ -55,30 +33,8 @@
       "excerpt": "Researchers reverse-engineered 312 million features inside the model, including the first clear \"deception circuit\" discovered in a frontier model.",
       "source": "Anthropic",
       "url": "https://anthropic.com/research/claude-4-interp",
-      "publishedAt": "2026-08-08T04:45:21.301Z",
+      "publishedAt": "2026-08-08T12:07:14.643Z",
       "impact": 91
-    },
-    {
-      "id": "marktechpost-1786163786000-2",
-      "type": "live",
-      "category": "safety",
-      "title": "Mistral AI Releases Shieldstral 1.0 3B: An Open-Weights Policy-Adaptive Multimodal Safety Classifier Matching Models 7× Its Size",
-      "excerpt": "Mistral AI has released Shieldstral 1. 0 3B, an open-weights, policy-adaptive multimodal safety classifier that frames content moderation as a single yes/no question instead of a fixed harm taxonomy",
-      "source": "MarkTechPost",
-      "url": "https://www.marktechpost.com/2026/08/07/mistral-ai-releases-shieldstral-1-0-3b/",
-      "publishedAt": "2026-08-08T04:36:26.000Z",
-      "impact": 65
-    },
-    {
-      "id": "marktechpost-1786139568000-3",
-      "type": "live",
-      "category": "llm",
-      "title": "Tencent Cloud Open-Sources TencentDB Agent Memory v2.0: A Team-Level Memory Hub for AI Coding Agents",
-      "excerpt": "Tencent Cloud has open-sourced TencentDB Agent Memory v2. 0, a team-level memory hub that turns conversations, documents and code into four governed, reusable assets — Chat Memory, Skill, LLM-Wiki and Code-Graph",
-      "source": "MarkTechPost",
-      "url": "https://www.marktechpost.com/2026/08/07/tencent-cloud-open-sources-tencentdb-agent-memory-v2-0/",
-      "publishedAt": "2026-08-07T21:52:48.000Z",
-      "impact": 77
     },
     {
       "id": "hugging-face-1786125212000-0",

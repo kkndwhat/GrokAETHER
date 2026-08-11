@@ -1,7 +1,7 @@
 {
-  "lastUpdated": "2026-08-11T02:06:22.502Z",
+  "lastUpdated": "2026-08-11T13:17:46.652Z",
   "source": "AETHER + Public RSS (arXiv, Hugging Face, MarkTechPost, Ben's Bites)",
-  "count": 12,
+  "count": 16,
   "articles": [
     {
       "id": "aether-grok43",
@@ -11,8 +11,30 @@
       "excerpt": "New model demonstrates 4.2× improvement on multi-step software engineering benchmarks and sustains coherent agent trajectories beyond 110k tokens.",
       "source": "xAI",
       "url": "https://x.ai/blog/grok-4.3",
-      "publishedAt": "2026-08-10T21:06:22.252Z",
+      "publishedAt": "2026-08-11T08:17:45.802Z",
       "impact": 96
+    },
+    {
+      "id": "marktechpost-1786429209000-0",
+      "type": "live",
+      "category": "hardware",
+      "title": "webAI Releases TwIL-LM: A 1.7B and 3B Formal-Logic Model Family for Autoformalization on Local Hardware",
+      "excerpt": "webAI has released TwIL-LM, a family of formal-logic models at 1. 7B and 3B parameters that translate English into first-order logic and check whether conclusions follow from premises",
+      "source": "MarkTechPost",
+      "url": "https://www.marktechpost.com/2026/08/10/webai-releases-twil-lm-a-1-7b-and-3b-formal-logic-model-family-for-autoformalization-on-local-hardware/",
+      "publishedAt": "2026-08-11T06:20:09.000Z",
+      "impact": 65
+    },
+    {
+      "id": "marktechpost-1786427078000-1",
+      "type": "live",
+      "category": "hardware",
+      "title": "Implementing a MiniMax-H3 Multimodal Video and Audio Generation Pipeline with ComfyUI APIs",
+      "excerpt": "In this comprehensive guide, we demonstrate how to implement a complete, programmable MiniMax-H3 multimodal generation pipeline.  By leveraging ComfyUI as a headless backend, we walk through setting up an automated in...",
+      "source": "MarkTechPost",
+      "url": "https://www.marktechpost.com/2026/08/10/implementing-a-minimax-h3-multimodal-video-and-audio-generation-pipeline-with-comfyui-apis/",
+      "publishedAt": "2026-08-11T05:44:38.000Z",
+      "impact": 65
     },
     {
       "id": "aether-figure03",
@@ -22,8 +44,85 @@
       "excerpt": "Humanoid achieves new milestone in unsupervised operation, performing 1,240 unique tasks across three assembly lines at the BMW South Carolina plant.",
       "source": "Figure AI",
       "url": "https://figure.ai/news/03-milestone",
-      "publishedAt": "2026-08-10T17:06:22.252Z",
+      "publishedAt": "2026-08-11T04:17:45.802Z",
       "impact": 89
+    },
+    {
+      "id": "arxiv-cs.ai-1786420800000-0",
+      "type": "live",
+      "category": "research",
+      "title": "Towards an Argumentative Foundation for Evaluative AI",
+      "excerpt": "07473v1 Announce Type: new Abstract: Evaluative AI (EAI) has been recently proposed as a way to support human decision-making, not by producing a single recommendation, but by presenting competing hypotheses together ...",
+      "source": "arXiv cs.AI",
+      "url": "https://arxiv.org/abs/2608.07473",
+      "publishedAt": "2026-08-11T04:00:00.000Z",
+      "impact": 58
+    },
+    {
+      "id": "arxiv-cs.ai-1786420800000-1",
+      "type": "live",
+      "category": "multimodal",
+      "title": "Flow-by-Flow:Content-Judgment Bypass for Governing AI Output in High-Loss Domains",
+      "excerpt": "07474v1 Announce Type: new Abstract: Prior work showed that human-in-the-loop oversight becomes structurally untenable in high-loss domains when AI output velocity V exceeds human cognitive capacity C_max.  The operat...",
+      "source": "arXiv cs.AI",
+      "url": "https://arxiv.org/abs/2608.07474",
+      "publishedAt": "2026-08-11T04:00:00.000Z",
+      "impact": 58
+    },
+    {
+      "id": "arxiv-cs.ai-1786420800000-2",
+      "type": "live",
+      "category": "safety",
+      "title": "Determinization in Structure Theories: A Unified Framework via Closure, Comparability, and Joint Admissibility",
+      "excerpt": "07476v1 Announce Type: new Abstract: We develop a formal framework for constructing canonical interpretations from plural structure theories.  A structure theory is a triple T = ({\\Sigma}, A, I) consisting of a signat...",
+      "source": "arXiv cs.AI",
+      "url": "https://arxiv.org/abs/2608.07476",
+      "publishedAt": "2026-08-11T04:00:00.000Z",
+      "impact": 58
+    },
+    {
+      "id": "arxiv-cs.ai-1786420800000-3",
+      "type": "live",
+      "category": "llm",
+      "title": "Emotion in an active inference model of human driving",
+      "excerpt": "07480v1 Announce Type: new Abstract: Active inference has emerged as a principled framework for modeling adaptive behavior by balancing goal-directed action with uncertainty reduction.  It has been successfully applie...",
+      "source": "arXiv cs.AI",
+      "url": "https://arxiv.org/abs/2608.07480",
+      "publishedAt": "2026-08-11T04:00:00.000Z",
+      "impact": 58
+    },
+    {
+      "id": "arxiv-cs.ai-1786420800000-4",
+      "type": "live",
+      "category": "hardware",
+      "title": "Training Variable Long Sequences with Data-Centric Parallel",
+      "excerpt": "07524v1 Announce Type: new Abstract: Training deep learning models on variable long sequences poses significant computational challenges.  Existing methods force a difficult trade-off between efficiency and ease-of-use",
+      "source": "arXiv cs.AI",
+      "url": "https://arxiv.org/abs/2608.07524",
+      "publishedAt": "2026-08-11T04:00:00.000Z",
+      "impact": 58
+    },
+    {
+      "id": "arxiv-cs.ai-1786420800000-5",
+      "type": "live",
+      "category": "llm",
+      "title": "The Knowing-Saying Gap: When Probes See Errors that Confidence Misses",
+      "excerpt": "07528v1 Announce Type: new Abstract: Linear probes detect corrupted context in language models with near-perfect accuracy, yet this does not translate into reliable failure prediction.  The result is a dissociation wi...",
+      "source": "arXiv cs.AI",
+      "url": "https://arxiv.org/abs/2608.07528",
+      "publishedAt": "2026-08-11T04:00:00.000Z",
+      "impact": 58
+    },
+    {
+      "id": "aether-interp",
+      "type": "premium",
+      "category": "safety",
+      "title": "Anthropic publishes unprecedented mechanistic interpretability map of Claude 4",
+      "excerpt": "Researchers reverse-engineered 312 million features inside the model, including the first clear \"deception circuit\" discovered in a frontier model.",
+      "source": "Anthropic",
+      "url": "https://anthropic.com/research/claude-4-interp",
+      "publishedAt": "2026-08-10T23:17:45.802Z",
+      "impact": 91
     },
     {
       "id": "hugging-face-1786379136000-0",
@@ -37,15 +136,15 @@
       "impact": 87
     },
     {
-      "id": "aether-interp",
-      "type": "premium",
-      "category": "safety",
-      "title": "Anthropic publishes unprecedented mechanistic interpretability map of Claude 4",
-      "excerpt": "Researchers reverse-engineered 312 million features inside the model, including the first clear \"deception circuit\" discovered in a frontier model.",
-      "source": "Anthropic",
-      "url": "https://anthropic.com/research/claude-4-interp",
-      "publishedAt": "2026-08-10T12:06:22.252Z",
-      "impact": 91
+      "id": "marktechpost-1786374711000-2",
+      "type": "live",
+      "category": "hardware",
+      "title": "Meta AI Releases Muse Glimmer: A 30B Open-Weights Agentic Model That Runs on One Consumer GPU",
+      "excerpt": "Meta's Muse Glimmer is a 30B open-weights agentic model under Apache 2.  It fits 24 GB VRAM and decodes 3",
+      "source": "MarkTechPost",
+      "url": "https://www.marktechpost.com/2026/08/10/meta-ai-releases-muse-glimmer/",
+      "publishedAt": "2026-08-10T15:11:51.000Z",
+      "impact": 77
     },
     {
       "id": "hugging-face-1786356336000-1",
@@ -59,70 +158,15 @@
       "impact": 75
     },
     {
-      "id": "arxiv-cs.ai-1786334400000-0",
-      "type": "live",
-      "category": "llm",
-      "title": "Towards Multi-Label Graph Foundation Models: from Single-Vector Representation Learning to Multi-Semantic Basis Learning",
-      "excerpt": "06394v1 Announce Type: new Abstract: Multi-label node classification is an important yet challenging task in graph learning, where nodes exhibit multiple semantics simultaneously.  Existing methods for multi-label nod...",
-      "source": "arXiv cs.AI",
-      "url": "https://arxiv.org/abs/2608.06394",
-      "publishedAt": "2026-08-10T04:00:00.000Z",
-      "impact": 58
-    },
-    {
-      "id": "arxiv-cs.ai-1786334400000-1",
-      "type": "live",
-      "category": "llm",
-      "title": "EntropyMoE: Entropy-Aware Sparse Expert Routing for Tokenizer-Free LLMs",
-      "excerpt": "06398v1 Announce Type: new Abstract: Recent byte-level large language models (LLMs) have made tokenizer-free modeling increasingly competitive by grouping bytes into dynamically sized patches.  However, existing byte-...",
-      "source": "arXiv cs.AI",
-      "url": "https://arxiv.org/abs/2608.06398",
-      "publishedAt": "2026-08-10T04:00:00.000Z",
-      "impact": 58
-    },
-    {
-      "id": "arxiv-cs.ai-1786334400000-2",
-      "type": "live",
-      "category": "safety",
-      "title": "Beyond Routing Weights: Faithful Response-Level Interpretation of Mixture-of-Experts Reward Models via Contribution Contrast",
-      "excerpt": "06400v1 Announce Type: new Abstract: Reward models are central to learning from human preferences, yet identifying what drives their predictions remains challenging.  Recent sparse Mixture-of-Experts (MoE) reward mode...",
-      "source": "arXiv cs.AI",
-      "url": "https://arxiv.org/abs/2608.06400",
-      "publishedAt": "2026-08-10T04:00:00.000Z",
-      "impact": 58
-    },
-    {
-      "id": "arxiv-cs.ai-1786334400000-3",
-      "type": "live",
-      "category": "safety",
-      "title": "Interpretable Unsupervised Community Detection with LLM-Symbolized Structured Processes",
-      "excerpt": "06402v1 Announce Type: new Abstract: Community detection is a fundamental task in graph analytics that aims to identify cohesive groups of entities with similar behaviors or interests.  Classic objective-driven method...",
-      "source": "arXiv cs.AI",
-      "url": "https://arxiv.org/abs/2608.06402",
-      "publishedAt": "2026-08-10T04:00:00.000Z",
-      "impact": 58
-    },
-    {
-      "id": "arxiv-cs.ai-1786334400000-4",
+      "id": "marktechpost-1786340897000-3",
       "type": "live",
       "category": "multimodal",
-      "title": "ADIAS: Automated Design of Interactive Agentic Systems",
-      "excerpt": "06410v1 Announce Type: new Abstract: Automated agent design improves agent harnesses through iterative revision, evaluation, and feedback summarization.  Existing methods are largely candidate-centric: cross-round exp...",
-      "source": "arXiv cs.AI",
-      "url": "https://arxiv.org/abs/2608.06410",
-      "publishedAt": "2026-08-10T04:00:00.000Z",
-      "impact": 69
-    },
-    {
-      "id": "arxiv-cs.ai-1786334400000-5",
-      "type": "live",
-      "category": "multimodal",
-      "title": "Learning to Predict Middle-Layer Attention in MLLMs for Visual Token Prunin",
-      "excerpt": "06411v1 Announce Type: new Abstract: Multimodal large language models (MLLMs) achieve strong performance across diverse vision-language tasks, but their efficiency is limited by the cost of processing numerous visual ...",
-      "source": "arXiv cs.AI",
-      "url": "https://arxiv.org/abs/2608.06411",
-      "publishedAt": "2026-08-10T04:00:00.000Z",
-      "impact": 58
+      "title": "ByteDance Seed Introduces SeedRealtime: a Native Audio-Visual Full-Duplex LLM That Watches, Listens and Speaks in One Model",
+      "excerpt": "ByteDance’s Seed team has introduced SeedRealtime, a native audio-visual full-duplex LLM.  The model fuses audio, video and text in a single unified architecture",
+      "source": "MarkTechPost",
+      "url": "https://www.marktechpost.com/2026/08/09/bytedance-seed-introduces-seedrealtime-a-native-audio-visual-full-duplex-llm-that-watches-listens-and-speaks-in-one-model/",
+      "publishedAt": "2026-08-10T05:48:17.000Z",
+      "impact": 65
     },
     {
       "id": "hugging-face-1786320000000-2",

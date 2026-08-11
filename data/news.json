@@ -1,7 +1,7 @@
 {
-  "lastUpdated": "2026-08-11T13:17:46.652Z",
+  "lastUpdated": "2026-08-11T19:08:57.091Z",
   "source": "AETHER + Public RSS (arXiv, Hugging Face, MarkTechPost, Ben's Bites)",
-  "count": 16,
+  "count": 12,
   "articles": [
     {
       "id": "aether-grok43",
@@ -11,30 +11,19 @@
       "excerpt": "New model demonstrates 4.2× improvement on multi-step software engineering benchmarks and sustains coherent agent trajectories beyond 110k tokens.",
       "source": "xAI",
       "url": "https://x.ai/blog/grok-4.3",
-      "publishedAt": "2026-08-11T08:17:45.802Z",
+      "publishedAt": "2026-08-11T14:08:56.660Z",
       "impact": 96
     },
     {
-      "id": "marktechpost-1786429209000-0",
+      "id": "hugging-face-1786455430000-0",
       "type": "live",
-      "category": "hardware",
-      "title": "webAI Releases TwIL-LM: A 1.7B and 3B Formal-Logic Model Family for Autoformalization on Local Hardware",
-      "excerpt": "webAI has released TwIL-LM, a family of formal-logic models at 1. 7B and 3B parameters that translate English into first-order logic and check whether conclusions follow from premises",
-      "source": "MarkTechPost",
-      "url": "https://www.marktechpost.com/2026/08/10/webai-releases-twil-lm-a-1-7b-and-3b-formal-logic-model-family-for-autoformalization-on-local-hardware/",
-      "publishedAt": "2026-08-11T06:20:09.000Z",
-      "impact": 65
-    },
-    {
-      "id": "marktechpost-1786427078000-1",
-      "type": "live",
-      "category": "hardware",
-      "title": "Implementing a MiniMax-H3 Multimodal Video and Audio Generation Pipeline with ComfyUI APIs",
-      "excerpt": "In this comprehensive guide, we demonstrate how to implement a complete, programmable MiniMax-H3 multimodal generation pipeline.  By leveraging ComfyUI as a headless backend, we walk through setting up an automated in...",
-      "source": "MarkTechPost",
-      "url": "https://www.marktechpost.com/2026/08/10/implementing-a-minimax-h3-multimodal-video-and-audio-generation-pipeline-with-comfyui-apis/",
-      "publishedAt": "2026-08-11T05:44:38.000Z",
-      "impact": 65
+      "category": "research",
+      "title": "Thinking of ACE? We Can Do It with Fewer Tokens",
+      "excerpt": "New development from the frontier.",
+      "source": "Hugging Face",
+      "url": "https://huggingface.co/blog/ibm-research/altk-evolve-sldd",
+      "publishedAt": "2026-08-11T13:37:10.000Z",
+      "impact": 75
     },
     {
       "id": "aether-figure03",
@@ -44,8 +33,19 @@
       "excerpt": "Humanoid achieves new milestone in unsupervised operation, performing 1,240 unique tasks across three assembly lines at the BMW South Carolina plant.",
       "source": "Figure AI",
       "url": "https://figure.ai/news/03-milestone",
-      "publishedAt": "2026-08-11T04:17:45.802Z",
+      "publishedAt": "2026-08-11T10:08:56.660Z",
       "impact": 89
+    },
+    {
+      "id": "aether-interp",
+      "type": "premium",
+      "category": "safety",
+      "title": "Anthropic publishes unprecedented mechanistic interpretability map of Claude 4",
+      "excerpt": "Researchers reverse-engineered 312 million features inside the model, including the first clear \"deception circuit\" discovered in a frontier model.",
+      "source": "Anthropic",
+      "url": "https://anthropic.com/research/claude-4-interp",
+      "publishedAt": "2026-08-11T05:08:56.660Z",
+      "impact": 91
     },
     {
       "id": "arxiv-cs.ai-1786420800000-0",
@@ -114,18 +114,7 @@
       "impact": 58
     },
     {
-      "id": "aether-interp",
-      "type": "premium",
-      "category": "safety",
-      "title": "Anthropic publishes unprecedented mechanistic interpretability map of Claude 4",
-      "excerpt": "Researchers reverse-engineered 312 million features inside the model, including the first clear \"deception circuit\" discovered in a frontier model.",
-      "source": "Anthropic",
-      "url": "https://anthropic.com/research/claude-4-interp",
-      "publishedAt": "2026-08-10T23:17:45.802Z",
-      "impact": 91
-    },
-    {
-      "id": "hugging-face-1786379136000-0",
+      "id": "hugging-face-1786379136000-1",
       "type": "live",
       "category": "research",
       "title": "Build Low-Latency Multilingual Voice Agents: Open Weights & Full Deployment Control with NVIDIA Magpie TTS",
@@ -136,18 +125,7 @@
       "impact": 87
     },
     {
-      "id": "marktechpost-1786374711000-2",
-      "type": "live",
-      "category": "hardware",
-      "title": "Meta AI Releases Muse Glimmer: A 30B Open-Weights Agentic Model That Runs on One Consumer GPU",
-      "excerpt": "Meta's Muse Glimmer is a 30B open-weights agentic model under Apache 2.  It fits 24 GB VRAM and decodes 3",
-      "source": "MarkTechPost",
-      "url": "https://www.marktechpost.com/2026/08/10/meta-ai-releases-muse-glimmer/",
-      "publishedAt": "2026-08-10T15:11:51.000Z",
-      "impact": 77
-    },
-    {
-      "id": "hugging-face-1786356336000-1",
+      "id": "hugging-face-1786356336000-2",
       "type": "live",
       "category": "research",
       "title": "Making Knowledge Distillation Cheap Enough to Run at Scale",
@@ -156,28 +134,6 @@
       "url": "https://huggingface.co/blog/MultiverseComputingCAI/efficient-knowledge-distillation",
       "publishedAt": "2026-08-10T10:05:36.000Z",
       "impact": 75
-    },
-    {
-      "id": "marktechpost-1786340897000-3",
-      "type": "live",
-      "category": "multimodal",
-      "title": "ByteDance Seed Introduces SeedRealtime: a Native Audio-Visual Full-Duplex LLM That Watches, Listens and Speaks in One Model",
-      "excerpt": "ByteDance’s Seed team has introduced SeedRealtime, a native audio-visual full-duplex LLM.  The model fuses audio, video and text in a single unified architecture",
-      "source": "MarkTechPost",
-      "url": "https://www.marktechpost.com/2026/08/09/bytedance-seed-introduces-seedrealtime-a-native-audio-visual-full-duplex-llm-that-watches-listens-and-speaks-in-one-model/",
-      "publishedAt": "2026-08-10T05:48:17.000Z",
-      "impact": 65
-    },
-    {
-      "id": "hugging-face-1786320000000-2",
-      "type": "live",
-      "category": "multimodal",
-      "title": "Meta is back with Muse Glimmer: local, agentic, multimodal, and open source",
-      "excerpt": "New development from the frontier.",
-      "source": "Hugging Face",
-      "url": "https://huggingface.co/blog/muse-glimmer",
-      "publishedAt": "2026-08-10T00:00:00.000Z",
-      "impact": 87
     }
   ]
 }

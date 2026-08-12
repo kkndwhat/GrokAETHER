@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-12T02:24:14.877Z",
+  "lastUpdated": "2026-08-12T13:21:37.816Z",
   "source": "AETHER + Public RSS (arXiv, Hugging Face, MarkTechPost, Ben's Bites)",
   "count": 12,
   "articles": [
@@ -11,7 +11,7 @@
       "excerpt": "New model demonstrates 4.2× improvement on multi-step software engineering benchmarks and sustains coherent agent trajectories beyond 110k tokens.",
       "source": "xAI",
       "url": "https://x.ai/blog/grok-4.3",
-      "publishedAt": "2026-08-11T21:24:12.574Z",
+      "publishedAt": "2026-08-12T08:21:37.364Z",
       "impact": 96
     },
     {
@@ -22,8 +22,85 @@
       "excerpt": "Humanoid achieves new milestone in unsupervised operation, performing 1,240 unique tasks across three assembly lines at the BMW South Carolina plant.",
       "source": "Figure AI",
       "url": "https://figure.ai/news/03-milestone",
-      "publishedAt": "2026-08-11T17:24:12.574Z",
+      "publishedAt": "2026-08-12T04:21:37.364Z",
       "impact": 89
+    },
+    {
+      "id": "arxiv-cs.ai-1786507200000-0",
+      "type": "live",
+      "category": "research",
+      "title": "Towards an Argumentative Foundation for Evaluative AI",
+      "excerpt": "07473v1 Announce Type: new Abstract: Evaluative AI (EAI) has been recently proposed as a way to support human decision-making, not by producing a single recommendation, but by presenting competing hypotheses together ...",
+      "source": "arXiv cs.AI",
+      "url": "https://arxiv.org/abs/2608.07473",
+      "publishedAt": "2026-08-12T04:00:00.000Z",
+      "impact": 58
+    },
+    {
+      "id": "arxiv-cs.ai-1786507200000-1",
+      "type": "live",
+      "category": "multimodal",
+      "title": "Flow-by-Flow:Content-Judgment Bypass for Governing AI Output in High-Loss Domains",
+      "excerpt": "07474v1 Announce Type: new Abstract: Prior work showed that human-in-the-loop oversight becomes structurally untenable in high-loss domains when AI output velocity V exceeds human cognitive capacity C_max.  The operat...",
+      "source": "arXiv cs.AI",
+      "url": "https://arxiv.org/abs/2608.07474",
+      "publishedAt": "2026-08-12T04:00:00.000Z",
+      "impact": 58
+    },
+    {
+      "id": "arxiv-cs.ai-1786507200000-2",
+      "type": "live",
+      "category": "safety",
+      "title": "Determinization in Structure Theories: A Unified Framework via Closure, Comparability, and Joint Admissibility",
+      "excerpt": "07476v1 Announce Type: new Abstract: We develop a formal framework for constructing canonical interpretations from plural structure theories.  A structure theory is a triple T = ({\\Sigma}, A, I) consisting of a signat...",
+      "source": "arXiv cs.AI",
+      "url": "https://arxiv.org/abs/2608.07476",
+      "publishedAt": "2026-08-12T04:00:00.000Z",
+      "impact": 58
+    },
+    {
+      "id": "arxiv-cs.ai-1786507200000-3",
+      "type": "live",
+      "category": "llm",
+      "title": "Emotion in an active inference model of human driving",
+      "excerpt": "07480v1 Announce Type: new Abstract: Active inference has emerged as a principled framework for modeling adaptive behavior by balancing goal-directed action with uncertainty reduction.  It has been successfully applie...",
+      "source": "arXiv cs.AI",
+      "url": "https://arxiv.org/abs/2608.07480",
+      "publishedAt": "2026-08-12T04:00:00.000Z",
+      "impact": 58
+    },
+    {
+      "id": "arxiv-cs.ai-1786507200000-4",
+      "type": "live",
+      "category": "hardware",
+      "title": "Training Variable Long Sequences with Data-Centric Parallel",
+      "excerpt": "07524v1 Announce Type: new Abstract: Training deep learning models on variable long sequences poses significant computational challenges.  Existing methods force a difficult trade-off between efficiency and ease-of-use",
+      "source": "arXiv cs.AI",
+      "url": "https://arxiv.org/abs/2608.07524",
+      "publishedAt": "2026-08-12T04:00:00.000Z",
+      "impact": 58
+    },
+    {
+      "id": "arxiv-cs.ai-1786507200000-5",
+      "type": "live",
+      "category": "llm",
+      "title": "The Knowing-Saying Gap: When Probes See Errors that Confidence Misses",
+      "excerpt": "07528v1 Announce Type: new Abstract: Linear probes detect corrupted context in language models with near-perfect accuracy, yet this does not translate into reliable failure prediction.  The result is a dissociation wi...",
+      "source": "arXiv cs.AI",
+      "url": "https://arxiv.org/abs/2608.07528",
+      "publishedAt": "2026-08-12T04:00:00.000Z",
+      "impact": 58
+    },
+    {
+      "id": "aether-interp",
+      "type": "premium",
+      "category": "safety",
+      "title": "Anthropic publishes unprecedented mechanistic interpretability map of Claude 4",
+      "excerpt": "Researchers reverse-engineered 312 million features inside the model, including the first clear \"deception circuit\" discovered in a frontier model.",
+      "source": "Anthropic",
+      "url": "https://anthropic.com/research/claude-4-interp",
+      "publishedAt": "2026-08-11T23:21:37.364Z",
+      "impact": 91
     },
     {
       "id": "hugging-face-1786455430000-0",
@@ -35,83 +112,6 @@
       "url": "https://huggingface.co/blog/ibm-research/altk-evolve-sldd",
       "publishedAt": "2026-08-11T13:37:10.000Z",
       "impact": 75
-    },
-    {
-      "id": "aether-interp",
-      "type": "premium",
-      "category": "safety",
-      "title": "Anthropic publishes unprecedented mechanistic interpretability map of Claude 4",
-      "excerpt": "Researchers reverse-engineered 312 million features inside the model, including the first clear \"deception circuit\" discovered in a frontier model.",
-      "source": "Anthropic",
-      "url": "https://anthropic.com/research/claude-4-interp",
-      "publishedAt": "2026-08-11T12:24:12.574Z",
-      "impact": 91
-    },
-    {
-      "id": "arxiv-cs.ai-1786420800000-0",
-      "type": "live",
-      "category": "research",
-      "title": "Towards an Argumentative Foundation for Evaluative AI",
-      "excerpt": "07473v1 Announce Type: new Abstract: Evaluative AI (EAI) has been recently proposed as a way to support human decision-making, not by producing a single recommendation, but by presenting competing hypotheses together ...",
-      "source": "arXiv cs.AI",
-      "url": "https://arxiv.org/abs/2608.07473",
-      "publishedAt": "2026-08-11T04:00:00.000Z",
-      "impact": 58
-    },
-    {
-      "id": "arxiv-cs.ai-1786420800000-1",
-      "type": "live",
-      "category": "multimodal",
-      "title": "Flow-by-Flow:Content-Judgment Bypass for Governing AI Output in High-Loss Domains",
-      "excerpt": "07474v1 Announce Type: new Abstract: Prior work showed that human-in-the-loop oversight becomes structurally untenable in high-loss domains when AI output velocity V exceeds human cognitive capacity C_max.  The operat...",
-      "source": "arXiv cs.AI",
-      "url": "https://arxiv.org/abs/2608.07474",
-      "publishedAt": "2026-08-11T04:00:00.000Z",
-      "impact": 58
-    },
-    {
-      "id": "arxiv-cs.ai-1786420800000-2",
-      "type": "live",
-      "category": "safety",
-      "title": "Determinization in Structure Theories: A Unified Framework via Closure, Comparability, and Joint Admissibility",
-      "excerpt": "07476v1 Announce Type: new Abstract: We develop a formal framework for constructing canonical interpretations from plural structure theories.  A structure theory is a triple T = ({\\Sigma}, A, I) consisting of a signat...",
-      "source": "arXiv cs.AI",
-      "url": "https://arxiv.org/abs/2608.07476",
-      "publishedAt": "2026-08-11T04:00:00.000Z",
-      "impact": 58
-    },
-    {
-      "id": "arxiv-cs.ai-1786420800000-3",
-      "type": "live",
-      "category": "llm",
-      "title": "Emotion in an active inference model of human driving",
-      "excerpt": "07480v1 Announce Type: new Abstract: Active inference has emerged as a principled framework for modeling adaptive behavior by balancing goal-directed action with uncertainty reduction.  It has been successfully applie...",
-      "source": "arXiv cs.AI",
-      "url": "https://arxiv.org/abs/2608.07480",
-      "publishedAt": "2026-08-11T04:00:00.000Z",
-      "impact": 58
-    },
-    {
-      "id": "arxiv-cs.ai-1786420800000-4",
-      "type": "live",
-      "category": "hardware",
-      "title": "Training Variable Long Sequences with Data-Centric Parallel",
-      "excerpt": "07524v1 Announce Type: new Abstract: Training deep learning models on variable long sequences poses significant computational challenges.  Existing methods force a difficult trade-off between efficiency and ease-of-use",
-      "source": "arXiv cs.AI",
-      "url": "https://arxiv.org/abs/2608.07524",
-      "publishedAt": "2026-08-11T04:00:00.000Z",
-      "impact": 58
-    },
-    {
-      "id": "arxiv-cs.ai-1786420800000-5",
-      "type": "live",
-      "category": "llm",
-      "title": "The Knowing-Saying Gap: When Probes See Errors that Confidence Misses",
-      "excerpt": "07528v1 Announce Type: new Abstract: Linear probes detect corrupted context in language models with near-perfect accuracy, yet this does not translate into reliable failure prediction.  The result is a dissociation wi...",
-      "source": "arXiv cs.AI",
-      "url": "https://arxiv.org/abs/2608.07528",
-      "publishedAt": "2026-08-11T04:00:00.000Z",
-      "impact": 58
     },
     {
       "id": "hugging-face-1786379136000-1",

@@ -1,8 +1,52 @@
 {
-  "lastUpdated": "2026-08-13T07:41:57.385Z",
+  "lastUpdated": "2026-08-13T19:08:46.997Z",
   "source": "AETHER + Public RSS (arXiv, Hugging Face, MarkTechPost, Ben's Bites)",
   "count": 12,
   "articles": [
+    {
+      "id": "hugging-face-1786641364000-0",
+      "type": "live",
+      "category": "robotics",
+      "title": "Record, train, and deploy from one place with Strands Agents, LeRobot, and Hugging Face Storage Buckets",
+      "excerpt": "New development from the frontier.",
+      "source": "Hugging Face",
+      "url": "https://huggingface.co/blog/amazon/strands-lerobot-streaming-data-loop",
+      "publishedAt": "2026-08-13T17:16:04.000Z",
+      "impact": 87
+    },
+    {
+      "id": "aether-grok43",
+      "type": "premium",
+      "category": "llm",
+      "title": "xAI releases Grok-4.3 with native long-horizon agent scaffolding",
+      "excerpt": "New model demonstrates 4.2× improvement on multi-step software engineering benchmarks and sustains coherent agent trajectories beyond 110k tokens.",
+      "source": "xAI",
+      "url": "https://x.ai/blog/grok-4.3",
+      "publishedAt": "2026-08-13T14:08:46.539Z",
+      "impact": 96
+    },
+    {
+      "id": "aether-figure03",
+      "type": "premium",
+      "category": "robotics",
+      "title": "Figure 03 completes 43-hour autonomous factory shift with zero interventions",
+      "excerpt": "Humanoid achieves new milestone in unsupervised operation, performing 1,240 unique tasks across three assembly lines at the BMW South Carolina plant.",
+      "source": "Figure AI",
+      "url": "https://figure.ai/news/03-milestone",
+      "publishedAt": "2026-08-13T10:08:46.539Z",
+      "impact": 89
+    },
+    {
+      "id": "aether-interp",
+      "type": "premium",
+      "category": "safety",
+      "title": "Anthropic publishes unprecedented mechanistic interpretability map of Claude 4",
+      "excerpt": "Researchers reverse-engineered 312 million features inside the model, including the first clear \"deception circuit\" discovered in a frontier model.",
+      "source": "Anthropic",
+      "url": "https://anthropic.com/research/claude-4-interp",
+      "publishedAt": "2026-08-13T05:08:46.539Z",
+      "impact": 91
+    },
     {
       "id": "arxiv-cs.ai-1786593600000-0",
       "type": "live",
@@ -70,40 +114,18 @@
       "impact": 58
     },
     {
-      "id": "aether-grok43",
-      "type": "premium",
-      "category": "llm",
-      "title": "xAI releases Grok-4.3 with native long-horizon agent scaffolding",
-      "excerpt": "New model demonstrates 4.2× improvement on multi-step software engineering benchmarks and sustains coherent agent trajectories beyond 110k tokens.",
-      "source": "xAI",
-      "url": "https://x.ai/blog/grok-4.3",
-      "publishedAt": "2026-08-13T02:41:56.849Z",
-      "impact": 96
+      "id": "hugging-face-1786579200000-1",
+      "type": "live",
+      "category": "research",
+      "title": "What We Learned by Reproducing 2,200 papers from ICML",
+      "excerpt": "New development from the frontier.",
+      "source": "Hugging Face",
+      "url": "https://huggingface.co/blog/icml-2026-open-reproductions",
+      "publishedAt": "2026-08-13T00:00:00.000Z",
+      "impact": 75
     },
     {
-      "id": "aether-figure03",
-      "type": "premium",
-      "category": "robotics",
-      "title": "Figure 03 completes 43-hour autonomous factory shift with zero interventions",
-      "excerpt": "Humanoid achieves new milestone in unsupervised operation, performing 1,240 unique tasks across three assembly lines at the BMW South Carolina plant.",
-      "source": "Figure AI",
-      "url": "https://figure.ai/news/03-milestone",
-      "publishedAt": "2026-08-12T22:41:56.849Z",
-      "impact": 89
-    },
-    {
-      "id": "aether-interp",
-      "type": "premium",
-      "category": "safety",
-      "title": "Anthropic publishes unprecedented mechanistic interpretability map of Claude 4",
-      "excerpt": "Researchers reverse-engineered 312 million features inside the model, including the first clear \"deception circuit\" discovered in a frontier model.",
-      "source": "Anthropic",
-      "url": "https://anthropic.com/research/claude-4-interp",
-      "publishedAt": "2026-08-12T17:41:56.849Z",
-      "impact": 91
-    },
-    {
-      "id": "hugging-face-1786551276000-0",
+      "id": "hugging-face-1786551276000-2",
       "type": "live",
       "category": "research",
       "title": "Introducing OlmoEarth embeddings: Custom embedding exports from OlmoEarth Studio for downstream analysis",
@@ -111,28 +133,6 @@
       "source": "Hugging Face",
       "url": "https://huggingface.co/blog/allenai/olmoearth-embeddings",
       "publishedAt": "2026-08-12T16:14:36.000Z",
-      "impact": 75
-    },
-    {
-      "id": "hugging-face-1786543251000-1",
-      "type": "live",
-      "category": "multimodal",
-      "title": "LFM2.5-VL-3B for Better and Faster Vision Capabilities for the Edge",
-      "excerpt": "New development from the frontier.",
-      "source": "Hugging Face",
-      "url": "https://huggingface.co/blog/LiquidAI/lfm2-5-vl-3b",
-      "publishedAt": "2026-08-12T14:00:51.000Z",
-      "impact": 75
-    },
-    {
-      "id": "hugging-face-1786455430000-2",
-      "type": "live",
-      "category": "research",
-      "title": "Thinking of ACE? We Can Do It with Fewer Tokens",
-      "excerpt": "New development from the frontier.",
-      "source": "Hugging Face",
-      "url": "https://huggingface.co/blog/ibm-research/altk-evolve-sldd",
-      "publishedAt": "2026-08-11T13:37:10.000Z",
       "impact": 75
     }
   ]

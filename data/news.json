@@ -1,8 +1,74 @@
 {
-  "lastUpdated": "2026-08-13T02:26:00.327Z",
+  "lastUpdated": "2026-08-13T07:41:57.385Z",
   "source": "AETHER + Public RSS (arXiv, Hugging Face, MarkTechPost, Ben's Bites)",
-  "count": 16,
+  "count": 12,
   "articles": [
+    {
+      "id": "arxiv-cs.ai-1786593600000-0",
+      "type": "live",
+      "category": "safety",
+      "title": "Dynamic Governance of Multi-LLM Agent Systems for Collaborative Conversational Outcomes",
+      "excerpt": "11207v1 Announce Type: new Abstract: When two LLM agents with structurally opposed objectives interact across multiple turns, the absence of a shared goal function produces not competition but collapse: the visitor ca...",
+      "source": "arXiv cs.AI",
+      "url": "https://arxiv.org/abs/2608.11207",
+      "publishedAt": "2026-08-13T04:00:00.000Z",
+      "impact": 69
+    },
+    {
+      "id": "arxiv-cs.ai-1786593600000-1",
+      "type": "live",
+      "category": "safety",
+      "title": "Distribird: Literature-Informed Prior Distribution Design for Bayesian Model Calibration",
+      "excerpt": "11210v1 Announce Type: new Abstract: Bayesian calibration of process-based models requires a prior distribution for each model parameter.  Despite decades of methodological work, researchers almost always fall back on...",
+      "source": "arXiv cs.AI",
+      "url": "https://arxiv.org/abs/2608.11210",
+      "publishedAt": "2026-08-13T04:00:00.000Z",
+      "impact": 58
+    },
+    {
+      "id": "arxiv-cs.ai-1786593600000-2",
+      "type": "live",
+      "category": "research",
+      "title": "A Forced-Structure Reduction and Verifiable Bounds for Conway's 99-Graph",
+      "excerpt": "11211v1 Announce Type: new Abstract: Conway's 99-graph problem asks whether a strongly regular graph with parameters $\\mathrm{srg}(99,14,1,2)$ exists.  We report a systematic, fully reproducible attack by an autonomou...",
+      "source": "arXiv cs.AI",
+      "url": "https://arxiv.org/abs/2608.11211",
+      "publishedAt": "2026-08-13T04:00:00.000Z",
+      "impact": 58
+    },
+    {
+      "id": "arxiv-cs.ai-1786593600000-3",
+      "type": "live",
+      "category": "llm",
+      "title": "Detecting a Route Flip Is Easier Than Knowing Whether to Fix It: Causal Route-Mediated Damage in Quantized Mixture-of-Experts",
+      "excerpt": "11212v1 Announce Type: new Abstract: Top-k Mixture-of-Experts (MoE) routing is discontinuous, so a deployment-motivated numerical disturbance -- simulated 4-bit KV-cache quantization read by a protected BF16 gate -- p...",
+      "source": "arXiv cs.AI",
+      "url": "https://arxiv.org/abs/2608.11212",
+      "publishedAt": "2026-08-13T04:00:00.000Z",
+      "impact": 58
+    },
+    {
+      "id": "arxiv-cs.ai-1786593600000-4",
+      "type": "live",
+      "category": "llm",
+      "title": "Poor Man's Agentic Modeling: Simulating Large LLM-Agent Societies on a Laptop",
+      "excerpt": "11215v1 Announce Type: new Abstract: Simulating societies of many large language model (LLM) agents is expensive, yet the questions asked of such simulations are usually macroscopic: phase behaviour, stylised facts, a...",
+      "source": "arXiv cs.AI",
+      "url": "https://arxiv.org/abs/2608.11215",
+      "publishedAt": "2026-08-13T04:00:00.000Z",
+      "impact": 69
+    },
+    {
+      "id": "arxiv-cs.ai-1786593600000-5",
+      "type": "live",
+      "category": "llm",
+      "title": "AutoWorldModel-Bench: A State-Centric Benchmark for Automated World-Model Research",
+      "excerpt": "11216v1 Announce Type: new Abstract: World modeling is an unsettled field: architectures, training objectives, and state representations interact in complex ways, and no single recipe dominates across environments.  T...",
+      "source": "arXiv cs.AI",
+      "url": "https://arxiv.org/abs/2608.11216",
+      "publishedAt": "2026-08-13T04:00:00.000Z",
+      "impact": 58
+    },
     {
       "id": "aether-grok43",
       "type": "premium",
@@ -11,19 +77,8 @@
       "excerpt": "New model demonstrates 4.2× improvement on multi-step software engineering benchmarks and sustains coherent agent trajectories beyond 110k tokens.",
       "source": "xAI",
       "url": "https://x.ai/blog/grok-4.3",
-      "publishedAt": "2026-08-12T21:25:59.642Z",
+      "publishedAt": "2026-08-13T02:41:56.849Z",
       "impact": 96
-    },
-    {
-      "id": "marktechpost-1786556257000-0",
-      "type": "live",
-      "category": "hardware",
-      "title": "AllenAI Open Instruct Tulu 3 Post-Training with SFT, DPO, RLVR, GRPO, and Verifier-Based Evaluation",
-      "excerpt": "Build a custom LLM post-training pipeline using AllenAI’s Open Instruct framework.  This comprehensive guide walks through Supervised Fine-Tuning (SFT), Direct Preference Optimization (DPO), and Reinforcement Learning...",
-      "source": "MarkTechPost",
-      "url": "https://www.marktechpost.com/2026/08/12/allenai-open-instruct-tulu-3-post-training-with-sft-dpo-rlvr-grpo-and-verifier-based-evaluation/",
-      "publishedAt": "2026-08-12T17:37:37.000Z",
-      "impact": 65
     },
     {
       "id": "aether-figure03",
@@ -33,8 +88,19 @@
       "excerpt": "Humanoid achieves new milestone in unsupervised operation, performing 1,240 unique tasks across three assembly lines at the BMW South Carolina plant.",
       "source": "Figure AI",
       "url": "https://figure.ai/news/03-milestone",
-      "publishedAt": "2026-08-12T17:25:59.642Z",
+      "publishedAt": "2026-08-12T22:41:56.849Z",
       "impact": 89
+    },
+    {
+      "id": "aether-interp",
+      "type": "premium",
+      "category": "safety",
+      "title": "Anthropic publishes unprecedented mechanistic interpretability map of Claude 4",
+      "excerpt": "Researchers reverse-engineered 312 million features inside the model, including the first clear \"deception circuit\" discovered in a frontier model.",
+      "source": "Anthropic",
+      "url": "https://anthropic.com/research/claude-4-interp",
+      "publishedAt": "2026-08-12T17:41:56.849Z",
+      "impact": 91
     },
     {
       "id": "hugging-face-1786551276000-0",
@@ -57,116 +123,6 @@
       "url": "https://huggingface.co/blog/LiquidAI/lfm2-5-vl-3b",
       "publishedAt": "2026-08-12T14:00:51.000Z",
       "impact": 75
-    },
-    {
-      "id": "aether-interp",
-      "type": "premium",
-      "category": "safety",
-      "title": "Anthropic publishes unprecedented mechanistic interpretability map of Claude 4",
-      "excerpt": "Researchers reverse-engineered 312 million features inside the model, including the first clear \"deception circuit\" discovered in a frontier model.",
-      "source": "Anthropic",
-      "url": "https://anthropic.com/research/claude-4-interp",
-      "publishedAt": "2026-08-12T12:25:59.642Z",
-      "impact": 91
-    },
-    {
-      "id": "marktechpost-1786517980000-1",
-      "type": "live",
-      "category": "llm",
-      "title": "NVIDIA AI Releases Nemotron 3.5 Lightning: A 30B Open MoE with 3B Active Parameters, and NeMo Switchyard Model Router",
-      "excerpt": "NVIDIA's open 30B MoE targets the agent execution layer, with Switchyard routing each step to the cheapest capable model.  The post NVIDIA AI Releases Nemotron 3",
-      "source": "MarkTechPost",
-      "url": "https://www.marktechpost.com/2026/08/11/nvidia-ai-releases-nemotron-3-5-lightning-and-nemo-switchyard/",
-      "publishedAt": "2026-08-12T06:59:40.000Z",
-      "impact": 65
-    },
-    {
-      "id": "marktechpost-1786511152000-2",
-      "type": "live",
-      "category": "multimodal",
-      "title": "Xiaomi’s MiLM Plus Releases PROVE: Perception-Aligned Object Removal Metrics RC-S and RC-T With a Real-World Video Benchmark",
-      "excerpt": "Object removal models have improved faster than the metrics used to judge them.  Diffusion erasers now reconstruct shadows, reflections and occluded structure convincingly, yet PSNR, SSIM, LPIPS, ReMOVE and CFD freque...",
-      "source": "MarkTechPost",
-      "url": "https://www.marktechpost.com/2026/08/11/xiaomis-milm-plus-releases-prove-perception-aligned-object-removal-metrics-rc-s-and-rc-t-with-a-real-world-video-benchmark/",
-      "publishedAt": "2026-08-12T05:05:52.000Z",
-      "impact": 65
-    },
-    {
-      "id": "arxiv-cs.ai-1786507200000-0",
-      "type": "live",
-      "category": "safety",
-      "title": "Closed-Loop LLM Co-Pilots for Digital Agriculture",
-      "excerpt": "09949v1 Announce Type: new Abstract: This study evaluates the application of Large Language Models (LLMs) in complex biological systems, evolving from data analysis to autonomous, AI-guided experimentation.  The frame...",
-      "source": "arXiv cs.AI",
-      "url": "https://arxiv.org/abs/2608.09949",
-      "publishedAt": "2026-08-12T04:00:00.000Z",
-      "impact": 58
-    },
-    {
-      "id": "arxiv-cs.ai-1786507200000-1",
-      "type": "live",
-      "category": "safety",
-      "title": "SPOTting the Future: Lookahead Explanations for Deep Reinforcement Learning",
-      "excerpt": "09967v1 Announce Type: new Abstract: Deep reinforcement learning (DRL) agents achieve strong performance in complex environments, yet their decision-making processes remain difficult to interpret.  We introduce SPOT (...",
-      "source": "arXiv cs.AI",
-      "url": "https://arxiv.org/abs/2608.09967",
-      "publishedAt": "2026-08-12T04:00:00.000Z",
-      "impact": 58
-    },
-    {
-      "id": "arxiv-cs.ai-1786507200000-2",
-      "type": "live",
-      "category": "safety",
-      "title": "MIDAS: Mutual Information Disentanglement with Uncertainty-Aware Fusion for Incomplete Multimodal Sentiment Analysis",
-      "excerpt": "09986v1 Announce Type: new Abstract: Most existing multimodal sentiment analysis approaches assume access to complete multimodal inputs.  However, real-world applications frequently encounter incomplete or corrupted m...",
-      "source": "arXiv cs.AI",
-      "url": "https://arxiv.org/abs/2608.09986",
-      "publishedAt": "2026-08-12T04:00:00.000Z",
-      "impact": 58
-    },
-    {
-      "id": "arxiv-cs.ai-1786507200000-3",
-      "type": "live",
-      "category": "llm",
-      "title": "Towards Sustainable Artificial Intelligence: A Comprehensive Review and Comparative Analysis of Deep Learning Models' Carbon Footprint",
-      "excerpt": "09998v1 Announce Type: new Abstract: Artificial Intelligence (AI) and Machine Learning (ML) have become powerful tools for supporting and automating complex human tasks.  Despite their benefits, growing attention has ...",
-      "source": "arXiv cs.AI",
-      "url": "https://arxiv.org/abs/2608.09998",
-      "publishedAt": "2026-08-12T04:00:00.000Z",
-      "impact": 58
-    },
-    {
-      "id": "arxiv-cs.ai-1786507200000-4",
-      "type": "live",
-      "category": "safety",
-      "title": "ReCBM: Uncertainty-Gated Relational Reasoning for Concept Bottleneck Models",
-      "excerpt": "10004v1 Announce Type: new Abstract: Concept Bottleneck Models (CBMs) provide an interpretable framework by grounding predictions in human-understandable concepts, enabling semantic inspection and test-time interventi...",
-      "source": "arXiv cs.AI",
-      "url": "https://arxiv.org/abs/2608.10004",
-      "publishedAt": "2026-08-12T04:00:00.000Z",
-      "impact": 58
-    },
-    {
-      "id": "arxiv-cs.ai-1786507200000-5",
-      "type": "live",
-      "category": "research",
-      "title": "Automating and Scaling Behavioral Scientific Research on AI Agents",
-      "excerpt": "10030v1 Announce Type: new Abstract: As AI agents are increasingly deployed in complex environments, understanding their behaviors becomes critical.  Yet behavioral scientific research on AI agents remains manual and ...",
-      "source": "arXiv cs.AI",
-      "url": "https://arxiv.org/abs/2608.10030",
-      "publishedAt": "2026-08-12T04:00:00.000Z",
-      "impact": 69
-    },
-    {
-      "id": "marktechpost-1786478523000-3",
-      "type": "live",
-      "category": "hardware",
-      "title": "The Video Production Stack Now Fits on One Desk: LTX-2.5 Launches as NVIDIA-Accelerated Open Weights World Model",
-      "excerpt": "5 brings frontier video generation to local NVIDIA hardware: 6. 8-second clips, native multishot, day-one ComfyUI, open weights",
-      "source": "MarkTechPost",
-      "url": "https://www.marktechpost.com/2026/08/11/the-video-production-stack-now-fits-on-one-desk-ltx-2-5-launches-as-nvidia-accelerated-open-weights-world-model/",
-      "publishedAt": "2026-08-11T20:02:03.000Z",
-      "impact": 65
     },
     {
       "id": "hugging-face-1786455430000-2",

@@ -1,8 +1,41 @@
 {
-  "lastUpdated": "2026-08-12T19:08:12.962Z",
+  "lastUpdated": "2026-08-13T02:26:00.327Z",
   "source": "AETHER + Public RSS (arXiv, Hugging Face, MarkTechPost, Ben's Bites)",
-  "count": 12,
+  "count": 16,
   "articles": [
+    {
+      "id": "aether-grok43",
+      "type": "premium",
+      "category": "llm",
+      "title": "xAI releases Grok-4.3 with native long-horizon agent scaffolding",
+      "excerpt": "New model demonstrates 4.2× improvement on multi-step software engineering benchmarks and sustains coherent agent trajectories beyond 110k tokens.",
+      "source": "xAI",
+      "url": "https://x.ai/blog/grok-4.3",
+      "publishedAt": "2026-08-12T21:25:59.642Z",
+      "impact": 96
+    },
+    {
+      "id": "marktechpost-1786556257000-0",
+      "type": "live",
+      "category": "hardware",
+      "title": "AllenAI Open Instruct Tulu 3 Post-Training with SFT, DPO, RLVR, GRPO, and Verifier-Based Evaluation",
+      "excerpt": "Build a custom LLM post-training pipeline using AllenAI’s Open Instruct framework.  This comprehensive guide walks through Supervised Fine-Tuning (SFT), Direct Preference Optimization (DPO), and Reinforcement Learning...",
+      "source": "MarkTechPost",
+      "url": "https://www.marktechpost.com/2026/08/12/allenai-open-instruct-tulu-3-post-training-with-sft-dpo-rlvr-grpo-and-verifier-based-evaluation/",
+      "publishedAt": "2026-08-12T17:37:37.000Z",
+      "impact": 65
+    },
+    {
+      "id": "aether-figure03",
+      "type": "premium",
+      "category": "robotics",
+      "title": "Figure 03 completes 43-hour autonomous factory shift with zero interventions",
+      "excerpt": "Humanoid achieves new milestone in unsupervised operation, performing 1,240 unique tasks across three assembly lines at the BMW South Carolina plant.",
+      "source": "Figure AI",
+      "url": "https://figure.ai/news/03-milestone",
+      "publishedAt": "2026-08-12T17:25:59.642Z",
+      "impact": 89
+    },
     {
       "id": "hugging-face-1786551276000-0",
       "type": "live",
@@ -13,17 +46,6 @@
       "url": "https://huggingface.co/blog/allenai/olmoearth-embeddings",
       "publishedAt": "2026-08-12T16:14:36.000Z",
       "impact": 75
-    },
-    {
-      "id": "aether-grok43",
-      "type": "premium",
-      "category": "llm",
-      "title": "xAI releases Grok-4.3 with native long-horizon agent scaffolding",
-      "excerpt": "New model demonstrates 4.2× improvement on multi-step software engineering benchmarks and sustains coherent agent trajectories beyond 110k tokens.",
-      "source": "xAI",
-      "url": "https://x.ai/blog/grok-4.3",
-      "publishedAt": "2026-08-12T14:08:12.504Z",
-      "impact": 96
     },
     {
       "id": "hugging-face-1786543251000-1",
@@ -37,17 +59,6 @@
       "impact": 75
     },
     {
-      "id": "aether-figure03",
-      "type": "premium",
-      "category": "robotics",
-      "title": "Figure 03 completes 43-hour autonomous factory shift with zero interventions",
-      "excerpt": "Humanoid achieves new milestone in unsupervised operation, performing 1,240 unique tasks across three assembly lines at the BMW South Carolina plant.",
-      "source": "Figure AI",
-      "url": "https://figure.ai/news/03-milestone",
-      "publishedAt": "2026-08-12T10:08:12.504Z",
-      "impact": 89
-    },
-    {
       "id": "aether-interp",
       "type": "premium",
       "category": "safety",
@@ -55,28 +66,50 @@
       "excerpt": "Researchers reverse-engineered 312 million features inside the model, including the first clear \"deception circuit\" discovered in a frontier model.",
       "source": "Anthropic",
       "url": "https://anthropic.com/research/claude-4-interp",
-      "publishedAt": "2026-08-12T05:08:12.504Z",
+      "publishedAt": "2026-08-12T12:25:59.642Z",
       "impact": 91
+    },
+    {
+      "id": "marktechpost-1786517980000-1",
+      "type": "live",
+      "category": "llm",
+      "title": "NVIDIA AI Releases Nemotron 3.5 Lightning: A 30B Open MoE with 3B Active Parameters, and NeMo Switchyard Model Router",
+      "excerpt": "NVIDIA's open 30B MoE targets the agent execution layer, with Switchyard routing each step to the cheapest capable model.  The post NVIDIA AI Releases Nemotron 3",
+      "source": "MarkTechPost",
+      "url": "https://www.marktechpost.com/2026/08/11/nvidia-ai-releases-nemotron-3-5-lightning-and-nemo-switchyard/",
+      "publishedAt": "2026-08-12T06:59:40.000Z",
+      "impact": 65
+    },
+    {
+      "id": "marktechpost-1786511152000-2",
+      "type": "live",
+      "category": "multimodal",
+      "title": "Xiaomi’s MiLM Plus Releases PROVE: Perception-Aligned Object Removal Metrics RC-S and RC-T With a Real-World Video Benchmark",
+      "excerpt": "Object removal models have improved faster than the metrics used to judge them.  Diffusion erasers now reconstruct shadows, reflections and occluded structure convincingly, yet PSNR, SSIM, LPIPS, ReMOVE and CFD freque...",
+      "source": "MarkTechPost",
+      "url": "https://www.marktechpost.com/2026/08/11/xiaomis-milm-plus-releases-prove-perception-aligned-object-removal-metrics-rc-s-and-rc-t-with-a-real-world-video-benchmark/",
+      "publishedAt": "2026-08-12T05:05:52.000Z",
+      "impact": 65
     },
     {
       "id": "arxiv-cs.ai-1786507200000-0",
       "type": "live",
-      "category": "research",
-      "title": "Towards an Argumentative Foundation for Evaluative AI",
-      "excerpt": "07473v1 Announce Type: new Abstract: Evaluative AI (EAI) has been recently proposed as a way to support human decision-making, not by producing a single recommendation, but by presenting competing hypotheses together ...",
+      "category": "safety",
+      "title": "Closed-Loop LLM Co-Pilots for Digital Agriculture",
+      "excerpt": "09949v1 Announce Type: new Abstract: This study evaluates the application of Large Language Models (LLMs) in complex biological systems, evolving from data analysis to autonomous, AI-guided experimentation.  The frame...",
       "source": "arXiv cs.AI",
-      "url": "https://arxiv.org/abs/2608.07473",
+      "url": "https://arxiv.org/abs/2608.09949",
       "publishedAt": "2026-08-12T04:00:00.000Z",
       "impact": 58
     },
     {
       "id": "arxiv-cs.ai-1786507200000-1",
       "type": "live",
-      "category": "multimodal",
-      "title": "Flow-by-Flow:Content-Judgment Bypass for Governing AI Output in High-Loss Domains",
-      "excerpt": "07474v1 Announce Type: new Abstract: Prior work showed that human-in-the-loop oversight becomes structurally untenable in high-loss domains when AI output velocity V exceeds human cognitive capacity C_max.  The operat...",
+      "category": "safety",
+      "title": "SPOTting the Future: Lookahead Explanations for Deep Reinforcement Learning",
+      "excerpt": "09967v1 Announce Type: new Abstract: Deep reinforcement learning (DRL) agents achieve strong performance in complex environments, yet their decision-making processes remain difficult to interpret.  We introduce SPOT (...",
       "source": "arXiv cs.AI",
-      "url": "https://arxiv.org/abs/2608.07474",
+      "url": "https://arxiv.org/abs/2608.09967",
       "publishedAt": "2026-08-12T04:00:00.000Z",
       "impact": 58
     },
@@ -84,10 +117,10 @@
       "id": "arxiv-cs.ai-1786507200000-2",
       "type": "live",
       "category": "safety",
-      "title": "Determinization in Structure Theories: A Unified Framework via Closure, Comparability, and Joint Admissibility",
-      "excerpt": "07476v1 Announce Type: new Abstract: We develop a formal framework for constructing canonical interpretations from plural structure theories.  A structure theory is a triple T = ({\\Sigma}, A, I) consisting of a signat...",
+      "title": "MIDAS: Mutual Information Disentanglement with Uncertainty-Aware Fusion for Incomplete Multimodal Sentiment Analysis",
+      "excerpt": "09986v1 Announce Type: new Abstract: Most existing multimodal sentiment analysis approaches assume access to complete multimodal inputs.  However, real-world applications frequently encounter incomplete or corrupted m...",
       "source": "arXiv cs.AI",
-      "url": "https://arxiv.org/abs/2608.07476",
+      "url": "https://arxiv.org/abs/2608.09986",
       "publishedAt": "2026-08-12T04:00:00.000Z",
       "impact": 58
     },
@@ -95,34 +128,45 @@
       "id": "arxiv-cs.ai-1786507200000-3",
       "type": "live",
       "category": "llm",
-      "title": "Emotion in an active inference model of human driving",
-      "excerpt": "07480v1 Announce Type: new Abstract: Active inference has emerged as a principled framework for modeling adaptive behavior by balancing goal-directed action with uncertainty reduction.  It has been successfully applie...",
+      "title": "Towards Sustainable Artificial Intelligence: A Comprehensive Review and Comparative Analysis of Deep Learning Models' Carbon Footprint",
+      "excerpt": "09998v1 Announce Type: new Abstract: Artificial Intelligence (AI) and Machine Learning (ML) have become powerful tools for supporting and automating complex human tasks.  Despite their benefits, growing attention has ...",
       "source": "arXiv cs.AI",
-      "url": "https://arxiv.org/abs/2608.07480",
+      "url": "https://arxiv.org/abs/2608.09998",
       "publishedAt": "2026-08-12T04:00:00.000Z",
       "impact": 58
     },
     {
       "id": "arxiv-cs.ai-1786507200000-4",
       "type": "live",
-      "category": "hardware",
-      "title": "Training Variable Long Sequences with Data-Centric Parallel",
-      "excerpt": "07524v1 Announce Type: new Abstract: Training deep learning models on variable long sequences poses significant computational challenges.  Existing methods force a difficult trade-off between efficiency and ease-of-use",
+      "category": "safety",
+      "title": "ReCBM: Uncertainty-Gated Relational Reasoning for Concept Bottleneck Models",
+      "excerpt": "10004v1 Announce Type: new Abstract: Concept Bottleneck Models (CBMs) provide an interpretable framework by grounding predictions in human-understandable concepts, enabling semantic inspection and test-time interventi...",
       "source": "arXiv cs.AI",
-      "url": "https://arxiv.org/abs/2608.07524",
+      "url": "https://arxiv.org/abs/2608.10004",
       "publishedAt": "2026-08-12T04:00:00.000Z",
       "impact": 58
     },
     {
       "id": "arxiv-cs.ai-1786507200000-5",
       "type": "live",
-      "category": "llm",
-      "title": "The Knowing-Saying Gap: When Probes See Errors that Confidence Misses",
-      "excerpt": "07528v1 Announce Type: new Abstract: Linear probes detect corrupted context in language models with near-perfect accuracy, yet this does not translate into reliable failure prediction.  The result is a dissociation wi...",
+      "category": "research",
+      "title": "Automating and Scaling Behavioral Scientific Research on AI Agents",
+      "excerpt": "10030v1 Announce Type: new Abstract: As AI agents are increasingly deployed in complex environments, understanding their behaviors becomes critical.  Yet behavioral scientific research on AI agents remains manual and ...",
       "source": "arXiv cs.AI",
-      "url": "https://arxiv.org/abs/2608.07528",
+      "url": "https://arxiv.org/abs/2608.10030",
       "publishedAt": "2026-08-12T04:00:00.000Z",
-      "impact": 58
+      "impact": 69
+    },
+    {
+      "id": "marktechpost-1786478523000-3",
+      "type": "live",
+      "category": "hardware",
+      "title": "The Video Production Stack Now Fits on One Desk: LTX-2.5 Launches as NVIDIA-Accelerated Open Weights World Model",
+      "excerpt": "5 brings frontier video generation to local NVIDIA hardware: 6. 8-second clips, native multishot, day-one ComfyUI, open weights",
+      "source": "MarkTechPost",
+      "url": "https://www.marktechpost.com/2026/08/11/the-video-production-stack-now-fits-on-one-desk-ltx-2-5-launches-as-nvidia-accelerated-open-weights-world-model/",
+      "publishedAt": "2026-08-11T20:02:03.000Z",
+      "impact": 65
     },
     {
       "id": "hugging-face-1786455430000-2",

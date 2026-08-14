@@ -1,7 +1,7 @@
 {
-  "lastUpdated": "2026-08-14T13:18:00.746Z",
+  "lastUpdated": "2026-08-14T19:01:00.252Z",
   "source": "AETHER + Public RSS (arXiv, Hugging Face, MarkTechPost, Ben's Bites)",
-  "count": 12,
+  "count": 16,
   "articles": [
     {
       "id": "aether-grok43",
@@ -11,7 +11,7 @@
       "excerpt": "New model demonstrates 4.2× improvement on multi-step software engineering benchmarks and sustains coherent agent trajectories beyond 110k tokens.",
       "source": "xAI",
       "url": "https://x.ai/blog/grok-4.3",
-      "publishedAt": "2026-08-14T08:18:00.143Z",
+      "publishedAt": "2026-08-14T14:00:59.518Z",
       "impact": 96
     },
     {
@@ -22,8 +22,41 @@
       "excerpt": "Humanoid achieves new milestone in unsupervised operation, performing 1,240 unique tasks across three assembly lines at the BMW South Carolina plant.",
       "source": "Figure AI",
       "url": "https://figure.ai/news/03-milestone",
-      "publishedAt": "2026-08-14T04:18:00.143Z",
+      "publishedAt": "2026-08-14T10:00:59.518Z",
       "impact": 89
+    },
+    {
+      "id": "marktechpost-1786694602000-0",
+      "type": "live",
+      "category": "llm",
+      "title": "Z.ai Ships GLM-5.3 Without Retraining the Base Model: Better at Complex Coding and Long-Horizon Tasks",
+      "excerpt": "The model reuses the 743B GLM-5.  Every reported gain comes from scaled post-training: more long-horizon task environments, more environment types, longer training",
+      "source": "MarkTechPost",
+      "url": "https://www.marktechpost.com/2026/08/14/z-ai-ships-glm-5-3-without-retraining-the-base-model-better-at-complex-coding-and-long-horizon-tasks/",
+      "publishedAt": "2026-08-14T08:03:22.000Z",
+      "impact": 77
+    },
+    {
+      "id": "marktechpost-1786686347000-1",
+      "type": "live",
+      "category": "hardware",
+      "title": "Meet Needle 2: An Open 45M-Parameter Tool-Calling Model That Ships as a 14MB Binary and Runs a Full Session in 28MB of RAM",
+      "excerpt": "Cactus Compute released Needle 2, an open 45M-parameter model for tool calling, device use, and structured extraction.  The full model is a single 14MB binary that runs a session in about 28MB of RAM",
+      "source": "MarkTechPost",
+      "url": "https://www.marktechpost.com/2026/08/13/cactus-compute-needle-2-45m-parameter-tool-calling-model/",
+      "publishedAt": "2026-08-14T05:45:47.000Z",
+      "impact": 65
+    },
+    {
+      "id": "aether-interp",
+      "type": "premium",
+      "category": "safety",
+      "title": "Anthropic publishes unprecedented mechanistic interpretability map of Claude 4",
+      "excerpt": "Researchers reverse-engineered 312 million features inside the model, including the first clear \"deception circuit\" discovered in a frontier model.",
+      "source": "Anthropic",
+      "url": "https://anthropic.com/research/claude-4-interp",
+      "publishedAt": "2026-08-14T05:00:59.518Z",
+      "impact": 91
     },
     {
       "id": "arxiv-cs.ai-1786680000000-0",
@@ -92,18 +125,40 @@
       "impact": 58
     },
     {
-      "id": "aether-interp",
-      "type": "premium",
-      "category": "safety",
-      "title": "Anthropic publishes unprecedented mechanistic interpretability map of Claude 4",
-      "excerpt": "Researchers reverse-engineered 312 million features inside the model, including the first clear \"deception circuit\" discovered in a frontier model.",
-      "source": "Anthropic",
-      "url": "https://anthropic.com/research/claude-4-interp",
-      "publishedAt": "2026-08-13T23:18:00.143Z",
-      "impact": 91
+      "id": "marktechpost-1786676985000-2",
+      "type": "live",
+      "category": "llm",
+      "title": "Create a Reasoning-Focused LLM: A Practical Guide to Streaming, Curating, and Fine-Tuning the SupraLabs Reasoning Corpus",
+      "excerpt": "This tutorial provides a complete workflow for building a compact, reasoning-focused language model.  By streaming the SupraLabs reasoning corpus from Hugging Face, we apply quality filters and curate data for Supervi...",
+      "source": "MarkTechPost",
+      "url": "https://www.marktechpost.com/2026/08/13/a-practical-guide-to-streaming-curating-and-fine-tuning-the-supralabs-reasoning-corpus/",
+      "publishedAt": "2026-08-14T03:09:45.000Z",
+      "impact": 65
     },
     {
-      "id": "hugging-face-1786641364000-0",
+      "id": "hugging-face-1786665600000-0",
+      "type": "live",
+      "category": "llm",
+      "title": "State of Open Models: Summer 2026 Observations",
+      "excerpt": "New development from the frontier.",
+      "source": "Hugging Face",
+      "url": "https://huggingface.co/blog/state-of-open-models-summer-2026",
+      "publishedAt": "2026-08-14T00:00:00.000Z",
+      "impact": 75
+    },
+    {
+      "id": "marktechpost-1786643261000-3",
+      "type": "live",
+      "category": "multimodal",
+      "title": "Google AI Just Released Gemini 3.7 Flash: A Coding and Agent Model at $0.75/1M Input Tokens",
+      "excerpt": "Google has released Gemini 3. 7 Flash, a refinement of Gemini 3",
+      "source": "MarkTechPost",
+      "url": "https://www.marktechpost.com/2026/08/13/google-ai-just-released-gemini-3-7-flash/",
+      "publishedAt": "2026-08-13T17:47:41.000Z",
+      "impact": 77
+    },
+    {
+      "id": "hugging-face-1786641364000-1",
       "type": "live",
       "category": "robotics",
       "title": "Record, train, and deploy from one place with Strands Agents, LeRobot, and Hugging Face Storage Buckets",
@@ -114,7 +169,7 @@
       "impact": 87
     },
     {
-      "id": "hugging-face-1786579200000-1",
+      "id": "hugging-face-1786579200000-2",
       "type": "live",
       "category": "research",
       "title": "What We Learned by Reproducing 2,200 papers from ICML",
@@ -122,17 +177,6 @@
       "source": "Hugging Face",
       "url": "https://huggingface.co/blog/icml-2026-open-reproductions",
       "publishedAt": "2026-08-13T00:00:00.000Z",
-      "impact": 75
-    },
-    {
-      "id": "hugging-face-1786551276000-2",
-      "type": "live",
-      "category": "research",
-      "title": "Introducing OlmoEarth embeddings: Custom embedding exports from OlmoEarth Studio for downstream analysis",
-      "excerpt": "New development from the frontier.",
-      "source": "Hugging Face",
-      "url": "https://huggingface.co/blog/allenai/olmoearth-embeddings",
-      "publishedAt": "2026-08-12T16:14:36.000Z",
       "impact": 75
     }
   ]

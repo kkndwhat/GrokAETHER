@@ -1,8 +1,74 @@
 {
-  "lastUpdated": "2026-08-15T01:35:26.931Z",
+  "lastUpdated": "2026-08-15T06:47:06.563Z",
   "source": "AETHER + Public RSS (arXiv, Hugging Face, MarkTechPost, Ben's Bites)",
   "count": 16,
   "articles": [
+    {
+      "id": "arxiv-cs.ai-1786766400000-0",
+      "type": "live",
+      "category": "llm",
+      "title": "Position: Reasoning is a Learnable Rule-Based Process",
+      "excerpt": "12325v1 Announce Type: new Abstract: Autonomous reasoning is among the most scientifically and economically motivating topics in AI today.  Historically the purview of symbolic AI, recent advances have mainly emerged ...",
+      "source": "arXiv cs.AI",
+      "url": "https://arxiv.org/abs/2608.12325",
+      "publishedAt": "2026-08-15T04:00:00.000Z",
+      "impact": 58
+    },
+    {
+      "id": "arxiv-cs.ai-1786766400000-1",
+      "type": "live",
+      "category": "llm",
+      "title": "Diagnostic Foundation for Evaluating LLMs' Research Integrity as Co-Scientists",
+      "excerpt": "12345v1 Announce Type: new Abstract: Language models are increasingly deployed as co-scientists, yet their ability to uphold research integrity under institutional pressure remains unmeasured.  We introduce IntegrityB...",
+      "source": "arXiv cs.AI",
+      "url": "https://arxiv.org/abs/2608.12345",
+      "publishedAt": "2026-08-15T04:00:00.000Z",
+      "impact": 58
+    },
+    {
+      "id": "arxiv-cs.ai-1786766400000-2",
+      "type": "live",
+      "category": "safety",
+      "title": "Position: The Alignment Community is Unintentionally Building a Censor's Toolkit",
+      "excerpt": "12346v1 Announce Type: new Abstract: This position paper argues that modern AI alignment methods - originally designed to prevent harmful output - are dual-use technologies that may easily be misused by malicious acto...",
+      "source": "arXiv cs.AI",
+      "url": "https://arxiv.org/abs/2608.12346",
+      "publishedAt": "2026-08-15T04:00:00.000Z",
+      "impact": 58
+    },
+    {
+      "id": "arxiv-cs.ai-1786766400000-3",
+      "type": "live",
+      "category": "safety",
+      "title": "Agreement Is Not Alignment: Divergent Moral Grounds in Human and LLM Ethical Judgments",
+      "excerpt": "12368v1 Announce Type: new Abstract: Agreement with human judgments is a common proxy for evaluating the alignment of large language models (LLMs).  Yet agreement in final labels does not show that human annotators an...",
+      "source": "arXiv cs.AI",
+      "url": "https://arxiv.org/abs/2608.12368",
+      "publishedAt": "2026-08-15T04:00:00.000Z",
+      "impact": 58
+    },
+    {
+      "id": "arxiv-cs.ai-1786766400000-4",
+      "type": "live",
+      "category": "multimodal",
+      "title": "Multi-Agent Scheduling with LLM-Assisted Contract Net Negotiation for Stream Processing in Mobile Edge Computing",
+      "excerpt": "12371v1 Announce Type: new Abstract: Stream-processing systems increasingly operate across heterogeneous mobile edge--cloud infrastructures, where workload volatility, resource contention, and stringent quality-of-ser...",
+      "source": "arXiv cs.AI",
+      "url": "https://arxiv.org/abs/2608.12371",
+      "publishedAt": "2026-08-15T04:00:00.000Z",
+      "impact": 69
+    },
+    {
+      "id": "arxiv-cs.ai-1786766400000-5",
+      "type": "live",
+      "category": "safety",
+      "title": "Position: We Need Practical AI Alignment Methods to Mirror Human Reasoning",
+      "excerpt": "12372v1 Announce Type: new Abstract: AI systems are increasingly employed as decision aids, decision delegates, or autonomous decision-makers.  This position paper argues that in many settings, particularly high-stake...",
+      "source": "arXiv cs.AI",
+      "url": "https://arxiv.org/abs/2608.12372",
+      "publishedAt": "2026-08-15T04:00:00.000Z",
+      "impact": 58
+    },
     {
       "id": "aether-grok43",
       "type": "premium",
@@ -11,7 +77,7 @@
       "excerpt": "New model demonstrates 4.2× improvement on multi-step software engineering benchmarks and sustains coherent agent trajectories beyond 110k tokens.",
       "source": "xAI",
       "url": "https://x.ai/blog/grok-4.3",
-      "publishedAt": "2026-08-14T20:35:26.421Z",
+      "publishedAt": "2026-08-15T01:47:05.792Z",
       "impact": 96
     },
     {
@@ -22,7 +88,7 @@
       "excerpt": "Humanoid achieves new milestone in unsupervised operation, performing 1,240 unique tasks across three assembly lines at the BMW South Carolina plant.",
       "source": "Figure AI",
       "url": "https://figure.ai/news/03-milestone",
-      "publishedAt": "2026-08-14T16:35:26.421Z",
+      "publishedAt": "2026-08-14T21:47:05.792Z",
       "impact": 89
     },
     {
@@ -33,7 +99,7 @@
       "excerpt": "Researchers reverse-engineered 312 million features inside the model, including the first clear \"deception circuit\" discovered in a frontier model.",
       "source": "Anthropic",
       "url": "https://anthropic.com/research/claude-4-interp",
-      "publishedAt": "2026-08-14T11:35:26.421Z",
+      "publishedAt": "2026-08-14T16:47:05.792Z",
       "impact": 91
     },
     {
@@ -57,72 +123,6 @@
       "url": "https://www.marktechpost.com/2026/08/13/cactus-compute-needle-2-45m-parameter-tool-calling-model/",
       "publishedAt": "2026-08-14T05:45:47.000Z",
       "impact": 65
-    },
-    {
-      "id": "arxiv-cs.ai-1786680000000-0",
-      "type": "live",
-      "category": "safety",
-      "title": "Dynamic Governance of Multi-LLM Agent Systems for Collaborative Conversational Outcomes",
-      "excerpt": "11207v1 Announce Type: new Abstract: When two LLM agents with structurally opposed objectives interact across multiple turns, the absence of a shared goal function produces not competition but collapse: the visitor ca...",
-      "source": "arXiv cs.AI",
-      "url": "https://arxiv.org/abs/2608.11207",
-      "publishedAt": "2026-08-14T04:00:00.000Z",
-      "impact": 69
-    },
-    {
-      "id": "arxiv-cs.ai-1786680000000-1",
-      "type": "live",
-      "category": "safety",
-      "title": "Distribird: Literature-Informed Prior Distribution Design for Bayesian Model Calibration",
-      "excerpt": "11210v1 Announce Type: new Abstract: Bayesian calibration of process-based models requires a prior distribution for each model parameter.  Despite decades of methodological work, researchers almost always fall back on...",
-      "source": "arXiv cs.AI",
-      "url": "https://arxiv.org/abs/2608.11210",
-      "publishedAt": "2026-08-14T04:00:00.000Z",
-      "impact": 58
-    },
-    {
-      "id": "arxiv-cs.ai-1786680000000-2",
-      "type": "live",
-      "category": "research",
-      "title": "A Forced-Structure Reduction and Verifiable Bounds for Conway's 99-Graph",
-      "excerpt": "11211v1 Announce Type: new Abstract: Conway's 99-graph problem asks whether a strongly regular graph with parameters $\\mathrm{srg}(99,14,1,2)$ exists.  We report a systematic, fully reproducible attack by an autonomou...",
-      "source": "arXiv cs.AI",
-      "url": "https://arxiv.org/abs/2608.11211",
-      "publishedAt": "2026-08-14T04:00:00.000Z",
-      "impact": 58
-    },
-    {
-      "id": "arxiv-cs.ai-1786680000000-3",
-      "type": "live",
-      "category": "llm",
-      "title": "Detecting a Route Flip Is Easier Than Knowing Whether to Fix It: Causal Route-Mediated Damage in Quantized Mixture-of-Experts",
-      "excerpt": "11212v1 Announce Type: new Abstract: Top-k Mixture-of-Experts (MoE) routing is discontinuous, so a deployment-motivated numerical disturbance -- simulated 4-bit KV-cache quantization read by a protected BF16 gate -- p...",
-      "source": "arXiv cs.AI",
-      "url": "https://arxiv.org/abs/2608.11212",
-      "publishedAt": "2026-08-14T04:00:00.000Z",
-      "impact": 58
-    },
-    {
-      "id": "arxiv-cs.ai-1786680000000-4",
-      "type": "live",
-      "category": "llm",
-      "title": "Poor Man's Agentic Modeling: Simulating Large LLM-Agent Societies on a Laptop",
-      "excerpt": "11215v1 Announce Type: new Abstract: Simulating societies of many large language model (LLM) agents is expensive, yet the questions asked of such simulations are usually macroscopic: phase behaviour, stylised facts, a...",
-      "source": "arXiv cs.AI",
-      "url": "https://arxiv.org/abs/2608.11215",
-      "publishedAt": "2026-08-14T04:00:00.000Z",
-      "impact": 69
-    },
-    {
-      "id": "arxiv-cs.ai-1786680000000-5",
-      "type": "live",
-      "category": "llm",
-      "title": "AutoWorldModel-Bench: A State-Centric Benchmark for Automated World-Model Research",
-      "excerpt": "11216v1 Announce Type: new Abstract: World modeling is an unsettled field: architectures, training objectives, and state representations interact in complex ways, and no single recipe dominates across environments.  T...",
-      "source": "arXiv cs.AI",
-      "url": "https://arxiv.org/abs/2608.11216",
-      "publishedAt": "2026-08-14T04:00:00.000Z",
-      "impact": 58
     },
     {
       "id": "marktechpost-1786676985000-2",

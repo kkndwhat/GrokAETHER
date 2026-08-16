@@ -1,74 +1,8 @@
 {
-  "lastUpdated": "2026-08-15T06:47:06.563Z",
+  "lastUpdated": "2026-08-16T06:48:32.007Z",
   "source": "AETHER + Public RSS (arXiv, Hugging Face, MarkTechPost, Ben's Bites)",
-  "count": 16,
+  "count": 10,
   "articles": [
-    {
-      "id": "arxiv-cs.ai-1786766400000-0",
-      "type": "live",
-      "category": "llm",
-      "title": "Position: Reasoning is a Learnable Rule-Based Process",
-      "excerpt": "12325v1 Announce Type: new Abstract: Autonomous reasoning is among the most scientifically and economically motivating topics in AI today.  Historically the purview of symbolic AI, recent advances have mainly emerged ...",
-      "source": "arXiv cs.AI",
-      "url": "https://arxiv.org/abs/2608.12325",
-      "publishedAt": "2026-08-15T04:00:00.000Z",
-      "impact": 58
-    },
-    {
-      "id": "arxiv-cs.ai-1786766400000-1",
-      "type": "live",
-      "category": "llm",
-      "title": "Diagnostic Foundation for Evaluating LLMs' Research Integrity as Co-Scientists",
-      "excerpt": "12345v1 Announce Type: new Abstract: Language models are increasingly deployed as co-scientists, yet their ability to uphold research integrity under institutional pressure remains unmeasured.  We introduce IntegrityB...",
-      "source": "arXiv cs.AI",
-      "url": "https://arxiv.org/abs/2608.12345",
-      "publishedAt": "2026-08-15T04:00:00.000Z",
-      "impact": 58
-    },
-    {
-      "id": "arxiv-cs.ai-1786766400000-2",
-      "type": "live",
-      "category": "safety",
-      "title": "Position: The Alignment Community is Unintentionally Building a Censor's Toolkit",
-      "excerpt": "12346v1 Announce Type: new Abstract: This position paper argues that modern AI alignment methods - originally designed to prevent harmful output - are dual-use technologies that may easily be misused by malicious acto...",
-      "source": "arXiv cs.AI",
-      "url": "https://arxiv.org/abs/2608.12346",
-      "publishedAt": "2026-08-15T04:00:00.000Z",
-      "impact": 58
-    },
-    {
-      "id": "arxiv-cs.ai-1786766400000-3",
-      "type": "live",
-      "category": "safety",
-      "title": "Agreement Is Not Alignment: Divergent Moral Grounds in Human and LLM Ethical Judgments",
-      "excerpt": "12368v1 Announce Type: new Abstract: Agreement with human judgments is a common proxy for evaluating the alignment of large language models (LLMs).  Yet agreement in final labels does not show that human annotators an...",
-      "source": "arXiv cs.AI",
-      "url": "https://arxiv.org/abs/2608.12368",
-      "publishedAt": "2026-08-15T04:00:00.000Z",
-      "impact": 58
-    },
-    {
-      "id": "arxiv-cs.ai-1786766400000-4",
-      "type": "live",
-      "category": "multimodal",
-      "title": "Multi-Agent Scheduling with LLM-Assisted Contract Net Negotiation for Stream Processing in Mobile Edge Computing",
-      "excerpt": "12371v1 Announce Type: new Abstract: Stream-processing systems increasingly operate across heterogeneous mobile edge--cloud infrastructures, where workload volatility, resource contention, and stringent quality-of-ser...",
-      "source": "arXiv cs.AI",
-      "url": "https://arxiv.org/abs/2608.12371",
-      "publishedAt": "2026-08-15T04:00:00.000Z",
-      "impact": 69
-    },
-    {
-      "id": "arxiv-cs.ai-1786766400000-5",
-      "type": "live",
-      "category": "safety",
-      "title": "Position: We Need Practical AI Alignment Methods to Mirror Human Reasoning",
-      "excerpt": "12372v1 Announce Type: new Abstract: AI systems are increasingly employed as decision aids, decision delegates, or autonomous decision-makers.  This position paper argues that in many settings, particularly high-stake...",
-      "source": "arXiv cs.AI",
-      "url": "https://arxiv.org/abs/2608.12372",
-      "publishedAt": "2026-08-15T04:00:00.000Z",
-      "impact": 58
-    },
     {
       "id": "aether-grok43",
       "type": "premium",
@@ -77,7 +11,7 @@
       "excerpt": "New model demonstrates 4.2× improvement on multi-step software engineering benchmarks and sustains coherent agent trajectories beyond 110k tokens.",
       "source": "xAI",
       "url": "https://x.ai/blog/grok-4.3",
-      "publishedAt": "2026-08-15T01:47:05.792Z",
+      "publishedAt": "2026-08-16T01:48:30.884Z",
       "impact": 96
     },
     {
@@ -88,7 +22,7 @@
       "excerpt": "Humanoid achieves new milestone in unsupervised operation, performing 1,240 unique tasks across three assembly lines at the BMW South Carolina plant.",
       "source": "Figure AI",
       "url": "https://figure.ai/news/03-milestone",
-      "publishedAt": "2026-08-14T21:47:05.792Z",
+      "publishedAt": "2026-08-15T21:48:30.884Z",
       "impact": 89
     },
     {
@@ -99,11 +33,22 @@
       "excerpt": "Researchers reverse-engineered 312 million features inside the model, including the first clear \"deception circuit\" discovered in a frontier model.",
       "source": "Anthropic",
       "url": "https://anthropic.com/research/claude-4-interp",
-      "publishedAt": "2026-08-14T16:47:05.792Z",
+      "publishedAt": "2026-08-15T16:48:30.884Z",
       "impact": 91
     },
     {
-      "id": "marktechpost-1786694602000-0",
+      "id": "marktechpost-1786793309000-0",
+      "type": "live",
+      "category": "llm",
+      "title": "Fine-Tuning Tool-Calling LLMs: A Complete Guide Using XYZ-Aquila-SFT and Qwen3",
+      "excerpt": "Implement an end-to-end fine-tuning pipeline for tool-calling language models.  This tutorial covers parsing trajectories, structured tool-call extraction, Qwen-compatible ChatML rendering, and efficient LoRA adaptati...",
+      "source": "MarkTechPost",
+      "url": "https://www.marktechpost.com/2026/08/15/fine-tuning-tool-calling-llms-a-complete-guide-using-xyz-aquila-sft-and-qwen3/",
+      "publishedAt": "2026-08-15T11:28:29.000Z",
+      "impact": 65
+    },
+    {
+      "id": "marktechpost-1786694602000-1",
       "type": "live",
       "category": "llm",
       "title": "Z.ai Ships GLM-5.3 Without Retraining the Base Model: Better at Complex Coding and Long-Horizon Tasks",
@@ -114,7 +59,7 @@
       "impact": 77
     },
     {
-      "id": "marktechpost-1786686347000-1",
+      "id": "marktechpost-1786686347000-2",
       "type": "live",
       "category": "hardware",
       "title": "Meet Needle 2: An Open 45M-Parameter Tool-Calling Model That Ships as a 14MB Binary and Runs a Full Session in 28MB of RAM",
@@ -125,7 +70,7 @@
       "impact": 65
     },
     {
-      "id": "marktechpost-1786676985000-2",
+      "id": "marktechpost-1786676985000-3",
       "type": "live",
       "category": "llm",
       "title": "Create a Reasoning-Focused LLM: A Practical Guide to Streaming, Curating, and Fine-Tuning the SupraLabs Reasoning Corpus",
@@ -145,17 +90,6 @@
       "url": "https://huggingface.co/blog/state-of-open-models-summer-2026",
       "publishedAt": "2026-08-14T00:00:00.000Z",
       "impact": 75
-    },
-    {
-      "id": "marktechpost-1786643261000-3",
-      "type": "live",
-      "category": "multimodal",
-      "title": "Google AI Just Released Gemini 3.7 Flash: A Coding and Agent Model at $0.75/1M Input Tokens",
-      "excerpt": "Google has released Gemini 3. 7 Flash, a refinement of Gemini 3",
-      "source": "MarkTechPost",
-      "url": "https://www.marktechpost.com/2026/08/13/google-ai-just-released-gemini-3-7-flash/",
-      "publishedAt": "2026-08-13T17:47:41.000Z",
-      "impact": 77
     },
     {
       "id": "hugging-face-1786641364000-1",

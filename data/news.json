@@ -1,10 +1,54 @@
 {
-  "lastUpdated": "2026-08-17T12:54:00.115Z",
+  "lastUpdated": "2026-08-17T18:47:23.938Z",
   "source": "AETHER + Public RSS (arXiv, Hugging Face, MarkTechPost, Ben's Bites)",
   "count": 16,
   "articles": [
     {
-      "id": "marktechpost-1786957592000-0",
+      "id": "marktechpost-1786991800000-0",
+      "type": "live",
+      "category": "llm",
+      "title": "MiniMax Releases MiniMax-Music3: An Open-Weights Music Model Generating Complete Five-Minute Songs From Lyrics and a Structured Caption",
+      "excerpt": "MiniMax released MiniMax-Music3, an open-weights text-to-music model.  Given lyrics with section tags and a structured caption, it generates a complete song of up to five minutes in a single pass, as 32 kHz, 16-bit st...",
+      "source": "MarkTechPost",
+      "url": "https://www.marktechpost.com/2026/08/17/minimax-releases-minimax-music3/",
+      "publishedAt": "2026-08-17T18:36:40.000Z",
+      "impact": 65
+    },
+    {
+      "id": "marktechpost-1786989170000-1",
+      "type": "live",
+      "category": "research",
+      "title": "Developing an End-to-End Document Intelligence Pipeline with docTR for OCR, Layout Analysis, KIE, Benchmarking, and Searchable PDFs",
+      "excerpt": "Develop a complete document intelligence pipeline with docTR, integrating OCR, layout analysis, and KIE for production-oriented extraction and searchable PDF creation.  The post Developing an End-to-End Document Intel...",
+      "source": "MarkTechPost",
+      "url": "https://www.marktechpost.com/2026/08/17/end-to-end-document-intelligence-pipeline-with-doctr-for-ocr/",
+      "publishedAt": "2026-08-17T17:52:50.000Z",
+      "impact": 65
+    },
+    {
+      "id": "aether-grok43",
+      "type": "premium",
+      "category": "llm",
+      "title": "xAI releases Grok-4.3 with native long-horizon agent scaffolding",
+      "excerpt": "New model demonstrates 4.2× improvement on multi-step software engineering benchmarks and sustains coherent agent trajectories beyond 110k tokens.",
+      "source": "xAI",
+      "url": "https://x.ai/blog/grok-4.3",
+      "publishedAt": "2026-08-17T13:47:22.920Z",
+      "impact": 96
+    },
+    {
+      "id": "aether-figure03",
+      "type": "premium",
+      "category": "robotics",
+      "title": "Figure 03 completes 43-hour autonomous factory shift with zero interventions",
+      "excerpt": "Humanoid achieves new milestone in unsupervised operation, performing 1,240 unique tasks across three assembly lines at the BMW South Carolina plant.",
+      "source": "Figure AI",
+      "url": "https://figure.ai/news/03-milestone",
+      "publishedAt": "2026-08-17T09:47:22.920Z",
+      "impact": 89
+    },
+    {
+      "id": "marktechpost-1786957592000-2",
       "type": "live",
       "category": "llm",
       "title": "DeepSeek AI Releases DeepSeek Harness in Developer Preview: An MIT-Licensed Agent Harness Where Everything is a Plugin",
@@ -15,15 +59,15 @@
       "impact": 77
     },
     {
-      "id": "aether-grok43",
+      "id": "aether-interp",
       "type": "premium",
-      "category": "llm",
-      "title": "xAI releases Grok-4.3 with native long-horizon agent scaffolding",
-      "excerpt": "New model demonstrates 4.2× improvement on multi-step software engineering benchmarks and sustains coherent agent trajectories beyond 110k tokens.",
-      "source": "xAI",
-      "url": "https://x.ai/blog/grok-4.3",
-      "publishedAt": "2026-08-17T07:53:58.939Z",
-      "impact": 96
+      "category": "safety",
+      "title": "Anthropic publishes unprecedented mechanistic interpretability map of Claude 4",
+      "excerpt": "Researchers reverse-engineered 312 million features inside the model, including the first clear \"deception circuit\" discovered in a frontier model.",
+      "source": "Anthropic",
+      "url": "https://anthropic.com/research/claude-4-interp",
+      "publishedAt": "2026-08-17T04:47:22.920Z",
+      "impact": 91
     },
     {
       "id": "arxiv-cs.ai-1786939200000-0",
@@ -92,29 +136,7 @@
       "impact": 58
     },
     {
-      "id": "aether-figure03",
-      "type": "premium",
-      "category": "robotics",
-      "title": "Figure 03 completes 43-hour autonomous factory shift with zero interventions",
-      "excerpt": "Humanoid achieves new milestone in unsupervised operation, performing 1,240 unique tasks across three assembly lines at the BMW South Carolina plant.",
-      "source": "Figure AI",
-      "url": "https://figure.ai/news/03-milestone",
-      "publishedAt": "2026-08-17T03:53:58.940Z",
-      "impact": 89
-    },
-    {
-      "id": "aether-interp",
-      "type": "premium",
-      "category": "safety",
-      "title": "Anthropic publishes unprecedented mechanistic interpretability map of Claude 4",
-      "excerpt": "Researchers reverse-engineered 312 million features inside the model, including the first clear \"deception circuit\" discovered in a frontier model.",
-      "source": "Anthropic",
-      "url": "https://anthropic.com/research/claude-4-interp",
-      "publishedAt": "2026-08-16T22:53:58.940Z",
-      "impact": 91
-    },
-    {
-      "id": "marktechpost-1786793309000-1",
+      "id": "marktechpost-1786793309000-3",
       "type": "live",
       "category": "llm",
       "title": "Fine-Tuning Tool-Calling LLMs: A Complete Guide Using XYZ-Aquila-SFT and Qwen3",
@@ -122,28 +144,6 @@
       "source": "MarkTechPost",
       "url": "https://www.marktechpost.com/2026/08/15/fine-tuning-tool-calling-llms-a-complete-guide-using-xyz-aquila-sft-and-qwen3/",
       "publishedAt": "2026-08-15T11:28:29.000Z",
-      "impact": 65
-    },
-    {
-      "id": "marktechpost-1786694602000-2",
-      "type": "live",
-      "category": "llm",
-      "title": "Z.ai Ships GLM-5.3 Without Retraining the Base Model: Better at Complex Coding and Long-Horizon Tasks",
-      "excerpt": "The model reuses the 743B GLM-5.  Every reported gain comes from scaled post-training: more long-horizon task environments, more environment types, longer training",
-      "source": "MarkTechPost",
-      "url": "https://www.marktechpost.com/2026/08/14/z-ai-ships-glm-5-3-without-retraining-the-base-model-better-at-complex-coding-and-long-horizon-tasks/",
-      "publishedAt": "2026-08-14T08:03:22.000Z",
-      "impact": 77
-    },
-    {
-      "id": "marktechpost-1786686347000-3",
-      "type": "live",
-      "category": "hardware",
-      "title": "Meet Needle 2: An Open 45M-Parameter Tool-Calling Model That Ships as a 14MB Binary and Runs a Full Session in 28MB of RAM",
-      "excerpt": "Cactus Compute released Needle 2, an open 45M-parameter model for tool calling, device use, and structured extraction.  The full model is a single 14MB binary that runs a session in about 28MB of RAM",
-      "source": "MarkTechPost",
-      "url": "https://www.marktechpost.com/2026/08/13/cactus-compute-needle-2-45m-parameter-tool-calling-model/",
-      "publishedAt": "2026-08-14T05:45:47.000Z",
       "impact": 65
     },
     {

@@ -1,8 +1,19 @@
 {
-  "lastUpdated": "2026-08-17T01:40:04.269Z",
+  "lastUpdated": "2026-08-17T12:54:00.115Z",
   "source": "AETHER + Public RSS (arXiv, Hugging Face, MarkTechPost, Ben's Bites)",
-  "count": 10,
+  "count": 16,
   "articles": [
+    {
+      "id": "marktechpost-1786957592000-0",
+      "type": "live",
+      "category": "llm",
+      "title": "DeepSeek AI Releases DeepSeek Harness in Developer Preview: An MIT-Licensed Agent Harness Where Everything is a Plugin",
+      "excerpt": "1 is an MIT-licensed agent harness where every capability is a Cordis plugin.  Four runtime modes, append-only session logs, and provider-agnostic model routing",
+      "source": "MarkTechPost",
+      "url": "https://www.marktechpost.com/2026/08/17/deepseek-ai-releases-deepseek-harness-in-developer-preview/",
+      "publishedAt": "2026-08-17T09:06:32.000Z",
+      "impact": 77
+    },
     {
       "id": "aether-grok43",
       "type": "premium",
@@ -11,8 +22,74 @@
       "excerpt": "New model demonstrates 4.2× improvement on multi-step software engineering benchmarks and sustains coherent agent trajectories beyond 110k tokens.",
       "source": "xAI",
       "url": "https://x.ai/blog/grok-4.3",
-      "publishedAt": "2026-08-16T20:40:03.304Z",
+      "publishedAt": "2026-08-17T07:53:58.939Z",
       "impact": 96
+    },
+    {
+      "id": "arxiv-cs.ai-1786939200000-0",
+      "type": "live",
+      "category": "llm",
+      "title": "Inducing Reward-Free Judging Rubrics that Reduce Over-Crediting in Agent Evaluation",
+      "excerpt": "13564v1 Announce Type: new Abstract: Evaluating language-model agents at scale increasingly relies on a second language model as an automatic judge, because the gold signal, an executable environment reward, is expens...",
+      "source": "arXiv cs.AI",
+      "url": "https://arxiv.org/abs/2608.13564",
+      "publishedAt": "2026-08-17T04:00:00.000Z",
+      "impact": 69
+    },
+    {
+      "id": "arxiv-cs.ai-1786939200000-1",
+      "type": "live",
+      "category": "hardware",
+      "title": "Depth-Aware Sensitivity Analysis of Mixture-of-Experts Models via Magnitude-Based Expert Masking",
+      "excerpt": "13565v1 Announce Type: new Abstract: Mixture-of-Experts (MoE) architectures scale large language models (LLMs) while preserving computational efficiency through sparse activation.  Despite their widespread adoption, t...",
+      "source": "arXiv cs.AI",
+      "url": "https://arxiv.org/abs/2608.13565",
+      "publishedAt": "2026-08-17T04:00:00.000Z",
+      "impact": 58
+    },
+    {
+      "id": "arxiv-cs.ai-1786939200000-2",
+      "type": "live",
+      "category": "llm",
+      "title": "Modular Cognitive Architecture Emerges in Large Language Models",
+      "excerpt": "13567v1 Announce Type: new Abstract: The human brain exhibits a striking degree of functional specialization, with distinct networks supporting language, formal reasoning, reasoning about other minds, and reasoning ab...",
+      "source": "arXiv cs.AI",
+      "url": "https://arxiv.org/abs/2608.13567",
+      "publishedAt": "2026-08-17T04:00:00.000Z",
+      "impact": 58
+    },
+    {
+      "id": "arxiv-cs.ai-1786939200000-3",
+      "type": "live",
+      "category": "llm",
+      "title": "A Year in LLM Serving: Workload Evolution, Caching and Load-Balancing",
+      "excerpt": "13573v1 Announce Type: new Abstract: Large Language Model (LLM) serving has become a critical cloud workload, and realistic traces are essential for motivating and benchmarking serving systems.  However, existing LLM ...",
+      "source": "arXiv cs.AI",
+      "url": "https://arxiv.org/abs/2608.13573",
+      "publishedAt": "2026-08-17T04:00:00.000Z",
+      "impact": 58
+    },
+    {
+      "id": "arxiv-cs.ai-1786939200000-4",
+      "type": "live",
+      "category": "safety",
+      "title": "Agentao: A Governed Local-First Runtime for Tool-Using LLM Agents",
+      "excerpt": "13574v1 Announce Type: new Abstract: LLM agents increasingly operate as execution systems that invoke tools, modify local state, use persistent memory, and interact with external protocols.  These capabilities make ag...",
+      "source": "arXiv cs.AI",
+      "url": "https://arxiv.org/abs/2608.13574",
+      "publishedAt": "2026-08-17T04:00:00.000Z",
+      "impact": 69
+    },
+    {
+      "id": "arxiv-cs.ai-1786939200000-5",
+      "type": "live",
+      "category": "research",
+      "title": "AI Evaluation Should Work With Humans",
+      "excerpt": "13577v1 Announce Type: new Abstract: This position paper argues that the dominant paradigm of AI evaluation (which focuses on superhuman autonomous performance and so implicitly targets the goal of replacing humans) i...",
+      "source": "arXiv cs.AI",
+      "url": "https://arxiv.org/abs/2608.13577",
+      "publishedAt": "2026-08-17T04:00:00.000Z",
+      "impact": 58
     },
     {
       "id": "aether-figure03",
@@ -22,7 +99,7 @@
       "excerpt": "Humanoid achieves new milestone in unsupervised operation, performing 1,240 unique tasks across three assembly lines at the BMW South Carolina plant.",
       "source": "Figure AI",
       "url": "https://figure.ai/news/03-milestone",
-      "publishedAt": "2026-08-16T16:40:03.304Z",
+      "publishedAt": "2026-08-17T03:53:58.940Z",
       "impact": 89
     },
     {
@@ -33,11 +110,11 @@
       "excerpt": "Researchers reverse-engineered 312 million features inside the model, including the first clear \"deception circuit\" discovered in a frontier model.",
       "source": "Anthropic",
       "url": "https://anthropic.com/research/claude-4-interp",
-      "publishedAt": "2026-08-16T11:40:03.304Z",
+      "publishedAt": "2026-08-16T22:53:58.940Z",
       "impact": 91
     },
     {
-      "id": "marktechpost-1786793309000-0",
+      "id": "marktechpost-1786793309000-1",
       "type": "live",
       "category": "llm",
       "title": "Fine-Tuning Tool-Calling LLMs: A Complete Guide Using XYZ-Aquila-SFT and Qwen3",
@@ -48,7 +125,7 @@
       "impact": 65
     },
     {
-      "id": "marktechpost-1786694602000-1",
+      "id": "marktechpost-1786694602000-2",
       "type": "live",
       "category": "llm",
       "title": "Z.ai Ships GLM-5.3 Without Retraining the Base Model: Better at Complex Coding and Long-Horizon Tasks",
@@ -59,7 +136,7 @@
       "impact": 77
     },
     {
-      "id": "marktechpost-1786686347000-2",
+      "id": "marktechpost-1786686347000-3",
       "type": "live",
       "category": "hardware",
       "title": "Meet Needle 2: An Open 45M-Parameter Tool-Calling Model That Ships as a 14MB Binary and Runs a Full Session in 28MB of RAM",
@@ -67,17 +144,6 @@
       "source": "MarkTechPost",
       "url": "https://www.marktechpost.com/2026/08/13/cactus-compute-needle-2-45m-parameter-tool-calling-model/",
       "publishedAt": "2026-08-14T05:45:47.000Z",
-      "impact": 65
-    },
-    {
-      "id": "marktechpost-1786676985000-3",
-      "type": "live",
-      "category": "llm",
-      "title": "Create a Reasoning-Focused LLM: A Practical Guide to Streaming, Curating, and Fine-Tuning the SupraLabs Reasoning Corpus",
-      "excerpt": "This tutorial provides a complete workflow for building a compact, reasoning-focused language model.  By streaming the SupraLabs reasoning corpus from Hugging Face, we apply quality filters and curate data for Supervi...",
-      "source": "MarkTechPost",
-      "url": "https://www.marktechpost.com/2026/08/13/a-practical-guide-to-streaming-curating-and-fine-tuning-the-supralabs-reasoning-corpus/",
-      "publishedAt": "2026-08-14T03:09:45.000Z",
       "impact": 65
     },
     {

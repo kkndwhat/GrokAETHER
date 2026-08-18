@@ -1,17 +1,83 @@
 {
-  "lastUpdated": "2026-08-18T01:35:50.583Z",
+  "lastUpdated": "2026-08-18T06:52:32.717Z",
   "source": "AETHER + Public RSS (arXiv, Hugging Face, MarkTechPost, Ben's Bites)",
   "count": 16,
   "articles": [
     {
-      "id": "marktechpost-1787015428000-0",
+      "id": "arxiv-cs.ai-1787025600000-0",
       "type": "live",
       "category": "hardware",
-      "title": "ByteDance Seed and Tsinghua AIR Introduces CUDA Agent: A Large-Scale Agentic RL System for CUDA Kernel Generation",
-      "excerpt": "ByteDance Seed and Tsinghua AIR have released CUDA Agent, an agentic reinforcement learning system that trains a large language model to write GPU kernels that beat a compiler.  The gap it targets is narrow but stubbo...",
+      "title": "FLOPs vs Real Work: The Importance of Replication in AI Efficiency Assessment",
+      "excerpt": "14550v1 Announce Type: new Abstract: AI efficiency has recently taken the spotlight in both academy and industry due to massive model scales, high energy demands, and environmental costs.  While reporting Floating Poi...",
+      "source": "arXiv cs.AI",
+      "url": "https://arxiv.org/abs/2608.14550",
+      "publishedAt": "2026-08-18T04:00:00.000Z",
+      "impact": 58
+    },
+    {
+      "id": "arxiv-cs.ai-1787025600000-1",
+      "type": "live",
+      "category": "llm",
+      "title": "Large Language Models Show Metacognitive Sensitivity in Medical Reasoning",
+      "excerpt": "14552v1 Announce Type: new Abstract: Large language models (LLMs) are increasingly evaluated and used in medicine, but clinical usefulness depends on answer accuracy and whether confidence tracks evidence quality and ...",
+      "source": "arXiv cs.AI",
+      "url": "https://arxiv.org/abs/2608.14552",
+      "publishedAt": "2026-08-18T04:00:00.000Z",
+      "impact": 58
+    },
+    {
+      "id": "arxiv-cs.ai-1787025600000-2",
+      "type": "live",
+      "category": "multimodal",
+      "title": "The Unwritten Benchmark: A New Challenge for Multimodal Machine Learning in Abstract Perceptual Reasoning",
+      "excerpt": "14558v1 Announce Type: new Abstract: Current multimodal models have demonstrated remarkable proficiency in recognizing static visual and auditory content.  However, their capacity for abstract perceptual reasoning, in...",
+      "source": "arXiv cs.AI",
+      "url": "https://arxiv.org/abs/2608.14558",
+      "publishedAt": "2026-08-18T04:00:00.000Z",
+      "impact": 58
+    },
+    {
+      "id": "arxiv-cs.ai-1787025600000-3",
+      "type": "live",
+      "category": "safety",
+      "title": "When to Communicate: Belief Distributions and KL Divergence for Principled Gating in Multi-Agent RL",
+      "excerpt": "14559v1 Announce Type: new Abstract: Effective communication in multi-agent reinforcement learning requires agents to decide not only \\textit{what} to communicate, but when.  Existing approaches either communicate at ...",
+      "source": "arXiv cs.AI",
+      "url": "https://arxiv.org/abs/2608.14559",
+      "publishedAt": "2026-08-18T04:00:00.000Z",
+      "impact": 69
+    },
+    {
+      "id": "arxiv-cs.ai-1787025600000-4",
+      "type": "live",
+      "category": "robotics",
+      "title": "Global AI Regulations for FAIR and Ethics in High-Risk Use Cases: A Comparative Review",
+      "excerpt": "14562v1 Announce Type: new Abstract: AI governance is shifting from voluntary ethics to enforceable, risk-based regulation, yet cross-jurisdictional divergence creates compliance uncertainty for operators of high-stak...",
+      "source": "arXiv cs.AI",
+      "url": "https://arxiv.org/abs/2608.14562",
+      "publishedAt": "2026-08-18T04:00:00.000Z",
+      "impact": 58
+    },
+    {
+      "id": "arxiv-cs.ai-1787025600000-5",
+      "type": "live",
+      "category": "safety",
+      "title": "Position: AI Lock-In Is in Progress, and We Must Be Prepared",
+      "excerpt": "14565v1 Announce Type: new Abstract: AI safety research has mainly focused on two areas: technical alignment (ensuring AI systems produce human-aligned outputs) and the regulation of generative AI's societal impacts (...",
+      "source": "arXiv cs.AI",
+      "url": "https://arxiv.org/abs/2608.14565",
+      "publishedAt": "2026-08-18T04:00:00.000Z",
+      "impact": 58
+    },
+    {
+      "id": "marktechpost-1787018728000-0",
+      "type": "live",
+      "category": "llm",
+      "title": "Nous Research Ships Bot Mode for Hermes Agent, Turning Agent Profiles Into a Roster of Named Bots",
+      "excerpt": "Nous Research has shipped Bot Mode for Hermes Agent, its MIT-licensed open source agent.  Bot Mode replaces the single-agent session list with a roster of named bots",
       "source": "MarkTechPost",
-      "url": "https://www.marktechpost.com/2026/08/17/bytedance-seed-and-tsinghua-air-introduces-cuda-agent-a-large-scale-agentic-rl-system-for-cuda-kernel-generation/",
-      "publishedAt": "2026-08-18T01:10:28.000Z",
+      "url": "https://www.marktechpost.com/2026/08/17/nous-research-hermes-bot-mode/",
+      "publishedAt": "2026-08-18T02:05:28.000Z",
       "impact": 77
     },
     {
@@ -22,8 +88,30 @@
       "excerpt": "New model demonstrates 4.2× improvement on multi-step software engineering benchmarks and sustains coherent agent trajectories beyond 110k tokens.",
       "source": "xAI",
       "url": "https://x.ai/blog/grok-4.3",
-      "publishedAt": "2026-08-17T20:35:49.149Z",
+      "publishedAt": "2026-08-18T01:52:31.737Z",
       "impact": 96
+    },
+    {
+      "id": "marktechpost-1787015428000-1",
+      "type": "live",
+      "category": "hardware",
+      "title": "ByteDance Seed and Tsinghua AIR Introduces CUDA Agent: A Large-Scale Agentic RL System for CUDA Kernel Generation",
+      "excerpt": "ByteDance Seed and Tsinghua AIR have released CUDA Agent, an agentic reinforcement learning system that trains a large language model to write GPU kernels that beat a compiler.  The gap it targets is narrow but stubbo...",
+      "source": "MarkTechPost",
+      "url": "https://www.marktechpost.com/2026/08/17/bytedance-seed-and-tsinghua-air-introduces-cuda-agent-a-large-scale-agentic-rl-system-for-cuda-kernel-generation/",
+      "publishedAt": "2026-08-18T01:10:28.000Z",
+      "impact": 77
+    },
+    {
+      "id": "aether-figure03",
+      "type": "premium",
+      "category": "robotics",
+      "title": "Figure 03 completes 43-hour autonomous factory shift with zero interventions",
+      "excerpt": "Humanoid achieves new milestone in unsupervised operation, performing 1,240 unique tasks across three assembly lines at the BMW South Carolina plant.",
+      "source": "Figure AI",
+      "url": "https://figure.ai/news/03-milestone",
+      "publishedAt": "2026-08-17T21:52:31.738Z",
+      "impact": 89
     },
     {
       "id": "hugging-face-1786995981000-0",
@@ -37,7 +125,7 @@
       "impact": 75
     },
     {
-      "id": "marktechpost-1786991800000-1",
+      "id": "marktechpost-1786991800000-2",
       "type": "live",
       "category": "llm",
       "title": "MiniMax Releases MiniMax-Music3: An Open-Weights Music Model Generating Complete Five-Minute Songs From Lyrics and a Structured Caption",
@@ -48,7 +136,7 @@
       "impact": 65
     },
     {
-      "id": "marktechpost-1786989170000-2",
+      "id": "marktechpost-1786989170000-3",
       "type": "live",
       "category": "research",
       "title": "Developing an End-to-End Document Intelligence Pipeline with docTR for OCR, Layout Analysis, KIE, Benchmarking, and Searchable PDFs",
@@ -59,17 +147,6 @@
       "impact": 65
     },
     {
-      "id": "aether-figure03",
-      "type": "premium",
-      "category": "robotics",
-      "title": "Figure 03 completes 43-hour autonomous factory shift with zero interventions",
-      "excerpt": "Humanoid achieves new milestone in unsupervised operation, performing 1,240 unique tasks across three assembly lines at the BMW South Carolina plant.",
-      "source": "Figure AI",
-      "url": "https://figure.ai/news/03-milestone",
-      "publishedAt": "2026-08-17T16:35:49.149Z",
-      "impact": 89
-    },
-    {
       "id": "aether-interp",
       "type": "premium",
       "category": "safety",
@@ -77,85 +154,8 @@
       "excerpt": "Researchers reverse-engineered 312 million features inside the model, including the first clear \"deception circuit\" discovered in a frontier model.",
       "source": "Anthropic",
       "url": "https://anthropic.com/research/claude-4-interp",
-      "publishedAt": "2026-08-17T11:35:49.149Z",
+      "publishedAt": "2026-08-17T16:52:31.738Z",
       "impact": 91
-    },
-    {
-      "id": "marktechpost-1786957592000-3",
-      "type": "live",
-      "category": "llm",
-      "title": "DeepSeek AI Releases DeepSeek Harness in Developer Preview: An MIT-Licensed Agent Harness Where Everything is a Plugin",
-      "excerpt": "1 is an MIT-licensed agent harness where every capability is a Cordis plugin.  Four runtime modes, append-only session logs, and provider-agnostic model routing",
-      "source": "MarkTechPost",
-      "url": "https://www.marktechpost.com/2026/08/17/deepseek-ai-releases-deepseek-harness-in-developer-preview/",
-      "publishedAt": "2026-08-17T09:06:32.000Z",
-      "impact": 77
-    },
-    {
-      "id": "arxiv-cs.ai-1786939200000-0",
-      "type": "live",
-      "category": "llm",
-      "title": "Inducing Reward-Free Judging Rubrics that Reduce Over-Crediting in Agent Evaluation",
-      "excerpt": "13564v1 Announce Type: new Abstract: Evaluating language-model agents at scale increasingly relies on a second language model as an automatic judge, because the gold signal, an executable environment reward, is expens...",
-      "source": "arXiv cs.AI",
-      "url": "https://arxiv.org/abs/2608.13564",
-      "publishedAt": "2026-08-17T04:00:00.000Z",
-      "impact": 69
-    },
-    {
-      "id": "arxiv-cs.ai-1786939200000-1",
-      "type": "live",
-      "category": "hardware",
-      "title": "Depth-Aware Sensitivity Analysis of Mixture-of-Experts Models via Magnitude-Based Expert Masking",
-      "excerpt": "13565v1 Announce Type: new Abstract: Mixture-of-Experts (MoE) architectures scale large language models (LLMs) while preserving computational efficiency through sparse activation.  Despite their widespread adoption, t...",
-      "source": "arXiv cs.AI",
-      "url": "https://arxiv.org/abs/2608.13565",
-      "publishedAt": "2026-08-17T04:00:00.000Z",
-      "impact": 58
-    },
-    {
-      "id": "arxiv-cs.ai-1786939200000-2",
-      "type": "live",
-      "category": "llm",
-      "title": "Modular Cognitive Architecture Emerges in Large Language Models",
-      "excerpt": "13567v1 Announce Type: new Abstract: The human brain exhibits a striking degree of functional specialization, with distinct networks supporting language, formal reasoning, reasoning about other minds, and reasoning ab...",
-      "source": "arXiv cs.AI",
-      "url": "https://arxiv.org/abs/2608.13567",
-      "publishedAt": "2026-08-17T04:00:00.000Z",
-      "impact": 58
-    },
-    {
-      "id": "arxiv-cs.ai-1786939200000-3",
-      "type": "live",
-      "category": "llm",
-      "title": "A Year in LLM Serving: Workload Evolution, Caching and Load-Balancing",
-      "excerpt": "13573v1 Announce Type: new Abstract: Large Language Model (LLM) serving has become a critical cloud workload, and realistic traces are essential for motivating and benchmarking serving systems.  However, existing LLM ...",
-      "source": "arXiv cs.AI",
-      "url": "https://arxiv.org/abs/2608.13573",
-      "publishedAt": "2026-08-17T04:00:00.000Z",
-      "impact": 58
-    },
-    {
-      "id": "arxiv-cs.ai-1786939200000-4",
-      "type": "live",
-      "category": "safety",
-      "title": "Agentao: A Governed Local-First Runtime for Tool-Using LLM Agents",
-      "excerpt": "13574v1 Announce Type: new Abstract: LLM agents increasingly operate as execution systems that invoke tools, modify local state, use persistent memory, and interact with external protocols.  These capabilities make ag...",
-      "source": "arXiv cs.AI",
-      "url": "https://arxiv.org/abs/2608.13574",
-      "publishedAt": "2026-08-17T04:00:00.000Z",
-      "impact": 69
-    },
-    {
-      "id": "arxiv-cs.ai-1786939200000-5",
-      "type": "live",
-      "category": "research",
-      "title": "AI Evaluation Should Work With Humans",
-      "excerpt": "13577v1 Announce Type: new Abstract: This position paper argues that the dominant paradigm of AI evaluation (which focuses on superhuman autonomous performance and so implicitly targets the goal of replacing humans) i...",
-      "source": "arXiv cs.AI",
-      "url": "https://arxiv.org/abs/2608.13577",
-      "publishedAt": "2026-08-17T04:00:00.000Z",
-      "impact": 58
     },
     {
       "id": "hugging-face-1786665600000-1",

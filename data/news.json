@@ -1,10 +1,43 @@
 {
-  "lastUpdated": "2026-08-17T18:47:23.938Z",
+  "lastUpdated": "2026-08-18T01:35:50.583Z",
   "source": "AETHER + Public RSS (arXiv, Hugging Face, MarkTechPost, Ben's Bites)",
   "count": 16,
   "articles": [
     {
-      "id": "marktechpost-1786991800000-0",
+      "id": "marktechpost-1787015428000-0",
+      "type": "live",
+      "category": "hardware",
+      "title": "ByteDance Seed and Tsinghua AIR Introduces CUDA Agent: A Large-Scale Agentic RL System for CUDA Kernel Generation",
+      "excerpt": "ByteDance Seed and Tsinghua AIR have released CUDA Agent, an agentic reinforcement learning system that trains a large language model to write GPU kernels that beat a compiler.  The gap it targets is narrow but stubbo...",
+      "source": "MarkTechPost",
+      "url": "https://www.marktechpost.com/2026/08/17/bytedance-seed-and-tsinghua-air-introduces-cuda-agent-a-large-scale-agentic-rl-system-for-cuda-kernel-generation/",
+      "publishedAt": "2026-08-18T01:10:28.000Z",
+      "impact": 77
+    },
+    {
+      "id": "aether-grok43",
+      "type": "premium",
+      "category": "llm",
+      "title": "xAI releases Grok-4.3 with native long-horizon agent scaffolding",
+      "excerpt": "New model demonstrates 4.2× improvement on multi-step software engineering benchmarks and sustains coherent agent trajectories beyond 110k tokens.",
+      "source": "xAI",
+      "url": "https://x.ai/blog/grok-4.3",
+      "publishedAt": "2026-08-17T20:35:49.149Z",
+      "impact": 96
+    },
+    {
+      "id": "hugging-face-1786995981000-0",
+      "type": "live",
+      "category": "research",
+      "title": "Same Cluster, 33 Points More Utilization: What Changed Was the Order",
+      "excerpt": "New development from the frontier.",
+      "source": "Hugging Face",
+      "url": "https://huggingface.co/blog/Dharma-AI/gpu-management-pt2",
+      "publishedAt": "2026-08-17T19:46:21.000Z",
+      "impact": 75
+    },
+    {
+      "id": "marktechpost-1786991800000-1",
       "type": "live",
       "category": "llm",
       "title": "MiniMax Releases MiniMax-Music3: An Open-Weights Music Model Generating Complete Five-Minute Songs From Lyrics and a Structured Caption",
@@ -15,7 +48,7 @@
       "impact": 65
     },
     {
-      "id": "marktechpost-1786989170000-1",
+      "id": "marktechpost-1786989170000-2",
       "type": "live",
       "category": "research",
       "title": "Developing an End-to-End Document Intelligence Pipeline with docTR for OCR, Layout Analysis, KIE, Benchmarking, and Searchable PDFs",
@@ -26,17 +59,6 @@
       "impact": 65
     },
     {
-      "id": "aether-grok43",
-      "type": "premium",
-      "category": "llm",
-      "title": "xAI releases Grok-4.3 with native long-horizon agent scaffolding",
-      "excerpt": "New model demonstrates 4.2× improvement on multi-step software engineering benchmarks and sustains coherent agent trajectories beyond 110k tokens.",
-      "source": "xAI",
-      "url": "https://x.ai/blog/grok-4.3",
-      "publishedAt": "2026-08-17T13:47:22.920Z",
-      "impact": 96
-    },
-    {
       "id": "aether-figure03",
       "type": "premium",
       "category": "robotics",
@@ -44,19 +66,8 @@
       "excerpt": "Humanoid achieves new milestone in unsupervised operation, performing 1,240 unique tasks across three assembly lines at the BMW South Carolina plant.",
       "source": "Figure AI",
       "url": "https://figure.ai/news/03-milestone",
-      "publishedAt": "2026-08-17T09:47:22.920Z",
+      "publishedAt": "2026-08-17T16:35:49.149Z",
       "impact": 89
-    },
-    {
-      "id": "marktechpost-1786957592000-2",
-      "type": "live",
-      "category": "llm",
-      "title": "DeepSeek AI Releases DeepSeek Harness in Developer Preview: An MIT-Licensed Agent Harness Where Everything is a Plugin",
-      "excerpt": "1 is an MIT-licensed agent harness where every capability is a Cordis plugin.  Four runtime modes, append-only session logs, and provider-agnostic model routing",
-      "source": "MarkTechPost",
-      "url": "https://www.marktechpost.com/2026/08/17/deepseek-ai-releases-deepseek-harness-in-developer-preview/",
-      "publishedAt": "2026-08-17T09:06:32.000Z",
-      "impact": 77
     },
     {
       "id": "aether-interp",
@@ -66,8 +77,19 @@
       "excerpt": "Researchers reverse-engineered 312 million features inside the model, including the first clear \"deception circuit\" discovered in a frontier model.",
       "source": "Anthropic",
       "url": "https://anthropic.com/research/claude-4-interp",
-      "publishedAt": "2026-08-17T04:47:22.920Z",
+      "publishedAt": "2026-08-17T11:35:49.149Z",
       "impact": 91
+    },
+    {
+      "id": "marktechpost-1786957592000-3",
+      "type": "live",
+      "category": "llm",
+      "title": "DeepSeek AI Releases DeepSeek Harness in Developer Preview: An MIT-Licensed Agent Harness Where Everything is a Plugin",
+      "excerpt": "1 is an MIT-licensed agent harness where every capability is a Cordis plugin.  Four runtime modes, append-only session logs, and provider-agnostic model routing",
+      "source": "MarkTechPost",
+      "url": "https://www.marktechpost.com/2026/08/17/deepseek-ai-releases-deepseek-harness-in-developer-preview/",
+      "publishedAt": "2026-08-17T09:06:32.000Z",
+      "impact": 77
     },
     {
       "id": "arxiv-cs.ai-1786939200000-0",
@@ -136,18 +158,7 @@
       "impact": 58
     },
     {
-      "id": "marktechpost-1786793309000-3",
-      "type": "live",
-      "category": "llm",
-      "title": "Fine-Tuning Tool-Calling LLMs: A Complete Guide Using XYZ-Aquila-SFT and Qwen3",
-      "excerpt": "Implement an end-to-end fine-tuning pipeline for tool-calling language models.  This tutorial covers parsing trajectories, structured tool-call extraction, Qwen-compatible ChatML rendering, and efficient LoRA adaptati...",
-      "source": "MarkTechPost",
-      "url": "https://www.marktechpost.com/2026/08/15/fine-tuning-tool-calling-llms-a-complete-guide-using-xyz-aquila-sft-and-qwen3/",
-      "publishedAt": "2026-08-15T11:28:29.000Z",
-      "impact": 65
-    },
-    {
-      "id": "hugging-face-1786665600000-0",
+      "id": "hugging-face-1786665600000-1",
       "type": "live",
       "category": "llm",
       "title": "State of Open Models: Summer 2026 Observations",
@@ -158,7 +169,7 @@
       "impact": 75
     },
     {
-      "id": "hugging-face-1786641364000-1",
+      "id": "hugging-face-1786641364000-2",
       "type": "live",
       "category": "robotics",
       "title": "Record, train, and deploy from one place with Strands Agents, LeRobot, and Hugging Face Storage Buckets",
@@ -167,17 +178,6 @@
       "url": "https://huggingface.co/blog/amazon/strands-lerobot-streaming-data-loop",
       "publishedAt": "2026-08-13T17:16:04.000Z",
       "impact": 87
-    },
-    {
-      "id": "hugging-face-1786579200000-2",
-      "type": "live",
-      "category": "research",
-      "title": "What We Learned by Reproducing 2,200 papers from ICML",
-      "excerpt": "New development from the frontier.",
-      "source": "Hugging Face",
-      "url": "https://huggingface.co/blog/icml-2026-open-reproductions",
-      "publishedAt": "2026-08-13T00:00:00.000Z",
-      "impact": 75
     }
   ]
 }

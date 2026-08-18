@@ -1,10 +1,43 @@
 {
-  "lastUpdated": "2026-08-18T12:55:48.340Z",
+  "lastUpdated": "2026-08-18T18:45:49.268Z",
   "source": "AETHER + Public RSS (arXiv, Hugging Face, MarkTechPost, Ben's Bites)",
   "count": 16,
   "articles": [
     {
-      "id": "marktechpost-1787049469000-0",
+      "id": "hugging-face-1787076578000-0",
+      "type": "live",
+      "category": "research",
+      "title": "How Much Memory Does Your Agent Actually Need?",
+      "excerpt": "New development from the frontier.",
+      "source": "Hugging Face",
+      "url": "https://huggingface.co/blog/ibm-research/altk-evolve-hmm",
+      "publishedAt": "2026-08-18T18:09:38.000Z",
+      "impact": 87
+    },
+    {
+      "id": "aether-grok43",
+      "type": "premium",
+      "category": "llm",
+      "title": "xAI releases Grok-4.3 with native long-horizon agent scaffolding",
+      "excerpt": "New model demonstrates 4.2× improvement on multi-step software engineering benchmarks and sustains coherent agent trajectories beyond 110k tokens.",
+      "source": "xAI",
+      "url": "https://x.ai/blog/grok-4.3",
+      "publishedAt": "2026-08-18T13:45:48.195Z",
+      "impact": 96
+    },
+    {
+      "id": "marktechpost-1787059750000-0",
+      "type": "live",
+      "category": "llm",
+      "title": "Meet SAM (Sovereign Agent Mesh): A Zero-Config, Zero-Trust P2P Network for AI Agents",
+      "excerpt": "Google has open-sourced SAM (Sovereign Agent Mesh) under Apache-2. 0 — and it has nothing to do with Segment Anything",
+      "source": "MarkTechPost",
+      "url": "https://www.marktechpost.com/2026/08/18/meet-sam-sovereign-agent-mesh-a-zero-config-zero-trust-p2p-network-for-ai-agents/",
+      "publishedAt": "2026-08-18T13:29:10.000Z",
+      "impact": 77
+    },
+    {
+      "id": "marktechpost-1787049469000-1",
       "type": "live",
       "category": "multimodal",
       "title": "Cartesia Ships Sonic-3.6: A Streaming TTS Model That Now Leads Both Artificial Analysis Speech Arenas",
@@ -15,15 +48,26 @@
       "impact": 65
     },
     {
-      "id": "aether-grok43",
+      "id": "aether-figure03",
       "type": "premium",
-      "category": "llm",
-      "title": "xAI releases Grok-4.3 with native long-horizon agent scaffolding",
-      "excerpt": "New model demonstrates 4.2× improvement on multi-step software engineering benchmarks and sustains coherent agent trajectories beyond 110k tokens.",
-      "source": "xAI",
-      "url": "https://x.ai/blog/grok-4.3",
-      "publishedAt": "2026-08-18T07:55:47.301Z",
-      "impact": 96
+      "category": "robotics",
+      "title": "Figure 03 completes 43-hour autonomous factory shift with zero interventions",
+      "excerpt": "Humanoid achieves new milestone in unsupervised operation, performing 1,240 unique tasks across three assembly lines at the BMW South Carolina plant.",
+      "source": "Figure AI",
+      "url": "https://figure.ai/news/03-milestone",
+      "publishedAt": "2026-08-18T09:45:48.195Z",
+      "impact": 89
+    },
+    {
+      "id": "aether-interp",
+      "type": "premium",
+      "category": "safety",
+      "title": "Anthropic publishes unprecedented mechanistic interpretability map of Claude 4",
+      "excerpt": "Researchers reverse-engineered 312 million features inside the model, including the first clear \"deception circuit\" discovered in a frontier model.",
+      "source": "Anthropic",
+      "url": "https://anthropic.com/research/claude-4-interp",
+      "publishedAt": "2026-08-18T04:45:48.195Z",
+      "impact": 91
     },
     {
       "id": "arxiv-cs.ai-1787025600000-0",
@@ -92,18 +136,7 @@
       "impact": 58
     },
     {
-      "id": "aether-figure03",
-      "type": "premium",
-      "category": "robotics",
-      "title": "Figure 03 completes 43-hour autonomous factory shift with zero interventions",
-      "excerpt": "Humanoid achieves new milestone in unsupervised operation, performing 1,240 unique tasks across three assembly lines at the BMW South Carolina plant.",
-      "source": "Figure AI",
-      "url": "https://figure.ai/news/03-milestone",
-      "publishedAt": "2026-08-18T03:55:47.301Z",
-      "impact": 89
-    },
-    {
-      "id": "marktechpost-1787018728000-1",
+      "id": "marktechpost-1787018728000-2",
       "type": "live",
       "category": "llm",
       "title": "Nous Research Ships Bot Mode for Hermes Agent, Turning Agent Profiles Into a Roster of Named Bots",
@@ -114,7 +147,7 @@
       "impact": 77
     },
     {
-      "id": "marktechpost-1787015428000-2",
+      "id": "marktechpost-1787015428000-3",
       "type": "live",
       "category": "hardware",
       "title": "ByteDance Seed and Tsinghua AIR Introduces CUDA Agent: A Large-Scale Agentic RL System for CUDA Kernel Generation",
@@ -125,18 +158,18 @@
       "impact": 77
     },
     {
-      "id": "aether-interp",
-      "type": "premium",
-      "category": "safety",
-      "title": "Anthropic publishes unprecedented mechanistic interpretability map of Claude 4",
-      "excerpt": "Researchers reverse-engineered 312 million features inside the model, including the first clear \"deception circuit\" discovered in a frontier model.",
-      "source": "Anthropic",
-      "url": "https://anthropic.com/research/claude-4-interp",
-      "publishedAt": "2026-08-17T22:55:47.301Z",
-      "impact": 91
+      "id": "hugging-face-1787011200000-1",
+      "type": "live",
+      "category": "llm",
+      "title": "Multi-Vector (Late Interaction) Embedding Models with Sentence Transformers",
+      "excerpt": "New development from the frontier.",
+      "source": "Hugging Face",
+      "url": "https://huggingface.co/blog/multi-vector-encoder",
+      "publishedAt": "2026-08-18T00:00:00.000Z",
+      "impact": 75
     },
     {
-      "id": "hugging-face-1786995981000-0",
+      "id": "hugging-face-1786995981000-2",
       "type": "live",
       "category": "research",
       "title": "Same Cluster, 33 Points More Utilization: What Changed Was the Order",
@@ -145,39 +178,6 @@
       "url": "https://huggingface.co/blog/Dharma-AI/gpu-management-pt2",
       "publishedAt": "2026-08-17T19:46:21.000Z",
       "impact": 75
-    },
-    {
-      "id": "marktechpost-1786991800000-3",
-      "type": "live",
-      "category": "llm",
-      "title": "MiniMax Releases MiniMax-Music3: An Open-Weights Music Model Generating Complete Five-Minute Songs From Lyrics and a Structured Caption",
-      "excerpt": "MiniMax released MiniMax-Music3, an open-weights text-to-music model.  Given lyrics with section tags and a structured caption, it generates a complete song of up to five minutes in a single pass, as 32 kHz, 16-bit st...",
-      "source": "MarkTechPost",
-      "url": "https://www.marktechpost.com/2026/08/17/minimax-releases-minimax-music3/",
-      "publishedAt": "2026-08-17T18:36:40.000Z",
-      "impact": 65
-    },
-    {
-      "id": "hugging-face-1786665600000-1",
-      "type": "live",
-      "category": "llm",
-      "title": "State of Open Models: Summer 2026 Observations",
-      "excerpt": "New development from the frontier.",
-      "source": "Hugging Face",
-      "url": "https://huggingface.co/blog/state-of-open-models-summer-2026",
-      "publishedAt": "2026-08-14T00:00:00.000Z",
-      "impact": 75
-    },
-    {
-      "id": "hugging-face-1786641364000-2",
-      "type": "live",
-      "category": "robotics",
-      "title": "Record, train, and deploy from one place with Strands Agents, LeRobot, and Hugging Face Storage Buckets",
-      "excerpt": "New development from the frontier.",
-      "source": "Hugging Face",
-      "url": "https://huggingface.co/blog/amazon/strands-lerobot-streaming-data-loop",
-      "publishedAt": "2026-08-13T17:16:04.000Z",
-      "impact": 87
     }
   ]
 }

@@ -1,8 +1,118 @@
 {
-  "lastUpdated": "2026-08-19T01:37:52.861Z",
+  "lastUpdated": "2026-08-19T18:41:39.006Z",
   "source": "AETHER + Public RSS (arXiv, Hugging Face, MarkTechPost, Ben's Bites)",
   "count": 16,
   "articles": [
+    {
+      "id": "hugging-face-1787147329000-0",
+      "type": "live",
+      "category": "research",
+      "title": "LFM2.5 Q4\\_0 Checkpoints from Quantization-Aware Distillation",
+      "excerpt": "New development from the frontier.",
+      "source": "Hugging Face",
+      "url": "https://huggingface.co/blog/LiquidAI/qad",
+      "publishedAt": "2026-08-19T13:48:49.000Z",
+      "impact": 75
+    },
+    {
+      "id": "aether-grok43",
+      "type": "premium",
+      "category": "llm",
+      "title": "xAI releases Grok-4.3 with native long-horizon agent scaffolding",
+      "excerpt": "New model demonstrates 4.2× improvement on multi-step software engineering benchmarks and sustains coherent agent trajectories beyond 110k tokens.",
+      "source": "xAI",
+      "url": "https://x.ai/blog/grok-4.3",
+      "publishedAt": "2026-08-19T13:41:37.909Z",
+      "impact": 96
+    },
+    {
+      "id": "aether-figure03",
+      "type": "premium",
+      "category": "robotics",
+      "title": "Figure 03 completes 43-hour autonomous factory shift with zero interventions",
+      "excerpt": "Humanoid achieves new milestone in unsupervised operation, performing 1,240 unique tasks across three assembly lines at the BMW South Carolina plant.",
+      "source": "Figure AI",
+      "url": "https://figure.ai/news/03-milestone",
+      "publishedAt": "2026-08-19T09:41:37.909Z",
+      "impact": 89
+    },
+    {
+      "id": "aether-interp",
+      "type": "premium",
+      "category": "safety",
+      "title": "Anthropic publishes unprecedented mechanistic interpretability map of Claude 4",
+      "excerpt": "Researchers reverse-engineered 312 million features inside the model, including the first clear \"deception circuit\" discovered in a frontier model.",
+      "source": "Anthropic",
+      "url": "https://anthropic.com/research/claude-4-interp",
+      "publishedAt": "2026-08-19T04:41:37.909Z",
+      "impact": 91
+    },
+    {
+      "id": "arxiv-cs.ai-1787112000000-0",
+      "type": "live",
+      "category": "llm",
+      "title": "GxP-Agent: Process-DAG Topology for Reliable Clinical Trial Programming with LLM Agents",
+      "excerpt": "16890v1 Announce Type: new Abstract: Clinical trial programming -- transforming study protocols into analysis-ready datasets under CDISC standards -- is a bottleneck in regulatory submissions, yet LLM-based code gener...",
+      "source": "arXiv cs.AI",
+      "url": "https://arxiv.org/abs/2608.16890",
+      "publishedAt": "2026-08-19T04:00:00.000Z",
+      "impact": 69
+    },
+    {
+      "id": "arxiv-cs.ai-1787112000000-1",
+      "type": "live",
+      "category": "safety",
+      "title": "Runtime Governance for Agentic AI: Action-Boundary Control with Trusted Provenance and Fail-Closed Execution",
+      "excerpt": "16891v1 Announce Type: new Abstract: Agentic AI systems request tool actions that can modify files, send messages, launch jobs, or change workflow state.  This shifts the safety problem from harmful text generation to...",
+      "source": "arXiv cs.AI",
+      "url": "https://arxiv.org/abs/2608.16891",
+      "publishedAt": "2026-08-19T04:00:00.000Z",
+      "impact": 69
+    },
+    {
+      "id": "arxiv-cs.ai-1787112000000-2",
+      "type": "live",
+      "category": "llm",
+      "title": "The Price of Thinking: Reasoning Effort as a Model-Specific API Contract",
+      "excerpt": "16956v1 Announce Type: new Abstract: API buyers purchase a dated contract, not a model name alone: the contract includes the requested and served model, reasoning-effort term or its omission, output rail, service prod...",
+      "source": "arXiv cs.AI",
+      "url": "https://arxiv.org/abs/2608.16956",
+      "publishedAt": "2026-08-19T04:00:00.000Z",
+      "impact": 58
+    },
+    {
+      "id": "arxiv-cs.ai-1787112000000-3",
+      "type": "live",
+      "category": "llm",
+      "title": "FedPref: Federated Preference Learning for Structured Radiology Report Extraction",
+      "excerpt": "16971v1 Announce Type: new Abstract: Radiology reports describe findings and locations in free text, but downstream search and analysis require these relations in a fixed schema.  Learning this extraction requires lab...",
+      "source": "arXiv cs.AI",
+      "url": "https://arxiv.org/abs/2608.16971",
+      "publishedAt": "2026-08-19T04:00:00.000Z",
+      "impact": 58
+    },
+    {
+      "id": "arxiv-cs.ai-1787112000000-4",
+      "type": "live",
+      "category": "llm",
+      "title": "The Problem Is the Problem: Towards Scalable Mathematical Discovery",
+      "excerpt": "16977v1 Announce Type: new Abstract: AI systems are increasingly capable of contributing to mathematical research.  In research practice, frontier-model reasoning is a limited resource, and expert mathematical review ...",
+      "source": "arXiv cs.AI",
+      "url": "https://arxiv.org/abs/2608.16977",
+      "publishedAt": "2026-08-19T04:00:00.000Z",
+      "impact": 58
+    },
+    {
+      "id": "arxiv-cs.ai-1787112000000-5",
+      "type": "live",
+      "category": "llm",
+      "title": "SkillEffect: Checked Lowering for Memory-Bounded Agent Tools",
+      "excerpt": "17007v1 Announce Type: new Abstract: Agent Skills can specify procedural and resource obligations for tool use, and language models instantiate them as concrete programs.  However, when models turn this guidance into ...",
+      "source": "arXiv cs.AI",
+      "url": "https://arxiv.org/abs/2608.17007",
+      "publishedAt": "2026-08-19T04:00:00.000Z",
+      "impact": 69
+    },
     {
       "id": "marktechpost-1787089744000-0",
       "type": "live",
@@ -15,18 +125,7 @@
       "impact": 65
     },
     {
-      "id": "aether-grok43",
-      "type": "premium",
-      "category": "llm",
-      "title": "xAI releases Grok-4.3 with native long-horizon agent scaffolding",
-      "excerpt": "New model demonstrates 4.2× improvement on multi-step software engineering benchmarks and sustains coherent agent trajectories beyond 110k tokens.",
-      "source": "xAI",
-      "url": "https://x.ai/blog/grok-4.3",
-      "publishedAt": "2026-08-18T20:37:51.729Z",
-      "impact": 96
-    },
-    {
-      "id": "hugging-face-1787076578000-0",
+      "id": "hugging-face-1787076578000-1",
       "type": "live",
       "category": "research",
       "title": "How Much Memory Does Your Agent Actually Need?",
@@ -35,17 +134,6 @@
       "url": "https://huggingface.co/blog/ibm-research/altk-evolve-hmm",
       "publishedAt": "2026-08-18T18:09:38.000Z",
       "impact": 87
-    },
-    {
-      "id": "aether-figure03",
-      "type": "premium",
-      "category": "robotics",
-      "title": "Figure 03 completes 43-hour autonomous factory shift with zero interventions",
-      "excerpt": "Humanoid achieves new milestone in unsupervised operation, performing 1,240 unique tasks across three assembly lines at the BMW South Carolina plant.",
-      "source": "Figure AI",
-      "url": "https://figure.ai/news/03-milestone",
-      "publishedAt": "2026-08-18T16:37:51.729Z",
-      "impact": 89
     },
     {
       "id": "marktechpost-1787059750000-1",
@@ -59,17 +147,6 @@
       "impact": 77
     },
     {
-      "id": "aether-interp",
-      "type": "premium",
-      "category": "safety",
-      "title": "Anthropic publishes unprecedented mechanistic interpretability map of Claude 4",
-      "excerpt": "Researchers reverse-engineered 312 million features inside the model, including the first clear \"deception circuit\" discovered in a frontier model.",
-      "source": "Anthropic",
-      "url": "https://anthropic.com/research/claude-4-interp",
-      "publishedAt": "2026-08-18T11:37:51.729Z",
-      "impact": 91
-    },
-    {
       "id": "marktechpost-1787049469000-2",
       "type": "live",
       "category": "multimodal",
@@ -79,72 +156,6 @@
       "url": "https://www.marktechpost.com/2026/08/18/cartesia-ships-sonic-3-6-a-streaming-tts-model-that-now-leads-both-artificial-analysis-speech-arenas/",
       "publishedAt": "2026-08-18T10:37:49.000Z",
       "impact": 65
-    },
-    {
-      "id": "arxiv-cs.ai-1787025600000-0",
-      "type": "live",
-      "category": "hardware",
-      "title": "FLOPs vs Real Work: The Importance of Replication in AI Efficiency Assessment",
-      "excerpt": "14550v1 Announce Type: new Abstract: AI efficiency has recently taken the spotlight in both academy and industry due to massive model scales, high energy demands, and environmental costs.  While reporting Floating Poi...",
-      "source": "arXiv cs.AI",
-      "url": "https://arxiv.org/abs/2608.14550",
-      "publishedAt": "2026-08-18T04:00:00.000Z",
-      "impact": 58
-    },
-    {
-      "id": "arxiv-cs.ai-1787025600000-1",
-      "type": "live",
-      "category": "llm",
-      "title": "Large Language Models Show Metacognitive Sensitivity in Medical Reasoning",
-      "excerpt": "14552v1 Announce Type: new Abstract: Large language models (LLMs) are increasingly evaluated and used in medicine, but clinical usefulness depends on answer accuracy and whether confidence tracks evidence quality and ...",
-      "source": "arXiv cs.AI",
-      "url": "https://arxiv.org/abs/2608.14552",
-      "publishedAt": "2026-08-18T04:00:00.000Z",
-      "impact": 58
-    },
-    {
-      "id": "arxiv-cs.ai-1787025600000-2",
-      "type": "live",
-      "category": "multimodal",
-      "title": "The Unwritten Benchmark: A New Challenge for Multimodal Machine Learning in Abstract Perceptual Reasoning",
-      "excerpt": "14558v1 Announce Type: new Abstract: Current multimodal models have demonstrated remarkable proficiency in recognizing static visual and auditory content.  However, their capacity for abstract perceptual reasoning, in...",
-      "source": "arXiv cs.AI",
-      "url": "https://arxiv.org/abs/2608.14558",
-      "publishedAt": "2026-08-18T04:00:00.000Z",
-      "impact": 58
-    },
-    {
-      "id": "arxiv-cs.ai-1787025600000-3",
-      "type": "live",
-      "category": "safety",
-      "title": "When to Communicate: Belief Distributions and KL Divergence for Principled Gating in Multi-Agent RL",
-      "excerpt": "14559v1 Announce Type: new Abstract: Effective communication in multi-agent reinforcement learning requires agents to decide not only \\textit{what} to communicate, but when.  Existing approaches either communicate at ...",
-      "source": "arXiv cs.AI",
-      "url": "https://arxiv.org/abs/2608.14559",
-      "publishedAt": "2026-08-18T04:00:00.000Z",
-      "impact": 69
-    },
-    {
-      "id": "arxiv-cs.ai-1787025600000-4",
-      "type": "live",
-      "category": "robotics",
-      "title": "Global AI Regulations for FAIR and Ethics in High-Risk Use Cases: A Comparative Review",
-      "excerpt": "14562v1 Announce Type: new Abstract: AI governance is shifting from voluntary ethics to enforceable, risk-based regulation, yet cross-jurisdictional divergence creates compliance uncertainty for operators of high-stak...",
-      "source": "arXiv cs.AI",
-      "url": "https://arxiv.org/abs/2608.14562",
-      "publishedAt": "2026-08-18T04:00:00.000Z",
-      "impact": 58
-    },
-    {
-      "id": "arxiv-cs.ai-1787025600000-5",
-      "type": "live",
-      "category": "safety",
-      "title": "Position: AI Lock-In Is in Progress, and We Must Be Prepared",
-      "excerpt": "14565v1 Announce Type: new Abstract: AI safety research has mainly focused on two areas: technical alignment (ensuring AI systems produce human-aligned outputs) and the regulation of generative AI's societal impacts (...",
-      "source": "arXiv cs.AI",
-      "url": "https://arxiv.org/abs/2608.14565",
-      "publishedAt": "2026-08-18T04:00:00.000Z",
-      "impact": 58
     },
     {
       "id": "marktechpost-1787018728000-3",
@@ -158,7 +169,7 @@
       "impact": 77
     },
     {
-      "id": "hugging-face-1787011200000-1",
+      "id": "hugging-face-1787011200000-2",
       "type": "live",
       "category": "llm",
       "title": "Multi-Vector (Late Interaction) Embedding Models with Sentence Transformers",
@@ -166,17 +177,6 @@
       "source": "Hugging Face",
       "url": "https://huggingface.co/blog/multi-vector-encoder",
       "publishedAt": "2026-08-18T00:00:00.000Z",
-      "impact": 75
-    },
-    {
-      "id": "hugging-face-1786995981000-2",
-      "type": "live",
-      "category": "research",
-      "title": "Same Cluster, 33 Points More Utilization: What Changed Was the Order",
-      "excerpt": "New development from the frontier.",
-      "source": "Hugging Face",
-      "url": "https://huggingface.co/blog/Dharma-AI/gpu-management-pt2",
-      "publishedAt": "2026-08-17T19:46:21.000Z",
       "impact": 75
     }
   ]

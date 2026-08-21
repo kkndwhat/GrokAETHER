@@ -1,8 +1,74 @@
 {
-  "lastUpdated": "2026-08-21T01:41:34.962Z",
+  "lastUpdated": "2026-08-21T06:55:24.475Z",
   "source": "AETHER + Public RSS (arXiv, Hugging Face, MarkTechPost, Ben's Bites)",
   "count": 12,
   "articles": [
+    {
+      "id": "arxiv-cs.ai-1787284800000-0",
+      "type": "live",
+      "category": "llm",
+      "title": "Position: Collusion Risks Among AI Reasoning Agents Justify Certification Requirements for Making Market Decisions",
+      "excerpt": "18078v1 Announce Type: new Abstract: This position paper argues that AI agents with chain-of-thought reasoning capabilities are predisposed to exhibit collusive behavior and should be required to obtain behavioral cer...",
+      "source": "arXiv cs.AI",
+      "url": "https://arxiv.org/abs/2608.18078",
+      "publishedAt": "2026-08-21T04:00:00.000Z",
+      "impact": 69
+    },
+    {
+      "id": "arxiv-cs.ai-1787284800000-1",
+      "type": "live",
+      "category": "llm",
+      "title": "Position: Profiling Game Worlds by Transition Complexity",
+      "excerpt": "18079v1 Announce Type: new Abstract: Game world modeling (GWM) and reinforcement learning (RL) are often confounded because research papers rarely quantify how difficult the underlying transition prediction problem is...",
+      "source": "arXiv cs.AI",
+      "url": "https://arxiv.org/abs/2608.18079",
+      "publishedAt": "2026-08-21T04:00:00.000Z",
+      "impact": 58
+    },
+    {
+      "id": "arxiv-cs.ai-1787284800000-2",
+      "type": "live",
+      "category": "safety",
+      "title": "Large Language Models in Mental Health: A Systematic Review of Applications, Innovations, and Ethical Challenges",
+      "excerpt": "18080v1 Announce Type: new Abstract: We present a review on the applications of large language models (LLMs) in health, e. , social media analysis, clinical conversational agents, therapy support tools, prompt enginee...",
+      "source": "arXiv cs.AI",
+      "url": "https://arxiv.org/abs/2608.18080",
+      "publishedAt": "2026-08-21T04:00:00.000Z",
+      "impact": 58
+    },
+    {
+      "id": "arxiv-cs.ai-1787284800000-3",
+      "type": "live",
+      "category": "safety",
+      "title": "Position: Behavioral Systems Require Behavioral Tests",
+      "excerpt": "18081v1 Announce Type: new Abstract: Artificial agentic systems increasingly operate as behavioral systems by interacting with dynamic environments, pursuing goals, and adapting over time.  Yet, current evaluation met...",
+      "source": "arXiv cs.AI",
+      "url": "https://arxiv.org/abs/2608.18081",
+      "publishedAt": "2026-08-21T04:00:00.000Z",
+      "impact": 58
+    },
+    {
+      "id": "arxiv-cs.ai-1787284800000-4",
+      "type": "live",
+      "category": "safety",
+      "title": "Position: Current Model Cards Are Insufficient for Downstream Governance of Open-Weight Foundation Models",
+      "excerpt": "18086v1 Announce Type: new Abstract: The growth of open-weight foundation models (OWFMs) has prompted the AI community to re-evaluate strategies for effective downstream governance.  Although model cards have been wid...",
+      "source": "arXiv cs.AI",
+      "url": "https://arxiv.org/abs/2608.18086",
+      "publishedAt": "2026-08-21T04:00:00.000Z",
+      "impact": 58
+    },
+    {
+      "id": "arxiv-cs.ai-1787284800000-5",
+      "type": "live",
+      "category": "safety",
+      "title": "A Metamorphic Artificial Age Score Decision-Support Prototype for Flight-Log-Based Drone Propeller Health Monitoring",
+      "excerpt": "18088v1 Announce Type: new Abstract: Drone propeller faults can create safety and reliability risks when their effects are distributed across multiple flight-log channels rather than appearing as a single diagnostic s...",
+      "source": "arXiv cs.AI",
+      "url": "https://arxiv.org/abs/2608.18088",
+      "publishedAt": "2026-08-21T04:00:00.000Z",
+      "impact": 58
+    },
     {
       "id": "aether-grok43",
       "type": "premium",
@@ -11,8 +77,30 @@
       "excerpt": "New model demonstrates 4.2× improvement on multi-step software engineering benchmarks and sustains coherent agent trajectories beyond 110k tokens.",
       "source": "xAI",
       "url": "https://x.ai/blog/grok-4.3",
-      "publishedAt": "2026-08-20T20:41:34.671Z",
+      "publishedAt": "2026-08-21T01:55:23.973Z",
       "impact": 96
+    },
+    {
+      "id": "aether-figure03",
+      "type": "premium",
+      "category": "robotics",
+      "title": "Figure 03 completes 43-hour autonomous factory shift with zero interventions",
+      "excerpt": "Humanoid achieves new milestone in unsupervised operation, performing 1,240 unique tasks across three assembly lines at the BMW South Carolina plant.",
+      "source": "Figure AI",
+      "url": "https://figure.ai/news/03-milestone",
+      "publishedAt": "2026-08-20T21:55:23.973Z",
+      "impact": 89
+    },
+    {
+      "id": "aether-interp",
+      "type": "premium",
+      "category": "safety",
+      "title": "Anthropic publishes unprecedented mechanistic interpretability map of Claude 4",
+      "excerpt": "Researchers reverse-engineered 312 million features inside the model, including the first clear \"deception circuit\" discovered in a frontier model.",
+      "source": "Anthropic",
+      "url": "https://anthropic.com/research/claude-4-interp",
+      "publishedAt": "2026-08-20T16:55:23.973Z",
+      "impact": 91
     },
     {
       "id": "hugging-face-1787244777000-0",
@@ -24,94 +112,6 @@
       "url": "https://huggingface.co/blog/LiquidAI/lfm25-dspark",
       "publishedAt": "2026-08-20T16:52:57.000Z",
       "impact": 75
-    },
-    {
-      "id": "aether-figure03",
-      "type": "premium",
-      "category": "robotics",
-      "title": "Figure 03 completes 43-hour autonomous factory shift with zero interventions",
-      "excerpt": "Humanoid achieves new milestone in unsupervised operation, performing 1,240 unique tasks across three assembly lines at the BMW South Carolina plant.",
-      "source": "Figure AI",
-      "url": "https://figure.ai/news/03-milestone",
-      "publishedAt": "2026-08-20T16:41:34.671Z",
-      "impact": 89
-    },
-    {
-      "id": "aether-interp",
-      "type": "premium",
-      "category": "safety",
-      "title": "Anthropic publishes unprecedented mechanistic interpretability map of Claude 4",
-      "excerpt": "Researchers reverse-engineered 312 million features inside the model, including the first clear \"deception circuit\" discovered in a frontier model.",
-      "source": "Anthropic",
-      "url": "https://anthropic.com/research/claude-4-interp",
-      "publishedAt": "2026-08-20T11:41:34.671Z",
-      "impact": 91
-    },
-    {
-      "id": "arxiv-cs.ai-1787198400000-0",
-      "type": "live",
-      "category": "llm",
-      "title": "Position: Collusion Risks Among AI Reasoning Agents Justify Certification Requirements for Making Market Decisions",
-      "excerpt": "18078v1 Announce Type: new Abstract: This position paper argues that AI agents with chain-of-thought reasoning capabilities are predisposed to exhibit collusive behavior and should be required to obtain behavioral cer...",
-      "source": "arXiv cs.AI",
-      "url": "https://arxiv.org/abs/2608.18078",
-      "publishedAt": "2026-08-20T04:00:00.000Z",
-      "impact": 69
-    },
-    {
-      "id": "arxiv-cs.ai-1787198400000-1",
-      "type": "live",
-      "category": "llm",
-      "title": "Position: Profiling Game Worlds by Transition Complexity",
-      "excerpt": "18079v1 Announce Type: new Abstract: Game world modeling (GWM) and reinforcement learning (RL) are often confounded because research papers rarely quantify how difficult the underlying transition prediction problem is...",
-      "source": "arXiv cs.AI",
-      "url": "https://arxiv.org/abs/2608.18079",
-      "publishedAt": "2026-08-20T04:00:00.000Z",
-      "impact": 58
-    },
-    {
-      "id": "arxiv-cs.ai-1787198400000-2",
-      "type": "live",
-      "category": "safety",
-      "title": "Large Language Models in Mental Health: A Systematic Review of Applications, Innovations, and Ethical Challenges",
-      "excerpt": "18080v1 Announce Type: new Abstract: We present a review on the applications of large language models (LLMs) in health, e. , social media analysis, clinical conversational agents, therapy support tools, prompt enginee...",
-      "source": "arXiv cs.AI",
-      "url": "https://arxiv.org/abs/2608.18080",
-      "publishedAt": "2026-08-20T04:00:00.000Z",
-      "impact": 58
-    },
-    {
-      "id": "arxiv-cs.ai-1787198400000-3",
-      "type": "live",
-      "category": "safety",
-      "title": "Position: Behavioral Systems Require Behavioral Tests",
-      "excerpt": "18081v1 Announce Type: new Abstract: Artificial agentic systems increasingly operate as behavioral systems by interacting with dynamic environments, pursuing goals, and adapting over time.  Yet, current evaluation met...",
-      "source": "arXiv cs.AI",
-      "url": "https://arxiv.org/abs/2608.18081",
-      "publishedAt": "2026-08-20T04:00:00.000Z",
-      "impact": 58
-    },
-    {
-      "id": "arxiv-cs.ai-1787198400000-4",
-      "type": "live",
-      "category": "safety",
-      "title": "Position: Current Model Cards Are Insufficient for Downstream Governance of Open-Weight Foundation Models",
-      "excerpt": "18086v1 Announce Type: new Abstract: The growth of open-weight foundation models (OWFMs) has prompted the AI community to re-evaluate strategies for effective downstream governance.  Although model cards have been wid...",
-      "source": "arXiv cs.AI",
-      "url": "https://arxiv.org/abs/2608.18086",
-      "publishedAt": "2026-08-20T04:00:00.000Z",
-      "impact": 58
-    },
-    {
-      "id": "arxiv-cs.ai-1787198400000-5",
-      "type": "live",
-      "category": "safety",
-      "title": "A Metamorphic Artificial Age Score Decision-Support Prototype for Flight-Log-Based Drone Propeller Health Monitoring",
-      "excerpt": "18088v1 Announce Type: new Abstract: Drone propeller faults can create safety and reliability risks when their effects are distributed across multiple flight-log channels rather than appearing as a single diagnostic s...",
-      "source": "arXiv cs.AI",
-      "url": "https://arxiv.org/abs/2608.18088",
-      "publishedAt": "2026-08-20T04:00:00.000Z",
-      "impact": 58
     },
     {
       "id": "hugging-face-1787076578000-1",

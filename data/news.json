@@ -1,8 +1,41 @@
 {
-  "lastUpdated": "2026-08-21T06:55:24.475Z",
+  "lastUpdated": "2026-08-21T18:43:56.670Z",
   "source": "AETHER + Public RSS (arXiv, Hugging Face, MarkTechPost, Ben's Bites)",
-  "count": 12,
+  "count": 16,
   "articles": [
+    {
+      "id": "aether-grok43",
+      "type": "premium",
+      "category": "llm",
+      "title": "xAI releases Grok-4.3 with native long-horizon agent scaffolding",
+      "excerpt": "New model demonstrates 4.2× improvement on multi-step software engineering benchmarks and sustains coherent agent trajectories beyond 110k tokens.",
+      "source": "xAI",
+      "url": "https://x.ai/blog/grok-4.3",
+      "publishedAt": "2026-08-21T13:43:56.184Z",
+      "impact": 96
+    },
+    {
+      "id": "aether-figure03",
+      "type": "premium",
+      "category": "robotics",
+      "title": "Figure 03 completes 43-hour autonomous factory shift with zero interventions",
+      "excerpt": "Humanoid achieves new milestone in unsupervised operation, performing 1,240 unique tasks across three assembly lines at the BMW South Carolina plant.",
+      "source": "Figure AI",
+      "url": "https://figure.ai/news/03-milestone",
+      "publishedAt": "2026-08-21T09:43:56.184Z",
+      "impact": 89
+    },
+    {
+      "id": "aether-interp",
+      "type": "premium",
+      "category": "safety",
+      "title": "Anthropic publishes unprecedented mechanistic interpretability map of Claude 4",
+      "excerpt": "Researchers reverse-engineered 312 million features inside the model, including the first clear \"deception circuit\" discovered in a frontier model.",
+      "source": "Anthropic",
+      "url": "https://anthropic.com/research/claude-4-interp",
+      "publishedAt": "2026-08-21T04:43:56.184Z",
+      "impact": 91
+    },
     {
       "id": "arxiv-cs.ai-1787284800000-0",
       "type": "live",
@@ -70,40 +103,51 @@
       "impact": 58
     },
     {
-      "id": "aether-grok43",
-      "type": "premium",
+      "id": "hugging-face-1787270400000-0",
+      "type": "live",
+      "category": "research",
+      "title": "Measuring benchmark optimization in speech recognition",
+      "excerpt": "New development from the frontier.",
+      "source": "Hugging Face",
+      "url": "https://huggingface.co/blog/asr-benchmark-optimization",
+      "publishedAt": "2026-08-21T00:00:00.000Z",
+      "impact": 75
+    },
+    {
+      "id": "marktechpost-1787264597000-0",
+      "type": "live",
+      "category": "research",
+      "title": "Meet S1-mini: Superwhisper’s 462 MB Open-Weights Text Normalizer That Turns Raw ASR Transcripts Into Clean Written Text",
+      "excerpt": "S1-mini is a 462 MB open-weights normalizer that sits after ASR, removing fillers and resolving self-corrections locally.  The post Meet S1-mini: Superwhisper’s 462 MB Open-Weights Text Normalizer That Turns Raw ASR T...",
+      "source": "MarkTechPost",
+      "url": "https://www.marktechpost.com/2026/08/20/meet-s1-mini-superwhispers-462-mb-open-weights-text-normalizer-that-turns-raw-asr-transcripts-into-clean-written-text/",
+      "publishedAt": "2026-08-20T22:23:17.000Z",
+      "impact": 65
+    },
+    {
+      "id": "marktechpost-1787254450000-1",
+      "type": "live",
+      "category": "research",
+      "title": "Meet UPDF: A Lightweight Adobe Alternative Built for the Agentic Era",
+      "excerpt": "PDFs are easy to read and hard to change.  AI can now summarize a 90-page contract in seconds, but it still won't rewrite the source file cleanly",
+      "source": "MarkTechPost",
+      "url": "https://www.marktechpost.com/2026/08/20/meet-updf-a-lightweight-adobe-alternative-built-for-the-agentic-era/",
+      "publishedAt": "2026-08-20T19:34:10.000Z",
+      "impact": 77
+    },
+    {
+      "id": "marktechpost-1787251989000-2",
+      "type": "live",
       "category": "llm",
-      "title": "xAI releases Grok-4.3 with native long-horizon agent scaffolding",
-      "excerpt": "New model demonstrates 4.2× improvement on multi-step software engineering benchmarks and sustains coherent agent trajectories beyond 110k tokens.",
-      "source": "xAI",
-      "url": "https://x.ai/blog/grok-4.3",
-      "publishedAt": "2026-08-21T01:55:23.973Z",
-      "impact": 96
+      "title": "Liquid AI Releases LFM2.5-DSpark Draft Models That Deliver Up to 3.18x Faster Decoding Without Changing Model Outputs",
+      "excerpt": "Three ~300M drafters bring speculative decoding to LFM2. 5, delivering up to 3",
+      "source": "MarkTechPost",
+      "url": "https://www.marktechpost.com/2026/08/20/liquid-ai-releases-lfm2-5-dspark-draft-models-that-deliver-up-to-3-18x-faster-decoding/",
+      "publishedAt": "2026-08-20T18:53:09.000Z",
+      "impact": 65
     },
     {
-      "id": "aether-figure03",
-      "type": "premium",
-      "category": "robotics",
-      "title": "Figure 03 completes 43-hour autonomous factory shift with zero interventions",
-      "excerpt": "Humanoid achieves new milestone in unsupervised operation, performing 1,240 unique tasks across three assembly lines at the BMW South Carolina plant.",
-      "source": "Figure AI",
-      "url": "https://figure.ai/news/03-milestone",
-      "publishedAt": "2026-08-20T21:55:23.973Z",
-      "impact": 89
-    },
-    {
-      "id": "aether-interp",
-      "type": "premium",
-      "category": "safety",
-      "title": "Anthropic publishes unprecedented mechanistic interpretability map of Claude 4",
-      "excerpt": "Researchers reverse-engineered 312 million features inside the model, including the first clear \"deception circuit\" discovered in a frontier model.",
-      "source": "Anthropic",
-      "url": "https://anthropic.com/research/claude-4-interp",
-      "publishedAt": "2026-08-20T16:55:23.973Z",
-      "impact": 91
-    },
-    {
-      "id": "hugging-face-1787244777000-0",
+      "id": "hugging-face-1787244777000-1",
       "type": "live",
       "category": "research",
       "title": "Up to 3.2x Faster Inference with LFM2.5-DSpark",
@@ -114,7 +158,18 @@
       "impact": 75
     },
     {
-      "id": "hugging-face-1787076578000-1",
+      "id": "marktechpost-1787215898000-3",
+      "type": "live",
+      "category": "llm",
+      "title": "Auditing Preference Biases and Fine-Tuning Language Models with Direct Preference Optimization on Anthropic HH-RLHF Using TRL and LoRA",
+      "excerpt": "This tutorial provides an end-to-end workflow for fine-tuning language models using Direct Preference Optimization (DPO).  We demonstrate how to audit the Anthropic HH-RLHF dataset for structural and length-based bias...",
+      "source": "MarkTechPost",
+      "url": "https://www.marktechpost.com/2026/08/20/auditing-preference-biases-and-fine-tuning-language-models-with-direct-preference-optimization-on-anthropic-hh-rlhf-using-trl-and-lora/",
+      "publishedAt": "2026-08-20T08:51:38.000Z",
+      "impact": 65
+    },
+    {
+      "id": "hugging-face-1787076578000-2",
       "type": "live",
       "category": "research",
       "title": "How Much Memory Does Your Agent Actually Need?",
@@ -123,17 +178,6 @@
       "url": "https://huggingface.co/blog/ibm-research/altk-evolve-hmm",
       "publishedAt": "2026-08-18T18:09:38.000Z",
       "impact": 87
-    },
-    {
-      "id": "hugging-face-1787011200000-2",
-      "type": "live",
-      "category": "llm",
-      "title": "Multi-Vector (Late Interaction) Embedding Models with Sentence Transformers",
-      "excerpt": "New development from the frontier.",
-      "source": "Hugging Face",
-      "url": "https://huggingface.co/blog/multi-vector-encoder",
-      "publishedAt": "2026-08-18T00:00:00.000Z",
-      "impact": 75
     }
   ]
 }

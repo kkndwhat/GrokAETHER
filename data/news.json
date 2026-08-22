@@ -1,7 +1,7 @@
 {
-  "lastUpdated": "2026-08-21T18:43:56.670Z",
+  "lastUpdated": "2026-08-22T01:35:04.353Z",
   "source": "AETHER + Public RSS (arXiv, Hugging Face, MarkTechPost, Ben's Bites)",
-  "count": 16,
+  "count": 12,
   "articles": [
     {
       "id": "aether-grok43",
@@ -11,7 +11,7 @@
       "excerpt": "New model demonstrates 4.2× improvement on multi-step software engineering benchmarks and sustains coherent agent trajectories beyond 110k tokens.",
       "source": "xAI",
       "url": "https://x.ai/blog/grok-4.3",
-      "publishedAt": "2026-08-21T13:43:56.184Z",
+      "publishedAt": "2026-08-21T20:35:04.071Z",
       "impact": 96
     },
     {
@@ -22,7 +22,7 @@
       "excerpt": "Humanoid achieves new milestone in unsupervised operation, performing 1,240 unique tasks across three assembly lines at the BMW South Carolina plant.",
       "source": "Figure AI",
       "url": "https://figure.ai/news/03-milestone",
-      "publishedAt": "2026-08-21T09:43:56.184Z",
+      "publishedAt": "2026-08-21T16:35:04.071Z",
       "impact": 89
     },
     {
@@ -33,7 +33,7 @@
       "excerpt": "Researchers reverse-engineered 312 million features inside the model, including the first clear \"deception circuit\" discovered in a frontier model.",
       "source": "Anthropic",
       "url": "https://anthropic.com/research/claude-4-interp",
-      "publishedAt": "2026-08-21T04:43:56.184Z",
+      "publishedAt": "2026-08-21T11:35:04.071Z",
       "impact": 91
     },
     {
@@ -114,39 +114,6 @@
       "impact": 75
     },
     {
-      "id": "marktechpost-1787264597000-0",
-      "type": "live",
-      "category": "research",
-      "title": "Meet S1-mini: Superwhisper’s 462 MB Open-Weights Text Normalizer That Turns Raw ASR Transcripts Into Clean Written Text",
-      "excerpt": "S1-mini is a 462 MB open-weights normalizer that sits after ASR, removing fillers and resolving self-corrections locally.  The post Meet S1-mini: Superwhisper’s 462 MB Open-Weights Text Normalizer That Turns Raw ASR T...",
-      "source": "MarkTechPost",
-      "url": "https://www.marktechpost.com/2026/08/20/meet-s1-mini-superwhispers-462-mb-open-weights-text-normalizer-that-turns-raw-asr-transcripts-into-clean-written-text/",
-      "publishedAt": "2026-08-20T22:23:17.000Z",
-      "impact": 65
-    },
-    {
-      "id": "marktechpost-1787254450000-1",
-      "type": "live",
-      "category": "research",
-      "title": "Meet UPDF: A Lightweight Adobe Alternative Built for the Agentic Era",
-      "excerpt": "PDFs are easy to read and hard to change.  AI can now summarize a 90-page contract in seconds, but it still won't rewrite the source file cleanly",
-      "source": "MarkTechPost",
-      "url": "https://www.marktechpost.com/2026/08/20/meet-updf-a-lightweight-adobe-alternative-built-for-the-agentic-era/",
-      "publishedAt": "2026-08-20T19:34:10.000Z",
-      "impact": 77
-    },
-    {
-      "id": "marktechpost-1787251989000-2",
-      "type": "live",
-      "category": "llm",
-      "title": "Liquid AI Releases LFM2.5-DSpark Draft Models That Deliver Up to 3.18x Faster Decoding Without Changing Model Outputs",
-      "excerpt": "Three ~300M drafters bring speculative decoding to LFM2. 5, delivering up to 3",
-      "source": "MarkTechPost",
-      "url": "https://www.marktechpost.com/2026/08/20/liquid-ai-releases-lfm2-5-dspark-draft-models-that-deliver-up-to-3-18x-faster-decoding/",
-      "publishedAt": "2026-08-20T18:53:09.000Z",
-      "impact": 65
-    },
-    {
       "id": "hugging-face-1787244777000-1",
       "type": "live",
       "category": "research",
@@ -156,17 +123,6 @@
       "url": "https://huggingface.co/blog/LiquidAI/lfm25-dspark",
       "publishedAt": "2026-08-20T16:52:57.000Z",
       "impact": 75
-    },
-    {
-      "id": "marktechpost-1787215898000-3",
-      "type": "live",
-      "category": "llm",
-      "title": "Auditing Preference Biases and Fine-Tuning Language Models with Direct Preference Optimization on Anthropic HH-RLHF Using TRL and LoRA",
-      "excerpt": "This tutorial provides an end-to-end workflow for fine-tuning language models using Direct Preference Optimization (DPO).  We demonstrate how to audit the Anthropic HH-RLHF dataset for structural and length-based bias...",
-      "source": "MarkTechPost",
-      "url": "https://www.marktechpost.com/2026/08/20/auditing-preference-biases-and-fine-tuning-language-models-with-direct-preference-optimization-on-anthropic-hh-rlhf-using-trl-and-lora/",
-      "publishedAt": "2026-08-20T08:51:38.000Z",
-      "impact": 65
     },
     {
       "id": "hugging-face-1787076578000-2",

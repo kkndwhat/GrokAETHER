@@ -1,10 +1,32 @@
 {
-  "lastUpdated": "2026-08-23T12:50:46.121Z",
+  "lastUpdated": "2026-08-23T18:36:55.163Z",
   "source": "AETHER + Public RSS (arXiv, Hugging Face, MarkTechPost, Ben's Bites)",
   "count": 10,
   "articles": [
     {
-      "id": "marktechpost-1787481899000-0",
+      "id": "marktechpost-1787507516000-0",
+      "type": "live",
+      "category": "llm",
+      "title": "Harvey Introduces Harvey Tenet: A Kimi K3 Base Post-Trained with Fireworks for Long-Horizon Legal Agent Work",
+      "excerpt": "Harvey's first post-trained model nearly doubles LAB task completion, but only one benchmark number survives independent verification today The post Harvey Introduces Harvey Tenet: A Kimi K3 Base Post-Trained with Fir...",
+      "source": "MarkTechPost",
+      "url": "https://www.marktechpost.com/2026/08/23/harvey-tenet-post-trained-kimi-k3-legal-agent-model/",
+      "publishedAt": "2026-08-23T17:51:56.000Z",
+      "impact": 77
+    },
+    {
+      "id": "aether-grok43",
+      "type": "premium",
+      "category": "llm",
+      "title": "xAI releases Grok-4.3 with native long-horizon agent scaffolding",
+      "excerpt": "New model demonstrates 4.2× improvement on multi-step software engineering benchmarks and sustains coherent agent trajectories beyond 110k tokens.",
+      "source": "xAI",
+      "url": "https://x.ai/blog/grok-4.3",
+      "publishedAt": "2026-08-23T13:36:54.121Z",
+      "impact": 96
+    },
+    {
+      "id": "marktechpost-1787481899000-1",
       "type": "live",
       "category": "hardware",
       "title": "Meet FreeToken: An Edge-Native MoE Serving Engine that Runs 753B GLM-5.2 on a Single Workstation GPU",
@@ -15,7 +37,18 @@
       "impact": 65
     },
     {
-      "id": "marktechpost-1787471482000-1",
+      "id": "aether-figure03",
+      "type": "premium",
+      "category": "robotics",
+      "title": "Figure 03 completes 43-hour autonomous factory shift with zero interventions",
+      "excerpt": "Humanoid achieves new milestone in unsupervised operation, performing 1,240 unique tasks across three assembly lines at the BMW South Carolina plant.",
+      "source": "Figure AI",
+      "url": "https://figure.ai/news/03-milestone",
+      "publishedAt": "2026-08-23T09:36:54.121Z",
+      "impact": 89
+    },
+    {
+      "id": "marktechpost-1787471482000-2",
       "type": "live",
       "category": "research",
       "title": "Building an End-to-End Document Intelligence Pipeline with deepDoctection",
@@ -26,18 +59,7 @@
       "impact": 65
     },
     {
-      "id": "aether-grok43",
-      "type": "premium",
-      "category": "llm",
-      "title": "xAI releases Grok-4.3 with native long-horizon agent scaffolding",
-      "excerpt": "New model demonstrates 4.2× improvement on multi-step software engineering benchmarks and sustains coherent agent trajectories beyond 110k tokens.",
-      "source": "xAI",
-      "url": "https://x.ai/blog/grok-4.3",
-      "publishedAt": "2026-08-23T07:50:45.543Z",
-      "impact": 96
-    },
-    {
-      "id": "marktechpost-1787470634000-2",
+      "id": "marktechpost-1787470634000-3",
       "type": "live",
       "category": "research",
       "title": "Vercel Introduces ‘Is Agentic’, a Free Agent-Readiness Scoring Tool That Audits Public Websites Using Ora’s 100+ Checks",
@@ -48,28 +70,6 @@
       "impact": 77
     },
     {
-      "id": "aether-figure03",
-      "type": "premium",
-      "category": "robotics",
-      "title": "Figure 03 completes 43-hour autonomous factory shift with zero interventions",
-      "excerpt": "Humanoid achieves new milestone in unsupervised operation, performing 1,240 unique tasks across three assembly lines at the BMW South Carolina plant.",
-      "source": "Figure AI",
-      "url": "https://figure.ai/news/03-milestone",
-      "publishedAt": "2026-08-23T03:50:45.543Z",
-      "impact": 89
-    },
-    {
-      "id": "marktechpost-1787442578000-3",
-      "type": "live",
-      "category": "safety",
-      "title": "The Developer’s Guide to NeMo Guardrails for Enterprise AI Safety",
-      "excerpt": "In this tutorial, we explore how to design production-grade safety for LLM-based applications using the NeMo Guardrails framework.  We move beyond simple prompt filtering to implement a layered architecture, featuring...",
-      "source": "MarkTechPost",
-      "url": "https://www.marktechpost.com/2026/08/22/the-developers-guide-to-nemo-guardrails-for-enterprise-ai-safety/",
-      "publishedAt": "2026-08-22T23:49:38.000Z",
-      "impact": 65
-    },
-    {
       "id": "aether-interp",
       "type": "premium",
       "category": "safety",
@@ -77,7 +77,7 @@
       "excerpt": "Researchers reverse-engineered 312 million features inside the model, including the first clear \"deception circuit\" discovered in a frontier model.",
       "source": "Anthropic",
       "url": "https://anthropic.com/research/claude-4-interp",
-      "publishedAt": "2026-08-22T22:50:45.543Z",
+      "publishedAt": "2026-08-23T04:36:54.121Z",
       "impact": 91
     },
     {

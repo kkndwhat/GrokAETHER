@@ -1,18 +1,18 @@
 {
-  "lastUpdated": "2026-08-22T18:37:29.856Z",
+  "lastUpdated": "2026-08-23T01:44:24.840Z",
   "source": "AETHER + Public RSS (arXiv, Hugging Face, MarkTechPost, Ben's Bites)",
   "count": 10,
   "articles": [
     {
-      "id": "marktechpost-1787406193000-0",
+      "id": "marktechpost-1787442578000-0",
       "type": "live",
-      "category": "llm",
-      "title": "Decoding AI’s Open-Source Course Maps Three Ways to Run an Agent Loop and the Provider Economics Behind Each",
-      "excerpt": "Most teams treat ‘which model’ as the important decision.  The harness engineering literature keeps pointing somewhere else",
+      "category": "safety",
+      "title": "The Developer’s Guide to NeMo Guardrails for Enterprise AI Safety",
+      "excerpt": "In this tutorial, we explore how to design production-grade safety for LLM-based applications using the NeMo Guardrails framework.  We move beyond simple prompt filtering to implement a layered architecture, featuring...",
       "source": "MarkTechPost",
-      "url": "https://www.marktechpost.com/2026/08/22/decoding-ais-open-source-course-maps-three-ways-to-run-an-agent-loop-and-the-provider-economics-behind-each/",
-      "publishedAt": "2026-08-22T13:43:13.000Z",
-      "impact": 77
+      "url": "https://www.marktechpost.com/2026/08/22/the-developers-guide-to-nemo-guardrails-for-enterprise-ai-safety/",
+      "publishedAt": "2026-08-22T23:49:38.000Z",
+      "impact": 65
     },
     {
       "id": "aether-grok43",
@@ -22,7 +22,7 @@
       "excerpt": "New model demonstrates 4.2× improvement on multi-step software engineering benchmarks and sustains coherent agent trajectories beyond 110k tokens.",
       "source": "xAI",
       "url": "https://x.ai/blog/grok-4.3",
-      "publishedAt": "2026-08-22T13:37:26.575Z",
+      "publishedAt": "2026-08-22T20:44:24.116Z",
       "impact": 96
     },
     {
@@ -33,8 +33,19 @@
       "excerpt": "Humanoid achieves new milestone in unsupervised operation, performing 1,240 unique tasks across three assembly lines at the BMW South Carolina plant.",
       "source": "Figure AI",
       "url": "https://figure.ai/news/03-milestone",
-      "publishedAt": "2026-08-22T09:37:26.575Z",
+      "publishedAt": "2026-08-22T16:44:24.116Z",
       "impact": 89
+    },
+    {
+      "id": "marktechpost-1787406193000-1",
+      "type": "live",
+      "category": "llm",
+      "title": "Decoding AI’s Open-Source Course Maps Three Ways to Run an Agent Loop and the Provider Economics Behind Each",
+      "excerpt": "Most teams treat ‘which model’ as the important decision.  The harness engineering literature keeps pointing somewhere else",
+      "source": "MarkTechPost",
+      "url": "https://www.marktechpost.com/2026/08/22/decoding-ais-open-source-course-maps-three-ways-to-run-an-agent-loop-and-the-provider-economics-behind-each/",
+      "publishedAt": "2026-08-22T13:43:13.000Z",
+      "impact": 77
     },
     {
       "id": "aether-interp",
@@ -44,11 +55,11 @@
       "excerpt": "Researchers reverse-engineered 312 million features inside the model, including the first clear \"deception circuit\" discovered in a frontier model.",
       "source": "Anthropic",
       "url": "https://anthropic.com/research/claude-4-interp",
-      "publishedAt": "2026-08-22T04:37:26.575Z",
+      "publishedAt": "2026-08-22T11:44:24.116Z",
       "impact": 91
     },
     {
-      "id": "marktechpost-1787354412000-1",
+      "id": "marktechpost-1787354412000-2",
       "type": "live",
       "category": "robotics",
       "title": "Best GPU Neoclouds 2026: CoreWeave, Nebius, Lambda, Crusoe, and Groq Ranked by Published Pricing and Contracted Power",
@@ -59,7 +70,7 @@
       "impact": 65
     },
     {
-      "id": "marktechpost-1787349625000-2",
+      "id": "marktechpost-1787349625000-3",
       "type": "live",
       "category": "robotics",
       "title": "Building Agentic Document Intelligence Pipelines: Creating Scientific Figures with AutoFigure",
@@ -68,17 +79,6 @@
       "url": "https://www.marktechpost.com/2026/08/21/building-agentic-document-intelligence-pipelines-creating-scientific-figures-with-autofigure/",
       "publishedAt": "2026-08-21T22:00:25.000Z",
       "impact": 77
-    },
-    {
-      "id": "marktechpost-1787346953000-3",
-      "type": "live",
-      "category": "llm",
-      "title": "Anthropic Brings Claude Mythos 5 to Claude Security: Enterprise Teams Get Frontier Vulnerability Scanning Without Direct Model Access",
-      "excerpt": "Anthropic has moved its most cyber-capable model into a product security teams can switch on themselves.  Claude Security scans now run on Claude Mythos 5, in public beta for Claude Enterprise customers with no separa...",
-      "source": "MarkTechPost",
-      "url": "https://www.marktechpost.com/2026/08/21/anthropic-brings-claude-mythos-5-to-claude-security/",
-      "publishedAt": "2026-08-21T21:15:53.000Z",
-      "impact": 83
     },
     {
       "id": "hugging-face-1787270400000-0",

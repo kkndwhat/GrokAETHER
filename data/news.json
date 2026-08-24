@@ -1,8 +1,96 @@
 {
-  "lastUpdated": "2026-08-24T01:42:17.175Z",
+  "lastUpdated": "2026-08-24T07:08:26.359Z",
   "source": "AETHER + Public RSS (arXiv, Hugging Face, MarkTechPost, Ben's Bites)",
-  "count": 10,
+  "count": 16,
   "articles": [
+    {
+      "id": "marktechpost-1787549203000-0",
+      "type": "live",
+      "category": "robotics",
+      "title": "Best GPU Neoclouds 2026: CoreWeave, Nebius, Lambda, Crusoe, and Groq Ranked by Published Pricing and Contracted Power",
+      "excerpt": "The five largest GPU neoclouds now run on very different models.  CoreWeave and Nebius report to the SEC; Lambda and Crusoe are private and heading toward IPOs; Groq rebuilt itself as an inference cloud after licensin...",
+      "source": "MarkTechPost",
+      "url": "https://www.marktechpost.com/2026/08/23/best-gpu-neoclouds-2026/",
+      "publishedAt": "2026-08-24T05:26:43.000Z",
+      "impact": 65
+    },
+    {
+      "id": "arxiv-cs.ai-1787544000000-0",
+      "type": "live",
+      "category": "llm",
+      "title": "SDAD: Spec-Driven Agentic Development for the AI-Native SDLC",
+      "excerpt": "20341v1 Announce Type: new Abstract: Frontier coding agents backed by large language models with context windows from hundreds of thousands to millions of tokens are restructuring the Software Development Life Cycle (...",
+      "source": "arXiv cs.AI",
+      "url": "https://arxiv.org/abs/2608.20341",
+      "publishedAt": "2026-08-24T04:00:00.000Z",
+      "impact": 69
+    },
+    {
+      "id": "arxiv-cs.ai-1787544000000-1",
+      "type": "live",
+      "category": "llm",
+      "title": "PrimeAgentOrchestrator: Memory-Primed Agent Spawning for Personal AI Infrastructure",
+      "excerpt": "20342v1 Announce Type: new Abstract: Large language model (LLM) coding agents start each session with an empty context window, discarding accumulated knowledge from prior work.  We present PrimeAgentOrchestrator (PAO)...",
+      "source": "arXiv cs.AI",
+      "url": "https://arxiv.org/abs/2608.20342",
+      "publishedAt": "2026-08-24T04:00:00.000Z",
+      "impact": 69
+    },
+    {
+      "id": "arxiv-cs.ai-1787544000000-2",
+      "type": "live",
+      "category": "safety",
+      "title": "Truth Lies Deep: Countering Semantic Camouflage via Latent Intent Verification",
+      "excerpt": "20378v1 Announce Type: new Abstract: Safety alignment in Large Language Models (LLMs) is often superficial, relying on refusal mechanisms that trigger only at the final stages of generation without erasing the foundat...",
+      "source": "arXiv cs.AI",
+      "url": "https://arxiv.org/abs/2608.20378",
+      "publishedAt": "2026-08-24T04:00:00.000Z",
+      "impact": 58
+    },
+    {
+      "id": "arxiv-cs.ai-1787544000000-3",
+      "type": "live",
+      "category": "robotics",
+      "title": "A Survey on Foundations and Frontiers of Multimodal Agentic Frameworks: Techniques and Applications",
+      "excerpt": "20379v1 Announce Type: new Abstract: Advances in large language models (LLMs) have fueled a wave of research into agency: the ability to reason, plan, and act.  This effort has produced agentic frameworks that orchest...",
+      "source": "arXiv cs.AI",
+      "url": "https://arxiv.org/abs/2608.20379",
+      "publishedAt": "2026-08-24T04:00:00.000Z",
+      "impact": 87
+    },
+    {
+      "id": "arxiv-cs.ai-1787544000000-4",
+      "type": "live",
+      "category": "safety",
+      "title": "Interpretable Multimodal Classification with Linear Discriminant Tree Ensembles",
+      "excerpt": "20384v1 Announce Type: new Abstract: Multimodal affect and behaviour classifiers that fuse heterogeneous text, audio, and visual streams must simultaneously achieve competitive accuracy and produce human-understandabl...",
+      "source": "arXiv cs.AI",
+      "url": "https://arxiv.org/abs/2608.20384",
+      "publishedAt": "2026-08-24T04:00:00.000Z",
+      "impact": 58
+    },
+    {
+      "id": "arxiv-cs.ai-1787544000000-5",
+      "type": "live",
+      "category": "multimodal",
+      "title": "Representation Affects Retrieval: A Case Study of Skill Discovery and Routing in a Multimodal Agent Harness",
+      "excerpt": "20389v1 Announce Type: new Abstract: A production agent harness must discover and rank, from a growing library of skills, the one most appropriate for a user's task.  At small scale this selection happens in context: ...",
+      "source": "arXiv cs.AI",
+      "url": "https://arxiv.org/abs/2608.20389",
+      "publishedAt": "2026-08-24T04:00:00.000Z",
+      "impact": 69
+    },
+    {
+      "id": "marktechpost-1787542350000-1",
+      "type": "live",
+      "category": "llm",
+      "title": "Scientific Data Analysis with LabPlot in Python: Signal Processing, Spectral Peak Fitting, Visualization, and Batch Automation",
+      "excerpt": "In this tutorial, we explore a LabPlot-inspired scientific data analysis workflow in Python while preserving the structure and terminology of LabPlot’s aspect tree, analysis kernels, plotting system, and project model...",
+      "source": "MarkTechPost",
+      "url": "https://www.marktechpost.com/2026/08/23/scientific-data-analysis-with-labplot-in-python-signal-processing-spectral-peak-fitting-visualization-and-batch-automation/",
+      "publishedAt": "2026-08-24T03:32:30.000Z",
+      "impact": 65
+    },
     {
       "id": "aether-grok43",
       "type": "premium",
@@ -11,11 +99,22 @@
       "excerpt": "New model demonstrates 4.2× improvement on multi-step software engineering benchmarks and sustains coherent agent trajectories beyond 110k tokens.",
       "source": "xAI",
       "url": "https://x.ai/blog/grok-4.3",
-      "publishedAt": "2026-08-23T20:42:16.678Z",
+      "publishedAt": "2026-08-24T02:08:25.539Z",
       "impact": 96
     },
     {
-      "id": "marktechpost-1787507516000-0",
+      "id": "aether-figure03",
+      "type": "premium",
+      "category": "robotics",
+      "title": "Figure 03 completes 43-hour autonomous factory shift with zero interventions",
+      "excerpt": "Humanoid achieves new milestone in unsupervised operation, performing 1,240 unique tasks across three assembly lines at the BMW South Carolina plant.",
+      "source": "Figure AI",
+      "url": "https://figure.ai/news/03-milestone",
+      "publishedAt": "2026-08-23T22:08:25.540Z",
+      "impact": 89
+    },
+    {
+      "id": "marktechpost-1787507516000-2",
       "type": "live",
       "category": "llm",
       "title": "Harvey Introduces Harvey Tenet: A Kimi K3 Base Post-Trained with Fireworks for Long-Horizon Legal Agent Work",
@@ -26,17 +125,6 @@
       "impact": 77
     },
     {
-      "id": "aether-figure03",
-      "type": "premium",
-      "category": "robotics",
-      "title": "Figure 03 completes 43-hour autonomous factory shift with zero interventions",
-      "excerpt": "Humanoid achieves new milestone in unsupervised operation, performing 1,240 unique tasks across three assembly lines at the BMW South Carolina plant.",
-      "source": "Figure AI",
-      "url": "https://figure.ai/news/03-milestone",
-      "publishedAt": "2026-08-23T16:42:16.678Z",
-      "impact": 89
-    },
-    {
       "id": "aether-interp",
       "type": "premium",
       "category": "safety",
@@ -44,11 +132,11 @@
       "excerpt": "Researchers reverse-engineered 312 million features inside the model, including the first clear \"deception circuit\" discovered in a frontier model.",
       "source": "Anthropic",
       "url": "https://anthropic.com/research/claude-4-interp",
-      "publishedAt": "2026-08-23T11:42:16.678Z",
+      "publishedAt": "2026-08-23T17:08:25.540Z",
       "impact": 91
     },
     {
-      "id": "marktechpost-1787481899000-1",
+      "id": "marktechpost-1787481899000-3",
       "type": "live",
       "category": "hardware",
       "title": "Meet FreeToken: An Edge-Native MoE Serving Engine that Runs 753B GLM-5.2 on a Single Workstation GPU",
@@ -57,28 +145,6 @@
       "url": "https://www.marktechpost.com/2026/08/23/meet-freetoken-an-edge-native-moe-serving-engine-that-runs-753b-glm-5-2-on-a-single-workstation-gpu/",
       "publishedAt": "2026-08-23T10:44:59.000Z",
       "impact": 65
-    },
-    {
-      "id": "marktechpost-1787471482000-2",
-      "type": "live",
-      "category": "research",
-      "title": "Building an End-to-End Document Intelligence Pipeline with deepDoctection",
-      "excerpt": "Build an end-to-end document intelligence pipeline with deepDoctection.  This tutorial covers configuring layout analysis, DocTR OCR, and table extraction, while demonstrating how to implement custom services for enti...",
-      "source": "MarkTechPost",
-      "url": "https://www.marktechpost.com/2026/08/23/building-an-end-to-end-document-intelligence-pipeline-with-deepdoctection/",
-      "publishedAt": "2026-08-23T07:51:22.000Z",
-      "impact": 65
-    },
-    {
-      "id": "marktechpost-1787470634000-3",
-      "type": "live",
-      "category": "research",
-      "title": "Vercel Introduces ‘Is Agentic’, a Free Agent-Readiness Scoring Tool That Audits Public Websites Using Ora’s 100+ Checks",
-      "excerpt": "Vercel and Ora launched Is Agentic, a free audit scoring website readiness for AI agents across 118 checks.  The post Vercel Introduces ‘Is Agentic’, a Free Agent-Readiness Scoring Tool That Audits Public Websites Usi...",
-      "source": "MarkTechPost",
-      "url": "https://www.marktechpost.com/2026/08/23/vercel-introduces-is-agentic-a-free-agent-readiness-scoring-tool-that-audits-public-websites-using-oras-100-checks/",
-      "publishedAt": "2026-08-23T07:37:14.000Z",
-      "impact": 77
     },
     {
       "id": "hugging-face-1787270400000-0",

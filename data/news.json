@@ -1,17 +1,28 @@
 {
-  "lastUpdated": "2026-08-25T12:56:30.473Z",
+  "lastUpdated": "2026-08-25T18:46:37.872Z",
   "source": "AETHER + Public RSS (arXiv, Hugging Face, MarkTechPost, Ben's Bites)",
   "count": 16,
   "articles": [
     {
-      "id": "hugging-face-1787657964000-0",
+      "id": "marktechpost-1787678736000-0",
       "type": "live",
       "category": "llm",
-      "title": "Quantization-Aware Healing: a compressed, 4-bit model that outperforms its full-precision original",
+      "title": "Meta AI Introduces MetaRoCE: A Clean-Sheet RDMA Transport Built for AI-Scale Ethernet",
+      "excerpt": "Training and serving frontier models is now a networking problem as much as a compute problem.  Collective operations like all-reduce and all-to-all synchronize thousands of accelerators during training, and the slowe...",
+      "source": "MarkTechPost",
+      "url": "https://www.marktechpost.com/2026/08/25/meta-ai-introduces-metaroce-a-clean-sheet-rdma-transport-built-for-ai-scale-ethernet/",
+      "publishedAt": "2026-08-25T17:25:36.000Z",
+      "impact": 65
+    },
+    {
+      "id": "hugging-face-1787670854000-0",
+      "type": "live",
+      "category": "llm",
+      "title": "Granite 4.2 LLMs: How They're Built",
       "excerpt": "New development from the frontier.",
       "source": "Hugging Face",
-      "url": "https://huggingface.co/blog/MultiverseComputingCAI/quantization-aware-healing",
-      "publishedAt": "2026-08-25T11:39:24.000Z",
+      "url": "https://huggingface.co/blog/ibm-granite/granite-4-2",
+      "publishedAt": "2026-08-25T15:14:14.000Z",
       "impact": 75
     },
     {
@@ -22,8 +33,41 @@
       "excerpt": "New model demonstrates 4.2× improvement on multi-step software engineering benchmarks and sustains coherent agent trajectories beyond 110k tokens.",
       "source": "xAI",
       "url": "https://x.ai/blog/grok-4.3",
-      "publishedAt": "2026-08-25T07:56:29.989Z",
+      "publishedAt": "2026-08-25T13:46:36.740Z",
       "impact": 96
+    },
+    {
+      "id": "hugging-face-1787657964000-1",
+      "type": "live",
+      "category": "llm",
+      "title": "Quantization-Aware Healing: a compressed, 4-bit model that outperforms its full-precision original",
+      "excerpt": "New development from the frontier.",
+      "source": "Hugging Face",
+      "url": "https://huggingface.co/blog/MultiverseComputingCAI/quantization-aware-healing",
+      "publishedAt": "2026-08-25T11:39:24.000Z",
+      "impact": 75
+    },
+    {
+      "id": "aether-figure03",
+      "type": "premium",
+      "category": "robotics",
+      "title": "Figure 03 completes 43-hour autonomous factory shift with zero interventions",
+      "excerpt": "Humanoid achieves new milestone in unsupervised operation, performing 1,240 unique tasks across three assembly lines at the BMW South Carolina plant.",
+      "source": "Figure AI",
+      "url": "https://figure.ai/news/03-milestone",
+      "publishedAt": "2026-08-25T09:46:36.740Z",
+      "impact": 89
+    },
+    {
+      "id": "aether-interp",
+      "type": "premium",
+      "category": "safety",
+      "title": "Anthropic publishes unprecedented mechanistic interpretability map of Claude 4",
+      "excerpt": "Researchers reverse-engineered 312 million features inside the model, including the first clear \"deception circuit\" discovered in a frontier model.",
+      "source": "Anthropic",
+      "url": "https://anthropic.com/research/claude-4-interp",
+      "publishedAt": "2026-08-25T04:46:36.740Z",
+      "impact": 91
     },
     {
       "id": "arxiv-cs.ai-1787630400000-0",
@@ -92,18 +136,7 @@
       "impact": 69
     },
     {
-      "id": "aether-figure03",
-      "type": "premium",
-      "category": "robotics",
-      "title": "Figure 03 completes 43-hour autonomous factory shift with zero interventions",
-      "excerpt": "Humanoid achieves new milestone in unsupervised operation, performing 1,240 unique tasks across three assembly lines at the BMW South Carolina plant.",
-      "source": "Figure AI",
-      "url": "https://figure.ai/news/03-milestone",
-      "publishedAt": "2026-08-25T03:56:29.989Z",
-      "impact": 89
-    },
-    {
-      "id": "hugging-face-1787616000000-1",
+      "id": "hugging-face-1787616000000-2",
       "type": "live",
       "category": "research",
       "title": "Wire It, Run It, Deploy It: AI Workflows in Gradio",
@@ -114,18 +147,7 @@
       "impact": 75
     },
     {
-      "id": "aether-interp",
-      "type": "premium",
-      "category": "safety",
-      "title": "Anthropic publishes unprecedented mechanistic interpretability map of Claude 4",
-      "excerpt": "Researchers reverse-engineered 312 million features inside the model, including the first clear \"deception circuit\" discovered in a frontier model.",
-      "source": "Anthropic",
-      "url": "https://anthropic.com/research/claude-4-interp",
-      "publishedAt": "2026-08-24T22:56:29.989Z",
-      "impact": 91
-    },
-    {
-      "id": "marktechpost-1787610082000-0",
+      "id": "marktechpost-1787610082000-1",
       "type": "live",
       "category": "research",
       "title": "Fastino Releases GLiNER2.5: A Boundary-Prediction Architecture That Removes Span Enumeration From Information Extraction",
@@ -136,7 +158,7 @@
       "impact": 65
     },
     {
-      "id": "marktechpost-1787581021000-1",
+      "id": "marktechpost-1787581021000-2",
       "type": "live",
       "category": "robotics",
       "title": "Generalist AI Releases GEN-1.5: A Robot Foundation Model That Learns New Tasks From One 3–12 Second Demo",
@@ -147,7 +169,7 @@
       "impact": 65
     },
     {
-      "id": "marktechpost-1787579819000-2",
+      "id": "marktechpost-1787579819000-3",
       "type": "live",
       "category": "llm",
       "title": "Google Research Introduces ME-POIs: A Mobility-Informed Framework that Adds “How a Place Is Used” to Text-Based POI Embeddings",
@@ -156,28 +178,6 @@
       "url": "https://www.marktechpost.com/2026/08/24/google-research-introduces-me-pois-a-mobility-informed-framework-that-adds-how-a-place-is-used-to-text-based-poi-embeddings/",
       "publishedAt": "2026-08-24T13:56:59.000Z",
       "impact": 65
-    },
-    {
-      "id": "marktechpost-1787549203000-3",
-      "type": "live",
-      "category": "robotics",
-      "title": "Best GPU Neoclouds 2026: CoreWeave, Nebius, Lambda, Crusoe, and Groq Ranked by Published Pricing and Contracted Power",
-      "excerpt": "The five largest GPU neoclouds now run on very different models.  CoreWeave and Nebius report to the SEC; Lambda and Crusoe are private and heading toward IPOs; Groq rebuilt itself as an inference cloud after licensin...",
-      "source": "MarkTechPost",
-      "url": "https://www.marktechpost.com/2026/08/23/best-gpu-neoclouds-2026/",
-      "publishedAt": "2026-08-24T05:26:43.000Z",
-      "impact": 65
-    },
-    {
-      "id": "hugging-face-1787270400000-2",
-      "type": "live",
-      "category": "research",
-      "title": "How Hugging Face Inference Endpoints, Jobs, and Buckets Power Search on Papers with Code",
-      "excerpt": "New development from the frontier.",
-      "source": "Hugging Face",
-      "url": "https://huggingface.co/blog/pwc-search",
-      "publishedAt": "2026-08-21T00:00:00.000Z",
-      "impact": 75
     }
   ]
 }

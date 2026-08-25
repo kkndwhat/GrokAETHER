@@ -1,8 +1,96 @@
 {
-  "lastUpdated": "2026-08-25T01:37:36.414Z",
+  "lastUpdated": "2026-08-25T06:56:32.715Z",
   "source": "AETHER + Public RSS (arXiv, Hugging Face, MarkTechPost, Ben's Bites)",
   "count": 16,
   "articles": [
+    {
+      "id": "arxiv-cs.ai-1787630400000-0",
+      "type": "live",
+      "category": "llm",
+      "title": "KVBoost: Chunk-Level Key-Value Cache Reuse with Deviation-Guided Recomputation for Efficient Large Language Model Inference",
+      "excerpt": "21362v1 Announce Type: new Abstract: Transformer-based large language models (LLMs) incur high prefill latency because key-value (KV) tensors must be recomputed for each request.  Existing prefix-caching systems reduc...",
+      "source": "arXiv cs.AI",
+      "url": "https://arxiv.org/abs/2608.21362",
+      "publishedAt": "2026-08-25T04:00:00.000Z",
+      "impact": 58
+    },
+    {
+      "id": "arxiv-cs.ai-1787630400000-1",
+      "type": "live",
+      "category": "safety",
+      "title": "AIREP: A Protocol for Per-Decision Evidence in AI Runtime Governance",
+      "excerpt": "21363v1 Announce Type: new Abstract: A protocol is presented for recording the governance decisions of automated AI runtimes.  When a runtime releases, blocks, defers, redacts, or escalates an individual output, AIREP...",
+      "source": "arXiv cs.AI",
+      "url": "https://arxiv.org/abs/2608.21363",
+      "publishedAt": "2026-08-25T04:00:00.000Z",
+      "impact": 58
+    },
+    {
+      "id": "arxiv-cs.ai-1787630400000-2",
+      "type": "live",
+      "category": "llm",
+      "title": "Reviewing Model Collapse and Countermeasures",
+      "excerpt": "21366v1 Announce Type: new Abstract: Driven by massive amounts of web-scale data, generative AI (GenAI) has achieved remarkable progress, enabling various applications in diverse sectors.  The advances of GenAI have a...",
+      "source": "arXiv cs.AI",
+      "url": "https://arxiv.org/abs/2608.21366",
+      "publishedAt": "2026-08-25T04:00:00.000Z",
+      "impact": 58
+    },
+    {
+      "id": "arxiv-cs.ai-1787630400000-3",
+      "type": "live",
+      "category": "research",
+      "title": "AI Learning and Conceptual Transfer in the Game of Hidden Rules",
+      "excerpt": "21372v1 Announce Type: new Abstract: This report summarizes the work conducted on the Game of Hidden Rules (GOHR), focusing on reinforcement learning agents trained to infer hidden rules from trial-and-error feedback,...",
+      "source": "arXiv cs.AI",
+      "url": "https://arxiv.org/abs/2608.21372",
+      "publishedAt": "2026-08-25T04:00:00.000Z",
+      "impact": 58
+    },
+    {
+      "id": "arxiv-cs.ai-1787630400000-4",
+      "type": "live",
+      "category": "safety",
+      "title": "LitReview Arena: Evaluating Literature Review Agents with Battle-Style Peer Review Platform",
+      "excerpt": "21374v1 Announce Type: new Abstract: Literature reviews are essential to scientific progress, but rigorously evaluating automatically generated reviews remains difficult because many aspects of research utility depend...",
+      "source": "arXiv cs.AI",
+      "url": "https://arxiv.org/abs/2608.21374",
+      "publishedAt": "2026-08-25T04:00:00.000Z",
+      "impact": 69
+    },
+    {
+      "id": "arxiv-cs.ai-1787630400000-5",
+      "type": "live",
+      "category": "llm",
+      "title": "SchemaRouter: Field-Aware Tool Routing for Efficient Heterogeneous Agentic RAG",
+      "excerpt": "21375v1 Announce Type: new Abstract: Heterogeneous agentic retrieval-augmented generation (RAG) systems increasingly orchestrate external APIs, internal databases, vector stores, and graph stores.  Exposing all tool d...",
+      "source": "arXiv cs.AI",
+      "url": "https://arxiv.org/abs/2608.21375",
+      "publishedAt": "2026-08-25T04:00:00.000Z",
+      "impact": 69
+    },
+    {
+      "id": "aether-grok43",
+      "type": "premium",
+      "category": "llm",
+      "title": "xAI releases Grok-4.3 with native long-horizon agent scaffolding",
+      "excerpt": "New model demonstrates 4.2× improvement on multi-step software engineering benchmarks and sustains coherent agent trajectories beyond 110k tokens.",
+      "source": "xAI",
+      "url": "https://x.ai/blog/grok-4.3",
+      "publishedAt": "2026-08-25T01:56:31.700Z",
+      "impact": 96
+    },
+    {
+      "id": "hugging-face-1787616000000-0",
+      "type": "live",
+      "category": "research",
+      "title": "Wire It, Run It, Deploy It: AI Workflows in Gradio",
+      "excerpt": "New development from the frontier.",
+      "source": "Hugging Face",
+      "url": "https://huggingface.co/blog/gradio-workflow-guide",
+      "publishedAt": "2026-08-25T00:00:00.000Z",
+      "impact": 75
+    },
     {
       "id": "marktechpost-1787610082000-0",
       "type": "live",
@@ -15,17 +103,6 @@
       "impact": 65
     },
     {
-      "id": "aether-grok43",
-      "type": "premium",
-      "category": "llm",
-      "title": "xAI releases Grok-4.3 with native long-horizon agent scaffolding",
-      "excerpt": "New model demonstrates 4.2× improvement on multi-step software engineering benchmarks and sustains coherent agent trajectories beyond 110k tokens.",
-      "source": "xAI",
-      "url": "https://x.ai/blog/grok-4.3",
-      "publishedAt": "2026-08-24T20:37:35.533Z",
-      "impact": 96
-    },
-    {
       "id": "aether-figure03",
       "type": "premium",
       "category": "robotics",
@@ -33,8 +110,19 @@
       "excerpt": "Humanoid achieves new milestone in unsupervised operation, performing 1,240 unique tasks across three assembly lines at the BMW South Carolina plant.",
       "source": "Figure AI",
       "url": "https://figure.ai/news/03-milestone",
-      "publishedAt": "2026-08-24T16:37:35.533Z",
+      "publishedAt": "2026-08-24T21:56:31.701Z",
       "impact": 89
+    },
+    {
+      "id": "aether-interp",
+      "type": "premium",
+      "category": "safety",
+      "title": "Anthropic publishes unprecedented mechanistic interpretability map of Claude 4",
+      "excerpt": "Researchers reverse-engineered 312 million features inside the model, including the first clear \"deception circuit\" discovered in a frontier model.",
+      "source": "Anthropic",
+      "url": "https://anthropic.com/research/claude-4-interp",
+      "publishedAt": "2026-08-24T16:56:31.701Z",
+      "impact": 91
     },
     {
       "id": "marktechpost-1787581021000-1",
@@ -59,17 +147,6 @@
       "impact": 65
     },
     {
-      "id": "aether-interp",
-      "type": "premium",
-      "category": "safety",
-      "title": "Anthropic publishes unprecedented mechanistic interpretability map of Claude 4",
-      "excerpt": "Researchers reverse-engineered 312 million features inside the model, including the first clear \"deception circuit\" discovered in a frontier model.",
-      "source": "Anthropic",
-      "url": "https://anthropic.com/research/claude-4-interp",
-      "publishedAt": "2026-08-24T11:37:35.533Z",
-      "impact": 91
-    },
-    {
       "id": "marktechpost-1787549203000-3",
       "type": "live",
       "category": "robotics",
@@ -81,73 +158,7 @@
       "impact": 65
     },
     {
-      "id": "arxiv-cs.ai-1787544000000-0",
-      "type": "live",
-      "category": "llm",
-      "title": "SDAD: Spec-Driven Agentic Development for the AI-Native SDLC",
-      "excerpt": "20341v1 Announce Type: new Abstract: Frontier coding agents backed by large language models with context windows from hundreds of thousands to millions of tokens are restructuring the Software Development Life Cycle (...",
-      "source": "arXiv cs.AI",
-      "url": "https://arxiv.org/abs/2608.20341",
-      "publishedAt": "2026-08-24T04:00:00.000Z",
-      "impact": 69
-    },
-    {
-      "id": "arxiv-cs.ai-1787544000000-1",
-      "type": "live",
-      "category": "llm",
-      "title": "PrimeAgentOrchestrator: Memory-Primed Agent Spawning for Personal AI Infrastructure",
-      "excerpt": "20342v1 Announce Type: new Abstract: Large language model (LLM) coding agents start each session with an empty context window, discarding accumulated knowledge from prior work.  We present PrimeAgentOrchestrator (PAO)...",
-      "source": "arXiv cs.AI",
-      "url": "https://arxiv.org/abs/2608.20342",
-      "publishedAt": "2026-08-24T04:00:00.000Z",
-      "impact": 69
-    },
-    {
-      "id": "arxiv-cs.ai-1787544000000-2",
-      "type": "live",
-      "category": "safety",
-      "title": "Truth Lies Deep: Countering Semantic Camouflage via Latent Intent Verification",
-      "excerpt": "20378v1 Announce Type: new Abstract: Safety alignment in Large Language Models (LLMs) is often superficial, relying on refusal mechanisms that trigger only at the final stages of generation without erasing the foundat...",
-      "source": "arXiv cs.AI",
-      "url": "https://arxiv.org/abs/2608.20378",
-      "publishedAt": "2026-08-24T04:00:00.000Z",
-      "impact": 58
-    },
-    {
-      "id": "arxiv-cs.ai-1787544000000-3",
-      "type": "live",
-      "category": "robotics",
-      "title": "A Survey on Foundations and Frontiers of Multimodal Agentic Frameworks: Techniques and Applications",
-      "excerpt": "20379v1 Announce Type: new Abstract: Advances in large language models (LLMs) have fueled a wave of research into agency: the ability to reason, plan, and act.  This effort has produced agentic frameworks that orchest...",
-      "source": "arXiv cs.AI",
-      "url": "https://arxiv.org/abs/2608.20379",
-      "publishedAt": "2026-08-24T04:00:00.000Z",
-      "impact": 87
-    },
-    {
-      "id": "arxiv-cs.ai-1787544000000-4",
-      "type": "live",
-      "category": "safety",
-      "title": "Interpretable Multimodal Classification with Linear Discriminant Tree Ensembles",
-      "excerpt": "20384v1 Announce Type: new Abstract: Multimodal affect and behaviour classifiers that fuse heterogeneous text, audio, and visual streams must simultaneously achieve competitive accuracy and produce human-understandabl...",
-      "source": "arXiv cs.AI",
-      "url": "https://arxiv.org/abs/2608.20384",
-      "publishedAt": "2026-08-24T04:00:00.000Z",
-      "impact": 58
-    },
-    {
-      "id": "arxiv-cs.ai-1787544000000-5",
-      "type": "live",
-      "category": "multimodal",
-      "title": "Representation Affects Retrieval: A Case Study of Skill Discovery and Routing in a Multimodal Agent Harness",
-      "excerpt": "20389v1 Announce Type: new Abstract: A production agent harness must discover and rank, from a growing library of skills, the one most appropriate for a user's task.  At small scale this selection happens in context: ...",
-      "source": "arXiv cs.AI",
-      "url": "https://arxiv.org/abs/2608.20389",
-      "publishedAt": "2026-08-24T04:00:00.000Z",
-      "impact": 69
-    },
-    {
-      "id": "hugging-face-1787270400000-0",
+      "id": "hugging-face-1787270400000-1",
       "type": "live",
       "category": "research",
       "title": "Measuring benchmark optimization in speech recognition",
@@ -158,7 +169,7 @@
       "impact": 75
     },
     {
-      "id": "hugging-face-1787244777000-1",
+      "id": "hugging-face-1787244777000-2",
       "type": "live",
       "category": "research",
       "title": "Up to 3.2x Faster Inference with LFM2.5-DSpark",
@@ -167,17 +178,6 @@
       "url": "https://huggingface.co/blog/LiquidAI/lfm25-dspark",
       "publishedAt": "2026-08-20T16:52:57.000Z",
       "impact": 75
-    },
-    {
-      "id": "hugging-face-1787076578000-2",
-      "type": "live",
-      "category": "research",
-      "title": "How Much Memory Does Your Agent Actually Need?",
-      "excerpt": "New development from the frontier.",
-      "source": "Hugging Face",
-      "url": "https://huggingface.co/blog/ibm-research/altk-evolve-hmm",
-      "publishedAt": "2026-08-18T18:09:38.000Z",
-      "impact": 87
     }
   ]
 }

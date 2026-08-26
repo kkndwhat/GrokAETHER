@@ -1,10 +1,98 @@
 {
-  "lastUpdated": "2026-08-26T01:42:04.361Z",
+  "lastUpdated": "2026-08-26T06:57:37.945Z",
   "source": "AETHER + Public RSS (arXiv, Hugging Face, MarkTechPost, Ben's Bites)",
   "count": 16,
   "articles": [
     {
-      "id": "marktechpost-1787701688000-0",
+      "id": "marktechpost-1787723290000-0",
+      "type": "live",
+      "category": "llm",
+      "title": "IBM Releases Granite 4.2: Bringing Native Reasoning and Agentic RL to Open Enterprise Models",
+      "excerpt": "IBM has released Granite 4. 2, a family of open reasoning language models in 3B, 8B, and 30B sizes, all under Apache 2",
+      "source": "MarkTechPost",
+      "url": "https://www.marktechpost.com/2026/08/25/ibm-releases-granite-4-2-bringing-native-reasoning-and-agentic-rl-to-open-enterprise-models/",
+      "publishedAt": "2026-08-26T05:48:10.000Z",
+      "impact": 77
+    },
+    {
+      "id": "arxiv-cs.ai-1787716800000-0",
+      "type": "live",
+      "category": "llm",
+      "title": "RENDER: Controlling Reader-Facing Evidence in LLM Memory Evaluation",
+      "excerpt": "23568v1 Announce Type: new Abstract: Memory and RAG evaluations often treat the answering model's input as an implementation detail, even though systems may render the same history as a memory entry, summary, typed re...",
+      "source": "arXiv cs.AI",
+      "url": "https://arxiv.org/abs/2608.23568",
+      "publishedAt": "2026-08-26T04:00:00.000Z",
+      "impact": 58
+    },
+    {
+      "id": "arxiv-cs.ai-1787716800000-1",
+      "type": "live",
+      "category": "llm",
+      "title": "ESQ-Bench: A Multi-Tier Enterprise Oracle Benchmark for Evaluating NL2SQL Dialect Generalization and Silent Semantic Divergence",
+      "excerpt": "23569v1 Announce Type: new Abstract: State-of-the-art Natural Language to SQL (NL2SQL) models report execution accuracy exceeding 89 percent on established benchmarks such as Spider and BIRD.  However, these benchmark...",
+      "source": "arXiv cs.AI",
+      "url": "https://arxiv.org/abs/2608.23569",
+      "publishedAt": "2026-08-26T04:00:00.000Z",
+      "impact": 58
+    },
+    {
+      "id": "arxiv-cs.ai-1787716800000-2",
+      "type": "live",
+      "category": "safety",
+      "title": "LLM Agents Perform Controlled Experiments Using Simulation Models",
+      "excerpt": "23622v1 Announce Type: new Abstract: Large language models (LLMs) have shown strong capabilities in reasoning, planning, and tool use, but many scientific and engineering tasks require more than plausible text and cod...",
+      "source": "arXiv cs.AI",
+      "url": "https://arxiv.org/abs/2608.23622",
+      "publishedAt": "2026-08-26T04:00:00.000Z",
+      "impact": 69
+    },
+    {
+      "id": "arxiv-cs.ai-1787716800000-3",
+      "type": "live",
+      "category": "multimodal",
+      "title": "A survey detection channel overrides the pixels in an astronomical foundation model, and biases tomographic mean redshifts",
+      "excerpt": "23626v1 Announce Type: new Abstract: Foundation models for astronomy are trained on survey pixels together with the catalogue products derived from those pixels.  Those catalogues are incomplete at a measurable rate, ...",
+      "source": "arXiv cs.AI",
+      "url": "https://arxiv.org/abs/2608.23626",
+      "publishedAt": "2026-08-26T04:00:00.000Z",
+      "impact": 58
+    },
+    {
+      "id": "arxiv-cs.ai-1787716800000-4",
+      "type": "live",
+      "category": "llm",
+      "title": "TRACE: Transition-Aware Residual Control for Multi-Objective Materials Discovery",
+      "excerpt": "23631v1 Announce Type: new Abstract: Multi-objective materials discovery with LLM agents is often limited not only by how many candidates can be proposed, but by how effectively each costly property evaluation informs...",
+      "source": "arXiv cs.AI",
+      "url": "https://arxiv.org/abs/2608.23631",
+      "publishedAt": "2026-08-26T04:00:00.000Z",
+      "impact": 58
+    },
+    {
+      "id": "arxiv-cs.ai-1787716800000-5",
+      "type": "live",
+      "category": "multimodal",
+      "title": "Function-Level Execution Feedback for Code Preference Optimization",
+      "excerpt": "23632v1 Announce Type: new Abstract: Process supervision has improved mathematical reasoning, where intermediate steps are naturally expressed as chains of thought.  In code generation, however, process supervision re...",
+      "source": "arXiv cs.AI",
+      "url": "https://arxiv.org/abs/2608.23632",
+      "publishedAt": "2026-08-26T04:00:00.000Z",
+      "impact": 58
+    },
+    {
+      "id": "aether-grok43",
+      "type": "premium",
+      "category": "llm",
+      "title": "xAI releases Grok-4.3 with native long-horizon agent scaffolding",
+      "excerpt": "New model demonstrates 4.2× improvement on multi-step software engineering benchmarks and sustains coherent agent trajectories beyond 110k tokens.",
+      "source": "xAI",
+      "url": "https://x.ai/blog/grok-4.3",
+      "publishedAt": "2026-08-26T01:57:36.585Z",
+      "impact": 96
+    },
+    {
+      "id": "marktechpost-1787701688000-1",
       "type": "live",
       "category": "hardware",
       "title": "Liquid AI Open-Sources Pipette: A Reproducible Benchmarking Suite That Measures On-Device Models, Quantization, Runtime and Hardware Together",
@@ -15,18 +103,18 @@
       "impact": 65
     },
     {
-      "id": "aether-grok43",
+      "id": "aether-figure03",
       "type": "premium",
-      "category": "llm",
-      "title": "xAI releases Grok-4.3 with native long-horizon agent scaffolding",
-      "excerpt": "New model demonstrates 4.2× improvement on multi-step software engineering benchmarks and sustains coherent agent trajectories beyond 110k tokens.",
-      "source": "xAI",
-      "url": "https://x.ai/blog/grok-4.3",
-      "publishedAt": "2026-08-25T20:42:03.599Z",
-      "impact": 96
+      "category": "robotics",
+      "title": "Figure 03 completes 43-hour autonomous factory shift with zero interventions",
+      "excerpt": "Humanoid achieves new milestone in unsupervised operation, performing 1,240 unique tasks across three assembly lines at the BMW South Carolina plant.",
+      "source": "Figure AI",
+      "url": "https://figure.ai/news/03-milestone",
+      "publishedAt": "2026-08-25T21:57:36.585Z",
+      "impact": 89
     },
     {
-      "id": "marktechpost-1787685139000-1",
+      "id": "marktechpost-1787685139000-2",
       "type": "live",
       "category": "llm",
       "title": "Perplexity Ships Portable Computer on NVIDIA DGX Spark: Local Harness, OS-Enforced Sandbox, and Zero Per-Token Cost for Local Steps",
@@ -37,7 +125,7 @@
       "impact": 65
     },
     {
-      "id": "marktechpost-1787678736000-2",
+      "id": "marktechpost-1787678736000-3",
       "type": "live",
       "category": "llm",
       "title": "Meta AI Introduces MetaRoCE: A Clean-Sheet RDMA Transport Built for AI-Scale Ethernet",
@@ -48,15 +136,15 @@
       "impact": 65
     },
     {
-      "id": "aether-figure03",
+      "id": "aether-interp",
       "type": "premium",
-      "category": "robotics",
-      "title": "Figure 03 completes 43-hour autonomous factory shift with zero interventions",
-      "excerpt": "Humanoid achieves new milestone in unsupervised operation, performing 1,240 unique tasks across three assembly lines at the BMW South Carolina plant.",
-      "source": "Figure AI",
-      "url": "https://figure.ai/news/03-milestone",
-      "publishedAt": "2026-08-25T16:42:03.600Z",
-      "impact": 89
+      "category": "safety",
+      "title": "Anthropic publishes unprecedented mechanistic interpretability map of Claude 4",
+      "excerpt": "Researchers reverse-engineered 312 million features inside the model, including the first clear \"deception circuit\" discovered in a frontier model.",
+      "source": "Anthropic",
+      "url": "https://anthropic.com/research/claude-4-interp",
+      "publishedAt": "2026-08-25T16:57:36.585Z",
+      "impact": 91
     },
     {
       "id": "hugging-face-1787670854000-0",
@@ -70,17 +158,6 @@
       "impact": 75
     },
     {
-      "id": "aether-interp",
-      "type": "premium",
-      "category": "safety",
-      "title": "Anthropic publishes unprecedented mechanistic interpretability map of Claude 4",
-      "excerpt": "Researchers reverse-engineered 312 million features inside the model, including the first clear \"deception circuit\" discovered in a frontier model.",
-      "source": "Anthropic",
-      "url": "https://anthropic.com/research/claude-4-interp",
-      "publishedAt": "2026-08-25T11:42:03.600Z",
-      "impact": 91
-    },
-    {
       "id": "hugging-face-1787657964000-1",
       "type": "live",
       "category": "llm",
@@ -92,72 +169,6 @@
       "impact": 75
     },
     {
-      "id": "arxiv-cs.ai-1787630400000-0",
-      "type": "live",
-      "category": "llm",
-      "title": "KVBoost: Chunk-Level Key-Value Cache Reuse with Deviation-Guided Recomputation for Efficient Large Language Model Inference",
-      "excerpt": "21362v1 Announce Type: new Abstract: Transformer-based large language models (LLMs) incur high prefill latency because key-value (KV) tensors must be recomputed for each request.  Existing prefix-caching systems reduc...",
-      "source": "arXiv cs.AI",
-      "url": "https://arxiv.org/abs/2608.21362",
-      "publishedAt": "2026-08-25T04:00:00.000Z",
-      "impact": 58
-    },
-    {
-      "id": "arxiv-cs.ai-1787630400000-1",
-      "type": "live",
-      "category": "safety",
-      "title": "AIREP: A Protocol for Per-Decision Evidence in AI Runtime Governance",
-      "excerpt": "21363v1 Announce Type: new Abstract: A protocol is presented for recording the governance decisions of automated AI runtimes.  When a runtime releases, blocks, defers, redacts, or escalates an individual output, AIREP...",
-      "source": "arXiv cs.AI",
-      "url": "https://arxiv.org/abs/2608.21363",
-      "publishedAt": "2026-08-25T04:00:00.000Z",
-      "impact": 58
-    },
-    {
-      "id": "arxiv-cs.ai-1787630400000-2",
-      "type": "live",
-      "category": "llm",
-      "title": "Reviewing Model Collapse and Countermeasures",
-      "excerpt": "21366v1 Announce Type: new Abstract: Driven by massive amounts of web-scale data, generative AI (GenAI) has achieved remarkable progress, enabling various applications in diverse sectors.  The advances of GenAI have a...",
-      "source": "arXiv cs.AI",
-      "url": "https://arxiv.org/abs/2608.21366",
-      "publishedAt": "2026-08-25T04:00:00.000Z",
-      "impact": 58
-    },
-    {
-      "id": "arxiv-cs.ai-1787630400000-3",
-      "type": "live",
-      "category": "research",
-      "title": "AI Learning and Conceptual Transfer in the Game of Hidden Rules",
-      "excerpt": "21372v1 Announce Type: new Abstract: This report summarizes the work conducted on the Game of Hidden Rules (GOHR), focusing on reinforcement learning agents trained to infer hidden rules from trial-and-error feedback,...",
-      "source": "arXiv cs.AI",
-      "url": "https://arxiv.org/abs/2608.21372",
-      "publishedAt": "2026-08-25T04:00:00.000Z",
-      "impact": 58
-    },
-    {
-      "id": "arxiv-cs.ai-1787630400000-4",
-      "type": "live",
-      "category": "safety",
-      "title": "LitReview Arena: Evaluating Literature Review Agents with Battle-Style Peer Review Platform",
-      "excerpt": "21374v1 Announce Type: new Abstract: Literature reviews are essential to scientific progress, but rigorously evaluating automatically generated reviews remains difficult because many aspects of research utility depend...",
-      "source": "arXiv cs.AI",
-      "url": "https://arxiv.org/abs/2608.21374",
-      "publishedAt": "2026-08-25T04:00:00.000Z",
-      "impact": 69
-    },
-    {
-      "id": "arxiv-cs.ai-1787630400000-5",
-      "type": "live",
-      "category": "llm",
-      "title": "SchemaRouter: Field-Aware Tool Routing for Efficient Heterogeneous Agentic RAG",
-      "excerpt": "21375v1 Announce Type: new Abstract: Heterogeneous agentic retrieval-augmented generation (RAG) systems increasingly orchestrate external APIs, internal databases, vector stores, and graph stores.  Exposing all tool d...",
-      "source": "arXiv cs.AI",
-      "url": "https://arxiv.org/abs/2608.21375",
-      "publishedAt": "2026-08-25T04:00:00.000Z",
-      "impact": 69
-    },
-    {
       "id": "hugging-face-1787616000000-2",
       "type": "live",
       "category": "research",
@@ -167,17 +178,6 @@
       "url": "https://huggingface.co/blog/gradio-workflow-guide",
       "publishedAt": "2026-08-25T00:00:00.000Z",
       "impact": 75
-    },
-    {
-      "id": "marktechpost-1787610082000-3",
-      "type": "live",
-      "category": "research",
-      "title": "Fastino Releases GLiNER2.5: A Boundary-Prediction Architecture That Removes Span Enumeration From Information Extraction",
-      "excerpt": "Fastino released GLiNER2. 5, replacing span enumeration with boundary prediction so entity width no longer costs compute",
-      "source": "MarkTechPost",
-      "url": "https://www.marktechpost.com/2026/08/24/fastino-releases-gliner2-5-a-boundary-prediction-architecture-that-removes-span-enumeration-from-information-extraction/",
-      "publishedAt": "2026-08-24T22:21:22.000Z",
-      "impact": 65
     }
   ]
 }

@@ -1,18 +1,29 @@
 {
-  "lastUpdated": "2026-08-26T06:57:37.945Z",
+  "lastUpdated": "2026-08-26T13:02:32.149Z",
   "source": "AETHER + Public RSS (arXiv, Hugging Face, MarkTechPost, Ben's Bites)",
-  "count": 16,
+  "count": 12,
   "articles": [
     {
-      "id": "marktechpost-1787723290000-0",
-      "type": "live",
+      "id": "aether-grok43",
+      "type": "premium",
       "category": "llm",
-      "title": "IBM Releases Granite 4.2: Bringing Native Reasoning and Agentic RL to Open Enterprise Models",
-      "excerpt": "IBM has released Granite 4. 2, a family of open reasoning language models in 3B, 8B, and 30B sizes, all under Apache 2",
-      "source": "MarkTechPost",
-      "url": "https://www.marktechpost.com/2026/08/25/ibm-releases-granite-4-2-bringing-native-reasoning-and-agentic-rl-to-open-enterprise-models/",
-      "publishedAt": "2026-08-26T05:48:10.000Z",
-      "impact": 77
+      "title": "xAI releases Grok-4.3 with native long-horizon agent scaffolding",
+      "excerpt": "New model demonstrates 4.2× improvement on multi-step software engineering benchmarks and sustains coherent agent trajectories beyond 110k tokens.",
+      "source": "xAI",
+      "url": "https://x.ai/blog/grok-4.3",
+      "publishedAt": "2026-08-26T08:02:31.906Z",
+      "impact": 96
+    },
+    {
+      "id": "aether-figure03",
+      "type": "premium",
+      "category": "robotics",
+      "title": "Figure 03 completes 43-hour autonomous factory shift with zero interventions",
+      "excerpt": "Humanoid achieves new milestone in unsupervised operation, performing 1,240 unique tasks across three assembly lines at the BMW South Carolina plant.",
+      "source": "Figure AI",
+      "url": "https://figure.ai/news/03-milestone",
+      "publishedAt": "2026-08-26T04:02:31.906Z",
+      "impact": 89
     },
     {
       "id": "arxiv-cs.ai-1787716800000-0",
@@ -81,61 +92,6 @@
       "impact": 58
     },
     {
-      "id": "aether-grok43",
-      "type": "premium",
-      "category": "llm",
-      "title": "xAI releases Grok-4.3 with native long-horizon agent scaffolding",
-      "excerpt": "New model demonstrates 4.2× improvement on multi-step software engineering benchmarks and sustains coherent agent trajectories beyond 110k tokens.",
-      "source": "xAI",
-      "url": "https://x.ai/blog/grok-4.3",
-      "publishedAt": "2026-08-26T01:57:36.585Z",
-      "impact": 96
-    },
-    {
-      "id": "marktechpost-1787701688000-1",
-      "type": "live",
-      "category": "hardware",
-      "title": "Liquid AI Open-Sources Pipette: A Reproducible Benchmarking Suite That Measures On-Device Models, Quantization, Runtime and Hardware Together",
-      "excerpt": "Model cards report quality under server-class, full-precision conditions.  Those numbers rarely predict how the same model behaves on a phone",
-      "source": "MarkTechPost",
-      "url": "https://www.marktechpost.com/2026/08/25/liquid-ai-open-sources-pipette-a-reproducible-benchmarking-suite-that-measures-on-device-models-quantization-runtime-and-hardware-together/",
-      "publishedAt": "2026-08-25T23:48:08.000Z",
-      "impact": 65
-    },
-    {
-      "id": "aether-figure03",
-      "type": "premium",
-      "category": "robotics",
-      "title": "Figure 03 completes 43-hour autonomous factory shift with zero interventions",
-      "excerpt": "Humanoid achieves new milestone in unsupervised operation, performing 1,240 unique tasks across three assembly lines at the BMW South Carolina plant.",
-      "source": "Figure AI",
-      "url": "https://figure.ai/news/03-milestone",
-      "publishedAt": "2026-08-25T21:57:36.585Z",
-      "impact": 89
-    },
-    {
-      "id": "marktechpost-1787685139000-2",
-      "type": "live",
-      "category": "llm",
-      "title": "Perplexity Ships Portable Computer on NVIDIA DGX Spark: Local Harness, OS-Enforced Sandbox, and Zero Per-Token Cost for Local Steps",
-      "excerpt": "Perplexity releases Portable Computer, packaging local models, harness, sandbox, and connectors into one system running on NVIDIA DGX Spark.  The post Perplexity Ships Portable Computer on NVIDIA DGX Spark: Local Harn...",
-      "source": "MarkTechPost",
-      "url": "https://www.marktechpost.com/2026/08/25/perplexity-ships-portable-computer-on-nvidia-dgx-spark-local-harness-os-enforced-sandbox-and-zero-per-token-cost-for-local-steps/",
-      "publishedAt": "2026-08-25T19:12:19.000Z",
-      "impact": 65
-    },
-    {
-      "id": "marktechpost-1787678736000-3",
-      "type": "live",
-      "category": "llm",
-      "title": "Meta AI Introduces MetaRoCE: A Clean-Sheet RDMA Transport Built for AI-Scale Ethernet",
-      "excerpt": "Training and serving frontier models is now a networking problem as much as a compute problem.  Collective operations like all-reduce and all-to-all synchronize thousands of accelerators during training, and the slowe...",
-      "source": "MarkTechPost",
-      "url": "https://www.marktechpost.com/2026/08/25/meta-ai-introduces-metaroce-a-clean-sheet-rdma-transport-built-for-ai-scale-ethernet/",
-      "publishedAt": "2026-08-25T17:25:36.000Z",
-      "impact": 65
-    },
-    {
       "id": "aether-interp",
       "type": "premium",
       "category": "safety",
@@ -143,7 +99,7 @@
       "excerpt": "Researchers reverse-engineered 312 million features inside the model, including the first clear \"deception circuit\" discovered in a frontier model.",
       "source": "Anthropic",
       "url": "https://anthropic.com/research/claude-4-interp",
-      "publishedAt": "2026-08-25T16:57:36.585Z",
+      "publishedAt": "2026-08-25T23:02:31.906Z",
       "impact": 91
     },
     {

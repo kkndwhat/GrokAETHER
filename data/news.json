@@ -1,8 +1,74 @@
 {
-  "lastUpdated": "2026-08-26T13:02:32.149Z",
+  "lastUpdated": "2026-08-27T08:39:04.445Z",
   "source": "AETHER + Public RSS (arXiv, Hugging Face, MarkTechPost, Ben's Bites)",
   "count": 12,
   "articles": [
+    {
+      "id": "arxiv-cs.ai-1787803200000-0",
+      "type": "live",
+      "category": "llm",
+      "title": "RENDER: Controlling Reader-Facing Evidence in LLM Memory Evaluation",
+      "excerpt": "23568v1 Announce Type: new Abstract: Memory and RAG evaluations often treat the answering model's input as an implementation detail, even though systems may render the same history as a memory entry, summary, typed re...",
+      "source": "arXiv cs.AI",
+      "url": "https://arxiv.org/abs/2608.23568",
+      "publishedAt": "2026-08-27T04:00:00.000Z",
+      "impact": 58
+    },
+    {
+      "id": "arxiv-cs.ai-1787803200000-1",
+      "type": "live",
+      "category": "llm",
+      "title": "ESQ-Bench: A Multi-Tier Enterprise Oracle Benchmark for Evaluating NL2SQL Dialect Generalization and Silent Semantic Divergence",
+      "excerpt": "23569v1 Announce Type: new Abstract: State-of-the-art Natural Language to SQL (NL2SQL) models report execution accuracy exceeding 89 percent on established benchmarks such as Spider and BIRD.  However, these benchmark...",
+      "source": "arXiv cs.AI",
+      "url": "https://arxiv.org/abs/2608.23569",
+      "publishedAt": "2026-08-27T04:00:00.000Z",
+      "impact": 58
+    },
+    {
+      "id": "arxiv-cs.ai-1787803200000-2",
+      "type": "live",
+      "category": "safety",
+      "title": "LLM Agents Perform Controlled Experiments Using Simulation Models",
+      "excerpt": "23622v1 Announce Type: new Abstract: Large language models (LLMs) have shown strong capabilities in reasoning, planning, and tool use, but many scientific and engineering tasks require more than plausible text and cod...",
+      "source": "arXiv cs.AI",
+      "url": "https://arxiv.org/abs/2608.23622",
+      "publishedAt": "2026-08-27T04:00:00.000Z",
+      "impact": 69
+    },
+    {
+      "id": "arxiv-cs.ai-1787803200000-3",
+      "type": "live",
+      "category": "multimodal",
+      "title": "A survey detection channel overrides the pixels in an astronomical foundation model, and biases tomographic mean redshifts",
+      "excerpt": "23626v1 Announce Type: new Abstract: Foundation models for astronomy are trained on survey pixels together with the catalogue products derived from those pixels.  Those catalogues are incomplete at a measurable rate, ...",
+      "source": "arXiv cs.AI",
+      "url": "https://arxiv.org/abs/2608.23626",
+      "publishedAt": "2026-08-27T04:00:00.000Z",
+      "impact": 58
+    },
+    {
+      "id": "arxiv-cs.ai-1787803200000-4",
+      "type": "live",
+      "category": "llm",
+      "title": "TRACE: Transition-Aware Residual Control for Multi-Objective Materials Discovery",
+      "excerpt": "23631v1 Announce Type: new Abstract: Multi-objective materials discovery with LLM agents is often limited not only by how many candidates can be proposed, but by how effectively each costly property evaluation informs...",
+      "source": "arXiv cs.AI",
+      "url": "https://arxiv.org/abs/2608.23631",
+      "publishedAt": "2026-08-27T04:00:00.000Z",
+      "impact": 58
+    },
+    {
+      "id": "arxiv-cs.ai-1787803200000-5",
+      "type": "live",
+      "category": "multimodal",
+      "title": "Function-Level Execution Feedback for Code Preference Optimization",
+      "excerpt": "23632v1 Announce Type: new Abstract: Process supervision has improved mathematical reasoning, where intermediate steps are naturally expressed as chains of thought.  In code generation, however, process supervision re...",
+      "source": "arXiv cs.AI",
+      "url": "https://arxiv.org/abs/2608.23632",
+      "publishedAt": "2026-08-27T04:00:00.000Z",
+      "impact": 58
+    },
     {
       "id": "aether-grok43",
       "type": "premium",
@@ -11,7 +77,7 @@
       "excerpt": "New model demonstrates 4.2× improvement on multi-step software engineering benchmarks and sustains coherent agent trajectories beyond 110k tokens.",
       "source": "xAI",
       "url": "https://x.ai/blog/grok-4.3",
-      "publishedAt": "2026-08-26T08:02:31.906Z",
+      "publishedAt": "2026-08-27T03:39:03.981Z",
       "impact": 96
     },
     {
@@ -22,74 +88,8 @@
       "excerpt": "Humanoid achieves new milestone in unsupervised operation, performing 1,240 unique tasks across three assembly lines at the BMW South Carolina plant.",
       "source": "Figure AI",
       "url": "https://figure.ai/news/03-milestone",
-      "publishedAt": "2026-08-26T04:02:31.906Z",
+      "publishedAt": "2026-08-26T23:39:03.981Z",
       "impact": 89
-    },
-    {
-      "id": "arxiv-cs.ai-1787716800000-0",
-      "type": "live",
-      "category": "llm",
-      "title": "RENDER: Controlling Reader-Facing Evidence in LLM Memory Evaluation",
-      "excerpt": "23568v1 Announce Type: new Abstract: Memory and RAG evaluations often treat the answering model's input as an implementation detail, even though systems may render the same history as a memory entry, summary, typed re...",
-      "source": "arXiv cs.AI",
-      "url": "https://arxiv.org/abs/2608.23568",
-      "publishedAt": "2026-08-26T04:00:00.000Z",
-      "impact": 58
-    },
-    {
-      "id": "arxiv-cs.ai-1787716800000-1",
-      "type": "live",
-      "category": "llm",
-      "title": "ESQ-Bench: A Multi-Tier Enterprise Oracle Benchmark for Evaluating NL2SQL Dialect Generalization and Silent Semantic Divergence",
-      "excerpt": "23569v1 Announce Type: new Abstract: State-of-the-art Natural Language to SQL (NL2SQL) models report execution accuracy exceeding 89 percent on established benchmarks such as Spider and BIRD.  However, these benchmark...",
-      "source": "arXiv cs.AI",
-      "url": "https://arxiv.org/abs/2608.23569",
-      "publishedAt": "2026-08-26T04:00:00.000Z",
-      "impact": 58
-    },
-    {
-      "id": "arxiv-cs.ai-1787716800000-2",
-      "type": "live",
-      "category": "safety",
-      "title": "LLM Agents Perform Controlled Experiments Using Simulation Models",
-      "excerpt": "23622v1 Announce Type: new Abstract: Large language models (LLMs) have shown strong capabilities in reasoning, planning, and tool use, but many scientific and engineering tasks require more than plausible text and cod...",
-      "source": "arXiv cs.AI",
-      "url": "https://arxiv.org/abs/2608.23622",
-      "publishedAt": "2026-08-26T04:00:00.000Z",
-      "impact": 69
-    },
-    {
-      "id": "arxiv-cs.ai-1787716800000-3",
-      "type": "live",
-      "category": "multimodal",
-      "title": "A survey detection channel overrides the pixels in an astronomical foundation model, and biases tomographic mean redshifts",
-      "excerpt": "23626v1 Announce Type: new Abstract: Foundation models for astronomy are trained on survey pixels together with the catalogue products derived from those pixels.  Those catalogues are incomplete at a measurable rate, ...",
-      "source": "arXiv cs.AI",
-      "url": "https://arxiv.org/abs/2608.23626",
-      "publishedAt": "2026-08-26T04:00:00.000Z",
-      "impact": 58
-    },
-    {
-      "id": "arxiv-cs.ai-1787716800000-4",
-      "type": "live",
-      "category": "llm",
-      "title": "TRACE: Transition-Aware Residual Control for Multi-Objective Materials Discovery",
-      "excerpt": "23631v1 Announce Type: new Abstract: Multi-objective materials discovery with LLM agents is often limited not only by how many candidates can be proposed, but by how effectively each costly property evaluation informs...",
-      "source": "arXiv cs.AI",
-      "url": "https://arxiv.org/abs/2608.23631",
-      "publishedAt": "2026-08-26T04:00:00.000Z",
-      "impact": 58
-    },
-    {
-      "id": "arxiv-cs.ai-1787716800000-5",
-      "type": "live",
-      "category": "multimodal",
-      "title": "Function-Level Execution Feedback for Code Preference Optimization",
-      "excerpt": "23632v1 Announce Type: new Abstract: Process supervision has improved mathematical reasoning, where intermediate steps are naturally expressed as chains of thought.  In code generation, however, process supervision re...",
-      "source": "arXiv cs.AI",
-      "url": "https://arxiv.org/abs/2608.23632",
-      "publishedAt": "2026-08-26T04:00:00.000Z",
-      "impact": 58
     },
     {
       "id": "aether-interp",
@@ -99,11 +99,22 @@
       "excerpt": "Researchers reverse-engineered 312 million features inside the model, including the first clear \"deception circuit\" discovered in a frontier model.",
       "source": "Anthropic",
       "url": "https://anthropic.com/research/claude-4-interp",
-      "publishedAt": "2026-08-25T23:02:31.906Z",
+      "publishedAt": "2026-08-26T18:39:03.981Z",
       "impact": 91
     },
     {
-      "id": "hugging-face-1787670854000-0",
+      "id": "hugging-face-1787702400000-0",
+      "type": "live",
+      "category": "llm",
+      "title": "Training and Finetuning Multi-Vector Embedding Models with Sentence Transformers",
+      "excerpt": "New development from the frontier.",
+      "source": "Hugging Face",
+      "url": "https://huggingface.co/blog/train-multi-vector-encoder",
+      "publishedAt": "2026-08-26T00:00:00.000Z",
+      "impact": 75
+    },
+    {
+      "id": "hugging-face-1787670854000-1",
       "type": "live",
       "category": "llm",
       "title": "Granite 4.2 LLMs: How They're Built",
@@ -114,7 +125,7 @@
       "impact": 75
     },
     {
-      "id": "hugging-face-1787657964000-1",
+      "id": "hugging-face-1787657964000-2",
       "type": "live",
       "category": "llm",
       "title": "Quantization-Aware Healing: a compressed, 4-bit model that outperforms its full-precision original",
@@ -122,17 +133,6 @@
       "source": "Hugging Face",
       "url": "https://huggingface.co/blog/MultiverseComputingCAI/quantization-aware-healing",
       "publishedAt": "2026-08-25T11:39:24.000Z",
-      "impact": 75
-    },
-    {
-      "id": "hugging-face-1787616000000-2",
-      "type": "live",
-      "category": "research",
-      "title": "Wire It, Run It, Deploy It: AI Workflows in Gradio",
-      "excerpt": "New development from the frontier.",
-      "source": "Hugging Face",
-      "url": "https://huggingface.co/blog/gradio-workflow-guide",
-      "publishedAt": "2026-08-25T00:00:00.000Z",
       "impact": 75
     }
   ]

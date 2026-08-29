@@ -1,8 +1,19 @@
 {
-  "lastUpdated": "2026-08-29T16:32:33.094Z",
+  "lastUpdated": "2026-08-29T20:46:04.928Z",
   "source": "AETHER + Public RSS (arXiv, Hugging Face, MarkTechPost, Ben's Bites)",
-  "count": 6,
+  "count": 10,
   "articles": [
+    {
+      "id": "marktechpost-1788029846000-0",
+      "type": "live",
+      "category": "llm",
+      "title": "Building Custom Batched Ensemble Weather Forecasting with NVIDIA Earth2Studio",
+      "excerpt": "In this tutorial, we build an ensemble weather forecasting workflow with NVIDIA Earth2Studio.  We install the required Earth2Studio components while preserving Colab’s existing CUDA-enabled PyTorch environment, load t...",
+      "source": "MarkTechPost",
+      "url": "https://www.marktechpost.com/2026/08/29/building-custom-batched-ensemble-weather-forecasting-with-nvidia-earth2studio/",
+      "publishedAt": "2026-08-29T18:57:26.000Z",
+      "impact": 65
+    },
     {
       "id": "aether-grok43",
       "type": "premium",
@@ -11,8 +22,19 @@
       "excerpt": "New model demonstrates 4.2× improvement on multi-step software engineering benchmarks and sustains coherent agent trajectories beyond 110k tokens.",
       "source": "xAI",
       "url": "https://x.ai/blog/grok-4.3",
-      "publishedAt": "2026-08-29T11:32:32.602Z",
+      "publishedAt": "2026-08-29T15:46:04.234Z",
       "impact": 96
+    },
+    {
+      "id": "marktechpost-1788013844000-1",
+      "type": "live",
+      "category": "multimodal",
+      "title": "Google AI Releases Gemini Omni 1.1 Flash: 40-Second Scene Extension, First/Last Frame Control, and 4K Upscaling",
+      "excerpt": "We look at Gemini Omni 1. 1 Flash, Google's production update to its native multimodal video generation and editing model",
+      "source": "MarkTechPost",
+      "url": "https://www.marktechpost.com/2026/08/29/google-ai-releases-gemini-omni-1-1-flash-40-second-scene-extension-first-last-frame-control-and-4k-upscaling/",
+      "publishedAt": "2026-08-29T14:30:44.000Z",
+      "impact": 65
     },
     {
       "id": "aether-figure03",
@@ -22,7 +44,7 @@
       "excerpt": "Humanoid achieves new milestone in unsupervised operation, performing 1,240 unique tasks across three assembly lines at the BMW South Carolina plant.",
       "source": "Figure AI",
       "url": "https://figure.ai/news/03-milestone",
-      "publishedAt": "2026-08-29T07:32:32.602Z",
+      "publishedAt": "2026-08-29T11:46:04.235Z",
       "impact": 89
     },
     {
@@ -33,8 +55,30 @@
       "excerpt": "Researchers reverse-engineered 312 million features inside the model, including the first clear \"deception circuit\" discovered in a frontier model.",
       "source": "Anthropic",
       "url": "https://anthropic.com/research/claude-4-interp",
-      "publishedAt": "2026-08-29T02:32:32.602Z",
+      "publishedAt": "2026-08-29T06:46:04.235Z",
       "impact": 91
+    },
+    {
+      "id": "marktechpost-1787981116000-2",
+      "type": "live",
+      "category": "robotics",
+      "title": "Hugging Face Unveils Microduck: A $399 Open-Source 25 cm Biped You Train with Reinforcement Learning",
+      "excerpt": "Pollen Robotics, the Bordeaux robotics team at Hugging Face, opened pre-orders for Microduck — a 25 cm bipedal robot where every movement is a neural policy trained in MuJoCo and exported to ONNX.  At $399, it puts th...",
+      "source": "MarkTechPost",
+      "url": "https://www.marktechpost.com/2026/08/28/pollen-robotics-hugging-face-microduck-399-open-source-rl-biped-robot/",
+      "publishedAt": "2026-08-29T05:25:16.000Z",
+      "impact": 65
+    },
+    {
+      "id": "marktechpost-1787944341000-3",
+      "type": "live",
+      "category": "llm",
+      "title": "GLM-5.3-Flash vs Qwen3.8-Flash-Next: Two Chinese AI Labs Independently Converge on the Same Model Architecture",
+      "excerpt": "ai and Qwen independently shipped near-identical architectures: 3:1 linear hybrids, compressed indexers, gated residuals, and Muon training. 8-Flash-Next: Two Chinese AI Labs Independently Converge on the Same Model A...",
+      "source": "MarkTechPost",
+      "url": "https://www.marktechpost.com/2026/08/28/glm-5-3-flash-vs-qwen3-8-flash-next-two-chinese-ai-labs-independently-converge-on-the-same-model-architecture/",
+      "publishedAt": "2026-08-28T19:12:21.000Z",
+      "impact": 65
     },
     {
       "id": "hugging-face-1787875200000-0",

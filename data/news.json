@@ -1,19 +1,8 @@
 {
-  "lastUpdated": "2026-08-29T06:38:14.431Z",
+  "lastUpdated": "2026-08-29T16:32:33.094Z",
   "source": "AETHER + Public RSS (arXiv, Hugging Face, MarkTechPost, Ben's Bites)",
-  "count": 10,
+  "count": 6,
   "articles": [
-    {
-      "id": "marktechpost-1787981116000-0",
-      "type": "live",
-      "category": "robotics",
-      "title": "Hugging Face Unveils Microduck: A $399 Open-Source 25 cm Biped You Train with Reinforcement Learning",
-      "excerpt": "Pollen Robotics, the Bordeaux robotics team at Hugging Face, opened pre-orders for Microduck — a 25 cm bipedal robot where every movement is a neural policy trained in MuJoCo and exported to ONNX.  At $399, it puts th...",
-      "source": "MarkTechPost",
-      "url": "https://www.marktechpost.com/2026/08/28/pollen-robotics-hugging-face-microduck-399-open-source-rl-biped-robot/",
-      "publishedAt": "2026-08-29T05:25:16.000Z",
-      "impact": 65
-    },
     {
       "id": "aether-grok43",
       "type": "premium",
@@ -22,7 +11,7 @@
       "excerpt": "New model demonstrates 4.2× improvement on multi-step software engineering benchmarks and sustains coherent agent trajectories beyond 110k tokens.",
       "source": "xAI",
       "url": "https://x.ai/blog/grok-4.3",
-      "publishedAt": "2026-08-29T01:38:13.393Z",
+      "publishedAt": "2026-08-29T11:32:32.602Z",
       "impact": 96
     },
     {
@@ -33,30 +22,8 @@
       "excerpt": "Humanoid achieves new milestone in unsupervised operation, performing 1,240 unique tasks across three assembly lines at the BMW South Carolina plant.",
       "source": "Figure AI",
       "url": "https://figure.ai/news/03-milestone",
-      "publishedAt": "2026-08-28T21:38:13.393Z",
+      "publishedAt": "2026-08-29T07:32:32.602Z",
       "impact": 89
-    },
-    {
-      "id": "marktechpost-1787944341000-1",
-      "type": "live",
-      "category": "llm",
-      "title": "GLM-5.3-Flash vs Qwen3.8-Flash-Next: Two Chinese AI Labs Independently Converge on the Same Model Architecture",
-      "excerpt": "ai and Qwen independently shipped near-identical architectures: 3:1 linear hybrids, compressed indexers, gated residuals, and Muon training. 8-Flash-Next: Two Chinese AI Labs Independently Converge on the Same Model A...",
-      "source": "MarkTechPost",
-      "url": "https://www.marktechpost.com/2026/08/28/glm-5-3-flash-vs-qwen3-8-flash-next-two-chinese-ai-labs-independently-converge-on-the-same-model-architecture/",
-      "publishedAt": "2026-08-28T19:12:21.000Z",
-      "impact": 65
-    },
-    {
-      "id": "marktechpost-1787938127000-2",
-      "type": "live",
-      "category": "hardware",
-      "title": "Vercel AI Open-Sources vgpu: A TypeScript WebGPU Library for AI Agent Shaders",
-      "excerpt": "Vercel has open-sourced vgpu, the WebGPU library it built to ship the shaders on vercel. wgsl files as importable TypeScript modules, runs the same shader in the browser, in headless Node",
-      "source": "MarkTechPost",
-      "url": "https://www.marktechpost.com/2026/08/28/vercel-vgpu-webgpu-library-open-source/",
-      "publishedAt": "2026-08-28T17:28:47.000Z",
-      "impact": 77
     },
     {
       "id": "aether-interp",
@@ -66,19 +33,8 @@
       "excerpt": "Researchers reverse-engineered 312 million features inside the model, including the first clear \"deception circuit\" discovered in a frontier model.",
       "source": "Anthropic",
       "url": "https://anthropic.com/research/claude-4-interp",
-      "publishedAt": "2026-08-28T16:38:13.393Z",
+      "publishedAt": "2026-08-29T02:32:32.602Z",
       "impact": 91
-    },
-    {
-      "id": "marktechpost-1787893238000-3",
-      "type": "live",
-      "category": "llm",
-      "title": "Google AI Releases Gemini 3.5 Transcribe: A Speech-to-Text Model Reporting 2.6% Average WER Across 85+ Languages",
-      "excerpt": "Google has released Gemini 3. 5 Transcribe, a speech-to-text model that ships as two separate endpoints rather than one",
-      "source": "MarkTechPost",
-      "url": "https://www.marktechpost.com/2026/08/27/google-ai-releases-gemini-3-5-transcribe-a-speech-to-text-model-reporting-2-6-average-wer-across-85-languages/",
-      "publishedAt": "2026-08-28T05:00:38.000Z",
-      "impact": 65
     },
     {
       "id": "hugging-face-1787875200000-0",

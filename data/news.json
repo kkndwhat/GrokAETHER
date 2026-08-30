@@ -1,8 +1,19 @@
 {
-  "lastUpdated": "2026-08-30T16:27:30.843Z",
+  "lastUpdated": "2026-08-30T20:50:39.074Z",
   "source": "AETHER + Public RSS (arXiv, Hugging Face, MarkTechPost, Ben's Bites)",
   "count": 10,
   "articles": [
+    {
+      "id": "marktechpost-1788121426000-0",
+      "type": "live",
+      "category": "llm",
+      "title": "Google AI Introduces EnvHarness: A Programmable Layer That Turns Static Agent Environments Into Adaptive Training Worlds",
+      "excerpt": "Google Cloud AI Research, with Washington University in St.  Louis and UNC Chapel Hill, has released EnvHarness, an Apache-2",
+      "source": "MarkTechPost",
+      "url": "https://www.marktechpost.com/2026/08/30/google-ai-introduces-envharness-a-programmable-layer-that-turns-static-agent-environments-into-adaptive-training-worlds/",
+      "publishedAt": "2026-08-30T20:23:46.000Z",
+      "impact": 77
+    },
     {
       "id": "aether-grok43",
       "type": "premium",
@@ -11,7 +22,7 @@
       "excerpt": "New model demonstrates 4.2× improvement on multi-step software engineering benchmarks and sustains coherent agent trajectories beyond 110k tokens.",
       "source": "xAI",
       "url": "https://x.ai/blog/grok-4.3",
-      "publishedAt": "2026-08-30T11:27:29.988Z",
+      "publishedAt": "2026-08-30T15:50:38.061Z",
       "impact": 96
     },
     {
@@ -22,11 +33,22 @@
       "excerpt": "Humanoid achieves new milestone in unsupervised operation, performing 1,240 unique tasks across three assembly lines at the BMW South Carolina plant.",
       "source": "Figure AI",
       "url": "https://figure.ai/news/03-milestone",
-      "publishedAt": "2026-08-30T07:27:29.988Z",
+      "publishedAt": "2026-08-30T11:50:38.061Z",
       "impact": 89
     },
     {
-      "id": "marktechpost-1788070341000-0",
+      "id": "aether-interp",
+      "type": "premium",
+      "category": "safety",
+      "title": "Anthropic publishes unprecedented mechanistic interpretability map of Claude 4",
+      "excerpt": "Researchers reverse-engineered 312 million features inside the model, including the first clear \"deception circuit\" discovered in a frontier model.",
+      "source": "Anthropic",
+      "url": "https://anthropic.com/research/claude-4-interp",
+      "publishedAt": "2026-08-30T06:50:38.061Z",
+      "impact": 91
+    },
+    {
+      "id": "marktechpost-1788070341000-1",
       "type": "live",
       "category": "safety",
       "title": "Anthropic Opens a Research Preview of the Model Hardware Standard (MHS): A Shared Specification for AI Agents to Safely Operate Physical Devices",
@@ -37,18 +59,7 @@
       "impact": 77
     },
     {
-      "id": "aether-interp",
-      "type": "premium",
-      "category": "safety",
-      "title": "Anthropic publishes unprecedented mechanistic interpretability map of Claude 4",
-      "excerpt": "Researchers reverse-engineered 312 million features inside the model, including the first clear \"deception circuit\" discovered in a frontier model.",
-      "source": "Anthropic",
-      "url": "https://anthropic.com/research/claude-4-interp",
-      "publishedAt": "2026-08-30T02:27:29.988Z",
-      "impact": 91
-    },
-    {
-      "id": "marktechpost-1788053702000-1",
+      "id": "marktechpost-1788053702000-2",
       "type": "live",
       "category": "multimodal",
       "title": "Meet ‘Code-as-World’: An Agentic Loop That Rewrites Real Videos Into Executable MuJoCo Physics Programs",
@@ -59,7 +70,7 @@
       "impact": 77
     },
     {
-      "id": "marktechpost-1788029846000-2",
+      "id": "marktechpost-1788029846000-3",
       "type": "live",
       "category": "llm",
       "title": "Building Custom Batched Ensemble Weather Forecasting with NVIDIA Earth2Studio",
@@ -67,17 +78,6 @@
       "source": "MarkTechPost",
       "url": "https://www.marktechpost.com/2026/08/29/building-custom-batched-ensemble-weather-forecasting-with-nvidia-earth2studio/",
       "publishedAt": "2026-08-29T18:57:26.000Z",
-      "impact": 65
-    },
-    {
-      "id": "marktechpost-1788013844000-3",
-      "type": "live",
-      "category": "multimodal",
-      "title": "Google AI Releases Gemini Omni 1.1 Flash: 40-Second Scene Extension, First/Last Frame Control, and 4K Upscaling",
-      "excerpt": "We look at Gemini Omni 1. 1 Flash, Google's production update to its native multimodal video generation and editing model",
-      "source": "MarkTechPost",
-      "url": "https://www.marktechpost.com/2026/08/29/google-ai-releases-gemini-omni-1-1-flash-40-second-scene-extension-first-last-frame-control-and-4k-upscaling/",
-      "publishedAt": "2026-08-29T14:30:44.000Z",
       "impact": 65
     },
     {

@@ -1,10 +1,98 @@
 {
-  "lastUpdated": "2026-08-30T20:50:39.074Z",
+  "lastUpdated": "2026-08-31T04:55:37.002Z",
   "source": "AETHER + Public RSS (arXiv, Hugging Face, MarkTechPost, Ben's Bites)",
-  "count": 10,
+  "count": 16,
   "articles": [
     {
-      "id": "marktechpost-1788121426000-0",
+      "id": "arxiv-cs.ai-1788148800000-0",
+      "type": "live",
+      "category": "llm",
+      "title": "Time Capsule of Testable Human Knowledge: 41 Years of Jeopardy! in a Single Free Local Model",
+      "excerpt": "27459v1 Announce Type: new Abstract: In 2011, IBM's Watson was something like a sealed capsule of its era's queryable knowledge.  Its DeepQA system defeated the strongest human Jeopardy",
+      "source": "arXiv cs.AI",
+      "url": "https://arxiv.org/abs/2608.27459",
+      "publishedAt": "2026-08-31T04:00:00.000Z",
+      "impact": 58
+    },
+    {
+      "id": "arxiv-cs.ai-1788148800000-1",
+      "type": "live",
+      "category": "llm",
+      "title": "Rating the Raters: Rasch Measurement Theory for LLM Evaluation",
+      "excerpt": "27463v1 Announce Type: new Abstract: LLMs now sit on every side of evaluation: as examinees scored on benchmarks, judges of other models' outputs, and raters of human-generated content.  Each paradigm can be viewed as...",
+      "source": "arXiv cs.AI",
+      "url": "https://arxiv.org/abs/2608.27463",
+      "publishedAt": "2026-08-31T04:00:00.000Z",
+      "impact": 58
+    },
+    {
+      "id": "arxiv-cs.ai-1788148800000-2",
+      "type": "live",
+      "category": "research",
+      "title": "Not All Explanations Are Sought: Information-Seeking Psychology for Human-Centered XAI",
+      "excerpt": "27464v1 Announce Type: new Abstract: This position paper argues that human-centered explainable AI (HCXAI) should incorporate insights from the psychology of information seeking.  Drawing on Sharot and Sunstein's fram...",
+      "source": "arXiv cs.AI",
+      "url": "https://arxiv.org/abs/2608.27464",
+      "publishedAt": "2026-08-31T04:00:00.000Z",
+      "impact": 58
+    },
+    {
+      "id": "arxiv-cs.ai-1788148800000-3",
+      "type": "live",
+      "category": "llm",
+      "title": "Retrieving Relations, Detecting Fallacies: A RAG Approach to Political Debate Analysis",
+      "excerpt": "27471v1 Announce Type: new Abstract: Fallacies are arguments that employ invalid reasoning, making their automatic detection critical in sensitive contexts such as high-stakes political debates, where public opinion i...",
+      "source": "arXiv cs.AI",
+      "url": "https://arxiv.org/abs/2608.27471",
+      "publishedAt": "2026-08-31T04:00:00.000Z",
+      "impact": 58
+    },
+    {
+      "id": "arxiv-cs.ai-1788148800000-4",
+      "type": "live",
+      "category": "llm",
+      "title": "LLM-Augmented Causal Discovery: Probabilistic Fusion of Edge Existence and Orientation",
+      "excerpt": "27472v1 Announce Type: new Abstract: Bayesian network structure learning (BNSL) from observational data struggles with orientation identifiability, while large language models (LLMs) offer broad but often unreliable c...",
+      "source": "arXiv cs.AI",
+      "url": "https://arxiv.org/abs/2608.27472",
+      "publishedAt": "2026-08-31T04:00:00.000Z",
+      "impact": 58
+    },
+    {
+      "id": "arxiv-cs.ai-1788148800000-5",
+      "type": "live",
+      "category": "research",
+      "title": "Hypothesize, Evaluate, Refine: A Scientific Agent for PDE Discovery with Unknown Spatial Coefficient Fields",
+      "excerpt": "27475v1 Announce Type: new Abstract: Discovering PDEs in heterogeneous media requires jointly identifying the governing operator and the unknown spatial fields that parameterize it.  These tasks are coupled: changing ...",
+      "source": "arXiv cs.AI",
+      "url": "https://arxiv.org/abs/2608.27475",
+      "publishedAt": "2026-08-31T04:00:00.000Z",
+      "impact": 69
+    },
+    {
+      "id": "aether-grok43",
+      "type": "premium",
+      "category": "llm",
+      "title": "xAI releases Grok-4.3 with native long-horizon agent scaffolding",
+      "excerpt": "New model demonstrates 4.2× improvement on multi-step software engineering benchmarks and sustains coherent agent trajectories beyond 110k tokens.",
+      "source": "xAI",
+      "url": "https://x.ai/blog/grok-4.3",
+      "publishedAt": "2026-08-30T23:55:36.076Z",
+      "impact": 96
+    },
+    {
+      "id": "marktechpost-1788125078000-0",
+      "type": "live",
+      "category": "robotics",
+      "title": "Lowest-Latency Inference APIs for Voice and Realtime Agents: A Time to First Token TTFT-First Benchmark",
+      "excerpt": "Voice agents fail on latency long before they fail on intelligence.  Time to first token is the metric most teams use to choose an inference API, and it is the right starting point and the wrong stopping point",
+      "source": "MarkTechPost",
+      "url": "https://www.marktechpost.com/2026/08/30/lowest-latency-inference-apis-for-voice-and-realtime-agents-a-time-to-first-token-ttft-first-benchmark/",
+      "publishedAt": "2026-08-30T21:24:38.000Z",
+      "impact": 77
+    },
+    {
+      "id": "marktechpost-1788121426000-1",
       "type": "live",
       "category": "llm",
       "title": "Google AI Introduces EnvHarness: A Programmable Layer That Turns Static Agent Environments Into Adaptive Training Worlds",
@@ -15,17 +103,6 @@
       "impact": 77
     },
     {
-      "id": "aether-grok43",
-      "type": "premium",
-      "category": "llm",
-      "title": "xAI releases Grok-4.3 with native long-horizon agent scaffolding",
-      "excerpt": "New model demonstrates 4.2× improvement on multi-step software engineering benchmarks and sustains coherent agent trajectories beyond 110k tokens.",
-      "source": "xAI",
-      "url": "https://x.ai/blog/grok-4.3",
-      "publishedAt": "2026-08-30T15:50:38.061Z",
-      "impact": 96
-    },
-    {
       "id": "aether-figure03",
       "type": "premium",
       "category": "robotics",
@@ -33,7 +110,7 @@
       "excerpt": "Humanoid achieves new milestone in unsupervised operation, performing 1,240 unique tasks across three assembly lines at the BMW South Carolina plant.",
       "source": "Figure AI",
       "url": "https://figure.ai/news/03-milestone",
-      "publishedAt": "2026-08-30T11:50:38.061Z",
+      "publishedAt": "2026-08-30T19:55:36.077Z",
       "impact": 89
     },
     {
@@ -44,11 +121,11 @@
       "excerpt": "Researchers reverse-engineered 312 million features inside the model, including the first clear \"deception circuit\" discovered in a frontier model.",
       "source": "Anthropic",
       "url": "https://anthropic.com/research/claude-4-interp",
-      "publishedAt": "2026-08-30T06:50:38.061Z",
+      "publishedAt": "2026-08-30T14:55:36.077Z",
       "impact": 91
     },
     {
-      "id": "marktechpost-1788070341000-1",
+      "id": "marktechpost-1788070341000-2",
       "type": "live",
       "category": "safety",
       "title": "Anthropic Opens a Research Preview of the Model Hardware Standard (MHS): A Shared Specification for AI Agents to Safely Operate Physical Devices",
@@ -59,7 +136,7 @@
       "impact": 77
     },
     {
-      "id": "marktechpost-1788053702000-2",
+      "id": "marktechpost-1788053702000-3",
       "type": "live",
       "category": "multimodal",
       "title": "Meet ‘Code-as-World’: An Agentic Loop That Rewrites Real Videos Into Executable MuJoCo Physics Programs",
@@ -68,17 +145,6 @@
       "url": "https://www.marktechpost.com/2026/08/29/mirros-code-as-world-executable-world-representations/",
       "publishedAt": "2026-08-30T01:35:02.000Z",
       "impact": 77
-    },
-    {
-      "id": "marktechpost-1788029846000-3",
-      "type": "live",
-      "category": "llm",
-      "title": "Building Custom Batched Ensemble Weather Forecasting with NVIDIA Earth2Studio",
-      "excerpt": "In this tutorial, we build an ensemble weather forecasting workflow with NVIDIA Earth2Studio.  We install the required Earth2Studio components while preserving Colab’s existing CUDA-enabled PyTorch environment, load t...",
-      "source": "MarkTechPost",
-      "url": "https://www.marktechpost.com/2026/08/29/building-custom-batched-ensemble-weather-forecasting-with-nvidia-earth2studio/",
-      "publishedAt": "2026-08-29T18:57:26.000Z",
-      "impact": 65
     },
     {
       "id": "hugging-face-1787875200000-0",

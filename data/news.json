@@ -1,8 +1,41 @@
 {
-  "lastUpdated": "2026-08-31T04:55:37.002Z",
+  "lastUpdated": "2026-08-31T13:16:56.683Z",
   "source": "AETHER + Public RSS (arXiv, Hugging Face, MarkTechPost, Ben's Bites)",
   "count": 16,
   "articles": [
+    {
+      "id": "aether-grok43",
+      "type": "premium",
+      "category": "llm",
+      "title": "xAI releases Grok-4.3 with native long-horizon agent scaffolding",
+      "excerpt": "New model demonstrates 4.2× improvement on multi-step software engineering benchmarks and sustains coherent agent trajectories beyond 110k tokens.",
+      "source": "xAI",
+      "url": "https://x.ai/blog/grok-4.3",
+      "publishedAt": "2026-08-31T08:16:55.671Z",
+      "impact": 96
+    },
+    {
+      "id": "marktechpost-1788152650000-0",
+      "type": "live",
+      "category": "llm",
+      "title": "OpenClaw Releases OpenClaw 2.0: Guided Model Setup, 575 ms Control UI Startup, and One Trust Boundary Per Gateway",
+      "excerpt": "The OpenClaw Foundation has released v2026. 1, which the project calls OpenClaw 2",
+      "source": "MarkTechPost",
+      "url": "https://www.marktechpost.com/2026/08/30/openclaw-releases-openclaw-2-0-guided-model-setup-575-ms-control-ui-startup-and-one-trust-boundary-per-gateway/",
+      "publishedAt": "2026-08-31T05:04:10.000Z",
+      "impact": 65
+    },
+    {
+      "id": "aether-figure03",
+      "type": "premium",
+      "category": "robotics",
+      "title": "Figure 03 completes 43-hour autonomous factory shift with zero interventions",
+      "excerpt": "Humanoid achieves new milestone in unsupervised operation, performing 1,240 unique tasks across three assembly lines at the BMW South Carolina plant.",
+      "source": "Figure AI",
+      "url": "https://figure.ai/news/03-milestone",
+      "publishedAt": "2026-08-31T04:16:55.671Z",
+      "impact": 89
+    },
     {
       "id": "arxiv-cs.ai-1788148800000-0",
       "type": "live",
@@ -70,18 +103,18 @@
       "impact": 69
     },
     {
-      "id": "aether-grok43",
+      "id": "aether-interp",
       "type": "premium",
-      "category": "llm",
-      "title": "xAI releases Grok-4.3 with native long-horizon agent scaffolding",
-      "excerpt": "New model demonstrates 4.2× improvement on multi-step software engineering benchmarks and sustains coherent agent trajectories beyond 110k tokens.",
-      "source": "xAI",
-      "url": "https://x.ai/blog/grok-4.3",
-      "publishedAt": "2026-08-30T23:55:36.076Z",
-      "impact": 96
+      "category": "safety",
+      "title": "Anthropic publishes unprecedented mechanistic interpretability map of Claude 4",
+      "excerpt": "Researchers reverse-engineered 312 million features inside the model, including the first clear \"deception circuit\" discovered in a frontier model.",
+      "source": "Anthropic",
+      "url": "https://anthropic.com/research/claude-4-interp",
+      "publishedAt": "2026-08-30T23:16:55.671Z",
+      "impact": 91
     },
     {
-      "id": "marktechpost-1788125078000-0",
+      "id": "marktechpost-1788125078000-1",
       "type": "live",
       "category": "robotics",
       "title": "Lowest-Latency Inference APIs for Voice and Realtime Agents: A Time to First Token TTFT-First Benchmark",
@@ -92,7 +125,7 @@
       "impact": 77
     },
     {
-      "id": "marktechpost-1788121426000-1",
+      "id": "marktechpost-1788121426000-2",
       "type": "live",
       "category": "llm",
       "title": "Google AI Introduces EnvHarness: A Programmable Layer That Turns Static Agent Environments Into Adaptive Training Worlds",
@@ -103,29 +136,7 @@
       "impact": 77
     },
     {
-      "id": "aether-figure03",
-      "type": "premium",
-      "category": "robotics",
-      "title": "Figure 03 completes 43-hour autonomous factory shift with zero interventions",
-      "excerpt": "Humanoid achieves new milestone in unsupervised operation, performing 1,240 unique tasks across three assembly lines at the BMW South Carolina plant.",
-      "source": "Figure AI",
-      "url": "https://figure.ai/news/03-milestone",
-      "publishedAt": "2026-08-30T19:55:36.077Z",
-      "impact": 89
-    },
-    {
-      "id": "aether-interp",
-      "type": "premium",
-      "category": "safety",
-      "title": "Anthropic publishes unprecedented mechanistic interpretability map of Claude 4",
-      "excerpt": "Researchers reverse-engineered 312 million features inside the model, including the first clear \"deception circuit\" discovered in a frontier model.",
-      "source": "Anthropic",
-      "url": "https://anthropic.com/research/claude-4-interp",
-      "publishedAt": "2026-08-30T14:55:36.077Z",
-      "impact": 91
-    },
-    {
-      "id": "marktechpost-1788070341000-2",
+      "id": "marktechpost-1788070341000-3",
       "type": "live",
       "category": "safety",
       "title": "Anthropic Opens a Research Preview of the Model Hardware Standard (MHS): A Shared Specification for AI Agents to Safely Operate Physical Devices",
@@ -133,17 +144,6 @@
       "source": "MarkTechPost",
       "url": "https://www.marktechpost.com/2026/08/29/anthropic-opens-a-research-preview-of-the-model-hardware-standard-mhs-a-shared-specification-for-ai-agents-to-safely-operate-physical-devices/",
       "publishedAt": "2026-08-30T06:12:21.000Z",
-      "impact": 77
-    },
-    {
-      "id": "marktechpost-1788053702000-3",
-      "type": "live",
-      "category": "multimodal",
-      "title": "Meet ‘Code-as-World’: An Agentic Loop That Rewrites Real Videos Into Executable MuJoCo Physics Programs",
-      "excerpt": "Code-as-World recovers editable MuJoCo scene code from real video, then uses those verified worlds to train physical reasoning.  The post Meet ‘Code-as-World’: An Agentic Loop That Rewrites Real Videos Into Executable...",
-      "source": "MarkTechPost",
-      "url": "https://www.marktechpost.com/2026/08/29/mirros-code-as-world-executable-world-representations/",
-      "publishedAt": "2026-08-30T01:35:02.000Z",
       "impact": 77
     },
     {

@@ -1,8 +1,19 @@
 {
-  "lastUpdated": "2026-09-01T11:26:22.821Z",
+  "lastUpdated": "2026-09-01T16:23:42.594Z",
   "source": "AETHER + Public RSS (arXiv, Hugging Face, MarkTechPost, Ben's Bites)",
-  "count": 12,
+  "count": 16,
   "articles": [
+    {
+      "id": "marktechpost-1788278054000-0",
+      "type": "live",
+      "category": "llm",
+      "title": "Researchers from Princeton, Ant Group and Stanford Introduce AQuA: A Two-Part Agentic Framework for Autonomous Factor Discovery and Model Development in Quantitative Finance",
+      "excerpt": "Quantitative research agents that write their own experiments can corrupt the evidence they later learn from.  A leaky feature that scores well gets stored as a successful precedent and propagated through later iterat...",
+      "source": "MarkTechPost",
+      "url": "https://www.marktechpost.com/2026/09/01/aqua-a-two-part-agentic-framework-for-autonomous-factor-discovery/",
+      "publishedAt": "2026-09-01T15:54:14.000Z",
+      "impact": 77
+    },
     {
       "id": "aether-grok43",
       "type": "premium",
@@ -11,8 +22,19 @@
       "excerpt": "New model demonstrates 4.2× improvement on multi-step software engineering benchmarks and sustains coherent agent trajectories beyond 110k tokens.",
       "source": "xAI",
       "url": "https://x.ai/blog/grok-4.3",
-      "publishedAt": "2026-09-01T06:26:22.483Z",
+      "publishedAt": "2026-09-01T11:23:41.598Z",
       "impact": 96
+    },
+    {
+      "id": "aether-figure03",
+      "type": "premium",
+      "category": "robotics",
+      "title": "Figure 03 completes 43-hour autonomous factory shift with zero interventions",
+      "excerpt": "Humanoid achieves new milestone in unsupervised operation, performing 1,240 unique tasks across three assembly lines at the BMW South Carolina plant.",
+      "source": "Figure AI",
+      "url": "https://figure.ai/news/03-milestone",
+      "publishedAt": "2026-09-01T07:23:41.598Z",
+      "impact": 89
     },
     {
       "id": "arxiv-cs.ai-1788235200000-0",
@@ -81,15 +103,15 @@
       "impact": 69
     },
     {
-      "id": "aether-figure03",
-      "type": "premium",
-      "category": "robotics",
-      "title": "Figure 03 completes 43-hour autonomous factory shift with zero interventions",
-      "excerpt": "Humanoid achieves new milestone in unsupervised operation, performing 1,240 unique tasks across three assembly lines at the BMW South Carolina plant.",
-      "source": "Figure AI",
-      "url": "https://figure.ai/news/03-milestone",
-      "publishedAt": "2026-09-01T02:26:22.483Z",
-      "impact": 89
+      "id": "marktechpost-1788233945000-1",
+      "type": "live",
+      "category": "multimodal",
+      "title": "Gradium AI Releases New Default TTS Model: 81.0% Hard-Case Pass Rate at 216 ms Time-to-First-Audio",
+      "excerpt": "Speed and accuracy usually pull against each other in text-to-speech.  Gradium AI's new default model reports both: an 81",
+      "source": "MarkTechPost",
+      "url": "https://www.marktechpost.com/2026/08/31/gradium-ai-releases-new-default-tts-model-81-0-hard-case-pass-rate-at-216-ms-time-to-first-audio/",
+      "publishedAt": "2026-09-01T03:39:05.000Z",
+      "impact": 65
     },
     {
       "id": "aether-interp",
@@ -99,11 +121,44 @@
       "excerpt": "Researchers reverse-engineered 312 million features inside the model, including the first clear \"deception circuit\" discovered in a frontier model.",
       "source": "Anthropic",
       "url": "https://anthropic.com/research/claude-4-interp",
-      "publishedAt": "2026-08-31T21:26:22.483Z",
+      "publishedAt": "2026-09-01T02:23:41.598Z",
       "impact": 91
     },
     {
-      "id": "hugging-face-1787875200000-0",
+      "id": "hugging-face-1788220800000-0",
+      "type": "live",
+      "category": "hardware",
+      "title": "Introducing @huggingface/kernels: 200+ WebGPU Kernels for Local AI",
+      "excerpt": "New development from the frontier.",
+      "source": "Hugging Face",
+      "url": "https://huggingface.co/blog/webgpu-kernels",
+      "publishedAt": "2026-09-01T00:00:00.000Z",
+      "impact": 75
+    },
+    {
+      "id": "marktechpost-1788219806000-2",
+      "type": "live",
+      "category": "research",
+      "title": "Keenable AI Open-Sources NEEDLE: A Live Search Benchmark That Rebuilds Its Query Set Every Hour",
+      "excerpt": "How do you benchmark a web search API when the thing being tested can read the answer key.  A search agent has a fetch tool",
+      "source": "MarkTechPost",
+      "url": "https://www.marktechpost.com/2026/08/31/keenable-ai-open-sources-needle-a-live-search-benchmark-that-rebuilds-its-query-set-every-hour/",
+      "publishedAt": "2026-08-31T23:43:26.000Z",
+      "impact": 65
+    },
+    {
+      "id": "marktechpost-1788211216000-3",
+      "type": "live",
+      "category": "llm",
+      "title": "Google AI Releases TimesFM-3: A 330M Parameter Zero-Shot Foundation Model For Multivariate Time Series Forecasting",
+      "excerpt": "Google Research has released TimesFM-3, a 330 million parameter time series foundation model that forecasts multiple related series in a single forward pass.  Unlike every TimesFM checkpoint through 2",
+      "source": "MarkTechPost",
+      "url": "https://www.marktechpost.com/2026/08/31/google-ai-releases-timesfm-3-a-330m-parameter-zero-shot-foundation-model-for-multivariate-time-series-forecasting/",
+      "publishedAt": "2026-08-31T21:20:16.000Z",
+      "impact": 65
+    },
+    {
+      "id": "hugging-face-1787875200000-1",
       "type": "live",
       "category": "research",
       "title": "The Open ASR Leaderboard Adds Its First Global South Language",
@@ -114,7 +169,7 @@
       "impact": 75
     },
     {
-      "id": "hugging-face-1787702400000-1",
+      "id": "hugging-face-1787702400000-2",
       "type": "live",
       "category": "llm",
       "title": "Training and Finetuning Multi-Vector Embedding Models with Sentence Transformers",
@@ -122,17 +177,6 @@
       "source": "Hugging Face",
       "url": "https://huggingface.co/blog/train-multi-vector-encoder",
       "publishedAt": "2026-08-26T00:00:00.000Z",
-      "impact": 75
-    },
-    {
-      "id": "hugging-face-1787670854000-2",
-      "type": "live",
-      "category": "llm",
-      "title": "Granite 4.2 LLMs: How They're Built",
-      "excerpt": "New development from the frontier.",
-      "source": "Hugging Face",
-      "url": "https://huggingface.co/blog/ibm-granite/granite-4-2",
-      "publishedAt": "2026-08-25T15:14:14.000Z",
       "impact": 75
     }
   ]

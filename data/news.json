@@ -1,10 +1,54 @@
 {
-  "lastUpdated": "2026-09-01T16:23:42.594Z",
+  "lastUpdated": "2026-09-02T03:56:58.031Z",
   "source": "AETHER + Public RSS (arXiv, Hugging Face, MarkTechPost, Ben's Bites)",
   "count": 16,
   "articles": [
     {
-      "id": "marktechpost-1788278054000-0",
+      "id": "aether-grok43",
+      "type": "premium",
+      "category": "llm",
+      "title": "xAI releases Grok-4.3 with native long-horizon agent scaffolding",
+      "excerpt": "New model demonstrates 4.2× improvement on multi-step software engineering benchmarks and sustains coherent agent trajectories beyond 110k tokens.",
+      "source": "xAI",
+      "url": "https://x.ai/blog/grok-4.3",
+      "publishedAt": "2026-09-01T22:56:57.080Z",
+      "impact": 96
+    },
+    {
+      "id": "hugging-face-1788298747000-0",
+      "type": "live",
+      "category": "llm",
+      "title": "BenchMIRT: What are LLM benchmarks actually measuring?",
+      "excerpt": "New development from the frontier.",
+      "source": "Hugging Face",
+      "url": "https://huggingface.co/blog/allenai/benchmirt",
+      "publishedAt": "2026-09-01T21:39:07.000Z",
+      "impact": 75
+    },
+    {
+      "id": "marktechpost-1788294621000-0",
+      "type": "live",
+      "category": "llm",
+      "title": "Anthropic Releases Claude Fable 5.1 and Claude Mythos 5.1: 52.6% on Terminal-Bench-Science and 75% Cheaper Cache Reads",
+      "excerpt": "Anthropic has released Claude Fable 5. 1 and Claude Mythos 5",
+      "source": "MarkTechPost",
+      "url": "https://www.marktechpost.com/2026/09/01/anthropic-releases-claude-fable-5-1-and-claude-mythos-5-1-52-6-on-terminal-bench-science-and-75-cheaper-cache-reads/",
+      "publishedAt": "2026-09-01T20:30:21.000Z",
+      "impact": 65
+    },
+    {
+      "id": "aether-figure03",
+      "type": "premium",
+      "category": "robotics",
+      "title": "Figure 03 completes 43-hour autonomous factory shift with zero interventions",
+      "excerpt": "Humanoid achieves new milestone in unsupervised operation, performing 1,240 unique tasks across three assembly lines at the BMW South Carolina plant.",
+      "source": "Figure AI",
+      "url": "https://figure.ai/news/03-milestone",
+      "publishedAt": "2026-09-01T18:56:57.080Z",
+      "impact": 89
+    },
+    {
+      "id": "marktechpost-1788278054000-1",
       "type": "live",
       "category": "llm",
       "title": "Researchers from Princeton, Ant Group and Stanford Introduce AQuA: A Two-Part Agentic Framework for Autonomous Factor Discovery and Model Development in Quantitative Finance",
@@ -15,68 +59,57 @@
       "impact": 77
     },
     {
-      "id": "aether-grok43",
+      "id": "aether-interp",
       "type": "premium",
-      "category": "llm",
-      "title": "xAI releases Grok-4.3 with native long-horizon agent scaffolding",
-      "excerpt": "New model demonstrates 4.2× improvement on multi-step software engineering benchmarks and sustains coherent agent trajectories beyond 110k tokens.",
-      "source": "xAI",
-      "url": "https://x.ai/blog/grok-4.3",
-      "publishedAt": "2026-09-01T11:23:41.598Z",
-      "impact": 96
-    },
-    {
-      "id": "aether-figure03",
-      "type": "premium",
-      "category": "robotics",
-      "title": "Figure 03 completes 43-hour autonomous factory shift with zero interventions",
-      "excerpt": "Humanoid achieves new milestone in unsupervised operation, performing 1,240 unique tasks across three assembly lines at the BMW South Carolina plant.",
-      "source": "Figure AI",
-      "url": "https://figure.ai/news/03-milestone",
-      "publishedAt": "2026-09-01T07:23:41.598Z",
-      "impact": 89
+      "category": "safety",
+      "title": "Anthropic publishes unprecedented mechanistic interpretability map of Claude 4",
+      "excerpt": "Researchers reverse-engineered 312 million features inside the model, including the first clear \"deception circuit\" discovered in a frontier model.",
+      "source": "Anthropic",
+      "url": "https://anthropic.com/research/claude-4-interp",
+      "publishedAt": "2026-09-01T13:56:57.080Z",
+      "impact": 91
     },
     {
       "id": "arxiv-cs.ai-1788235200000-0",
       "type": "live",
       "category": "llm",
-      "title": "Time Capsule of Testable Human Knowledge: 41 Years of Jeopardy! in a Single Free Local Model",
-      "excerpt": "27459v1 Announce Type: new Abstract: In 2011, IBM's Watson was something like a sealed capsule of its era's queryable knowledge.  Its DeepQA system defeated the strongest human Jeopardy",
+      "title": "DS-Lighting: Making Agent Harnesses Explicit for Data-Science Automation",
+      "excerpt": "28590v1 Announce Type: new Abstract: Large Language Model (LLM) agents have shown promise for automating data-science workflows, yet their end-to-end performance depends critically on the agent harness that represents...",
       "source": "arXiv cs.AI",
-      "url": "https://arxiv.org/abs/2608.27459",
+      "url": "https://arxiv.org/abs/2608.28590",
       "publishedAt": "2026-09-01T04:00:00.000Z",
-      "impact": 58
+      "impact": 69
     },
     {
       "id": "arxiv-cs.ai-1788235200000-1",
       "type": "live",
-      "category": "llm",
-      "title": "Rating the Raters: Rasch Measurement Theory for LLM Evaluation",
-      "excerpt": "27463v1 Announce Type: new Abstract: LLMs now sit on every side of evaluation: as examinees scored on benchmarks, judges of other models' outputs, and raters of human-generated content.  Each paradigm can be viewed as...",
+      "category": "multimodal",
+      "title": "Expert-validated STEM QA",
+      "excerpt": "28591v1 Announce Type: new Abstract: Recent advancements in AI are helping scientists achieve breakthroughs in fields such as mathematics, medicine, and materials sciences.  New evaluation datasets for AI models contr...",
       "source": "arXiv cs.AI",
-      "url": "https://arxiv.org/abs/2608.27463",
+      "url": "https://arxiv.org/abs/2608.28591",
       "publishedAt": "2026-09-01T04:00:00.000Z",
       "impact": 58
     },
     {
       "id": "arxiv-cs.ai-1788235200000-2",
       "type": "live",
-      "category": "research",
-      "title": "Not All Explanations Are Sought: Information-Seeking Psychology for Human-Centered XAI",
-      "excerpt": "27464v1 Announce Type: new Abstract: This position paper argues that human-centered explainable AI (HCXAI) should incorporate insights from the psychology of information seeking.  Drawing on Sharot and Sunstein's fram...",
+      "category": "llm",
+      "title": "A collective capability boundary in frontier large language models on guideline-conformant and case-specific oncology decision-making",
+      "excerpt": "28592v1 Announce Type: new Abstract: Large language models (LLMs) achieve high scores on medical knowledge examinations, yet real-world oncology is not a knowledge test--it is a sequence of guideline-pathway choices, ...",
       "source": "arXiv cs.AI",
-      "url": "https://arxiv.org/abs/2608.27464",
+      "url": "https://arxiv.org/abs/2608.28592",
       "publishedAt": "2026-09-01T04:00:00.000Z",
-      "impact": 58
+      "impact": 75
     },
     {
       "id": "arxiv-cs.ai-1788235200000-3",
       "type": "live",
-      "category": "llm",
-      "title": "Retrieving Relations, Detecting Fallacies: A RAG Approach to Political Debate Analysis",
-      "excerpt": "27471v1 Announce Type: new Abstract: Fallacies are arguments that employ invalid reasoning, making their automatic detection critical in sensitive contexts such as high-stakes political debates, where public opinion i...",
+      "category": "safety",
+      "title": "Statutory AI: Aligning Large Language Models With Legal Norms",
+      "excerpt": "28593v1 Announce Type: new Abstract: With the increasing development of AI regulatory frameworks, ensuring that artificial intelligence systems, particularly generative models, operate in accordance with legal and eth...",
       "source": "arXiv cs.AI",
-      "url": "https://arxiv.org/abs/2608.27471",
+      "url": "https://arxiv.org/abs/2608.28593",
       "publishedAt": "2026-09-01T04:00:00.000Z",
       "impact": 58
     },
@@ -84,26 +117,26 @@
       "id": "arxiv-cs.ai-1788235200000-4",
       "type": "live",
       "category": "llm",
-      "title": "LLM-Augmented Causal Discovery: Probabilistic Fusion of Edge Existence and Orientation",
-      "excerpt": "27472v1 Announce Type: new Abstract: Bayesian network structure learning (BNSL) from observational data struggles with orientation identifiability, while large language models (LLMs) offer broad but often unreliable c...",
+      "title": "From Question-First to Analyst-First: Domain-Expert Skills and Verified Knowledge Compilation for Proactive Enterprise Analytics",
+      "excerpt": "28594v1 Announce Type: new Abstract: Conversational analytics systems assume the user already has a well-formed question, leaving a non-expert facing a blank query box on an unfamiliar enterprise schema.  Commercial '...",
       "source": "arXiv cs.AI",
-      "url": "https://arxiv.org/abs/2608.27472",
+      "url": "https://arxiv.org/abs/2608.28594",
       "publishedAt": "2026-09-01T04:00:00.000Z",
       "impact": 58
     },
     {
       "id": "arxiv-cs.ai-1788235200000-5",
       "type": "live",
-      "category": "research",
-      "title": "Hypothesize, Evaluate, Refine: A Scientific Agent for PDE Discovery with Unknown Spatial Coefficient Fields",
-      "excerpt": "27475v1 Announce Type: new Abstract: Discovering PDEs in heterogeneous media requires jointly identifying the governing operator and the unknown spatial fields that parameterize it.  These tasks are coupled: changing ...",
+      "category": "safety",
+      "title": "The Signal in the Noise: An Auditable Reliability Layer for Biomedical Text Classification",
+      "excerpt": "28595v1 Announce Type: new Abstract: Biomedical NLP pipelines routinely presuppose clean input text, yet large-scale corpora assembled through automated PDF parsing harbour pervasive OCR-like artifacts, token splits a...",
       "source": "arXiv cs.AI",
-      "url": "https://arxiv.org/abs/2608.27475",
+      "url": "https://arxiv.org/abs/2608.28595",
       "publishedAt": "2026-09-01T04:00:00.000Z",
-      "impact": 69
+      "impact": 58
     },
     {
-      "id": "marktechpost-1788233945000-1",
+      "id": "marktechpost-1788233945000-2",
       "type": "live",
       "category": "multimodal",
       "title": "Gradium AI Releases New Default TTS Model: 81.0% Hard-Case Pass Rate at 216 ms Time-to-First-Audio",
@@ -114,18 +147,7 @@
       "impact": 65
     },
     {
-      "id": "aether-interp",
-      "type": "premium",
-      "category": "safety",
-      "title": "Anthropic publishes unprecedented mechanistic interpretability map of Claude 4",
-      "excerpt": "Researchers reverse-engineered 312 million features inside the model, including the first clear \"deception circuit\" discovered in a frontier model.",
-      "source": "Anthropic",
-      "url": "https://anthropic.com/research/claude-4-interp",
-      "publishedAt": "2026-09-01T02:23:41.598Z",
-      "impact": 91
-    },
-    {
-      "id": "hugging-face-1788220800000-0",
+      "id": "hugging-face-1788220800000-1",
       "type": "live",
       "category": "hardware",
       "title": "Introducing @huggingface/kernels: 200+ WebGPU Kernels for Local AI",
@@ -136,7 +158,7 @@
       "impact": 75
     },
     {
-      "id": "marktechpost-1788219806000-2",
+      "id": "marktechpost-1788219806000-3",
       "type": "live",
       "category": "research",
       "title": "Keenable AI Open-Sources NEEDLE: A Live Search Benchmark That Rebuilds Its Query Set Every Hour",
@@ -147,18 +169,7 @@
       "impact": 65
     },
     {
-      "id": "marktechpost-1788211216000-3",
-      "type": "live",
-      "category": "llm",
-      "title": "Google AI Releases TimesFM-3: A 330M Parameter Zero-Shot Foundation Model For Multivariate Time Series Forecasting",
-      "excerpt": "Google Research has released TimesFM-3, a 330 million parameter time series foundation model that forecasts multiple related series in a single forward pass.  Unlike every TimesFM checkpoint through 2",
-      "source": "MarkTechPost",
-      "url": "https://www.marktechpost.com/2026/08/31/google-ai-releases-timesfm-3-a-330m-parameter-zero-shot-foundation-model-for-multivariate-time-series-forecasting/",
-      "publishedAt": "2026-08-31T21:20:16.000Z",
-      "impact": 65
-    },
-    {
-      "id": "hugging-face-1787875200000-1",
+      "id": "hugging-face-1787875200000-2",
       "type": "live",
       "category": "research",
       "title": "The Open ASR Leaderboard Adds Its First Global South Language",
@@ -166,17 +177,6 @@
       "source": "Hugging Face",
       "url": "https://huggingface.co/blog/open-asr-leaderboard-global-south",
       "publishedAt": "2026-08-28T00:00:00.000Z",
-      "impact": 75
-    },
-    {
-      "id": "hugging-face-1787702400000-2",
-      "type": "live",
-      "category": "llm",
-      "title": "Training and Finetuning Multi-Vector Embedding Models with Sentence Transformers",
-      "excerpt": "New development from the frontier.",
-      "source": "Hugging Face",
-      "url": "https://huggingface.co/blog/train-multi-vector-encoder",
-      "publishedAt": "2026-08-26T00:00:00.000Z",
       "impact": 75
     }
   ]

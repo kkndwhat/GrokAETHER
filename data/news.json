@@ -1,8 +1,19 @@
 {
-  "lastUpdated": "2026-09-02T03:56:58.031Z",
+  "lastUpdated": "2026-09-02T16:21:23.740Z",
   "source": "AETHER + Public RSS (arXiv, Hugging Face, MarkTechPost, Ben's Bites)",
   "count": 16,
   "articles": [
+    {
+      "id": "hugging-face-1788356954000-0",
+      "type": "live",
+      "category": "llm",
+      "title": "Real-Time Intelligence with IBM Time Series Models on Confluent",
+      "excerpt": "New development from the frontier.",
+      "source": "Hugging Face",
+      "url": "https://huggingface.co/blog/ibm-research/real-time-intelligence",
+      "publishedAt": "2026-09-02T13:49:14.000Z",
+      "impact": 75
+    },
     {
       "id": "aether-grok43",
       "type": "premium",
@@ -11,11 +22,132 @@
       "excerpt": "New model demonstrates 4.2× improvement on multi-step software engineering benchmarks and sustains coherent agent trajectories beyond 110k tokens.",
       "source": "xAI",
       "url": "https://x.ai/blog/grok-4.3",
-      "publishedAt": "2026-09-01T22:56:57.080Z",
+      "publishedAt": "2026-09-02T11:21:22.451Z",
       "impact": 96
     },
     {
-      "id": "hugging-face-1788298747000-0",
+      "id": "marktechpost-1788334698000-0",
+      "type": "live",
+      "category": "research",
+      "title": "Anthropic Introduces Enterprise Frontier Safeguards (EFS): Zero-Data-Retention Privacy Plus Cross-Session Misuse Detection",
+      "excerpt": "Anthropic announced Enterprise Frontier Safeguards on September 1, 2026, an architecture that stores monitoring data in the customer's own cloud account rather than Anthropic's.  Detection stays automated and Anthropi...",
+      "source": "MarkTechPost",
+      "url": "https://www.marktechpost.com/2026/09/02/anthropic-enterprise-frontier-safeguards-efs/",
+      "publishedAt": "2026-09-02T07:38:18.000Z",
+      "impact": 83
+    },
+    {
+      "id": "aether-figure03",
+      "type": "premium",
+      "category": "robotics",
+      "title": "Figure 03 completes 43-hour autonomous factory shift with zero interventions",
+      "excerpt": "Humanoid achieves new milestone in unsupervised operation, performing 1,240 unique tasks across three assembly lines at the BMW South Carolina plant.",
+      "source": "Figure AI",
+      "url": "https://figure.ai/news/03-milestone",
+      "publishedAt": "2026-09-02T07:21:22.452Z",
+      "impact": 89
+    },
+    {
+      "id": "marktechpost-1788327432000-1",
+      "type": "live",
+      "category": "llm",
+      "title": "Meta Superintelligence Labs Releases Muse Voice Transcribe: One Real-Time Model for Streaming ASR, Diarization, and Endpointing",
+      "excerpt": "Most production voice stacks are three systems stitched together.  One model transcribes, a second separates speakers, and a detector decides when the user stopped talking",
+      "source": "MarkTechPost",
+      "url": "https://www.marktechpost.com/2026/09/01/meta-superintelligence-labs-releases-muse-voice-transcribe-one-real-time-model-for-streaming-asr-diarization-and-endpointing/",
+      "publishedAt": "2026-09-02T05:37:12.000Z",
+      "impact": 65
+    },
+    {
+      "id": "marktechpost-1788325920000-2",
+      "type": "live",
+      "category": "llm",
+      "title": "Perplexity Releases Hybrid Compute on Mac: Cloud Agents Orchestrate Down to a Local Model, Gated On Device",
+      "excerpt": "Agentic assistants have a structural problem: the context that makes them useful — deal documents, privileged files, client records — is exactly the context users cannot send to a cloud endpoint.  This week, Perplexit...",
+      "source": "MarkTechPost",
+      "url": "https://www.marktechpost.com/2026/09/01/perplexity-releases-hybrid-compute-on-mac-cloud-agents-orchestrate-down-to-a-local-model-gated-on-device/",
+      "publishedAt": "2026-09-02T05:12:00.000Z",
+      "impact": 77
+    },
+    {
+      "id": "arxiv-cs.ai-1788321600000-0",
+      "type": "live",
+      "category": "llm",
+      "title": "HyperWorld: Hypergraph-Structured State Serialization Improves Learned Textual World Models",
+      "excerpt": "00002v1 Announce Type: new Abstract: World models enable language-model agents to predict environment dynamics and plan before acting.  In text environments, the model must learn symbolic action effects from serialize...",
+      "source": "arXiv cs.AI",
+      "url": "https://arxiv.org/abs/2609.00002",
+      "publishedAt": "2026-09-02T04:00:00.000Z",
+      "impact": 58
+    },
+    {
+      "id": "arxiv-cs.ai-1788321600000-1",
+      "type": "live",
+      "category": "multimodal",
+      "title": "I-CARE: Analysis of interference-related phenomena in a controllable, diverse and representative unlearning setting for text-to-image models",
+      "excerpt": "00003v1 Announce Type: new Abstract: Machine unlearning studies the removal of knowledge from an AI model, making the system forget a concept it previously learned.  Despite rapid progress in generative machine unlear...",
+      "source": "arXiv cs.AI",
+      "url": "https://arxiv.org/abs/2609.00003",
+      "publishedAt": "2026-09-02T04:00:00.000Z",
+      "impact": 58
+    },
+    {
+      "id": "arxiv-cs.ai-1788321600000-2",
+      "type": "live",
+      "category": "hardware",
+      "title": "Discrete-Time MDP Modeling for Multi-Item Capacitated Lot Sizing with Stochastic Demand Timing",
+      "excerpt": "00004v1 Announce Type: new Abstract: This paper studies a finite-horizon multi-item capacitated lot-sizing problem in which demand quantities are deterministic, while demand-arrival periods are stochastic.  Each deman...",
+      "source": "arXiv cs.AI",
+      "url": "https://arxiv.org/abs/2609.00004",
+      "publishedAt": "2026-09-02T04:00:00.000Z",
+      "impact": 58
+    },
+    {
+      "id": "arxiv-cs.ai-1788321600000-3",
+      "type": "live",
+      "category": "safety",
+      "title": "Incremental Risk Assessment of Progressive Elder Financial Scams via Instruction-Tuned Small Language Models",
+      "excerpt": "00005v1 Announce Type: new Abstract: Financial scams targeting older adults increasingly occur through text and voice channels such as email, SMS, and phone calls, unfolding over multiple conversational turns that beg...",
+      "source": "arXiv cs.AI",
+      "url": "https://arxiv.org/abs/2609.00005",
+      "publishedAt": "2026-09-02T04:00:00.000Z",
+      "impact": 58
+    },
+    {
+      "id": "arxiv-cs.ai-1788321600000-4",
+      "type": "live",
+      "category": "safety",
+      "title": "Long-Horizon State Tracking in LLMs: Executing MD5 through a Deep Sequence of Dependent Tool Calls",
+      "excerpt": "00012v1 Announce Type: new Abstract: Long-horizon tasks remain uncommon in large language model (LLM) evaluation, and for a reason: when each step depends on the last, per-step accuracy that looks excellent in isolati...",
+      "source": "arXiv cs.AI",
+      "url": "https://arxiv.org/abs/2609.00012",
+      "publishedAt": "2026-09-02T04:00:00.000Z",
+      "impact": 69
+    },
+    {
+      "id": "arxiv-cs.ai-1788321600000-5",
+      "type": "live",
+      "category": "safety",
+      "title": "OpenAgentFlow: Enabling System-Wide Safety Boundaries for Heterogeneous AI Agent Fleets",
+      "excerpt": "00015v1 Announce Type: new Abstract: AI agents powered by large language models are evolving from isolated assistants into heterogeneous systems in which multiple agents, planners, controllers, and execution backends ...",
+      "source": "arXiv cs.AI",
+      "url": "https://arxiv.org/abs/2609.00015",
+      "publishedAt": "2026-09-02T04:00:00.000Z",
+      "impact": 69
+    },
+    {
+      "id": "aether-interp",
+      "type": "premium",
+      "category": "safety",
+      "title": "Anthropic publishes unprecedented mechanistic interpretability map of Claude 4",
+      "excerpt": "Researchers reverse-engineered 312 million features inside the model, including the first clear \"deception circuit\" discovered in a frontier model.",
+      "source": "Anthropic",
+      "url": "https://anthropic.com/research/claude-4-interp",
+      "publishedAt": "2026-09-02T02:21:22.452Z",
+      "impact": 91
+    },
+    {
+      "id": "hugging-face-1788298747000-1",
       "type": "live",
       "category": "llm",
       "title": "BenchMIRT: What are LLM benchmarks actually measuring?",
@@ -26,7 +158,7 @@
       "impact": 75
     },
     {
-      "id": "marktechpost-1788294621000-0",
+      "id": "marktechpost-1788294621000-3",
       "type": "live",
       "category": "llm",
       "title": "Anthropic Releases Claude Fable 5.1 and Claude Mythos 5.1: 52.6% on Terminal-Bench-Science and 75% Cheaper Cache Reads",
@@ -37,117 +169,7 @@
       "impact": 65
     },
     {
-      "id": "aether-figure03",
-      "type": "premium",
-      "category": "robotics",
-      "title": "Figure 03 completes 43-hour autonomous factory shift with zero interventions",
-      "excerpt": "Humanoid achieves new milestone in unsupervised operation, performing 1,240 unique tasks across three assembly lines at the BMW South Carolina plant.",
-      "source": "Figure AI",
-      "url": "https://figure.ai/news/03-milestone",
-      "publishedAt": "2026-09-01T18:56:57.080Z",
-      "impact": 89
-    },
-    {
-      "id": "marktechpost-1788278054000-1",
-      "type": "live",
-      "category": "llm",
-      "title": "Researchers from Princeton, Ant Group and Stanford Introduce AQuA: A Two-Part Agentic Framework for Autonomous Factor Discovery and Model Development in Quantitative Finance",
-      "excerpt": "Quantitative research agents that write their own experiments can corrupt the evidence they later learn from.  A leaky feature that scores well gets stored as a successful precedent and propagated through later iterat...",
-      "source": "MarkTechPost",
-      "url": "https://www.marktechpost.com/2026/09/01/aqua-a-two-part-agentic-framework-for-autonomous-factor-discovery/",
-      "publishedAt": "2026-09-01T15:54:14.000Z",
-      "impact": 77
-    },
-    {
-      "id": "aether-interp",
-      "type": "premium",
-      "category": "safety",
-      "title": "Anthropic publishes unprecedented mechanistic interpretability map of Claude 4",
-      "excerpt": "Researchers reverse-engineered 312 million features inside the model, including the first clear \"deception circuit\" discovered in a frontier model.",
-      "source": "Anthropic",
-      "url": "https://anthropic.com/research/claude-4-interp",
-      "publishedAt": "2026-09-01T13:56:57.080Z",
-      "impact": 91
-    },
-    {
-      "id": "arxiv-cs.ai-1788235200000-0",
-      "type": "live",
-      "category": "llm",
-      "title": "DS-Lighting: Making Agent Harnesses Explicit for Data-Science Automation",
-      "excerpt": "28590v1 Announce Type: new Abstract: Large Language Model (LLM) agents have shown promise for automating data-science workflows, yet their end-to-end performance depends critically on the agent harness that represents...",
-      "source": "arXiv cs.AI",
-      "url": "https://arxiv.org/abs/2608.28590",
-      "publishedAt": "2026-09-01T04:00:00.000Z",
-      "impact": 69
-    },
-    {
-      "id": "arxiv-cs.ai-1788235200000-1",
-      "type": "live",
-      "category": "multimodal",
-      "title": "Expert-validated STEM QA",
-      "excerpt": "28591v1 Announce Type: new Abstract: Recent advancements in AI are helping scientists achieve breakthroughs in fields such as mathematics, medicine, and materials sciences.  New evaluation datasets for AI models contr...",
-      "source": "arXiv cs.AI",
-      "url": "https://arxiv.org/abs/2608.28591",
-      "publishedAt": "2026-09-01T04:00:00.000Z",
-      "impact": 58
-    },
-    {
-      "id": "arxiv-cs.ai-1788235200000-2",
-      "type": "live",
-      "category": "llm",
-      "title": "A collective capability boundary in frontier large language models on guideline-conformant and case-specific oncology decision-making",
-      "excerpt": "28592v1 Announce Type: new Abstract: Large language models (LLMs) achieve high scores on medical knowledge examinations, yet real-world oncology is not a knowledge test--it is a sequence of guideline-pathway choices, ...",
-      "source": "arXiv cs.AI",
-      "url": "https://arxiv.org/abs/2608.28592",
-      "publishedAt": "2026-09-01T04:00:00.000Z",
-      "impact": 75
-    },
-    {
-      "id": "arxiv-cs.ai-1788235200000-3",
-      "type": "live",
-      "category": "safety",
-      "title": "Statutory AI: Aligning Large Language Models With Legal Norms",
-      "excerpt": "28593v1 Announce Type: new Abstract: With the increasing development of AI regulatory frameworks, ensuring that artificial intelligence systems, particularly generative models, operate in accordance with legal and eth...",
-      "source": "arXiv cs.AI",
-      "url": "https://arxiv.org/abs/2608.28593",
-      "publishedAt": "2026-09-01T04:00:00.000Z",
-      "impact": 58
-    },
-    {
-      "id": "arxiv-cs.ai-1788235200000-4",
-      "type": "live",
-      "category": "llm",
-      "title": "From Question-First to Analyst-First: Domain-Expert Skills and Verified Knowledge Compilation for Proactive Enterprise Analytics",
-      "excerpt": "28594v1 Announce Type: new Abstract: Conversational analytics systems assume the user already has a well-formed question, leaving a non-expert facing a blank query box on an unfamiliar enterprise schema.  Commercial '...",
-      "source": "arXiv cs.AI",
-      "url": "https://arxiv.org/abs/2608.28594",
-      "publishedAt": "2026-09-01T04:00:00.000Z",
-      "impact": 58
-    },
-    {
-      "id": "arxiv-cs.ai-1788235200000-5",
-      "type": "live",
-      "category": "safety",
-      "title": "The Signal in the Noise: An Auditable Reliability Layer for Biomedical Text Classification",
-      "excerpt": "28595v1 Announce Type: new Abstract: Biomedical NLP pipelines routinely presuppose clean input text, yet large-scale corpora assembled through automated PDF parsing harbour pervasive OCR-like artifacts, token splits a...",
-      "source": "arXiv cs.AI",
-      "url": "https://arxiv.org/abs/2608.28595",
-      "publishedAt": "2026-09-01T04:00:00.000Z",
-      "impact": 58
-    },
-    {
-      "id": "marktechpost-1788233945000-2",
-      "type": "live",
-      "category": "multimodal",
-      "title": "Gradium AI Releases New Default TTS Model: 81.0% Hard-Case Pass Rate at 216 ms Time-to-First-Audio",
-      "excerpt": "Speed and accuracy usually pull against each other in text-to-speech.  Gradium AI's new default model reports both: an 81",
-      "source": "MarkTechPost",
-      "url": "https://www.marktechpost.com/2026/08/31/gradium-ai-releases-new-default-tts-model-81-0-hard-case-pass-rate-at-216-ms-time-to-first-audio/",
-      "publishedAt": "2026-09-01T03:39:05.000Z",
-      "impact": 65
-    },
-    {
-      "id": "hugging-face-1788220800000-1",
+      "id": "hugging-face-1788220800000-2",
       "type": "live",
       "category": "hardware",
       "title": "Introducing @huggingface/kernels: 200+ WebGPU Kernels for Local AI",
@@ -155,28 +177,6 @@
       "source": "Hugging Face",
       "url": "https://huggingface.co/blog/webgpu-kernels",
       "publishedAt": "2026-09-01T00:00:00.000Z",
-      "impact": 75
-    },
-    {
-      "id": "marktechpost-1788219806000-3",
-      "type": "live",
-      "category": "research",
-      "title": "Keenable AI Open-Sources NEEDLE: A Live Search Benchmark That Rebuilds Its Query Set Every Hour",
-      "excerpt": "How do you benchmark a web search API when the thing being tested can read the answer key.  A search agent has a fetch tool",
-      "source": "MarkTechPost",
-      "url": "https://www.marktechpost.com/2026/08/31/keenable-ai-open-sources-needle-a-live-search-benchmark-that-rebuilds-its-query-set-every-hour/",
-      "publishedAt": "2026-08-31T23:43:26.000Z",
-      "impact": 65
-    },
-    {
-      "id": "hugging-face-1787875200000-2",
-      "type": "live",
-      "category": "research",
-      "title": "The Open ASR Leaderboard Adds Its First Global South Language",
-      "excerpt": "New development from the frontier.",
-      "source": "Hugging Face",
-      "url": "https://huggingface.co/blog/open-asr-leaderboard-global-south",
-      "publishedAt": "2026-08-28T00:00:00.000Z",
       "impact": 75
     }
   ]

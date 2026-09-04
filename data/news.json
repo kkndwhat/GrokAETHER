@@ -1,8 +1,74 @@
 {
-  "lastUpdated": "2026-09-03T20:49:19.308Z",
+  "lastUpdated": "2026-09-04T04:04:59.190Z",
   "source": "AETHER + Public RSS (arXiv, Hugging Face, MarkTechPost, Ben's Bites)",
   "count": 12,
   "articles": [
+    {
+      "id": "arxiv-cs.ai-1788494400000-0",
+      "type": "live",
+      "category": "research",
+      "title": "Structure and Implementation of New Practical English Textbooks Driven by Artificial Intelligence",
+      "excerpt": "02981v1 Announce Type: new Abstract: Artificial intelligence is changing the form of applied English materials from fixed paper sequences to adaptive learning systems that can diagnose learners, recommend tasks, and p...",
+      "source": "arXiv cs.AI",
+      "url": "https://arxiv.org/abs/2609.02981",
+      "publishedAt": "2026-09-04T04:00:00.000Z",
+      "impact": 58
+    },
+    {
+      "id": "arxiv-cs.ai-1788494400000-1",
+      "type": "live",
+      "category": "safety",
+      "title": "MasterControl Seventeen Every Time",
+      "excerpt": "03209v1 Announce Type: new Abstract: We study a governed approach to enterprise analytics: a language model interprets the question, while deterministic policy selects and runs a pre-approved analytical program that r...",
+      "source": "arXiv cs.AI",
+      "url": "https://arxiv.org/abs/2609.03209",
+      "publishedAt": "2026-09-04T04:00:00.000Z",
+      "impact": 58
+    },
+    {
+      "id": "arxiv-cs.ai-1788494400000-2",
+      "type": "live",
+      "category": "llm",
+      "title": "Speculative Macro Commit for Faster Tool-Using Agents",
+      "excerpt": "03236v1 Announce Type: new Abstract: Tool-using LLM agents spend wall-clock time not only on model inference but also in serial action--observation turns, where each tool call, environment transition, and observation ...",
+      "source": "arXiv cs.AI",
+      "url": "https://arxiv.org/abs/2609.03236",
+      "publishedAt": "2026-09-04T04:00:00.000Z",
+      "impact": 69
+    },
+    {
+      "id": "arxiv-cs.ai-1788494400000-3",
+      "type": "live",
+      "category": "safety",
+      "title": "Fresh Memory, Stale Plans: Dependency-Scoped Validation for Distributed LLM-Agent Memory",
+      "excerpt": "03340v1 Announce Type: new Abstract: Distributed LLM-agent teams can read the latest shared facts and still act on an obsolete plan.  A planner may derive an action from requirement $r_3$, another agent may commit $r_...",
+      "source": "arXiv cs.AI",
+      "url": "https://arxiv.org/abs/2609.03340",
+      "publishedAt": "2026-09-04T04:00:00.000Z",
+      "impact": 69
+    },
+    {
+      "id": "arxiv-cs.ai-1788494400000-4",
+      "type": "live",
+      "category": "llm",
+      "title": "A Prompt-Engineering Approach to Develop Scalable, Flexible, and Real-Time Hybrid Micro-Level Personalization in a General Purpose AI Teaching Assistant",
+      "excerpt": "03402v1 Announce Type: new Abstract: Artificial intelligence (AI) teaching assistants powered by large language models (LLMs) offer scalable educational support but often provide limited personalization.  This study p...",
+      "source": "arXiv cs.AI",
+      "url": "https://arxiv.org/abs/2609.03402",
+      "publishedAt": "2026-09-04T04:00:00.000Z",
+      "impact": 58
+    },
+    {
+      "id": "arxiv-cs.ai-1788494400000-5",
+      "type": "live",
+      "category": "safety",
+      "title": "Caught in the Story: Narrative Captivity in Multi-turn LLMs Conversation",
+      "excerpt": "03407v1 Announce Type: new Abstract: People increasingly turn to large language models (LLMs) for everyday advice, making ethically charged interpersonal problems a practical moral-advisory context.  Most prior work h...",
+      "source": "arXiv cs.AI",
+      "url": "https://arxiv.org/abs/2609.03407",
+      "publishedAt": "2026-09-04T04:00:00.000Z",
+      "impact": 58
+    },
     {
       "id": "aether-grok43",
       "type": "premium",
@@ -11,8 +77,30 @@
       "excerpt": "New model demonstrates 4.2× improvement on multi-step software engineering benchmarks and sustains coherent agent trajectories beyond 110k tokens.",
       "source": "xAI",
       "url": "https://x.ai/blog/grok-4.3",
-      "publishedAt": "2026-09-03T15:49:18.778Z",
+      "publishedAt": "2026-09-03T23:04:58.898Z",
       "impact": 96
+    },
+    {
+      "id": "aether-figure03",
+      "type": "premium",
+      "category": "robotics",
+      "title": "Figure 03 completes 43-hour autonomous factory shift with zero interventions",
+      "excerpt": "Humanoid achieves new milestone in unsupervised operation, performing 1,240 unique tasks across three assembly lines at the BMW South Carolina plant.",
+      "source": "Figure AI",
+      "url": "https://figure.ai/news/03-milestone",
+      "publishedAt": "2026-09-03T19:04:58.898Z",
+      "impact": 89
+    },
+    {
+      "id": "aether-interp",
+      "type": "premium",
+      "category": "safety",
+      "title": "Anthropic publishes unprecedented mechanistic interpretability map of Claude 4",
+      "excerpt": "Researchers reverse-engineered 312 million features inside the model, including the first clear \"deception circuit\" discovered in a frontier model.",
+      "source": "Anthropic",
+      "url": "https://anthropic.com/research/claude-4-interp",
+      "publishedAt": "2026-09-03T14:04:58.898Z",
+      "impact": 91
     },
     {
       "id": "hugging-face-1788441228000-0",
@@ -24,94 +112,6 @@
       "url": "https://huggingface.co/blog/Hcompany/neomme",
       "publishedAt": "2026-09-03T13:13:48.000Z",
       "impact": 75
-    },
-    {
-      "id": "aether-figure03",
-      "type": "premium",
-      "category": "robotics",
-      "title": "Figure 03 completes 43-hour autonomous factory shift with zero interventions",
-      "excerpt": "Humanoid achieves new milestone in unsupervised operation, performing 1,240 unique tasks across three assembly lines at the BMW South Carolina plant.",
-      "source": "Figure AI",
-      "url": "https://figure.ai/news/03-milestone",
-      "publishedAt": "2026-09-03T11:49:18.778Z",
-      "impact": 89
-    },
-    {
-      "id": "aether-interp",
-      "type": "premium",
-      "category": "safety",
-      "title": "Anthropic publishes unprecedented mechanistic interpretability map of Claude 4",
-      "excerpt": "Researchers reverse-engineered 312 million features inside the model, including the first clear \"deception circuit\" discovered in a frontier model.",
-      "source": "Anthropic",
-      "url": "https://anthropic.com/research/claude-4-interp",
-      "publishedAt": "2026-09-03T06:49:18.778Z",
-      "impact": 91
-    },
-    {
-      "id": "arxiv-cs.ai-1788408000000-0",
-      "type": "live",
-      "category": "safety",
-      "title": "EvalDetectBench: A Benchmark for Measuring Evaluation Awareness in Frontier Language Models",
-      "excerpt": "01611v1 Announce Type: new Abstract: Frontier large language models can often recognize when they are being evaluated, a capability known as evaluation awareness.  If models behave differently in evaluations than in d...",
-      "source": "arXiv cs.AI",
-      "url": "https://arxiv.org/abs/2609.01611",
-      "publishedAt": "2026-09-03T04:00:00.000Z",
-      "impact": 75
-    },
-    {
-      "id": "arxiv-cs.ai-1788408000000-1",
-      "type": "live",
-      "category": "robotics",
-      "title": "Meta-ethics and AI: exploring the novel meta-ethical questions in the era of AI",
-      "excerpt": "01685v1 Announce Type: new Abstract: With the development of artificial intelligence (AI), the landscape of meta-ethics, which has largely centred on human ethics, faces pressures that may significantly reconfigure it...",
-      "source": "arXiv cs.AI",
-      "url": "https://arxiv.org/abs/2609.01685",
-      "publishedAt": "2026-09-03T04:00:00.000Z",
-      "impact": 58
-    },
-    {
-      "id": "arxiv-cs.ai-1788408000000-2",
-      "type": "live",
-      "category": "llm",
-      "title": "When Can a Machine Trust a Statute? A Survival Certificate for Machine-Extracted Legal Logic",
-      "excerpt": "01741v1 Announce Type: new Abstract: Statutes are increasingly parsed by machines before people read them, and the parsers disagree: on Missouri's statutes, two independently written extractors diverge on numeric-thre...",
-      "source": "arXiv cs.AI",
-      "url": "https://arxiv.org/abs/2609.01741",
-      "publishedAt": "2026-09-03T04:00:00.000Z",
-      "impact": 58
-    },
-    {
-      "id": "arxiv-cs.ai-1788408000000-3",
-      "type": "live",
-      "category": "llm",
-      "title": "When Does Information Sharing Improve Decentralized Discovery? Aggregation, Independent Rescue, and Equilibrium Selection",
-      "excerpt": "01814v1 Announce Type: new Abstract: Information sharing can improve a pooled estimate while eliminating independent rescue actions.  This paper separates those effects in exact finite discovery models",
-      "source": "arXiv cs.AI",
-      "url": "https://arxiv.org/abs/2609.01814",
-      "publishedAt": "2026-09-03T04:00:00.000Z",
-      "impact": 58
-    },
-    {
-      "id": "arxiv-cs.ai-1788408000000-4",
-      "type": "live",
-      "category": "llm",
-      "title": "Induction and Inquiry via Probabilistic Reasoning over Language and Code",
-      "excerpt": "01815v1 Announce Type: new Abstract: How humans grow and maintain abstract knowledge from the sparse, streaming noisy data of experience is a longstanding challenge in cognitive science.  Any computational account mus...",
-      "source": "arXiv cs.AI",
-      "url": "https://arxiv.org/abs/2609.01815",
-      "publishedAt": "2026-09-03T04:00:00.000Z",
-      "impact": 58
-    },
-    {
-      "id": "arxiv-cs.ai-1788408000000-5",
-      "type": "live",
-      "category": "llm",
-      "title": "Architecting Conversational Data Systems for Stateless LLM APIs: The Hydration Proxy Pattern",
-      "excerpt": "01834v1 Announce Type: new Abstract: As enterprise platforms transition to conversational reasoning interfaces, the stateless nature of LLM APIs creates an architectural gap.  While statelessness enables horizontal sc...",
-      "source": "arXiv cs.AI",
-      "url": "https://arxiv.org/abs/2609.01834",
-      "publishedAt": "2026-09-03T04:00:00.000Z",
-      "impact": 58
     },
     {
       "id": "hugging-face-1788393600000-1",

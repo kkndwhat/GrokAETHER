@@ -1,8 +1,30 @@
 {
-  "lastUpdated": "2026-09-07T12:07:12.614Z",
+  "lastUpdated": "2026-09-07T21:22:18.874Z",
   "source": "AETHER + Public RSS (arXiv, Hugging Face, MarkTechPost, Ben's Bites)",
   "count": 16,
   "articles": [
+    {
+      "id": "marktechpost-1788808687000-0",
+      "type": "live",
+      "category": "llm",
+      "title": "OpenBMB Releases MiniCPM5-2B: A 2.52B Dense Model Averaging 53.9 Across 34 Benchmarks and Built to Run On Device",
+      "excerpt": "OpenBMB has released MiniCPM5-2B, a dense causal language model with 2,516,756,480 parameters and a native 131,072 token context. 9 across the 34 benchmarks in its model card, ahead of Qwen3",
+      "source": "MarkTechPost",
+      "url": "https://www.marktechpost.com/2026/09/07/openbmb-releases-minicpm5-2b-a-2-52b-dense-model-averaging-53-9-across-34-benchmarks-and-built-to-run-on-device/",
+      "publishedAt": "2026-09-07T19:18:07.000Z",
+      "impact": 65
+    },
+    {
+      "id": "marktechpost-1788806327000-1",
+      "type": "live",
+      "category": "robotics",
+      "title": "Axis Robotics Releases AXIS: A Browser-Based Data Engine With 207 Robot Manipulation Tasks and 50,129 Trajectories",
+      "excerpt": "Robot datasets have grown far slower than the models trained on them, mostly because collection stays locked to lab hardware.  AXIS moves demonstration collection into a web browser and pushes everything expensive to ...",
+      "source": "MarkTechPost",
+      "url": "https://www.marktechpost.com/2026/09/07/axis-robotics-releases-axis-a-browser-based-data-engine-with-207-robot-manipulation-tasks-and-50129-trajectories/",
+      "publishedAt": "2026-09-07T18:38:47.000Z",
+      "impact": 65
+    },
     {
       "id": "aether-grok43",
       "type": "premium",
@@ -11,11 +33,33 @@
       "excerpt": "New model demonstrates 4.2× improvement on multi-step software engineering benchmarks and sustains coherent agent trajectories beyond 110k tokens.",
       "source": "xAI",
       "url": "https://x.ai/blog/grok-4.3",
-      "publishedAt": "2026-09-07T07:07:11.484Z",
+      "publishedAt": "2026-09-07T16:22:17.799Z",
       "impact": 96
     },
     {
-      "id": "marktechpost-1788757237000-0",
+      "id": "aether-figure03",
+      "type": "premium",
+      "category": "robotics",
+      "title": "Figure 03 completes 43-hour autonomous factory shift with zero interventions",
+      "excerpt": "Humanoid achieves new milestone in unsupervised operation, performing 1,240 unique tasks across three assembly lines at the BMW South Carolina plant.",
+      "source": "Figure AI",
+      "url": "https://figure.ai/news/03-milestone",
+      "publishedAt": "2026-09-07T12:22:17.799Z",
+      "impact": 89
+    },
+    {
+      "id": "aether-interp",
+      "type": "premium",
+      "category": "safety",
+      "title": "Anthropic publishes unprecedented mechanistic interpretability map of Claude 4",
+      "excerpt": "Researchers reverse-engineered 312 million features inside the model, including the first clear \"deception circuit\" discovered in a frontier model.",
+      "source": "Anthropic",
+      "url": "https://anthropic.com/research/claude-4-interp",
+      "publishedAt": "2026-09-07T07:22:17.799Z",
+      "impact": 91
+    },
+    {
+      "id": "marktechpost-1788757237000-2",
       "type": "live",
       "category": "llm",
       "title": "IFM Releases K2 Horizon: Six Apache 2.0 Models From 0.9B to 375B",
@@ -92,29 +136,7 @@
       "impact": 58
     },
     {
-      "id": "aether-figure03",
-      "type": "premium",
-      "category": "robotics",
-      "title": "Figure 03 completes 43-hour autonomous factory shift with zero interventions",
-      "excerpt": "Humanoid achieves new milestone in unsupervised operation, performing 1,240 unique tasks across three assembly lines at the BMW South Carolina plant.",
-      "source": "Figure AI",
-      "url": "https://figure.ai/news/03-milestone",
-      "publishedAt": "2026-09-07T03:07:11.484Z",
-      "impact": 89
-    },
-    {
-      "id": "aether-interp",
-      "type": "premium",
-      "category": "safety",
-      "title": "Anthropic publishes unprecedented mechanistic interpretability map of Claude 4",
-      "excerpt": "Researchers reverse-engineered 312 million features inside the model, including the first clear \"deception circuit\" discovered in a frontier model.",
-      "source": "Anthropic",
-      "url": "https://anthropic.com/research/claude-4-interp",
-      "publishedAt": "2026-09-06T22:07:11.484Z",
-      "impact": 91
-    },
-    {
-      "id": "marktechpost-1788728801000-1",
+      "id": "marktechpost-1788728801000-3",
       "type": "live",
       "category": "multimodal",
       "title": "H Company Releases NeoMME: A Family of 260M and 800M Single-Tower Multimodal Encoders That Drop the Vision Tower and Causal Decoder",
@@ -123,28 +145,6 @@
       "url": "https://www.marktechpost.com/2026/09/06/h-company-releases-neomme-a-family-of-260m-and-800m-single-tower-multimodal-encoders-that-drop-the-vision-tower-and-causal-decoder/",
       "publishedAt": "2026-09-06T21:06:41.000Z",
       "impact": 65
-    },
-    {
-      "id": "marktechpost-1788726317000-2",
-      "type": "live",
-      "category": "hardware",
-      "title": "Meta FAIR Introduces AI Research Preference Models (RPMs): Ranking ML Experiments Before Spending GPU Hours",
-      "excerpt": "AI research agents can propose far more experiments than they can afford to run.  Meta FAIR, Oxford and UCL introduce AI Research Preference Models — frozen LLM judges that rank 15 unexecuted candidates and execute on...",
-      "source": "MarkTechPost",
-      "url": "https://www.marktechpost.com/2026/09/06/meta-fair-introduces-ai-research-preference-models-rpms-ranking-ml-experiments-before-spending-gpu-hours/",
-      "publishedAt": "2026-09-06T20:25:17.000Z",
-      "impact": 65
-    },
-    {
-      "id": "marktechpost-1788675062000-3",
-      "type": "live",
-      "category": "research",
-      "title": "UC Berkeley Researchers Release CUA-Lite, an Open Platform Unifying Sandboxes, Data, Evaluation and RL for Computer-Use Agents",
-      "excerpt": "Training and benchmarking a computer-use agent needs four things — agents, environments, traces, and a framework to evaluate and train them — and all four ship in incompatible formats today.  CUA-Lite, from a UC Berke...",
-      "source": "MarkTechPost",
-      "url": "https://www.marktechpost.com/2026/09/05/uc-berkeley-researchers-release-cua-lite-an-open-platform-unifying-sandboxes-data-evaluation-and-rl-for-computer-use-agents/",
-      "publishedAt": "2026-09-06T06:11:02.000Z",
-      "impact": 77
     },
     {
       "id": "hugging-face-1788441228000-0",

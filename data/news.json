@@ -1,28 +1,17 @@
 {
-  "lastUpdated": "2026-09-07T21:22:18.874Z",
+  "lastUpdated": "2026-09-08T04:01:27.215Z",
   "source": "AETHER + Public RSS (arXiv, Hugging Face, MarkTechPost, Ben's Bites)",
-  "count": 16,
+  "count": 10,
   "articles": [
     {
-      "id": "marktechpost-1788808687000-0",
+      "id": "marktechpost-1788836835000-0",
       "type": "live",
       "category": "llm",
-      "title": "OpenBMB Releases MiniCPM5-2B: A 2.52B Dense Model Averaging 53.9 Across 34 Benchmarks and Built to Run On Device",
-      "excerpt": "OpenBMB has released MiniCPM5-2B, a dense causal language model with 2,516,756,480 parameters and a native 131,072 token context. 9 across the 34 benchmarks in its model card, ahead of Qwen3",
+      "title": "Reducto Releases r-1: A Single Pass Document Parsing Model That Cuts Errors 20% at 1 Cent Per Page",
+      "excerpt": "We look at r-1, the document parsing model Reducto released on September 1, 2026.  We walk through how it folds OCR, layout detection, tables, formatting and grounding into one full page pass, replacing the multi stag...",
       "source": "MarkTechPost",
-      "url": "https://www.marktechpost.com/2026/09/07/openbmb-releases-minicpm5-2b-a-2-52b-dense-model-averaging-53-9-across-34-benchmarks-and-built-to-run-on-device/",
-      "publishedAt": "2026-09-07T19:18:07.000Z",
-      "impact": 65
-    },
-    {
-      "id": "marktechpost-1788806327000-1",
-      "type": "live",
-      "category": "robotics",
-      "title": "Axis Robotics Releases AXIS: A Browser-Based Data Engine With 207 Robot Manipulation Tasks and 50,129 Trajectories",
-      "excerpt": "Robot datasets have grown far slower than the models trained on them, mostly because collection stays locked to lab hardware.  AXIS moves demonstration collection into a web browser and pushes everything expensive to ...",
-      "source": "MarkTechPost",
-      "url": "https://www.marktechpost.com/2026/09/07/axis-robotics-releases-axis-a-browser-based-data-engine-with-207-robot-manipulation-tasks-and-50129-trajectories/",
-      "publishedAt": "2026-09-07T18:38:47.000Z",
+      "url": "https://www.marktechpost.com/2026/09/07/reducto-releases-r-1-a-single-pass-document-parsing-model-that-cuts-errors-20-at-1-cent-per-page/",
+      "publishedAt": "2026-09-08T03:07:15.000Z",
       "impact": 65
     },
     {
@@ -33,8 +22,19 @@
       "excerpt": "New model demonstrates 4.2× improvement on multi-step software engineering benchmarks and sustains coherent agent trajectories beyond 110k tokens.",
       "source": "xAI",
       "url": "https://x.ai/blog/grok-4.3",
-      "publishedAt": "2026-09-07T16:22:17.799Z",
+      "publishedAt": "2026-09-07T23:01:26.147Z",
       "impact": 96
+    },
+    {
+      "id": "marktechpost-1788808687000-1",
+      "type": "live",
+      "category": "llm",
+      "title": "OpenBMB Releases MiniCPM5-2B: A 2.52B Dense Model Averaging 53.9 Across 34 Benchmarks and Built to Run On Device",
+      "excerpt": "OpenBMB has released MiniCPM5-2B, a dense causal language model with 2,516,756,480 parameters and a native 131,072 token context. 9 across the 34 benchmarks in its model card, ahead of Qwen3",
+      "source": "MarkTechPost",
+      "url": "https://www.marktechpost.com/2026/09/07/openbmb-releases-minicpm5-2b-a-2-52b-dense-model-averaging-53-9-across-34-benchmarks-and-built-to-run-on-device/",
+      "publishedAt": "2026-09-07T19:18:07.000Z",
+      "impact": 65
     },
     {
       "id": "aether-figure03",
@@ -44,8 +44,19 @@
       "excerpt": "Humanoid achieves new milestone in unsupervised operation, performing 1,240 unique tasks across three assembly lines at the BMW South Carolina plant.",
       "source": "Figure AI",
       "url": "https://figure.ai/news/03-milestone",
-      "publishedAt": "2026-09-07T12:22:17.799Z",
+      "publishedAt": "2026-09-07T19:01:26.147Z",
       "impact": 89
+    },
+    {
+      "id": "marktechpost-1788806327000-2",
+      "type": "live",
+      "category": "robotics",
+      "title": "Axis Robotics Releases AXIS: A Browser-Based Data Engine With 207 Robot Manipulation Tasks and 50,129 Trajectories",
+      "excerpt": "Robot datasets have grown far slower than the models trained on them, mostly because collection stays locked to lab hardware.  AXIS moves demonstration collection into a web browser and pushes everything expensive to ...",
+      "source": "MarkTechPost",
+      "url": "https://www.marktechpost.com/2026/09/07/axis-robotics-releases-axis-a-browser-based-data-engine-with-207-robot-manipulation-tasks-and-50129-trajectories/",
+      "publishedAt": "2026-09-07T18:38:47.000Z",
+      "impact": 65
     },
     {
       "id": "aether-interp",
@@ -55,11 +66,11 @@
       "excerpt": "Researchers reverse-engineered 312 million features inside the model, including the first clear \"deception circuit\" discovered in a frontier model.",
       "source": "Anthropic",
       "url": "https://anthropic.com/research/claude-4-interp",
-      "publishedAt": "2026-09-07T07:22:17.799Z",
+      "publishedAt": "2026-09-07T14:01:26.147Z",
       "impact": 91
     },
     {
-      "id": "marktechpost-1788757237000-2",
+      "id": "marktechpost-1788757237000-3",
       "type": "live",
       "category": "llm",
       "title": "IFM Releases K2 Horizon: Six Apache 2.0 Models From 0.9B to 375B",
@@ -67,83 +78,6 @@
       "source": "MarkTechPost",
       "url": "https://www.marktechpost.com/2026/09/06/ifm-releases-k2-horizon-six-apache-2-0-models-from-0-9b-to-375b/",
       "publishedAt": "2026-09-07T05:00:37.000Z",
-      "impact": 65
-    },
-    {
-      "id": "arxiv-cs.ai-1788753600000-0",
-      "type": "live",
-      "category": "llm",
-      "title": "EXAONE Forecast for Finance",
-      "excerpt": "04239v1 Announce Type: new Abstract: This technical report presents EXAONE Forecast for Finance (EXAONE Finance), a financial time series (TS) foundation model (TSFM) tailored to financial forecasting.  Recent TSFMs a...",
-      "source": "arXiv cs.AI",
-      "url": "https://arxiv.org/abs/2609.04239",
-      "publishedAt": "2026-09-07T04:00:00.000Z",
-      "impact": 58
-    },
-    {
-      "id": "arxiv-cs.ai-1788753600000-1",
-      "type": "live",
-      "category": "llm",
-      "title": "From Matching Models to Recruiting Agents: A Systematized Narrative Review of AI Recruitment Systems, Evaluation, and Governance",
-      "excerpt": "04286v1 Announce Type: new Abstract: Artificial intelligence in recruitment has shifted the object being automated from profile pairs and ranked lists to multi-stage workflows that retrieve evidence, compare candidate...",
-      "source": "arXiv cs.AI",
-      "url": "https://arxiv.org/abs/2609.04286",
-      "publishedAt": "2026-09-07T04:00:00.000Z",
-      "impact": 69
-    },
-    {
-      "id": "arxiv-cs.ai-1788753600000-2",
-      "type": "live",
-      "category": "llm",
-      "title": "Harbor Adapters and Harbor-Index: Infrastructure and a Curated Meta-Dataset for Large-Scale Agentic Evaluation",
-      "excerpt": "04298v1 Announce Type: new Abstract: Evaluating agents on the growing number of agentic benchmarks is challenging because they often require complex environments and agent integrations.  We introduce Harbor Adapters, ...",
-      "source": "arXiv cs.AI",
-      "url": "https://arxiv.org/abs/2609.04298",
-      "publishedAt": "2026-09-07T04:00:00.000Z",
-      "impact": 69
-    },
-    {
-      "id": "arxiv-cs.ai-1788753600000-3",
-      "type": "live",
-      "category": "safety",
-      "title": "Data-Optimized Contingency Screening: A Machine Learning Approach to Power System Security",
-      "excerpt": "04300v1 Announce Type: new Abstract: Ensuring the security of the power system is essential for stability and reliability, especially in the event of disruption.  Effective classification of contingency in power syste...",
-      "source": "arXiv cs.AI",
-      "url": "https://arxiv.org/abs/2609.04300",
-      "publishedAt": "2026-09-07T04:00:00.000Z",
-      "impact": 58
-    },
-    {
-      "id": "arxiv-cs.ai-1788753600000-4",
-      "type": "live",
-      "category": "llm",
-      "title": "Iris: Climbing to the Search Frontier",
-      "excerpt": "04304v1 Announce Type: new Abstract: We present Iris-mini and Iris-pro, two search agents trained at the 35B-A3B and 397B-A17B scales, together with the data pipeline and training recipe behind them.  Tasks are revers...",
-      "source": "arXiv cs.AI",
-      "url": "https://arxiv.org/abs/2609.04304",
-      "publishedAt": "2026-09-07T04:00:00.000Z",
-      "impact": 75
-    },
-    {
-      "id": "arxiv-cs.ai-1788753600000-5",
-      "type": "live",
-      "category": "safety",
-      "title": "A Removal Based Approach to Improve LLM Faithfulness at Test-Time",
-      "excerpt": "04343v1 Announce Type: new Abstract: Large language models (LLMs) are increasingly used for consequential decisions, making their explanations an important tool for auditing model behavior.  Unfortunately, these expla...",
-      "source": "arXiv cs.AI",
-      "url": "https://arxiv.org/abs/2609.04343",
-      "publishedAt": "2026-09-07T04:00:00.000Z",
-      "impact": 58
-    },
-    {
-      "id": "marktechpost-1788728801000-3",
-      "type": "live",
-      "category": "multimodal",
-      "title": "H Company Releases NeoMME: A Family of 260M and 800M Single-Tower Multimodal Encoders That Drop the Vision Tower and Causal Decoder",
-      "excerpt": "We look at NeoMME, a family of 260M and 800M bidirectional encoders from H Company.  Unlike ColPali-style retrievers, it processes multilingual text tokens and raw 32×32 image patches in a single Transformer, with no ...",
-      "source": "MarkTechPost",
-      "url": "https://www.marktechpost.com/2026/09/06/h-company-releases-neomme-a-family-of-260m-and-800m-single-tower-multimodal-encoders-that-drop-the-vision-tower-and-causal-decoder/",
-      "publishedAt": "2026-09-06T21:06:41.000Z",
       "impact": 65
     },
     {

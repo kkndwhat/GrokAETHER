@@ -1,8 +1,52 @@
 {
-  "lastUpdated": "2026-09-08T16:24:35.034Z",
+  "lastUpdated": "2026-09-09T04:08:32.294Z",
   "source": "AETHER + Public RSS (arXiv, Hugging Face, MarkTechPost, Ben's Bites)",
-  "count": 6,
+  "count": 10,
   "articles": [
+    {
+      "id": "aether-grok43",
+      "type": "premium",
+      "category": "llm",
+      "title": "xAI releases Grok-4.3 with native long-horizon agent scaffolding",
+      "excerpt": "New model demonstrates 4.2× improvement on multi-step software engineering benchmarks and sustains coherent agent trajectories beyond 110k tokens.",
+      "source": "xAI",
+      "url": "https://x.ai/blog/grok-4.3",
+      "publishedAt": "2026-09-08T23:08:30.974Z",
+      "impact": 96
+    },
+    {
+      "id": "marktechpost-1788897114000-0",
+      "type": "live",
+      "category": "hardware",
+      "title": "NVIDIA Announces CUDA Rust with cuda-oxide (SIMT) and cutile-rs (Tile) for Compile-Time-Safe GPU Kernels",
+      "excerpt": "NVIDIA has announced CUDA Rust, a push to make Rust a first-class language for GPU kernels.  Two open-source NVlabs projects cover the two CUDA programming models: cuda-oxide compiles SIMT kernels from Rust MIR throug...",
+      "source": "MarkTechPost",
+      "url": "https://www.marktechpost.com/2026/09/08/nvidia-announces-cuda-rust-with-cuda-oxide-simt-and-cutile-rs-tile-for-compile-time-safe-gpu-kernels/",
+      "publishedAt": "2026-09-08T19:51:54.000Z",
+      "impact": 65
+    },
+    {
+      "id": "aether-figure03",
+      "type": "premium",
+      "category": "robotics",
+      "title": "Figure 03 completes 43-hour autonomous factory shift with zero interventions",
+      "excerpt": "Humanoid achieves new milestone in unsupervised operation, performing 1,240 unique tasks across three assembly lines at the BMW South Carolina plant.",
+      "source": "Figure AI",
+      "url": "https://figure.ai/news/03-milestone",
+      "publishedAt": "2026-09-08T19:08:30.975Z",
+      "impact": 89
+    },
+    {
+      "id": "marktechpost-1788894009000-1",
+      "type": "live",
+      "category": "robotics",
+      "title": "Google DeepMind Releases AlphaGenome Atlas With Precomputed Molecular Effect Predictions and AVI Scores for 9 Billion Human DNA Variants",
+      "excerpt": "DeepMind's AlphaGenome Atlas maps every single-letter change in the human genome with 1 impact score per variant.  The post Google DeepMind Releases AlphaGenome Atlas With Precomputed Molecular Effect Predictions and ...",
+      "source": "MarkTechPost",
+      "url": "https://www.marktechpost.com/2026/09/08/google-deepmind-releases-alphagenome-atlas-with-precomputed-molecular-effect-predictions-and-avi-scores-for-9-billion-human-dna-variants/",
+      "publishedAt": "2026-09-08T19:00:09.000Z",
+      "impact": 65
+    },
     {
       "id": "hugging-face-1788877387000-0",
       "type": "live",
@@ -15,28 +59,6 @@
       "impact": 75
     },
     {
-      "id": "aether-grok43",
-      "type": "premium",
-      "category": "llm",
-      "title": "xAI releases Grok-4.3 with native long-horizon agent scaffolding",
-      "excerpt": "New model demonstrates 4.2× improvement on multi-step software engineering benchmarks and sustains coherent agent trajectories beyond 110k tokens.",
-      "source": "xAI",
-      "url": "https://x.ai/blog/grok-4.3",
-      "publishedAt": "2026-09-08T11:24:34.463Z",
-      "impact": 96
-    },
-    {
-      "id": "aether-figure03",
-      "type": "premium",
-      "category": "robotics",
-      "title": "Figure 03 completes 43-hour autonomous factory shift with zero interventions",
-      "excerpt": "Humanoid achieves new milestone in unsupervised operation, performing 1,240 unique tasks across three assembly lines at the BMW South Carolina plant.",
-      "source": "Figure AI",
-      "url": "https://figure.ai/news/03-milestone",
-      "publishedAt": "2026-09-08T07:24:34.463Z",
-      "impact": 89
-    },
-    {
       "id": "aether-interp",
       "type": "premium",
       "category": "safety",
@@ -44,8 +66,30 @@
       "excerpt": "Researchers reverse-engineered 312 million features inside the model, including the first clear \"deception circuit\" discovered in a frontier model.",
       "source": "Anthropic",
       "url": "https://anthropic.com/research/claude-4-interp",
-      "publishedAt": "2026-09-08T02:24:34.463Z",
+      "publishedAt": "2026-09-08T14:08:30.975Z",
       "impact": 91
+    },
+    {
+      "id": "marktechpost-1788836835000-2",
+      "type": "live",
+      "category": "llm",
+      "title": "Reducto Releases r-1: A Single Pass Document Parsing Model That Cuts Errors 20% at 1 Cent Per Page",
+      "excerpt": "We look at r-1, the document parsing model Reducto released on September 1, 2026.  We walk through how it folds OCR, layout detection, tables, formatting and grounding into one full page pass, replacing the multi stag...",
+      "source": "MarkTechPost",
+      "url": "https://www.marktechpost.com/2026/09/07/reducto-releases-r-1-a-single-pass-document-parsing-model-that-cuts-errors-20-at-1-cent-per-page/",
+      "publishedAt": "2026-09-08T03:07:15.000Z",
+      "impact": 65
+    },
+    {
+      "id": "marktechpost-1788808687000-3",
+      "type": "live",
+      "category": "llm",
+      "title": "OpenBMB Releases MiniCPM5-2B: A 2.52B Dense Model Averaging 53.9 Across 34 Benchmarks and Built to Run On Device",
+      "excerpt": "OpenBMB has released MiniCPM5-2B, a dense causal language model with 2,516,756,480 parameters and a native 131,072 token context. 9 across the 34 benchmarks in its model card, ahead of Qwen3",
+      "source": "MarkTechPost",
+      "url": "https://www.marktechpost.com/2026/09/07/openbmb-releases-minicpm5-2b-a-2-52b-dense-model-averaging-53-9-across-34-benchmarks-and-built-to-run-on-device/",
+      "publishedAt": "2026-09-07T19:18:07.000Z",
+      "impact": 65
     },
     {
       "id": "hugging-face-1788441228000-1",

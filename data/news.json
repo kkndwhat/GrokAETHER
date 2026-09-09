@@ -1,8 +1,19 @@
 {
-  "lastUpdated": "2026-09-09T04:08:32.294Z",
+  "lastUpdated": "2026-09-09T16:20:06.667Z",
   "source": "AETHER + Public RSS (arXiv, Hugging Face, MarkTechPost, Ben's Bites)",
-  "count": 10,
+  "count": 12,
   "articles": [
+    {
+      "id": "hugging-face-1788968184000-0",
+      "type": "live",
+      "category": "llm",
+      "title": "IBM releases SOTA Granite Time Series PatchTST-FM-r2 model with commercial-friendly license",
+      "excerpt": "New development from the frontier.",
+      "source": "Hugging Face",
+      "url": "https://huggingface.co/blog/ibm-research/ibm-releases-sota-granite-time-series",
+      "publishedAt": "2026-09-09T15:36:24.000Z",
+      "impact": 75
+    },
     {
       "id": "aether-grok43",
       "type": "premium",
@@ -11,19 +22,8 @@
       "excerpt": "New model demonstrates 4.2× improvement on multi-step software engineering benchmarks and sustains coherent agent trajectories beyond 110k tokens.",
       "source": "xAI",
       "url": "https://x.ai/blog/grok-4.3",
-      "publishedAt": "2026-09-08T23:08:30.974Z",
+      "publishedAt": "2026-09-09T11:20:06.215Z",
       "impact": 96
-    },
-    {
-      "id": "marktechpost-1788897114000-0",
-      "type": "live",
-      "category": "hardware",
-      "title": "NVIDIA Announces CUDA Rust with cuda-oxide (SIMT) and cutile-rs (Tile) for Compile-Time-Safe GPU Kernels",
-      "excerpt": "NVIDIA has announced CUDA Rust, a push to make Rust a first-class language for GPU kernels.  Two open-source NVlabs projects cover the two CUDA programming models: cuda-oxide compiles SIMT kernels from Rust MIR throug...",
-      "source": "MarkTechPost",
-      "url": "https://www.marktechpost.com/2026/09/08/nvidia-announces-cuda-rust-with-cuda-oxide-simt-and-cutile-rs-tile-for-compile-time-safe-gpu-kernels/",
-      "publishedAt": "2026-09-08T19:51:54.000Z",
-      "impact": 65
     },
     {
       "id": "aether-figure03",
@@ -33,22 +33,88 @@
       "excerpt": "Humanoid achieves new milestone in unsupervised operation, performing 1,240 unique tasks across three assembly lines at the BMW South Carolina plant.",
       "source": "Figure AI",
       "url": "https://figure.ai/news/03-milestone",
-      "publishedAt": "2026-09-08T19:08:30.975Z",
+      "publishedAt": "2026-09-09T07:20:06.215Z",
       "impact": 89
     },
     {
-      "id": "marktechpost-1788894009000-1",
+      "id": "arxiv-cs.ai-1788926400000-0",
       "type": "live",
-      "category": "robotics",
-      "title": "Google DeepMind Releases AlphaGenome Atlas With Precomputed Molecular Effect Predictions and AVI Scores for 9 Billion Human DNA Variants",
-      "excerpt": "DeepMind's AlphaGenome Atlas maps every single-letter change in the human genome with 1 impact score per variant.  The post Google DeepMind Releases AlphaGenome Atlas With Precomputed Molecular Effect Predictions and ...",
-      "source": "MarkTechPost",
-      "url": "https://www.marktechpost.com/2026/09/08/google-deepmind-releases-alphagenome-atlas-with-precomputed-molecular-effect-predictions-and-avi-scores-for-9-billion-human-dna-variants/",
-      "publishedAt": "2026-09-08T19:00:09.000Z",
-      "impact": 65
+      "category": "safety",
+      "title": "Beyond Right and Wrong: Evaluating Second-order Social Reasoning in Large Language Models",
+      "excerpt": "05437v1 Announce Type: new Abstract: Previous AI alignment efforts have focused primarily on first-order social norms -- teaching models what is socially acceptable or unacceptable (e.  However, social intelligence de...",
+      "source": "arXiv cs.AI",
+      "url": "https://arxiv.org/abs/2609.05437",
+      "publishedAt": "2026-09-09T04:00:00.000Z",
+      "impact": 58
     },
     {
-      "id": "hugging-face-1788877387000-0",
+      "id": "arxiv-cs.ai-1788926400000-1",
+      "type": "live",
+      "category": "llm",
+      "title": "CriticGen: Generation-Aware Evaluation as Actionable Feedback",
+      "excerpt": "05439v1 Announce Type: new Abstract: Current evaluation methods for large language models are coarse-grained and decoupled from generation, producing generic explanations that fail to provide actionable feedback for m...",
+      "source": "arXiv cs.AI",
+      "url": "https://arxiv.org/abs/2609.05439",
+      "publishedAt": "2026-09-09T04:00:00.000Z",
+      "impact": 58
+    },
+    {
+      "id": "arxiv-cs.ai-1788926400000-2",
+      "type": "live",
+      "category": "llm",
+      "title": "When Does Memory Help? A Cost-Aware Evaluation of Long-Term Memory in Tool-Using LLM Agents",
+      "excerpt": "05441v1 Announce Type: new Abstract: Long-term memory for LLM agents is evaluated today by conversational recall benchmarks (LoCoMo, LongMemEval), which measure question answering over dialogue history, not whether re...",
+      "source": "arXiv cs.AI",
+      "url": "https://arxiv.org/abs/2609.05441",
+      "publishedAt": "2026-09-09T04:00:00.000Z",
+      "impact": 69
+    },
+    {
+      "id": "arxiv-cs.ai-1788926400000-3",
+      "type": "live",
+      "category": "llm",
+      "title": "AutoFyn Technical Report: Non-Parametric Expert Iteration for Long-Horizon Agents",
+      "excerpt": "05446v1 Announce Type: new Abstract: We introduce AutoFyn, an agent harness inspired by the Expert Iteration algorithm, adapting a frozen model across many rounds by updating persistent state from verified reward sign...",
+      "source": "arXiv cs.AI",
+      "url": "https://arxiv.org/abs/2609.05446",
+      "publishedAt": "2026-09-09T04:00:00.000Z",
+      "impact": 69
+    },
+    {
+      "id": "arxiv-cs.ai-1788926400000-4",
+      "type": "live",
+      "category": "multimodal",
+      "title": "Damage-Aware Bandit Pruning for Vision and Language Transformers",
+      "excerpt": "05448v1 Announce Type: new Abstract: Structured post-training pruning of transformers requires selecting complete functional units whose suppression causes limited degradation.  We formulate structured-unit selection ...",
+      "source": "arXiv cs.AI",
+      "url": "https://arxiv.org/abs/2609.05448",
+      "publishedAt": "2026-09-09T04:00:00.000Z",
+      "impact": 58
+    },
+    {
+      "id": "arxiv-cs.ai-1788926400000-5",
+      "type": "live",
+      "category": "safety",
+      "title": "Compiling VGDL into Causal Models",
+      "excerpt": "05459v1 Announce Type: new Abstract: Reinforcement learning and large language models often struggle to accurately capture the causal mechanics of game environments.  Standard reinforcement learning agents tend to rel...",
+      "source": "arXiv cs.AI",
+      "url": "https://arxiv.org/abs/2609.05459",
+      "publishedAt": "2026-09-09T04:00:00.000Z",
+      "impact": 58
+    },
+    {
+      "id": "aether-interp",
+      "type": "premium",
+      "category": "safety",
+      "title": "Anthropic publishes unprecedented mechanistic interpretability map of Claude 4",
+      "excerpt": "Researchers reverse-engineered 312 million features inside the model, including the first clear \"deception circuit\" discovered in a frontier model.",
+      "source": "Anthropic",
+      "url": "https://anthropic.com/research/claude-4-interp",
+      "publishedAt": "2026-09-09T02:20:06.215Z",
+      "impact": 91
+    },
+    {
+      "id": "hugging-face-1788877387000-1",
       "type": "live",
       "category": "safety",
       "title": "Safety for Whom? Refusing the Right Subset of a Topic, Not the Whole Topic",
@@ -59,40 +125,7 @@
       "impact": 75
     },
     {
-      "id": "aether-interp",
-      "type": "premium",
-      "category": "safety",
-      "title": "Anthropic publishes unprecedented mechanistic interpretability map of Claude 4",
-      "excerpt": "Researchers reverse-engineered 312 million features inside the model, including the first clear \"deception circuit\" discovered in a frontier model.",
-      "source": "Anthropic",
-      "url": "https://anthropic.com/research/claude-4-interp",
-      "publishedAt": "2026-09-08T14:08:30.975Z",
-      "impact": 91
-    },
-    {
-      "id": "marktechpost-1788836835000-2",
-      "type": "live",
-      "category": "llm",
-      "title": "Reducto Releases r-1: A Single Pass Document Parsing Model That Cuts Errors 20% at 1 Cent Per Page",
-      "excerpt": "We look at r-1, the document parsing model Reducto released on September 1, 2026.  We walk through how it folds OCR, layout detection, tables, formatting and grounding into one full page pass, replacing the multi stag...",
-      "source": "MarkTechPost",
-      "url": "https://www.marktechpost.com/2026/09/07/reducto-releases-r-1-a-single-pass-document-parsing-model-that-cuts-errors-20-at-1-cent-per-page/",
-      "publishedAt": "2026-09-08T03:07:15.000Z",
-      "impact": 65
-    },
-    {
-      "id": "marktechpost-1788808687000-3",
-      "type": "live",
-      "category": "llm",
-      "title": "OpenBMB Releases MiniCPM5-2B: A 2.52B Dense Model Averaging 53.9 Across 34 Benchmarks and Built to Run On Device",
-      "excerpt": "OpenBMB has released MiniCPM5-2B, a dense causal language model with 2,516,756,480 parameters and a native 131,072 token context. 9 across the 34 benchmarks in its model card, ahead of Qwen3",
-      "source": "MarkTechPost",
-      "url": "https://www.marktechpost.com/2026/09/07/openbmb-releases-minicpm5-2b-a-2-52b-dense-model-averaging-53-9-across-34-benchmarks-and-built-to-run-on-device/",
-      "publishedAt": "2026-09-07T19:18:07.000Z",
-      "impact": 65
-    },
-    {
-      "id": "hugging-face-1788441228000-1",
+      "id": "hugging-face-1788441228000-2",
       "type": "live",
       "category": "multimodal",
       "title": "NeoMME: an efficient Multimodal-native and Multilingual Encoder",
@@ -100,17 +133,6 @@
       "source": "Hugging Face",
       "url": "https://huggingface.co/blog/Hcompany/neomme",
       "publishedAt": "2026-09-03T13:13:48.000Z",
-      "impact": 75
-    },
-    {
-      "id": "hugging-face-1788393600000-2",
-      "type": "live",
-      "category": "llm",
-      "title": "Fine-tuning a 350M Model for Better Structured Outputs in 100 GRPO Steps",
-      "excerpt": "New development from the frontier.",
-      "source": "Hugging Face",
-      "url": "https://huggingface.co/blog/grpo-with-trl-ifstruct",
-      "publishedAt": "2026-09-03T00:00:00.000Z",
       "impact": 75
     }
   ]

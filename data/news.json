@@ -1,8 +1,19 @@
 {
-  "lastUpdated": "2026-09-10T04:05:52.769Z",
+  "lastUpdated": "2026-09-10T11:00:06.914Z",
   "source": "AETHER + Public RSS (arXiv, Hugging Face, MarkTechPost, Ben's Bites)",
-  "count": 16,
+  "count": 12,
   "articles": [
+    {
+      "id": "aether-grok43",
+      "type": "premium",
+      "category": "llm",
+      "title": "xAI releases Grok-4.3 with native long-horizon agent scaffolding",
+      "excerpt": "New model demonstrates 4.2× improvement on multi-step software engineering benchmarks and sustains coherent agent trajectories beyond 110k tokens.",
+      "source": "xAI",
+      "url": "https://x.ai/blog/grok-4.3",
+      "publishedAt": "2026-09-10T06:00:06.596Z",
+      "impact": 96
+    },
     {
       "id": "arxiv-cs.ai-1789012800000-0",
       "type": "live",
@@ -70,39 +81,6 @@
       "impact": 69
     },
     {
-      "id": "marktechpost-1789006392000-0",
-      "type": "live",
-      "category": "llm",
-      "title": "LandingAI Releases Agentic Document Extraction Gen2 with DPT-3 Pro and DPT-3 Verity",
-      "excerpt": "LandingAI has shipped Agentic Document Extraction Gen2, a rebuild of its document stack on the DPT-3 model family.  Chunks are retired in favor of a document, page and block tree",
-      "source": "MarkTechPost",
-      "url": "https://www.marktechpost.com/2026/09/09/landingai-releases-agentic-document-extraction-gen2-with-dpt-3-pro-and-dpt-3-verity/",
-      "publishedAt": "2026-09-10T02:13:12.000Z",
-      "impact": 77
-    },
-    {
-      "id": "aether-grok43",
-      "type": "premium",
-      "category": "llm",
-      "title": "xAI releases Grok-4.3 with native long-horizon agent scaffolding",
-      "excerpt": "New model demonstrates 4.2× improvement on multi-step software engineering benchmarks and sustains coherent agent trajectories beyond 110k tokens.",
-      "source": "xAI",
-      "url": "https://x.ai/blog/grok-4.3",
-      "publishedAt": "2026-09-09T23:05:51.667Z",
-      "impact": 96
-    },
-    {
-      "id": "marktechpost-1788994709000-1",
-      "type": "live",
-      "category": "research",
-      "title": "Google Open-Sources Mantis: A Modular Skills Toolkit That Lets Coding Agents Find, Reproduce and Patch Vulnerabilities",
-      "excerpt": "Google has open-sourced Mantis, a stack-agnostic toolkit of security review skills for AI coding agents.  It runs the full vulnerability lifecycle: sweep the code, filter false positives, reproduce the bug in a sandbo...",
-      "source": "MarkTechPost",
-      "url": "https://www.marktechpost.com/2026/09/09/google-open-sources-mantis-a-modular-skills-toolkit-that-lets-coding-agents-find-reproduce-and-patch-vulnerabilities/",
-      "publishedAt": "2026-09-09T22:58:29.000Z",
-      "impact": 77
-    },
-    {
       "id": "aether-figure03",
       "type": "premium",
       "category": "robotics",
@@ -110,8 +88,19 @@
       "excerpt": "Humanoid achieves new milestone in unsupervised operation, performing 1,240 unique tasks across three assembly lines at the BMW South Carolina plant.",
       "source": "Figure AI",
       "url": "https://figure.ai/news/03-milestone",
-      "publishedAt": "2026-09-09T19:05:51.668Z",
+      "publishedAt": "2026-09-10T02:00:06.596Z",
       "impact": 89
+    },
+    {
+      "id": "aether-interp",
+      "type": "premium",
+      "category": "safety",
+      "title": "Anthropic publishes unprecedented mechanistic interpretability map of Claude 4",
+      "excerpt": "Researchers reverse-engineered 312 million features inside the model, including the first clear \"deception circuit\" discovered in a frontier model.",
+      "source": "Anthropic",
+      "url": "https://anthropic.com/research/claude-4-interp",
+      "publishedAt": "2026-09-09T21:00:06.596Z",
+      "impact": 91
     },
     {
       "id": "hugging-face-1788968184000-0",
@@ -123,39 +112,6 @@
       "url": "https://huggingface.co/blog/ibm-research/ibm-releases-sota-granite-time-series",
       "publishedAt": "2026-09-09T15:36:24.000Z",
       "impact": 75
-    },
-    {
-      "id": "aether-interp",
-      "type": "premium",
-      "category": "safety",
-      "title": "Anthropic publishes unprecedented mechanistic interpretability map of Claude 4",
-      "excerpt": "Researchers reverse-engineered 312 million features inside the model, including the first clear \"deception circuit\" discovered in a frontier model.",
-      "source": "Anthropic",
-      "url": "https://anthropic.com/research/claude-4-interp",
-      "publishedAt": "2026-09-09T14:05:51.668Z",
-      "impact": 91
-    },
-    {
-      "id": "marktechpost-1788938953000-2",
-      "type": "live",
-      "category": "research",
-      "title": "Gradium Launches Voice Design: Write a Prompt, Get a Brand New Synthetic Voice in Seconds",
-      "excerpt": "Voice agent teams keep hitting the same wall.  The catalog holds 400 voices and the brief asks for the one that is not in it: a Quebecoise receptionist for a Montreal dealership, a narrator in his sixties with lecture...",
-      "source": "MarkTechPost",
-      "url": "https://www.marktechpost.com/2026/09/09/gradium-launches-voice-design-write-a-prompt-get-a-brand-new-synthetic-voice-in-seconds/",
-      "publishedAt": "2026-09-09T07:29:13.000Z",
-      "impact": 65
-    },
-    {
-      "id": "marktechpost-1788928693000-3",
-      "type": "live",
-      "category": "research",
-      "title": "Meta Introduces Muse, a Personal AI Agent That Runs on Its Own Dedicated Secure Cloud Computer",
-      "excerpt": "Today, Meta has introduced Muse, a personal AI agent that takes actions rather than just answering questions.  Muse can send emails, book travel, negotiate bills, and pursue long term goals",
-      "source": "MarkTechPost",
-      "url": "https://www.marktechpost.com/2026/09/08/meta-introduces-muse-a-personal-ai-agent-that-runs-on-its-own-dedicated-secure-cloud-computer/",
-      "publishedAt": "2026-09-09T04:38:13.000Z",
-      "impact": 77
     },
     {
       "id": "hugging-face-1788877387000-1",

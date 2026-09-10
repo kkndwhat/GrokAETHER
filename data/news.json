@@ -1,8 +1,85 @@
 {
-  "lastUpdated": "2026-09-09T20:46:42.177Z",
+  "lastUpdated": "2026-09-10T04:05:52.769Z",
   "source": "AETHER + Public RSS (arXiv, Hugging Face, MarkTechPost, Ben's Bites)",
-  "count": 12,
+  "count": 16,
   "articles": [
+    {
+      "id": "arxiv-cs.ai-1789012800000-0",
+      "type": "live",
+      "category": "multimodal",
+      "title": "OpenDiscoveryTrace: Process Traces for Evaluating AI Scientist Workflows",
+      "excerpt": "09203v1 Announce Type: new Abstract: Existing benchmarks for autonomous AI scientists evaluate only final outputs---generated code, hypotheses, or papers---yet discard the reasoning process by which those outputs were...",
+      "source": "arXiv cs.AI",
+      "url": "https://arxiv.org/abs/2609.09203",
+      "publishedAt": "2026-09-10T04:00:00.000Z",
+      "impact": 58
+    },
+    {
+      "id": "arxiv-cs.ai-1789012800000-1",
+      "type": "live",
+      "category": "robotics",
+      "title": "Adaptive Entangled Game Modules in Artificial General Intelligence",
+      "excerpt": "09226v1 Announce Type: new Abstract: We introduce a probability-wave framework for modeling the collective behavior of interacting adaptive agents, deriving testable eigenmodes through a generalized behavioral intelli...",
+      "source": "arXiv cs.AI",
+      "url": "https://arxiv.org/abs/2609.09226",
+      "publishedAt": "2026-09-10T04:00:00.000Z",
+      "impact": 58
+    },
+    {
+      "id": "arxiv-cs.ai-1789012800000-2",
+      "type": "live",
+      "category": "llm",
+      "title": "Subagents vs Agent Skills: Executing Reusable Knowledge for Long-Horizon Agentic Tasks",
+      "excerpt": "09233v1 Announce Type: new Abstract: How can language model agents effectively leverage libraries of reusable knowledge to solve long-horizon tasks.  Recent work has increasingly focused on agent skills: reusable capa...",
+      "source": "arXiv cs.AI",
+      "url": "https://arxiv.org/abs/2609.09233",
+      "publishedAt": "2026-09-10T04:00:00.000Z",
+      "impact": 69
+    },
+    {
+      "id": "arxiv-cs.ai-1789012800000-3",
+      "type": "live",
+      "category": "research",
+      "title": "Gradland: On Phenomenal Experience, Differentiated Across Many Dimensions",
+      "excerpt": "09306v1 Announce Type: new Abstract: This paper investigates the hypothesis that the first-order structure of physical interactions, i.  gradients or Jacobians, characterizes the structure of phenomenal experience",
+      "source": "arXiv cs.AI",
+      "url": "https://arxiv.org/abs/2609.09306",
+      "publishedAt": "2026-09-10T04:00:00.000Z",
+      "impact": 58
+    },
+    {
+      "id": "arxiv-cs.ai-1789012800000-4",
+      "type": "live",
+      "category": "safety",
+      "title": "An Autonomous GeoAI Agent for Arctic Eco-Navigation",
+      "excerpt": "09374v1 Announce Type: new Abstract: Arctic maritime navigation is becoming increasingly important as changing sea-ice conditions expand seasonal accessibility while simultaneously introducing substantial operational,...",
+      "source": "arXiv cs.AI",
+      "url": "https://arxiv.org/abs/2609.09374",
+      "publishedAt": "2026-09-10T04:00:00.000Z",
+      "impact": 69
+    },
+    {
+      "id": "arxiv-cs.ai-1789012800000-5",
+      "type": "live",
+      "category": "llm",
+      "title": "The Menu Is an Execution Prior: State-Path Tool Menus for Online Agents",
+      "excerpt": "09395v1 Announce Type: new Abstract: Language models act through tools, yet practical agents face libraries containing thousands of interfaces.  We introduce the tool menu as the short, ordered subset of available too...",
+      "source": "arXiv cs.AI",
+      "url": "https://arxiv.org/abs/2609.09395",
+      "publishedAt": "2026-09-10T04:00:00.000Z",
+      "impact": 69
+    },
+    {
+      "id": "marktechpost-1789006392000-0",
+      "type": "live",
+      "category": "llm",
+      "title": "LandingAI Releases Agentic Document Extraction Gen2 with DPT-3 Pro and DPT-3 Verity",
+      "excerpt": "LandingAI has shipped Agentic Document Extraction Gen2, a rebuild of its document stack on the DPT-3 model family.  Chunks are retired in favor of a document, page and block tree",
+      "source": "MarkTechPost",
+      "url": "https://www.marktechpost.com/2026/09/09/landingai-releases-agentic-document-extraction-gen2-with-dpt-3-pro-and-dpt-3-verity/",
+      "publishedAt": "2026-09-10T02:13:12.000Z",
+      "impact": 77
+    },
     {
       "id": "aether-grok43",
       "type": "premium",
@@ -11,8 +88,30 @@
       "excerpt": "New model demonstrates 4.2× improvement on multi-step software engineering benchmarks and sustains coherent agent trajectories beyond 110k tokens.",
       "source": "xAI",
       "url": "https://x.ai/blog/grok-4.3",
-      "publishedAt": "2026-09-09T15:46:41.630Z",
+      "publishedAt": "2026-09-09T23:05:51.667Z",
       "impact": 96
+    },
+    {
+      "id": "marktechpost-1788994709000-1",
+      "type": "live",
+      "category": "research",
+      "title": "Google Open-Sources Mantis: A Modular Skills Toolkit That Lets Coding Agents Find, Reproduce and Patch Vulnerabilities",
+      "excerpt": "Google has open-sourced Mantis, a stack-agnostic toolkit of security review skills for AI coding agents.  It runs the full vulnerability lifecycle: sweep the code, filter false positives, reproduce the bug in a sandbo...",
+      "source": "MarkTechPost",
+      "url": "https://www.marktechpost.com/2026/09/09/google-open-sources-mantis-a-modular-skills-toolkit-that-lets-coding-agents-find-reproduce-and-patch-vulnerabilities/",
+      "publishedAt": "2026-09-09T22:58:29.000Z",
+      "impact": 77
+    },
+    {
+      "id": "aether-figure03",
+      "type": "premium",
+      "category": "robotics",
+      "title": "Figure 03 completes 43-hour autonomous factory shift with zero interventions",
+      "excerpt": "Humanoid achieves new milestone in unsupervised operation, performing 1,240 unique tasks across three assembly lines at the BMW South Carolina plant.",
+      "source": "Figure AI",
+      "url": "https://figure.ai/news/03-milestone",
+      "publishedAt": "2026-09-09T19:05:51.668Z",
+      "impact": 89
     },
     {
       "id": "hugging-face-1788968184000-0",
@@ -26,17 +125,6 @@
       "impact": 75
     },
     {
-      "id": "aether-figure03",
-      "type": "premium",
-      "category": "robotics",
-      "title": "Figure 03 completes 43-hour autonomous factory shift with zero interventions",
-      "excerpt": "Humanoid achieves new milestone in unsupervised operation, performing 1,240 unique tasks across three assembly lines at the BMW South Carolina plant.",
-      "source": "Figure AI",
-      "url": "https://figure.ai/news/03-milestone",
-      "publishedAt": "2026-09-09T11:46:41.630Z",
-      "impact": 89
-    },
-    {
       "id": "aether-interp",
       "type": "premium",
       "category": "safety",
@@ -44,74 +132,30 @@
       "excerpt": "Researchers reverse-engineered 312 million features inside the model, including the first clear \"deception circuit\" discovered in a frontier model.",
       "source": "Anthropic",
       "url": "https://anthropic.com/research/claude-4-interp",
-      "publishedAt": "2026-09-09T06:46:41.630Z",
+      "publishedAt": "2026-09-09T14:05:51.668Z",
       "impact": 91
     },
     {
-      "id": "arxiv-cs.ai-1788926400000-0",
+      "id": "marktechpost-1788938953000-2",
       "type": "live",
-      "category": "safety",
-      "title": "Beyond Right and Wrong: Evaluating Second-order Social Reasoning in Large Language Models",
-      "excerpt": "05437v1 Announce Type: new Abstract: Previous AI alignment efforts have focused primarily on first-order social norms -- teaching models what is socially acceptable or unacceptable (e.  However, social intelligence de...",
-      "source": "arXiv cs.AI",
-      "url": "https://arxiv.org/abs/2609.05437",
-      "publishedAt": "2026-09-09T04:00:00.000Z",
-      "impact": 58
+      "category": "research",
+      "title": "Gradium Launches Voice Design: Write a Prompt, Get a Brand New Synthetic Voice in Seconds",
+      "excerpt": "Voice agent teams keep hitting the same wall.  The catalog holds 400 voices and the brief asks for the one that is not in it: a Quebecoise receptionist for a Montreal dealership, a narrator in his sixties with lecture...",
+      "source": "MarkTechPost",
+      "url": "https://www.marktechpost.com/2026/09/09/gradium-launches-voice-design-write-a-prompt-get-a-brand-new-synthetic-voice-in-seconds/",
+      "publishedAt": "2026-09-09T07:29:13.000Z",
+      "impact": 65
     },
     {
-      "id": "arxiv-cs.ai-1788926400000-1",
+      "id": "marktechpost-1788928693000-3",
       "type": "live",
-      "category": "llm",
-      "title": "CriticGen: Generation-Aware Evaluation as Actionable Feedback",
-      "excerpt": "05439v1 Announce Type: new Abstract: Current evaluation methods for large language models are coarse-grained and decoupled from generation, producing generic explanations that fail to provide actionable feedback for m...",
-      "source": "arXiv cs.AI",
-      "url": "https://arxiv.org/abs/2609.05439",
-      "publishedAt": "2026-09-09T04:00:00.000Z",
-      "impact": 58
-    },
-    {
-      "id": "arxiv-cs.ai-1788926400000-2",
-      "type": "live",
-      "category": "llm",
-      "title": "When Does Memory Help? A Cost-Aware Evaluation of Long-Term Memory in Tool-Using LLM Agents",
-      "excerpt": "05441v1 Announce Type: new Abstract: Long-term memory for LLM agents is evaluated today by conversational recall benchmarks (LoCoMo, LongMemEval), which measure question answering over dialogue history, not whether re...",
-      "source": "arXiv cs.AI",
-      "url": "https://arxiv.org/abs/2609.05441",
-      "publishedAt": "2026-09-09T04:00:00.000Z",
-      "impact": 69
-    },
-    {
-      "id": "arxiv-cs.ai-1788926400000-3",
-      "type": "live",
-      "category": "llm",
-      "title": "AutoFyn Technical Report: Non-Parametric Expert Iteration for Long-Horizon Agents",
-      "excerpt": "05446v1 Announce Type: new Abstract: We introduce AutoFyn, an agent harness inspired by the Expert Iteration algorithm, adapting a frozen model across many rounds by updating persistent state from verified reward sign...",
-      "source": "arXiv cs.AI",
-      "url": "https://arxiv.org/abs/2609.05446",
-      "publishedAt": "2026-09-09T04:00:00.000Z",
-      "impact": 69
-    },
-    {
-      "id": "arxiv-cs.ai-1788926400000-4",
-      "type": "live",
-      "category": "multimodal",
-      "title": "Damage-Aware Bandit Pruning for Vision and Language Transformers",
-      "excerpt": "05448v1 Announce Type: new Abstract: Structured post-training pruning of transformers requires selecting complete functional units whose suppression causes limited degradation.  We formulate structured-unit selection ...",
-      "source": "arXiv cs.AI",
-      "url": "https://arxiv.org/abs/2609.05448",
-      "publishedAt": "2026-09-09T04:00:00.000Z",
-      "impact": 58
-    },
-    {
-      "id": "arxiv-cs.ai-1788926400000-5",
-      "type": "live",
-      "category": "safety",
-      "title": "Compiling VGDL into Causal Models",
-      "excerpt": "05459v1 Announce Type: new Abstract: Reinforcement learning and large language models often struggle to accurately capture the causal mechanics of game environments.  Standard reinforcement learning agents tend to rel...",
-      "source": "arXiv cs.AI",
-      "url": "https://arxiv.org/abs/2609.05459",
-      "publishedAt": "2026-09-09T04:00:00.000Z",
-      "impact": 58
+      "category": "research",
+      "title": "Meta Introduces Muse, a Personal AI Agent That Runs on Its Own Dedicated Secure Cloud Computer",
+      "excerpt": "Today, Meta has introduced Muse, a personal AI agent that takes actions rather than just answering questions.  Muse can send emails, book travel, negotiate bills, and pursue long term goals",
+      "source": "MarkTechPost",
+      "url": "https://www.marktechpost.com/2026/09/08/meta-introduces-muse-a-personal-ai-agent-that-runs-on-its-own-dedicated-secure-cloud-computer/",
+      "publishedAt": "2026-09-09T04:38:13.000Z",
+      "impact": 77
     },
     {
       "id": "hugging-face-1788877387000-1",

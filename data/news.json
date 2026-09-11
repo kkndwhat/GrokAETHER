@@ -1,7 +1,7 @@
 {
-  "lastUpdated": "2026-09-11T10:58:35.322Z",
+  "lastUpdated": "2026-09-11T16:14:22.207Z",
   "source": "AETHER + Public RSS (arXiv, Hugging Face, MarkTechPost, Ben's Bites)",
-  "count": 12,
+  "count": 16,
   "articles": [
     {
       "id": "aether-grok43",
@@ -11,8 +11,52 @@
       "excerpt": "New model demonstrates 4.2× improvement on multi-step software engineering benchmarks and sustains coherent agent trajectories beyond 110k tokens.",
       "source": "xAI",
       "url": "https://x.ai/blog/grok-4.3",
-      "publishedAt": "2026-09-11T05:58:35.036Z",
+      "publishedAt": "2026-09-11T11:14:21.170Z",
       "impact": 96
+    },
+    {
+      "id": "aether-figure03",
+      "type": "premium",
+      "category": "robotics",
+      "title": "Figure 03 completes 43-hour autonomous factory shift with zero interventions",
+      "excerpt": "Humanoid achieves new milestone in unsupervised operation, performing 1,240 unique tasks across three assembly lines at the BMW South Carolina plant.",
+      "source": "Figure AI",
+      "url": "https://figure.ai/news/03-milestone",
+      "publishedAt": "2026-09-11T07:14:21.170Z",
+      "impact": 89
+    },
+    {
+      "id": "marktechpost-1789109842000-0",
+      "type": "live",
+      "category": "llm",
+      "title": "Cohere Releases North Small Translate: A 218B MoE Translation Model That Scores 83.6 on WMT26 Across 50 Languages",
+      "excerpt": "Cohere has released North Small Translate, an open-weight Mixture-of-Experts model built for machine translation across 50 languages.  It uses 25B of its 218B parameters per token and scores 83",
+      "source": "MarkTechPost",
+      "url": "https://www.marktechpost.com/2026/09/10/cohere-releases-north-small-translate-a-218b-moe-translation-model-that-scores-83-6-on-wmt26-across-50-languages/",
+      "publishedAt": "2026-09-11T06:57:22.000Z",
+      "impact": 65
+    },
+    {
+      "id": "marktechpost-1789108479000-1",
+      "type": "live",
+      "category": "llm",
+      "title": "Sakana AI Launches Fugu Max and Fugu Ultra v2 for Cheaper, Stronger Multi-Agent Orchestration",
+      "excerpt": "Sakana AI has released Fugu Max and Fugu Ultra v2, 2 models built on the same learned orchestration architecture.  Fugu Max routes tasks to lean open and specialized models, including NVIDIA Nemotron, at $2/$6 per 1M ...",
+      "source": "MarkTechPost",
+      "url": "https://www.marktechpost.com/2026/09/10/sakana-ai-launches-fugu-max-and-fugu-ultra-v2-for-cheaper-stronger-multi-agent-orchestration/",
+      "publishedAt": "2026-09-11T06:34:39.000Z",
+      "impact": 77
+    },
+    {
+      "id": "marktechpost-1789106485000-2",
+      "type": "live",
+      "category": "llm",
+      "title": "Google Research Releases ToolGrad: Answer-First Framework Hits 99.8% Pass Rate for Tool-Use Data Generation",
+      "excerpt": "Google Research has released ToolGrad, an ACL 2026 Findings framework that inverts tool-use dataset generation: it builds a verified API chain first, then writes the matching user query.  Guided by textual \"gradients\"...",
+      "source": "MarkTechPost",
+      "url": "https://www.marktechpost.com/2026/09/10/google-research-releases-toolgrad-answer-first-framework-hits-99-8-pass-rate-for-tool-use-data-generation/",
+      "publishedAt": "2026-09-11T06:01:25.000Z",
+      "impact": 65
     },
     {
       "id": "arxiv-cs.ai-1789099200000-0",
@@ -81,17 +125,6 @@
       "impact": 69
     },
     {
-      "id": "aether-figure03",
-      "type": "premium",
-      "category": "robotics",
-      "title": "Figure 03 completes 43-hour autonomous factory shift with zero interventions",
-      "excerpt": "Humanoid achieves new milestone in unsupervised operation, performing 1,240 unique tasks across three assembly lines at the BMW South Carolina plant.",
-      "source": "Figure AI",
-      "url": "https://figure.ai/news/03-milestone",
-      "publishedAt": "2026-09-11T01:58:35.036Z",
-      "impact": 89
-    },
-    {
       "id": "aether-interp",
       "type": "premium",
       "category": "safety",
@@ -99,8 +132,19 @@
       "excerpt": "Researchers reverse-engineered 312 million features inside the model, including the first clear \"deception circuit\" discovered in a frontier model.",
       "source": "Anthropic",
       "url": "https://anthropic.com/research/claude-4-interp",
-      "publishedAt": "2026-09-10T20:58:35.036Z",
+      "publishedAt": "2026-09-11T02:14:21.170Z",
       "impact": 91
+    },
+    {
+      "id": "marktechpost-1789079688000-3",
+      "type": "live",
+      "category": "llm",
+      "title": "Meet Redis LangCache: A Managed Semantic Cache That Cuts LLM API Costs by Up to 90% and Returns Cache Hits Up to 15x Faster",
+      "excerpt": "Production LLM applications rarely receive a question nobody has asked before.  Support assistants and RAG pipelines field the same intents thousands of times a day, each phrased differently, and most stacks treat eve...",
+      "source": "MarkTechPost",
+      "url": "https://www.marktechpost.com/2026/09/10/meet-redis-langcache-a-managed-semantic-cache-that-cuts-llm-api-costs-by-up-to-90-and-returns-cache-hits-up-to-15x-faster/",
+      "publishedAt": "2026-09-10T22:34:48.000Z",
+      "impact": 65
     },
     {
       "id": "hugging-face-1788998400000-0",

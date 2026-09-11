@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-10T20:41:47.256Z",
+  "lastUpdated": "2026-09-11T10:58:35.322Z",
   "source": "AETHER + Public RSS (arXiv, Hugging Face, MarkTechPost, Ben's Bites)",
   "count": 12,
   "articles": [
@@ -11,8 +11,74 @@
       "excerpt": "New model demonstrates 4.2× improvement on multi-step software engineering benchmarks and sustains coherent agent trajectories beyond 110k tokens.",
       "source": "xAI",
       "url": "https://x.ai/blog/grok-4.3",
-      "publishedAt": "2026-09-10T15:41:46.774Z",
+      "publishedAt": "2026-09-11T05:58:35.036Z",
       "impact": 96
+    },
+    {
+      "id": "arxiv-cs.ai-1789099200000-0",
+      "type": "live",
+      "category": "multimodal",
+      "title": "OpenDiscoveryTrace: Process Traces for Evaluating AI Scientist Workflows",
+      "excerpt": "09203v1 Announce Type: new Abstract: Existing benchmarks for autonomous AI scientists evaluate only final outputs---generated code, hypotheses, or papers---yet discard the reasoning process by which those outputs were...",
+      "source": "arXiv cs.AI",
+      "url": "https://arxiv.org/abs/2609.09203",
+      "publishedAt": "2026-09-11T04:00:00.000Z",
+      "impact": 58
+    },
+    {
+      "id": "arxiv-cs.ai-1789099200000-1",
+      "type": "live",
+      "category": "robotics",
+      "title": "Adaptive Entangled Game Modules in Artificial General Intelligence",
+      "excerpt": "09226v1 Announce Type: new Abstract: We introduce a probability-wave framework for modeling the collective behavior of interacting adaptive agents, deriving testable eigenmodes through a generalized behavioral intelli...",
+      "source": "arXiv cs.AI",
+      "url": "https://arxiv.org/abs/2609.09226",
+      "publishedAt": "2026-09-11T04:00:00.000Z",
+      "impact": 58
+    },
+    {
+      "id": "arxiv-cs.ai-1789099200000-2",
+      "type": "live",
+      "category": "llm",
+      "title": "Subagents vs Agent Skills: Executing Reusable Knowledge for Long-Horizon Agentic Tasks",
+      "excerpt": "09233v1 Announce Type: new Abstract: How can language model agents effectively leverage libraries of reusable knowledge to solve long-horizon tasks.  Recent work has increasingly focused on agent skills: reusable capa...",
+      "source": "arXiv cs.AI",
+      "url": "https://arxiv.org/abs/2609.09233",
+      "publishedAt": "2026-09-11T04:00:00.000Z",
+      "impact": 69
+    },
+    {
+      "id": "arxiv-cs.ai-1789099200000-3",
+      "type": "live",
+      "category": "research",
+      "title": "Gradland: On Phenomenal Experience, Differentiated Across Many Dimensions",
+      "excerpt": "09306v1 Announce Type: new Abstract: This paper investigates the hypothesis that the first-order structure of physical interactions, i.  gradients or Jacobians, characterizes the structure of phenomenal experience",
+      "source": "arXiv cs.AI",
+      "url": "https://arxiv.org/abs/2609.09306",
+      "publishedAt": "2026-09-11T04:00:00.000Z",
+      "impact": 58
+    },
+    {
+      "id": "arxiv-cs.ai-1789099200000-4",
+      "type": "live",
+      "category": "safety",
+      "title": "An Autonomous GeoAI Agent for Arctic Eco-Navigation",
+      "excerpt": "09374v1 Announce Type: new Abstract: Arctic maritime navigation is becoming increasingly important as changing sea-ice conditions expand seasonal accessibility while simultaneously introducing substantial operational,...",
+      "source": "arXiv cs.AI",
+      "url": "https://arxiv.org/abs/2609.09374",
+      "publishedAt": "2026-09-11T04:00:00.000Z",
+      "impact": 69
+    },
+    {
+      "id": "arxiv-cs.ai-1789099200000-5",
+      "type": "live",
+      "category": "llm",
+      "title": "The Menu Is an Execution Prior: State-Path Tool Menus for Online Agents",
+      "excerpt": "09395v1 Announce Type: new Abstract: Language models act through tools, yet practical agents face libraries containing thousands of interfaces.  We introduce the tool menu as the short, ordered subset of available too...",
+      "source": "arXiv cs.AI",
+      "url": "https://arxiv.org/abs/2609.09395",
+      "publishedAt": "2026-09-11T04:00:00.000Z",
+      "impact": 69
     },
     {
       "id": "aether-figure03",
@@ -22,7 +88,7 @@
       "excerpt": "Humanoid achieves new milestone in unsupervised operation, performing 1,240 unique tasks across three assembly lines at the BMW South Carolina plant.",
       "source": "Figure AI",
       "url": "https://figure.ai/news/03-milestone",
-      "publishedAt": "2026-09-10T11:41:46.774Z",
+      "publishedAt": "2026-09-11T01:58:35.036Z",
       "impact": 89
     },
     {
@@ -33,74 +99,8 @@
       "excerpt": "Researchers reverse-engineered 312 million features inside the model, including the first clear \"deception circuit\" discovered in a frontier model.",
       "source": "Anthropic",
       "url": "https://anthropic.com/research/claude-4-interp",
-      "publishedAt": "2026-09-10T06:41:46.774Z",
+      "publishedAt": "2026-09-10T20:58:35.036Z",
       "impact": 91
-    },
-    {
-      "id": "arxiv-cs.ai-1789012800000-0",
-      "type": "live",
-      "category": "multimodal",
-      "title": "OpenDiscoveryTrace: Process Traces for Evaluating AI Scientist Workflows",
-      "excerpt": "09203v1 Announce Type: new Abstract: Existing benchmarks for autonomous AI scientists evaluate only final outputs---generated code, hypotheses, or papers---yet discard the reasoning process by which those outputs were...",
-      "source": "arXiv cs.AI",
-      "url": "https://arxiv.org/abs/2609.09203",
-      "publishedAt": "2026-09-10T04:00:00.000Z",
-      "impact": 58
-    },
-    {
-      "id": "arxiv-cs.ai-1789012800000-1",
-      "type": "live",
-      "category": "robotics",
-      "title": "Adaptive Entangled Game Modules in Artificial General Intelligence",
-      "excerpt": "09226v1 Announce Type: new Abstract: We introduce a probability-wave framework for modeling the collective behavior of interacting adaptive agents, deriving testable eigenmodes through a generalized behavioral intelli...",
-      "source": "arXiv cs.AI",
-      "url": "https://arxiv.org/abs/2609.09226",
-      "publishedAt": "2026-09-10T04:00:00.000Z",
-      "impact": 58
-    },
-    {
-      "id": "arxiv-cs.ai-1789012800000-2",
-      "type": "live",
-      "category": "llm",
-      "title": "Subagents vs Agent Skills: Executing Reusable Knowledge for Long-Horizon Agentic Tasks",
-      "excerpt": "09233v1 Announce Type: new Abstract: How can language model agents effectively leverage libraries of reusable knowledge to solve long-horizon tasks.  Recent work has increasingly focused on agent skills: reusable capa...",
-      "source": "arXiv cs.AI",
-      "url": "https://arxiv.org/abs/2609.09233",
-      "publishedAt": "2026-09-10T04:00:00.000Z",
-      "impact": 69
-    },
-    {
-      "id": "arxiv-cs.ai-1789012800000-3",
-      "type": "live",
-      "category": "research",
-      "title": "Gradland: On Phenomenal Experience, Differentiated Across Many Dimensions",
-      "excerpt": "09306v1 Announce Type: new Abstract: This paper investigates the hypothesis that the first-order structure of physical interactions, i.  gradients or Jacobians, characterizes the structure of phenomenal experience",
-      "source": "arXiv cs.AI",
-      "url": "https://arxiv.org/abs/2609.09306",
-      "publishedAt": "2026-09-10T04:00:00.000Z",
-      "impact": 58
-    },
-    {
-      "id": "arxiv-cs.ai-1789012800000-4",
-      "type": "live",
-      "category": "safety",
-      "title": "An Autonomous GeoAI Agent for Arctic Eco-Navigation",
-      "excerpt": "09374v1 Announce Type: new Abstract: Arctic maritime navigation is becoming increasingly important as changing sea-ice conditions expand seasonal accessibility while simultaneously introducing substantial operational,...",
-      "source": "arXiv cs.AI",
-      "url": "https://arxiv.org/abs/2609.09374",
-      "publishedAt": "2026-09-10T04:00:00.000Z",
-      "impact": 69
-    },
-    {
-      "id": "arxiv-cs.ai-1789012800000-5",
-      "type": "live",
-      "category": "llm",
-      "title": "The Menu Is an Execution Prior: State-Path Tool Menus for Online Agents",
-      "excerpt": "09395v1 Announce Type: new Abstract: Language models act through tools, yet practical agents face libraries containing thousands of interfaces.  We introduce the tool menu as the short, ordered subset of available too...",
-      "source": "arXiv cs.AI",
-      "url": "https://arxiv.org/abs/2609.09395",
-      "publishedAt": "2026-09-10T04:00:00.000Z",
-      "impact": 69
     },
     {
       "id": "hugging-face-1788998400000-0",

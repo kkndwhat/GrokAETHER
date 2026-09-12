@@ -1,8 +1,19 @@
 {
-  "lastUpdated": "2026-09-12T04:04:48.387Z",
+  "lastUpdated": "2026-09-12T10:26:31.907Z",
   "source": "AETHER + Public RSS (arXiv, Hugging Face, MarkTechPost, Ben's Bites)",
-  "count": 16,
+  "count": 12,
   "articles": [
+    {
+      "id": "aether-grok43",
+      "type": "premium",
+      "category": "llm",
+      "title": "xAI releases Grok-4.3 with native long-horizon agent scaffolding",
+      "excerpt": "New model demonstrates 4.2× improvement on multi-step software engineering benchmarks and sustains coherent agent trajectories beyond 110k tokens.",
+      "source": "xAI",
+      "url": "https://x.ai/blog/grok-4.3",
+      "publishedAt": "2026-09-12T05:26:31.668Z",
+      "impact": 96
+    },
     {
       "id": "arxiv-cs.ai-1789185600000-0",
       "type": "live",
@@ -70,39 +81,6 @@
       "impact": 58
     },
     {
-      "id": "aether-grok43",
-      "type": "premium",
-      "category": "llm",
-      "title": "xAI releases Grok-4.3 with native long-horizon agent scaffolding",
-      "excerpt": "New model demonstrates 4.2× improvement on multi-step software engineering benchmarks and sustains coherent agent trajectories beyond 110k tokens.",
-      "source": "xAI",
-      "url": "https://x.ai/blog/grok-4.3",
-      "publishedAt": "2026-09-11T23:04:47.274Z",
-      "impact": 96
-    },
-    {
-      "id": "marktechpost-1789164068000-0",
-      "type": "live",
-      "category": "llm",
-      "title": "Can LLMs Engineer Their Own Agent Harness? ByteDance Seed’s HarnessDev Says Only 34 of 64 Changes Generalize",
-      "excerpt": "ByteDance Seed, SUTD, Georgia Tech, M-A-P, and TokenWave. AI introduce HarnessDev, a benchmark that scores the runnable harness a model builds rather than the answer it returns",
-      "source": "MarkTechPost",
-      "url": "https://www.marktechpost.com/2026/09/11/can-llms-engineer-their-own-agent-harness-bytedance-seeds-harnessdev-says-only-34-of-64-changes-generalize/",
-      "publishedAt": "2026-09-11T22:01:08.000Z",
-      "impact": 77
-    },
-    {
-      "id": "marktechpost-1789160755000-1",
-      "type": "live",
-      "category": "llm",
-      "title": "Anthropic Adds Plugin Evals to Claude Code: 6 Grader Types, a No-Plugin Baseline, and a CI Gate for Skills",
-      "excerpt": "Anthropic has published a new plugin evals workflow for Claude Code.  The claude plugin eval command runs a plugin against realistic prompts, grades what Claude produced, and compares the result with a run where the p...",
-      "source": "MarkTechPost",
-      "url": "https://www.marktechpost.com/2026/09/11/anthropic-adds-plugin-evals-to-claude-code-6-grader-types-a-no-plugin-baseline-and-a-ci-gate-for-skills/",
-      "publishedAt": "2026-09-11T21:05:55.000Z",
-      "impact": 65
-    },
-    {
       "id": "aether-figure03",
       "type": "premium",
       "category": "robotics",
@@ -110,7 +88,7 @@
       "excerpt": "Humanoid achieves new milestone in unsupervised operation, performing 1,240 unique tasks across three assembly lines at the BMW South Carolina plant.",
       "source": "Figure AI",
       "url": "https://figure.ai/news/03-milestone",
-      "publishedAt": "2026-09-11T19:04:47.274Z",
+      "publishedAt": "2026-09-12T01:26:31.668Z",
       "impact": 89
     },
     {
@@ -121,30 +99,8 @@
       "excerpt": "Researchers reverse-engineered 312 million features inside the model, including the first clear \"deception circuit\" discovered in a frontier model.",
       "source": "Anthropic",
       "url": "https://anthropic.com/research/claude-4-interp",
-      "publishedAt": "2026-09-11T14:04:47.274Z",
+      "publishedAt": "2026-09-11T20:26:31.668Z",
       "impact": 91
-    },
-    {
-      "id": "marktechpost-1789109842000-2",
-      "type": "live",
-      "category": "llm",
-      "title": "Cohere Releases North Small Translate: A 218B MoE Translation Model That Scores 83.6 on WMT26 Across 50 Languages",
-      "excerpt": "Cohere has released North Small Translate, an open-weight Mixture-of-Experts model built for machine translation across 50 languages.  It uses 25B of its 218B parameters per token and scores 83",
-      "source": "MarkTechPost",
-      "url": "https://www.marktechpost.com/2026/09/10/cohere-releases-north-small-translate-a-218b-moe-translation-model-that-scores-83-6-on-wmt26-across-50-languages/",
-      "publishedAt": "2026-09-11T06:57:22.000Z",
-      "impact": 65
-    },
-    {
-      "id": "marktechpost-1789108479000-3",
-      "type": "live",
-      "category": "llm",
-      "title": "Sakana AI Launches Fugu Max and Fugu Ultra v2 for Cheaper, Stronger Multi-Agent Orchestration",
-      "excerpt": "Sakana AI has released Fugu Max and Fugu Ultra v2, 2 models built on the same learned orchestration architecture.  Fugu Max routes tasks to lean open and specialized models, including NVIDIA Nemotron, at $2/$6 per 1M ...",
-      "source": "MarkTechPost",
-      "url": "https://www.marktechpost.com/2026/09/10/sakana-ai-launches-fugu-max-and-fugu-ultra-v2-for-cheaper-stronger-multi-agent-orchestration/",
-      "publishedAt": "2026-09-11T06:34:39.000Z",
-      "impact": 77
     },
     {
       "id": "hugging-face-1788998400000-0",

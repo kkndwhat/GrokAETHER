@@ -1,7 +1,7 @@
 {
-  "lastUpdated": "2026-09-13T15:58:21.304Z",
+  "lastUpdated": "2026-09-14T12:23:02.481Z",
   "source": "AETHER + Public RSS (arXiv, Hugging Face, MarkTechPost, Ben's Bites)",
-  "count": 6,
+  "count": 12,
   "articles": [
     {
       "id": "aether-grok43",
@@ -11,8 +11,74 @@
       "excerpt": "New model demonstrates 4.2× improvement on multi-step software engineering benchmarks and sustains coherent agent trajectories beyond 110k tokens.",
       "source": "xAI",
       "url": "https://x.ai/blog/grok-4.3",
-      "publishedAt": "2026-09-13T10:58:20.832Z",
+      "publishedAt": "2026-09-14T07:23:01.744Z",
       "impact": 96
+    },
+    {
+      "id": "arxiv-cs.ai-1789358400000-0",
+      "type": "live",
+      "category": "llm",
+      "title": "Occamy-1.0: Open Pareto-frontier 35B Intelligence for Co-work",
+      "excerpt": "11977v1 Announce Type: new Abstract: Co-work agents execute complex workflows that combine information gathering, tool use, coding, and file manipulation across many model invocations.  Because cost and latency accumu...",
+      "source": "arXiv cs.AI",
+      "url": "https://arxiv.org/abs/2609.11977",
+      "publishedAt": "2026-09-14T04:00:00.000Z",
+      "impact": 75
+    },
+    {
+      "id": "arxiv-cs.ai-1789358400000-1",
+      "type": "live",
+      "category": "robotics",
+      "title": "Harness or Model? Isolating the Harness Effect in Agentic Coding with a Contamination-Controlled Private Suite",
+      "excerpt": "11987v1 Announce Type: new Abstract: An agentic coding system couples a language model to a harness: the tools, prompts and control flow that turn a chat model into an autonomous software engineer.  Vendors ship harne...",
+      "source": "arXiv cs.AI",
+      "url": "https://arxiv.org/abs/2609.11987",
+      "publishedAt": "2026-09-14T04:00:00.000Z",
+      "impact": 69
+    },
+    {
+      "id": "arxiv-cs.ai-1789358400000-2",
+      "type": "live",
+      "category": "multimodal",
+      "title": "Reading the Whole Heart: Latent-Attention Masked Autoencoders for Multimodal Cardiac Representation Learning",
+      "excerpt": "12035v1 Announce Type: new Abstract: Cardiovascular diagnosis rests on integrating complementary modalities, like ECG, echocardiography, chest radiographs, and clinical variables, each capturing distinct but correlate...",
+      "source": "arXiv cs.AI",
+      "url": "https://arxiv.org/abs/2609.12035",
+      "publishedAt": "2026-09-14T04:00:00.000Z",
+      "impact": 58
+    },
+    {
+      "id": "arxiv-cs.ai-1789358400000-3",
+      "type": "live",
+      "category": "llm",
+      "title": "Competence-Gated Pooling of Language Models and Priors for Event Forecasting",
+      "excerpt": "12101v1 Announce Type: new Abstract: In hybrid forecasting, a language model is often one of several available signals.  A system may already have a market, crowd, or statistical forecast and must decide whether the m...",
+      "source": "arXiv cs.AI",
+      "url": "https://arxiv.org/abs/2609.12101",
+      "publishedAt": "2026-09-14T04:00:00.000Z",
+      "impact": 58
+    },
+    {
+      "id": "arxiv-cs.ai-1789358400000-4",
+      "type": "live",
+      "category": "llm",
+      "title": "Language Is an Insufficient Substrate for Quantitative Reasoning, and Consequential Domains Need Large Quantitative Models",
+      "excerpt": "12105v1 Announce Type: new Abstract: The prevailing assumption in applied machine learning is that progress on consequential quantitative decisions such as pricing risk, allocating capital, triaging patients, or conta...",
+      "source": "arXiv cs.AI",
+      "url": "https://arxiv.org/abs/2609.12105",
+      "publishedAt": "2026-09-14T04:00:00.000Z",
+      "impact": 58
+    },
+    {
+      "id": "arxiv-cs.ai-1789358400000-5",
+      "type": "live",
+      "category": "llm",
+      "title": "DU-NO: A Parameter-Efficient Double U-Shaped Neural Operator for Phase-Resolving Wave Modeling",
+      "excerpt": "12115v1 Announce Type: new Abstract: Phase-resolving wave models such as FUNWAVE-TVD are the accuracy standard for nearshore dynamics, resolving the shoaling, refraction, and breaking of individual waves, but their co...",
+      "source": "arXiv cs.AI",
+      "url": "https://arxiv.org/abs/2609.12115",
+      "publishedAt": "2026-09-14T04:00:00.000Z",
+      "impact": 58
     },
     {
       "id": "aether-figure03",
@@ -22,7 +88,7 @@
       "excerpt": "Humanoid achieves new milestone in unsupervised operation, performing 1,240 unique tasks across three assembly lines at the BMW South Carolina plant.",
       "source": "Figure AI",
       "url": "https://figure.ai/news/03-milestone",
-      "publishedAt": "2026-09-13T06:58:20.832Z",
+      "publishedAt": "2026-09-14T03:23:01.744Z",
       "impact": 89
     },
     {
@@ -33,11 +99,22 @@
       "excerpt": "Researchers reverse-engineered 312 million features inside the model, including the first clear \"deception circuit\" discovered in a frontier model.",
       "source": "Anthropic",
       "url": "https://anthropic.com/research/claude-4-interp",
-      "publishedAt": "2026-09-13T01:58:20.832Z",
+      "publishedAt": "2026-09-13T22:23:01.744Z",
       "impact": 91
     },
     {
       "id": "hugging-face-1788998400000-0",
+      "type": "live",
+      "category": "research",
+      "title": "Async GRPO with LoRA across HF Jobs: a bucket, a proxy, and no NCCL",
+      "excerpt": "New development from the frontier.",
+      "source": "Hugging Face",
+      "url": "https://huggingface.co/blog/asyncgrpo-lora-hfjobs",
+      "publishedAt": "2026-09-10T00:00:00.000Z",
+      "impact": 75
+    },
+    {
+      "id": "hugging-face-1788998400000-1",
       "type": "live",
       "category": "research",
       "title": "Rebuilding AUTOMATIC1111 with Gradio Workflow",
@@ -48,7 +125,7 @@
       "impact": 75
     },
     {
-      "id": "hugging-face-1788968184000-1",
+      "id": "hugging-face-1788968184000-2",
       "type": "live",
       "category": "llm",
       "title": "IBM releases SOTA Granite Time Series PatchTST-FM-r2 model with commercial-friendly license",
@@ -56,17 +133,6 @@
       "source": "Hugging Face",
       "url": "https://huggingface.co/blog/ibm-research/ibm-releases-sota-granite-time-series",
       "publishedAt": "2026-09-09T15:36:24.000Z",
-      "impact": 75
-    },
-    {
-      "id": "hugging-face-1788877387000-2",
-      "type": "live",
-      "category": "safety",
-      "title": "Safety for Whom? Refusing the Right Subset of a Topic, Not the Whole Topic",
-      "excerpt": "New development from the frontier.",
-      "source": "Hugging Face",
-      "url": "https://huggingface.co/blog/MultiverseComputingCAI/safety-for-whom",
-      "publishedAt": "2026-09-08T14:23:07.000Z",
       "impact": 75
     }
   ]

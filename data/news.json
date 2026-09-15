@@ -1,8 +1,30 @@
 {
-  "lastUpdated": "2026-09-15T16:41:31.220Z",
+  "lastUpdated": "2026-09-15T21:06:04.779Z",
   "source": "AETHER + Public RSS (arXiv, Hugging Face, MarkTechPost, Ben's Bites)",
-  "count": 12,
+  "count": 16,
   "articles": [
+    {
+      "id": "marktechpost-1789505589000-0",
+      "type": "live",
+      "category": "multimodal",
+      "title": "Google Releases Gemini 3.8 Live and 3.8 Live Extended Thinking for Production Grade Voice Agents",
+      "excerpt": "Google has released Gemini 3. 8 Live Extended Thinking, its most advanced live dialogue models to date",
+      "source": "MarkTechPost",
+      "url": "https://www.marktechpost.com/2026/09/15/google-releases-gemini-3-8-live-and-3-8-live-extended-thinking-for-production-grade-voice-agents/",
+      "publishedAt": "2026-09-15T20:53:09.000Z",
+      "impact": 77
+    },
+    {
+      "id": "aether-grok43",
+      "type": "premium",
+      "category": "llm",
+      "title": "xAI releases Grok-4.3 with native long-horizon agent scaffolding",
+      "excerpt": "New model demonstrates 4.2× improvement on multi-step software engineering benchmarks and sustains coherent agent trajectories beyond 110k tokens.",
+      "source": "xAI",
+      "url": "https://x.ai/blog/grok-4.3",
+      "publishedAt": "2026-09-15T16:06:02.975Z",
+      "impact": 96
+    },
     {
       "id": "hugging-face-1789488044000-0",
       "type": "live",
@@ -15,17 +37,6 @@
       "impact": 87
     },
     {
-      "id": "aether-grok43",
-      "type": "premium",
-      "category": "llm",
-      "title": "xAI releases Grok-4.3 with native long-horizon agent scaffolding",
-      "excerpt": "New model demonstrates 4.2× improvement on multi-step software engineering benchmarks and sustains coherent agent trajectories beyond 110k tokens.",
-      "source": "xAI",
-      "url": "https://x.ai/blog/grok-4.3",
-      "publishedAt": "2026-09-15T11:41:30.726Z",
-      "impact": 96
-    },
-    {
       "id": "aether-figure03",
       "type": "premium",
       "category": "robotics",
@@ -33,8 +44,41 @@
       "excerpt": "Humanoid achieves new milestone in unsupervised operation, performing 1,240 unique tasks across three assembly lines at the BMW South Carolina plant.",
       "source": "Figure AI",
       "url": "https://figure.ai/news/03-milestone",
-      "publishedAt": "2026-09-15T07:41:30.727Z",
+      "publishedAt": "2026-09-15T12:06:02.975Z",
       "impact": 89
+    },
+    {
+      "id": "aether-interp",
+      "type": "premium",
+      "category": "safety",
+      "title": "Anthropic publishes unprecedented mechanistic interpretability map of Claude 4",
+      "excerpt": "Researchers reverse-engineered 312 million features inside the model, including the first clear \"deception circuit\" discovered in a frontier model.",
+      "source": "Anthropic",
+      "url": "https://anthropic.com/research/claude-4-interp",
+      "publishedAt": "2026-09-15T07:06:02.975Z",
+      "impact": 91
+    },
+    {
+      "id": "marktechpost-1789446509000-1",
+      "type": "live",
+      "category": "research",
+      "title": "Meta Introduces ZGateway: A Stateless Proxy Tier That Unifies ZippyDB Traffic and Handles Over 1 Billion Operations Per Second",
+      "excerpt": "Meta engineering team introduced ZGateway, a proxy tier that now sits between client applications and ZippyDB, the Meta’s most widely used key value store.  ZippyDB backs product metadata, counters, and configuration ...",
+      "source": "MarkTechPost",
+      "url": "https://www.marktechpost.com/2026/09/14/meta-introduces-zgateway-a-stateless-proxy-tier-that-unifies-zippydb-traffic-and-handles-over-1-billion-operations-per-second/",
+      "publishedAt": "2026-09-15T04:28:29.000Z",
+      "impact": 65
+    },
+    {
+      "id": "marktechpost-1789445000000-2",
+      "type": "live",
+      "category": "research",
+      "title": "Agent-net Open Sources Webagent: A Go Harness That Turns Any Website into a Guarded AI Agent",
+      "excerpt": "Agent-net, the team building an agent-to-agent marketplace where AI agents discover, trust, and pay each other, has released Webagent, an open source harness for standing up public-facing business agents.  So, basical...",
+      "source": "MarkTechPost",
+      "url": "https://www.marktechpost.com/2026/09/14/agent-net-open-sources-webagent-a-go-harness-that-turns-any-website-into-a-guarded-ai-agent/",
+      "publishedAt": "2026-09-15T04:03:20.000Z",
+      "impact": 77
     },
     {
       "id": "arxiv-cs.ai-1789444800000-0",
@@ -103,15 +147,15 @@
       "impact": 69
     },
     {
-      "id": "aether-interp",
-      "type": "premium",
-      "category": "safety",
-      "title": "Anthropic publishes unprecedented mechanistic interpretability map of Claude 4",
-      "excerpt": "Researchers reverse-engineered 312 million features inside the model, including the first clear \"deception circuit\" discovered in a frontier model.",
-      "source": "Anthropic",
-      "url": "https://anthropic.com/research/claude-4-interp",
-      "publishedAt": "2026-09-15T02:41:30.727Z",
-      "impact": 91
+      "id": "marktechpost-1789422862000-3",
+      "type": "live",
+      "category": "research",
+      "title": "Agent Harness vs Agent Framework vs MCP: Which Layer Owns the Loop, State, Tools, Permissions, and Recovery",
+      "excerpt": "A practitioner's map of the 3 layers in a modern agent stack, with verified sources and an overlap analysis.  The post Agent Harness vs Agent Framework vs MCP: Which Layer Owns the Loop, State, Tools, Permissions, and...",
+      "source": "MarkTechPost",
+      "url": "https://www.marktechpost.com/2026/09/14/agent-harness-vs-agent-framework-vs-mcp-which-layer-owns-the-loop-state-tools-permissions-and-recovery/",
+      "publishedAt": "2026-09-14T21:54:22.000Z",
+      "impact": 77
     },
     {
       "id": "hugging-face-1788998400000-1",

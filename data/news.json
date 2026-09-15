@@ -1,8 +1,19 @@
 {
-  "lastUpdated": "2026-09-15T11:28:50.638Z",
+  "lastUpdated": "2026-09-15T16:41:31.220Z",
   "source": "AETHER + Public RSS (arXiv, Hugging Face, MarkTechPost, Ben's Bites)",
-  "count": 16,
+  "count": 12,
   "articles": [
+    {
+      "id": "hugging-face-1789488044000-0",
+      "type": "live",
+      "category": "research",
+      "title": "Your Agent Aced the Task. Will It Do It Again?",
+      "excerpt": "New development from the frontier.",
+      "source": "Hugging Face",
+      "url": "https://huggingface.co/blog/ibm-research/altk-evolve-consistency",
+      "publishedAt": "2026-09-15T16:00:44.000Z",
+      "impact": 87
+    },
     {
       "id": "aether-grok43",
       "type": "premium",
@@ -11,30 +22,19 @@
       "excerpt": "New model demonstrates 4.2× improvement on multi-step software engineering benchmarks and sustains coherent agent trajectories beyond 110k tokens.",
       "source": "xAI",
       "url": "https://x.ai/blog/grok-4.3",
-      "publishedAt": "2026-09-15T06:28:49.606Z",
+      "publishedAt": "2026-09-15T11:41:30.726Z",
       "impact": 96
     },
     {
-      "id": "marktechpost-1789446509000-0",
-      "type": "live",
-      "category": "research",
-      "title": "Meta Introduces ZGateway: A Stateless Proxy Tier That Unifies ZippyDB Traffic and Handles Over 1 Billion Operations Per Second",
-      "excerpt": "Meta engineering team introduced ZGateway, a proxy tier that now sits between client applications and ZippyDB, the Meta’s most widely used key value store.  ZippyDB backs product metadata, counters, and configuration ...",
-      "source": "MarkTechPost",
-      "url": "https://www.marktechpost.com/2026/09/14/meta-introduces-zgateway-a-stateless-proxy-tier-that-unifies-zippydb-traffic-and-handles-over-1-billion-operations-per-second/",
-      "publishedAt": "2026-09-15T04:28:29.000Z",
-      "impact": 65
-    },
-    {
-      "id": "marktechpost-1789445000000-1",
-      "type": "live",
-      "category": "research",
-      "title": "Agent-net Open Sources Webagent: A Go Harness That Turns Any Website into a Guarded AI Agent",
-      "excerpt": "Agent-net, the team building an agent-to-agent marketplace where AI agents discover, trust, and pay each other, has released Webagent, an open source harness for standing up public-facing business agents.  So, basical...",
-      "source": "MarkTechPost",
-      "url": "https://www.marktechpost.com/2026/09/14/agent-net-open-sources-webagent-a-go-harness-that-turns-any-website-into-a-guarded-ai-agent/",
-      "publishedAt": "2026-09-15T04:03:20.000Z",
-      "impact": 77
+      "id": "aether-figure03",
+      "type": "premium",
+      "category": "robotics",
+      "title": "Figure 03 completes 43-hour autonomous factory shift with zero interventions",
+      "excerpt": "Humanoid achieves new milestone in unsupervised operation, performing 1,240 unique tasks across three assembly lines at the BMW South Carolina plant.",
+      "source": "Figure AI",
+      "url": "https://figure.ai/news/03-milestone",
+      "publishedAt": "2026-09-15T07:41:30.727Z",
+      "impact": 89
     },
     {
       "id": "arxiv-cs.ai-1789444800000-0",
@@ -103,28 +103,6 @@
       "impact": 69
     },
     {
-      "id": "aether-figure03",
-      "type": "premium",
-      "category": "robotics",
-      "title": "Figure 03 completes 43-hour autonomous factory shift with zero interventions",
-      "excerpt": "Humanoid achieves new milestone in unsupervised operation, performing 1,240 unique tasks across three assembly lines at the BMW South Carolina plant.",
-      "source": "Figure AI",
-      "url": "https://figure.ai/news/03-milestone",
-      "publishedAt": "2026-09-15T02:28:49.606Z",
-      "impact": 89
-    },
-    {
-      "id": "marktechpost-1789422862000-2",
-      "type": "live",
-      "category": "research",
-      "title": "Agent Harness vs Agent Framework vs MCP: Which Layer Owns the Loop, State, Tools, Permissions, and Recovery",
-      "excerpt": "A practitioner's map of the 3 layers in a modern agent stack, with verified sources and an overlap analysis.  The post Agent Harness vs Agent Framework vs MCP: Which Layer Owns the Loop, State, Tools, Permissions, and...",
-      "source": "MarkTechPost",
-      "url": "https://www.marktechpost.com/2026/09/14/agent-harness-vs-agent-framework-vs-mcp-which-layer-owns-the-loop-state-tools-permissions-and-recovery/",
-      "publishedAt": "2026-09-14T21:54:22.000Z",
-      "impact": 77
-    },
-    {
       "id": "aether-interp",
       "type": "premium",
       "category": "safety",
@@ -132,22 +110,11 @@
       "excerpt": "Researchers reverse-engineered 312 million features inside the model, including the first clear \"deception circuit\" discovered in a frontier model.",
       "source": "Anthropic",
       "url": "https://anthropic.com/research/claude-4-interp",
-      "publishedAt": "2026-09-14T21:28:49.606Z",
+      "publishedAt": "2026-09-15T02:41:30.727Z",
       "impact": 91
     },
     {
-      "id": "marktechpost-1789420097000-3",
-      "type": "live",
-      "category": "robotics",
-      "title": "Reward AI Releases OM-1: A Robot Policy Trained on Human Demonstrations Only, With No Teleoperation or On-Robot Data",
-      "excerpt": "Reward AI has released OM-1 (Omnibody Model 1), a general-purpose manipulation policy trained entirely on human demonstrations captured with a 7-DoF wearable glove, with no teleoperation or on-robot data.  The policy ...",
-      "source": "MarkTechPost",
-      "url": "https://www.marktechpost.com/2026/09/14/reward-ai-releases-om-1-a-robot-policy-trained-on-human-demonstrations-only-with-no-teleoperation-or-on-robot-data/",
-      "publishedAt": "2026-09-14T21:08:17.000Z",
-      "impact": 65
-    },
-    {
-      "id": "hugging-face-1788998400000-0",
+      "id": "hugging-face-1788998400000-1",
       "type": "live",
       "category": "research",
       "title": "Async GRPO with LoRA across HF Jobs: a bucket, a proxy, and no NCCL",
@@ -158,7 +125,7 @@
       "impact": 75
     },
     {
-      "id": "hugging-face-1788998400000-1",
+      "id": "hugging-face-1788998400000-2",
       "type": "live",
       "category": "research",
       "title": "Rebuilding AUTOMATIC1111 with Gradio Workflow",
@@ -166,17 +133,6 @@
       "source": "Hugging Face",
       "url": "https://huggingface.co/blog/gradio-workflow-1111",
       "publishedAt": "2026-09-10T00:00:00.000Z",
-      "impact": 75
-    },
-    {
-      "id": "hugging-face-1788968184000-2",
-      "type": "live",
-      "category": "llm",
-      "title": "IBM releases SOTA Granite Time Series PatchTST-FM-r2 model with commercial-friendly license",
-      "excerpt": "New development from the frontier.",
-      "source": "Hugging Face",
-      "url": "https://huggingface.co/blog/ibm-research/ibm-releases-sota-granite-time-series",
-      "publishedAt": "2026-09-09T15:36:24.000Z",
       "impact": 75
     }
   ]

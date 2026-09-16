@@ -1,8 +1,41 @@
 {
-  "lastUpdated": "2026-09-16T04:19:00.109Z",
+  "lastUpdated": "2026-09-16T11:14:41.190Z",
   "source": "AETHER + Public RSS (arXiv, Hugging Face, MarkTechPost, Ben's Bites)",
   "count": 16,
   "articles": [
+    {
+      "id": "marktechpost-1789541538000-0",
+      "type": "live",
+      "category": "llm",
+      "title": "Prior Labs Releases TabPFN-3.5: A Tabular Foundation Model That Beats the Winning Otto Kaggle Solution With Default Settings",
+      "excerpt": "Prior Labs released TabPFN-3. 5, a tabular foundation model pretrained only on synthetic data that beats Otto's winning solution",
+      "source": "MarkTechPost",
+      "url": "https://www.marktechpost.com/2026/09/15/prior-labs-releases-tabpfn-3-5-a-tabular-foundation-model-that-beats-the-winning-otto-kaggle-solution-with-default-settings/",
+      "publishedAt": "2026-09-16T06:52:18.000Z",
+      "impact": 65
+    },
+    {
+      "id": "aether-grok43",
+      "type": "premium",
+      "category": "llm",
+      "title": "xAI releases Grok-4.3 with native long-horizon agent scaffolding",
+      "excerpt": "New model demonstrates 4.2× improvement on multi-step software engineering benchmarks and sustains coherent agent trajectories beyond 110k tokens.",
+      "source": "xAI",
+      "url": "https://x.ai/blog/grok-4.3",
+      "publishedAt": "2026-09-16T06:14:40.224Z",
+      "impact": 96
+    },
+    {
+      "id": "marktechpost-1789534787000-1",
+      "type": "live",
+      "category": "llm",
+      "title": "Nums AI Releases Causilo: A Tabular Foundation Model That Tops TabArena Among Single Models",
+      "excerpt": "Nums AI has released Causilo, a pretrained tabular foundation model for classification and regression with a scikit-learn interface.  It posts the top TabArena Elo among single models, ahead of Google's TabFM and LG's...",
+      "source": "MarkTechPost",
+      "url": "https://www.marktechpost.com/2026/09/15/nums-ai-releases-causilo-a-tabular-foundation-model-that-tops-tabarena-among-single-models/",
+      "publishedAt": "2026-09-16T04:59:47.000Z",
+      "impact": 65
+    },
     {
       "id": "arxiv-cs.ai-1789531200000-0",
       "type": "live",
@@ -70,18 +103,18 @@
       "impact": 69
     },
     {
-      "id": "aether-grok43",
+      "id": "aether-figure03",
       "type": "premium",
-      "category": "llm",
-      "title": "xAI releases Grok-4.3 with native long-horizon agent scaffolding",
-      "excerpt": "New model demonstrates 4.2× improvement on multi-step software engineering benchmarks and sustains coherent agent trajectories beyond 110k tokens.",
-      "source": "xAI",
-      "url": "https://x.ai/blog/grok-4.3",
-      "publishedAt": "2026-09-15T23:18:59.192Z",
-      "impact": 96
+      "category": "robotics",
+      "title": "Figure 03 completes 43-hour autonomous factory shift with zero interventions",
+      "excerpt": "Humanoid achieves new milestone in unsupervised operation, performing 1,240 unique tasks across three assembly lines at the BMW South Carolina plant.",
+      "source": "Figure AI",
+      "url": "https://figure.ai/news/03-milestone",
+      "publishedAt": "2026-09-16T02:14:40.224Z",
+      "impact": 89
     },
     {
-      "id": "marktechpost-1789508231000-0",
+      "id": "marktechpost-1789508231000-2",
       "type": "live",
       "category": "research",
       "title": "Inside NVIDIA’s cuDNN Graph API: Fusion, Autotuning, and Plan Reuse with cuDNN Frontend",
@@ -92,7 +125,18 @@
       "impact": 65
     },
     {
-      "id": "marktechpost-1789505589000-1",
+      "id": "aether-interp",
+      "type": "premium",
+      "category": "safety",
+      "title": "Anthropic publishes unprecedented mechanistic interpretability map of Claude 4",
+      "excerpt": "Researchers reverse-engineered 312 million features inside the model, including the first clear \"deception circuit\" discovered in a frontier model.",
+      "source": "Anthropic",
+      "url": "https://anthropic.com/research/claude-4-interp",
+      "publishedAt": "2026-09-15T21:14:40.224Z",
+      "impact": 91
+    },
+    {
+      "id": "marktechpost-1789505589000-3",
       "type": "live",
       "category": "multimodal",
       "title": "Google Releases Gemini 3.8 Live and 3.8 Live Extended Thinking for Production Grade Voice Agents",
@@ -101,17 +145,6 @@
       "url": "https://www.marktechpost.com/2026/09/15/google-releases-gemini-3-8-live-and-3-8-live-extended-thinking-for-production-grade-voice-agents/",
       "publishedAt": "2026-09-15T20:53:09.000Z",
       "impact": 77
-    },
-    {
-      "id": "aether-figure03",
-      "type": "premium",
-      "category": "robotics",
-      "title": "Figure 03 completes 43-hour autonomous factory shift with zero interventions",
-      "excerpt": "Humanoid achieves new milestone in unsupervised operation, performing 1,240 unique tasks across three assembly lines at the BMW South Carolina plant.",
-      "source": "Figure AI",
-      "url": "https://figure.ai/news/03-milestone",
-      "publishedAt": "2026-09-15T19:18:59.193Z",
-      "impact": 89
     },
     {
       "id": "hugging-face-1789488044000-0",
@@ -123,39 +156,6 @@
       "url": "https://huggingface.co/blog/ibm-research/altk-evolve-consistency",
       "publishedAt": "2026-09-15T16:00:44.000Z",
       "impact": 87
-    },
-    {
-      "id": "aether-interp",
-      "type": "premium",
-      "category": "safety",
-      "title": "Anthropic publishes unprecedented mechanistic interpretability map of Claude 4",
-      "excerpt": "Researchers reverse-engineered 312 million features inside the model, including the first clear \"deception circuit\" discovered in a frontier model.",
-      "source": "Anthropic",
-      "url": "https://anthropic.com/research/claude-4-interp",
-      "publishedAt": "2026-09-15T14:18:59.193Z",
-      "impact": 91
-    },
-    {
-      "id": "marktechpost-1789446509000-2",
-      "type": "live",
-      "category": "research",
-      "title": "Meta Introduces ZGateway: A Stateless Proxy Tier That Unifies ZippyDB Traffic and Handles Over 1 Billion Operations Per Second",
-      "excerpt": "Meta engineering team introduced ZGateway, a proxy tier that now sits between client applications and ZippyDB, the Meta’s most widely used key value store.  ZippyDB backs product metadata, counters, and configuration ...",
-      "source": "MarkTechPost",
-      "url": "https://www.marktechpost.com/2026/09/14/meta-introduces-zgateway-a-stateless-proxy-tier-that-unifies-zippydb-traffic-and-handles-over-1-billion-operations-per-second/",
-      "publishedAt": "2026-09-15T04:28:29.000Z",
-      "impact": 65
-    },
-    {
-      "id": "marktechpost-1789445000000-3",
-      "type": "live",
-      "category": "research",
-      "title": "Agent-net Open Sources Webagent: A Go Harness That Turns Any Website into a Guarded AI Agent",
-      "excerpt": "Agent-net, the team building an agent-to-agent marketplace where AI agents discover, trust, and pay each other, has released Webagent, an open source harness for standing up public-facing business agents.  So, basical...",
-      "source": "MarkTechPost",
-      "url": "https://www.marktechpost.com/2026/09/14/agent-net-open-sources-webagent-a-go-harness-that-turns-any-website-into-a-guarded-ai-agent/",
-      "publishedAt": "2026-09-15T04:03:20.000Z",
-      "impact": 77
     },
     {
       "id": "hugging-face-1788998400000-1",

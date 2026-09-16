@@ -1,10 +1,98 @@
 {
-  "lastUpdated": "2026-09-15T21:06:04.779Z",
+  "lastUpdated": "2026-09-16T04:19:00.109Z",
   "source": "AETHER + Public RSS (arXiv, Hugging Face, MarkTechPost, Ben's Bites)",
   "count": 16,
   "articles": [
     {
-      "id": "marktechpost-1789505589000-0",
+      "id": "arxiv-cs.ai-1789531200000-0",
+      "type": "live",
+      "category": "llm",
+      "title": "ZGCM-1: A Fully Open and Extremely Efficient Foundation Model for Math and Agentic Search",
+      "excerpt": "13356v1 Announce Type: new Abstract: In this work, we present ZGCM-1, a fully open 7B dense foundation model trained from scratch with extreme data, system, and algorithmic efficiency.  ZGCM-1 is founded on a core pre...",
+      "source": "arXiv cs.AI",
+      "url": "https://arxiv.org/abs/2609.13356",
+      "publishedAt": "2026-09-16T04:00:00.000Z",
+      "impact": 69
+    },
+    {
+      "id": "arxiv-cs.ai-1789531200000-1",
+      "type": "live",
+      "category": "research",
+      "title": "Converge Then Diversify: Decoupling Convergence and Diversity in Multi-Objective Bayesian Optimisation",
+      "excerpt": "13396v1 Announce Type: new Abstract: Multi-objective Bayesian optimisation (MOBO) is a sample-efficient approach for optimising expensive black-box functions with multiple objectives.  In MOBO, the goal is to adequate...",
+      "source": "arXiv cs.AI",
+      "url": "https://arxiv.org/abs/2609.13396",
+      "publishedAt": "2026-09-16T04:00:00.000Z",
+      "impact": 58
+    },
+    {
+      "id": "arxiv-cs.ai-1789531200000-2",
+      "type": "live",
+      "category": "llm",
+      "title": "Generalized Agent Iteration: One Formal Framework for Iterative Policy Improvement and Recursive Self-Improvement",
+      "excerpt": "13406v1 Announce Type: new Abstract: When we speak of recursive self-improvement (RSI), are we speaking of a phenomenon, a mechanism, or a prospect.  Towards autonomous and evolving intelligence, RSI is being claimed ...",
+      "source": "arXiv cs.AI",
+      "url": "https://arxiv.org/abs/2609.13406",
+      "publishedAt": "2026-09-16T04:00:00.000Z",
+      "impact": 69
+    },
+    {
+      "id": "arxiv-cs.ai-1789531200000-3",
+      "type": "live",
+      "category": "multimodal",
+      "title": "Vibe Patenting: Evaluating LLM Judges for Professional Patent-Drafting Agents",
+      "excerpt": "13422v1 Announce Type: new Abstract: LLM judges are increasingly used to evaluate and improve AI-generated outputs, yet their reliability for complex professional work remains unclear.  We study this problem through V...",
+      "source": "arXiv cs.AI",
+      "url": "https://arxiv.org/abs/2609.13422",
+      "publishedAt": "2026-09-16T04:00:00.000Z",
+      "impact": 69
+    },
+    {
+      "id": "arxiv-cs.ai-1789531200000-4",
+      "type": "live",
+      "category": "llm",
+      "title": "Toward Self-Adaptive Physical AI: Can LLM Agents Manage Long-Horizon Physical Tasks?",
+      "excerpt": "13436v1 Announce Type: new Abstract: Large Language Model (LLM) agents offer a promising path toward autonomously managing long-term physical tasks without human intervention.  However, physical tasks require agents t...",
+      "source": "arXiv cs.AI",
+      "url": "https://arxiv.org/abs/2609.13436",
+      "publishedAt": "2026-09-16T04:00:00.000Z",
+      "impact": 69
+    },
+    {
+      "id": "arxiv-cs.ai-1789531200000-5",
+      "type": "live",
+      "category": "robotics",
+      "title": "LabAgent: Customize Any Research Hubs for Scientific Discoveries Using AI Agents",
+      "excerpt": "13437v1 Announce Type: new Abstract: Scientific research is a continuous process that emphasizes inheritance.  Methods developed by predecessors are often expanded upon by new researchers to explore more novel and in-...",
+      "source": "arXiv cs.AI",
+      "url": "https://arxiv.org/abs/2609.13437",
+      "publishedAt": "2026-09-16T04:00:00.000Z",
+      "impact": 69
+    },
+    {
+      "id": "aether-grok43",
+      "type": "premium",
+      "category": "llm",
+      "title": "xAI releases Grok-4.3 with native long-horizon agent scaffolding",
+      "excerpt": "New model demonstrates 4.2× improvement on multi-step software engineering benchmarks and sustains coherent agent trajectories beyond 110k tokens.",
+      "source": "xAI",
+      "url": "https://x.ai/blog/grok-4.3",
+      "publishedAt": "2026-09-15T23:18:59.192Z",
+      "impact": 96
+    },
+    {
+      "id": "marktechpost-1789508231000-0",
+      "type": "live",
+      "category": "research",
+      "title": "Inside NVIDIA’s cuDNN Graph API: Fusion, Autotuning, and Plan Reuse with cuDNN Frontend",
+      "excerpt": "Learn how to leverage NVIDIA’s cuDNN Frontend Graph API to build custom kernel fusions, autotuning engine configurations, FP8-style epilogues, scaled dot-product attention, dynamic shapes, and CUDA graph captures.  Th...",
+      "source": "MarkTechPost",
+      "url": "https://www.marktechpost.com/2026/09/15/inside-nvidias-cudnn-graph-api-fusion-autotuning-and-plan-reuse-with-cudnn-frontend/",
+      "publishedAt": "2026-09-15T21:37:11.000Z",
+      "impact": 65
+    },
+    {
+      "id": "marktechpost-1789505589000-1",
       "type": "live",
       "category": "multimodal",
       "title": "Google Releases Gemini 3.8 Live and 3.8 Live Extended Thinking for Production Grade Voice Agents",
@@ -15,15 +103,15 @@
       "impact": 77
     },
     {
-      "id": "aether-grok43",
+      "id": "aether-figure03",
       "type": "premium",
-      "category": "llm",
-      "title": "xAI releases Grok-4.3 with native long-horizon agent scaffolding",
-      "excerpt": "New model demonstrates 4.2× improvement on multi-step software engineering benchmarks and sustains coherent agent trajectories beyond 110k tokens.",
-      "source": "xAI",
-      "url": "https://x.ai/blog/grok-4.3",
-      "publishedAt": "2026-09-15T16:06:02.975Z",
-      "impact": 96
+      "category": "robotics",
+      "title": "Figure 03 completes 43-hour autonomous factory shift with zero interventions",
+      "excerpt": "Humanoid achieves new milestone in unsupervised operation, performing 1,240 unique tasks across three assembly lines at the BMW South Carolina plant.",
+      "source": "Figure AI",
+      "url": "https://figure.ai/news/03-milestone",
+      "publishedAt": "2026-09-15T19:18:59.193Z",
+      "impact": 89
     },
     {
       "id": "hugging-face-1789488044000-0",
@@ -37,17 +125,6 @@
       "impact": 87
     },
     {
-      "id": "aether-figure03",
-      "type": "premium",
-      "category": "robotics",
-      "title": "Figure 03 completes 43-hour autonomous factory shift with zero interventions",
-      "excerpt": "Humanoid achieves new milestone in unsupervised operation, performing 1,240 unique tasks across three assembly lines at the BMW South Carolina plant.",
-      "source": "Figure AI",
-      "url": "https://figure.ai/news/03-milestone",
-      "publishedAt": "2026-09-15T12:06:02.975Z",
-      "impact": 89
-    },
-    {
       "id": "aether-interp",
       "type": "premium",
       "category": "safety",
@@ -55,11 +132,11 @@
       "excerpt": "Researchers reverse-engineered 312 million features inside the model, including the first clear \"deception circuit\" discovered in a frontier model.",
       "source": "Anthropic",
       "url": "https://anthropic.com/research/claude-4-interp",
-      "publishedAt": "2026-09-15T07:06:02.975Z",
+      "publishedAt": "2026-09-15T14:18:59.193Z",
       "impact": 91
     },
     {
-      "id": "marktechpost-1789446509000-1",
+      "id": "marktechpost-1789446509000-2",
       "type": "live",
       "category": "research",
       "title": "Meta Introduces ZGateway: A Stateless Proxy Tier That Unifies ZippyDB Traffic and Handles Over 1 Billion Operations Per Second",
@@ -70,7 +147,7 @@
       "impact": 65
     },
     {
-      "id": "marktechpost-1789445000000-2",
+      "id": "marktechpost-1789445000000-3",
       "type": "live",
       "category": "research",
       "title": "Agent-net Open Sources Webagent: A Go Harness That Turns Any Website into a Guarded AI Agent",
@@ -78,83 +155,6 @@
       "source": "MarkTechPost",
       "url": "https://www.marktechpost.com/2026/09/14/agent-net-open-sources-webagent-a-go-harness-that-turns-any-website-into-a-guarded-ai-agent/",
       "publishedAt": "2026-09-15T04:03:20.000Z",
-      "impact": 77
-    },
-    {
-      "id": "arxiv-cs.ai-1789444800000-0",
-      "type": "live",
-      "category": "llm",
-      "title": "ZGCM-1: A Fully Open and Extremely Efficient Foundation Model for Math and Agentic Search",
-      "excerpt": "13356v1 Announce Type: new Abstract: In this work, we present ZGCM-1, a fully open 7B dense foundation model trained from scratch with extreme data, system, and algorithmic efficiency.  ZGCM-1 is founded on a core pre...",
-      "source": "arXiv cs.AI",
-      "url": "https://arxiv.org/abs/2609.13356",
-      "publishedAt": "2026-09-15T04:00:00.000Z",
-      "impact": 69
-    },
-    {
-      "id": "arxiv-cs.ai-1789444800000-1",
-      "type": "live",
-      "category": "research",
-      "title": "Converge Then Diversify: Decoupling Convergence and Diversity in Multi-Objective Bayesian Optimisation",
-      "excerpt": "13396v1 Announce Type: new Abstract: Multi-objective Bayesian optimisation (MOBO) is a sample-efficient approach for optimising expensive black-box functions with multiple objectives.  In MOBO, the goal is to adequate...",
-      "source": "arXiv cs.AI",
-      "url": "https://arxiv.org/abs/2609.13396",
-      "publishedAt": "2026-09-15T04:00:00.000Z",
-      "impact": 58
-    },
-    {
-      "id": "arxiv-cs.ai-1789444800000-2",
-      "type": "live",
-      "category": "llm",
-      "title": "Generalized Agent Iteration: One Formal Framework for Iterative Policy Improvement and Recursive Self-Improvement",
-      "excerpt": "13406v1 Announce Type: new Abstract: When we speak of recursive self-improvement (RSI), are we speaking of a phenomenon, a mechanism, or a prospect.  Towards autonomous and evolving intelligence, RSI is being claimed ...",
-      "source": "arXiv cs.AI",
-      "url": "https://arxiv.org/abs/2609.13406",
-      "publishedAt": "2026-09-15T04:00:00.000Z",
-      "impact": 69
-    },
-    {
-      "id": "arxiv-cs.ai-1789444800000-3",
-      "type": "live",
-      "category": "multimodal",
-      "title": "Vibe Patenting: Evaluating LLM Judges for Professional Patent-Drafting Agents",
-      "excerpt": "13422v1 Announce Type: new Abstract: LLM judges are increasingly used to evaluate and improve AI-generated outputs, yet their reliability for complex professional work remains unclear.  We study this problem through V...",
-      "source": "arXiv cs.AI",
-      "url": "https://arxiv.org/abs/2609.13422",
-      "publishedAt": "2026-09-15T04:00:00.000Z",
-      "impact": 69
-    },
-    {
-      "id": "arxiv-cs.ai-1789444800000-4",
-      "type": "live",
-      "category": "llm",
-      "title": "Toward Self-Adaptive Physical AI: Can LLM Agents Manage Long-Horizon Physical Tasks?",
-      "excerpt": "13436v1 Announce Type: new Abstract: Large Language Model (LLM) agents offer a promising path toward autonomously managing long-term physical tasks without human intervention.  However, physical tasks require agents t...",
-      "source": "arXiv cs.AI",
-      "url": "https://arxiv.org/abs/2609.13436",
-      "publishedAt": "2026-09-15T04:00:00.000Z",
-      "impact": 69
-    },
-    {
-      "id": "arxiv-cs.ai-1789444800000-5",
-      "type": "live",
-      "category": "robotics",
-      "title": "LabAgent: Customize Any Research Hubs for Scientific Discoveries Using AI Agents",
-      "excerpt": "13437v1 Announce Type: new Abstract: Scientific research is a continuous process that emphasizes inheritance.  Methods developed by predecessors are often expanded upon by new researchers to explore more novel and in-...",
-      "source": "arXiv cs.AI",
-      "url": "https://arxiv.org/abs/2609.13437",
-      "publishedAt": "2026-09-15T04:00:00.000Z",
-      "impact": 69
-    },
-    {
-      "id": "marktechpost-1789422862000-3",
-      "type": "live",
-      "category": "research",
-      "title": "Agent Harness vs Agent Framework vs MCP: Which Layer Owns the Loop, State, Tools, Permissions, and Recovery",
-      "excerpt": "A practitioner's map of the 3 layers in a modern agent stack, with verified sources and an overlap analysis.  The post Agent Harness vs Agent Framework vs MCP: Which Layer Owns the Loop, State, Tools, Permissions, and...",
-      "source": "MarkTechPost",
-      "url": "https://www.marktechpost.com/2026/09/14/agent-harness-vs-agent-framework-vs-mcp-which-layer-owns-the-loop-state-tools-permissions-and-recovery/",
-      "publishedAt": "2026-09-14T21:54:22.000Z",
       "impact": 77
     },
     {

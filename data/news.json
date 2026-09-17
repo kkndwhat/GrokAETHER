@@ -1,8 +1,74 @@
 {
-  "lastUpdated": "2026-09-16T16:34:52.049Z",
+  "lastUpdated": "2026-09-17T04:25:29.196Z",
   "source": "AETHER + Public RSS (arXiv, Hugging Face, MarkTechPost, Ben's Bites)",
-  "count": 16,
+  "count": 12,
   "articles": [
+    {
+      "id": "arxiv-cs.ai-1789617600000-0",
+      "type": "live",
+      "category": "safety",
+      "title": "Making AI-Assisted Claims Independently Challengeable: Publication Authority and a Protocol for Falsifiable Publication Records",
+      "excerpt": "17631v1 Announce Type: new Abstract: AI-assisted claims can appear authoritative when evidence, analysis, human authorization, presentation, and correction history refer to different states.  Provenance, attestation, ...",
+      "source": "arXiv cs.AI",
+      "url": "https://arxiv.org/abs/2609.17631",
+      "publishedAt": "2026-09-17T04:00:00.000Z",
+      "impact": 58
+    },
+    {
+      "id": "arxiv-cs.ai-1789617600000-1",
+      "type": "live",
+      "category": "llm",
+      "title": "EvolveTrade: Experience-Driven Policy Refinement for Self-Evolving LLM Trading Agents",
+      "excerpt": "17632v1 Announce Type: new Abstract: Large language model (LLM) trading agents can combine market data, news, and executable analysis, but their behavior is often controlled by static hand-written tool-use policies th...",
+      "source": "arXiv cs.AI",
+      "url": "https://arxiv.org/abs/2609.17632",
+      "publishedAt": "2026-09-17T04:00:00.000Z",
+      "impact": 69
+    },
+    {
+      "id": "arxiv-cs.ai-1789617600000-2",
+      "type": "live",
+      "category": "research",
+      "title": "One Color Preprocessing Improves DSATUR",
+      "excerpt": "17633v1 Announce Type: new Abstract: The Graph Coloring Problem (GCP) is NP-hard and DSATUR stands as one of the fastest heuristics for it despite producing colorings that typically use more colors than state-of-the-a...",
+      "source": "arXiv cs.AI",
+      "url": "https://arxiv.org/abs/2609.17633",
+      "publishedAt": "2026-09-17T04:00:00.000Z",
+      "impact": 58
+    },
+    {
+      "id": "arxiv-cs.ai-1789617600000-3",
+      "type": "live",
+      "category": "safety",
+      "title": "Physics-Constrained Digital Twins for Sensor Integrity in Urban Pedestrian Flow: Detecting Stealthy False Data Injection with Conformal Guarantees",
+      "excerpt": "17635v1 Announce Type: new Abstract: City pedestrian counting systems now feed economic indicators, planning decisions and safety operations, yet the twins built on top of them treat the incoming stream as ground trut...",
+      "source": "arXiv cs.AI",
+      "url": "https://arxiv.org/abs/2609.17635",
+      "publishedAt": "2026-09-17T04:00:00.000Z",
+      "impact": 58
+    },
+    {
+      "id": "arxiv-cs.ai-1789617600000-4",
+      "type": "live",
+      "category": "llm",
+      "title": "What You Can't See Is Still What You Learn: A Preregistered Sixty-Society Confirmation That Evidence Masking Drives Compositional Generalization",
+      "excerpt": "17637v1 Announce Type: new Abstract: Restricting what a module can read may improve what a system learns to compute.  We test this in a preregistered confirmation with sixty four-cell systems sharing a frozen language...",
+      "source": "arXiv cs.AI",
+      "url": "https://arxiv.org/abs/2609.17637",
+      "publishedAt": "2026-09-17T04:00:00.000Z",
+      "impact": 58
+    },
+    {
+      "id": "arxiv-cs.ai-1789617600000-5",
+      "type": "live",
+      "category": "multimodal",
+      "title": "CapMem: A Benchmark for Caption-Based Episodic Memory in Egocentric Video",
+      "excerpt": "17688v1 Announce Type: new Abstract: Wearable assistants require episodic memory over egocentric video, yet current vision-language models face bounded frame budgets, growing visual-token costs, and long-context retri...",
+      "source": "arXiv cs.AI",
+      "url": "https://arxiv.org/abs/2609.17688",
+      "publishedAt": "2026-09-17T04:00:00.000Z",
+      "impact": 58
+    },
     {
       "id": "aether-grok43",
       "type": "premium",
@@ -11,7 +77,7 @@
       "excerpt": "New model demonstrates 4.2× improvement on multi-step software engineering benchmarks and sustains coherent agent trajectories beyond 110k tokens.",
       "source": "xAI",
       "url": "https://x.ai/blog/grok-4.3",
-      "publishedAt": "2026-09-16T11:34:51.308Z",
+      "publishedAt": "2026-09-16T23:25:28.846Z",
       "impact": 96
     },
     {
@@ -22,96 +88,8 @@
       "excerpt": "Humanoid achieves new milestone in unsupervised operation, performing 1,240 unique tasks across three assembly lines at the BMW South Carolina plant.",
       "source": "Figure AI",
       "url": "https://figure.ai/news/03-milestone",
-      "publishedAt": "2026-09-16T07:34:51.309Z",
+      "publishedAt": "2026-09-16T19:25:28.846Z",
       "impact": 89
-    },
-    {
-      "id": "marktechpost-1789541538000-0",
-      "type": "live",
-      "category": "llm",
-      "title": "Prior Labs Releases TabPFN-3.5: A Tabular Foundation Model That Beats the Winning Otto Kaggle Solution With Default Settings",
-      "excerpt": "Prior Labs released TabPFN-3. 5, a tabular foundation model pretrained only on synthetic data that beats Otto's winning solution",
-      "source": "MarkTechPost",
-      "url": "https://www.marktechpost.com/2026/09/15/prior-labs-releases-tabpfn-3-5-a-tabular-foundation-model-that-beats-the-winning-otto-kaggle-solution-with-default-settings/",
-      "publishedAt": "2026-09-16T06:52:18.000Z",
-      "impact": 65
-    },
-    {
-      "id": "marktechpost-1789534787000-1",
-      "type": "live",
-      "category": "llm",
-      "title": "Nums AI Releases Causilo: A Tabular Foundation Model That Tops TabArena Among Single Models",
-      "excerpt": "Nums AI has released Causilo, a pretrained tabular foundation model for classification and regression with a scikit-learn interface.  It posts the top TabArena Elo among single models, ahead of Google's TabFM and LG's...",
-      "source": "MarkTechPost",
-      "url": "https://www.marktechpost.com/2026/09/15/nums-ai-releases-causilo-a-tabular-foundation-model-that-tops-tabarena-among-single-models/",
-      "publishedAt": "2026-09-16T04:59:47.000Z",
-      "impact": 65
-    },
-    {
-      "id": "arxiv-cs.ai-1789531200000-0",
-      "type": "live",
-      "category": "llm",
-      "title": "ZGCM-1: A Fully Open and Extremely Efficient Foundation Model for Math and Agentic Search",
-      "excerpt": "13356v1 Announce Type: new Abstract: In this work, we present ZGCM-1, a fully open 7B dense foundation model trained from scratch with extreme data, system, and algorithmic efficiency.  ZGCM-1 is founded on a core pre...",
-      "source": "arXiv cs.AI",
-      "url": "https://arxiv.org/abs/2609.13356",
-      "publishedAt": "2026-09-16T04:00:00.000Z",
-      "impact": 69
-    },
-    {
-      "id": "arxiv-cs.ai-1789531200000-1",
-      "type": "live",
-      "category": "research",
-      "title": "Converge Then Diversify: Decoupling Convergence and Diversity in Multi-Objective Bayesian Optimisation",
-      "excerpt": "13396v1 Announce Type: new Abstract: Multi-objective Bayesian optimisation (MOBO) is a sample-efficient approach for optimising expensive black-box functions with multiple objectives.  In MOBO, the goal is to adequate...",
-      "source": "arXiv cs.AI",
-      "url": "https://arxiv.org/abs/2609.13396",
-      "publishedAt": "2026-09-16T04:00:00.000Z",
-      "impact": 58
-    },
-    {
-      "id": "arxiv-cs.ai-1789531200000-2",
-      "type": "live",
-      "category": "llm",
-      "title": "Generalized Agent Iteration: One Formal Framework for Iterative Policy Improvement and Recursive Self-Improvement",
-      "excerpt": "13406v1 Announce Type: new Abstract: When we speak of recursive self-improvement (RSI), are we speaking of a phenomenon, a mechanism, or a prospect.  Towards autonomous and evolving intelligence, RSI is being claimed ...",
-      "source": "arXiv cs.AI",
-      "url": "https://arxiv.org/abs/2609.13406",
-      "publishedAt": "2026-09-16T04:00:00.000Z",
-      "impact": 69
-    },
-    {
-      "id": "arxiv-cs.ai-1789531200000-3",
-      "type": "live",
-      "category": "multimodal",
-      "title": "Vibe Patenting: Evaluating LLM Judges for Professional Patent-Drafting Agents",
-      "excerpt": "13422v1 Announce Type: new Abstract: LLM judges are increasingly used to evaluate and improve AI-generated outputs, yet their reliability for complex professional work remains unclear.  We study this problem through V...",
-      "source": "arXiv cs.AI",
-      "url": "https://arxiv.org/abs/2609.13422",
-      "publishedAt": "2026-09-16T04:00:00.000Z",
-      "impact": 69
-    },
-    {
-      "id": "arxiv-cs.ai-1789531200000-4",
-      "type": "live",
-      "category": "llm",
-      "title": "Toward Self-Adaptive Physical AI: Can LLM Agents Manage Long-Horizon Physical Tasks?",
-      "excerpt": "13436v1 Announce Type: new Abstract: Large Language Model (LLM) agents offer a promising path toward autonomously managing long-term physical tasks without human intervention.  However, physical tasks require agents t...",
-      "source": "arXiv cs.AI",
-      "url": "https://arxiv.org/abs/2609.13436",
-      "publishedAt": "2026-09-16T04:00:00.000Z",
-      "impact": 69
-    },
-    {
-      "id": "arxiv-cs.ai-1789531200000-5",
-      "type": "live",
-      "category": "robotics",
-      "title": "LabAgent: Customize Any Research Hubs for Scientific Discoveries Using AI Agents",
-      "excerpt": "13437v1 Announce Type: new Abstract: Scientific research is a continuous process that emphasizes inheritance.  Methods developed by predecessors are often expanded upon by new researchers to explore more novel and in-...",
-      "source": "arXiv cs.AI",
-      "url": "https://arxiv.org/abs/2609.13437",
-      "publishedAt": "2026-09-16T04:00:00.000Z",
-      "impact": 69
     },
     {
       "id": "aether-interp",
@@ -121,30 +99,8 @@
       "excerpt": "Researchers reverse-engineered 312 million features inside the model, including the first clear \"deception circuit\" discovered in a frontier model.",
       "source": "Anthropic",
       "url": "https://anthropic.com/research/claude-4-interp",
-      "publishedAt": "2026-09-16T02:34:51.309Z",
+      "publishedAt": "2026-09-16T14:25:28.846Z",
       "impact": 91
-    },
-    {
-      "id": "marktechpost-1789508231000-2",
-      "type": "live",
-      "category": "research",
-      "title": "Inside NVIDIA’s cuDNN Graph API: Fusion, Autotuning, and Plan Reuse with cuDNN Frontend",
-      "excerpt": "Learn how to leverage NVIDIA’s cuDNN Frontend Graph API to build custom kernel fusions, autotuning engine configurations, FP8-style epilogues, scaled dot-product attention, dynamic shapes, and CUDA graph captures.  Th...",
-      "source": "MarkTechPost",
-      "url": "https://www.marktechpost.com/2026/09/15/inside-nvidias-cudnn-graph-api-fusion-autotuning-and-plan-reuse-with-cudnn-frontend/",
-      "publishedAt": "2026-09-15T21:37:11.000Z",
-      "impact": 65
-    },
-    {
-      "id": "marktechpost-1789505589000-3",
-      "type": "live",
-      "category": "multimodal",
-      "title": "Google Releases Gemini 3.8 Live and 3.8 Live Extended Thinking for Production Grade Voice Agents",
-      "excerpt": "Google has released Gemini 3. 8 Live Extended Thinking, its most advanced live dialogue models to date",
-      "source": "MarkTechPost",
-      "url": "https://www.marktechpost.com/2026/09/15/google-releases-gemini-3-8-live-and-3-8-live-extended-thinking-for-production-grade-voice-agents/",
-      "publishedAt": "2026-09-15T20:53:09.000Z",
-      "impact": 77
     },
     {
       "id": "hugging-face-1789488044000-0",

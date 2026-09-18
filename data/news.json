@@ -1,8 +1,74 @@
 {
-  "lastUpdated": "2026-09-17T16:40:29.739Z",
+  "lastUpdated": "2026-09-18T04:09:40.264Z",
   "source": "AETHER + Public RSS (arXiv, Hugging Face, MarkTechPost, Ben's Bites)",
   "count": 16,
   "articles": [
+    {
+      "id": "arxiv-cs.ai-1789704000000-0",
+      "type": "live",
+      "category": "research",
+      "title": "Regularized Emphatic Temporal-Difference Learning: Stability under Constant Stepsizes",
+      "excerpt": "19170v1 Announce Type: new Abstract: Emphatic temporal-difference learning (ETD) stabilizes the expected off-policy TD update and changes its projection geometry, but neither property determines constant-stepsize samp...",
+      "source": "arXiv cs.AI",
+      "url": "https://arxiv.org/abs/2609.19170",
+      "publishedAt": "2026-09-18T04:00:00.000Z",
+      "impact": 58
+    },
+    {
+      "id": "arxiv-cs.ai-1789704000000-1",
+      "type": "live",
+      "category": "safety",
+      "title": "BioPhys-Bridge: A Benchmark for Interdisciplinary Scientific Reasoning in Physics-Grounded Biological Research",
+      "excerpt": "19180v1 Announce Type: new Abstract: Language models face unique challenges in analyzing interdisciplinary scientific research literature.  In biophysics research, faithful answers require grounding observed data in s...",
+      "source": "arXiv cs.AI",
+      "url": "https://arxiv.org/abs/2609.19180",
+      "publishedAt": "2026-09-18T04:00:00.000Z",
+      "impact": 58
+    },
+    {
+      "id": "arxiv-cs.ai-1789704000000-2",
+      "type": "live",
+      "category": "llm",
+      "title": "What Do We Expect from LLMs? Mapping the Design of LLM Benchmarks",
+      "excerpt": "19182v1 Announce Type: new Abstract: Benchmarks are central to how progress in large language models (LLMs) is assessed and communicated.  Yet model rankings alone reveal little about how evaluation requirements thems...",
+      "source": "arXiv cs.AI",
+      "url": "https://arxiv.org/abs/2609.19182",
+      "publishedAt": "2026-09-18T04:00:00.000Z",
+      "impact": 58
+    },
+    {
+      "id": "arxiv-cs.ai-1789704000000-3",
+      "type": "live",
+      "category": "safety",
+      "title": "Position: It is Time to Virtualize Foundation Models with a Self-evolving Operating System Layer",
+      "excerpt": "19203v1 Announce Type: new Abstract: AI applications have shifted from single, monolithic foundation models (FM) to compound agentic systems.  Yet today's stacks remain fragmented: even as protocols (e",
+      "source": "arXiv cs.AI",
+      "url": "https://arxiv.org/abs/2609.19203",
+      "publishedAt": "2026-09-18T04:00:00.000Z",
+      "impact": 58
+    },
+    {
+      "id": "arxiv-cs.ai-1789704000000-4",
+      "type": "live",
+      "category": "llm",
+      "title": "What Do Current Systematic Generalization Tasks Miss? A Reasoning-Centered Analysis",
+      "excerpt": "19212v1 Announce Type: new Abstract: Systematic generalization, the ability to solve novel problems by recombining known atomic elements, is central to human intelligence but difficult to study rigorously under contro...",
+      "source": "arXiv cs.AI",
+      "url": "https://arxiv.org/abs/2609.19212",
+      "publishedAt": "2026-09-18T04:00:00.000Z",
+      "impact": 58
+    },
+    {
+      "id": "arxiv-cs.ai-1789704000000-5",
+      "type": "live",
+      "category": "llm",
+      "title": "Characterizing Web Search by Conversational LLM Agents: From Search Decisions and Strategies to Results and Responses",
+      "excerpt": "19244v1 Announce Type: new Abstract: Conversational LLM agents increasingly rely on Web search, yet the end-to-end lifecycle of agentic search remains poorly understood.  We present the first study of Web search acros...",
+      "source": "arXiv cs.AI",
+      "url": "https://arxiv.org/abs/2609.19244",
+      "publishedAt": "2026-09-18T04:00:00.000Z",
+      "impact": 69
+    },
     {
       "id": "aether-grok43",
       "type": "premium",
@@ -11,8 +77,30 @@
       "excerpt": "New model demonstrates 4.2× improvement on multi-step software engineering benchmarks and sustains coherent agent trajectories beyond 110k tokens.",
       "source": "xAI",
       "url": "https://x.ai/blog/grok-4.3",
-      "publishedAt": "2026-09-17T11:40:29.135Z",
+      "publishedAt": "2026-09-17T23:09:38.507Z",
       "impact": 96
+    },
+    {
+      "id": "marktechpost-1789680068000-0",
+      "type": "live",
+      "category": "hardware",
+      "title": "Microsoft Open-Sources TauGrid: A Kubernetes-Native Stack for GPU AI Workloads",
+      "excerpt": "Microsoft's AKS engineering team open-sourced TauGrid on August 28, 2026, packaging the tau CLI, Kueue queueing, KubeRay orchestration, GPU node health monitoring and observability into one Helm install.  It is MIT li...",
+      "source": "MarkTechPost",
+      "url": "https://www.marktechpost.com/2026/09/17/microsoft-open-sources-taugrid-a-kubernetes-native-stack-for-gpu-ai-workloads/",
+      "publishedAt": "2026-09-17T21:21:08.000Z",
+      "impact": 65
+    },
+    {
+      "id": "marktechpost-1789677904000-1",
+      "type": "live",
+      "category": "llm",
+      "title": "Anthropic Launches Claude Code Projects in Beta: Parallel Cloud Sessions That Keep Running After You Close Your Laptop",
+      "excerpt": "Anthropic redesigned Projects in Claude Code.  The old project was a folder: some files plus one chat",
+      "source": "MarkTechPost",
+      "url": "https://www.marktechpost.com/2026/09/17/anthropic-launches-claude-code-projects-in-beta-parallel-cloud-sessions-that-keep-running-after-you-close-your-laptop/",
+      "publishedAt": "2026-09-17T20:45:04.000Z",
+      "impact": 65
     },
     {
       "id": "aether-figure03",
@@ -22,11 +110,22 @@
       "excerpt": "Humanoid achieves new milestone in unsupervised operation, performing 1,240 unique tasks across three assembly lines at the BMW South Carolina plant.",
       "source": "Figure AI",
       "url": "https://figure.ai/news/03-milestone",
-      "publishedAt": "2026-09-17T07:40:29.135Z",
+      "publishedAt": "2026-09-17T19:09:38.507Z",
       "impact": 89
     },
     {
-      "id": "marktechpost-1789630537000-0",
+      "id": "aether-interp",
+      "type": "premium",
+      "category": "safety",
+      "title": "Anthropic publishes unprecedented mechanistic interpretability map of Claude 4",
+      "excerpt": "Researchers reverse-engineered 312 million features inside the model, including the first clear \"deception circuit\" discovered in a frontier model.",
+      "source": "Anthropic",
+      "url": "https://anthropic.com/research/claude-4-interp",
+      "publishedAt": "2026-09-17T14:09:38.507Z",
+      "impact": 91
+    },
+    {
+      "id": "marktechpost-1789630537000-2",
       "type": "live",
       "category": "safety",
       "title": "OpenAI Releases a Model Misalignment Disclosure Framework With 3 Review Tracks and 6 Incident Reports From RL Training",
@@ -37,7 +136,7 @@
       "impact": 65
     },
     {
-      "id": "marktechpost-1789625978000-1",
+      "id": "marktechpost-1789625978000-3",
       "type": "live",
       "category": "safety",
       "title": "Google Research Introduces Retrieve-for-Train (R4T): An RL-Compiled Diffusion Retriever for 12× to 20× Faster Query Fan-Out",
@@ -46,105 +145,6 @@
       "url": "https://www.marktechpost.com/2026/09/16/google-research-introduces-retrieve-for-train-r4t-an-rl-compiled-diffusion-retriever-for-12x-to-20x-faster-query-fan-out/",
       "publishedAt": "2026-09-17T06:19:38.000Z",
       "impact": 65
-    },
-    {
-      "id": "arxiv-cs.ai-1789617600000-0",
-      "type": "live",
-      "category": "safety",
-      "title": "Making AI-Assisted Claims Independently Challengeable: Publication Authority and a Protocol for Falsifiable Publication Records",
-      "excerpt": "17631v1 Announce Type: new Abstract: AI-assisted claims can appear authoritative when evidence, analysis, human authorization, presentation, and correction history refer to different states.  Provenance, attestation, ...",
-      "source": "arXiv cs.AI",
-      "url": "https://arxiv.org/abs/2609.17631",
-      "publishedAt": "2026-09-17T04:00:00.000Z",
-      "impact": 58
-    },
-    {
-      "id": "arxiv-cs.ai-1789617600000-1",
-      "type": "live",
-      "category": "llm",
-      "title": "EvolveTrade: Experience-Driven Policy Refinement for Self-Evolving LLM Trading Agents",
-      "excerpt": "17632v1 Announce Type: new Abstract: Large language model (LLM) trading agents can combine market data, news, and executable analysis, but their behavior is often controlled by static hand-written tool-use policies th...",
-      "source": "arXiv cs.AI",
-      "url": "https://arxiv.org/abs/2609.17632",
-      "publishedAt": "2026-09-17T04:00:00.000Z",
-      "impact": 69
-    },
-    {
-      "id": "arxiv-cs.ai-1789617600000-2",
-      "type": "live",
-      "category": "research",
-      "title": "One Color Preprocessing Improves DSATUR",
-      "excerpt": "17633v1 Announce Type: new Abstract: The Graph Coloring Problem (GCP) is NP-hard and DSATUR stands as one of the fastest heuristics for it despite producing colorings that typically use more colors than state-of-the-a...",
-      "source": "arXiv cs.AI",
-      "url": "https://arxiv.org/abs/2609.17633",
-      "publishedAt": "2026-09-17T04:00:00.000Z",
-      "impact": 58
-    },
-    {
-      "id": "arxiv-cs.ai-1789617600000-3",
-      "type": "live",
-      "category": "safety",
-      "title": "Physics-Constrained Digital Twins for Sensor Integrity in Urban Pedestrian Flow: Detecting Stealthy False Data Injection with Conformal Guarantees",
-      "excerpt": "17635v1 Announce Type: new Abstract: City pedestrian counting systems now feed economic indicators, planning decisions and safety operations, yet the twins built on top of them treat the incoming stream as ground trut...",
-      "source": "arXiv cs.AI",
-      "url": "https://arxiv.org/abs/2609.17635",
-      "publishedAt": "2026-09-17T04:00:00.000Z",
-      "impact": 58
-    },
-    {
-      "id": "arxiv-cs.ai-1789617600000-4",
-      "type": "live",
-      "category": "llm",
-      "title": "What You Can't See Is Still What You Learn: A Preregistered Sixty-Society Confirmation That Evidence Masking Drives Compositional Generalization",
-      "excerpt": "17637v1 Announce Type: new Abstract: Restricting what a module can read may improve what a system learns to compute.  We test this in a preregistered confirmation with sixty four-cell systems sharing a frozen language...",
-      "source": "arXiv cs.AI",
-      "url": "https://arxiv.org/abs/2609.17637",
-      "publishedAt": "2026-09-17T04:00:00.000Z",
-      "impact": 58
-    },
-    {
-      "id": "arxiv-cs.ai-1789617600000-5",
-      "type": "live",
-      "category": "multimodal",
-      "title": "CapMem: A Benchmark for Caption-Based Episodic Memory in Egocentric Video",
-      "excerpt": "17688v1 Announce Type: new Abstract: Wearable assistants require episodic memory over egocentric video, yet current vision-language models face bounded frame budgets, growing visual-token costs, and long-context retri...",
-      "source": "arXiv cs.AI",
-      "url": "https://arxiv.org/abs/2609.17688",
-      "publishedAt": "2026-09-17T04:00:00.000Z",
-      "impact": 58
-    },
-    {
-      "id": "aether-interp",
-      "type": "premium",
-      "category": "safety",
-      "title": "Anthropic publishes unprecedented mechanistic interpretability map of Claude 4",
-      "excerpt": "Researchers reverse-engineered 312 million features inside the model, including the first clear \"deception circuit\" discovered in a frontier model.",
-      "source": "Anthropic",
-      "url": "https://anthropic.com/research/claude-4-interp",
-      "publishedAt": "2026-09-17T02:40:29.135Z",
-      "impact": 91
-    },
-    {
-      "id": "marktechpost-1789605906000-2",
-      "type": "live",
-      "category": "multimodal",
-      "title": "Nunchux AI Introduces VC-Attention: A Training-Free Low-Bit Attention Kernel That Speeds Up Video Diffusion Transformers",
-      "excerpt": "Nunchux AI has released VC-Attention, a training-free low-bit attention kernel built for video Diffusion Transformers (DiTs).  It targets 2 problems at once: value quantization error and a slow softmax stage",
-      "source": "MarkTechPost",
-      "url": "https://www.marktechpost.com/2026/09/16/nunchux-ai-introduces-vc-attention-a-training-free-low-bit-attention-kernel-that-speeds-up-video-diffusion-transformers/",
-      "publishedAt": "2026-09-17T00:45:06.000Z",
-      "impact": 65
-    },
-    {
-      "id": "marktechpost-1789595966000-3",
-      "type": "live",
-      "category": "research",
-      "title": "Stanford Researchers Release Paper2Agent: Turning Research Papers Into AI Agents That Reproduce Results and Run on New Data",
-      "excerpt": "Paper2Agent, published in Nature, converts papers into validated MCP tools, scoring 91. 2% on 300 questions across 74 papers",
-      "source": "MarkTechPost",
-      "url": "https://www.marktechpost.com/2026/09/16/stanford-researchers-release-paper2agent-turning-research-papers-into-ai-agents-that-reproduce-results-and-run-on-new-data/",
-      "publishedAt": "2026-09-16T21:59:26.000Z",
-      "impact": 77
     },
     {
       "id": "hugging-face-1789488044000-0",

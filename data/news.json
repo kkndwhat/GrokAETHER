@@ -1,8 +1,30 @@
 {
-  "lastUpdated": "2026-09-18T20:42:42.231Z",
+  "lastUpdated": "2026-09-19T04:06:11.984Z",
   "source": "AETHER + Public RSS (arXiv, Hugging Face, MarkTechPost, Ben's Bites)",
-  "count": 12,
+  "count": 10,
   "articles": [
+    {
+      "id": "marktechpost-1789790646000-0",
+      "type": "live",
+      "category": "hardware",
+      "title": "GGUF vs GPTQ vs AWQ vs EXL2: LLM Model Formats Explained (2026)",
+      "excerpt": "GGUF, GPTQ, AWQ, EXL2, and EXL3 solve the same problem in different ways.  This guide separates file containers from quantization methods",
+      "source": "MarkTechPost",
+      "url": "https://www.marktechpost.com/2026/09/18/gguf-vs-gptq-vs-awq-vs-exl2-llm-model-formats-explained-2026/",
+      "publishedAt": "2026-09-19T04:04:06.000Z",
+      "impact": 65
+    },
+    {
+      "id": "marktechpost-1789789344000-1",
+      "type": "live",
+      "category": "multimodal",
+      "title": "SpaceXAI Releases Grok Voice Transcribe 2.0: A Speech-to-Text API Claiming 2x Accuracy Over 1.0 at $0.10 per Hour",
+      "excerpt": "SpaceXAI has released Grok Voice Transcribe 2. 0, its newest speech-to-text model for batch and streaming audio",
+      "source": "MarkTechPost",
+      "url": "https://www.marktechpost.com/2026/09/18/spacexai-releases-grok-voice-transcribe-2-0/",
+      "publishedAt": "2026-09-19T03:42:24.000Z",
+      "impact": 65
+    },
     {
       "id": "aether-grok43",
       "type": "premium",
@@ -11,8 +33,19 @@
       "excerpt": "New model demonstrates 4.2× improvement on multi-step software engineering benchmarks and sustains coherent agent trajectories beyond 110k tokens.",
       "source": "xAI",
       "url": "https://x.ai/blog/grok-4.3",
-      "publishedAt": "2026-09-18T15:42:41.762Z",
+      "publishedAt": "2026-09-18T23:06:11.054Z",
       "impact": 96
+    },
+    {
+      "id": "marktechpost-1789766519000-2",
+      "type": "live",
+      "category": "hardware",
+      "title": "Jina AI Releases jina-ocr-v1: A 3.4B MoE Document Parser With Built-In Speculative Decoding for Low-Budget GPUs",
+      "excerpt": "Jina AI has released jina-ocr-v1, a visual document parser that converts PDFs, scans, tables, charts and invoices into Markdown. 4B total parameters, with about 570M active per token, and builds on DeepSeek-OCR",
+      "source": "MarkTechPost",
+      "url": "https://www.marktechpost.com/2026/09/18/jina-ai-releases-jina-ocr-v1-a-3-4b-moe-document-parser-with-built-in-speculative-decoding-for-low-budget-gpus/",
+      "publishedAt": "2026-09-18T21:21:59.000Z",
+      "impact": 65
     },
     {
       "id": "aether-figure03",
@@ -22,8 +55,19 @@
       "excerpt": "Humanoid achieves new milestone in unsupervised operation, performing 1,240 unique tasks across three assembly lines at the BMW South Carolina plant.",
       "source": "Figure AI",
       "url": "https://figure.ai/news/03-milestone",
-      "publishedAt": "2026-09-18T11:42:41.762Z",
+      "publishedAt": "2026-09-18T19:06:11.054Z",
       "impact": 89
+    },
+    {
+      "id": "marktechpost-1789754796000-3",
+      "type": "live",
+      "category": "multimodal",
+      "title": "PrismML Releases Ternary Bonsai 2 27B: A 5.9 GB Apache 2.0 Model Retaining 98.2% of Qwen3.8 27B Performance",
+      "excerpt": "PrismML has released Ternary Bonsai 2 27B, a ternary-weight version of Qwen3.  The language model occupies 5",
+      "source": "MarkTechPost",
+      "url": "https://www.marktechpost.com/2026/09/18/prismml-releases-ternary-bonsai-2-27b-a-5-9-gb-apache-2-0-model-retaining-98-2-of-qwen3-8-27b-performance/",
+      "publishedAt": "2026-09-18T18:06:36.000Z",
+      "impact": 65
     },
     {
       "id": "aether-interp",
@@ -33,74 +77,8 @@
       "excerpt": "Researchers reverse-engineered 312 million features inside the model, including the first clear \"deception circuit\" discovered in a frontier model.",
       "source": "Anthropic",
       "url": "https://anthropic.com/research/claude-4-interp",
-      "publishedAt": "2026-09-18T06:42:41.762Z",
+      "publishedAt": "2026-09-18T14:06:11.054Z",
       "impact": 91
-    },
-    {
-      "id": "arxiv-cs.ai-1789704000000-0",
-      "type": "live",
-      "category": "research",
-      "title": "Regularized Emphatic Temporal-Difference Learning: Stability under Constant Stepsizes",
-      "excerpt": "19170v1 Announce Type: new Abstract: Emphatic temporal-difference learning (ETD) stabilizes the expected off-policy TD update and changes its projection geometry, but neither property determines constant-stepsize samp...",
-      "source": "arXiv cs.AI",
-      "url": "https://arxiv.org/abs/2609.19170",
-      "publishedAt": "2026-09-18T04:00:00.000Z",
-      "impact": 58
-    },
-    {
-      "id": "arxiv-cs.ai-1789704000000-1",
-      "type": "live",
-      "category": "safety",
-      "title": "BioPhys-Bridge: A Benchmark for Interdisciplinary Scientific Reasoning in Physics-Grounded Biological Research",
-      "excerpt": "19180v1 Announce Type: new Abstract: Language models face unique challenges in analyzing interdisciplinary scientific research literature.  In biophysics research, faithful answers require grounding observed data in s...",
-      "source": "arXiv cs.AI",
-      "url": "https://arxiv.org/abs/2609.19180",
-      "publishedAt": "2026-09-18T04:00:00.000Z",
-      "impact": 58
-    },
-    {
-      "id": "arxiv-cs.ai-1789704000000-2",
-      "type": "live",
-      "category": "llm",
-      "title": "What Do We Expect from LLMs? Mapping the Design of LLM Benchmarks",
-      "excerpt": "19182v1 Announce Type: new Abstract: Benchmarks are central to how progress in large language models (LLMs) is assessed and communicated.  Yet model rankings alone reveal little about how evaluation requirements thems...",
-      "source": "arXiv cs.AI",
-      "url": "https://arxiv.org/abs/2609.19182",
-      "publishedAt": "2026-09-18T04:00:00.000Z",
-      "impact": 58
-    },
-    {
-      "id": "arxiv-cs.ai-1789704000000-3",
-      "type": "live",
-      "category": "safety",
-      "title": "Position: It is Time to Virtualize Foundation Models with a Self-evolving Operating System Layer",
-      "excerpt": "19203v1 Announce Type: new Abstract: AI applications have shifted from single, monolithic foundation models (FM) to compound agentic systems.  Yet today's stacks remain fragmented: even as protocols (e",
-      "source": "arXiv cs.AI",
-      "url": "https://arxiv.org/abs/2609.19203",
-      "publishedAt": "2026-09-18T04:00:00.000Z",
-      "impact": 58
-    },
-    {
-      "id": "arxiv-cs.ai-1789704000000-4",
-      "type": "live",
-      "category": "llm",
-      "title": "What Do Current Systematic Generalization Tasks Miss? A Reasoning-Centered Analysis",
-      "excerpt": "19212v1 Announce Type: new Abstract: Systematic generalization, the ability to solve novel problems by recombining known atomic elements, is central to human intelligence but difficult to study rigorously under contro...",
-      "source": "arXiv cs.AI",
-      "url": "https://arxiv.org/abs/2609.19212",
-      "publishedAt": "2026-09-18T04:00:00.000Z",
-      "impact": 58
-    },
-    {
-      "id": "arxiv-cs.ai-1789704000000-5",
-      "type": "live",
-      "category": "llm",
-      "title": "Characterizing Web Search by Conversational LLM Agents: From Search Decisions and Strategies to Results and Responses",
-      "excerpt": "19244v1 Announce Type: new Abstract: Conversational LLM agents increasingly rely on Web search, yet the end-to-end lifecycle of agentic search remains poorly understood.  We present the first study of Web search acros...",
-      "source": "arXiv cs.AI",
-      "url": "https://arxiv.org/abs/2609.19244",
-      "publishedAt": "2026-09-18T04:00:00.000Z",
-      "impact": 69
     },
     {
       "id": "hugging-face-1789488044000-0",

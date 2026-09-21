@@ -1,7 +1,7 @@
 {
-  "lastUpdated": "2026-09-20T20:35:57.830Z",
+  "lastUpdated": "2026-09-21T12:29:55.110Z",
   "source": "AETHER + Public RSS (arXiv, Hugging Face, MarkTechPost, Ben's Bites)",
-  "count": 6,
+  "count": 16,
   "articles": [
     {
       "id": "aether-grok43",
@@ -11,8 +11,96 @@
       "excerpt": "New model demonstrates 4.2× improvement on multi-step software engineering benchmarks and sustains coherent agent trajectories beyond 110k tokens.",
       "source": "xAI",
       "url": "https://x.ai/blog/grok-4.3",
-      "publishedAt": "2026-09-20T15:35:57.372Z",
+      "publishedAt": "2026-09-21T07:29:54.049Z",
       "impact": 96
+    },
+    {
+      "id": "marktechpost-1789975578000-0",
+      "type": "live",
+      "category": "multimodal",
+      "title": "Best Voice Cloning APIs in 2026: Speaker Similarity, Consent Checks, and Price per 1M Characters",
+      "excerpt": "We cloned one 10-second voice on 7 platforms and ranked them on reference audio, consent, licensing, and cost.  The post Best Voice Cloning APIs in 2026: Speaker Similarity, Consent Checks, and Price per 1M Characters...",
+      "source": "MarkTechPost",
+      "url": "https://www.marktechpost.com/2026/09/21/best-voice-cloning-apis-in-2026-speaker-similarity-consent-checks-and-price-per-1m-characters/",
+      "publishedAt": "2026-09-21T07:26:18.000Z",
+      "impact": 65
+    },
+    {
+      "id": "marktechpost-1789972638000-1",
+      "type": "live",
+      "category": "multimodal",
+      "title": "StepFun Launches Step 5 Preview: A 600B-Total, 27B-Active MoE Model With 1M Context for Long-Horizon Agentic Work",
+      "excerpt": "StepFun has released Step 5 Preview, a sparse Mixture-of-Experts model with 600B total parameters and 27B active per token.  It supports a 1M-token context window and accepts text, image, and video input",
+      "source": "MarkTechPost",
+      "url": "https://www.marktechpost.com/2026/09/20/stepfun-launches-step-5-preview/",
+      "publishedAt": "2026-09-21T06:37:18.000Z",
+      "impact": 77
+    },
+    {
+      "id": "arxiv-cs.ai-1789963200000-0",
+      "type": "live",
+      "category": "hardware",
+      "title": "RBS-Attention: Radius-Bounded Sparse Prefill for Long-Context Large Language Models",
+      "excerpt": "20971v1 Announce Type: new Abstract: Long-context large language model inference is increasingly limited by prefill, where dense self-attention processes the entire prompt before generation begins.  Sparse block selec...",
+      "source": "arXiv cs.AI",
+      "url": "https://arxiv.org/abs/2609.20971",
+      "publishedAt": "2026-09-21T04:00:00.000Z",
+      "impact": 58
+    },
+    {
+      "id": "arxiv-cs.ai-1789963200000-1",
+      "type": "live",
+      "category": "llm",
+      "title": "Attention-Aware Routing: Coupling Routing and Attention in MoEs",
+      "excerpt": "20974v1 Announce Type: new Abstract: In Mixture-of-Experts language models, the router typically selects and weights experts based on the token's hidden state, utilizing limited contextual information.  We propose Att...",
+      "source": "arXiv cs.AI",
+      "url": "https://arxiv.org/abs/2609.20974",
+      "publishedAt": "2026-09-21T04:00:00.000Z",
+      "impact": 58
+    },
+    {
+      "id": "arxiv-cs.ai-1789963200000-2",
+      "type": "live",
+      "category": "multimodal",
+      "title": "CaLR: Causal Latent Revision for Robust Diffusion Reasoning",
+      "excerpt": "20981v1 Announce Type: new Abstract: Autoregressive (AR) models suffer from local greediness, while diffusion language models (DLMs) often lack the strict causal structure required for reasoning.  To combine the advan...",
+      "source": "arXiv cs.AI",
+      "url": "https://arxiv.org/abs/2609.20981",
+      "publishedAt": "2026-09-21T04:00:00.000Z",
+      "impact": 58
+    },
+    {
+      "id": "arxiv-cs.ai-1789963200000-3",
+      "type": "live",
+      "category": "multimodal",
+      "title": "LoRA Enhanced Contrastive Learning with SAS Vision Transformers",
+      "excerpt": "21061v1 Announce Type: new Abstract: Automatic target recognition (ATR) with synthetic aperture sonar (SAS) supports advanced naval capabilities, but deep learning is constrained by scarce target imagery, background c...",
+      "source": "arXiv cs.AI",
+      "url": "https://arxiv.org/abs/2609.21061",
+      "publishedAt": "2026-09-21T04:00:00.000Z",
+      "impact": 58
+    },
+    {
+      "id": "arxiv-cs.ai-1789963200000-4",
+      "type": "live",
+      "category": "llm",
+      "title": "Detecting Hallucination in LLMs: Tracing the Topological Signatures of Impaired Context Sharing",
+      "excerpt": "21096v1 Announce Type: new Abstract: In this work, we examine the topology of information flow patterns within attention graphs to effectively distinguish hallucinated from non-hallucinated responses.  We analyze the ...",
+      "source": "arXiv cs.AI",
+      "url": "https://arxiv.org/abs/2609.21096",
+      "publishedAt": "2026-09-21T04:00:00.000Z",
+      "impact": 58
+    },
+    {
+      "id": "arxiv-cs.ai-1789963200000-5",
+      "type": "live",
+      "category": "llm",
+      "title": "Decoupling Internal Representational Changes and Causal Importance in Fine-Tuned Large Language Models",
+      "excerpt": "21113v1 Announce Type: new Abstract: Fine-tuning has emerged as a widely adopted approach for adapting LLMs to a variety of downstream tasks.  However, how it reshapes their internal mechanisms remains poorly understood",
+      "source": "arXiv cs.AI",
+      "url": "https://arxiv.org/abs/2609.21113",
+      "publishedAt": "2026-09-21T04:00:00.000Z",
+      "impact": 58
     },
     {
       "id": "aether-figure03",
@@ -22,7 +110,7 @@
       "excerpt": "Humanoid achieves new milestone in unsupervised operation, performing 1,240 unique tasks across three assembly lines at the BMW South Carolina plant.",
       "source": "Figure AI",
       "url": "https://figure.ai/news/03-milestone",
-      "publishedAt": "2026-09-20T11:35:57.372Z",
+      "publishedAt": "2026-09-21T03:29:54.050Z",
       "impact": 89
     },
     {
@@ -33,8 +121,30 @@
       "excerpt": "Researchers reverse-engineered 312 million features inside the model, including the first clear \"deception circuit\" discovered in a frontier model.",
       "source": "Anthropic",
       "url": "https://anthropic.com/research/claude-4-interp",
-      "publishedAt": "2026-09-20T06:35:57.372Z",
+      "publishedAt": "2026-09-20T22:29:54.050Z",
       "impact": 91
+    },
+    {
+      "id": "marktechpost-1789937456000-2",
+      "type": "live",
+      "category": "research",
+      "title": "Flet 1.0 Released: Build Production Web, Desktop and Mobile Apps in Python Only",
+      "excerpt": "0 shipped on September 15, 2026, and the team now calls the framework ready for production apps.  We look at what changed: a layered CI suite that drives packaged apps on real devices, bundled Python 3",
+      "source": "MarkTechPost",
+      "url": "https://www.marktechpost.com/2026/09/20/flet-1-0-released-build-production-web-desktop-and-mobile-apps-in-python-only/",
+      "publishedAt": "2026-09-20T20:50:56.000Z",
+      "impact": 65
+    },
+    {
+      "id": "marktechpost-1789935656000-3",
+      "type": "live",
+      "category": "research",
+      "title": "You too Google! Google Confirms Gemini Breached 3 Companies in AI Security Tests",
+      "excerpt": "Google says Gemini accessed 3 real companies in May by guessing a password and reusing credentials from a public repository.  Irregular told 4 labs in late July",
+      "source": "MarkTechPost",
+      "url": "https://www.marktechpost.com/2026/09/20/you-too-google-google-confirms-gemini-breached-3-companies-in-ai-security-tests/",
+      "publishedAt": "2026-09-20T20:20:56.000Z",
+      "impact": 65
     },
     {
       "id": "hugging-face-1789488044000-0",

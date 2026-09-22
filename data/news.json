@@ -1,10 +1,32 @@
 {
-  "lastUpdated": "2026-09-22T04:18:59.331Z",
+  "lastUpdated": "2026-09-22T11:18:53.776Z",
   "source": "AETHER + Public RSS (arXiv, Hugging Face, MarkTechPost, Ben's Bites)",
   "count": 16,
   "articles": [
     {
-      "id": "marktechpost-1790050204000-0",
+      "id": "aether-grok43",
+      "type": "premium",
+      "category": "llm",
+      "title": "xAI releases Grok-4.3 with native long-horizon agent scaffolding",
+      "excerpt": "New model demonstrates 4.2× improvement on multi-step software engineering benchmarks and sustains coherent agent trajectories beyond 110k tokens.",
+      "source": "xAI",
+      "url": "https://x.ai/blog/grok-4.3",
+      "publishedAt": "2026-09-22T06:18:52.827Z",
+      "impact": 96
+    },
+    {
+      "id": "marktechpost-1790053483000-0",
+      "type": "live",
+      "category": "llm",
+      "title": "NVIDIA Introduces SoL-Pi: Auto-Research Loops That Cut Coding Agent Token Traffic by Up to 49%",
+      "excerpt": "NVIDIA researchers have released SoL-Pi, 4 harness mechanisms for the open-source Pi coding agent, discovered by an AI running auto-research loops across 535 environments.  On EdgeBench, SoL-Pi cuts token traffic by 44",
+      "source": "MarkTechPost",
+      "url": "https://www.marktechpost.com/2026/09/21/nvidia-researchers-have-released-sol-pi/",
+      "publishedAt": "2026-09-22T05:04:43.000Z",
+      "impact": 77
+    },
+    {
+      "id": "marktechpost-1790050204000-1",
       "type": "live",
       "category": "llm",
       "title": "SpaceXAI Releases Grok 4.7: A Larger Base Model at the Same $2/$6 Price as Grok 4.6",
@@ -81,18 +103,40 @@
       "impact": 58
     },
     {
-      "id": "aether-grok43",
+      "id": "aether-figure03",
       "type": "premium",
-      "category": "llm",
-      "title": "xAI releases Grok-4.3 with native long-horizon agent scaffolding",
-      "excerpt": "New model demonstrates 4.2× improvement on multi-step software engineering benchmarks and sustains coherent agent trajectories beyond 110k tokens.",
-      "source": "xAI",
-      "url": "https://x.ai/blog/grok-4.3",
-      "publishedAt": "2026-09-21T23:18:58.352Z",
-      "impact": 96
+      "category": "robotics",
+      "title": "Figure 03 completes 43-hour autonomous factory shift with zero interventions",
+      "excerpt": "Humanoid achieves new milestone in unsupervised operation, performing 1,240 unique tasks across three assembly lines at the BMW South Carolina plant.",
+      "source": "Figure AI",
+      "url": "https://figure.ai/news/03-milestone",
+      "publishedAt": "2026-09-22T02:18:52.827Z",
+      "impact": 89
     },
     {
-      "id": "marktechpost-1790026934000-1",
+      "id": "hugging-face-1790035200000-0",
+      "type": "live",
+      "category": "llm",
+      "title": "Transformers now runs llama.cpp quants",
+      "excerpt": "New development from the frontier.",
+      "source": "Hugging Face",
+      "url": "https://huggingface.co/blog/transformers-llama-cpp-quants",
+      "publishedAt": "2026-09-22T00:00:00.000Z",
+      "impact": 75
+    },
+    {
+      "id": "hugging-face-1790035200000-1",
+      "type": "live",
+      "category": "research",
+      "title": "Jun Kim, oMLX creator and maintainer, joins Hugging Face to support the MLX community",
+      "excerpt": "New development from the frontier.",
+      "source": "Hugging Face",
+      "url": "https://huggingface.co/blog/omlx",
+      "publishedAt": "2026-09-22T00:00:00.000Z",
+      "impact": 75
+    },
+    {
+      "id": "marktechpost-1790026934000-2",
       "type": "live",
       "category": "llm",
       "title": "AWS Strands Agents Team Releases Strands Harness: An Open-Source Agent Harness With 28% Lower Token Cost at Comparable Accuracy",
@@ -103,18 +147,18 @@
       "impact": 77
     },
     {
-      "id": "aether-figure03",
+      "id": "aether-interp",
       "type": "premium",
-      "category": "robotics",
-      "title": "Figure 03 completes 43-hour autonomous factory shift with zero interventions",
-      "excerpt": "Humanoid achieves new milestone in unsupervised operation, performing 1,240 unique tasks across three assembly lines at the BMW South Carolina plant.",
-      "source": "Figure AI",
-      "url": "https://figure.ai/news/03-milestone",
-      "publishedAt": "2026-09-21T19:18:58.352Z",
-      "impact": 89
+      "category": "safety",
+      "title": "Anthropic publishes unprecedented mechanistic interpretability map of Claude 4",
+      "excerpt": "Researchers reverse-engineered 312 million features inside the model, including the first clear \"deception circuit\" discovered in a frontier model.",
+      "source": "Anthropic",
+      "url": "https://anthropic.com/research/claude-4-interp",
+      "publishedAt": "2026-09-21T21:18:52.827Z",
+      "impact": 91
     },
     {
-      "id": "marktechpost-1790008844000-2",
+      "id": "marktechpost-1790008844000-3",
       "type": "live",
       "category": "multimodal",
       "title": "Alibaba Qwen Releases Qwen-Image-2.1: A 7B Open-Weight Model for Image Generation and Editing",
@@ -125,18 +169,7 @@
       "impact": 65
     },
     {
-      "id": "aether-interp",
-      "type": "premium",
-      "category": "safety",
-      "title": "Anthropic publishes unprecedented mechanistic interpretability map of Claude 4",
-      "excerpt": "Researchers reverse-engineered 312 million features inside the model, including the first clear \"deception circuit\" discovered in a frontier model.",
-      "source": "Anthropic",
-      "url": "https://anthropic.com/research/claude-4-interp",
-      "publishedAt": "2026-09-21T14:18:58.352Z",
-      "impact": 91
-    },
-    {
-      "id": "hugging-face-1789998274000-0",
+      "id": "hugging-face-1789998274000-2",
       "type": "live",
       "category": "llm",
       "title": "Pruning LLMs Like a Physicist: Block Removal as an Ising Optimization Problem",
@@ -145,39 +178,6 @@
       "url": "https://huggingface.co/blog/MultiverseComputingCAI/pruning-llms-like-a-physicist-block-removal-as-an",
       "publishedAt": "2026-09-21T13:44:34.000Z",
       "impact": 75
-    },
-    {
-      "id": "marktechpost-1789975578000-3",
-      "type": "live",
-      "category": "multimodal",
-      "title": "Best Voice Cloning APIs in 2026: Speaker Similarity, Consent Checks, and Price per 1M Characters",
-      "excerpt": "We cloned one 10-second voice on 7 platforms and ranked them on reference audio, consent, licensing, and cost.  The post Best Voice Cloning APIs in 2026: Speaker Similarity, Consent Checks, and Price per 1M Characters...",
-      "source": "MarkTechPost",
-      "url": "https://www.marktechpost.com/2026/09/21/best-voice-cloning-apis-in-2026-speaker-similarity-consent-checks-and-price-per-1m-characters/",
-      "publishedAt": "2026-09-21T07:26:18.000Z",
-      "impact": 65
-    },
-    {
-      "id": "hugging-face-1789948800000-1",
-      "type": "live",
-      "category": "research",
-      "title": "tokenizers v1: encode, decode and scaling, measured",
-      "excerpt": "New development from the frontier.",
-      "source": "Hugging Face",
-      "url": "https://huggingface.co/blog/tokenizers-v1",
-      "publishedAt": "2026-09-21T00:00:00.000Z",
-      "impact": 75
-    },
-    {
-      "id": "hugging-face-1789488044000-2",
-      "type": "live",
-      "category": "research",
-      "title": "Your Agent Aced the Task. Will It Do It Again?",
-      "excerpt": "New development from the frontier.",
-      "source": "Hugging Face",
-      "url": "https://huggingface.co/blog/ibm-research/altk-evolve-consistency",
-      "publishedAt": "2026-09-15T16:00:44.000Z",
-      "impact": 87
     }
   ]
 }

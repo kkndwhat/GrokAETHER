@@ -1,8 +1,19 @@
 {
-  "lastUpdated": "2026-09-22T16:41:06.450Z",
+  "lastUpdated": "2026-09-22T21:06:45.620Z",
   "source": "AETHER + Public RSS (arXiv, Hugging Face, MarkTechPost, Ben's Bites)",
   "count": 16,
   "articles": [
+    {
+      "id": "marktechpost-1790103575000-0",
+      "type": "live",
+      "category": "llm",
+      "title": "Anthropic Releases Claude Opus 5.5: Fable 5.1-Level Performance at 40% Lower Running Cost Than Opus 5",
+      "excerpt": "Anthropic has released Claude Opus 5. 5, the first model in its new Claude 5",
+      "source": "MarkTechPost",
+      "url": "https://www.marktechpost.com/2026/09/22/anthropic-claude-opus-5-5-release/",
+      "publishedAt": "2026-09-22T18:59:35.000Z",
+      "impact": 65
+    },
     {
       "id": "aether-grok43",
       "type": "premium",
@@ -11,7 +22,7 @@
       "excerpt": "New model demonstrates 4.2× improvement on multi-step software engineering benchmarks and sustains coherent agent trajectories beyond 110k tokens.",
       "source": "xAI",
       "url": "https://x.ai/blog/grok-4.3",
-      "publishedAt": "2026-09-22T11:41:05.457Z",
+      "publishedAt": "2026-09-22T16:06:44.383Z",
       "impact": 96
     },
     {
@@ -22,11 +33,22 @@
       "excerpt": "Humanoid achieves new milestone in unsupervised operation, performing 1,240 unique tasks across three assembly lines at the BMW South Carolina plant.",
       "source": "Figure AI",
       "url": "https://figure.ai/news/03-milestone",
-      "publishedAt": "2026-09-22T07:41:05.457Z",
+      "publishedAt": "2026-09-22T12:06:44.384Z",
       "impact": 89
     },
     {
-      "id": "marktechpost-1790053483000-0",
+      "id": "aether-interp",
+      "type": "premium",
+      "category": "safety",
+      "title": "Anthropic publishes unprecedented mechanistic interpretability map of Claude 4",
+      "excerpt": "Researchers reverse-engineered 312 million features inside the model, including the first clear \"deception circuit\" discovered in a frontier model.",
+      "source": "Anthropic",
+      "url": "https://anthropic.com/research/claude-4-interp",
+      "publishedAt": "2026-09-22T07:06:44.384Z",
+      "impact": 91
+    },
+    {
+      "id": "marktechpost-1790053483000-1",
       "type": "live",
       "category": "llm",
       "title": "NVIDIA Introduces SoL-Pi: Auto-Research Loops That Cut Coding Agent Token Traffic by Up to 49%",
@@ -37,7 +59,7 @@
       "impact": 77
     },
     {
-      "id": "marktechpost-1790050204000-1",
+      "id": "marktechpost-1790050204000-2",
       "type": "live",
       "category": "llm",
       "title": "SpaceXAI Releases Grok 4.7: A Larger Base Model at the Same $2/$6 Price as Grok 4.6",
@@ -114,18 +136,18 @@
       "impact": 58
     },
     {
-      "id": "aether-interp",
-      "type": "premium",
-      "category": "safety",
-      "title": "Anthropic publishes unprecedented mechanistic interpretability map of Claude 4",
-      "excerpt": "Researchers reverse-engineered 312 million features inside the model, including the first clear \"deception circuit\" discovered in a frontier model.",
-      "source": "Anthropic",
-      "url": "https://anthropic.com/research/claude-4-interp",
-      "publishedAt": "2026-09-22T02:41:05.457Z",
-      "impact": 91
+      "id": "hugging-face-1790035200000-0",
+      "type": "live",
+      "category": "research",
+      "title": "How UK AISI and EvalEval Are Making Benchmark Results Reproducible",
+      "excerpt": "New development from the frontier.",
+      "source": "Hugging Face",
+      "url": "https://huggingface.co/blog/evaleval-aisi",
+      "publishedAt": "2026-09-22T00:00:00.000Z",
+      "impact": 75
     },
     {
-      "id": "hugging-face-1790035200000-0",
+      "id": "hugging-face-1790035200000-1",
       "type": "live",
       "category": "llm",
       "title": "Transformers now runs llama.cpp quants",
@@ -136,7 +158,7 @@
       "impact": 75
     },
     {
-      "id": "hugging-face-1790035200000-1",
+      "id": "hugging-face-1790035200000-2",
       "type": "live",
       "category": "research",
       "title": "Jun Kim, oMLX creator and maintainer, joins Hugging Face to support the MLX community",
@@ -147,7 +169,7 @@
       "impact": 75
     },
     {
-      "id": "marktechpost-1790026934000-2",
+      "id": "marktechpost-1790026934000-3",
       "type": "live",
       "category": "llm",
       "title": "AWS Strands Agents Team Releases Strands Harness: An Open-Source Agent Harness With 28% Lower Token Cost at Comparable Accuracy",
@@ -156,28 +178,6 @@
       "url": "https://www.marktechpost.com/2026/09/21/aws-strands-agents-team-releases-strands-harness/",
       "publishedAt": "2026-09-21T21:42:14.000Z",
       "impact": 77
-    },
-    {
-      "id": "marktechpost-1790008844000-3",
-      "type": "live",
-      "category": "multimodal",
-      "title": "Alibaba Qwen Releases Qwen-Image-2.1: A 7B Open-Weight Model for Image Generation and Editing",
-      "excerpt": "Alibaba's Qwen team has released Qwen-Image-2. 1, a 7B diffusion transformer that handles text-to-image generation, multi-reference editing, and native RGBA transparency in one checkpoint",
-      "source": "MarkTechPost",
-      "url": "https://www.marktechpost.com/2026/09/21/alibaba-qwen-releases-qwen-image-2-1/",
-      "publishedAt": "2026-09-21T16:40:44.000Z",
-      "impact": 65
-    },
-    {
-      "id": "hugging-face-1789998274000-2",
-      "type": "live",
-      "category": "llm",
-      "title": "Pruning LLMs Like a Physicist: Block Removal as an Ising Optimization Problem",
-      "excerpt": "New development from the frontier.",
-      "source": "Hugging Face",
-      "url": "https://huggingface.co/blog/MultiverseComputingCAI/pruning-llms-like-a-physicist-block-removal-as-an",
-      "publishedAt": "2026-09-21T13:44:34.000Z",
-      "impact": 75
     }
   ]
 }

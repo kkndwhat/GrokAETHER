@@ -1,17 +1,83 @@
 {
-  "lastUpdated": "2026-09-22T21:06:45.620Z",
+  "lastUpdated": "2026-09-23T04:16:01.418Z",
   "source": "AETHER + Public RSS (arXiv, Hugging Face, MarkTechPost, Ben's Bites)",
   "count": 16,
   "articles": [
     {
-      "id": "marktechpost-1790103575000-0",
+      "id": "arxiv-cs.ai-1790136000000-0",
       "type": "live",
       "category": "llm",
-      "title": "Anthropic Releases Claude Opus 5.5: Fable 5.1-Level Performance at 40% Lower Running Cost Than Opus 5",
-      "excerpt": "Anthropic has released Claude Opus 5. 5, the first model in its new Claude 5",
+      "title": "Do Synthetic Personas Predict Real Audience Response? A Sim-to-Real Study Where a No-Persona Baseline Beats Persona-Based Copy Simulation",
+      "excerpt": "25010v1 Announce Type: new Abstract: Marketers increasingly use large language models (LLMs) as \"synthetic personas\" to predict how an audience will react to a piece of copy before it ships, encouraged by evidence tha...",
+      "source": "arXiv cs.AI",
+      "url": "https://arxiv.org/abs/2609.25010",
+      "publishedAt": "2026-09-23T04:00:00.000Z",
+      "impact": 58
+    },
+    {
+      "id": "arxiv-cs.ai-1790136000000-1",
+      "type": "live",
+      "category": "llm",
+      "title": "Do Existing Preconditioners Improve Biomedical Tabular Foundation Learning? An Empirical Study on TabPFN Optimization",
+      "excerpt": "25013v1 Announce Type: new Abstract: Tabular foundation models have recently shown strong potential for structured biomedical data analysis.  Among them, TabPFN has emerged as an effective approach for low-data tabula...",
+      "source": "arXiv cs.AI",
+      "url": "https://arxiv.org/abs/2609.25013",
+      "publishedAt": "2026-09-23T04:00:00.000Z",
+      "impact": 58
+    },
+    {
+      "id": "arxiv-cs.ai-1790136000000-2",
+      "type": "live",
+      "category": "multimodal",
+      "title": "4DGS-JEPA: Temporally Compositional Joint-Embedding Prediction for Dynamic Gaussian Splatting",
+      "excerpt": "25036v1 Announce Type: new Abstract: Dynamic Gaussian Splatting provides an explicit representation of evolving 3D scenes, but existing approaches are primarily optimized for reconstruction, future-state generation, o...",
+      "source": "arXiv cs.AI",
+      "url": "https://arxiv.org/abs/2609.25036",
+      "publishedAt": "2026-09-23T04:00:00.000Z",
+      "impact": 58
+    },
+    {
+      "id": "arxiv-cs.ai-1790136000000-3",
+      "type": "live",
+      "category": "safety",
+      "title": "An Accurate and Interpretable Hyper Graph Neural Network for GBM Survival Prediction",
+      "excerpt": "25088v1 Announce Type: new Abstract: Survival prediction for glioblastoma multiforme (GBM) demands models that are both accurate and interpretable, yet existing approaches treat these objectives as com- peting, where ...",
+      "source": "arXiv cs.AI",
+      "url": "https://arxiv.org/abs/2609.25088",
+      "publishedAt": "2026-09-23T04:00:00.000Z",
+      "impact": 58
+    },
+    {
+      "id": "arxiv-cs.ai-1790136000000-4",
+      "type": "live",
+      "category": "multimodal",
+      "title": "Ovis-Embedding: Pushing the Frontiers of Universal Omni-Modal Embeddings",
+      "excerpt": "25165v1 Announce Type: new Abstract: In this report, we introduce \\textbf{Ovis-Embedding}, a state-of-the-art omni-modal embedding family built on native integration of text, image, video, and audio.  Instead of assem...",
+      "source": "arXiv cs.AI",
+      "url": "https://arxiv.org/abs/2609.25165",
+      "publishedAt": "2026-09-23T04:00:00.000Z",
+      "impact": 75
+    },
+    {
+      "id": "arxiv-cs.ai-1790136000000-5",
+      "type": "live",
+      "category": "robotics",
+      "title": "X-Planner: Event-Structured Task Planning for Embodied Intelligence",
+      "excerpt": "25187v1 Announce Type: new Abstract: Task planning bridges high-level instructions and executable behavior in long-horizon manipulation, yet modern Vision-Language-Action (VLA) systems often leave this intermediate st...",
+      "source": "arXiv cs.AI",
+      "url": "https://arxiv.org/abs/2609.25187",
+      "publishedAt": "2026-09-23T04:00:00.000Z",
+      "impact": 58
+    },
+    {
+      "id": "marktechpost-1790133022000-0",
+      "type": "live",
+      "category": "hardware",
+      "title": "SpeakON Ships a MagSafe AI Voice Button With Its Own Microphone: Turning Your Voice into Polished Communication, and Action across Apps",
+      "excerpt": "Voice input on phones has been solved for years.  What has not been solved is the output",
       "source": "MarkTechPost",
-      "url": "https://www.marktechpost.com/2026/09/22/anthropic-claude-opus-5-5-release/",
-      "publishedAt": "2026-09-22T18:59:35.000Z",
+      "url": "https://www.marktechpost.com/2026/09/22/speakon-ships-a-magsafe-ai-voice-button-with-its-own-microphone/",
+      "publishedAt": "2026-09-23T03:10:22.000Z",
       "impact": 65
     },
     {
@@ -22,7 +88,7 @@
       "excerpt": "New model demonstrates 4.2× improvement on multi-step software engineering benchmarks and sustains coherent agent trajectories beyond 110k tokens.",
       "source": "xAI",
       "url": "https://x.ai/blog/grok-4.3",
-      "publishedAt": "2026-09-22T16:06:44.383Z",
+      "publishedAt": "2026-09-22T23:16:00.245Z",
       "impact": 96
     },
     {
@@ -33,8 +99,19 @@
       "excerpt": "Humanoid achieves new milestone in unsupervised operation, performing 1,240 unique tasks across three assembly lines at the BMW South Carolina plant.",
       "source": "Figure AI",
       "url": "https://figure.ai/news/03-milestone",
-      "publishedAt": "2026-09-22T12:06:44.384Z",
+      "publishedAt": "2026-09-22T19:16:00.245Z",
       "impact": 89
+    },
+    {
+      "id": "marktechpost-1790103575000-1",
+      "type": "live",
+      "category": "llm",
+      "title": "Anthropic Releases Claude Opus 5.5: Fable 5.1-Level Performance at 40% Lower Running Cost Than Opus 5",
+      "excerpt": "Anthropic has released Claude Opus 5. 5, the first model in its new Claude 5",
+      "source": "MarkTechPost",
+      "url": "https://www.marktechpost.com/2026/09/22/anthropic-claude-opus-5-5-release/",
+      "publishedAt": "2026-09-22T18:59:35.000Z",
+      "impact": 65
     },
     {
       "id": "aether-interp",
@@ -44,11 +121,11 @@
       "excerpt": "Researchers reverse-engineered 312 million features inside the model, including the first clear \"deception circuit\" discovered in a frontier model.",
       "source": "Anthropic",
       "url": "https://anthropic.com/research/claude-4-interp",
-      "publishedAt": "2026-09-22T07:06:44.384Z",
+      "publishedAt": "2026-09-22T14:16:00.245Z",
       "impact": 91
     },
     {
-      "id": "marktechpost-1790053483000-1",
+      "id": "marktechpost-1790053483000-2",
       "type": "live",
       "category": "llm",
       "title": "NVIDIA Introduces SoL-Pi: Auto-Research Loops That Cut Coding Agent Token Traffic by Up to 49%",
@@ -59,7 +136,7 @@
       "impact": 77
     },
     {
-      "id": "marktechpost-1790050204000-2",
+      "id": "marktechpost-1790050204000-3",
       "type": "live",
       "category": "llm",
       "title": "SpaceXAI Releases Grok 4.7: A Larger Base Model at the Same $2/$6 Price as Grok 4.6",
@@ -68,72 +145,6 @@
       "url": "https://www.marktechpost.com/2026/09/21/spacexai-releases-grok-4-7/",
       "publishedAt": "2026-09-22T04:10:04.000Z",
       "impact": 65
-    },
-    {
-      "id": "arxiv-cs.ai-1790049600000-0",
-      "type": "live",
-      "category": "hardware",
-      "title": "RBS-Attention: Radius-Bounded Sparse Prefill for Long-Context Large Language Models",
-      "excerpt": "20971v1 Announce Type: new Abstract: Long-context large language model inference is increasingly limited by prefill, where dense self-attention processes the entire prompt before generation begins.  Sparse block selec...",
-      "source": "arXiv cs.AI",
-      "url": "https://arxiv.org/abs/2609.20971",
-      "publishedAt": "2026-09-22T04:00:00.000Z",
-      "impact": 58
-    },
-    {
-      "id": "arxiv-cs.ai-1790049600000-1",
-      "type": "live",
-      "category": "llm",
-      "title": "Attention-Aware Routing: Coupling Routing and Attention in MoEs",
-      "excerpt": "20974v1 Announce Type: new Abstract: In Mixture-of-Experts language models, the router typically selects and weights experts based on the token's hidden state, utilizing limited contextual information.  We propose Att...",
-      "source": "arXiv cs.AI",
-      "url": "https://arxiv.org/abs/2609.20974",
-      "publishedAt": "2026-09-22T04:00:00.000Z",
-      "impact": 58
-    },
-    {
-      "id": "arxiv-cs.ai-1790049600000-2",
-      "type": "live",
-      "category": "multimodal",
-      "title": "CaLR: Causal Latent Revision for Robust Diffusion Reasoning",
-      "excerpt": "20981v1 Announce Type: new Abstract: Autoregressive (AR) models suffer from local greediness, while diffusion language models (DLMs) often lack the strict causal structure required for reasoning.  To combine the advan...",
-      "source": "arXiv cs.AI",
-      "url": "https://arxiv.org/abs/2609.20981",
-      "publishedAt": "2026-09-22T04:00:00.000Z",
-      "impact": 58
-    },
-    {
-      "id": "arxiv-cs.ai-1790049600000-3",
-      "type": "live",
-      "category": "multimodal",
-      "title": "LoRA Enhanced Contrastive Learning with SAS Vision Transformers",
-      "excerpt": "21061v1 Announce Type: new Abstract: Automatic target recognition (ATR) with synthetic aperture sonar (SAS) supports advanced naval capabilities, but deep learning is constrained by scarce target imagery, background c...",
-      "source": "arXiv cs.AI",
-      "url": "https://arxiv.org/abs/2609.21061",
-      "publishedAt": "2026-09-22T04:00:00.000Z",
-      "impact": 58
-    },
-    {
-      "id": "arxiv-cs.ai-1790049600000-4",
-      "type": "live",
-      "category": "llm",
-      "title": "Detecting Hallucination in LLMs: Tracing the Topological Signatures of Impaired Context Sharing",
-      "excerpt": "21096v1 Announce Type: new Abstract: In this work, we examine the topology of information flow patterns within attention graphs to effectively distinguish hallucinated from non-hallucinated responses.  We analyze the ...",
-      "source": "arXiv cs.AI",
-      "url": "https://arxiv.org/abs/2609.21096",
-      "publishedAt": "2026-09-22T04:00:00.000Z",
-      "impact": 58
-    },
-    {
-      "id": "arxiv-cs.ai-1790049600000-5",
-      "type": "live",
-      "category": "llm",
-      "title": "Decoupling Internal Representational Changes and Causal Importance in Fine-Tuned Large Language Models",
-      "excerpt": "21113v1 Announce Type: new Abstract: Fine-tuning has emerged as a widely adopted approach for adapting LLMs to a variety of downstream tasks.  However, how it reshapes their internal mechanisms remains poorly understood",
-      "source": "arXiv cs.AI",
-      "url": "https://arxiv.org/abs/2609.21113",
-      "publishedAt": "2026-09-22T04:00:00.000Z",
-      "impact": 58
     },
     {
       "id": "hugging-face-1790035200000-0",
@@ -167,17 +178,6 @@
       "url": "https://huggingface.co/blog/omlx",
       "publishedAt": "2026-09-22T00:00:00.000Z",
       "impact": 75
-    },
-    {
-      "id": "marktechpost-1790026934000-3",
-      "type": "live",
-      "category": "llm",
-      "title": "AWS Strands Agents Team Releases Strands Harness: An Open-Source Agent Harness With 28% Lower Token Cost at Comparable Accuracy",
-      "excerpt": "Many developers find that an agent idea works inside Claude Code or Codex, then struggles once they rebuild it with their own loop.  The Strands Agents team at AWS is targeting that gap with Strands harness, a fully a...",
-      "source": "MarkTechPost",
-      "url": "https://www.marktechpost.com/2026/09/21/aws-strands-agents-team-releases-strands-harness/",
-      "publishedAt": "2026-09-21T21:42:14.000Z",
-      "impact": 77
     }
   ]
 }

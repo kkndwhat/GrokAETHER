@@ -1,8 +1,30 @@
 {
-  "lastUpdated": "2026-09-24T04:11:55.556Z",
+  "lastUpdated": "2026-09-24T11:28:12.002Z",
   "source": "AETHER + Public RSS (arXiv, Hugging Face, MarkTechPost, Ben's Bites)",
   "count": 16,
   "articles": [
+    {
+      "id": "aether-grok43",
+      "type": "premium",
+      "category": "llm",
+      "title": "xAI releases Grok-4.3 with native long-horizon agent scaffolding",
+      "excerpt": "New model demonstrates 4.2× improvement on multi-step software engineering benchmarks and sustains coherent agent trajectories beyond 110k tokens.",
+      "source": "xAI",
+      "url": "https://x.ai/blog/grok-4.3",
+      "publishedAt": "2026-09-24T06:28:10.959Z",
+      "impact": 96
+    },
+    {
+      "id": "marktechpost-1790227661000-0",
+      "type": "live",
+      "category": "llm",
+      "title": "Contrastive-LM Releases CLM-8B: An Open System One Model That Scores Agent Actions Up to 9× Faster Than Jev",
+      "excerpt": "Contrastive-LM has released CLM-8B, an open System One model that scores candidate actions against a state instead of generating text.  It adds 2 small projection heads to a frozen Qwen3-8B encoder and trains them wit...",
+      "source": "MarkTechPost",
+      "url": "https://www.marktechpost.com/2026/09/23/contrastive-lm-releases-clm-8b-an-open-system-one-model-that-scores-agent-actions-up-to-9x-faster-than-jev/",
+      "publishedAt": "2026-09-24T05:27:41.000Z",
+      "impact": 77
+    },
     {
       "id": "arxiv-cs.ai-1790222400000-0",
       "type": "live",
@@ -70,7 +92,18 @@
       "impact": 58
     },
     {
-      "id": "marktechpost-1790211189000-0",
+      "id": "aether-figure03",
+      "type": "premium",
+      "category": "robotics",
+      "title": "Figure 03 completes 43-hour autonomous factory shift with zero interventions",
+      "excerpt": "Humanoid achieves new milestone in unsupervised operation, performing 1,240 unique tasks across three assembly lines at the BMW South Carolina plant.",
+      "source": "Figure AI",
+      "url": "https://figure.ai/news/03-milestone",
+      "publishedAt": "2026-09-24T02:28:10.959Z",
+      "impact": 89
+    },
+    {
+      "id": "marktechpost-1790211189000-1",
       "type": "live",
       "category": "llm",
       "title": "A Coding Guide to TypeSafe AI Jev: Typed Decisions, Calibrated Confidence, and Speculative Fan-Out with a System One Model",
@@ -81,18 +114,18 @@
       "impact": 65
     },
     {
-      "id": "aether-grok43",
+      "id": "aether-interp",
       "type": "premium",
-      "category": "llm",
-      "title": "xAI releases Grok-4.3 with native long-horizon agent scaffolding",
-      "excerpt": "New model demonstrates 4.2× improvement on multi-step software engineering benchmarks and sustains coherent agent trajectories beyond 110k tokens.",
-      "source": "xAI",
-      "url": "https://x.ai/blog/grok-4.3",
-      "publishedAt": "2026-09-23T23:11:54.026Z",
-      "impact": 96
+      "category": "safety",
+      "title": "Anthropic publishes unprecedented mechanistic interpretability map of Claude 4",
+      "excerpt": "Researchers reverse-engineered 312 million features inside the model, including the first clear \"deception circuit\" discovered in a frontier model.",
+      "source": "Anthropic",
+      "url": "https://anthropic.com/research/claude-4-interp",
+      "publishedAt": "2026-09-23T21:28:10.959Z",
+      "impact": 91
     },
     {
-      "id": "marktechpost-1790194812000-1",
+      "id": "marktechpost-1790194812000-2",
       "type": "live",
       "category": "llm",
       "title": "Google Releases Gemini 3.8 Flash TTS and Flash-Lite TTS With Prompt-Based Voice Design",
@@ -101,17 +134,6 @@
       "url": "https://www.marktechpost.com/2026/09/23/google-releases-gemini-3-8-flash-tts-and-flash-lite-tts-with-prompt-based-voice-design/",
       "publishedAt": "2026-09-23T20:20:12.000Z",
       "impact": 65
-    },
-    {
-      "id": "aether-figure03",
-      "type": "premium",
-      "category": "robotics",
-      "title": "Figure 03 completes 43-hour autonomous factory shift with zero interventions",
-      "excerpt": "Humanoid achieves new milestone in unsupervised operation, performing 1,240 unique tasks across three assembly lines at the BMW South Carolina plant.",
-      "source": "Figure AI",
-      "url": "https://figure.ai/news/03-milestone",
-      "publishedAt": "2026-09-23T19:11:54.026Z",
-      "impact": 89
     },
     {
       "id": "hugging-face-1790188900000-0",
@@ -125,7 +147,7 @@
       "impact": 75
     },
     {
-      "id": "marktechpost-1790187434000-2",
+      "id": "marktechpost-1790187434000-3",
       "type": "live",
       "category": "llm",
       "title": "NVIDIA Releases Nemotron 3 Diarization: A 100M-Parameter Open-Weight Model That Tracks 8 Speakers in Real Time",
@@ -133,28 +155,6 @@
       "source": "MarkTechPost",
       "url": "https://www.marktechpost.com/2026/09/23/nvidia-releases-nemotron-3-diarization/",
       "publishedAt": "2026-09-23T18:17:14.000Z",
-      "impact": 65
-    },
-    {
-      "id": "aether-interp",
-      "type": "premium",
-      "category": "safety",
-      "title": "Anthropic publishes unprecedented mechanistic interpretability map of Claude 4",
-      "excerpt": "Researchers reverse-engineered 312 million features inside the model, including the first clear \"deception circuit\" discovered in a frontier model.",
-      "source": "Anthropic",
-      "url": "https://anthropic.com/research/claude-4-interp",
-      "publishedAt": "2026-09-23T14:11:54.026Z",
-      "impact": 91
-    },
-    {
-      "id": "marktechpost-1790147378000-3",
-      "type": "live",
-      "category": "llm",
-      "title": "Nokia Open-Sources AnyJev: A Training-Free Layer That Turns Any Open LLM Into a Calibrated Decision Model",
-      "excerpt": "Nokia’s applied research team has open-sourced AnyJev, a Python library that turns an open LLM into a decision model.  It targets a common production job: picking one answer from a fixed set instead of writing a sentence",
-      "source": "MarkTechPost",
-      "url": "https://www.marktechpost.com/2026/09/23/nokia-open-sources-anyjev-a-training-free-layer-that-turns-any-open-llm-into-a-calibrated-decision-model/",
-      "publishedAt": "2026-09-23T07:09:38.000Z",
       "impact": 65
     },
     {

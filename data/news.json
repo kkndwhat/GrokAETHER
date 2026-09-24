@@ -1,8 +1,19 @@
 {
-  "lastUpdated": "2026-09-24T11:28:12.002Z",
+  "lastUpdated": "2026-09-24T16:54:13.201Z",
   "source": "AETHER + Public RSS (arXiv, Hugging Face, MarkTechPost, Ben's Bites)",
   "count": 16,
   "articles": [
+    {
+      "id": "hugging-face-1790258937000-0",
+      "type": "live",
+      "category": "multimodal",
+      "title": "Accelerating vision-language models with LFM2.5-VL-DSpark",
+      "excerpt": "New development from the frontier.",
+      "source": "Hugging Face",
+      "url": "https://huggingface.co/blog/LiquidAI/lfm2-5-vl-dspark",
+      "publishedAt": "2026-09-24T14:08:57.000Z",
+      "impact": 75
+    },
     {
       "id": "aether-grok43",
       "type": "premium",
@@ -11,8 +22,19 @@
       "excerpt": "New model demonstrates 4.2× improvement on multi-step software engineering benchmarks and sustains coherent agent trajectories beyond 110k tokens.",
       "source": "xAI",
       "url": "https://x.ai/blog/grok-4.3",
-      "publishedAt": "2026-09-24T06:28:10.959Z",
+      "publishedAt": "2026-09-24T11:54:12.679Z",
       "impact": 96
+    },
+    {
+      "id": "aether-figure03",
+      "type": "premium",
+      "category": "robotics",
+      "title": "Figure 03 completes 43-hour autonomous factory shift with zero interventions",
+      "excerpt": "Humanoid achieves new milestone in unsupervised operation, performing 1,240 unique tasks across three assembly lines at the BMW South Carolina plant.",
+      "source": "Figure AI",
+      "url": "https://figure.ai/news/03-milestone",
+      "publishedAt": "2026-09-24T07:54:12.679Z",
+      "impact": 89
     },
     {
       "id": "marktechpost-1790227661000-0",
@@ -92,15 +114,15 @@
       "impact": 58
     },
     {
-      "id": "aether-figure03",
+      "id": "aether-interp",
       "type": "premium",
-      "category": "robotics",
-      "title": "Figure 03 completes 43-hour autonomous factory shift with zero interventions",
-      "excerpt": "Humanoid achieves new milestone in unsupervised operation, performing 1,240 unique tasks across three assembly lines at the BMW South Carolina plant.",
-      "source": "Figure AI",
-      "url": "https://figure.ai/news/03-milestone",
-      "publishedAt": "2026-09-24T02:28:10.959Z",
-      "impact": 89
+      "category": "safety",
+      "title": "Anthropic publishes unprecedented mechanistic interpretability map of Claude 4",
+      "excerpt": "Researchers reverse-engineered 312 million features inside the model, including the first clear \"deception circuit\" discovered in a frontier model.",
+      "source": "Anthropic",
+      "url": "https://anthropic.com/research/claude-4-interp",
+      "publishedAt": "2026-09-24T02:54:12.679Z",
+      "impact": 91
     },
     {
       "id": "marktechpost-1790211189000-1",
@@ -114,17 +136,6 @@
       "impact": 65
     },
     {
-      "id": "aether-interp",
-      "type": "premium",
-      "category": "safety",
-      "title": "Anthropic publishes unprecedented mechanistic interpretability map of Claude 4",
-      "excerpt": "Researchers reverse-engineered 312 million features inside the model, including the first clear \"deception circuit\" discovered in a frontier model.",
-      "source": "Anthropic",
-      "url": "https://anthropic.com/research/claude-4-interp",
-      "publishedAt": "2026-09-23T21:28:10.959Z",
-      "impact": 91
-    },
-    {
       "id": "marktechpost-1790194812000-2",
       "type": "live",
       "category": "llm",
@@ -136,7 +147,7 @@
       "impact": 65
     },
     {
-      "id": "hugging-face-1790188900000-0",
+      "id": "hugging-face-1790188900000-1",
       "type": "live",
       "category": "robotics",
       "title": "How to Use NVIDIA Warp and MjWarp to Accelerate Robotics Simulation and Learning Workflows",
@@ -158,24 +169,13 @@
       "impact": 65
     },
     {
-      "id": "hugging-face-1790035200000-1",
+      "id": "hugging-face-1790035200000-2",
       "type": "live",
       "category": "research",
       "title": "How UK AISI and EvalEval Are Making Benchmark Results Reproducible",
       "excerpt": "New development from the frontier.",
       "source": "Hugging Face",
       "url": "https://huggingface.co/blog/evaleval-aisi",
-      "publishedAt": "2026-09-22T00:00:00.000Z",
-      "impact": 75
-    },
-    {
-      "id": "hugging-face-1790035200000-2",
-      "type": "live",
-      "category": "llm",
-      "title": "Transformers now runs llama.cpp quants",
-      "excerpt": "New development from the frontier.",
-      "source": "Hugging Face",
-      "url": "https://huggingface.co/blog/transformers-llama-cpp-quants",
       "publishedAt": "2026-09-22T00:00:00.000Z",
       "impact": 75
     }

@@ -1,8 +1,118 @@
 {
-  "lastUpdated": "2026-09-23T21:20:53.351Z",
+  "lastUpdated": "2026-09-24T04:11:55.556Z",
   "source": "AETHER + Public RSS (arXiv, Hugging Face, MarkTechPost, Ben's Bites)",
-  "count": 12,
+  "count": 16,
   "articles": [
+    {
+      "id": "arxiv-cs.ai-1790222400000-0",
+      "type": "live",
+      "category": "llm",
+      "title": "Do Synthetic Personas Predict Real Audience Response? A Sim-to-Real Study Where a No-Persona Baseline Beats Persona-Based Copy Simulation",
+      "excerpt": "25010v1 Announce Type: new Abstract: Marketers increasingly use large language models (LLMs) as \"synthetic personas\" to predict how an audience will react to a piece of copy before it ships, encouraged by evidence tha...",
+      "source": "arXiv cs.AI",
+      "url": "https://arxiv.org/abs/2609.25010",
+      "publishedAt": "2026-09-24T04:00:00.000Z",
+      "impact": 58
+    },
+    {
+      "id": "arxiv-cs.ai-1790222400000-1",
+      "type": "live",
+      "category": "llm",
+      "title": "Do Existing Preconditioners Improve Biomedical Tabular Foundation Learning? An Empirical Study on TabPFN Optimization",
+      "excerpt": "25013v1 Announce Type: new Abstract: Tabular foundation models have recently shown strong potential for structured biomedical data analysis.  Among them, TabPFN has emerged as an effective approach for low-data tabula...",
+      "source": "arXiv cs.AI",
+      "url": "https://arxiv.org/abs/2609.25013",
+      "publishedAt": "2026-09-24T04:00:00.000Z",
+      "impact": 58
+    },
+    {
+      "id": "arxiv-cs.ai-1790222400000-2",
+      "type": "live",
+      "category": "multimodal",
+      "title": "4DGS-JEPA: Temporally Compositional Joint-Embedding Prediction for Dynamic Gaussian Splatting",
+      "excerpt": "25036v1 Announce Type: new Abstract: Dynamic Gaussian Splatting provides an explicit representation of evolving 3D scenes, but existing approaches are primarily optimized for reconstruction, future-state generation, o...",
+      "source": "arXiv cs.AI",
+      "url": "https://arxiv.org/abs/2609.25036",
+      "publishedAt": "2026-09-24T04:00:00.000Z",
+      "impact": 58
+    },
+    {
+      "id": "arxiv-cs.ai-1790222400000-3",
+      "type": "live",
+      "category": "safety",
+      "title": "An Accurate and Interpretable Hyper Graph Neural Network for GBM Survival Prediction",
+      "excerpt": "25088v1 Announce Type: new Abstract: Survival prediction for glioblastoma multiforme (GBM) demands models that are both accurate and interpretable, yet existing approaches treat these objectives as com- peting, where ...",
+      "source": "arXiv cs.AI",
+      "url": "https://arxiv.org/abs/2609.25088",
+      "publishedAt": "2026-09-24T04:00:00.000Z",
+      "impact": 58
+    },
+    {
+      "id": "arxiv-cs.ai-1790222400000-4",
+      "type": "live",
+      "category": "multimodal",
+      "title": "Ovis-Embedding: Pushing the Frontiers of Universal Omni-Modal Embeddings",
+      "excerpt": "25165v1 Announce Type: new Abstract: In this report, we introduce \\textbf{Ovis-Embedding}, a state-of-the-art omni-modal embedding family built on native integration of text, image, video, and audio.  Instead of assem...",
+      "source": "arXiv cs.AI",
+      "url": "https://arxiv.org/abs/2609.25165",
+      "publishedAt": "2026-09-24T04:00:00.000Z",
+      "impact": 75
+    },
+    {
+      "id": "arxiv-cs.ai-1790222400000-5",
+      "type": "live",
+      "category": "robotics",
+      "title": "X-Planner: Event-Structured Task Planning for Embodied Intelligence",
+      "excerpt": "25187v1 Announce Type: new Abstract: Task planning bridges high-level instructions and executable behavior in long-horizon manipulation, yet modern Vision-Language-Action (VLA) systems often leave this intermediate st...",
+      "source": "arXiv cs.AI",
+      "url": "https://arxiv.org/abs/2609.25187",
+      "publishedAt": "2026-09-24T04:00:00.000Z",
+      "impact": 58
+    },
+    {
+      "id": "marktechpost-1790211189000-0",
+      "type": "live",
+      "category": "llm",
+      "title": "A Coding Guide to TypeSafe AI Jev: Typed Decisions, Calibrated Confidence, and Speculative Fan-Out with a System One Model",
+      "excerpt": "This tutorial provides a complete coding guide to TypeSafe AI's Jev, a System One model designed for non-text, structured judgments.  It covers installing the official Python SDK, using primitive question types (Choic...",
+      "source": "MarkTechPost",
+      "url": "https://www.marktechpost.com/2026/09/23/a-coding-guide-to-typesafe-ai-jev/",
+      "publishedAt": "2026-09-24T00:53:09.000Z",
+      "impact": 65
+    },
+    {
+      "id": "aether-grok43",
+      "type": "premium",
+      "category": "llm",
+      "title": "xAI releases Grok-4.3 with native long-horizon agent scaffolding",
+      "excerpt": "New model demonstrates 4.2× improvement on multi-step software engineering benchmarks and sustains coherent agent trajectories beyond 110k tokens.",
+      "source": "xAI",
+      "url": "https://x.ai/blog/grok-4.3",
+      "publishedAt": "2026-09-23T23:11:54.026Z",
+      "impact": 96
+    },
+    {
+      "id": "marktechpost-1790194812000-1",
+      "type": "live",
+      "category": "llm",
+      "title": "Google Releases Gemini 3.8 Flash TTS and Flash-Lite TTS With Prompt-Based Voice Design",
+      "excerpt": "Google has released Gemini 3. 8 Flash TTS and Flash-Lite TTS, 2 new text-to-speech models available now through the Gemini API and Google AI Studio",
+      "source": "MarkTechPost",
+      "url": "https://www.marktechpost.com/2026/09/23/google-releases-gemini-3-8-flash-tts-and-flash-lite-tts-with-prompt-based-voice-design/",
+      "publishedAt": "2026-09-23T20:20:12.000Z",
+      "impact": 65
+    },
+    {
+      "id": "aether-figure03",
+      "type": "premium",
+      "category": "robotics",
+      "title": "Figure 03 completes 43-hour autonomous factory shift with zero interventions",
+      "excerpt": "Humanoid achieves new milestone in unsupervised operation, performing 1,240 unique tasks across three assembly lines at the BMW South Carolina plant.",
+      "source": "Figure AI",
+      "url": "https://figure.ai/news/03-milestone",
+      "publishedAt": "2026-09-23T19:11:54.026Z",
+      "impact": 89
+    },
     {
       "id": "hugging-face-1790188900000-0",
       "type": "live",
@@ -15,26 +125,15 @@
       "impact": 75
     },
     {
-      "id": "aether-grok43",
-      "type": "premium",
+      "id": "marktechpost-1790187434000-2",
+      "type": "live",
       "category": "llm",
-      "title": "xAI releases Grok-4.3 with native long-horizon agent scaffolding",
-      "excerpt": "New model demonstrates 4.2× improvement on multi-step software engineering benchmarks and sustains coherent agent trajectories beyond 110k tokens.",
-      "source": "xAI",
-      "url": "https://x.ai/blog/grok-4.3",
-      "publishedAt": "2026-09-23T16:20:52.814Z",
-      "impact": 96
-    },
-    {
-      "id": "aether-figure03",
-      "type": "premium",
-      "category": "robotics",
-      "title": "Figure 03 completes 43-hour autonomous factory shift with zero interventions",
-      "excerpt": "Humanoid achieves new milestone in unsupervised operation, performing 1,240 unique tasks across three assembly lines at the BMW South Carolina plant.",
-      "source": "Figure AI",
-      "url": "https://figure.ai/news/03-milestone",
-      "publishedAt": "2026-09-23T12:20:52.815Z",
-      "impact": 89
+      "title": "NVIDIA Releases Nemotron 3 Diarization: A 100M-Parameter Open-Weight Model That Tracks 8 Speakers in Real Time",
+      "excerpt": "NVIDIA has released Nemotron 3 Diarization, an open-weight speaker diarization model on Hugging Face.  It answers one question about any conversation: who spoke when",
+      "source": "MarkTechPost",
+      "url": "https://www.marktechpost.com/2026/09/23/nvidia-releases-nemotron-3-diarization/",
+      "publishedAt": "2026-09-23T18:17:14.000Z",
+      "impact": 65
     },
     {
       "id": "aether-interp",
@@ -44,74 +143,19 @@
       "excerpt": "Researchers reverse-engineered 312 million features inside the model, including the first clear \"deception circuit\" discovered in a frontier model.",
       "source": "Anthropic",
       "url": "https://anthropic.com/research/claude-4-interp",
-      "publishedAt": "2026-09-23T07:20:52.815Z",
+      "publishedAt": "2026-09-23T14:11:54.026Z",
       "impact": 91
     },
     {
-      "id": "arxiv-cs.ai-1790136000000-0",
+      "id": "marktechpost-1790147378000-3",
       "type": "live",
       "category": "llm",
-      "title": "Do Synthetic Personas Predict Real Audience Response? A Sim-to-Real Study Where a No-Persona Baseline Beats Persona-Based Copy Simulation",
-      "excerpt": "25010v1 Announce Type: new Abstract: Marketers increasingly use large language models (LLMs) as \"synthetic personas\" to predict how an audience will react to a piece of copy before it ships, encouraged by evidence tha...",
-      "source": "arXiv cs.AI",
-      "url": "https://arxiv.org/abs/2609.25010",
-      "publishedAt": "2026-09-23T04:00:00.000Z",
-      "impact": 58
-    },
-    {
-      "id": "arxiv-cs.ai-1790136000000-1",
-      "type": "live",
-      "category": "llm",
-      "title": "Do Existing Preconditioners Improve Biomedical Tabular Foundation Learning? An Empirical Study on TabPFN Optimization",
-      "excerpt": "25013v1 Announce Type: new Abstract: Tabular foundation models have recently shown strong potential for structured biomedical data analysis.  Among them, TabPFN has emerged as an effective approach for low-data tabula...",
-      "source": "arXiv cs.AI",
-      "url": "https://arxiv.org/abs/2609.25013",
-      "publishedAt": "2026-09-23T04:00:00.000Z",
-      "impact": 58
-    },
-    {
-      "id": "arxiv-cs.ai-1790136000000-2",
-      "type": "live",
-      "category": "multimodal",
-      "title": "4DGS-JEPA: Temporally Compositional Joint-Embedding Prediction for Dynamic Gaussian Splatting",
-      "excerpt": "25036v1 Announce Type: new Abstract: Dynamic Gaussian Splatting provides an explicit representation of evolving 3D scenes, but existing approaches are primarily optimized for reconstruction, future-state generation, o...",
-      "source": "arXiv cs.AI",
-      "url": "https://arxiv.org/abs/2609.25036",
-      "publishedAt": "2026-09-23T04:00:00.000Z",
-      "impact": 58
-    },
-    {
-      "id": "arxiv-cs.ai-1790136000000-3",
-      "type": "live",
-      "category": "safety",
-      "title": "An Accurate and Interpretable Hyper Graph Neural Network for GBM Survival Prediction",
-      "excerpt": "25088v1 Announce Type: new Abstract: Survival prediction for glioblastoma multiforme (GBM) demands models that are both accurate and interpretable, yet existing approaches treat these objectives as com- peting, where ...",
-      "source": "arXiv cs.AI",
-      "url": "https://arxiv.org/abs/2609.25088",
-      "publishedAt": "2026-09-23T04:00:00.000Z",
-      "impact": 58
-    },
-    {
-      "id": "arxiv-cs.ai-1790136000000-4",
-      "type": "live",
-      "category": "multimodal",
-      "title": "Ovis-Embedding: Pushing the Frontiers of Universal Omni-Modal Embeddings",
-      "excerpt": "25165v1 Announce Type: new Abstract: In this report, we introduce \\textbf{Ovis-Embedding}, a state-of-the-art omni-modal embedding family built on native integration of text, image, video, and audio.  Instead of assem...",
-      "source": "arXiv cs.AI",
-      "url": "https://arxiv.org/abs/2609.25165",
-      "publishedAt": "2026-09-23T04:00:00.000Z",
-      "impact": 75
-    },
-    {
-      "id": "arxiv-cs.ai-1790136000000-5",
-      "type": "live",
-      "category": "robotics",
-      "title": "X-Planner: Event-Structured Task Planning for Embodied Intelligence",
-      "excerpt": "25187v1 Announce Type: new Abstract: Task planning bridges high-level instructions and executable behavior in long-horizon manipulation, yet modern Vision-Language-Action (VLA) systems often leave this intermediate st...",
-      "source": "arXiv cs.AI",
-      "url": "https://arxiv.org/abs/2609.25187",
-      "publishedAt": "2026-09-23T04:00:00.000Z",
-      "impact": 58
+      "title": "Nokia Open-Sources AnyJev: A Training-Free Layer That Turns Any Open LLM Into a Calibrated Decision Model",
+      "excerpt": "Nokia’s applied research team has open-sourced AnyJev, a Python library that turns an open LLM into a decision model.  It targets a common production job: picking one answer from a fixed set instead of writing a sentence",
+      "source": "MarkTechPost",
+      "url": "https://www.marktechpost.com/2026/09/23/nokia-open-sources-anyjev-a-training-free-layer-that-turns-any-open-llm-into-a-calibrated-decision-model/",
+      "publishedAt": "2026-09-23T07:09:38.000Z",
+      "impact": 65
     },
     {
       "id": "hugging-face-1790035200000-1",

@@ -1,8 +1,85 @@
 {
-  "lastUpdated": "2026-09-24T21:22:09.100Z",
+  "lastUpdated": "2026-09-25T04:24:47.265Z",
   "source": "AETHER + Public RSS (arXiv, Hugging Face, MarkTechPost, Ben's Bites)",
-  "count": 12,
+  "count": 16,
   "articles": [
+    {
+      "id": "marktechpost-1790310241000-0",
+      "type": "live",
+      "category": "robotics",
+      "title": "Black Forest Labs Releases FLUX 3 Action: A 7B Open-Weights World Action Model That Tops RoboLab-120",
+      "excerpt": "Black Forest Labs (BFL), the lab behind the FLUX image models, has released FLUX 3 Action.  It is a 7B open-weights World Action Model (WAM) for robot control",
+      "source": "MarkTechPost",
+      "url": "https://www.marktechpost.com/2026/09/24/black-forest-labs-releases-flux-3-action-a-7b-open-weights-world-action-model-that-tops-robolab-120/",
+      "publishedAt": "2026-09-25T04:24:01.000Z",
+      "impact": 65
+    },
+    {
+      "id": "arxiv-cs.ai-1790308800000-0",
+      "type": "live",
+      "category": "llm",
+      "title": "When Should Forecasting Agents Reason? Behavioral Stress Tests for Reliability Routing",
+      "excerpt": "28475v1 Announce Type: new Abstract: Forecasting agents increasingly combine language-model reasoning, retrieval, ensembling, and calibration, but it remains unclear when each behavior should be trusted.  We study thi...",
+      "source": "arXiv cs.AI",
+      "url": "https://arxiv.org/abs/2609.28475",
+      "publishedAt": "2026-09-25T04:00:00.000Z",
+      "impact": 69
+    },
+    {
+      "id": "arxiv-cs.ai-1790308800000-1",
+      "type": "live",
+      "category": "hardware",
+      "title": "TW3Cast: A Frozen Router of Lightly Fine-Tuned Foundation Models for Time-Series Forecasting on GIFT-Eval, Selected Entirely on the Training Split",
+      "excerpt": "28506v1 Announce Type: new Abstract: TW3Cast is a time-series forecasting system that reaches position 3 of 130 entries on the GIFT-Eval benchmark by mean MASE rank, as of 2026-09-14.  The two entries above it belong ...",
+      "source": "arXiv cs.AI",
+      "url": "https://arxiv.org/abs/2609.28506",
+      "publishedAt": "2026-09-25T04:00:00.000Z",
+      "impact": 58
+    },
+    {
+      "id": "arxiv-cs.ai-1790308800000-2",
+      "type": "live",
+      "category": "safety",
+      "title": "PAWS: Policy-driven Agentic World Simulation",
+      "excerpt": "28547v1 Announce Type: new Abstract: Policy interventions propagate through public communication, institutional decisions, and stakeholder responses, yet datasets for financial multi-agent simulation rarely connect th...",
+      "source": "arXiv cs.AI",
+      "url": "https://arxiv.org/abs/2609.28547",
+      "publishedAt": "2026-09-25T04:00:00.000Z",
+      "impact": 69
+    },
+    {
+      "id": "arxiv-cs.ai-1790308800000-3",
+      "type": "live",
+      "category": "multimodal",
+      "title": "Pistis Technical Report",
+      "excerpt": "28554v1 Announce Type: new Abstract: We introduce the Pistis model family, comprising 27B- and 9B-parameter multimodal large language models built on Qwen3. 5, respectively, and developed through a general and scalabl...",
+      "source": "arXiv cs.AI",
+      "url": "https://arxiv.org/abs/2609.28554",
+      "publishedAt": "2026-09-25T04:00:00.000Z",
+      "impact": 58
+    },
+    {
+      "id": "arxiv-cs.ai-1790308800000-4",
+      "type": "live",
+      "category": "robotics",
+      "title": "BaseCamp --- An Agentic AI Framework for Automating DNA Sequencing Data Pipelines",
+      "excerpt": "28557v1 Announce Type: new Abstract: DNA sequencing pipelines, spanning quality control, alignment, variant calling, and annotation, are now reliably executed by workflow management systems that orchestrate establishe...",
+      "source": "arXiv cs.AI",
+      "url": "https://arxiv.org/abs/2609.28557",
+      "publishedAt": "2026-09-25T04:00:00.000Z",
+      "impact": 69
+    },
+    {
+      "id": "arxiv-cs.ai-1790308800000-5",
+      "type": "live",
+      "category": "multimodal",
+      "title": "DEEPO: Dual-Entropy Enhanced Policy Optimization for Hallucination in MLLMs",
+      "excerpt": "28570v1 Announce Type: new Abstract: Reinforcement learning (RL) is widely used to sharpen reasoning in multimodal large language models (MLLMs), yet its effect on hallucination is uneven.  We trace this to two weak p...",
+      "source": "arXiv cs.AI",
+      "url": "https://arxiv.org/abs/2609.28570",
+      "publishedAt": "2026-09-25T04:00:00.000Z",
+      "impact": 58
+    },
     {
       "id": "aether-grok43",
       "type": "premium",
@@ -11,8 +88,41 @@
       "excerpt": "New model demonstrates 4.2× improvement on multi-step software engineering benchmarks and sustains coherent agent trajectories beyond 110k tokens.",
       "source": "xAI",
       "url": "https://x.ai/blog/grok-4.3",
-      "publishedAt": "2026-09-24T16:22:08.521Z",
+      "publishedAt": "2026-09-24T23:24:46.121Z",
       "impact": 96
+    },
+    {
+      "id": "aether-figure03",
+      "type": "premium",
+      "category": "robotics",
+      "title": "Figure 03 completes 43-hour autonomous factory shift with zero interventions",
+      "excerpt": "Humanoid achieves new milestone in unsupervised operation, performing 1,240 unique tasks across three assembly lines at the BMW South Carolina plant.",
+      "source": "Figure AI",
+      "url": "https://figure.ai/news/03-milestone",
+      "publishedAt": "2026-09-24T19:24:46.121Z",
+      "impact": 89
+    },
+    {
+      "id": "marktechpost-1790276336000-1",
+      "type": "live",
+      "category": "llm",
+      "title": "BottleCap AI Releases ThinkingCap-Qwen3.8-27B: 37.2% Fewer Thinking Tokens at a 0.86pp Accuracy Cost",
+      "excerpt": "BottleCap AI has released ThinkingCap-Qwen3. 8-27B, a fine-tune of Qwen3",
+      "source": "MarkTechPost",
+      "url": "https://www.marktechpost.com/2026/09/24/bottlecap-ai-releases-thinkingcap-qwen3-8-27b-37-2-fewer-thinking-tokens-at-a-0-86pp-accuracy-cost/",
+      "publishedAt": "2026-09-24T18:58:56.000Z",
+      "impact": 65
+    },
+    {
+      "id": "aether-interp",
+      "type": "premium",
+      "category": "safety",
+      "title": "Anthropic publishes unprecedented mechanistic interpretability map of Claude 4",
+      "excerpt": "Researchers reverse-engineered 312 million features inside the model, including the first clear \"deception circuit\" discovered in a frontier model.",
+      "source": "Anthropic",
+      "url": "https://anthropic.com/research/claude-4-interp",
+      "publishedAt": "2026-09-24T14:24:46.121Z",
+      "impact": 91
     },
     {
       "id": "hugging-face-1790258937000-0",
@@ -26,92 +136,26 @@
       "impact": 75
     },
     {
-      "id": "aether-figure03",
-      "type": "premium",
-      "category": "robotics",
-      "title": "Figure 03 completes 43-hour autonomous factory shift with zero interventions",
-      "excerpt": "Humanoid achieves new milestone in unsupervised operation, performing 1,240 unique tasks across three assembly lines at the BMW South Carolina plant.",
-      "source": "Figure AI",
-      "url": "https://figure.ai/news/03-milestone",
-      "publishedAt": "2026-09-24T12:22:08.521Z",
-      "impact": 89
-    },
-    {
-      "id": "aether-interp",
-      "type": "premium",
-      "category": "safety",
-      "title": "Anthropic publishes unprecedented mechanistic interpretability map of Claude 4",
-      "excerpt": "Researchers reverse-engineered 312 million features inside the model, including the first clear \"deception circuit\" discovered in a frontier model.",
-      "source": "Anthropic",
-      "url": "https://anthropic.com/research/claude-4-interp",
-      "publishedAt": "2026-09-24T07:22:08.521Z",
-      "impact": 91
-    },
-    {
-      "id": "arxiv-cs.ai-1790222400000-0",
+      "id": "marktechpost-1790227661000-2",
       "type": "live",
       "category": "llm",
-      "title": "Do Synthetic Personas Predict Real Audience Response? A Sim-to-Real Study Where a No-Persona Baseline Beats Persona-Based Copy Simulation",
-      "excerpt": "25010v1 Announce Type: new Abstract: Marketers increasingly use large language models (LLMs) as \"synthetic personas\" to predict how an audience will react to a piece of copy before it ships, encouraged by evidence tha...",
-      "source": "arXiv cs.AI",
-      "url": "https://arxiv.org/abs/2609.25010",
-      "publishedAt": "2026-09-24T04:00:00.000Z",
-      "impact": 58
+      "title": "Contrastive-LM Releases CLM-8B: An Open System One Model That Scores Agent Actions Up to 9× Faster Than Jev",
+      "excerpt": "Contrastive-LM has released CLM-8B, an open System One model that scores candidate actions against a state instead of generating text.  It adds 2 small projection heads to a frozen Qwen3-8B encoder and trains them wit...",
+      "source": "MarkTechPost",
+      "url": "https://www.marktechpost.com/2026/09/23/contrastive-lm-releases-clm-8b-an-open-system-one-model-that-scores-agent-actions-up-to-9x-faster-than-jev/",
+      "publishedAt": "2026-09-24T05:27:41.000Z",
+      "impact": 77
     },
     {
-      "id": "arxiv-cs.ai-1790222400000-1",
+      "id": "marktechpost-1790211189000-3",
       "type": "live",
       "category": "llm",
-      "title": "Do Existing Preconditioners Improve Biomedical Tabular Foundation Learning? An Empirical Study on TabPFN Optimization",
-      "excerpt": "25013v1 Announce Type: new Abstract: Tabular foundation models have recently shown strong potential for structured biomedical data analysis.  Among them, TabPFN has emerged as an effective approach for low-data tabula...",
-      "source": "arXiv cs.AI",
-      "url": "https://arxiv.org/abs/2609.25013",
-      "publishedAt": "2026-09-24T04:00:00.000Z",
-      "impact": 58
-    },
-    {
-      "id": "arxiv-cs.ai-1790222400000-2",
-      "type": "live",
-      "category": "multimodal",
-      "title": "4DGS-JEPA: Temporally Compositional Joint-Embedding Prediction for Dynamic Gaussian Splatting",
-      "excerpt": "25036v1 Announce Type: new Abstract: Dynamic Gaussian Splatting provides an explicit representation of evolving 3D scenes, but existing approaches are primarily optimized for reconstruction, future-state generation, o...",
-      "source": "arXiv cs.AI",
-      "url": "https://arxiv.org/abs/2609.25036",
-      "publishedAt": "2026-09-24T04:00:00.000Z",
-      "impact": 58
-    },
-    {
-      "id": "arxiv-cs.ai-1790222400000-3",
-      "type": "live",
-      "category": "safety",
-      "title": "An Accurate and Interpretable Hyper Graph Neural Network for GBM Survival Prediction",
-      "excerpt": "25088v1 Announce Type: new Abstract: Survival prediction for glioblastoma multiforme (GBM) demands models that are both accurate and interpretable, yet existing approaches treat these objectives as com- peting, where ...",
-      "source": "arXiv cs.AI",
-      "url": "https://arxiv.org/abs/2609.25088",
-      "publishedAt": "2026-09-24T04:00:00.000Z",
-      "impact": 58
-    },
-    {
-      "id": "arxiv-cs.ai-1790222400000-4",
-      "type": "live",
-      "category": "multimodal",
-      "title": "Ovis-Embedding: Pushing the Frontiers of Universal Omni-Modal Embeddings",
-      "excerpt": "25165v1 Announce Type: new Abstract: In this report, we introduce \\textbf{Ovis-Embedding}, a state-of-the-art omni-modal embedding family built on native integration of text, image, video, and audio.  Instead of assem...",
-      "source": "arXiv cs.AI",
-      "url": "https://arxiv.org/abs/2609.25165",
-      "publishedAt": "2026-09-24T04:00:00.000Z",
-      "impact": 75
-    },
-    {
-      "id": "arxiv-cs.ai-1790222400000-5",
-      "type": "live",
-      "category": "robotics",
-      "title": "X-Planner: Event-Structured Task Planning for Embodied Intelligence",
-      "excerpt": "25187v1 Announce Type: new Abstract: Task planning bridges high-level instructions and executable behavior in long-horizon manipulation, yet modern Vision-Language-Action (VLA) systems often leave this intermediate st...",
-      "source": "arXiv cs.AI",
-      "url": "https://arxiv.org/abs/2609.25187",
-      "publishedAt": "2026-09-24T04:00:00.000Z",
-      "impact": 58
+      "title": "A Coding Guide to TypeSafe AI Jev: Typed Decisions, Calibrated Confidence, and Speculative Fan-Out with a System One Model",
+      "excerpt": "This tutorial provides a complete coding guide to TypeSafe AI's Jev, a System One model designed for non-text, structured judgments.  It covers installing the official Python SDK, using primitive question types (Choic...",
+      "source": "MarkTechPost",
+      "url": "https://www.marktechpost.com/2026/09/23/a-coding-guide-to-typesafe-ai-jev/",
+      "publishedAt": "2026-09-24T00:53:09.000Z",
+      "impact": 65
     },
     {
       "id": "hugging-face-1790188900000-1",

@@ -1,18 +1,18 @@
 {
-  "lastUpdated": "2026-09-25T04:24:47.265Z",
+  "lastUpdated": "2026-09-25T11:33:55.518Z",
   "source": "AETHER + Public RSS (arXiv, Hugging Face, MarkTechPost, Ben's Bites)",
-  "count": 16,
+  "count": 12,
   "articles": [
     {
-      "id": "marktechpost-1790310241000-0",
-      "type": "live",
-      "category": "robotics",
-      "title": "Black Forest Labs Releases FLUX 3 Action: A 7B Open-Weights World Action Model That Tops RoboLab-120",
-      "excerpt": "Black Forest Labs (BFL), the lab behind the FLUX image models, has released FLUX 3 Action.  It is a 7B open-weights World Action Model (WAM) for robot control",
-      "source": "MarkTechPost",
-      "url": "https://www.marktechpost.com/2026/09/24/black-forest-labs-releases-flux-3-action-a-7b-open-weights-world-action-model-that-tops-robolab-120/",
-      "publishedAt": "2026-09-25T04:24:01.000Z",
-      "impact": 65
+      "id": "aether-grok43",
+      "type": "premium",
+      "category": "llm",
+      "title": "xAI releases Grok-4.3 with native long-horizon agent scaffolding",
+      "excerpt": "New model demonstrates 4.2× improvement on multi-step software engineering benchmarks and sustains coherent agent trajectories beyond 110k tokens.",
+      "source": "xAI",
+      "url": "https://x.ai/blog/grok-4.3",
+      "publishedAt": "2026-09-25T06:33:55.014Z",
+      "impact": 96
     },
     {
       "id": "arxiv-cs.ai-1790308800000-0",
@@ -81,17 +81,6 @@
       "impact": 58
     },
     {
-      "id": "aether-grok43",
-      "type": "premium",
-      "category": "llm",
-      "title": "xAI releases Grok-4.3 with native long-horizon agent scaffolding",
-      "excerpt": "New model demonstrates 4.2× improvement on multi-step software engineering benchmarks and sustains coherent agent trajectories beyond 110k tokens.",
-      "source": "xAI",
-      "url": "https://x.ai/blog/grok-4.3",
-      "publishedAt": "2026-09-24T23:24:46.121Z",
-      "impact": 96
-    },
-    {
       "id": "aether-figure03",
       "type": "premium",
       "category": "robotics",
@@ -99,19 +88,8 @@
       "excerpt": "Humanoid achieves new milestone in unsupervised operation, performing 1,240 unique tasks across three assembly lines at the BMW South Carolina plant.",
       "source": "Figure AI",
       "url": "https://figure.ai/news/03-milestone",
-      "publishedAt": "2026-09-24T19:24:46.121Z",
+      "publishedAt": "2026-09-25T02:33:55.014Z",
       "impact": 89
-    },
-    {
-      "id": "marktechpost-1790276336000-1",
-      "type": "live",
-      "category": "llm",
-      "title": "BottleCap AI Releases ThinkingCap-Qwen3.8-27B: 37.2% Fewer Thinking Tokens at a 0.86pp Accuracy Cost",
-      "excerpt": "BottleCap AI has released ThinkingCap-Qwen3. 8-27B, a fine-tune of Qwen3",
-      "source": "MarkTechPost",
-      "url": "https://www.marktechpost.com/2026/09/24/bottlecap-ai-releases-thinkingcap-qwen3-8-27b-37-2-fewer-thinking-tokens-at-a-0-86pp-accuracy-cost/",
-      "publishedAt": "2026-09-24T18:58:56.000Z",
-      "impact": 65
     },
     {
       "id": "aether-interp",
@@ -121,7 +99,7 @@
       "excerpt": "Researchers reverse-engineered 312 million features inside the model, including the first clear \"deception circuit\" discovered in a frontier model.",
       "source": "Anthropic",
       "url": "https://anthropic.com/research/claude-4-interp",
-      "publishedAt": "2026-09-24T14:24:46.121Z",
+      "publishedAt": "2026-09-24T21:33:55.014Z",
       "impact": 91
     },
     {
@@ -134,28 +112,6 @@
       "url": "https://huggingface.co/blog/LiquidAI/lfm2-5-vl-dspark",
       "publishedAt": "2026-09-24T14:08:57.000Z",
       "impact": 75
-    },
-    {
-      "id": "marktechpost-1790227661000-2",
-      "type": "live",
-      "category": "llm",
-      "title": "Contrastive-LM Releases CLM-8B: An Open System One Model That Scores Agent Actions Up to 9× Faster Than Jev",
-      "excerpt": "Contrastive-LM has released CLM-8B, an open System One model that scores candidate actions against a state instead of generating text.  It adds 2 small projection heads to a frozen Qwen3-8B encoder and trains them wit...",
-      "source": "MarkTechPost",
-      "url": "https://www.marktechpost.com/2026/09/23/contrastive-lm-releases-clm-8b-an-open-system-one-model-that-scores-agent-actions-up-to-9x-faster-than-jev/",
-      "publishedAt": "2026-09-24T05:27:41.000Z",
-      "impact": 77
-    },
-    {
-      "id": "marktechpost-1790211189000-3",
-      "type": "live",
-      "category": "llm",
-      "title": "A Coding Guide to TypeSafe AI Jev: Typed Decisions, Calibrated Confidence, and Speculative Fan-Out with a System One Model",
-      "excerpt": "This tutorial provides a complete coding guide to TypeSafe AI's Jev, a System One model designed for non-text, structured judgments.  It covers installing the official Python SDK, using primitive question types (Choic...",
-      "source": "MarkTechPost",
-      "url": "https://www.marktechpost.com/2026/09/23/a-coding-guide-to-typesafe-ai-jev/",
-      "publishedAt": "2026-09-24T00:53:09.000Z",
-      "impact": 65
     },
     {
       "id": "hugging-face-1790188900000-1",

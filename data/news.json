@@ -1,8 +1,19 @@
 {
-  "lastUpdated": "2026-09-26T16:09:16.642Z",
+  "lastUpdated": "2026-09-26T20:53:53.850Z",
   "source": "AETHER + Public RSS (arXiv, Hugging Face, MarkTechPost, Ben's Bites)",
   "count": 10,
   "articles": [
+    {
+      "id": "marktechpost-1790452257000-0",
+      "type": "live",
+      "category": "llm",
+      "title": "Supersonic Labs Releases Julia 1: A 144.3M-Parameter Open Decision Model That Runs on a CPU",
+      "excerpt": "Supersonic Labs has released Julia 1, a 144. 3M-parameter decision model built on mmBERT-small",
+      "source": "MarkTechPost",
+      "url": "https://www.marktechpost.com/2026/09/26/supersonic-labs-releases-julia-1-a-144-3m-parameter-open-decision-model-that-runs-on-a-cpu/",
+      "publishedAt": "2026-09-26T19:50:57.000Z",
+      "impact": 65
+    },
     {
       "id": "aether-grok43",
       "type": "premium",
@@ -11,11 +22,22 @@
       "excerpt": "New model demonstrates 4.2× improvement on multi-step software engineering benchmarks and sustains coherent agent trajectories beyond 110k tokens.",
       "source": "xAI",
       "url": "https://x.ai/blog/grok-4.3",
-      "publishedAt": "2026-09-26T11:09:14.432Z",
+      "publishedAt": "2026-09-26T15:53:52.657Z",
       "impact": 96
     },
     {
-      "id": "marktechpost-1790409848000-0",
+      "id": "aether-figure03",
+      "type": "premium",
+      "category": "robotics",
+      "title": "Figure 03 completes 43-hour autonomous factory shift with zero interventions",
+      "excerpt": "Humanoid achieves new milestone in unsupervised operation, performing 1,240 unique tasks across three assembly lines at the BMW South Carolina plant.",
+      "source": "Figure AI",
+      "url": "https://figure.ai/news/03-milestone",
+      "publishedAt": "2026-09-26T11:53:52.657Z",
+      "impact": 89
+    },
+    {
+      "id": "marktechpost-1790409848000-1",
       "type": "live",
       "category": "llm",
       "title": "Exa Launches Agent Ultra: A Subagent Swarm Deep Research API Built for Exhaustive List Building",
@@ -26,7 +48,7 @@
       "impact": 77
     },
     {
-      "id": "marktechpost-1790407366000-1",
+      "id": "marktechpost-1790407366000-2",
       "type": "live",
       "category": "multimodal",
       "title": "End-to-End Multimodal Data Augmentation and Adversarial Robustness Benchmark with AugLy for Images, Text, Audio, and PyTorch",
@@ -37,17 +59,6 @@
       "impact": 65
     },
     {
-      "id": "aether-figure03",
-      "type": "premium",
-      "category": "robotics",
-      "title": "Figure 03 completes 43-hour autonomous factory shift with zero interventions",
-      "excerpt": "Humanoid achieves new milestone in unsupervised operation, performing 1,240 unique tasks across three assembly lines at the BMW South Carolina plant.",
-      "source": "Figure AI",
-      "url": "https://figure.ai/news/03-milestone",
-      "publishedAt": "2026-09-26T07:09:14.433Z",
-      "impact": 89
-    },
-    {
       "id": "aether-interp",
       "type": "premium",
       "category": "safety",
@@ -55,11 +66,11 @@
       "excerpt": "Researchers reverse-engineered 312 million features inside the model, including the first clear \"deception circuit\" discovered in a frontier model.",
       "source": "Anthropic",
       "url": "https://anthropic.com/research/claude-4-interp",
-      "publishedAt": "2026-09-26T02:09:14.433Z",
+      "publishedAt": "2026-09-26T06:53:52.657Z",
       "impact": 91
     },
     {
-      "id": "marktechpost-1790377919000-2",
+      "id": "marktechpost-1790377919000-3",
       "type": "live",
       "category": "multimodal",
       "title": "Liquid AI Releases LFM2.5-VL-3B-DSpark: Speculative Decoding for Vision-Language Models With Up to 3.13x Faster Decoding",
@@ -67,17 +78,6 @@
       "source": "MarkTechPost",
       "url": "https://www.marktechpost.com/2026/09/25/liquid-ai-releases-lfm2-5-vl-3b-dspark-speculative-decoding-for-vision-language-models-with-up-to-3-13x-faster-decoding/",
       "publishedAt": "2026-09-25T23:11:59.000Z",
-      "impact": 65
-    },
-    {
-      "id": "marktechpost-1790349285000-3",
-      "type": "live",
-      "category": "llm",
-      "title": "Aikido Security Releases Altar-1: An Open-Weight Security Model Pruned From GLM-5.3 to 328 GB",
-      "excerpt": "Aikido Security has released Altar-1, its first open-weight security model.  It is a compressed version of Z",
-      "source": "MarkTechPost",
-      "url": "https://www.marktechpost.com/2026/09/25/aikido-security-releases-altar-1-an-open-weight-security-model-pruned-from-glm-5-3-to-328-gb/",
-      "publishedAt": "2026-09-25T15:14:45.000Z",
       "impact": 65
     },
     {

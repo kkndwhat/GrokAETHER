@@ -1,7 +1,7 @@
 {
-  "lastUpdated": "2026-09-25T21:22:10.080Z",
+  "lastUpdated": "2026-09-26T04:28:59.247Z",
   "source": "AETHER + Public RSS (arXiv, Hugging Face, MarkTechPost, Ben's Bites)",
-  "count": 12,
+  "count": 10,
   "articles": [
     {
       "id": "aether-grok43",
@@ -11,8 +11,19 @@
       "excerpt": "New model demonstrates 4.2× improvement on multi-step software engineering benchmarks and sustains coherent agent trajectories beyond 110k tokens.",
       "source": "xAI",
       "url": "https://x.ai/blog/grok-4.3",
-      "publishedAt": "2026-09-25T16:22:09.698Z",
+      "publishedAt": "2026-09-25T23:28:58.215Z",
       "impact": 96
+    },
+    {
+      "id": "marktechpost-1790377919000-0",
+      "type": "live",
+      "category": "multimodal",
+      "title": "Liquid AI Releases LFM2.5-VL-3B-DSpark: Speculative Decoding for Vision-Language Models With Up to 3.13x Faster Decoding",
+      "excerpt": "Liquid AI has released LFM2. 5-VL-3B-DSpark, a 279",
+      "source": "MarkTechPost",
+      "url": "https://www.marktechpost.com/2026/09/25/liquid-ai-releases-lfm2-5-vl-3b-dspark-speculative-decoding-for-vision-language-models-with-up-to-3-13x-faster-decoding/",
+      "publishedAt": "2026-09-25T23:11:59.000Z",
+      "impact": 65
     },
     {
       "id": "aether-figure03",
@@ -22,8 +33,30 @@
       "excerpt": "Humanoid achieves new milestone in unsupervised operation, performing 1,240 unique tasks across three assembly lines at the BMW South Carolina plant.",
       "source": "Figure AI",
       "url": "https://figure.ai/news/03-milestone",
-      "publishedAt": "2026-09-25T12:22:09.699Z",
+      "publishedAt": "2026-09-25T19:28:58.215Z",
       "impact": 89
+    },
+    {
+      "id": "marktechpost-1790349285000-1",
+      "type": "live",
+      "category": "llm",
+      "title": "Aikido Security Releases Altar-1: An Open-Weight Security Model Pruned From GLM-5.3 to 328 GB",
+      "excerpt": "Aikido Security has released Altar-1, its first open-weight security model.  It is a compressed version of Z",
+      "source": "MarkTechPost",
+      "url": "https://www.marktechpost.com/2026/09/25/aikido-security-releases-altar-1-an-open-weight-security-model-pruned-from-glm-5-3-to-328-gb/",
+      "publishedAt": "2026-09-25T15:14:45.000Z",
+      "impact": 65
+    },
+    {
+      "id": "marktechpost-1790346626000-2",
+      "type": "live",
+      "category": "llm",
+      "title": "Perplexity Trains Its Computer Agent on Real Mistakes With Hint-Guided Self-Distillation",
+      "excerpt": "Perplexity Research published a new post-training study.  It trains a model inside Perplexity Computer on real user sessions, including failed ones",
+      "source": "MarkTechPost",
+      "url": "https://www.marktechpost.com/2026/09/25/perplexity-trains-its-computer-agent-on-real-mistakes-with-hint-guided-self-distillation/",
+      "publishedAt": "2026-09-25T14:30:26.000Z",
+      "impact": 77
     },
     {
       "id": "aether-interp",
@@ -33,74 +66,19 @@
       "excerpt": "Researchers reverse-engineered 312 million features inside the model, including the first clear \"deception circuit\" discovered in a frontier model.",
       "source": "Anthropic",
       "url": "https://anthropic.com/research/claude-4-interp",
-      "publishedAt": "2026-09-25T07:22:09.699Z",
+      "publishedAt": "2026-09-25T14:28:58.215Z",
       "impact": 91
     },
     {
-      "id": "arxiv-cs.ai-1790308800000-0",
-      "type": "live",
-      "category": "llm",
-      "title": "When Should Forecasting Agents Reason? Behavioral Stress Tests for Reliability Routing",
-      "excerpt": "28475v1 Announce Type: new Abstract: Forecasting agents increasingly combine language-model reasoning, retrieval, ensembling, and calibration, but it remains unclear when each behavior should be trusted.  We study thi...",
-      "source": "arXiv cs.AI",
-      "url": "https://arxiv.org/abs/2609.28475",
-      "publishedAt": "2026-09-25T04:00:00.000Z",
-      "impact": 69
-    },
-    {
-      "id": "arxiv-cs.ai-1790308800000-1",
-      "type": "live",
-      "category": "hardware",
-      "title": "TW3Cast: A Frozen Router of Lightly Fine-Tuned Foundation Models for Time-Series Forecasting on GIFT-Eval, Selected Entirely on the Training Split",
-      "excerpt": "28506v1 Announce Type: new Abstract: TW3Cast is a time-series forecasting system that reaches position 3 of 130 entries on the GIFT-Eval benchmark by mean MASE rank, as of 2026-09-14.  The two entries above it belong ...",
-      "source": "arXiv cs.AI",
-      "url": "https://arxiv.org/abs/2609.28506",
-      "publishedAt": "2026-09-25T04:00:00.000Z",
-      "impact": 58
-    },
-    {
-      "id": "arxiv-cs.ai-1790308800000-2",
+      "id": "marktechpost-1790311598000-3",
       "type": "live",
       "category": "safety",
-      "title": "PAWS: Policy-driven Agentic World Simulation",
-      "excerpt": "28547v1 Announce Type: new Abstract: Policy interventions propagate through public communication, institutional decisions, and stakeholder responses, yet datasets for financial multi-agent simulation rarely connect th...",
-      "source": "arXiv cs.AI",
-      "url": "https://arxiv.org/abs/2609.28547",
-      "publishedAt": "2026-09-25T04:00:00.000Z",
-      "impact": 69
-    },
-    {
-      "id": "arxiv-cs.ai-1790308800000-3",
-      "type": "live",
-      "category": "multimodal",
-      "title": "Pistis Technical Report",
-      "excerpt": "28554v1 Announce Type: new Abstract: We introduce the Pistis model family, comprising 27B- and 9B-parameter multimodal large language models built on Qwen3. 5, respectively, and developed through a general and scalabl...",
-      "source": "arXiv cs.AI",
-      "url": "https://arxiv.org/abs/2609.28554",
-      "publishedAt": "2026-09-25T04:00:00.000Z",
-      "impact": 58
-    },
-    {
-      "id": "arxiv-cs.ai-1790308800000-4",
-      "type": "live",
-      "category": "robotics",
-      "title": "BaseCamp --- An Agentic AI Framework for Automating DNA Sequencing Data Pipelines",
-      "excerpt": "28557v1 Announce Type: new Abstract: DNA sequencing pipelines, spanning quality control, alignment, variant calling, and annotation, are now reliably executed by workflow management systems that orchestrate establishe...",
-      "source": "arXiv cs.AI",
-      "url": "https://arxiv.org/abs/2609.28557",
-      "publishedAt": "2026-09-25T04:00:00.000Z",
-      "impact": 69
-    },
-    {
-      "id": "arxiv-cs.ai-1790308800000-5",
-      "type": "live",
-      "category": "multimodal",
-      "title": "DEEPO: Dual-Entropy Enhanced Policy Optimization for Hallucination in MLLMs",
-      "excerpt": "28570v1 Announce Type: new Abstract: Reinforcement learning (RL) is widely used to sharpen reasoning in multimodal large language models (MLLMs), yet its effect on hallucination is uneven.  We trace this to two weak p...",
-      "source": "arXiv cs.AI",
-      "url": "https://arxiv.org/abs/2609.28570",
-      "publishedAt": "2026-09-25T04:00:00.000Z",
-      "impact": 58
+      "title": "Fastino Releases GLiNER2.5-Decide: A 340M Open-Weight Decision Model That Runs on CPU",
+      "excerpt": "Fastino Labs has released GLiNER2. 5-Decide, a 340M-parameter open-weight decision model",
+      "source": "MarkTechPost",
+      "url": "https://www.marktechpost.com/2026/09/24/fastino-releases-gliner2-5-decide-a-340m-open-weight-decision-model-that-runs-on-cpu/",
+      "publishedAt": "2026-09-25T04:46:38.000Z",
+      "impact": 65
     },
     {
       "id": "hugging-face-1790258937000-0",

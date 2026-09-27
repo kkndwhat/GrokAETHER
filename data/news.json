@@ -1,19 +1,8 @@
 {
-  "lastUpdated": "2026-09-26T20:53:53.850Z",
+  "lastUpdated": "2026-09-27T11:47:00.573Z",
   "source": "AETHER + Public RSS (arXiv, Hugging Face, MarkTechPost, Ben's Bites)",
   "count": 10,
   "articles": [
-    {
-      "id": "marktechpost-1790452257000-0",
-      "type": "live",
-      "category": "llm",
-      "title": "Supersonic Labs Releases Julia 1: A 144.3M-Parameter Open Decision Model That Runs on a CPU",
-      "excerpt": "Supersonic Labs has released Julia 1, a 144. 3M-parameter decision model built on mmBERT-small",
-      "source": "MarkTechPost",
-      "url": "https://www.marktechpost.com/2026/09/26/supersonic-labs-releases-julia-1-a-144-3m-parameter-open-decision-model-that-runs-on-a-cpu/",
-      "publishedAt": "2026-09-26T19:50:57.000Z",
-      "impact": 65
-    },
     {
       "id": "aether-grok43",
       "type": "premium",
@@ -22,8 +11,30 @@
       "excerpt": "New model demonstrates 4.2× improvement on multi-step software engineering benchmarks and sustains coherent agent trajectories beyond 110k tokens.",
       "source": "xAI",
       "url": "https://x.ai/blog/grok-4.3",
-      "publishedAt": "2026-09-26T15:53:52.657Z",
+      "publishedAt": "2026-09-27T06:46:59.703Z",
       "impact": 96
+    },
+    {
+      "id": "marktechpost-1790488671000-0",
+      "type": "live",
+      "category": "research",
+      "title": "AI Coding Agents for Enterprise: IP Indemnity, Data Residency and 500-Seat Cost Compared",
+      "excerpt": "We read the contracts behind GitHub Copilot, AWS Kiro, Cursor, Devin and Windsurf.  Copilot and Kiro offer uncapped indemnity on generated code",
+      "source": "MarkTechPost",
+      "url": "https://www.marktechpost.com/2026/09/26/ai-coding-agents-for-enterprise-ip-indemnity-data-residency-and-500-seat-cost-compared/",
+      "publishedAt": "2026-09-27T05:57:51.000Z",
+      "impact": 77
+    },
+    {
+      "id": "marktechpost-1790487755000-1",
+      "type": "live",
+      "category": "research",
+      "title": "A Coding Guide to Google Research’s MSEB: Writing Sound Encoders to the Benchmark Contract and Scoring Them Across Classification, Clustering, Retrieval and Segmentation",
+      "excerpt": "A comprehensive coding tutorial on Google Research's Massive Sound Embedding Benchmark (MSEB), demonstrating how to implement custom sound encoders, drive classification, clustering, retrieval, and segmentation evalua...",
+      "source": "MarkTechPost",
+      "url": "https://www.marktechpost.com/2026/09/26/a-coding-guide-to-google-researchs-mseb-writing-sound-encoders-to-the-benchmark-contract-and-scoring-them-across-classification-clustering-retrieval-and-segmentation/",
+      "publishedAt": "2026-09-27T05:42:35.000Z",
+      "impact": 65
     },
     {
       "id": "aether-figure03",
@@ -33,29 +44,18 @@
       "excerpt": "Humanoid achieves new milestone in unsupervised operation, performing 1,240 unique tasks across three assembly lines at the BMW South Carolina plant.",
       "source": "Figure AI",
       "url": "https://figure.ai/news/03-milestone",
-      "publishedAt": "2026-09-26T11:53:52.657Z",
+      "publishedAt": "2026-09-27T02:46:59.703Z",
       "impact": 89
     },
     {
-      "id": "marktechpost-1790409848000-1",
-      "type": "live",
-      "category": "llm",
-      "title": "Exa Launches Agent Ultra: A Subagent Swarm Deep Research API Built for Exhaustive List Building",
-      "excerpt": "Exa has released Agent Ultra, the highest effort mode of its Exa Agent API.  It coordinates subagents across thousands of sources for list building and entity enrichment",
-      "source": "MarkTechPost",
-      "url": "https://www.marktechpost.com/2026/09/26/exa-launches-agent-ultra-a-subagent-swarm-deep-research-api-built-for-exhaustive-list-building/",
-      "publishedAt": "2026-09-26T08:04:08.000Z",
-      "impact": 77
-    },
-    {
-      "id": "marktechpost-1790407366000-2",
+      "id": "marktechpost-1790459783000-2",
       "type": "live",
       "category": "multimodal",
-      "title": "End-to-End Multimodal Data Augmentation and Adversarial Robustness Benchmark with AugLy for Images, Text, Audio, and PyTorch",
-      "excerpt": "Discover how to build a comprehensive multimodal augmentation and adversarial robustness workflow using AugLy for images, text, audio, and PyTorch datasets.  The post End-to-End Multimodal Data Augmentation and Advers...",
+      "title": "Sarvam AI Releases Saaras V4: A Speech-to-Text Model for All 22 Indian Languages and Global English",
+      "excerpt": "Sarvam AI's Saaras V4 is a speech-to-text model covering all 22 Indian languages plus global English.  It pairs an audio encoder with a 3B hybrid state-space decoder",
       "source": "MarkTechPost",
-      "url": "https://www.marktechpost.com/2026/09/26/end-to-end-multimodal-data-augmentation-and-adversarial-robustness-benchmark-with-augly-for-images-text-audio-and-pytorch/",
-      "publishedAt": "2026-09-26T07:22:46.000Z",
+      "url": "https://www.marktechpost.com/2026/09/26/sarvam-ai-releases-saaras-v4-a-speech-to-text-model-for-all-22-indian-languages-and-global-english/",
+      "publishedAt": "2026-09-26T21:56:23.000Z",
       "impact": 65
     },
     {
@@ -66,18 +66,18 @@
       "excerpt": "Researchers reverse-engineered 312 million features inside the model, including the first clear \"deception circuit\" discovered in a frontier model.",
       "source": "Anthropic",
       "url": "https://anthropic.com/research/claude-4-interp",
-      "publishedAt": "2026-09-26T06:53:52.657Z",
+      "publishedAt": "2026-09-26T21:46:59.703Z",
       "impact": 91
     },
     {
-      "id": "marktechpost-1790377919000-3",
+      "id": "marktechpost-1790452257000-3",
       "type": "live",
-      "category": "multimodal",
-      "title": "Liquid AI Releases LFM2.5-VL-3B-DSpark: Speculative Decoding for Vision-Language Models With Up to 3.13x Faster Decoding",
-      "excerpt": "Liquid AI has released LFM2. 5-VL-3B-DSpark, a 279",
+      "category": "llm",
+      "title": "Supersonic Labs Releases Julia 1: A 144.3M-Parameter Open Decision Model That Runs on a CPU",
+      "excerpt": "Supersonic Labs has released Julia 1, a 144. 3M-parameter decision model built on mmBERT-small",
       "source": "MarkTechPost",
-      "url": "https://www.marktechpost.com/2026/09/25/liquid-ai-releases-lfm2-5-vl-3b-dspark-speculative-decoding-for-vision-language-models-with-up-to-3-13x-faster-decoding/",
-      "publishedAt": "2026-09-25T23:11:59.000Z",
+      "url": "https://www.marktechpost.com/2026/09/26/supersonic-labs-releases-julia-1-a-144-3m-parameter-open-decision-model-that-runs-on-a-cpu/",
+      "publishedAt": "2026-09-26T19:50:57.000Z",
       "impact": 65
     },
     {

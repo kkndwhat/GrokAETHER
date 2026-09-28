@@ -1,8 +1,74 @@
 {
-  "lastUpdated": "2026-09-27T21:10:39.332Z",
+  "lastUpdated": "2026-09-28T04:49:09.972Z",
   "source": "AETHER + Public RSS (arXiv, Hugging Face, MarkTechPost, Ben's Bites)",
-  "count": 6,
+  "count": 12,
   "articles": [
+    {
+      "id": "arxiv-cs.ai-1790568000000-0",
+      "type": "live",
+      "category": "multimodal",
+      "title": "Bringing AI to Autonomous Systems -- From Cognition to Collective Intelligence",
+      "excerpt": "30291v1 Announce Type: new Abstract: The purpose of this article is to highlight the central role of autonomous systems as the ultimate stage in the development of AI, to explain the underlying technical challenges th...",
+      "source": "arXiv cs.AI",
+      "url": "https://arxiv.org/abs/2609.30291",
+      "publishedAt": "2026-09-28T04:00:00.000Z",
+      "impact": 58
+    },
+    {
+      "id": "arxiv-cs.ai-1790568000000-1",
+      "type": "live",
+      "category": "safety",
+      "title": "ScopeBench: Do Agents Preserve Engagement Boundaries Under Goal Pressure?",
+      "excerpt": "30325v1 Announce Type: new Abstract: Agents are increasingly deployed with real autonomy in web application and network penetration testing, where a single out-of-scope action can breach a client's engagement boundary...",
+      "source": "arXiv cs.AI",
+      "url": "https://arxiv.org/abs/2609.30325",
+      "publishedAt": "2026-09-28T04:00:00.000Z",
+      "impact": 69
+    },
+    {
+      "id": "arxiv-cs.ai-1790568000000-2",
+      "type": "live",
+      "category": "llm",
+      "title": "When Is a Multi-Agent Code Judge Actually Grounded? Two Label-Free Measurements, and a Judge That Declines to Guess",
+      "excerpt": "30328v1 Announce Type: new Abstract: When one language model judges whether another's code is correct, it does not report the absence of evidence.  It returns a confident verdict with reasoning attached, indistinguish...",
+      "source": "arXiv cs.AI",
+      "url": "https://arxiv.org/abs/2609.30328",
+      "publishedAt": "2026-09-28T04:00:00.000Z",
+      "impact": 69
+    },
+    {
+      "id": "arxiv-cs.ai-1790568000000-3",
+      "type": "live",
+      "category": "llm",
+      "title": "Bridging LLM Agents and Data Spaces: An Architectural Mediation Approach using the Model Context Protocol",
+      "excerpt": "30341v1 Announce Type: new Abstract: Data Spaces enable sovereign and governed data sharing across organizational boundaries, but their integration with AI agents remains challenging due to mismatches between probabil...",
+      "source": "arXiv cs.AI",
+      "url": "https://arxiv.org/abs/2609.30341",
+      "publishedAt": "2026-09-28T04:00:00.000Z",
+      "impact": 69
+    },
+    {
+      "id": "arxiv-cs.ai-1790568000000-4",
+      "type": "live",
+      "category": "safety",
+      "title": "Stealth Apart, Harm Together: Skill Cascading Attacks on Skill-Based Agent Systems",
+      "excerpt": "30383v1 Announce Type: new Abstract: A skill is a modular package of natural-language instructions, executable scripts, and reference resources that an agent can load at runtime to extend its capabilities for a specif...",
+      "source": "arXiv cs.AI",
+      "url": "https://arxiv.org/abs/2609.30383",
+      "publishedAt": "2026-09-28T04:00:00.000Z",
+      "impact": 69
+    },
+    {
+      "id": "arxiv-cs.ai-1790568000000-5",
+      "type": "live",
+      "category": "safety",
+      "title": "A Synthetic Ground-Truth Framework for the Evaluation of Explainable AI Methods",
+      "excerpt": "30397v1 Announce Type: new Abstract: Evaluating explainable Artificial Intelligence (XAI) methods is a challenging task due to the lack of reliable evaluation procedures and, in particular, the absence of ground truth...",
+      "source": "arXiv cs.AI",
+      "url": "https://arxiv.org/abs/2609.30397",
+      "publishedAt": "2026-09-28T04:00:00.000Z",
+      "impact": 58
+    },
     {
       "id": "aether-grok43",
       "type": "premium",
@@ -11,7 +77,7 @@
       "excerpt": "New model demonstrates 4.2× improvement on multi-step software engineering benchmarks and sustains coherent agent trajectories beyond 110k tokens.",
       "source": "xAI",
       "url": "https://x.ai/blog/grok-4.3",
-      "publishedAt": "2026-09-27T16:10:38.758Z",
+      "publishedAt": "2026-09-27T23:49:09.541Z",
       "impact": 96
     },
     {
@@ -22,7 +88,7 @@
       "excerpt": "Humanoid achieves new milestone in unsupervised operation, performing 1,240 unique tasks across three assembly lines at the BMW South Carolina plant.",
       "source": "Figure AI",
       "url": "https://figure.ai/news/03-milestone",
-      "publishedAt": "2026-09-27T12:10:38.758Z",
+      "publishedAt": "2026-09-27T19:49:09.542Z",
       "impact": 89
     },
     {
@@ -33,7 +99,7 @@
       "excerpt": "Researchers reverse-engineered 312 million features inside the model, including the first clear \"deception circuit\" discovered in a frontier model.",
       "source": "Anthropic",
       "url": "https://anthropic.com/research/claude-4-interp",
-      "publishedAt": "2026-09-27T07:10:38.758Z",
+      "publishedAt": "2026-09-27T14:49:09.542Z",
       "impact": 91
     },
     {

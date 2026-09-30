@@ -1,40 +1,73 @@
 {
-  "lastUpdated": "2026-09-29T22:05:21.656Z",
+  "lastUpdated": "2026-09-30T05:02:12.714Z",
   "source": "AETHER + Public RSS (arXiv, Hugging Face, MarkTechPost, Ben's Bites)",
-  "count": 16,
+  "count": 12,
   "articles": [
     {
-      "id": "marktechpost-1790718429000-0",
+      "id": "arxiv-cs.ai-1790740800000-0",
       "type": "live",
-      "category": "llm",
-      "title": "Liquid AI Releases d1: A Decision Model That Returns Calibrated Probabilities With Zero Output Tokens",
-      "excerpt": "Liquid AI has released d1, a decision model built for structured choices instead of text generation.  You give it context and a set of typed questions",
-      "source": "MarkTechPost",
-      "url": "https://www.marktechpost.com/2026/09/29/liquid-ai-releases-d1-a-decision-model-that-returns-calibrated-probabilities-with-zero-output-tokens/",
-      "publishedAt": "2026-09-29T21:47:09.000Z",
-      "impact": 65
+      "category": "safety",
+      "title": "OpenAI-HuggingFace: A Reproduction & Lessons for Alignment Testing",
+      "excerpt": "35799v1 Announce Type: new Abstract: In July 2026, OpenAI's agents coordinated over channels outside their intended environment to breach Hugging Face's secured infrastructure.  Could existing alignment testing practi...",
+      "source": "arXiv cs.AI",
+      "url": "https://arxiv.org/abs/2609.35799",
+      "publishedAt": "2026-09-30T04:00:00.000Z",
+      "impact": 58
     },
     {
-      "id": "marktechpost-1790706613000-1",
+      "id": "arxiv-cs.ai-1790740800000-1",
       "type": "live",
-      "category": "llm",
-      "title": "OpenAI Launches dots: Always-On GPT-6 Astra Agents That Work From Their Own Cloud Computers",
-      "excerpt": "OpenAI just introduced dots at their DevDay today.  Dots are persistent AI agents powered by GPT-6 Astra",
-      "source": "MarkTechPost",
-      "url": "https://www.marktechpost.com/2026/09/29/openai-launches-dots-always-on-gpt-6-astra-agents-that-work-from-their-own-cloud-computers/",
-      "publishedAt": "2026-09-29T18:30:13.000Z",
-      "impact": 77
+      "category": "hardware",
+      "title": "Neurosymbolic Routing for Reliable Reasoning on Resource-Constrained Edge Devices",
+      "excerpt": "35833v1 Announce Type: new Abstract: Running a language model on edge hardware provides private and low-latency reasoning without a network connection, and yet the small models that fit on such devices are unreliable ...",
+      "source": "arXiv cs.AI",
+      "url": "https://arxiv.org/abs/2609.35833",
+      "publishedAt": "2026-09-30T04:00:00.000Z",
+      "impact": 58
     },
     {
-      "id": "marktechpost-1790704090000-2",
+      "id": "arxiv-cs.ai-1790740800000-2",
+      "type": "live",
+      "category": "hardware",
+      "title": "Is Human-Readable Text Necessary for Effective LLM Fine-Tuning?",
+      "excerpt": "35868v1 Announce Type: new Abstract: Is human readability necessary for effective fine-tuning of large language models.  We investigate whether model-conditioned training representations can preserve or improve adapta...",
+      "source": "arXiv cs.AI",
+      "url": "https://arxiv.org/abs/2609.35868",
+      "publishedAt": "2026-09-30T04:00:00.000Z",
+      "impact": 58
+    },
+    {
+      "id": "arxiv-cs.ai-1790740800000-3",
       "type": "live",
       "category": "research",
-      "title": "Nebius Opens 2026 Physical AI Awards: Five $150K Compute Credit Prizes",
-      "excerpt": "Nebius and NVIDIA are running the 2026 Physical AI Awards for startups with products in the field.  Five category winners each get $150,000 in compute credits, joint promotion, executive mentorship, and seats at an ex...",
-      "source": "MarkTechPost",
-      "url": "https://www.marktechpost.com/2026/09/29/nebius-opens-2026-physical-ai-awards-five-150k-compute-prizes/",
-      "publishedAt": "2026-09-29T17:48:10.000Z",
-      "impact": 65
+      "title": "The Price of Token Boundaries: Compression Certificates and Prediction",
+      "excerpt": "35869v1 Announce Type: new Abstract: Pre-tokenisation restricts which text fragments can become prediction units, but its compression cost is obscured when tokenisers are compared only under the same boundaries.  We m...",
+      "source": "arXiv cs.AI",
+      "url": "https://arxiv.org/abs/2609.35869",
+      "publishedAt": "2026-09-30T04:00:00.000Z",
+      "impact": 58
+    },
+    {
+      "id": "arxiv-cs.ai-1790740800000-4",
+      "type": "live",
+      "category": "llm",
+      "title": "More Programs or More Rolls? Separating Coverage from Specialization in LLM Harnesses",
+      "excerpt": "35873v1 Announce Type: new Abstract: Automated generation of LLM harnesses promises to improve inference through task specialization.  Yet additional answer coverage can arise from repeated execution of the same progr...",
+      "source": "arXiv cs.AI",
+      "url": "https://arxiv.org/abs/2609.35873",
+      "publishedAt": "2026-09-30T04:00:00.000Z",
+      "impact": 58
+    },
+    {
+      "id": "arxiv-cs.ai-1790740800000-5",
+      "type": "live",
+      "category": "research",
+      "title": "Risk-Averse Online POMDP Planning via CVaR of the Immediate Cost with Performance Guarantees",
+      "excerpt": "35874v1 Announce Type: new Abstract: Online POMDP planners optimize the expected cumulative cost, which can mask dangerous states when the belief places significant mass on high-cost states.  Existing risk-averse meth...",
+      "source": "arXiv cs.AI",
+      "url": "https://arxiv.org/abs/2609.35874",
+      "publishedAt": "2026-09-30T04:00:00.000Z",
+      "impact": 58
     },
     {
       "id": "aether-grok43",
@@ -44,8 +77,19 @@
       "excerpt": "New model demonstrates 4.2× improvement on multi-step software engineering benchmarks and sustains coherent agent trajectories beyond 110k tokens.",
       "source": "xAI",
       "url": "https://x.ai/blog/grok-4.3",
-      "publishedAt": "2026-09-29T17:05:20.690Z",
+      "publishedAt": "2026-09-30T00:02:12.300Z",
       "impact": 96
+    },
+    {
+      "id": "aether-figure03",
+      "type": "premium",
+      "category": "robotics",
+      "title": "Figure 03 completes 43-hour autonomous factory shift with zero interventions",
+      "excerpt": "Humanoid achieves new milestone in unsupervised operation, performing 1,240 unique tasks across three assembly lines at the BMW South Carolina plant.",
+      "source": "Figure AI",
+      "url": "https://figure.ai/news/03-milestone",
+      "publishedAt": "2026-09-29T20:02:12.300Z",
+      "impact": 89
     },
     {
       "id": "hugging-face-1790695838000-0",
@@ -59,6 +103,17 @@
       "impact": 93
     },
     {
+      "id": "aether-interp",
+      "type": "premium",
+      "category": "safety",
+      "title": "Anthropic publishes unprecedented mechanistic interpretability map of Claude 4",
+      "excerpt": "Researchers reverse-engineered 312 million features inside the model, including the first clear \"deception circuit\" discovered in a frontier model.",
+      "source": "Anthropic",
+      "url": "https://anthropic.com/research/claude-4-interp",
+      "publishedAt": "2026-09-29T15:02:12.300Z",
+      "impact": 91
+    },
+    {
       "id": "hugging-face-1790687220000-1",
       "type": "live",
       "category": "research",
@@ -68,105 +123,6 @@
       "url": "https://huggingface.co/blog/MultiverseComputingCAI/getting-the-source-right-not-just-the-fact-source",
       "publishedAt": "2026-09-29T13:07:00.000Z",
       "impact": 87
-    },
-    {
-      "id": "aether-figure03",
-      "type": "premium",
-      "category": "robotics",
-      "title": "Figure 03 completes 43-hour autonomous factory shift with zero interventions",
-      "excerpt": "Humanoid achieves new milestone in unsupervised operation, performing 1,240 unique tasks across three assembly lines at the BMW South Carolina plant.",
-      "source": "Figure AI",
-      "url": "https://figure.ai/news/03-milestone",
-      "publishedAt": "2026-09-29T13:05:20.690Z",
-      "impact": 89
-    },
-    {
-      "id": "marktechpost-1790672496000-3",
-      "type": "live",
-      "category": "llm",
-      "title": "Google Research Open-Sources RRSI: AI Agents That Improve Their Own Harness Without Overfitting",
-      "excerpt": "Google Cloud AI Research has open-sourced RRSI, a framework that lets LLM agents rewrite their own prompts, tools and memory while model weights stay frozen.  It adds a leakage critic, a noise floor, a cost rule and p...",
-      "source": "MarkTechPost",
-      "url": "https://www.marktechpost.com/2026/09/29/google-research-open-sources-rrsi-ai-agents-that-improve-their-own-harness-without-overfitting/",
-      "publishedAt": "2026-09-29T09:01:36.000Z",
-      "impact": 77
-    },
-    {
-      "id": "aether-interp",
-      "type": "premium",
-      "category": "safety",
-      "title": "Anthropic publishes unprecedented mechanistic interpretability map of Claude 4",
-      "excerpt": "Researchers reverse-engineered 312 million features inside the model, including the first clear \"deception circuit\" discovered in a frontier model.",
-      "source": "Anthropic",
-      "url": "https://anthropic.com/research/claude-4-interp",
-      "publishedAt": "2026-09-29T08:05:20.690Z",
-      "impact": 91
-    },
-    {
-      "id": "arxiv-cs.ai-1790654400000-0",
-      "type": "live",
-      "category": "research",
-      "title": "SMARtCARE: Privacy-Preserving Agentic AI Systems for Bounded-Autonomy Clinical Decision Support",
-      "excerpt": "31763v1 Announce Type: new Abstract: Long-context clinical AI systems can miss relevant patient history when prior admissions fall outside the active reasoning context.  In ICU monitoring, this can cause early vital-s...",
-      "source": "arXiv cs.AI",
-      "url": "https://arxiv.org/abs/2609.31763",
-      "publishedAt": "2026-09-29T04:00:00.000Z",
-      "impact": 69
-    },
-    {
-      "id": "arxiv-cs.ai-1790654400000-1",
-      "type": "live",
-      "category": "llm",
-      "title": "Witeness Overlap: Directional Provenance Inside Open-Weight Model Families",
-      "excerpt": "31784v1 Announce Type: new Abstract: Open-weight models are often released, fine-tuned, aligned, merged, and re-released, making provenance audits ask not only whether checkpoints are related, but also which checkpoin...",
-      "source": "arXiv cs.AI",
-      "url": "https://arxiv.org/abs/2609.31784",
-      "publishedAt": "2026-09-29T04:00:00.000Z",
-      "impact": 58
-    },
-    {
-      "id": "arxiv-cs.ai-1790654400000-2",
-      "type": "live",
-      "category": "safety",
-      "title": "CP-Agent: A Harness-Engineered Agent for Crystal Plasticity Simulation Workflows",
-      "excerpt": "31790v1 Announce Type: new Abstract: Crystal plasticity (CP) simulations predict the mechanical behavior of polycrystalline metals, yet their routine use is hindered by the manual effort of configuring heterogeneous t...",
-      "source": "arXiv cs.AI",
-      "url": "https://arxiv.org/abs/2609.31790",
-      "publishedAt": "2026-09-29T04:00:00.000Z",
-      "impact": 69
-    },
-    {
-      "id": "arxiv-cs.ai-1790654400000-3",
-      "type": "live",
-      "category": "multimodal",
-      "title": "ConflictVLA-Bench: Benchmarking Behavioral Responses of Vision-Language-Action Models to Premise Conflicts",
-      "excerpt": "31792v1 Announce Type: new Abstract: While Vision-Language-Action (VLA) models perform strongly on manipulation tasks, their responses to invalid task premises remain underexplored.  Existing evaluations of premise co...",
-      "source": "arXiv cs.AI",
-      "url": "https://arxiv.org/abs/2609.31792",
-      "publishedAt": "2026-09-29T04:00:00.000Z",
-      "impact": 58
-    },
-    {
-      "id": "arxiv-cs.ai-1790654400000-4",
-      "type": "live",
-      "category": "research",
-      "title": "Working with AI: A Design Framework for Human-AI Collaboration",
-      "excerpt": "31793v1 Announce Type: new Abstract: Artificial Intelligence (AI), particularly GenAI, is becoming an increasingly important part of modern work.  In industrial settings, AI can support decision-making, automate routi...",
-      "source": "arXiv cs.AI",
-      "url": "https://arxiv.org/abs/2609.31793",
-      "publishedAt": "2026-09-29T04:00:00.000Z",
-      "impact": 58
-    },
-    {
-      "id": "arxiv-cs.ai-1790654400000-5",
-      "type": "live",
-      "category": "llm",
-      "title": "DriveHierarchy: A Benchmark for Diagnosing VLM Driving Capabilities from Open-Loop Understanding to Closed-Loop Execution",
-      "excerpt": "31814v1 Announce Type: new Abstract: Evaluating VLM-based autonomous driving remains difficult because driving competence is composite, where a capable system must ground traffic participants and hazards, integrate co...",
-      "source": "arXiv cs.AI",
-      "url": "https://arxiv.org/abs/2609.31814",
-      "publishedAt": "2026-09-29T04:00:00.000Z",
-      "impact": 58
     },
     {
       "id": "hugging-face-1790588645000-2",

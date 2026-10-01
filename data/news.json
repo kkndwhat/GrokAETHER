@@ -1,8 +1,30 @@
 {
-  "lastUpdated": "2026-10-01T05:16:18.726Z",
+  "lastUpdated": "2026-10-01T12:51:22.196Z",
   "source": "AETHER + Public RSS (arXiv, Hugging Face, MarkTechPost, Ben's Bites)",
   "count": 16,
   "articles": [
+    {
+      "id": "aether-grok43",
+      "type": "premium",
+      "category": "llm",
+      "title": "xAI releases Grok-4.3 with native long-horizon agent scaffolding",
+      "excerpt": "New model demonstrates 4.2× improvement on multi-step software engineering benchmarks and sustains coherent agent trajectories beyond 110k tokens.",
+      "source": "xAI",
+      "url": "https://x.ai/blog/grok-4.3",
+      "publishedAt": "2026-10-01T07:51:21.338Z",
+      "impact": 96
+    },
+    {
+      "id": "marktechpost-1790837870000-0",
+      "type": "live",
+      "category": "llm",
+      "title": "NVIDIA Releases Kumo Tabular: Open Tabular Foundation Models That Predict New Rows in a Single Forward Pass",
+      "excerpt": "NVIDIA has released Kumo Tabular, a new family of tabular foundation models (TFMs) for classification and regression.  If you have followed TabPFN or TabICL, the setup will look familiar",
+      "source": "MarkTechPost",
+      "url": "https://www.marktechpost.com/2026/09/30/nvidia-releases-kumo-tabular/",
+      "publishedAt": "2026-10-01T06:57:50.000Z",
+      "impact": 65
+    },
     {
       "id": "arxiv-cs.ai-1790827200000-0",
       "type": "live",
@@ -70,7 +92,18 @@
       "impact": 58
     },
     {
-      "id": "marktechpost-1790825019000-0",
+      "id": "aether-figure03",
+      "type": "premium",
+      "category": "robotics",
+      "title": "Figure 03 completes 43-hour autonomous factory shift with zero interventions",
+      "excerpt": "Humanoid achieves new milestone in unsupervised operation, performing 1,240 unique tasks across three assembly lines at the BMW South Carolina plant.",
+      "source": "Figure AI",
+      "url": "https://figure.ai/news/03-milestone",
+      "publishedAt": "2026-10-01T03:51:21.338Z",
+      "impact": 89
+    },
+    {
+      "id": "marktechpost-1790825019000-1",
       "type": "live",
       "category": "llm",
       "title": "Perplexity Releases pplx-embed-v2-context-9b-preview: A Contextual Embedding Model That Retrieves Answers and Their Supporting Evidence",
@@ -81,18 +114,18 @@
       "impact": 65
     },
     {
-      "id": "aether-grok43",
+      "id": "aether-interp",
       "type": "premium",
-      "category": "llm",
-      "title": "xAI releases Grok-4.3 with native long-horizon agent scaffolding",
-      "excerpt": "New model demonstrates 4.2× improvement on multi-step software engineering benchmarks and sustains coherent agent trajectories beyond 110k tokens.",
-      "source": "xAI",
-      "url": "https://x.ai/blog/grok-4.3",
-      "publishedAt": "2026-10-01T00:16:17.799Z",
-      "impact": 96
+      "category": "safety",
+      "title": "Anthropic publishes unprecedented mechanistic interpretability map of Claude 4",
+      "excerpt": "Researchers reverse-engineered 312 million features inside the model, including the first clear \"deception circuit\" discovered in a frontier model.",
+      "source": "Anthropic",
+      "url": "https://anthropic.com/research/claude-4-interp",
+      "publishedAt": "2026-09-30T22:51:21.338Z",
+      "impact": 91
     },
     {
-      "id": "marktechpost-1790803808000-1",
+      "id": "marktechpost-1790803808000-2",
       "type": "live",
       "category": "llm",
       "title": "Google DeepMind Unveils Gemini 4 Argon with 1M Output Tokens for Coding, Knowledge Work and Cyber Defense",
@@ -103,7 +136,7 @@
       "impact": 65
     },
     {
-      "id": "marktechpost-1790802564000-2",
+      "id": "marktechpost-1790802564000-3",
       "type": "live",
       "category": "llm",
       "title": "OpenAI Releases GPT-6.1 Sol: Near-Astra Coding and Computer Use at One-Fifth of Astra’s Token Price",
@@ -111,39 +144,6 @@
       "source": "MarkTechPost",
       "url": "https://www.marktechpost.com/2026/09/30/openai-releases-gpt-6-1-sol-near-astra-coding-and-computer-use-at-one-fifth-of-astras-token-price/",
       "publishedAt": "2026-09-30T21:09:24.000Z",
-      "impact": 65
-    },
-    {
-      "id": "aether-figure03",
-      "type": "premium",
-      "category": "robotics",
-      "title": "Figure 03 completes 43-hour autonomous factory shift with zero interventions",
-      "excerpt": "Humanoid achieves new milestone in unsupervised operation, performing 1,240 unique tasks across three assembly lines at the BMW South Carolina plant.",
-      "source": "Figure AI",
-      "url": "https://figure.ai/news/03-milestone",
-      "publishedAt": "2026-09-30T20:16:17.799Z",
-      "impact": 89
-    },
-    {
-      "id": "aether-interp",
-      "type": "premium",
-      "category": "safety",
-      "title": "Anthropic publishes unprecedented mechanistic interpretability map of Claude 4",
-      "excerpt": "Researchers reverse-engineered 312 million features inside the model, including the first clear \"deception circuit\" discovered in a frontier model.",
-      "source": "Anthropic",
-      "url": "https://anthropic.com/research/claude-4-interp",
-      "publishedAt": "2026-09-30T15:16:17.799Z",
-      "impact": 91
-    },
-    {
-      "id": "marktechpost-1790756812000-3",
-      "type": "live",
-      "category": "research",
-      "title": "Perplexity Introduces Photon: A Rust-Based Retrieval Engine That Cuts p99 Latency From 800 ms to 65 ms",
-      "excerpt": "Perplexity has released Photon, an in-house retrieval and ranking engine written in Rust.  It replaces an open-source engine Perplexity had forked for its AI-native search stack",
-      "source": "MarkTechPost",
-      "url": "https://www.marktechpost.com/2026/09/30/perplexity-introduces-photon-a-rust-based-retrieval-engine-that-cuts-p99-latency-from-800-ms-to-65-ms/",
-      "publishedAt": "2026-09-30T08:26:52.000Z",
       "impact": 65
     },
     {

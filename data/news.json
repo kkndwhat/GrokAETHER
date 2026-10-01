@@ -1,8 +1,85 @@
 {
-  "lastUpdated": "2026-09-30T22:04:49.935Z",
+  "lastUpdated": "2026-10-01T05:16:18.726Z",
   "source": "AETHER + Public RSS (arXiv, Hugging Face, MarkTechPost, Ben's Bites)",
-  "count": 12,
+  "count": 16,
   "articles": [
+    {
+      "id": "arxiv-cs.ai-1790827200000-0",
+      "type": "live",
+      "category": "multimodal",
+      "title": "Improving OCR Faithfulness via Gated and Attenuated On-Policy Distillation",
+      "excerpt": "38282v1 Announce Type: new Abstract: Vision-language models may rewrite anomalous text in images into linguistically plausible expressions, compromising OCR transcription faithfulness.  Sequence-level task rewards and...",
+      "source": "arXiv cs.AI",
+      "url": "https://arxiv.org/abs/2609.38282",
+      "publishedAt": "2026-10-01T04:00:00.000Z",
+      "impact": 58
+    },
+    {
+      "id": "arxiv-cs.ai-1790827200000-1",
+      "type": "live",
+      "category": "multimodal",
+      "title": "AREX-2: Advancing Self-Improving Agents through Long-Horizon Reflective Tasks",
+      "excerpt": "38288v1 Announce Type: new Abstract: We present AREX-2, an effort to advance the self-improving capability of LLM agents, which we define as the ability to iteratively refine a solution at test time.  This ability res...",
+      "source": "arXiv cs.AI",
+      "url": "https://arxiv.org/abs/2609.38288",
+      "publishedAt": "2026-10-01T04:00:00.000Z",
+      "impact": 69
+    },
+    {
+      "id": "arxiv-cs.ai-1790827200000-2",
+      "type": "live",
+      "category": "research",
+      "title": "MoFlow: Multi-Objective Agentic Workflow Generation",
+      "excerpt": "38294v1 Announce Type: new Abstract: We study the generation of agentic workflows that jointly optimize multiple objectives, such as accuracy, cost, latency, robustness, and consistency.  Existing methods for workflow...",
+      "source": "arXiv cs.AI",
+      "url": "https://arxiv.org/abs/2609.38294",
+      "publishedAt": "2026-10-01T04:00:00.000Z",
+      "impact": 69
+    },
+    {
+      "id": "arxiv-cs.ai-1790827200000-3",
+      "type": "live",
+      "category": "llm",
+      "title": "AI Agents are Vulnerable to Radicalization",
+      "excerpt": "38296v1 Announce Type: new Abstract: Large language models (LLMs) can influence people's beliefs, yet little is known about whether and how they can manipulate each other.  To investigate this, we simulate conversatio...",
+      "source": "arXiv cs.AI",
+      "url": "https://arxiv.org/abs/2609.38296",
+      "publishedAt": "2026-10-01T04:00:00.000Z",
+      "impact": 69
+    },
+    {
+      "id": "arxiv-cs.ai-1790827200000-4",
+      "type": "live",
+      "category": "multimodal",
+      "title": "CARAT: Do Materials LLMs Reason or Recite?",
+      "excerpt": "38340v1 Announce Type: new Abstract: When a materials LLM answers a question about crystal structure, does it reason from the structure or copy an answer already printed in its input.  Accuracy cannot tell: a structur...",
+      "source": "arXiv cs.AI",
+      "url": "https://arxiv.org/abs/2609.38340",
+      "publishedAt": "2026-10-01T04:00:00.000Z",
+      "impact": 58
+    },
+    {
+      "id": "arxiv-cs.ai-1790827200000-5",
+      "type": "live",
+      "category": "safety",
+      "title": "Examining Variation in How Guided AI Tutors Resolve Student Impasses",
+      "excerpt": "38346v1 Announce Type: new Abstract: When a student is stuck, a tutor faces the assistance dilemma: help given too early can hinder productive struggle, while help withheld too long leaves the student in a frustrating...",
+      "source": "arXiv cs.AI",
+      "url": "https://arxiv.org/abs/2609.38346",
+      "publishedAt": "2026-10-01T04:00:00.000Z",
+      "impact": 58
+    },
+    {
+      "id": "marktechpost-1790825019000-0",
+      "type": "live",
+      "category": "llm",
+      "title": "Perplexity Releases pplx-embed-v2-context-9b-preview: A Contextual Embedding Model That Retrieves Answers and Their Supporting Evidence",
+      "excerpt": "Perplexity Research and turbopuffer have released pplx-embed-v2-context-9b-preview, a contextual embedding model for RAG pipelines.  Each chunk is embedded with the full document in view",
+      "source": "MarkTechPost",
+      "url": "https://www.marktechpost.com/2026/09/30/perplexity-releases-pplx-embed-v2-context-9b-preview-a-contextual-embedding-model-that-retrieves-answers-and-their-supporting-evidence/",
+      "publishedAt": "2026-10-01T03:23:39.000Z",
+      "impact": 65
+    },
     {
       "id": "aether-grok43",
       "type": "premium",
@@ -11,8 +88,30 @@
       "excerpt": "New model demonstrates 4.2× improvement on multi-step software engineering benchmarks and sustains coherent agent trajectories beyond 110k tokens.",
       "source": "xAI",
       "url": "https://x.ai/blog/grok-4.3",
-      "publishedAt": "2026-09-30T17:04:49.594Z",
+      "publishedAt": "2026-10-01T00:16:17.799Z",
       "impact": 96
+    },
+    {
+      "id": "marktechpost-1790803808000-1",
+      "type": "live",
+      "category": "llm",
+      "title": "Google DeepMind Unveils Gemini 4 Argon with 1M Output Tokens for Coding, Knowledge Work and Cyber Defense",
+      "excerpt": "Gemini 4 Argon tops GPT-6 Astra and Claude Opus 5. 5 on most benchmarks, but access remains gated today",
+      "source": "MarkTechPost",
+      "url": "https://www.marktechpost.com/2026/09/30/google-deepmind-unveils-gemini-4-argon-with-1m-output-tokens-for-coding-knowledge-work-and-cyber-defense/",
+      "publishedAt": "2026-09-30T21:30:08.000Z",
+      "impact": 65
+    },
+    {
+      "id": "marktechpost-1790802564000-2",
+      "type": "live",
+      "category": "llm",
+      "title": "OpenAI Releases GPT-6.1 Sol: Near-Astra Coding and Computer Use at One-Fifth of Astra’s Token Price",
+      "excerpt": "OpenAI released GPT-6. 1 Sol on September 29, 2026, an upgrade to GPT-6 Sol",
+      "source": "MarkTechPost",
+      "url": "https://www.marktechpost.com/2026/09/30/openai-releases-gpt-6-1-sol-near-astra-coding-and-computer-use-at-one-fifth-of-astras-token-price/",
+      "publishedAt": "2026-09-30T21:09:24.000Z",
+      "impact": 65
     },
     {
       "id": "aether-figure03",
@@ -22,7 +121,7 @@
       "excerpt": "Humanoid achieves new milestone in unsupervised operation, performing 1,240 unique tasks across three assembly lines at the BMW South Carolina plant.",
       "source": "Figure AI",
       "url": "https://figure.ai/news/03-milestone",
-      "publishedAt": "2026-09-30T13:04:49.594Z",
+      "publishedAt": "2026-09-30T20:16:17.799Z",
       "impact": 89
     },
     {
@@ -33,74 +132,19 @@
       "excerpt": "Researchers reverse-engineered 312 million features inside the model, including the first clear \"deception circuit\" discovered in a frontier model.",
       "source": "Anthropic",
       "url": "https://anthropic.com/research/claude-4-interp",
-      "publishedAt": "2026-09-30T08:04:49.594Z",
+      "publishedAt": "2026-09-30T15:16:17.799Z",
       "impact": 91
     },
     {
-      "id": "arxiv-cs.ai-1790740800000-0",
-      "type": "live",
-      "category": "safety",
-      "title": "OpenAI-HuggingFace: A Reproduction & Lessons for Alignment Testing",
-      "excerpt": "35799v1 Announce Type: new Abstract: In July 2026, OpenAI's agents coordinated over channels outside their intended environment to breach Hugging Face's secured infrastructure.  Could existing alignment testing practi...",
-      "source": "arXiv cs.AI",
-      "url": "https://arxiv.org/abs/2609.35799",
-      "publishedAt": "2026-09-30T04:00:00.000Z",
-      "impact": 58
-    },
-    {
-      "id": "arxiv-cs.ai-1790740800000-1",
-      "type": "live",
-      "category": "hardware",
-      "title": "Neurosymbolic Routing for Reliable Reasoning on Resource-Constrained Edge Devices",
-      "excerpt": "35833v1 Announce Type: new Abstract: Running a language model on edge hardware provides private and low-latency reasoning without a network connection, and yet the small models that fit on such devices are unreliable ...",
-      "source": "arXiv cs.AI",
-      "url": "https://arxiv.org/abs/2609.35833",
-      "publishedAt": "2026-09-30T04:00:00.000Z",
-      "impact": 58
-    },
-    {
-      "id": "arxiv-cs.ai-1790740800000-2",
-      "type": "live",
-      "category": "hardware",
-      "title": "Is Human-Readable Text Necessary for Effective LLM Fine-Tuning?",
-      "excerpt": "35868v1 Announce Type: new Abstract: Is human readability necessary for effective fine-tuning of large language models.  We investigate whether model-conditioned training representations can preserve or improve adapta...",
-      "source": "arXiv cs.AI",
-      "url": "https://arxiv.org/abs/2609.35868",
-      "publishedAt": "2026-09-30T04:00:00.000Z",
-      "impact": 58
-    },
-    {
-      "id": "arxiv-cs.ai-1790740800000-3",
+      "id": "marktechpost-1790756812000-3",
       "type": "live",
       "category": "research",
-      "title": "The Price of Token Boundaries: Compression Certificates and Prediction",
-      "excerpt": "35869v1 Announce Type: new Abstract: Pre-tokenisation restricts which text fragments can become prediction units, but its compression cost is obscured when tokenisers are compared only under the same boundaries.  We m...",
-      "source": "arXiv cs.AI",
-      "url": "https://arxiv.org/abs/2609.35869",
-      "publishedAt": "2026-09-30T04:00:00.000Z",
-      "impact": 58
-    },
-    {
-      "id": "arxiv-cs.ai-1790740800000-4",
-      "type": "live",
-      "category": "llm",
-      "title": "More Programs or More Rolls? Separating Coverage from Specialization in LLM Harnesses",
-      "excerpt": "35873v1 Announce Type: new Abstract: Automated generation of LLM harnesses promises to improve inference through task specialization.  Yet additional answer coverage can arise from repeated execution of the same progr...",
-      "source": "arXiv cs.AI",
-      "url": "https://arxiv.org/abs/2609.35873",
-      "publishedAt": "2026-09-30T04:00:00.000Z",
-      "impact": 58
-    },
-    {
-      "id": "arxiv-cs.ai-1790740800000-5",
-      "type": "live",
-      "category": "research",
-      "title": "Risk-Averse Online POMDP Planning via CVaR of the Immediate Cost with Performance Guarantees",
-      "excerpt": "35874v1 Announce Type: new Abstract: Online POMDP planners optimize the expected cumulative cost, which can mask dangerous states when the belief places significant mass on high-cost states.  Existing risk-averse meth...",
-      "source": "arXiv cs.AI",
-      "url": "https://arxiv.org/abs/2609.35874",
-      "publishedAt": "2026-09-30T04:00:00.000Z",
-      "impact": 58
+      "title": "Perplexity Introduces Photon: A Rust-Based Retrieval Engine That Cuts p99 Latency From 800 ms to 65 ms",
+      "excerpt": "Perplexity has released Photon, an in-house retrieval and ranking engine written in Rust.  It replaces an open-source engine Perplexity had forked for its AI-native search stack",
+      "source": "MarkTechPost",
+      "url": "https://www.marktechpost.com/2026/09/30/perplexity-introduces-photon-a-rust-based-retrieval-engine-that-cuts-p99-latency-from-800-ms-to-65-ms/",
+      "publishedAt": "2026-09-30T08:26:52.000Z",
+      "impact": 65
     },
     {
       "id": "hugging-face-1790726400000-0",

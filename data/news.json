@@ -1,8 +1,19 @@
 {
-  "lastUpdated": "2026-10-02T12:14:36.812Z",
+  "lastUpdated": "2026-10-02T22:01:24.164Z",
   "source": "AETHER + Public RSS (arXiv, Hugging Face, MarkTechPost, Ben's Bites)",
   "count": 16,
   "articles": [
+    {
+      "id": "marktechpost-1790964296000-0",
+      "type": "live",
+      "category": "hardware",
+      "title": "NVIDIA Announces DGX Spark 64GB: A 1-PetaFLOP Grace Blackwell Desktop for Local AI Agents, Fine-Tuning, and Inference",
+      "excerpt": "NVIDIA announced a new 64GB configuration of DGX Spark — from Acer, ASUS, Dell, Gigabyte, HP and MSI — its GB10-powered desktop AI system.  It gives developers a way to start with one system for local models and agent...",
+      "source": "MarkTechPost",
+      "url": "https://www.marktechpost.com/2026/10/02/nvidia-announces-dgx-spark-64gb-a-1-petaflop-grace-blackwell-desktop-for-local-ai-agents-fine-tuning-and-inference/",
+      "publishedAt": "2026-10-02T18:04:56.000Z",
+      "impact": 77
+    },
     {
       "id": "aether-grok43",
       "type": "premium",
@@ -11,11 +22,55 @@
       "excerpt": "New model demonstrates 4.2× improvement on multi-step software engineering benchmarks and sustains coherent agent trajectories beyond 110k tokens.",
       "source": "xAI",
       "url": "https://x.ai/blog/grok-4.3",
-      "publishedAt": "2026-10-02T07:14:35.687Z",
+      "publishedAt": "2026-10-02T17:01:22.882Z",
       "impact": 96
     },
     {
-      "id": "marktechpost-1790922900000-0",
+      "id": "marktechpost-1790954615000-1",
+      "type": "live",
+      "category": "research",
+      "title": "Datalab Introduces OmniExtractBench to Fix Bias and Opacity in Extraction Benchmarks",
+      "excerpt": "Content-based row matching, 6 per-value verdicts and a null rule make OmniExtractBench an extraction benchmark anyone can audit.  The post Datalab Introduces OmniExtractBench to Fix Bias and Opacity in Extraction Benc...",
+      "source": "MarkTechPost",
+      "url": "https://www.marktechpost.com/2026/10/02/datalab-introduces-omniextractbench-to-fix-bias-and-opacity-in-extraction-benchmarks/",
+      "publishedAt": "2026-10-02T15:23:35.000Z",
+      "impact": 65
+    },
+    {
+      "id": "hugging-face-1790954390000-0",
+      "type": "live",
+      "category": "llm",
+      "title": "Open-sourcing AstaBrief, the fast report-generation model in Asta",
+      "excerpt": "New development from the frontier.",
+      "source": "Hugging Face",
+      "url": "https://huggingface.co/blog/allenai/astabrief",
+      "publishedAt": "2026-10-02T15:19:50.000Z",
+      "impact": 75
+    },
+    {
+      "id": "aether-figure03",
+      "type": "premium",
+      "category": "robotics",
+      "title": "Figure 03 completes 43-hour autonomous factory shift with zero interventions",
+      "excerpt": "Humanoid achieves new milestone in unsupervised operation, performing 1,240 unique tasks across three assembly lines at the BMW South Carolina plant.",
+      "source": "Figure AI",
+      "url": "https://figure.ai/news/03-milestone",
+      "publishedAt": "2026-10-02T13:01:22.883Z",
+      "impact": 89
+    },
+    {
+      "id": "aether-interp",
+      "type": "premium",
+      "category": "safety",
+      "title": "Anthropic publishes unprecedented mechanistic interpretability map of Claude 4",
+      "excerpt": "Researchers reverse-engineered 312 million features inside the model, including the first clear \"deception circuit\" discovered in a frontier model.",
+      "source": "Anthropic",
+      "url": "https://anthropic.com/research/claude-4-interp",
+      "publishedAt": "2026-10-02T08:01:22.883Z",
+      "impact": 91
+    },
+    {
+      "id": "marktechpost-1790922900000-2",
       "type": "live",
       "category": "safety",
       "title": "AWS Strands Labs Releases Strands Decider 2B: An Open Source Decision Model That Picks Options in About 115 ms",
@@ -26,7 +81,7 @@
       "impact": 65
     },
     {
-      "id": "hugging-face-1790913691000-0",
+      "id": "hugging-face-1790913691000-1",
       "type": "live",
       "category": "research",
       "title": "AutoSynthData: Generating Training Data for Enterprise Agents",
@@ -103,18 +158,7 @@
       "impact": 58
     },
     {
-      "id": "aether-figure03",
-      "type": "premium",
-      "category": "robotics",
-      "title": "Figure 03 completes 43-hour autonomous factory shift with zero interventions",
-      "excerpt": "Humanoid achieves new milestone in unsupervised operation, performing 1,240 unique tasks across three assembly lines at the BMW South Carolina plant.",
-      "source": "Figure AI",
-      "url": "https://figure.ai/news/03-milestone",
-      "publishedAt": "2026-10-02T03:14:35.687Z",
-      "impact": 89
-    },
-    {
-      "id": "marktechpost-1790902841000-1",
+      "id": "marktechpost-1790902841000-3",
       "type": "live",
       "category": "multimodal",
       "title": "Cloudflare Releases Clef and Clef-flash: Open-Weight Decision Models That Return Typed Probabilities Instead of Text",
@@ -123,50 +167,6 @@
       "url": "https://www.marktechpost.com/2026/10/01/cloudflare-releases-clef-and-clef-flash/",
       "publishedAt": "2026-10-02T01:00:41.000Z",
       "impact": 65
-    },
-    {
-      "id": "marktechpost-1790901170000-2",
-      "type": "live",
-      "category": "research",
-      "title": "A Coding Guide to Google Research’s Kauldron: Configs That Are Plain Data, Components Wired by String, and a JAX Trainer You Can Read End to End",
-      "excerpt": "In this comprehensive coding guide, we explore Google Research's Kauldron—a JAX training library optimized for research velocity and modularity.  Learn how konfig turns experiments into plain dictionaries, kontext wir...",
-      "source": "MarkTechPost",
-      "url": "https://www.marktechpost.com/2026/10/01/a-coding-guide-to-google-researchs-kauldron-configs-that-are-plain-data-components-wired-by-string-and-a-jax-trainer-you-can-read-end-to-end/",
-      "publishedAt": "2026-10-02T00:32:50.000Z",
-      "impact": 65
-    },
-    {
-      "id": "aether-interp",
-      "type": "premium",
-      "category": "safety",
-      "title": "Anthropic publishes unprecedented mechanistic interpretability map of Claude 4",
-      "excerpt": "Researchers reverse-engineered 312 million features inside the model, including the first clear \"deception circuit\" discovered in a frontier model.",
-      "source": "Anthropic",
-      "url": "https://anthropic.com/research/claude-4-interp",
-      "publishedAt": "2026-10-01T22:14:35.687Z",
-      "impact": 91
-    },
-    {
-      "id": "marktechpost-1790874792000-3",
-      "type": "live",
-      "category": "multimodal",
-      "title": "Cohere Releases Embed 5: How It Compares to Voyage 4 Large, Gemini Embedding 2, and OpenAI",
-      "excerpt": "Cohere has released Embed 5, a new embedding model family.  It targets enterprise search, RAG, and agentic retrieval",
-      "source": "MarkTechPost",
-      "url": "https://www.marktechpost.com/2026/10/01/cohere-releases-embed-5/",
-      "publishedAt": "2026-10-01T17:13:12.000Z",
-      "impact": 65
-    },
-    {
-      "id": "hugging-face-1790866903000-1",
-      "type": "live",
-      "category": "research",
-      "title": "Introducing Olmo-core 3: Open, scalable training infrastructure for large MoEs",
-      "excerpt": "New development from the frontier.",
-      "source": "Hugging Face",
-      "url": "https://huggingface.co/blog/allenai/olmocore3",
-      "publishedAt": "2026-10-01T15:01:43.000Z",
-      "impact": 75
     },
     {
       "id": "hugging-face-1790726400000-2",

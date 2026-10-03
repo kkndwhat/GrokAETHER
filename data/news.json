@@ -1,10 +1,43 @@
 {
-  "lastUpdated": "2026-10-02T22:01:24.164Z",
+  "lastUpdated": "2026-10-03T04:47:38.162Z",
   "source": "AETHER + Public RSS (arXiv, Hugging Face, MarkTechPost, Ben's Bites)",
-  "count": 16,
+  "count": 10,
   "articles": [
     {
-      "id": "marktechpost-1790964296000-0",
+      "id": "marktechpost-1790998275000-0",
+      "type": "live",
+      "category": "llm",
+      "title": "Decision AI Models Explained: TypeSafe Jev vs Fastino GLiDE, GLiNER2.5-Decide and Open-Source Competitors",
+      "excerpt": "Decision AI models answer typed questions with calibrated probabilities instead of generated text.  TypeSafe's Jev costs $0",
+      "source": "MarkTechPost",
+      "url": "https://www.marktechpost.com/2026/10/02/decision-ai-models-explained-typesafe-jev-vs-fastino-glide-gliner2-5-decide-and-open-source-competitors/",
+      "publishedAt": "2026-10-03T03:31:15.000Z",
+      "impact": 65
+    },
+    {
+      "id": "aether-grok43",
+      "type": "premium",
+      "category": "llm",
+      "title": "xAI releases Grok-4.3 with native long-horizon agent scaffolding",
+      "excerpt": "New model demonstrates 4.2× improvement on multi-step software engineering benchmarks and sustains coherent agent trajectories beyond 110k tokens.",
+      "source": "xAI",
+      "url": "https://x.ai/blog/grok-4.3",
+      "publishedAt": "2026-10-02T23:47:37.038Z",
+      "impact": 96
+    },
+    {
+      "id": "aether-figure03",
+      "type": "premium",
+      "category": "robotics",
+      "title": "Figure 03 completes 43-hour autonomous factory shift with zero interventions",
+      "excerpt": "Humanoid achieves new milestone in unsupervised operation, performing 1,240 unique tasks across three assembly lines at the BMW South Carolina plant.",
+      "source": "Figure AI",
+      "url": "https://figure.ai/news/03-milestone",
+      "publishedAt": "2026-10-02T19:47:37.038Z",
+      "impact": 89
+    },
+    {
+      "id": "marktechpost-1790964296000-1",
       "type": "live",
       "category": "hardware",
       "title": "NVIDIA Announces DGX Spark 64GB: A 1-PetaFLOP Grace Blackwell Desktop for Local AI Agents, Fine-Tuning, and Inference",
@@ -15,18 +48,7 @@
       "impact": 77
     },
     {
-      "id": "aether-grok43",
-      "type": "premium",
-      "category": "llm",
-      "title": "xAI releases Grok-4.3 with native long-horizon agent scaffolding",
-      "excerpt": "New model demonstrates 4.2× improvement on multi-step software engineering benchmarks and sustains coherent agent trajectories beyond 110k tokens.",
-      "source": "xAI",
-      "url": "https://x.ai/blog/grok-4.3",
-      "publishedAt": "2026-10-02T17:01:22.882Z",
-      "impact": 96
-    },
-    {
-      "id": "marktechpost-1790954615000-1",
+      "id": "marktechpost-1790954615000-2",
       "type": "live",
       "category": "research",
       "title": "Datalab Introduces OmniExtractBench to Fix Bias and Opacity in Extraction Benchmarks",
@@ -48,17 +70,6 @@
       "impact": 75
     },
     {
-      "id": "aether-figure03",
-      "type": "premium",
-      "category": "robotics",
-      "title": "Figure 03 completes 43-hour autonomous factory shift with zero interventions",
-      "excerpt": "Humanoid achieves new milestone in unsupervised operation, performing 1,240 unique tasks across three assembly lines at the BMW South Carolina plant.",
-      "source": "Figure AI",
-      "url": "https://figure.ai/news/03-milestone",
-      "publishedAt": "2026-10-02T13:01:22.883Z",
-      "impact": 89
-    },
-    {
       "id": "aether-interp",
       "type": "premium",
       "category": "safety",
@@ -66,11 +77,11 @@
       "excerpt": "Researchers reverse-engineered 312 million features inside the model, including the first clear \"deception circuit\" discovered in a frontier model.",
       "source": "Anthropic",
       "url": "https://anthropic.com/research/claude-4-interp",
-      "publishedAt": "2026-10-02T08:01:22.883Z",
+      "publishedAt": "2026-10-02T14:47:37.038Z",
       "impact": 91
     },
     {
-      "id": "marktechpost-1790922900000-2",
+      "id": "marktechpost-1790922900000-3",
       "type": "live",
       "category": "safety",
       "title": "AWS Strands Labs Releases Strands Decider 2B: An Open Source Decision Model That Picks Options in About 115 ms",
@@ -90,83 +101,6 @@
       "url": "https://huggingface.co/blog/ServiceNow-AI/autosynthdata",
       "publishedAt": "2026-10-02T04:01:31.000Z",
       "impact": 87
-    },
-    {
-      "id": "arxiv-cs.ai-1790913600000-0",
-      "type": "live",
-      "category": "llm",
-      "title": "Heavy-Tailed Memory Traces in Long-Horizon Language Agents",
-      "excerpt": "00010v1 Announce Type: new Abstract: Long-horizon language agents increasingly rely on external memory as a frozen world model, yet current memory systems are usually judged only by task success or token cost.  We arg...",
-      "source": "arXiv cs.AI",
-      "url": "https://arxiv.org/abs/2610.00010",
-      "publishedAt": "2026-10-02T04:00:00.000Z",
-      "impact": 69
-    },
-    {
-      "id": "arxiv-cs.ai-1790913600000-1",
-      "type": "live",
-      "category": "llm",
-      "title": "When Do Causal World Models Help Modular LLM Agents",
-      "excerpt": "00012v1 Announce Type: new Abstract: LLM agents increasingly act through modular systems, such as order, payment, inventory, and shipment services, where actions in one module change which transitions are valid in ano...",
-      "source": "arXiv cs.AI",
-      "url": "https://arxiv.org/abs/2610.00012",
-      "publishedAt": "2026-10-02T04:00:00.000Z",
-      "impact": 69
-    },
-    {
-      "id": "arxiv-cs.ai-1790913600000-2",
-      "type": "live",
-      "category": "safety",
-      "title": "From Proposal to Verified Effect: Praxa, an Evidence-Bound Harness for Governed AI Agent Execution",
-      "excerpt": "00015v1 Announce Type: new Abstract: Large-language-model agents can propose and execute actions, but proposal, authority, dispatch, verified external effect, and serving promotion are different claims.  We present Pr...",
-      "source": "arXiv cs.AI",
-      "url": "https://arxiv.org/abs/2610.00015",
-      "publishedAt": "2026-10-02T04:00:00.000Z",
-      "impact": 69
-    },
-    {
-      "id": "arxiv-cs.ai-1790913600000-3",
-      "type": "live",
-      "category": "llm",
-      "title": "What Do Rationales Communicate? A Message-Intervention Study in Role-Specialized QA",
-      "excerpt": "00018v1 Announce Type: new Abstract: Role-specialized QA pipelines increasingly pass rationales from a reasoner to a verifier, but it is unclear what this message actually buys: better answers, stronger support assess...",
-      "source": "arXiv cs.AI",
-      "url": "https://arxiv.org/abs/2610.00018",
-      "publishedAt": "2026-10-02T04:00:00.000Z",
-      "impact": 58
-    },
-    {
-      "id": "arxiv-cs.ai-1790913600000-4",
-      "type": "live",
-      "category": "llm",
-      "title": "Measuring the Microtask Eligibility Gap: When Is an Off-the-Shelf SLM Enough for an Agent Harness?",
-      "excerpt": "00025v1 Announce Type: new Abstract: Agent harnesses increasingly want to run small language models (SLMs) on the microtasks around a frontier large language model (LLM) planner: auto-approving shell commands, writing...",
-      "source": "arXiv cs.AI",
-      "url": "https://arxiv.org/abs/2610.00025",
-      "publishedAt": "2026-10-02T04:00:00.000Z",
-      "impact": 69
-    },
-    {
-      "id": "arxiv-cs.ai-1790913600000-5",
-      "type": "live",
-      "category": "llm",
-      "title": "Characterizing a Configuration Where Inference-Time PRM-Pruned Fragment Grafting Is Inert: Evidence from Three Reasoning LMs",
-      "excerpt": "00047v1 Announce Type: new Abstract: Diversity collapse in parallel chain-of-thought has motivated inference-time interventions built on a natural design: when a process reward model (PRM) prunes a chain, its high-PRM...",
-      "source": "arXiv cs.AI",
-      "url": "https://arxiv.org/abs/2610.00047",
-      "publishedAt": "2026-10-02T04:00:00.000Z",
-      "impact": 58
-    },
-    {
-      "id": "marktechpost-1790902841000-3",
-      "type": "live",
-      "category": "multimodal",
-      "title": "Cloudflare Releases Clef and Clef-flash: Open-Weight Decision Models That Return Typed Probabilities Instead of Text",
-      "excerpt": "Cloudflare has released Clef (27B) and Clef-flash (9B), open-weight decision models that return typed probabilities instead of text.  They are Jev-API compatible, accept images, and run on Workers AI at 209",
-      "source": "MarkTechPost",
-      "url": "https://www.marktechpost.com/2026/10/01/cloudflare-releases-clef-and-clef-flash/",
-      "publishedAt": "2026-10-02T01:00:41.000Z",
-      "impact": 65
     },
     {
       "id": "hugging-face-1790726400000-2",

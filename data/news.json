@@ -1,30 +1,8 @@
 {
-  "lastUpdated": "2026-10-03T11:25:34.990Z",
+  "lastUpdated": "2026-10-03T16:01:53.714Z",
   "source": "AETHER + Public RSS (arXiv, Hugging Face, MarkTechPost, Ben's Bites)",
-  "count": 10,
+  "count": 6,
   "articles": [
-    {
-      "id": "marktechpost-1791011111000-0",
-      "type": "live",
-      "category": "llm",
-      "title": "Meta, OpenAI and Uber Just Taught AI Agents to Talk First. What About When to Stay Quiet?",
-      "excerpt": "TL;DR: Meta’s Muse, OpenAI’s Dots and Uber’s driver assistant share one bet: the agent speaks first.  That moves the hard problem from what to answer to when to interrupt, on which channel, and with what offer",
-      "source": "MarkTechPost",
-      "url": "https://www.marktechpost.com/2026/10/03/meta-openai-and-uber-just-taught-ai-agents-to-talk-first-what-about-when-to-stay-quiet/",
-      "publishedAt": "2026-10-03T07:05:11.000Z",
-      "impact": 77
-    },
-    {
-      "id": "marktechpost-1791010515000-1",
-      "type": "live",
-      "category": "llm",
-      "title": "IBM Brings Bob to Self-Hosted and Air-Gapped Environments: Agentic Software Development Without Moving Your Code",
-      "excerpt": "IBM has made a self-hosted deployment of IBM Bob, its agentic software development platform, generally available.  Enterprises can now run Bob on premises, in private or sovereign clouds, and in air-gapped networks",
-      "source": "MarkTechPost",
-      "url": "https://www.marktechpost.com/2026/10/02/ibm-brings-bob-to-self-hosted-and-air-gapped-environments/",
-      "publishedAt": "2026-10-03T06:55:15.000Z",
-      "impact": 77
-    },
     {
       "id": "aether-grok43",
       "type": "premium",
@@ -33,30 +11,8 @@
       "excerpt": "New model demonstrates 4.2× improvement on multi-step software engineering benchmarks and sustains coherent agent trajectories beyond 110k tokens.",
       "source": "xAI",
       "url": "https://x.ai/blog/grok-4.3",
-      "publishedAt": "2026-10-03T06:25:33.686Z",
+      "publishedAt": "2026-10-03T11:01:53.408Z",
       "impact": 96
-    },
-    {
-      "id": "marktechpost-1791005838000-2",
-      "type": "live",
-      "category": "hardware",
-      "title": "Prime Intellect Launches Prime Inference: Serverless and Reserved Serving for Frontier Open Models",
-      "excerpt": "Prime Intellect has launched Prime Inference, an OpenAI-compatible platform for serving frontier open models on NVIDIA Blackwell. 3 deployment uses Dynamo, vLLM and NVFP4 KV compression to serve 66 sessions per prefil...",
-      "source": "MarkTechPost",
-      "url": "https://www.marktechpost.com/2026/10/02/prime-intellect-launches-prime-inference-serverless-and-reserved-serving-for-frontier-open-models/",
-      "publishedAt": "2026-10-03T05:37:18.000Z",
-      "impact": 83
-    },
-    {
-      "id": "marktechpost-1791004193000-3",
-      "type": "live",
-      "category": "llm",
-      "title": "Microsoft AI Releases MAI-Transcribe-2-Streaming: #1 Real-Time Speech-to-Text Model on Artificial Analysis",
-      "excerpt": "Microsoft AI has released MAI-Transcribe-2-Streaming, its first real-time speech-to-text model.  It ranks #1 of 38 models on Artificial Analysis AA-WER Streaming",
-      "source": "MarkTechPost",
-      "url": "https://www.marktechpost.com/2026/10/02/microsoft-ai-releases-mai-transcribe-2-streaming-1-real-time-speech-to-text-model-on-artificial-analysis/",
-      "publishedAt": "2026-10-03T05:09:53.000Z",
-      "impact": 65
     },
     {
       "id": "aether-figure03",
@@ -66,7 +22,7 @@
       "excerpt": "Humanoid achieves new milestone in unsupervised operation, performing 1,240 unique tasks across three assembly lines at the BMW South Carolina plant.",
       "source": "Figure AI",
       "url": "https://figure.ai/news/03-milestone",
-      "publishedAt": "2026-10-03T02:25:33.686Z",
+      "publishedAt": "2026-10-03T07:01:53.408Z",
       "impact": 89
     },
     {
@@ -77,7 +33,7 @@
       "excerpt": "Researchers reverse-engineered 312 million features inside the model, including the first clear \"deception circuit\" discovered in a frontier model.",
       "source": "Anthropic",
       "url": "https://anthropic.com/research/claude-4-interp",
-      "publishedAt": "2026-10-02T21:25:33.686Z",
+      "publishedAt": "2026-10-03T02:01:53.408Z",
       "impact": 91
     },
     {

@@ -1,8 +1,19 @@
 {
-  "lastUpdated": "2026-10-04T05:20:20.101Z",
+  "lastUpdated": "2026-10-04T12:06:43.860Z",
   "source": "AETHER + Public RSS (arXiv, Hugging Face, MarkTechPost, Ben's Bites)",
-  "count": 6,
+  "count": 10,
   "articles": [
+    {
+      "id": "marktechpost-1791098999000-0",
+      "type": "live",
+      "category": "research",
+      "title": "Google Research Moves Federated Learning Into TEEs: Gboard Now Trains With Externally Verifiable Differential Privacy",
+      "excerpt": "Google Research has unveiled a federated learning system that moves gradient computation from phones into attested server-side TEEs.  Access policies are published to Sigstore's Rekor log and the binaries are reproduc...",
+      "source": "MarkTechPost",
+      "url": "https://www.marktechpost.com/2026/10/04/google-research-moves-federated-learning-into-tees-gboard-now-trains-with-externally-verifiable-differential-privacy/",
+      "publishedAt": "2026-10-04T07:29:59.000Z",
+      "impact": 65
+    },
     {
       "id": "aether-grok43",
       "type": "premium",
@@ -11,8 +22,52 @@
       "excerpt": "New model demonstrates 4.2× improvement on multi-step software engineering benchmarks and sustains coherent agent trajectories beyond 110k tokens.",
       "source": "xAI",
       "url": "https://x.ai/blog/grok-4.3",
-      "publishedAt": "2026-10-04T00:20:19.859Z",
+      "publishedAt": "2026-10-04T07:06:43.348Z",
       "impact": 96
+    },
+    {
+      "id": "marktechpost-1791097264000-1",
+      "type": "live",
+      "category": "llm",
+      "title": "Aleph Alpha Releases Kolibri: A 78.1B Open-Weight English-German MoE Model With Only 3.46B Active Parameters",
+      "excerpt": "Aleph Alpha has released Kolibri, a 78. 1B-parameter English-German Mixture-of-Experts model that activates only 3",
+      "source": "MarkTechPost",
+      "url": "https://www.marktechpost.com/2026/10/04/aleph-alpha-releases-kolibri-a-78-1b-open-weight-english-german-moe-model-with-only-3-46b-active-parameters/",
+      "publishedAt": "2026-10-04T07:01:04.000Z",
+      "impact": 65
+    },
+    {
+      "id": "marktechpost-1791089382000-2",
+      "type": "live",
+      "category": "llm",
+      "title": "DeepSeek Harness v0.2 Brings Official Desktop Apps to Its Open-Source Agent Harness",
+      "excerpt": "DeepSeek has released official macOS and Windows desktop apps for DeepSeek Harness v0. 2, its MIT-licensed agent harness",
+      "source": "MarkTechPost",
+      "url": "https://www.marktechpost.com/2026/10/03/deepseek-harness-v0-2-brings-official-desktop-apps-to-its-open-source-agent-harness/",
+      "publishedAt": "2026-10-04T04:49:42.000Z",
+      "impact": 77
+    },
+    {
+      "id": "aether-figure03",
+      "type": "premium",
+      "category": "robotics",
+      "title": "Figure 03 completes 43-hour autonomous factory shift with zero interventions",
+      "excerpt": "Humanoid achieves new milestone in unsupervised operation, performing 1,240 unique tasks across three assembly lines at the BMW South Carolina plant.",
+      "source": "Figure AI",
+      "url": "https://figure.ai/news/03-milestone",
+      "publishedAt": "2026-10-04T03:06:43.348Z",
+      "impact": 89
+    },
+    {
+      "id": "marktechpost-1791073178000-3",
+      "type": "live",
+      "category": "robotics",
+      "title": "Inside NVIDIA’s IsaacTeleop: From Hand and Controller Tracking to Robot Actions with the Graph-Based Retargeting Engine",
+      "excerpt": "Learn how NVIDIA IsaacTeleop turns XR hand tracking and motion controller input into robot commands using a pure Python retargeting engine and NumPy.  The post Inside NVIDIA’s IsaacTeleop: From Hand and Controller Tra...",
+      "source": "MarkTechPost",
+      "url": "https://www.marktechpost.com/2026/10/03/inside-nvidias-isaacteleop-from-hand-and-controller-tracking-to-robot-actions-with-the-graph-based-retargeting-engine/",
+      "publishedAt": "2026-10-04T00:19:38.000Z",
+      "impact": 65
     },
     {
       "id": "hugging-face-1791068208000-0",
@@ -26,17 +81,6 @@
       "impact": 87
     },
     {
-      "id": "aether-figure03",
-      "type": "premium",
-      "category": "robotics",
-      "title": "Figure 03 completes 43-hour autonomous factory shift with zero interventions",
-      "excerpt": "Humanoid achieves new milestone in unsupervised operation, performing 1,240 unique tasks across three assembly lines at the BMW South Carolina plant.",
-      "source": "Figure AI",
-      "url": "https://figure.ai/news/03-milestone",
-      "publishedAt": "2026-10-03T20:20:19.859Z",
-      "impact": 89
-    },
-    {
       "id": "aether-interp",
       "type": "premium",
       "category": "safety",
@@ -44,7 +88,7 @@
       "excerpt": "Researchers reverse-engineered 312 million features inside the model, including the first clear \"deception circuit\" discovered in a frontier model.",
       "source": "Anthropic",
       "url": "https://anthropic.com/research/claude-4-interp",
-      "publishedAt": "2026-10-03T15:20:19.859Z",
+      "publishedAt": "2026-10-03T22:06:43.348Z",
       "impact": 91
     },
     {

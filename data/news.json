@@ -1,8 +1,85 @@
 {
-  "lastUpdated": "2026-10-04T21:07:50.554Z",
+  "lastUpdated": "2026-10-05T05:03:35.940Z",
   "source": "AETHER + Public RSS (arXiv, Hugging Face, MarkTechPost, Ben's Bites)",
-  "count": 10,
+  "count": 16,
   "articles": [
+    {
+      "id": "arxiv-cs.ai-1791172800000-0",
+      "type": "live",
+      "category": "multimodal",
+      "title": "MintFlow: Minimal Trajectory Intervention for Constrained Flow Matching",
+      "excerpt": "02260v1 Announce Type: new Abstract: Flow matching models excel at generative modeling, and many downstream applications require their samples to satisfy prescribed constraints, such as observed measurements and physi...",
+      "source": "arXiv cs.AI",
+      "url": "https://arxiv.org/abs/2610.02260",
+      "publishedAt": "2026-10-05T04:00:00.000Z",
+      "impact": 58
+    },
+    {
+      "id": "arxiv-cs.ai-1791172800000-1",
+      "type": "live",
+      "category": "hardware",
+      "title": "Fast Models, Slow Evidence: A Paired and Self-Audited Evaluation of System-1 Decision Models for LLM Agent Harnesses",
+      "excerpt": "02267v1 Announce Type: new Abstract: Agent harnesses make many small, typed decisions per task: which model to call, which tool to use, whether retrieved text is relevant, whether an input carries an injection.  Syste...",
+      "source": "arXiv cs.AI",
+      "url": "https://arxiv.org/abs/2610.02267",
+      "publishedAt": "2026-10-05T04:00:00.000Z",
+      "impact": 69
+    },
+    {
+      "id": "arxiv-cs.ai-1791172800000-2",
+      "type": "live",
+      "category": "llm",
+      "title": "The AI Risk Observatory: What Can We Learn from AI Disclosures in Annual Reports About Societal Resilience?",
+      "excerpt": "02281v1 Announce Type: new Abstract: Societal resilience research relies on access to useful and actionable data, which motivates our main research question: Can annual reports, processed at scale with LLMs, provide a...",
+      "source": "arXiv cs.AI",
+      "url": "https://arxiv.org/abs/2610.02281",
+      "publishedAt": "2026-10-05T04:00:00.000Z",
+      "impact": 58
+    },
+    {
+      "id": "arxiv-cs.ai-1791172800000-3",
+      "type": "live",
+      "category": "safety",
+      "title": "Keep It CALM: Analyzing the Limits of Global Unsafety in Text-to-Image Generation",
+      "excerpt": "02300v1 Announce Type: new Abstract: Training-free safeguards for text-to-image generation often rely on a reusable safety signal, such as an unsafe direction or global toxic subspace, applied broadly across prompts. ...",
+      "source": "arXiv cs.AI",
+      "url": "https://arxiv.org/abs/2610.02300",
+      "publishedAt": "2026-10-05T04:00:00.000Z",
+      "impact": 58
+    },
+    {
+      "id": "arxiv-cs.ai-1791172800000-4",
+      "type": "live",
+      "category": "multimodal",
+      "title": "Choosing Before Acting: Comparative Value Estimation for Long-Horizon Tool-Use Agents",
+      "excerpt": "02330v1 Announce Type: new Abstract: Large language models (LLMs) rely on long-horizon tool invocation sequences for complex tasks, where each invocation can alter the task state and condition subsequent decisions.  I...",
+      "source": "arXiv cs.AI",
+      "url": "https://arxiv.org/abs/2610.02330",
+      "publishedAt": "2026-10-05T04:00:00.000Z",
+      "impact": 69
+    },
+    {
+      "id": "arxiv-cs.ai-1791172800000-5",
+      "type": "live",
+      "category": "llm",
+      "title": "World Editing: Intervening on Executable Worlds at Increasing Depth",
+      "excerpt": "02331v1 Announce Type: new Abstract: Interactive world models are increasingly capable of generating environments and acting within them, yet deliberately editing an existing executable world remains underexplored.  W...",
+      "source": "arXiv cs.AI",
+      "url": "https://arxiv.org/abs/2610.02331",
+      "publishedAt": "2026-10-05T04:00:00.000Z",
+      "impact": 58
+    },
+    {
+      "id": "marktechpost-1791164848000-0",
+      "type": "live",
+      "category": "hardware",
+      "title": "Can an Open Model Do Security Research? Cantina’s apex-flash-1 Solves 40 of 60 Held-Out Bug Tasks",
+      "excerpt": "Cantina Security, with Yeta Labs, has released apex-flash-1, an open-weights model trained specifically for vulnerability research.  It is a reinforcement learning fine-tune of Z",
+      "source": "MarkTechPost",
+      "url": "https://www.marktechpost.com/2026/10/04/can-an-open-model-do-security-research-cantinas-apex-flash-1-solves-40-of-60-held-out-bug-tasks/",
+      "publishedAt": "2026-10-05T01:47:28.000Z",
+      "impact": 65
+    },
     {
       "id": "aether-grok43",
       "type": "premium",
@@ -11,8 +88,19 @@
       "excerpt": "New model demonstrates 4.2× improvement on multi-step software engineering benchmarks and sustains coherent agent trajectories beyond 110k tokens.",
       "source": "xAI",
       "url": "https://x.ai/blog/grok-4.3",
-      "publishedAt": "2026-10-04T16:07:50.175Z",
+      "publishedAt": "2026-10-05T00:03:35.510Z",
       "impact": 96
+    },
+    {
+      "id": "marktechpost-1791147596000-1",
+      "type": "live",
+      "category": "llm",
+      "title": "GPT-6 Astra vs GPT-6.1 Sol vs Gemini 4 Argon vs Claude Fable 5.1: Which Frontier Model Fits Which Job",
+      "excerpt": "Astra leads computer use, Argon leads legal and finance work, and Sol wins on price for coding agents.  The post GPT-6 Astra vs GPT-6",
+      "source": "MarkTechPost",
+      "url": "https://www.marktechpost.com/2026/10/04/gpt-6-astra-vs-gpt-6-1-sol-vs-gemini-4-argon-vs-claude-fable-5-1-which-frontier-model-fits-which-job/",
+      "publishedAt": "2026-10-04T20:59:56.000Z",
+      "impact": 83
     },
     {
       "id": "aether-figure03",
@@ -22,11 +110,22 @@
       "excerpt": "Humanoid achieves new milestone in unsupervised operation, performing 1,240 unique tasks across three assembly lines at the BMW South Carolina plant.",
       "source": "Figure AI",
       "url": "https://figure.ai/news/03-milestone",
-      "publishedAt": "2026-10-04T12:07:50.175Z",
+      "publishedAt": "2026-10-04T20:03:35.510Z",
       "impact": 89
     },
     {
-      "id": "marktechpost-1791098999000-0",
+      "id": "aether-interp",
+      "type": "premium",
+      "category": "safety",
+      "title": "Anthropic publishes unprecedented mechanistic interpretability map of Claude 4",
+      "excerpt": "Researchers reverse-engineered 312 million features inside the model, including the first clear \"deception circuit\" discovered in a frontier model.",
+      "source": "Anthropic",
+      "url": "https://anthropic.com/research/claude-4-interp",
+      "publishedAt": "2026-10-04T15:03:35.510Z",
+      "impact": 91
+    },
+    {
+      "id": "marktechpost-1791098999000-2",
       "type": "live",
       "category": "research",
       "title": "Google Research Moves Federated Learning Into TEEs: Gboard Now Trains With Externally Verifiable Differential Privacy",
@@ -37,18 +136,7 @@
       "impact": 65
     },
     {
-      "id": "aether-interp",
-      "type": "premium",
-      "category": "safety",
-      "title": "Anthropic publishes unprecedented mechanistic interpretability map of Claude 4",
-      "excerpt": "Researchers reverse-engineered 312 million features inside the model, including the first clear \"deception circuit\" discovered in a frontier model.",
-      "source": "Anthropic",
-      "url": "https://anthropic.com/research/claude-4-interp",
-      "publishedAt": "2026-10-04T07:07:50.175Z",
-      "impact": 91
-    },
-    {
-      "id": "marktechpost-1791097264000-1",
+      "id": "marktechpost-1791097264000-3",
       "type": "live",
       "category": "llm",
       "title": "Aleph Alpha Releases Kolibri: A 78.1B Open-Weight English-German MoE Model With Only 3.46B Active Parameters",
@@ -56,28 +144,6 @@
       "source": "MarkTechPost",
       "url": "https://www.marktechpost.com/2026/10/04/aleph-alpha-releases-kolibri-a-78-1b-open-weight-english-german-moe-model-with-only-3-46b-active-parameters/",
       "publishedAt": "2026-10-04T07:01:04.000Z",
-      "impact": 65
-    },
-    {
-      "id": "marktechpost-1791089382000-2",
-      "type": "live",
-      "category": "llm",
-      "title": "DeepSeek Harness v0.2 Brings Official Desktop Apps to Its Open-Source Agent Harness",
-      "excerpt": "DeepSeek has released official macOS and Windows desktop apps for DeepSeek Harness v0. 2, its MIT-licensed agent harness",
-      "source": "MarkTechPost",
-      "url": "https://www.marktechpost.com/2026/10/03/deepseek-harness-v0-2-brings-official-desktop-apps-to-its-open-source-agent-harness/",
-      "publishedAt": "2026-10-04T04:49:42.000Z",
-      "impact": 77
-    },
-    {
-      "id": "marktechpost-1791073178000-3",
-      "type": "live",
-      "category": "robotics",
-      "title": "Inside NVIDIA’s IsaacTeleop: From Hand and Controller Tracking to Robot Actions with the Graph-Based Retargeting Engine",
-      "excerpt": "Learn how NVIDIA IsaacTeleop turns XR hand tracking and motion controller input into robot commands using a pure Python retargeting engine and NumPy.  The post Inside NVIDIA’s IsaacTeleop: From Hand and Controller Tra...",
-      "source": "MarkTechPost",
-      "url": "https://www.marktechpost.com/2026/10/03/inside-nvidias-isaacteleop-from-hand-and-controller-tracking-to-robot-actions-with-the-graph-based-retargeting-engine/",
-      "publishedAt": "2026-10-04T00:19:38.000Z",
       "impact": 65
     },
     {

@@ -1,8 +1,52 @@
 {
-  "lastUpdated": "2026-10-05T05:03:35.940Z",
+  "lastUpdated": "2026-10-05T14:11:46.643Z",
   "source": "AETHER + Public RSS (arXiv, Hugging Face, MarkTechPost, Ben's Bites)",
   "count": 16,
   "articles": [
+    {
+      "id": "aether-grok43",
+      "type": "premium",
+      "category": "llm",
+      "title": "xAI releases Grok-4.3 with native long-horizon agent scaffolding",
+      "excerpt": "New model demonstrates 4.2× improvement on multi-step software engineering benchmarks and sustains coherent agent trajectories beyond 110k tokens.",
+      "source": "xAI",
+      "url": "https://x.ai/blog/grok-4.3",
+      "publishedAt": "2026-10-05T09:11:46.247Z",
+      "impact": 96
+    },
+    {
+      "id": "marktechpost-1791187837000-0",
+      "type": "live",
+      "category": "research",
+      "title": "Yandex Introduces Sona: A Single Generative Recommender That Replaces Entire Recommendation Cascade",
+      "excerpt": "One transformer ran candidate generation and ranking in Yandex Music's A/B test without hand-engineered features, lifting likes 11.  The post Yandex Introduces Sona: A Single Generative Recommender That Replaces Entir...",
+      "source": "MarkTechPost",
+      "url": "https://www.marktechpost.com/2026/10/05/yandex-introduces-sona-a-single-generative-recommender-that-replaces-entire-recommendation-cascade/",
+      "publishedAt": "2026-10-05T08:10:37.000Z",
+      "impact": 65
+    },
+    {
+      "id": "aether-figure03",
+      "type": "premium",
+      "category": "robotics",
+      "title": "Figure 03 completes 43-hour autonomous factory shift with zero interventions",
+      "excerpt": "Humanoid achieves new milestone in unsupervised operation, performing 1,240 unique tasks across three assembly lines at the BMW South Carolina plant.",
+      "source": "Figure AI",
+      "url": "https://figure.ai/news/03-milestone",
+      "publishedAt": "2026-10-05T05:11:46.247Z",
+      "impact": 89
+    },
+    {
+      "id": "marktechpost-1791173434000-1",
+      "type": "live",
+      "category": "llm",
+      "title": "The Story of Qwen: Alibaba’s AI Models From 7B to 2.4T",
+      "excerpt": "Alibaba's Qwen went from an invite-only chatbot in April 2023 to a 2. 4-trillion-parameter open-weight model in August 2026",
+      "source": "MarkTechPost",
+      "url": "https://www.marktechpost.com/2026/10/04/the-story-of-qwen-alibabas-ai-models-from-7b-to-2-4t/",
+      "publishedAt": "2026-10-05T04:10:34.000Z",
+      "impact": 65
+    },
     {
       "id": "arxiv-cs.ai-1791172800000-0",
       "type": "live",
@@ -70,7 +114,7 @@
       "impact": 58
     },
     {
-      "id": "marktechpost-1791164848000-0",
+      "id": "marktechpost-1791164848000-2",
       "type": "live",
       "category": "hardware",
       "title": "Can an Open Model Do Security Research? Cantina’s apex-flash-1 Solves 40 of 60 Held-Out Bug Tasks",
@@ -81,18 +125,18 @@
       "impact": 65
     },
     {
-      "id": "aether-grok43",
+      "id": "aether-interp",
       "type": "premium",
-      "category": "llm",
-      "title": "xAI releases Grok-4.3 with native long-horizon agent scaffolding",
-      "excerpt": "New model demonstrates 4.2× improvement on multi-step software engineering benchmarks and sustains coherent agent trajectories beyond 110k tokens.",
-      "source": "xAI",
-      "url": "https://x.ai/blog/grok-4.3",
-      "publishedAt": "2026-10-05T00:03:35.510Z",
-      "impact": 96
+      "category": "safety",
+      "title": "Anthropic publishes unprecedented mechanistic interpretability map of Claude 4",
+      "excerpt": "Researchers reverse-engineered 312 million features inside the model, including the first clear \"deception circuit\" discovered in a frontier model.",
+      "source": "Anthropic",
+      "url": "https://anthropic.com/research/claude-4-interp",
+      "publishedAt": "2026-10-05T00:11:46.247Z",
+      "impact": 91
     },
     {
-      "id": "marktechpost-1791147596000-1",
+      "id": "marktechpost-1791147596000-3",
       "type": "live",
       "category": "llm",
       "title": "GPT-6 Astra vs GPT-6.1 Sol vs Gemini 4 Argon vs Claude Fable 5.1: Which Frontier Model Fits Which Job",
@@ -101,50 +145,6 @@
       "url": "https://www.marktechpost.com/2026/10/04/gpt-6-astra-vs-gpt-6-1-sol-vs-gemini-4-argon-vs-claude-fable-5-1-which-frontier-model-fits-which-job/",
       "publishedAt": "2026-10-04T20:59:56.000Z",
       "impact": 83
-    },
-    {
-      "id": "aether-figure03",
-      "type": "premium",
-      "category": "robotics",
-      "title": "Figure 03 completes 43-hour autonomous factory shift with zero interventions",
-      "excerpt": "Humanoid achieves new milestone in unsupervised operation, performing 1,240 unique tasks across three assembly lines at the BMW South Carolina plant.",
-      "source": "Figure AI",
-      "url": "https://figure.ai/news/03-milestone",
-      "publishedAt": "2026-10-04T20:03:35.510Z",
-      "impact": 89
-    },
-    {
-      "id": "aether-interp",
-      "type": "premium",
-      "category": "safety",
-      "title": "Anthropic publishes unprecedented mechanistic interpretability map of Claude 4",
-      "excerpt": "Researchers reverse-engineered 312 million features inside the model, including the first clear \"deception circuit\" discovered in a frontier model.",
-      "source": "Anthropic",
-      "url": "https://anthropic.com/research/claude-4-interp",
-      "publishedAt": "2026-10-04T15:03:35.510Z",
-      "impact": 91
-    },
-    {
-      "id": "marktechpost-1791098999000-2",
-      "type": "live",
-      "category": "research",
-      "title": "Google Research Moves Federated Learning Into TEEs: Gboard Now Trains With Externally Verifiable Differential Privacy",
-      "excerpt": "Google Research has unveiled a federated learning system that moves gradient computation from phones into attested server-side TEEs.  Access policies are published to Sigstore's Rekor log and the binaries are reproduc...",
-      "source": "MarkTechPost",
-      "url": "https://www.marktechpost.com/2026/10/04/google-research-moves-federated-learning-into-tees-gboard-now-trains-with-externally-verifiable-differential-privacy/",
-      "publishedAt": "2026-10-04T07:29:59.000Z",
-      "impact": 65
-    },
-    {
-      "id": "marktechpost-1791097264000-3",
-      "type": "live",
-      "category": "llm",
-      "title": "Aleph Alpha Releases Kolibri: A 78.1B Open-Weight English-German MoE Model With Only 3.46B Active Parameters",
-      "excerpt": "Aleph Alpha has released Kolibri, a 78. 1B-parameter English-German Mixture-of-Experts model that activates only 3",
-      "source": "MarkTechPost",
-      "url": "https://www.marktechpost.com/2026/10/04/aleph-alpha-releases-kolibri-a-78-1b-open-weight-english-german-moe-model-with-only-3-46b-active-parameters/",
-      "publishedAt": "2026-10-04T07:01:04.000Z",
-      "impact": 65
     },
     {
       "id": "hugging-face-1791068208000-0",

@@ -1,10 +1,98 @@
 {
-  "lastUpdated": "2026-10-05T23:55:25.102Z",
+  "lastUpdated": "2026-10-06T05:53:14.940Z",
   "source": "AETHER + Public RSS (arXiv, Hugging Face, MarkTechPost, Ben's Bites)",
   "count": 16,
   "articles": [
     {
-      "id": "marktechpost-1791236474000-0",
+      "id": "arxiv-cs.ai-1791259200000-0",
+      "type": "live",
+      "category": "research",
+      "title": "Training Numerical Intelligence via Auto-Diagnosis and Skill Discovery",
+      "excerpt": "03872v1 Announce Type: new Abstract: AI agents are becoming increasingly capable of generating scientific code, but generating code is not the same as improving the algorithms behind it.  For numerical solvers, execut...",
+      "source": "arXiv cs.AI",
+      "url": "https://arxiv.org/abs/2610.03872",
+      "publishedAt": "2026-10-06T04:00:00.000Z",
+      "impact": 58
+    },
+    {
+      "id": "arxiv-cs.ai-1791259200000-1",
+      "type": "live",
+      "category": "llm",
+      "title": "REACT: Physically and Chemically Consistent Reconstruction of Marine Active Tracers",
+      "excerpt": "03888v1 Announce Type: new Abstract: Reconstructing global sea surface pH from sparse observations is critical for monitoring ocean acidification and understanding marine carbon cycling.  Traditional assimilation and ...",
+      "source": "arXiv cs.AI",
+      "url": "https://arxiv.org/abs/2610.03888",
+      "publishedAt": "2026-10-06T04:00:00.000Z",
+      "impact": 58
+    },
+    {
+      "id": "arxiv-cs.ai-1791259200000-2",
+      "type": "live",
+      "category": "llm",
+      "title": "Proxy Confidence: Auditing Black-Box LLM Agents with a Surrogate's Log-Probabilities",
+      "excerpt": "03894v1 Announce Type: new Abstract: A deployed LLM agent emits tool calls, queries, and code that can be silently wrong -- by the time the error surfaces, the action has run.  Frontier chat APIs hide the model's toke...",
+      "source": "arXiv cs.AI",
+      "url": "https://arxiv.org/abs/2610.03894",
+      "publishedAt": "2026-10-06T04:00:00.000Z",
+      "impact": 69
+    },
+    {
+      "id": "arxiv-cs.ai-1791259200000-3",
+      "type": "live",
+      "category": "multimodal",
+      "title": "SGAnalog: An End-to-End Circuit Benchmark from Open-Source Silicon Tapeouts",
+      "excerpt": "03934v1 Announce Type: new Abstract: Existing analog integrated circuit design benchmarks make two questions hard to answer: whether a model has learned transferable circuit skills rather than recalled familiar exampl...",
+      "source": "arXiv cs.AI",
+      "url": "https://arxiv.org/abs/2610.03934",
+      "publishedAt": "2026-10-06T04:00:00.000Z",
+      "impact": 58
+    },
+    {
+      "id": "arxiv-cs.ai-1791259200000-4",
+      "type": "live",
+      "category": "safety",
+      "title": "MLLMs Fail to Refuse when Using Tools Agentically",
+      "excerpt": "03938v1 Announce Type: new Abstract: Agentic multimodal large language models (MLLMs) have recently pushed the frontier of visual reasoning by calling tools such as zooming and tagging.  Despite the recent strong succ...",
+      "source": "arXiv cs.AI",
+      "url": "https://arxiv.org/abs/2610.03938",
+      "publishedAt": "2026-10-06T04:00:00.000Z",
+      "impact": 69
+    },
+    {
+      "id": "arxiv-cs.ai-1791259200000-5",
+      "type": "live",
+      "category": "safety",
+      "title": "Retrieval-Augmented Large Language Model Decision-Making for Autonomous Driving Guided by Chinese Philosophical Wisdom",
+      "excerpt": "03948v1 Announce Type: new Abstract: Autonomous driving decision systems must balance safety, efficiency, and social norms in complex traffic interactions.  Philosophical and ethical considerations have received limit...",
+      "source": "arXiv cs.AI",
+      "url": "https://arxiv.org/abs/2610.03948",
+      "publishedAt": "2026-10-06T04:00:00.000Z",
+      "impact": 58
+    },
+    {
+      "id": "aether-grok43",
+      "type": "premium",
+      "category": "llm",
+      "title": "xAI releases Grok-4.3 with native long-horizon agent scaffolding",
+      "excerpt": "New model demonstrates 4.2× improvement on multi-step software engineering benchmarks and sustains coherent agent trajectories beyond 110k tokens.",
+      "source": "xAI",
+      "url": "https://x.ai/blog/grok-4.3",
+      "publishedAt": "2026-10-06T00:53:14.333Z",
+      "impact": 96
+    },
+    {
+      "id": "marktechpost-1791240665000-0",
+      "type": "live",
+      "category": "llm",
+      "title": "Meet Together Link: A Free CLI That Runs Open Models Like Kimi K3 and GLM 5.3 Inside Claude Code, Codex, and OpenCode",
+      "excerpt": "Together AI has released Together Link, a free, MIT-licensed CLI that connects Claude Code, Codex, OpenCode, Pi, and the Claude and ChatGPT desktop apps to open models like Kimi K3 and GLM 5.  One install command sets...",
+      "source": "MarkTechPost",
+      "url": "https://www.marktechpost.com/2026/10/05/meet-together-link-a-free-cli-that-runs-open-models-like-kimi-k3-and-glm-5-3-inside-claude-code-codex-and-opencode/",
+      "publishedAt": "2026-10-05T22:51:05.000Z",
+      "impact": 65
+    },
+    {
+      "id": "marktechpost-1791236474000-1",
       "type": "live",
       "category": "robotics",
       "title": "Building a Streaming Robotics Learning Pipeline Using NVIDIA Cosmos3-DROID",
@@ -15,7 +103,7 @@
       "impact": 65
     },
     {
-      "id": "marktechpost-1791234260000-1",
+      "id": "marktechpost-1791234260000-2",
       "type": "live",
       "category": "llm",
       "title": "Reflection AI Introduces Beam: A 501B Open-Weight MoE Model With 23B Active Parameters for Coding and Agentic Workloads",
@@ -26,17 +114,6 @@
       "impact": 77
     },
     {
-      "id": "aether-grok43",
-      "type": "premium",
-      "category": "llm",
-      "title": "xAI releases Grok-4.3 with native long-horizon agent scaffolding",
-      "excerpt": "New model demonstrates 4.2× improvement on multi-step software engineering benchmarks and sustains coherent agent trajectories beyond 110k tokens.",
-      "source": "xAI",
-      "url": "https://x.ai/blog/grok-4.3",
-      "publishedAt": "2026-10-05T18:55:24.559Z",
-      "impact": 96
-    },
-    {
       "id": "aether-figure03",
       "type": "premium",
       "category": "robotics",
@@ -44,7 +121,7 @@
       "excerpt": "Humanoid achieves new milestone in unsupervised operation, performing 1,240 unique tasks across three assembly lines at the BMW South Carolina plant.",
       "source": "Figure AI",
       "url": "https://figure.ai/news/03-milestone",
-      "publishedAt": "2026-10-05T14:55:24.559Z",
+      "publishedAt": "2026-10-05T20:53:14.333Z",
       "impact": 89
     },
     {
@@ -55,11 +132,11 @@
       "excerpt": "Researchers reverse-engineered 312 million features inside the model, including the first clear \"deception circuit\" discovered in a frontier model.",
       "source": "Anthropic",
       "url": "https://anthropic.com/research/claude-4-interp",
-      "publishedAt": "2026-10-05T09:55:24.559Z",
+      "publishedAt": "2026-10-05T15:53:14.333Z",
       "impact": 91
     },
     {
-      "id": "marktechpost-1791187837000-2",
+      "id": "marktechpost-1791187837000-3",
       "type": "live",
       "category": "research",
       "title": "Yandex Introduces Sona: A Single Generative Recommender That Replaces Entire Recommendation Cascade",
@@ -68,83 +145,6 @@
       "url": "https://www.marktechpost.com/2026/10/05/yandex-introduces-sona-a-single-generative-recommender-that-replaces-entire-recommendation-cascade/",
       "publishedAt": "2026-10-05T08:10:37.000Z",
       "impact": 65
-    },
-    {
-      "id": "marktechpost-1791173434000-3",
-      "type": "live",
-      "category": "llm",
-      "title": "The Story of Qwen: Alibaba’s AI Models From 7B to 2.4T",
-      "excerpt": "Alibaba's Qwen went from an invite-only chatbot in April 2023 to a 2. 4-trillion-parameter open-weight model in August 2026",
-      "source": "MarkTechPost",
-      "url": "https://www.marktechpost.com/2026/10/04/the-story-of-qwen-alibabas-ai-models-from-7b-to-2-4t/",
-      "publishedAt": "2026-10-05T04:10:34.000Z",
-      "impact": 65
-    },
-    {
-      "id": "arxiv-cs.ai-1791172800000-0",
-      "type": "live",
-      "category": "multimodal",
-      "title": "MintFlow: Minimal Trajectory Intervention for Constrained Flow Matching",
-      "excerpt": "02260v1 Announce Type: new Abstract: Flow matching models excel at generative modeling, and many downstream applications require their samples to satisfy prescribed constraints, such as observed measurements and physi...",
-      "source": "arXiv cs.AI",
-      "url": "https://arxiv.org/abs/2610.02260",
-      "publishedAt": "2026-10-05T04:00:00.000Z",
-      "impact": 58
-    },
-    {
-      "id": "arxiv-cs.ai-1791172800000-1",
-      "type": "live",
-      "category": "hardware",
-      "title": "Fast Models, Slow Evidence: A Paired and Self-Audited Evaluation of System-1 Decision Models for LLM Agent Harnesses",
-      "excerpt": "02267v1 Announce Type: new Abstract: Agent harnesses make many small, typed decisions per task: which model to call, which tool to use, whether retrieved text is relevant, whether an input carries an injection.  Syste...",
-      "source": "arXiv cs.AI",
-      "url": "https://arxiv.org/abs/2610.02267",
-      "publishedAt": "2026-10-05T04:00:00.000Z",
-      "impact": 69
-    },
-    {
-      "id": "arxiv-cs.ai-1791172800000-2",
-      "type": "live",
-      "category": "llm",
-      "title": "The AI Risk Observatory: What Can We Learn from AI Disclosures in Annual Reports About Societal Resilience?",
-      "excerpt": "02281v1 Announce Type: new Abstract: Societal resilience research relies on access to useful and actionable data, which motivates our main research question: Can annual reports, processed at scale with LLMs, provide a...",
-      "source": "arXiv cs.AI",
-      "url": "https://arxiv.org/abs/2610.02281",
-      "publishedAt": "2026-10-05T04:00:00.000Z",
-      "impact": 58
-    },
-    {
-      "id": "arxiv-cs.ai-1791172800000-3",
-      "type": "live",
-      "category": "safety",
-      "title": "Keep It CALM: Analyzing the Limits of Global Unsafety in Text-to-Image Generation",
-      "excerpt": "02300v1 Announce Type: new Abstract: Training-free safeguards for text-to-image generation often rely on a reusable safety signal, such as an unsafe direction or global toxic subspace, applied broadly across prompts. ...",
-      "source": "arXiv cs.AI",
-      "url": "https://arxiv.org/abs/2610.02300",
-      "publishedAt": "2026-10-05T04:00:00.000Z",
-      "impact": 58
-    },
-    {
-      "id": "arxiv-cs.ai-1791172800000-4",
-      "type": "live",
-      "category": "multimodal",
-      "title": "Choosing Before Acting: Comparative Value Estimation for Long-Horizon Tool-Use Agents",
-      "excerpt": "02330v1 Announce Type: new Abstract: Large language models (LLMs) rely on long-horizon tool invocation sequences for complex tasks, where each invocation can alter the task state and condition subsequent decisions.  I...",
-      "source": "arXiv cs.AI",
-      "url": "https://arxiv.org/abs/2610.02330",
-      "publishedAt": "2026-10-05T04:00:00.000Z",
-      "impact": 69
-    },
-    {
-      "id": "arxiv-cs.ai-1791172800000-5",
-      "type": "live",
-      "category": "llm",
-      "title": "World Editing: Intervening on Executable Worlds at Increasing Depth",
-      "excerpt": "02331v1 Announce Type: new Abstract: Interactive world models are increasingly capable of generating environments and acting within them, yet deliberately editing an existing executable world remains underexplored.  W...",
-      "source": "arXiv cs.AI",
-      "url": "https://arxiv.org/abs/2610.02331",
-      "publishedAt": "2026-10-05T04:00:00.000Z",
-      "impact": 58
     },
     {
       "id": "hugging-face-1791068208000-0",

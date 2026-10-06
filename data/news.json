@@ -1,8 +1,30 @@
 {
-  "lastUpdated": "2026-10-05T14:11:46.643Z",
+  "lastUpdated": "2026-10-05T23:55:25.102Z",
   "source": "AETHER + Public RSS (arXiv, Hugging Face, MarkTechPost, Ben's Bites)",
   "count": 16,
   "articles": [
+    {
+      "id": "marktechpost-1791236474000-0",
+      "type": "live",
+      "category": "robotics",
+      "title": "Building a Streaming Robotics Learning Pipeline Using NVIDIA Cosmos3-DROID",
+      "excerpt": "Discover how to construct an end-to-end streaming robotics learning pipeline using the NVIDIA Cosmos3-DROID dataset without local downloads, leveraging byte-range Parquet reads, behavior cloning, and temporal ensembli...",
+      "source": "MarkTechPost",
+      "url": "https://www.marktechpost.com/2026/10/05/building-a-streaming-robotics-learning-pipeline-using-nvidia-cosmos3-droid/",
+      "publishedAt": "2026-10-05T21:41:14.000Z",
+      "impact": 65
+    },
+    {
+      "id": "marktechpost-1791234260000-1",
+      "type": "live",
+      "category": "llm",
+      "title": "Reflection AI Introduces Beam: A 501B Open-Weight MoE Model With 23B Active Parameters for Coding and Agentic Workloads",
+      "excerpt": "Reflection AI has introduced Beam, its first open-weight model.  It is a 501B sparse Mixture-of-Experts model with 23B active parameters, built for coding and agentic work",
+      "source": "MarkTechPost",
+      "url": "https://www.marktechpost.com/2026/10/05/reflection-ai-introduces-beam-a-501b-open-weight-moe-model-with-23b-active-parameters-for-coding-and-agentic-workloads/",
+      "publishedAt": "2026-10-05T21:04:20.000Z",
+      "impact": 77
+    },
     {
       "id": "aether-grok43",
       "type": "premium",
@@ -11,11 +33,33 @@
       "excerpt": "New model demonstrates 4.2× improvement on multi-step software engineering benchmarks and sustains coherent agent trajectories beyond 110k tokens.",
       "source": "xAI",
       "url": "https://x.ai/blog/grok-4.3",
-      "publishedAt": "2026-10-05T09:11:46.247Z",
+      "publishedAt": "2026-10-05T18:55:24.559Z",
       "impact": 96
     },
     {
-      "id": "marktechpost-1791187837000-0",
+      "id": "aether-figure03",
+      "type": "premium",
+      "category": "robotics",
+      "title": "Figure 03 completes 43-hour autonomous factory shift with zero interventions",
+      "excerpt": "Humanoid achieves new milestone in unsupervised operation, performing 1,240 unique tasks across three assembly lines at the BMW South Carolina plant.",
+      "source": "Figure AI",
+      "url": "https://figure.ai/news/03-milestone",
+      "publishedAt": "2026-10-05T14:55:24.559Z",
+      "impact": 89
+    },
+    {
+      "id": "aether-interp",
+      "type": "premium",
+      "category": "safety",
+      "title": "Anthropic publishes unprecedented mechanistic interpretability map of Claude 4",
+      "excerpt": "Researchers reverse-engineered 312 million features inside the model, including the first clear \"deception circuit\" discovered in a frontier model.",
+      "source": "Anthropic",
+      "url": "https://anthropic.com/research/claude-4-interp",
+      "publishedAt": "2026-10-05T09:55:24.559Z",
+      "impact": 91
+    },
+    {
+      "id": "marktechpost-1791187837000-2",
       "type": "live",
       "category": "research",
       "title": "Yandex Introduces Sona: A Single Generative Recommender That Replaces Entire Recommendation Cascade",
@@ -26,18 +70,7 @@
       "impact": 65
     },
     {
-      "id": "aether-figure03",
-      "type": "premium",
-      "category": "robotics",
-      "title": "Figure 03 completes 43-hour autonomous factory shift with zero interventions",
-      "excerpt": "Humanoid achieves new milestone in unsupervised operation, performing 1,240 unique tasks across three assembly lines at the BMW South Carolina plant.",
-      "source": "Figure AI",
-      "url": "https://figure.ai/news/03-milestone",
-      "publishedAt": "2026-10-05T05:11:46.247Z",
-      "impact": 89
-    },
-    {
-      "id": "marktechpost-1791173434000-1",
+      "id": "marktechpost-1791173434000-3",
       "type": "live",
       "category": "llm",
       "title": "The Story of Qwen: Alibaba’s AI Models From 7B to 2.4T",
@@ -112,39 +145,6 @@
       "url": "https://arxiv.org/abs/2610.02331",
       "publishedAt": "2026-10-05T04:00:00.000Z",
       "impact": 58
-    },
-    {
-      "id": "marktechpost-1791164848000-2",
-      "type": "live",
-      "category": "hardware",
-      "title": "Can an Open Model Do Security Research? Cantina’s apex-flash-1 Solves 40 of 60 Held-Out Bug Tasks",
-      "excerpt": "Cantina Security, with Yeta Labs, has released apex-flash-1, an open-weights model trained specifically for vulnerability research.  It is a reinforcement learning fine-tune of Z",
-      "source": "MarkTechPost",
-      "url": "https://www.marktechpost.com/2026/10/04/can-an-open-model-do-security-research-cantinas-apex-flash-1-solves-40-of-60-held-out-bug-tasks/",
-      "publishedAt": "2026-10-05T01:47:28.000Z",
-      "impact": 65
-    },
-    {
-      "id": "aether-interp",
-      "type": "premium",
-      "category": "safety",
-      "title": "Anthropic publishes unprecedented mechanistic interpretability map of Claude 4",
-      "excerpt": "Researchers reverse-engineered 312 million features inside the model, including the first clear \"deception circuit\" discovered in a frontier model.",
-      "source": "Anthropic",
-      "url": "https://anthropic.com/research/claude-4-interp",
-      "publishedAt": "2026-10-05T00:11:46.247Z",
-      "impact": 91
-    },
-    {
-      "id": "marktechpost-1791147596000-3",
-      "type": "live",
-      "category": "llm",
-      "title": "GPT-6 Astra vs GPT-6.1 Sol vs Gemini 4 Argon vs Claude Fable 5.1: Which Frontier Model Fits Which Job",
-      "excerpt": "Astra leads computer use, Argon leads legal and finance work, and Sol wins on price for coding agents.  The post GPT-6 Astra vs GPT-6",
-      "source": "MarkTechPost",
-      "url": "https://www.marktechpost.com/2026/10/04/gpt-6-astra-vs-gpt-6-1-sol-vs-gemini-4-argon-vs-claude-fable-5-1-which-frontier-model-fits-which-job/",
-      "publishedAt": "2026-10-04T20:59:56.000Z",
-      "impact": 83
     },
     {
       "id": "hugging-face-1791068208000-0",

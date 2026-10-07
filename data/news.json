@@ -1,17 +1,83 @@
 {
-  "lastUpdated": "2026-10-06T22:32:59.002Z",
+  "lastUpdated": "2026-10-07T05:22:56.472Z",
   "source": "AETHER + Public RSS (arXiv, Hugging Face, MarkTechPost, Ben's Bites)",
   "count": 16,
   "articles": [
     {
-      "id": "marktechpost-1791311768000-0",
+      "id": "arxiv-cs.ai-1791345600000-0",
+      "type": "live",
+      "category": "research",
+      "title": "Training Numerical Intelligence via Auto-Diagnosis and Skill Discovery",
+      "excerpt": "03872v1 Announce Type: new Abstract: AI agents are becoming increasingly capable of generating scientific code, but generating code is not the same as improving the algorithms behind it.  For numerical solvers, execut...",
+      "source": "arXiv cs.AI",
+      "url": "https://arxiv.org/abs/2610.03872",
+      "publishedAt": "2026-10-07T04:00:00.000Z",
+      "impact": 58
+    },
+    {
+      "id": "arxiv-cs.ai-1791345600000-1",
+      "type": "live",
+      "category": "llm",
+      "title": "REACT: Physically and Chemically Consistent Reconstruction of Marine Active Tracers",
+      "excerpt": "03888v1 Announce Type: new Abstract: Reconstructing global sea surface pH from sparse observations is critical for monitoring ocean acidification and understanding marine carbon cycling.  Traditional assimilation and ...",
+      "source": "arXiv cs.AI",
+      "url": "https://arxiv.org/abs/2610.03888",
+      "publishedAt": "2026-10-07T04:00:00.000Z",
+      "impact": 58
+    },
+    {
+      "id": "arxiv-cs.ai-1791345600000-2",
+      "type": "live",
+      "category": "llm",
+      "title": "Proxy Confidence: Auditing Black-Box LLM Agents with a Surrogate's Log-Probabilities",
+      "excerpt": "03894v1 Announce Type: new Abstract: A deployed LLM agent emits tool calls, queries, and code that can be silently wrong -- by the time the error surfaces, the action has run.  Frontier chat APIs hide the model's toke...",
+      "source": "arXiv cs.AI",
+      "url": "https://arxiv.org/abs/2610.03894",
+      "publishedAt": "2026-10-07T04:00:00.000Z",
+      "impact": 69
+    },
+    {
+      "id": "arxiv-cs.ai-1791345600000-3",
       "type": "live",
       "category": "multimodal",
-      "title": "Google DeepMind Releases EmbeddingGemma 2, a 740M Open Multimodal Embedding Model Built on Gemma 4",
-      "excerpt": "Google DeepMind's EmbeddingGemma 2 maps 5 input types into one 768d space and ships today under Apache 2.  The post Google DeepMind Releases EmbeddingGemma 2, a 740M Open Multimodal Embedding Model Built on Gemma 4 ap...",
+      "title": "SGAnalog: An End-to-End Circuit Benchmark from Open-Source Silicon Tapeouts",
+      "excerpt": "03934v1 Announce Type: new Abstract: Existing analog integrated circuit design benchmarks make two questions hard to answer: whether a model has learned transferable circuit skills rather than recalled familiar exampl...",
+      "source": "arXiv cs.AI",
+      "url": "https://arxiv.org/abs/2610.03934",
+      "publishedAt": "2026-10-07T04:00:00.000Z",
+      "impact": 58
+    },
+    {
+      "id": "arxiv-cs.ai-1791345600000-4",
+      "type": "live",
+      "category": "safety",
+      "title": "MLLMs Fail to Refuse when Using Tools Agentically",
+      "excerpt": "03938v1 Announce Type: new Abstract: Agentic multimodal large language models (MLLMs) have recently pushed the frontier of visual reasoning by calling tools such as zooming and tagging.  Despite the recent strong succ...",
+      "source": "arXiv cs.AI",
+      "url": "https://arxiv.org/abs/2610.03938",
+      "publishedAt": "2026-10-07T04:00:00.000Z",
+      "impact": 69
+    },
+    {
+      "id": "arxiv-cs.ai-1791345600000-5",
+      "type": "live",
+      "category": "safety",
+      "title": "Retrieval-Augmented Large Language Model Decision-Making for Autonomous Driving Guided by Chinese Philosophical Wisdom",
+      "excerpt": "03948v1 Announce Type: new Abstract: Autonomous driving decision systems must balance safety, efficiency, and social norms in complex traffic interactions.  Philosophical and ethical considerations have received limit...",
+      "source": "arXiv cs.AI",
+      "url": "https://arxiv.org/abs/2610.03948",
+      "publishedAt": "2026-10-07T04:00:00.000Z",
+      "impact": 58
+    },
+    {
+      "id": "marktechpost-1791334383000-0",
+      "type": "live",
+      "category": "research",
+      "title": "A Developer’s Guide to Laya: Zero-Shot Decisions and Calibration",
+      "excerpt": "Explore a comprehensive coding guide to Laya, the open-source zero-shot decision engine.  Learn how to implement typed decisions, fit custom temperatures, and build reliable abstention gates using real-world CLINC150 ...",
       "source": "MarkTechPost",
-      "url": "https://www.marktechpost.com/2026/10/06/google-deepmind-releases-embeddinggemma-2-a-740m-open-multimodal-embedding-model-built-on-gemma-4/",
-      "publishedAt": "2026-10-06T18:36:08.000Z",
+      "url": "https://www.marktechpost.com/2026/10/06/a-developers-guide-to-laya-zero-shot-decisions-and-calibration/",
+      "publishedAt": "2026-10-07T00:53:03.000Z",
       "impact": 65
     },
     {
@@ -22,11 +88,33 @@
       "excerpt": "New model demonstrates 4.2× improvement on multi-step software engineering benchmarks and sustains coherent agent trajectories beyond 110k tokens.",
       "source": "xAI",
       "url": "https://x.ai/blog/grok-4.3",
-      "publishedAt": "2026-10-06T17:32:58.475Z",
+      "publishedAt": "2026-10-07T00:22:55.976Z",
       "impact": 96
     },
     {
-      "id": "marktechpost-1791307846000-1",
+      "id": "aether-figure03",
+      "type": "premium",
+      "category": "robotics",
+      "title": "Figure 03 completes 43-hour autonomous factory shift with zero interventions",
+      "excerpt": "Humanoid achieves new milestone in unsupervised operation, performing 1,240 unique tasks across three assembly lines at the BMW South Carolina plant.",
+      "source": "Figure AI",
+      "url": "https://figure.ai/news/03-milestone",
+      "publishedAt": "2026-10-06T20:22:55.976Z",
+      "impact": 89
+    },
+    {
+      "id": "marktechpost-1791311768000-1",
+      "type": "live",
+      "category": "multimodal",
+      "title": "Google DeepMind Releases EmbeddingGemma 2, a 740M Open Multimodal Embedding Model Built on Gemma 4",
+      "excerpt": "Google DeepMind's EmbeddingGemma 2 maps 5 input types into one 768d space and ships today under Apache 2.  The post Google DeepMind Releases EmbeddingGemma 2, a 740M Open Multimodal Embedding Model Built on Gemma 4 ap...",
+      "source": "MarkTechPost",
+      "url": "https://www.marktechpost.com/2026/10/06/google-deepmind-releases-embeddinggemma-2-a-740m-open-multimodal-embedding-model-built-on-gemma-4/",
+      "publishedAt": "2026-10-06T18:36:08.000Z",
+      "impact": 65
+    },
+    {
+      "id": "marktechpost-1791307846000-2",
       "type": "live",
       "category": "hardware",
       "title": "Mistral AI Releases Mistral Large 4 (Le Chonk): A 1.05T Parameter Multimodal MoE Model",
@@ -37,17 +125,6 @@
       "impact": 65
     },
     {
-      "id": "aether-figure03",
-      "type": "premium",
-      "category": "robotics",
-      "title": "Figure 03 completes 43-hour autonomous factory shift with zero interventions",
-      "excerpt": "Humanoid achieves new milestone in unsupervised operation, performing 1,240 unique tasks across three assembly lines at the BMW South Carolina plant.",
-      "source": "Figure AI",
-      "url": "https://figure.ai/news/03-milestone",
-      "publishedAt": "2026-10-06T13:32:58.475Z",
-      "impact": 89
-    },
-    {
       "id": "aether-interp",
       "type": "premium",
       "category": "safety",
@@ -55,11 +132,11 @@
       "excerpt": "Researchers reverse-engineered 312 million features inside the model, including the first clear \"deception circuit\" discovered in a frontier model.",
       "source": "Anthropic",
       "url": "https://anthropic.com/research/claude-4-interp",
-      "publishedAt": "2026-10-06T08:32:58.475Z",
+      "publishedAt": "2026-10-06T15:22:55.976Z",
       "impact": 91
     },
     {
-      "id": "marktechpost-1791269131000-2",
+      "id": "marktechpost-1791269131000-3",
       "type": "live",
       "category": "robotics",
       "title": "Reka Releases Rho-1: A 19B Omni-Reasoning Model That Understands, Generates Video and Outputs Robot Actions in One",
@@ -79,83 +156,6 @@
       "url": "https://huggingface.co/blog/tiiuae/falcon-emirati",
       "publishedAt": "2026-10-06T06:44:39.000Z",
       "impact": 75
-    },
-    {
-      "id": "marktechpost-1791263521000-3",
-      "type": "live",
-      "category": "llm",
-      "title": "Beyond Domain-Specific World Models: JEPA-Anything Uses 1 Recipe for 7 Fields",
-      "excerpt": "JEPA-Anything splits a JEPA's single latent target into 4 orthogonal factors, each with its own predictor.  Tested across 7 domains, it beat matched JEPA baselines on all 10 dynamics tasks and cut Interventional Pong ...",
-      "source": "MarkTechPost",
-      "url": "https://www.marktechpost.com/2026/10/05/beyond-domain-specific-world-models-jepa-anything-uses-1-recipe-for-7-fields/",
-      "publishedAt": "2026-10-06T05:12:01.000Z",
-      "impact": 65
-    },
-    {
-      "id": "arxiv-cs.ai-1791259200000-0",
-      "type": "live",
-      "category": "research",
-      "title": "Training Numerical Intelligence via Auto-Diagnosis and Skill Discovery",
-      "excerpt": "03872v1 Announce Type: new Abstract: AI agents are becoming increasingly capable of generating scientific code, but generating code is not the same as improving the algorithms behind it.  For numerical solvers, execut...",
-      "source": "arXiv cs.AI",
-      "url": "https://arxiv.org/abs/2610.03872",
-      "publishedAt": "2026-10-06T04:00:00.000Z",
-      "impact": 58
-    },
-    {
-      "id": "arxiv-cs.ai-1791259200000-1",
-      "type": "live",
-      "category": "llm",
-      "title": "REACT: Physically and Chemically Consistent Reconstruction of Marine Active Tracers",
-      "excerpt": "03888v1 Announce Type: new Abstract: Reconstructing global sea surface pH from sparse observations is critical for monitoring ocean acidification and understanding marine carbon cycling.  Traditional assimilation and ...",
-      "source": "arXiv cs.AI",
-      "url": "https://arxiv.org/abs/2610.03888",
-      "publishedAt": "2026-10-06T04:00:00.000Z",
-      "impact": 58
-    },
-    {
-      "id": "arxiv-cs.ai-1791259200000-2",
-      "type": "live",
-      "category": "llm",
-      "title": "Proxy Confidence: Auditing Black-Box LLM Agents with a Surrogate's Log-Probabilities",
-      "excerpt": "03894v1 Announce Type: new Abstract: A deployed LLM agent emits tool calls, queries, and code that can be silently wrong -- by the time the error surfaces, the action has run.  Frontier chat APIs hide the model's toke...",
-      "source": "arXiv cs.AI",
-      "url": "https://arxiv.org/abs/2610.03894",
-      "publishedAt": "2026-10-06T04:00:00.000Z",
-      "impact": 69
-    },
-    {
-      "id": "arxiv-cs.ai-1791259200000-3",
-      "type": "live",
-      "category": "multimodal",
-      "title": "SGAnalog: An End-to-End Circuit Benchmark from Open-Source Silicon Tapeouts",
-      "excerpt": "03934v1 Announce Type: new Abstract: Existing analog integrated circuit design benchmarks make two questions hard to answer: whether a model has learned transferable circuit skills rather than recalled familiar exampl...",
-      "source": "arXiv cs.AI",
-      "url": "https://arxiv.org/abs/2610.03934",
-      "publishedAt": "2026-10-06T04:00:00.000Z",
-      "impact": 58
-    },
-    {
-      "id": "arxiv-cs.ai-1791259200000-4",
-      "type": "live",
-      "category": "safety",
-      "title": "MLLMs Fail to Refuse when Using Tools Agentically",
-      "excerpt": "03938v1 Announce Type: new Abstract: Agentic multimodal large language models (MLLMs) have recently pushed the frontier of visual reasoning by calling tools such as zooming and tagging.  Despite the recent strong succ...",
-      "source": "arXiv cs.AI",
-      "url": "https://arxiv.org/abs/2610.03938",
-      "publishedAt": "2026-10-06T04:00:00.000Z",
-      "impact": 69
-    },
-    {
-      "id": "arxiv-cs.ai-1791259200000-5",
-      "type": "live",
-      "category": "safety",
-      "title": "Retrieval-Augmented Large Language Model Decision-Making for Autonomous Driving Guided by Chinese Philosophical Wisdom",
-      "excerpt": "03948v1 Announce Type: new Abstract: Autonomous driving decision systems must balance safety, efficiency, and social norms in complex traffic interactions.  Philosophical and ethical considerations have received limit...",
-      "source": "arXiv cs.AI",
-      "url": "https://arxiv.org/abs/2610.03948",
-      "publishedAt": "2026-10-06T04:00:00.000Z",
-      "impact": 58
     },
     {
       "id": "hugging-face-1791068208000-1",

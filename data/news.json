@@ -1,10 +1,54 @@
 {
-  "lastUpdated": "2026-10-07T13:02:30.094Z",
+  "lastUpdated": "2026-10-07T22:56:38.234Z",
   "source": "AETHER + Public RSS (arXiv, Hugging Face, MarkTechPost, Ben's Bites)",
   "count": 16,
   "articles": [
     {
-      "id": "hugging-face-1791377131000-0",
+      "id": "marktechpost-1791397425000-0",
+      "type": "live",
+      "category": "multimodal",
+      "title": "Liquid AI Releases Open-Weight d1-3B and d1-omni-600M: Multimodal Decision Models With Zero Output Tokens",
+      "excerpt": "Liquid AI has released Open d1, two open-weight multimodal models in its d1 decision model family.  d1-3B reads text and images",
+      "source": "MarkTechPost",
+      "url": "https://www.marktechpost.com/2026/10/07/liquid-ai-releases-open-weight-d1-3b-and-d1-omni-600m-multimodal-decision-models-with-zero-output-tokens/",
+      "publishedAt": "2026-10-07T18:23:45.000Z",
+      "impact": 65
+    },
+    {
+      "id": "aether-grok43",
+      "type": "premium",
+      "category": "llm",
+      "title": "xAI releases Grok-4.3 with native long-horizon agent scaffolding",
+      "excerpt": "New model demonstrates 4.2× improvement on multi-step software engineering benchmarks and sustains coherent agent trajectories beyond 110k tokens.",
+      "source": "xAI",
+      "url": "https://x.ai/blog/grok-4.3",
+      "publishedAt": "2026-10-07T17:56:37.777Z",
+      "impact": 96
+    },
+    {
+      "id": "hugging-face-1791392073000-0",
+      "type": "live",
+      "category": "multimodal",
+      "title": "Multimodal open d1 decision models for the edge",
+      "excerpt": "New development from the frontier.",
+      "source": "Hugging Face",
+      "url": "https://huggingface.co/blog/LiquidAI/open-d1",
+      "publishedAt": "2026-10-07T16:54:33.000Z",
+      "impact": 75
+    },
+    {
+      "id": "aether-figure03",
+      "type": "premium",
+      "category": "robotics",
+      "title": "Figure 03 completes 43-hour autonomous factory shift with zero interventions",
+      "excerpt": "Humanoid achieves new milestone in unsupervised operation, performing 1,240 unique tasks across three assembly lines at the BMW South Carolina plant.",
+      "source": "Figure AI",
+      "url": "https://figure.ai/news/03-milestone",
+      "publishedAt": "2026-10-07T13:56:37.777Z",
+      "impact": 89
+    },
+    {
+      "id": "hugging-face-1791377131000-1",
       "type": "live",
       "category": "llm",
       "title": "One Model Family, Two Gold-Level Results: Fine-Tuning Nemotron for IOI and IMO",
@@ -15,18 +59,18 @@
       "impact": 75
     },
     {
-      "id": "aether-grok43",
+      "id": "aether-interp",
       "type": "premium",
-      "category": "llm",
-      "title": "xAI releases Grok-4.3 with native long-horizon agent scaffolding",
-      "excerpt": "New model demonstrates 4.2× improvement on multi-step software engineering benchmarks and sustains coherent agent trajectories beyond 110k tokens.",
-      "source": "xAI",
-      "url": "https://x.ai/blog/grok-4.3",
-      "publishedAt": "2026-10-07T08:02:29.432Z",
-      "impact": 96
+      "category": "safety",
+      "title": "Anthropic publishes unprecedented mechanistic interpretability map of Claude 4",
+      "excerpt": "Researchers reverse-engineered 312 million features inside the model, including the first clear \"deception circuit\" discovered in a frontier model.",
+      "source": "Anthropic",
+      "url": "https://anthropic.com/research/claude-4-interp",
+      "publishedAt": "2026-10-07T08:56:37.777Z",
+      "impact": 91
     },
     {
-      "id": "marktechpost-1791354554000-0",
+      "id": "marktechpost-1791354554000-1",
       "type": "live",
       "category": "research",
       "title": "Meta AI Open-Sources Rebalancer: A C++ Assignment Solver That Runs About 40 Million Placement Problems a Day",
@@ -35,17 +79,6 @@
       "url": "https://www.marktechpost.com/2026/10/06/meta-ai-open-sources-rebalancer-a-c-assignment-solver-that-runs-about-40-million-placement-problems-a-day/",
       "publishedAt": "2026-10-07T06:29:14.000Z",
       "impact": 65
-    },
-    {
-      "id": "aether-figure03",
-      "type": "premium",
-      "category": "robotics",
-      "title": "Figure 03 completes 43-hour autonomous factory shift with zero interventions",
-      "excerpt": "Humanoid achieves new milestone in unsupervised operation, performing 1,240 unique tasks across three assembly lines at the BMW South Carolina plant.",
-      "source": "Figure AI",
-      "url": "https://figure.ai/news/03-milestone",
-      "publishedAt": "2026-10-07T04:02:29.432Z",
-      "impact": 89
     },
     {
       "id": "arxiv-cs.ai-1791345600000-0",
@@ -114,7 +147,7 @@
       "impact": 58
     },
     {
-      "id": "marktechpost-1791334383000-1",
+      "id": "marktechpost-1791334383000-2",
       "type": "live",
       "category": "research",
       "title": "A Developer’s Guide to Laya: Zero-Shot Decisions and Calibration",
@@ -125,18 +158,7 @@
       "impact": 65
     },
     {
-      "id": "aether-interp",
-      "type": "premium",
-      "category": "safety",
-      "title": "Anthropic publishes unprecedented mechanistic interpretability map of Claude 4",
-      "excerpt": "Researchers reverse-engineered 312 million features inside the model, including the first clear \"deception circuit\" discovered in a frontier model.",
-      "source": "Anthropic",
-      "url": "https://anthropic.com/research/claude-4-interp",
-      "publishedAt": "2026-10-06T23:02:29.432Z",
-      "impact": 91
-    },
-    {
-      "id": "marktechpost-1791311768000-2",
+      "id": "marktechpost-1791311768000-3",
       "type": "live",
       "category": "multimodal",
       "title": "Google DeepMind Releases EmbeddingGemma 2, a 740M Open Multimodal Embedding Model Built on Gemma 4",
@@ -145,28 +167,6 @@
       "url": "https://www.marktechpost.com/2026/10/06/google-deepmind-releases-embeddinggemma-2-a-740m-open-multimodal-embedding-model-built-on-gemma-4/",
       "publishedAt": "2026-10-06T18:36:08.000Z",
       "impact": 65
-    },
-    {
-      "id": "marktechpost-1791307846000-3",
-      "type": "live",
-      "category": "hardware",
-      "title": "Mistral AI Releases Mistral Large 4 (Le Chonk): A 1.05T Parameter Multimodal MoE Model",
-      "excerpt": "Mistral AI has released Mistral Large 4, nicknamed Le Chonk, as a public preview. 05 trillion parameter Mixture of Experts model with 49 billion active parameters, native image input, and a 1 million token context win...",
-      "source": "MarkTechPost",
-      "url": "https://www.marktechpost.com/2026/10/06/mistral-ai-releases-mistral-large-4-le-chonk-a-1-05t-parameter-open-weight-multimodal-moe/",
-      "publishedAt": "2026-10-06T17:30:46.000Z",
-      "impact": 65
-    },
-    {
-      "id": "hugging-face-1791269079000-1",
-      "type": "live",
-      "category": "llm",
-      "title": "Falcon-Emirati: When an LLM Learns the Dialect, the Culture, and the Nuance",
-      "excerpt": "New development from the frontier.",
-      "source": "Hugging Face",
-      "url": "https://huggingface.co/blog/tiiuae/falcon-emirati",
-      "publishedAt": "2026-10-06T06:44:39.000Z",
-      "impact": 75
     },
     {
       "id": "hugging-face-1791068208000-2",

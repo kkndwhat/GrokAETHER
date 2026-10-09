@@ -1,8 +1,30 @@
 {
-  "lastUpdated": "2026-10-09T12:56:17.661Z",
+  "lastUpdated": "2026-10-09T22:29:05.530Z",
   "source": "AETHER + Public RSS (arXiv, Hugging Face, MarkTechPost, Ben's Bites)",
   "count": 16,
   "articles": [
+    {
+      "id": "marktechpost-1791577997000-0",
+      "type": "live",
+      "category": "multimodal",
+      "title": "Alibaba Qwen Releases Qwen-Image-2.1-Turbo, an 8-Step 7B Image Model",
+      "excerpt": "Alibaba’s Qwen team has released Qwen-Image-2. 1-Turbo, an accelerated checkpoint of its open-weight Qwen-Image-2",
+      "source": "MarkTechPost",
+      "url": "https://www.marktechpost.com/2026/10/09/alibaba-qwen-releases-qwen-image-2-1-turbo-an-8-step-7b-image-model/",
+      "publishedAt": "2026-10-09T20:33:17.000Z",
+      "impact": 65
+    },
+    {
+      "id": "marktechpost-1791576307000-1",
+      "type": "live",
+      "category": "llm",
+      "title": "OpenAI Decisions API Hits Public Beta With 10x Faster Typed Answers",
+      "excerpt": "OpenAI’s Decisions API is now in public beta on GPT-6 Luna.  It returns typed probabilities, choices and scores about 10x faster than the Responses API, billing $0",
+      "source": "MarkTechPost",
+      "url": "https://www.marktechpost.com/2026/10/09/openai-decisions-api-hits-public-beta-with-10x-faster-typed-answers/",
+      "publishedAt": "2026-10-09T20:05:07.000Z",
+      "impact": 65
+    },
     {
       "id": "aether-grok43",
       "type": "premium",
@@ -11,11 +33,44 @@
       "excerpt": "New model demonstrates 4.2× improvement on multi-step software engineering benchmarks and sustains coherent agent trajectories beyond 110k tokens.",
       "source": "xAI",
       "url": "https://x.ai/blog/grok-4.3",
-      "publishedAt": "2026-10-09T07:56:17.238Z",
+      "publishedAt": "2026-10-09T17:29:04.372Z",
       "impact": 96
     },
     {
-      "id": "marktechpost-1791530616000-0",
+      "id": "hugging-face-1791559229000-0",
+      "type": "live",
+      "category": "hardware",
+      "title": "Impactful scheduling for GPU clusters",
+      "excerpt": "New development from the frontier.",
+      "source": "Hugging Face",
+      "url": "https://huggingface.co/blog/allenai/impactful-scheduling",
+      "publishedAt": "2026-10-09T15:20:29.000Z",
+      "impact": 75
+    },
+    {
+      "id": "aether-figure03",
+      "type": "premium",
+      "category": "robotics",
+      "title": "Figure 03 completes 43-hour autonomous factory shift with zero interventions",
+      "excerpt": "Humanoid achieves new milestone in unsupervised operation, performing 1,240 unique tasks across three assembly lines at the BMW South Carolina plant.",
+      "source": "Figure AI",
+      "url": "https://figure.ai/news/03-milestone",
+      "publishedAt": "2026-10-09T13:29:04.372Z",
+      "impact": 89
+    },
+    {
+      "id": "aether-interp",
+      "type": "premium",
+      "category": "safety",
+      "title": "Anthropic publishes unprecedented mechanistic interpretability map of Claude 4",
+      "excerpt": "Researchers reverse-engineered 312 million features inside the model, including the first clear \"deception circuit\" discovered in a frontier model.",
+      "source": "Anthropic",
+      "url": "https://anthropic.com/research/claude-4-interp",
+      "publishedAt": "2026-10-09T08:29:04.372Z",
+      "impact": 91
+    },
+    {
+      "id": "marktechpost-1791530616000-2",
       "type": "live",
       "category": "research",
       "title": "Meet the Underdog Saluki 27B: A 2-bit Qwen3.8-27B That Beats the Original at Tool Calling",
@@ -26,7 +81,7 @@
       "impact": 65
     },
     {
-      "id": "marktechpost-1791528476000-1",
+      "id": "marktechpost-1791528476000-3",
       "type": "live",
       "category": "research",
       "title": "Google Cloud Launches Gemini Agent, One Universal Agent for Enterprise Work",
@@ -34,17 +89,6 @@
       "source": "MarkTechPost",
       "url": "https://www.marktechpost.com/2026/10/08/google-cloud-launches-gemini-agent-one-universal-agent-for-enterprise-work/",
       "publishedAt": "2026-10-09T06:47:56.000Z",
-      "impact": 77
-    },
-    {
-      "id": "marktechpost-1791522377000-2",
-      "type": "live",
-      "category": "research",
-      "title": "Google Research RRSI Guide: Mastering Self-Improving AI Agents",
-      "excerpt": "Explore a comprehensive coding guide to Google Research's RRSI (Regularized Recursive Self-Improvement), detailing how noise bands, cost rules, and leakage screens enable safe, efficient, and self-improving AI agents....",
-      "source": "MarkTechPost",
-      "url": "https://www.marktechpost.com/2026/10/08/google-research-rrsi-guide-mastering-self-improving-ai-agents/",
-      "publishedAt": "2026-10-09T05:06:17.000Z",
       "impact": 77
     },
     {
@@ -114,40 +158,7 @@
       "impact": 69
     },
     {
-      "id": "aether-figure03",
-      "type": "premium",
-      "category": "robotics",
-      "title": "Figure 03 completes 43-hour autonomous factory shift with zero interventions",
-      "excerpt": "Humanoid achieves new milestone in unsupervised operation, performing 1,240 unique tasks across three assembly lines at the BMW South Carolina plant.",
-      "source": "Figure AI",
-      "url": "https://figure.ai/news/03-milestone",
-      "publishedAt": "2026-10-09T03:56:17.238Z",
-      "impact": 89
-    },
-    {
-      "id": "aether-interp",
-      "type": "premium",
-      "category": "safety",
-      "title": "Anthropic publishes unprecedented mechanistic interpretability map of Claude 4",
-      "excerpt": "Researchers reverse-engineered 312 million features inside the model, including the first clear \"deception circuit\" discovered in a frontier model.",
-      "source": "Anthropic",
-      "url": "https://anthropic.com/research/claude-4-interp",
-      "publishedAt": "2026-10-08T22:56:17.238Z",
-      "impact": 91
-    },
-    {
-      "id": "marktechpost-1791476255000-3",
-      "type": "live",
-      "category": "llm",
-      "title": "JetBrains Releases Mellum2.1: A 12B MoE Open Model for Coding Agents",
-      "excerpt": "JetBrains released Mellum2. 0, 12B mixture-of-experts thinking model with 2",
-      "source": "MarkTechPost",
-      "url": "https://www.marktechpost.com/2026/10/08/jetbrains-releases-mellum2-1-a-12b-moe-open-model-for-coding-agents/",
-      "publishedAt": "2026-10-08T16:17:35.000Z",
-      "impact": 77
-    },
-    {
-      "id": "hugging-face-1791417600000-0",
+      "id": "hugging-face-1791417600000-1",
       "type": "live",
       "category": "llm",
       "title": "The model that didn't exist, so you made it yourself",
@@ -158,7 +169,7 @@
       "impact": 75
     },
     {
-      "id": "hugging-face-1791392073000-1",
+      "id": "hugging-face-1791392073000-2",
       "type": "live",
       "category": "multimodal",
       "title": "Multimodal open d1 decision models for the edge",
@@ -166,17 +177,6 @@
       "source": "Hugging Face",
       "url": "https://huggingface.co/blog/LiquidAI/open-d1",
       "publishedAt": "2026-10-07T16:54:33.000Z",
-      "impact": 75
-    },
-    {
-      "id": "hugging-face-1791379263000-2",
-      "type": "live",
-      "category": "research",
-      "title": "Introducing Falcon ASR",
-      "excerpt": "New development from the frontier.",
-      "source": "Hugging Face",
-      "url": "https://huggingface.co/blog/tiiuae/falcon-asr",
-      "publishedAt": "2026-10-07T13:21:03.000Z",
       "impact": 75
     }
   ]

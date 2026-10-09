@@ -1,8 +1,74 @@
 {
-  "lastUpdated": "2026-10-08T23:09:33.463Z",
+  "lastUpdated": "2026-10-09T05:35:45.951Z",
   "source": "AETHER + Public RSS (arXiv, Hugging Face, MarkTechPost, Ben's Bites)",
   "count": 16,
   "articles": [
+    {
+      "id": "arxiv-cs.ai-1791518400000-0",
+      "type": "live",
+      "category": "safety",
+      "title": "An Explainable Header-Centric Framework for Large-Scale Semantic Table Interpretation and Data Quality Assessment",
+      "excerpt": "10541v1 Announce Type: new Abstract: Knowledge Graph (KG) quality depends not only on downstream graph validation, but also on the quality of tabular metadata used before integration.  In metadata-only Semantic Table ...",
+      "source": "arXiv cs.AI",
+      "url": "https://arxiv.org/abs/2610.10541",
+      "publishedAt": "2026-10-09T04:00:00.000Z",
+      "impact": 58
+    },
+    {
+      "id": "arxiv-cs.ai-1791518400000-1",
+      "type": "live",
+      "category": "llm",
+      "title": "Synthesis Through Simulation: Generating Coherent Enterprise Data via Scalable Agent-System Interaction",
+      "excerpt": "10549v1 Announce Type: new Abstract: Tool-calling agents have become central to enterprise AI, yet training and evaluating them at scale remains severely constrained due to business and legal restrictions on enterpris...",
+      "source": "arXiv cs.AI",
+      "url": "https://arxiv.org/abs/2610.10549",
+      "publishedAt": "2026-10-09T04:00:00.000Z",
+      "impact": 69
+    },
+    {
+      "id": "arxiv-cs.ai-1791518400000-2",
+      "type": "live",
+      "category": "llm",
+      "title": "Agent-Controlled Forgetting for Tool-Using Agents: Reversible Context Curation in Practice",
+      "excerpt": "10590v1 Announce Type: new Abstract: Tool-using agents repeatedly carry observations whose useful content can be much smaller than their original payload.  We study agent-controlled forgetting: the acting model select...",
+      "source": "arXiv cs.AI",
+      "url": "https://arxiv.org/abs/2610.10590",
+      "publishedAt": "2026-10-09T04:00:00.000Z",
+      "impact": 69
+    },
+    {
+      "id": "arxiv-cs.ai-1791518400000-3",
+      "type": "live",
+      "category": "safety",
+      "title": "Verification and Self-Improvement in Agentic AI: Foundations and Limits",
+      "excerpt": "10611v1 Announce Type: new Abstract: Agentic AI systems can improve by searching longer, receiving additional support, or modifying how they propose and verify outputs.  A performance score does not distinguish these ...",
+      "source": "arXiv cs.AI",
+      "url": "https://arxiv.org/abs/2610.10611",
+      "publishedAt": "2026-10-09T04:00:00.000Z",
+      "impact": 69
+    },
+    {
+      "id": "arxiv-cs.ai-1791518400000-4",
+      "type": "live",
+      "category": "safety",
+      "title": "The Harness as the Only Mutable Surface: Compliance-Bounded Self-Evolution of LLM Agents in Credit Pipelines, with a Measured Admission Gate",
+      "excerpt": "10629v1 Announce Type: new Abstract: Self-improving LLM agents can adapt a credit pipeline to a changed rule, but an agent that rewrites itself destroys the artefact a supervisor reviews: a named change, a recorded te...",
+      "source": "arXiv cs.AI",
+      "url": "https://arxiv.org/abs/2610.10629",
+      "publishedAt": "2026-10-09T04:00:00.000Z",
+      "impact": 69
+    },
+    {
+      "id": "arxiv-cs.ai-1791518400000-5",
+      "type": "live",
+      "category": "multimodal",
+      "title": "Speaking the Navigator's Language: Trajectory-Grounded Instruction Translation for Frozen Aerial VLN Agents",
+      "excerpt": "10635v1 Announce Type: new Abstract: Aerial vision-and-language navigation (VLN) agents are typically trained on detail-rich, trajectory-aligned commands, whereas users issue short, intent-driven instructions; on a fr...",
+      "source": "arXiv cs.AI",
+      "url": "https://arxiv.org/abs/2610.10635",
+      "publishedAt": "2026-10-09T04:00:00.000Z",
+      "impact": 69
+    },
     {
       "id": "aether-grok43",
       "type": "premium",
@@ -11,8 +77,19 @@
       "excerpt": "New model demonstrates 4.2× improvement on multi-step software engineering benchmarks and sustains coherent agent trajectories beyond 110k tokens.",
       "source": "xAI",
       "url": "https://x.ai/blog/grok-4.3",
-      "publishedAt": "2026-10-08T18:09:32.855Z",
+      "publishedAt": "2026-10-09T00:35:45.425Z",
       "impact": 96
+    },
+    {
+      "id": "aether-figure03",
+      "type": "premium",
+      "category": "robotics",
+      "title": "Figure 03 completes 43-hour autonomous factory shift with zero interventions",
+      "excerpt": "Humanoid achieves new milestone in unsupervised operation, performing 1,240 unique tasks across three assembly lines at the BMW South Carolina plant.",
+      "source": "Figure AI",
+      "url": "https://figure.ai/news/03-milestone",
+      "publishedAt": "2026-10-08T20:35:45.425Z",
+      "impact": 89
     },
     {
       "id": "marktechpost-1791476255000-0",
@@ -26,17 +103,6 @@
       "impact": 77
     },
     {
-      "id": "aether-figure03",
-      "type": "premium",
-      "category": "robotics",
-      "title": "Figure 03 completes 43-hour autonomous factory shift with zero interventions",
-      "excerpt": "Humanoid achieves new milestone in unsupervised operation, performing 1,240 unique tasks across three assembly lines at the BMW South Carolina plant.",
-      "source": "Figure AI",
-      "url": "https://figure.ai/news/03-milestone",
-      "publishedAt": "2026-10-08T14:09:32.855Z",
-      "impact": 89
-    },
-    {
       "id": "aether-interp",
       "type": "premium",
       "category": "safety",
@@ -44,7 +110,7 @@
       "excerpt": "Researchers reverse-engineered 312 million features inside the model, including the first clear \"deception circuit\" discovered in a frontier model.",
       "source": "Anthropic",
       "url": "https://anthropic.com/research/claude-4-interp",
-      "publishedAt": "2026-10-08T09:09:32.855Z",
+      "publishedAt": "2026-10-08T15:35:45.425Z",
       "impact": 91
     },
     {
@@ -79,72 +145,6 @@
       "url": "https://www.marktechpost.com/2026/10/07/perplexity-ai-releases-pplx-embed-v2-late-a-0-6b-edge-model-and-a-9b-model-scoring-92-4-on-madqa/",
       "publishedAt": "2026-10-08T05:39:09.000Z",
       "impact": 65
-    },
-    {
-      "id": "arxiv-cs.ai-1791432000000-0",
-      "type": "live",
-      "category": "safety",
-      "title": "Adaptive Workflow Intelligence: A Cognitive Architecture for Context-Driven Enterprise Automation",
-      "excerpt": "08793v1 Announce Type: new Abstract: Enterprise systems increasingly rely on automated workflows, yet many AI-driven solutions remain brittle under non-stationary conditions, evolving policies, and delayed operational...",
-      "source": "arXiv cs.AI",
-      "url": "https://arxiv.org/abs/2610.08793",
-      "publishedAt": "2026-10-08T04:00:00.000Z",
-      "impact": 58
-    },
-    {
-      "id": "arxiv-cs.ai-1791432000000-1",
-      "type": "live",
-      "category": "hardware",
-      "title": "Accelerating Floating-Point Satisfiability Solving via Gradient Normalization",
-      "excerpt": "08808v1 Announce Type: new Abstract: Satisfiability Modulo Theories (SMT) solvers are foundational to software verification, program analysis, and compiler testing, particularly over the theory of Quantifier-Free Floa...",
-      "source": "arXiv cs.AI",
-      "url": "https://arxiv.org/abs/2610.08808",
-      "publishedAt": "2026-10-08T04:00:00.000Z",
-      "impact": 58
-    },
-    {
-      "id": "arxiv-cs.ai-1791432000000-2",
-      "type": "live",
-      "category": "llm",
-      "title": "Route-Verify-Vote: Procedure-Conditioned Self-Consistency for Mixed-Domain Reasoning",
-      "excerpt": "08814v1 Announce Type: new Abstract: Compositional generalization remains challenging when language models must combine familiar reasoning operations in unfamiliar ways.  The Scenario-Based Commonsense Reasoning Evalu...",
-      "source": "arXiv cs.AI",
-      "url": "https://arxiv.org/abs/2610.08814",
-      "publishedAt": "2026-10-08T04:00:00.000Z",
-      "impact": 58
-    },
-    {
-      "id": "arxiv-cs.ai-1791432000000-3",
-      "type": "live",
-      "category": "llm",
-      "title": "An Empirical Study of Agent Skills' Downstream Utility",
-      "excerpt": "08875v1 Announce Type: new Abstract: Agent Skills package procedural guidance and resources for reuse, but a relevant Skill does not necessarily improve task performance.  Existing studies characterize Skill content a...",
-      "source": "arXiv cs.AI",
-      "url": "https://arxiv.org/abs/2610.08875",
-      "publishedAt": "2026-10-08T04:00:00.000Z",
-      "impact": 69
-    },
-    {
-      "id": "arxiv-cs.ai-1791432000000-4",
-      "type": "live",
-      "category": "safety",
-      "title": "How Could AI Eliminate Humanity? A Failure-Mode Analysis of Civilizational Risk",
-      "excerpt": "08878v1 Announce Type: new Abstract: This article develops a failure-mode framework for analyzing how advanced artificial intelligence could contribute to human extinction, irreversible civilizational collapse, or per...",
-      "source": "arXiv cs.AI",
-      "url": "https://arxiv.org/abs/2610.08878",
-      "publishedAt": "2026-10-08T04:00:00.000Z",
-      "impact": 58
-    },
-    {
-      "id": "arxiv-cs.ai-1791432000000-5",
-      "type": "live",
-      "category": "llm",
-      "title": "Humanize: Judgement Engineering for Agentic Coding",
-      "excerpt": "08900v1 Announce Type: new Abstract: Agentic coding makes code generation cheap, but reliable completion remains difficult: the agent that writes the code is a weak judge of whether it is done.  We present Humanize, a...",
-      "source": "arXiv cs.AI",
-      "url": "https://arxiv.org/abs/2610.08900",
-      "publishedAt": "2026-10-08T04:00:00.000Z",
-      "impact": 69
     },
     {
       "id": "hugging-face-1791417600000-0",

@@ -1,8 +1,52 @@
 {
-  "lastUpdated": "2026-10-09T05:35:45.951Z",
+  "lastUpdated": "2026-10-09T12:56:17.661Z",
   "source": "AETHER + Public RSS (arXiv, Hugging Face, MarkTechPost, Ben's Bites)",
   "count": 16,
   "articles": [
+    {
+      "id": "aether-grok43",
+      "type": "premium",
+      "category": "llm",
+      "title": "xAI releases Grok-4.3 with native long-horizon agent scaffolding",
+      "excerpt": "New model demonstrates 4.2× improvement on multi-step software engineering benchmarks and sustains coherent agent trajectories beyond 110k tokens.",
+      "source": "xAI",
+      "url": "https://x.ai/blog/grok-4.3",
+      "publishedAt": "2026-10-09T07:56:17.238Z",
+      "impact": 96
+    },
+    {
+      "id": "marktechpost-1791530616000-0",
+      "type": "live",
+      "category": "research",
+      "title": "Meet the Underdog Saluki 27B: A 2-bit Qwen3.8-27B That Beats the Original at Tool Calling",
+      "excerpt": "Underdog Saluki 27B is a 7. 89 GB, 2-bit GGUF of Qwen3",
+      "source": "MarkTechPost",
+      "url": "https://www.marktechpost.com/2026/10/09/meet-the-underdog-saluki-27b-a-2-bit-qwen3-8-27b-that-beats-the-original-at-tool-calling/",
+      "publishedAt": "2026-10-09T07:23:36.000Z",
+      "impact": 65
+    },
+    {
+      "id": "marktechpost-1791528476000-1",
+      "type": "live",
+      "category": "research",
+      "title": "Google Cloud Launches Gemini Agent, One Universal Agent for Enterprise Work",
+      "excerpt": "Google Cloud has introduced the Google Cloud Gemini agent, a single agent for enterprise work.  The Gemini agent is a cloud-hosted agent from Google Cloud that answers questions, does knowledge work, creates media, an...",
+      "source": "MarkTechPost",
+      "url": "https://www.marktechpost.com/2026/10/08/google-cloud-launches-gemini-agent-one-universal-agent-for-enterprise-work/",
+      "publishedAt": "2026-10-09T06:47:56.000Z",
+      "impact": 77
+    },
+    {
+      "id": "marktechpost-1791522377000-2",
+      "type": "live",
+      "category": "research",
+      "title": "Google Research RRSI Guide: Mastering Self-Improving AI Agents",
+      "excerpt": "Explore a comprehensive coding guide to Google Research's RRSI (Regularized Recursive Self-Improvement), detailing how noise bands, cost rules, and leakage screens enable safe, efficient, and self-improving AI agents....",
+      "source": "MarkTechPost",
+      "url": "https://www.marktechpost.com/2026/10/08/google-research-rrsi-guide-mastering-self-improving-ai-agents/",
+      "publishedAt": "2026-10-09T05:06:17.000Z",
+      "impact": 77
+    },
     {
       "id": "arxiv-cs.ai-1791518400000-0",
       "type": "live",
@@ -70,17 +114,6 @@
       "impact": 69
     },
     {
-      "id": "aether-grok43",
-      "type": "premium",
-      "category": "llm",
-      "title": "xAI releases Grok-4.3 with native long-horizon agent scaffolding",
-      "excerpt": "New model demonstrates 4.2× improvement on multi-step software engineering benchmarks and sustains coherent agent trajectories beyond 110k tokens.",
-      "source": "xAI",
-      "url": "https://x.ai/blog/grok-4.3",
-      "publishedAt": "2026-10-09T00:35:45.425Z",
-      "impact": 96
-    },
-    {
       "id": "aether-figure03",
       "type": "premium",
       "category": "robotics",
@@ -88,19 +121,8 @@
       "excerpt": "Humanoid achieves new milestone in unsupervised operation, performing 1,240 unique tasks across three assembly lines at the BMW South Carolina plant.",
       "source": "Figure AI",
       "url": "https://figure.ai/news/03-milestone",
-      "publishedAt": "2026-10-08T20:35:45.425Z",
+      "publishedAt": "2026-10-09T03:56:17.238Z",
       "impact": 89
-    },
-    {
-      "id": "marktechpost-1791476255000-0",
-      "type": "live",
-      "category": "llm",
-      "title": "JetBrains Releases Mellum2.1: A 12B MoE Open Model for Coding Agents",
-      "excerpt": "JetBrains released Mellum2. 0, 12B mixture-of-experts thinking model with 2",
-      "source": "MarkTechPost",
-      "url": "https://www.marktechpost.com/2026/10/08/jetbrains-releases-mellum2-1-a-12b-moe-open-model-for-coding-agents/",
-      "publishedAt": "2026-10-08T16:17:35.000Z",
-      "impact": 77
     },
     {
       "id": "aether-interp",
@@ -110,41 +132,19 @@
       "excerpt": "Researchers reverse-engineered 312 million features inside the model, including the first clear \"deception circuit\" discovered in a frontier model.",
       "source": "Anthropic",
       "url": "https://anthropic.com/research/claude-4-interp",
-      "publishedAt": "2026-10-08T15:35:45.425Z",
+      "publishedAt": "2026-10-08T22:56:17.238Z",
       "impact": 91
     },
     {
-      "id": "marktechpost-1791449614000-1",
+      "id": "marktechpost-1791476255000-3",
       "type": "live",
       "category": "llm",
-      "title": "Architect Launches Liquid Inference, a Real-Time Auction for LLM Inference",
-      "excerpt": "Architect Financial Technologies has launched Liquid Inference, an LLM router that runs a live auction for every request.  Liquid Inference is an LLM inference marketplace from Architect where providers bid to serve e...",
+      "title": "JetBrains Releases Mellum2.1: A 12B MoE Open Model for Coding Agents",
+      "excerpt": "JetBrains released Mellum2. 0, 12B mixture-of-experts thinking model with 2",
       "source": "MarkTechPost",
-      "url": "https://www.marktechpost.com/2026/10/08/architect-launches-liquid-inference-a-real-time-auction-for-llm-inference/",
-      "publishedAt": "2026-10-08T08:53:34.000Z",
-      "impact": 65
-    },
-    {
-      "id": "marktechpost-1791448802000-2",
-      "type": "live",
-      "category": "llm",
-      "title": "NVIDIA PivotOPD Teaches Multi-Turn AI Agents to Recover From Pivotal Mistakes",
-      "excerpt": "NVIDIA researchers introduced PivotOPD, an on-policy distillation method that trains multi-turn LLM agents to avoid early pivotal mistakes and recover from them, posting the best average against 13 baselines on 3 agen...",
-      "source": "MarkTechPost",
-      "url": "https://www.marktechpost.com/2026/10/08/nvidia-pivotopd-teaches-multi-turn-ai-agents-to-recover-from-pivotal-mistakes/",
-      "publishedAt": "2026-10-08T08:40:02.000Z",
+      "url": "https://www.marktechpost.com/2026/10/08/jetbrains-releases-mellum2-1-a-12b-moe-open-model-for-coding-agents/",
+      "publishedAt": "2026-10-08T16:17:35.000Z",
       "impact": 77
-    },
-    {
-      "id": "marktechpost-1791437949000-3",
-      "type": "live",
-      "category": "llm",
-      "title": "Perplexity AI Releases pplx-embed-v2-late: A 0.6B Edge Model and a 9B Model Scoring 92.4% on MADQA",
-      "excerpt": "Perplexity's pplx-embed-v2-late comes in 2 sizes: a 0. 6B model built to run on edge devices, and a 9B model for building high-quality indexes",
-      "source": "MarkTechPost",
-      "url": "https://www.marktechpost.com/2026/10/07/perplexity-ai-releases-pplx-embed-v2-late-a-0-6b-edge-model-and-a-9b-model-scoring-92-4-on-madqa/",
-      "publishedAt": "2026-10-08T05:39:09.000Z",
-      "impact": 65
     },
     {
       "id": "hugging-face-1791417600000-0",

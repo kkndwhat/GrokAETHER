@@ -1,8 +1,41 @@
 {
-  "lastUpdated": "2026-10-10T05:19:40.523Z",
+  "lastUpdated": "2026-10-10T12:14:07.863Z",
   "source": "AETHER + Public RSS (arXiv, Hugging Face, MarkTechPost, Ben's Bites)",
   "count": 16,
   "articles": [
+    {
+      "id": "aether-grok43",
+      "type": "premium",
+      "category": "llm",
+      "title": "xAI releases Grok-4.3 with native long-horizon agent scaffolding",
+      "excerpt": "New model demonstrates 4.2× improvement on multi-step software engineering benchmarks and sustains coherent agent trajectories beyond 110k tokens.",
+      "source": "xAI",
+      "url": "https://x.ai/blog/grok-4.3",
+      "publishedAt": "2026-10-10T07:14:07.288Z",
+      "impact": 96
+    },
+    {
+      "id": "marktechpost-1791612189000-0",
+      "type": "live",
+      "category": "llm",
+      "title": "Microsoft AI Releases Microsoft-Decision-1: A Qwen3.5-9B Decision-Scoring Model",
+      "excerpt": "Microsoft has released Microsoft-Decision-1, a decision model for routing, classification, verification and agent control.  Microsoft-Decision-1 is a decision-scoring model that returns a calibrated probability for ea...",
+      "source": "MarkTechPost",
+      "url": "https://www.marktechpost.com/2026/10/09/microsoft-ai-releases-microsoft-decision-1-a-qwen3-5-9b-decision-scoring-model/",
+      "publishedAt": "2026-10-10T06:03:09.000Z",
+      "impact": 65
+    },
+    {
+      "id": "marktechpost-1791607894000-1",
+      "type": "live",
+      "category": "llm",
+      "title": "Nace AI Open-Sources Drex 1.5: A 9B Decision Model That Scores Options, Not Text",
+      "excerpt": "AI has open-sourced Drex 1. 5, a 9B decision model that returns a probability for every option in 1 forward pass",
+      "source": "MarkTechPost",
+      "url": "https://www.marktechpost.com/2026/10/09/nace-ai-open-sources-drex-1-5-a-9b-decision-model-that-scores-options-not-text/",
+      "publishedAt": "2026-10-10T04:51:34.000Z",
+      "impact": 65
+    },
     {
       "id": "arxiv-cs.ai-1791604800000-0",
       "type": "live",
@@ -70,18 +103,29 @@
       "impact": 69
     },
     {
-      "id": "aether-grok43",
+      "id": "aether-figure03",
       "type": "premium",
-      "category": "llm",
-      "title": "xAI releases Grok-4.3 with native long-horizon agent scaffolding",
-      "excerpt": "New model demonstrates 4.2× improvement on multi-step software engineering benchmarks and sustains coherent agent trajectories beyond 110k tokens.",
-      "source": "xAI",
-      "url": "https://x.ai/blog/grok-4.3",
-      "publishedAt": "2026-10-10T00:19:40.066Z",
-      "impact": 96
+      "category": "robotics",
+      "title": "Figure 03 completes 43-hour autonomous factory shift with zero interventions",
+      "excerpt": "Humanoid achieves new milestone in unsupervised operation, performing 1,240 unique tasks across three assembly lines at the BMW South Carolina plant.",
+      "source": "Figure AI",
+      "url": "https://figure.ai/news/03-milestone",
+      "publishedAt": "2026-10-10T03:14:07.288Z",
+      "impact": 89
     },
     {
-      "id": "marktechpost-1791577997000-0",
+      "id": "aether-interp",
+      "type": "premium",
+      "category": "safety",
+      "title": "Anthropic publishes unprecedented mechanistic interpretability map of Claude 4",
+      "excerpt": "Researchers reverse-engineered 312 million features inside the model, including the first clear \"deception circuit\" discovered in a frontier model.",
+      "source": "Anthropic",
+      "url": "https://anthropic.com/research/claude-4-interp",
+      "publishedAt": "2026-10-09T22:14:07.288Z",
+      "impact": 91
+    },
+    {
+      "id": "marktechpost-1791577997000-2",
       "type": "live",
       "category": "multimodal",
       "title": "Alibaba Qwen Releases Qwen-Image-2.1-Turbo, an 8-Step 7B Image Model",
@@ -92,18 +136,7 @@
       "impact": 65
     },
     {
-      "id": "aether-figure03",
-      "type": "premium",
-      "category": "robotics",
-      "title": "Figure 03 completes 43-hour autonomous factory shift with zero interventions",
-      "excerpt": "Humanoid achieves new milestone in unsupervised operation, performing 1,240 unique tasks across three assembly lines at the BMW South Carolina plant.",
-      "source": "Figure AI",
-      "url": "https://figure.ai/news/03-milestone",
-      "publishedAt": "2026-10-09T20:19:40.066Z",
-      "impact": 89
-    },
-    {
-      "id": "marktechpost-1791576307000-1",
+      "id": "marktechpost-1791576307000-3",
       "type": "live",
       "category": "llm",
       "title": "OpenAI Decisions API Hits Public Beta With 10x Faster Typed Answers",
@@ -123,39 +156,6 @@
       "url": "https://huggingface.co/blog/allenai/impactful-scheduling",
       "publishedAt": "2026-10-09T15:20:29.000Z",
       "impact": 75
-    },
-    {
-      "id": "aether-interp",
-      "type": "premium",
-      "category": "safety",
-      "title": "Anthropic publishes unprecedented mechanistic interpretability map of Claude 4",
-      "excerpt": "Researchers reverse-engineered 312 million features inside the model, including the first clear \"deception circuit\" discovered in a frontier model.",
-      "source": "Anthropic",
-      "url": "https://anthropic.com/research/claude-4-interp",
-      "publishedAt": "2026-10-09T15:19:40.066Z",
-      "impact": 91
-    },
-    {
-      "id": "marktechpost-1791530616000-2",
-      "type": "live",
-      "category": "research",
-      "title": "Meet the Underdog Saluki 27B: A 2-bit Qwen3.8-27B That Beats the Original at Tool Calling",
-      "excerpt": "Underdog Saluki 27B is a 7. 89 GB, 2-bit GGUF of Qwen3",
-      "source": "MarkTechPost",
-      "url": "https://www.marktechpost.com/2026/10/09/meet-the-underdog-saluki-27b-a-2-bit-qwen3-8-27b-that-beats-the-original-at-tool-calling/",
-      "publishedAt": "2026-10-09T07:23:36.000Z",
-      "impact": 65
-    },
-    {
-      "id": "marktechpost-1791528476000-3",
-      "type": "live",
-      "category": "research",
-      "title": "Google Cloud Launches Gemini Agent, One Universal Agent for Enterprise Work",
-      "excerpt": "Google Cloud has introduced the Google Cloud Gemini agent, a single agent for enterprise work.  The Gemini agent is a cloud-hosted agent from Google Cloud that answers questions, does knowledge work, creates media, an...",
-      "source": "MarkTechPost",
-      "url": "https://www.marktechpost.com/2026/10/08/google-cloud-launches-gemini-agent-one-universal-agent-for-enterprise-work/",
-      "publishedAt": "2026-10-09T06:47:56.000Z",
-      "impact": 77
     },
     {
       "id": "hugging-face-1791417600000-1",

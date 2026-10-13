@@ -1,8 +1,63 @@
 {
-  "lastUpdated": "2026-10-12T05:24:39.129Z",
+  "lastUpdated": "2026-10-13T00:26:15.425Z",
   "source": "AETHER + Public RSS (arXiv, Hugging Face, MarkTechPost, Ben's Bites)",
   "count": 16,
   "articles": [
+    {
+      "id": "marktechpost-1791841310000-0",
+      "type": "live",
+      "category": "research",
+      "title": "Alibaba Qwen Introduces QwenGyre: Elastic Reinforcement Learning RL for XLong-Horizon Agents",
+      "excerpt": "Alibaba’s Qwen team has introduced QwenGyre, an elastic reinforcement learning RL framework for extreme-long-horizon agent training.  QwenGyre is an online reinforcement learning system from Alibaba that trains coding...",
+      "source": "MarkTechPost",
+      "url": "https://www.marktechpost.com/2026/10/12/alibaba-qwen-introduces-qwengyre-elastic-reinforcement-learning-rl-for-xlong-horizon-agents/",
+      "publishedAt": "2026-10-12T21:41:50.000Z",
+      "impact": 77
+    },
+    {
+      "id": "aether-grok43",
+      "type": "premium",
+      "category": "llm",
+      "title": "xAI releases Grok-4.3 with native long-horizon agent scaffolding",
+      "excerpt": "New model demonstrates 4.2× improvement on multi-step software engineering benchmarks and sustains coherent agent trajectories beyond 110k tokens.",
+      "source": "xAI",
+      "url": "https://x.ai/blog/grok-4.3",
+      "publishedAt": "2026-10-12T19:26:14.974Z",
+      "impact": 96
+    },
+    {
+      "id": "aether-figure03",
+      "type": "premium",
+      "category": "robotics",
+      "title": "Figure 03 completes 43-hour autonomous factory shift with zero interventions",
+      "excerpt": "Humanoid achieves new milestone in unsupervised operation, performing 1,240 unique tasks across three assembly lines at the BMW South Carolina plant.",
+      "source": "Figure AI",
+      "url": "https://figure.ai/news/03-milestone",
+      "publishedAt": "2026-10-12T15:26:14.974Z",
+      "impact": 89
+    },
+    {
+      "id": "aether-interp",
+      "type": "premium",
+      "category": "safety",
+      "title": "Anthropic publishes unprecedented mechanistic interpretability map of Claude 4",
+      "excerpt": "Researchers reverse-engineered 312 million features inside the model, including the first clear \"deception circuit\" discovered in a frontier model.",
+      "source": "Anthropic",
+      "url": "https://anthropic.com/research/claude-4-interp",
+      "publishedAt": "2026-10-12T10:26:14.974Z",
+      "impact": 91
+    },
+    {
+      "id": "marktechpost-1791793249000-1",
+      "type": "live",
+      "category": "safety",
+      "title": "Top 12 AI Live Translation Tools in 2026: Latency, Languages, Pricing",
+      "excerpt": "We checked 12 AI live translation tools, including Palabra. ai, Google Live Translate, DeepL Voice, Teams Interpreter and Wordly, against official pages for languages, latency, platforms and pricing",
+      "source": "MarkTechPost",
+      "url": "https://www.marktechpost.com/2026/10/12/top-12-ai-live-translation-tools-2026/",
+      "publishedAt": "2026-10-12T08:20:49.000Z",
+      "impact": 65
+    },
     {
       "id": "arxiv-cs.ai-1791777600000-0",
       "type": "live",
@@ -70,7 +125,7 @@
       "impact": 69
     },
     {
-      "id": "marktechpost-1791774969000-0",
+      "id": "marktechpost-1791774969000-2",
       "type": "live",
       "category": "llm",
       "title": "TII Releases Falcon-ASR: 1.6B Arabic Speech Model Hits 20.92% WER",
@@ -81,18 +136,7 @@
       "impact": 65
     },
     {
-      "id": "aether-grok43",
-      "type": "premium",
-      "category": "llm",
-      "title": "xAI releases Grok-4.3 with native long-horizon agent scaffolding",
-      "excerpt": "New model demonstrates 4.2× improvement on multi-step software engineering benchmarks and sustains coherent agent trajectories beyond 110k tokens.",
-      "source": "xAI",
-      "url": "https://x.ai/blog/grok-4.3",
-      "publishedAt": "2026-10-12T00:24:38.599Z",
-      "impact": 96
-    },
-    {
-      "id": "marktechpost-1791760552000-1",
+      "id": "marktechpost-1791760552000-3",
       "type": "live",
       "category": "multimodal",
       "title": "Meet Cloudflare Clef-omni: A 30B-A3B Multimodal Decision Model for Audio, Video, Image and Text",
@@ -100,50 +144,6 @@
       "source": "MarkTechPost",
       "url": "https://www.marktechpost.com/2026/10/11/cloudflare-clef-omni-multimodal-decision-model/",
       "publishedAt": "2026-10-11T23:15:52.000Z",
-      "impact": 65
-    },
-    {
-      "id": "marktechpost-1791755021000-2",
-      "type": "live",
-      "category": "multimodal",
-      "title": "What is Decision 3.0? vLLM Semantic Router’s New Open Decision Models",
-      "excerpt": "vLLM Semantic Router released Decision 3. 0 multimodal decision models from 0",
-      "source": "MarkTechPost",
-      "url": "https://www.marktechpost.com/2026/10/11/what-is-decision-3-0-vllm-semantic-routers-new-open-decision-models/",
-      "publishedAt": "2026-10-11T21:43:41.000Z",
-      "impact": 65
-    },
-    {
-      "id": "aether-figure03",
-      "type": "premium",
-      "category": "robotics",
-      "title": "Figure 03 completes 43-hour autonomous factory shift with zero interventions",
-      "excerpt": "Humanoid achieves new milestone in unsupervised operation, performing 1,240 unique tasks across three assembly lines at the BMW South Carolina plant.",
-      "source": "Figure AI",
-      "url": "https://figure.ai/news/03-milestone",
-      "publishedAt": "2026-10-11T20:24:38.599Z",
-      "impact": 89
-    },
-    {
-      "id": "aether-interp",
-      "type": "premium",
-      "category": "safety",
-      "title": "Anthropic publishes unprecedented mechanistic interpretability map of Claude 4",
-      "excerpt": "Researchers reverse-engineered 312 million features inside the model, including the first clear \"deception circuit\" discovered in a frontier model.",
-      "source": "Anthropic",
-      "url": "https://anthropic.com/research/claude-4-interp",
-      "publishedAt": "2026-10-11T15:24:38.599Z",
-      "impact": 91
-    },
-    {
-      "id": "marktechpost-1791699621000-3",
-      "type": "live",
-      "category": "llm",
-      "title": "OrcaRouter Releases OrcaCyber Zero 1.5 Cybersecurity Model With 1M Context",
-      "excerpt": "OrcaRouter released OrcaCyber Zero 1. 5, a gated cybersecurity model with a 1M-token context window",
-      "source": "MarkTechPost",
-      "url": "https://www.marktechpost.com/2026/10/10/orcarouter-releases-orcacyber-zero-1-5-cybersecurity-model-with-1m-context/",
-      "publishedAt": "2026-10-11T06:20:21.000Z",
       "impact": 65
     },
     {

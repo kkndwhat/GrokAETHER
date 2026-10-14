@@ -1,8 +1,19 @@
 {
-  "lastUpdated": "2026-10-14T04:23:42.829Z",
+  "lastUpdated": "2026-10-14T16:55:32.394Z",
   "source": "AETHER + Public RSS (arXiv, Hugging Face, MarkTechPost, Ben's Bites)",
-  "count": 10,
+  "count": 16,
   "articles": [
+    {
+      "id": "hugging-face-1791994362000-0",
+      "type": "live",
+      "category": "research",
+      "title": "HiRO-ACEv2: Simulating extreme weather at 3 km resolution for a fraction of the cost",
+      "excerpt": "New development from the frontier.",
+      "source": "Hugging Face",
+      "url": "https://huggingface.co/blog/allenai/hiro-acev2",
+      "publishedAt": "2026-10-14T16:12:42.000Z",
+      "impact": 75
+    },
     {
       "id": "aether-grok43",
       "type": "premium",
@@ -11,29 +22,18 @@
       "excerpt": "New model demonstrates 4.2× improvement on multi-step software engineering benchmarks and sustains coherent agent trajectories beyond 110k tokens.",
       "source": "xAI",
       "url": "https://x.ai/blog/grok-4.3",
-      "publishedAt": "2026-10-13T23:23:42.570Z",
+      "publishedAt": "2026-10-14T11:55:31.706Z",
       "impact": 96
     },
     {
-      "id": "marktechpost-1791932024000-0",
+      "id": "marktechpost-1791968248000-0",
       "type": "live",
       "category": "llm",
-      "title": "Meta Launches Muse Wonder and Muse Wonder Full: Benchmarks, Pricing and How to Use It",
-      "excerpt": "Meta released Muse Wonder and Muse Wonder Full, 1M-context agent models.  Muse Wonder costs $4/$20 per million tokens on Meta Model API",
+      "title": "9 Best AI Gateways in 2026: Bifrost, Portkey, LiteLLM, Kong and 5 More Ranked",
+      "excerpt": "Marktechpost ranks the 9 best AI gateways for 2026.  We compare Bifrost, Portkey, LiteLLM, Kong, TrueFoundry, Cloudflare, Vercel, OpenRouter and Orq",
       "source": "MarkTechPost",
-      "url": "https://www.marktechpost.com/2026/10/13/meta-muse-wonder-muse-wonder-full-release/",
-      "publishedAt": "2026-10-13T22:53:44.000Z",
-      "impact": 65
-    },
-    {
-      "id": "marktechpost-1791929660000-1",
-      "type": "live",
-      "category": "research",
-      "title": "How to Use Meta’s Rebalancer for Task Placement & Optimization",
-      "excerpt": "In this comprehensive coding tutorial, we explore Meta's Rebalancer assignment solver using its C++ core and Python bindings.  Learn how to build datacenters, manage task placements across racks, handle constraints an...",
-      "source": "MarkTechPost",
-      "url": "https://www.marktechpost.com/2026/10/13/how-to-use-metas-rebalancer-for-task-placement-optimization/",
-      "publishedAt": "2026-10-13T22:14:20.000Z",
+      "url": "https://www.marktechpost.com/2026/10/14/best-ai-gateways-2026/",
+      "publishedAt": "2026-10-14T08:57:28.000Z",
       "impact": 65
     },
     {
@@ -44,19 +44,96 @@
       "excerpt": "Humanoid achieves new milestone in unsupervised operation, performing 1,240 unique tasks across three assembly lines at the BMW South Carolina plant.",
       "source": "Figure AI",
       "url": "https://figure.ai/news/03-milestone",
-      "publishedAt": "2026-10-13T19:23:42.571Z",
+      "publishedAt": "2026-10-14T07:55:31.706Z",
       "impact": 89
     },
     {
-      "id": "hugging-face-1791911148000-0",
+      "id": "marktechpost-1791964240000-1",
+      "type": "live",
+      "category": "llm",
+      "title": "Liquid AI Releases LFM2.5-24B-A2B: A 2B-Active MoE for On-Device Agents",
+      "excerpt": "Liquid AI released LFM2. 5-24B-A2B, an open-weight 24B Mixture-of-Experts reasoning model with 2B active parameters",
+      "source": "MarkTechPost",
+      "url": "https://www.marktechpost.com/2026/10/14/liquid-ai-lfm2-5-24b-a2b/",
+      "publishedAt": "2026-10-14T07:50:40.000Z",
+      "impact": 77
+    },
+    {
+      "id": "marktechpost-1791954214000-2",
+      "type": "live",
+      "category": "llm",
+      "title": "Google Releases Gemini 4 Argon API With 1M Token Output Limit",
+      "excerpt": "Google has made Gemini 4 Argon generally available on the Gemini API, AI Studio and the Gemini app.  The sparse MoE model writes up to 1M output tokens and leads the Vals Index at 68",
+      "source": "MarkTechPost",
+      "url": "https://www.marktechpost.com/2026/10/13/google-gemini-4-argon-api-release/",
+      "publishedAt": "2026-10-14T05:03:34.000Z",
+      "impact": 65
+    },
+    {
+      "id": "arxiv-cs.ai-1791950400000-0",
+      "type": "live",
+      "category": "llm",
+      "title": "Artificiality's First Exam: An LLM-Referenced C-test for Supraintelligence",
+      "excerpt": "14005v1 Announce Type: new Abstract: Under the accelerated pace of AI development, any benchmark whose difficulty is calibrated with humans or current AI systems becomes circular, or saturates soon.  How can we then e...",
+      "source": "arXiv cs.AI",
+      "url": "https://arxiv.org/abs/2610.14005",
+      "publishedAt": "2026-10-14T04:00:00.000Z",
+      "impact": 58
+    },
+    {
+      "id": "arxiv-cs.ai-1791950400000-1",
+      "type": "live",
+      "category": "llm",
+      "title": "The Silent Failures in Agentic Data Science",
+      "excerpt": "14115v1 Announce Type: new Abstract: Large language models have significantly lowered the barrier to writing code.  Naturally, this has also led to the development of data science agents that promise automating the de...",
+      "source": "arXiv cs.AI",
+      "url": "https://arxiv.org/abs/2610.14115",
+      "publishedAt": "2026-10-14T04:00:00.000Z",
+      "impact": 69
+    },
+    {
+      "id": "arxiv-cs.ai-1791950400000-2",
+      "type": "live",
+      "category": "llm",
+      "title": "ClawLoop: Self-Improving Agents via Harness-Native Training Loop",
+      "excerpt": "14118v1 Announce Type: new Abstract: The rapid advancement of Large Language Models (LLMs) has driven their deployment toward general-purpose harness environments, where LLM-based agents operate in sandbox workspaces ...",
+      "source": "arXiv cs.AI",
+      "url": "https://arxiv.org/abs/2610.14118",
+      "publishedAt": "2026-10-14T04:00:00.000Z",
+      "impact": 69
+    },
+    {
+      "id": "arxiv-cs.ai-1791950400000-3",
+      "type": "live",
+      "category": "multimodal",
+      "title": "Correction Training for Diffusion Models",
+      "excerpt": "14136v1 Announce Type: new Abstract: Iterative sampling in diffusion models can lead to error accumulation due to exposure bias.  The denoiser is trained on real images interpolated with noise, but at inference its in...",
+      "source": "arXiv cs.AI",
+      "url": "https://arxiv.org/abs/2610.14136",
+      "publishedAt": "2026-10-14T04:00:00.000Z",
+      "impact": 58
+    },
+    {
+      "id": "arxiv-cs.ai-1791950400000-4",
+      "type": "live",
+      "category": "llm",
+      "title": "Long-Horizon-Terminal-Bench 2.0: Automating Diverse Task Construction and Measuring Sustained Agent Progress",
+      "excerpt": "14146v1 Announce Type: new Abstract: Long-horizon terminal benchmarks measure whether an agent can sustain progress through extended workflows with process rewards, not only whether its final state passes a binary che...",
+      "source": "arXiv cs.AI",
+      "url": "https://arxiv.org/abs/2610.14146",
+      "publishedAt": "2026-10-14T04:00:00.000Z",
+      "impact": 69
+    },
+    {
+      "id": "arxiv-cs.ai-1791950400000-5",
       "type": "live",
       "category": "research",
-      "title": "Run fast, private agents on-device with LFM2.5-24B-A2B",
-      "excerpt": "New development from the frontier.",
-      "source": "Hugging Face",
-      "url": "https://huggingface.co/blog/LiquidAI/lfm25-24b-a2b",
-      "publishedAt": "2026-10-13T17:05:48.000Z",
-      "impact": 87
+      "title": "VETNET: Assembling Benchmark Datasets for AI-Driven Veterinary Innovation",
+      "excerpt": "14149v1 Announce Type: new Abstract: VETNET represents an ecosystem of live benchmark datasets and evaluation frameworks designed to accelerate AI-driven innovation in animal science and veterinary medicine through st...",
+      "source": "arXiv cs.AI",
+      "url": "https://arxiv.org/abs/2610.14149",
+      "publishedAt": "2026-10-14T04:00:00.000Z",
+      "impact": 58
     },
     {
       "id": "aether-interp",
@@ -66,41 +143,30 @@
       "excerpt": "Researchers reverse-engineered 312 million features inside the model, including the first clear \"deception circuit\" discovered in a frontier model.",
       "source": "Anthropic",
       "url": "https://anthropic.com/research/claude-4-interp",
-      "publishedAt": "2026-10-13T14:23:42.571Z",
+      "publishedAt": "2026-10-14T02:55:31.706Z",
       "impact": 91
     },
     {
-      "id": "marktechpost-1791879594000-2",
+      "id": "marktechpost-1791932024000-3",
       "type": "live",
       "category": "llm",
-      "title": "Z.ai GLM-Legal Beats Claude Fable 5 and Kimi K3 on Harvey LAB",
-      "excerpt": "ai’s GLM-Legal is a legal AI model built on GLM-5. 2% all-pass on Harvey’s Legal Agent Benchmark, nearly 3x its base, at $0",
+      "title": "Meta Launches Muse Wonder and Muse Wonder Full: Benchmarks, Pricing and How to Use It",
+      "excerpt": "Meta released Muse Wonder and Muse Wonder Full, 1M-context agent models.  Muse Wonder costs $4/$20 per million tokens on Meta Model API",
       "source": "MarkTechPost",
-      "url": "https://www.marktechpost.com/2026/10/13/zai-glm-legal-harvey-lab-legal-ai-model/",
-      "publishedAt": "2026-10-13T08:19:54.000Z",
+      "url": "https://www.marktechpost.com/2026/10/13/meta-muse-wonder-muse-wonder-full-release/",
+      "publishedAt": "2026-10-13T22:53:44.000Z",
       "impact": 65
     },
     {
-      "id": "marktechpost-1791841310000-3",
+      "id": "hugging-face-1791911148000-1",
       "type": "live",
       "category": "research",
-      "title": "Alibaba Qwen Introduces QwenGyre: Elastic Reinforcement Learning RL for XLong-Horizon Agents",
-      "excerpt": "Alibaba’s Qwen team has introduced QwenGyre, an elastic reinforcement learning RL framework for extreme-long-horizon agent training.  QwenGyre is an online reinforcement learning system from Alibaba that trains coding...",
-      "source": "MarkTechPost",
-      "url": "https://www.marktechpost.com/2026/10/12/alibaba-qwen-introduces-qwengyre-elastic-reinforcement-learning-rl-for-xlong-horizon-agents/",
-      "publishedAt": "2026-10-12T21:41:50.000Z",
-      "impact": 77
-    },
-    {
-      "id": "hugging-face-1791559229000-1",
-      "type": "live",
-      "category": "hardware",
-      "title": "Impactful scheduling for GPU clusters",
+      "title": "Run fast, private agents on-device with LFM2.5-24B-A2B",
       "excerpt": "New development from the frontier.",
       "source": "Hugging Face",
-      "url": "https://huggingface.co/blog/allenai/impactful-scheduling",
-      "publishedAt": "2026-10-09T15:20:29.000Z",
-      "impact": 75
+      "url": "https://huggingface.co/blog/LiquidAI/lfm25-24b-a2b",
+      "publishedAt": "2026-10-13T17:05:48.000Z",
+      "impact": 87
     },
     {
       "id": "hugging-face-1791417600000-2",

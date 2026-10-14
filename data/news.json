@@ -1,8 +1,19 @@
 {
-  "lastUpdated": "2026-10-14T16:55:32.394Z",
+  "lastUpdated": "2026-10-14T21:28:22.836Z",
   "source": "AETHER + Public RSS (arXiv, Hugging Face, MarkTechPost, Ben's Bites)",
   "count": 16,
   "articles": [
+    {
+      "id": "aether-grok43",
+      "type": "premium",
+      "category": "llm",
+      "title": "xAI releases Grok-4.3 with native long-horizon agent scaffolding",
+      "excerpt": "New model demonstrates 4.2× improvement on multi-step software engineering benchmarks and sustains coherent agent trajectories beyond 110k tokens.",
+      "source": "xAI",
+      "url": "https://x.ai/blog/grok-4.3",
+      "publishedAt": "2026-10-14T16:28:22.408Z",
+      "impact": 96
+    },
     {
       "id": "hugging-face-1791994362000-0",
       "type": "live",
@@ -15,15 +26,15 @@
       "impact": 75
     },
     {
-      "id": "aether-grok43",
+      "id": "aether-figure03",
       "type": "premium",
-      "category": "llm",
-      "title": "xAI releases Grok-4.3 with native long-horizon agent scaffolding",
-      "excerpt": "New model demonstrates 4.2× improvement on multi-step software engineering benchmarks and sustains coherent agent trajectories beyond 110k tokens.",
-      "source": "xAI",
-      "url": "https://x.ai/blog/grok-4.3",
-      "publishedAt": "2026-10-14T11:55:31.706Z",
-      "impact": 96
+      "category": "robotics",
+      "title": "Figure 03 completes 43-hour autonomous factory shift with zero interventions",
+      "excerpt": "Humanoid achieves new milestone in unsupervised operation, performing 1,240 unique tasks across three assembly lines at the BMW South Carolina plant.",
+      "source": "Figure AI",
+      "url": "https://figure.ai/news/03-milestone",
+      "publishedAt": "2026-10-14T12:28:22.408Z",
+      "impact": 89
     },
     {
       "id": "marktechpost-1791968248000-0",
@@ -37,17 +48,6 @@
       "impact": 65
     },
     {
-      "id": "aether-figure03",
-      "type": "premium",
-      "category": "robotics",
-      "title": "Figure 03 completes 43-hour autonomous factory shift with zero interventions",
-      "excerpt": "Humanoid achieves new milestone in unsupervised operation, performing 1,240 unique tasks across three assembly lines at the BMW South Carolina plant.",
-      "source": "Figure AI",
-      "url": "https://figure.ai/news/03-milestone",
-      "publishedAt": "2026-10-14T07:55:31.706Z",
-      "impact": 89
-    },
-    {
       "id": "marktechpost-1791964240000-1",
       "type": "live",
       "category": "llm",
@@ -57,6 +57,17 @@
       "url": "https://www.marktechpost.com/2026/10/14/liquid-ai-lfm2-5-24b-a2b/",
       "publishedAt": "2026-10-14T07:50:40.000Z",
       "impact": 77
+    },
+    {
+      "id": "aether-interp",
+      "type": "premium",
+      "category": "safety",
+      "title": "Anthropic publishes unprecedented mechanistic interpretability map of Claude 4",
+      "excerpt": "Researchers reverse-engineered 312 million features inside the model, including the first clear \"deception circuit\" discovered in a frontier model.",
+      "source": "Anthropic",
+      "url": "https://anthropic.com/research/claude-4-interp",
+      "publishedAt": "2026-10-14T07:28:22.408Z",
+      "impact": 91
     },
     {
       "id": "marktechpost-1791954214000-2",
@@ -134,17 +145,6 @@
       "url": "https://arxiv.org/abs/2610.14149",
       "publishedAt": "2026-10-14T04:00:00.000Z",
       "impact": 58
-    },
-    {
-      "id": "aether-interp",
-      "type": "premium",
-      "category": "safety",
-      "title": "Anthropic publishes unprecedented mechanistic interpretability map of Claude 4",
-      "excerpt": "Researchers reverse-engineered 312 million features inside the model, including the first clear \"deception circuit\" discovered in a frontier model.",
-      "source": "Anthropic",
-      "url": "https://anthropic.com/research/claude-4-interp",
-      "publishedAt": "2026-10-14T02:55:31.706Z",
-      "impact": 91
     },
     {
       "id": "marktechpost-1791932024000-3",

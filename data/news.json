@@ -1,8 +1,30 @@
 {
-  "lastUpdated": "2026-10-15T11:11:31.036Z",
+  "lastUpdated": "2026-10-15T16:42:19.427Z",
   "source": "AETHER + Public RSS (arXiv, Hugging Face, MarkTechPost, Ben's Bites)",
   "count": 16,
   "articles": [
+    {
+      "id": "marktechpost-1792073967000-0",
+      "type": "live",
+      "category": "llm",
+      "title": "CopilotKit Releases CLiF: A Continual Learning Platform That Turns Agent Traces and User Actions into Skills, Evals, and Fine-Tuning Data",
+      "excerpt": "Introduction Teams shipping AI agents at scale keep running into the same pattern.  Even agents built on top-tier models like Fable and Astra struggle to carry out complex, end-to-end tasks inside a specific product c...",
+      "source": "MarkTechPost",
+      "url": "https://www.marktechpost.com/2026/10/15/copilotkit-releases-clif-a-continual-learning-platform-that-turns-agent-traces-and-user-actions-into-skills-evals-and-fine-tuning-data/",
+      "publishedAt": "2026-10-15T14:19:27.000Z",
+      "impact": 77
+    },
+    {
+      "id": "marktechpost-1792070625000-1",
+      "type": "live",
+      "category": "multimodal",
+      "title": "openKylin Outlines Its Vision for Reimagining Linux in the AI Era at Open Source Summit Europe 2026",
+      "excerpt": "At Open Source Summit Europe 2026, openKylin outlined its vision for transitioning from resource management to intent management in the AI era.  The community introduced KART, a unified AI runtime, alongside core desk...",
+      "source": "MarkTechPost",
+      "url": "https://www.marktechpost.com/2026/10/15/openkylin-outlines-its-vision-for-reimagining-linux-in-the-ai-era-at-open-source-summit-europe-2026/",
+      "publishedAt": "2026-10-15T13:23:45.000Z",
+      "impact": 65
+    },
     {
       "id": "aether-grok43",
       "type": "premium",
@@ -11,11 +33,33 @@
       "excerpt": "New model demonstrates 4.2× improvement on multi-step software engineering benchmarks and sustains coherent agent trajectories beyond 110k tokens.",
       "source": "xAI",
       "url": "https://x.ai/blog/grok-4.3",
-      "publishedAt": "2026-10-15T06:11:30.465Z",
+      "publishedAt": "2026-10-15T11:42:18.789Z",
       "impact": 96
     },
     {
-      "id": "marktechpost-1792043103000-0",
+      "id": "hugging-face-1792055325000-0",
+      "type": "live",
+      "category": "research",
+      "title": "Apertus 1.5 Release Notes",
+      "excerpt": "New development from the frontier.",
+      "source": "Hugging Face",
+      "url": "https://huggingface.co/blog/swiss-ai/apertus-v15-release-notes",
+      "publishedAt": "2026-10-15T09:08:45.000Z",
+      "impact": 75
+    },
+    {
+      "id": "aether-figure03",
+      "type": "premium",
+      "category": "robotics",
+      "title": "Figure 03 completes 43-hour autonomous factory shift with zero interventions",
+      "excerpt": "Humanoid achieves new milestone in unsupervised operation, performing 1,240 unique tasks across three assembly lines at the BMW South Carolina plant.",
+      "source": "Figure AI",
+      "url": "https://figure.ai/news/03-milestone",
+      "publishedAt": "2026-10-15T07:42:18.789Z",
+      "impact": 89
+    },
+    {
+      "id": "marktechpost-1792043103000-2",
       "type": "live",
       "category": "multimodal",
       "title": "TypeSafe AI Releases Jev 1.14 With Images, Box Type and 262k Context",
@@ -26,7 +70,7 @@
       "impact": 65
     },
     {
-      "id": "marktechpost-1792041534000-1",
+      "id": "marktechpost-1792041534000-3",
       "type": "live",
       "category": "llm",
       "title": "Meet Grok Voice 3.0: SpaceXAI Voice Agent Model Ranks #1 on Artificial Analysis",
@@ -103,39 +147,6 @@
       "impact": 58
     },
     {
-      "id": "aether-figure03",
-      "type": "premium",
-      "category": "robotics",
-      "title": "Figure 03 completes 43-hour autonomous factory shift with zero interventions",
-      "excerpt": "Humanoid achieves new milestone in unsupervised operation, performing 1,240 unique tasks across three assembly lines at the BMW South Carolina plant.",
-      "source": "Figure AI",
-      "url": "https://figure.ai/news/03-milestone",
-      "publishedAt": "2026-10-15T02:11:30.465Z",
-      "impact": 89
-    },
-    {
-      "id": "marktechpost-1792021045000-2",
-      "type": "live",
-      "category": "research",
-      "title": "Datalab Releases OmniParseBench: An Open OCR Benchmark With 16,288 Pass/Fail Tests to Audit OCR Parsers",
-      "excerpt": "Datalab released OmniParseBench, an open OCR benchmark with 16,288 yes/no tests on 2,937 pages in 92 languages.  Every score is a pass rate you can slice by tag, script or language",
-      "source": "MarkTechPost",
-      "url": "https://www.marktechpost.com/2026/10/14/datalab-omniparsebench-open-ocr-document-parsing-benchmark/",
-      "publishedAt": "2026-10-14T23:37:25.000Z",
-      "impact": 65
-    },
-    {
-      "id": "marktechpost-1792018337000-3",
-      "type": "live",
-      "category": "multimodal",
-      "title": "Fish Audio Releases Drama 3, a 35B Open-Weight MoE Text-to-Speech Model",
-      "excerpt": "Fish Audio released Drama 3, a 35B mixture-of-experts text-to-speech model with about 3B active parameters.  It takes plain-language direction, covers 83 languages and ships open weights under a revenue-capped communi...",
-      "source": "MarkTechPost",
-      "url": "https://www.marktechpost.com/2026/10/14/fish-audio-drama-3-open-weight-tts-model/",
-      "publishedAt": "2026-10-14T22:52:17.000Z",
-      "impact": 65
-    },
-    {
       "id": "aether-interp",
       "type": "premium",
       "category": "safety",
@@ -143,11 +154,22 @@
       "excerpt": "Researchers reverse-engineered 312 million features inside the model, including the first clear \"deception circuit\" discovered in a frontier model.",
       "source": "Anthropic",
       "url": "https://anthropic.com/research/claude-4-interp",
-      "publishedAt": "2026-10-14T21:11:30.465Z",
+      "publishedAt": "2026-10-15T02:42:18.789Z",
       "impact": 91
     },
     {
-      "id": "hugging-face-1791994362000-0",
+      "id": "hugging-face-1792022400000-1",
+      "type": "live",
+      "category": "multimodal",
+      "title": "Welcome FLUX.3 Image Klein in Diffusers",
+      "excerpt": "New development from the frontier.",
+      "source": "Hugging Face",
+      "url": "https://huggingface.co/blog/flux-3",
+      "publishedAt": "2026-10-15T00:00:00.000Z",
+      "impact": 75
+    },
+    {
+      "id": "hugging-face-1791994362000-2",
       "type": "live",
       "category": "research",
       "title": "HiRO-ACEv2: Simulating extreme weather at 3 km resolution for a fraction of the cost",
@@ -155,28 +177,6 @@
       "source": "Hugging Face",
       "url": "https://huggingface.co/blog/allenai/hiro-acev2",
       "publishedAt": "2026-10-14T16:12:42.000Z",
-      "impact": 75
-    },
-    {
-      "id": "hugging-face-1791911148000-1",
-      "type": "live",
-      "category": "research",
-      "title": "Run fast, private agents on-device with LFM2.5-24B-A2B",
-      "excerpt": "New development from the frontier.",
-      "source": "Hugging Face",
-      "url": "https://huggingface.co/blog/LiquidAI/lfm25-24b-a2b",
-      "publishedAt": "2026-10-13T17:05:48.000Z",
-      "impact": 87
-    },
-    {
-      "id": "hugging-face-1791417600000-2",
-      "type": "live",
-      "category": "llm",
-      "title": "The model that didn't exist, so you made it yourself",
-      "excerpt": "New development from the frontier.",
-      "source": "Hugging Face",
-      "url": "https://huggingface.co/blog/building-with-ml-intern",
-      "publishedAt": "2026-10-08T00:00:00.000Z",
       "impact": 75
     }
   ]

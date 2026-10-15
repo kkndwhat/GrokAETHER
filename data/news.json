@@ -1,8 +1,41 @@
 {
-  "lastUpdated": "2026-10-15T04:06:07.823Z",
+  "lastUpdated": "2026-10-15T11:11:31.036Z",
   "source": "AETHER + Public RSS (arXiv, Hugging Face, MarkTechPost, Ben's Bites)",
   "count": 16,
   "articles": [
+    {
+      "id": "aether-grok43",
+      "type": "premium",
+      "category": "llm",
+      "title": "xAI releases Grok-4.3 with native long-horizon agent scaffolding",
+      "excerpt": "New model demonstrates 4.2× improvement on multi-step software engineering benchmarks and sustains coherent agent trajectories beyond 110k tokens.",
+      "source": "xAI",
+      "url": "https://x.ai/blog/grok-4.3",
+      "publishedAt": "2026-10-15T06:11:30.465Z",
+      "impact": 96
+    },
+    {
+      "id": "marktechpost-1792043103000-0",
+      "type": "live",
+      "category": "multimodal",
+      "title": "TypeSafe AI Releases Jev 1.14 With Images, Box Type and 262k Context",
+      "excerpt": "TypeSafe AI released Jev 1. 14 under the jev-preview alias",
+      "source": "MarkTechPost",
+      "url": "https://www.marktechpost.com/2026/10/14/typesafe-ai-jev-1-14-images-box-long-context/",
+      "publishedAt": "2026-10-15T05:45:03.000Z",
+      "impact": 65
+    },
+    {
+      "id": "marktechpost-1792041534000-1",
+      "type": "live",
+      "category": "llm",
+      "title": "Meet Grok Voice 3.0: SpaceXAI Voice Agent Model Ranks #1 on Artificial Analysis",
+      "excerpt": "SpaceXAI just released Grok Voice 3. 0 is a SpaceXAI speech-to-speech model that listens, reasons, calls tools and speaks",
+      "source": "MarkTechPost",
+      "url": "https://www.marktechpost.com/2026/10/14/meet-grok-voice-3-0-spacexai-voice-agent-model-ranks-1-on-artificial-analysis/",
+      "publishedAt": "2026-10-15T05:18:54.000Z",
+      "impact": 77
+    },
     {
       "id": "arxiv-cs.ai-1792036800000-0",
       "type": "live",
@@ -70,7 +103,18 @@
       "impact": 58
     },
     {
-      "id": "marktechpost-1792021045000-0",
+      "id": "aether-figure03",
+      "type": "premium",
+      "category": "robotics",
+      "title": "Figure 03 completes 43-hour autonomous factory shift with zero interventions",
+      "excerpt": "Humanoid achieves new milestone in unsupervised operation, performing 1,240 unique tasks across three assembly lines at the BMW South Carolina plant.",
+      "source": "Figure AI",
+      "url": "https://figure.ai/news/03-milestone",
+      "publishedAt": "2026-10-15T02:11:30.465Z",
+      "impact": 89
+    },
+    {
+      "id": "marktechpost-1792021045000-2",
       "type": "live",
       "category": "research",
       "title": "Datalab Releases OmniParseBench: An Open OCR Benchmark With 16,288 Pass/Fail Tests to Audit OCR Parsers",
@@ -81,18 +125,7 @@
       "impact": 65
     },
     {
-      "id": "aether-grok43",
-      "type": "premium",
-      "category": "llm",
-      "title": "xAI releases Grok-4.3 with native long-horizon agent scaffolding",
-      "excerpt": "New model demonstrates 4.2× improvement on multi-step software engineering benchmarks and sustains coherent agent trajectories beyond 110k tokens.",
-      "source": "xAI",
-      "url": "https://x.ai/blog/grok-4.3",
-      "publishedAt": "2026-10-14T23:06:07.419Z",
-      "impact": 96
-    },
-    {
-      "id": "marktechpost-1792018337000-1",
+      "id": "marktechpost-1792018337000-3",
       "type": "live",
       "category": "multimodal",
       "title": "Fish Audio Releases Drama 3, a 35B Open-Weight MoE Text-to-Speech Model",
@@ -103,15 +136,15 @@
       "impact": 65
     },
     {
-      "id": "aether-figure03",
+      "id": "aether-interp",
       "type": "premium",
-      "category": "robotics",
-      "title": "Figure 03 completes 43-hour autonomous factory shift with zero interventions",
-      "excerpt": "Humanoid achieves new milestone in unsupervised operation, performing 1,240 unique tasks across three assembly lines at the BMW South Carolina plant.",
-      "source": "Figure AI",
-      "url": "https://figure.ai/news/03-milestone",
-      "publishedAt": "2026-10-14T19:06:07.419Z",
-      "impact": 89
+      "category": "safety",
+      "title": "Anthropic publishes unprecedented mechanistic interpretability map of Claude 4",
+      "excerpt": "Researchers reverse-engineered 312 million features inside the model, including the first clear \"deception circuit\" discovered in a frontier model.",
+      "source": "Anthropic",
+      "url": "https://anthropic.com/research/claude-4-interp",
+      "publishedAt": "2026-10-14T21:11:30.465Z",
+      "impact": 91
     },
     {
       "id": "hugging-face-1791994362000-0",
@@ -123,39 +156,6 @@
       "url": "https://huggingface.co/blog/allenai/hiro-acev2",
       "publishedAt": "2026-10-14T16:12:42.000Z",
       "impact": 75
-    },
-    {
-      "id": "aether-interp",
-      "type": "premium",
-      "category": "safety",
-      "title": "Anthropic publishes unprecedented mechanistic interpretability map of Claude 4",
-      "excerpt": "Researchers reverse-engineered 312 million features inside the model, including the first clear \"deception circuit\" discovered in a frontier model.",
-      "source": "Anthropic",
-      "url": "https://anthropic.com/research/claude-4-interp",
-      "publishedAt": "2026-10-14T14:06:07.419Z",
-      "impact": 91
-    },
-    {
-      "id": "marktechpost-1791968248000-2",
-      "type": "live",
-      "category": "llm",
-      "title": "9 Best AI Gateways in 2026: Bifrost, Portkey, LiteLLM, Kong and 5 More Ranked",
-      "excerpt": "Marktechpost ranks the 9 best AI gateways for 2026.  We compare Bifrost, Portkey, LiteLLM, Kong, TrueFoundry, Cloudflare, Vercel, OpenRouter and Orq",
-      "source": "MarkTechPost",
-      "url": "https://www.marktechpost.com/2026/10/14/best-ai-gateways-2026/",
-      "publishedAt": "2026-10-14T08:57:28.000Z",
-      "impact": 65
-    },
-    {
-      "id": "marktechpost-1791964240000-3",
-      "type": "live",
-      "category": "llm",
-      "title": "Liquid AI Releases LFM2.5-24B-A2B: A 2B-Active MoE for On-Device Agents",
-      "excerpt": "Liquid AI released LFM2. 5-24B-A2B, an open-weight 24B Mixture-of-Experts reasoning model with 2B active parameters",
-      "source": "MarkTechPost",
-      "url": "https://www.marktechpost.com/2026/10/14/liquid-ai-lfm2-5-24b-a2b/",
-      "publishedAt": "2026-10-14T07:50:40.000Z",
-      "impact": 77
     },
     {
       "id": "hugging-face-1791911148000-1",

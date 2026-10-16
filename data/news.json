@@ -1,17 +1,94 @@
 {
-  "lastUpdated": "2026-10-15T21:10:32.294Z",
+  "lastUpdated": "2026-10-16T04:02:17.622Z",
   "source": "AETHER + Public RSS (arXiv, Hugging Face, MarkTechPost, Ben's Bites)",
   "count": 16,
   "articles": [
     {
-      "id": "hugging-face-1792096441000-0",
+      "id": "arxiv-cs.ai-1792123200000-0",
+      "type": "live",
+      "category": "llm",
+      "title": "The World Won't Wait: Evaluating and Teaching Agents Under a Live Clock",
+      "excerpt": "20665v1 Announce Type: new Abstract: Large language model (LLM) agents can solve complex interactive tasks, yet reasoning and tool calls take time.  In continuously changing environments, an otherwise correct action m...",
+      "source": "arXiv cs.AI",
+      "url": "https://arxiv.org/abs/2610.20665",
+      "publishedAt": "2026-10-16T04:00:00.000Z",
+      "impact": 69
+    },
+    {
+      "id": "arxiv-cs.ai-1792123200000-1",
+      "type": "live",
+      "category": "safety",
+      "title": "Evaluating Model Capabilities After Benchmark Saturation",
+      "excerpt": "20667v1 Announce Type: new Abstract: Rapid advances in AI capabilities are causing benchmarks to saturate.  Once several models approach perfect scores, a benchmark loses its power to differentiate between them, and w...",
+      "source": "arXiv cs.AI",
+      "url": "https://arxiv.org/abs/2610.20667",
+      "publishedAt": "2026-10-16T04:00:00.000Z",
+      "impact": 58
+    },
+    {
+      "id": "arxiv-cs.ai-1792123200000-2",
+      "type": "live",
+      "category": "safety",
+      "title": "Value-Informed Schedule Trimming for Accelerated Sequential Monte Carlo Guidance in Discrete Diffusion",
+      "excerpt": "20669v1 Announce Type: new Abstract: Reward-guided discrete diffusion enables test-time alignment with downstream objectives, but applying Sequential Monte Carlo (SMC) guidance at every denoising step is computational...",
+      "source": "arXiv cs.AI",
+      "url": "https://arxiv.org/abs/2610.20669",
+      "publishedAt": "2026-10-16T04:00:00.000Z",
+      "impact": 58
+    },
+    {
+      "id": "arxiv-cs.ai-1792123200000-3",
+      "type": "live",
+      "category": "llm",
+      "title": "AlphaDiana: A Measurement System for Agents in Verifiable Reasoning Tasks",
+      "excerpt": "20675v1 Announce Type: new Abstract: Agents pair reasoning models with harnesses that organize model calls, execute tools, load skill instructions, and retain history in memory.  Understanding agent performance requir...",
+      "source": "arXiv cs.AI",
+      "url": "https://arxiv.org/abs/2610.20675",
+      "publishedAt": "2026-10-16T04:00:00.000Z",
+      "impact": 69
+    },
+    {
+      "id": "arxiv-cs.ai-1792123200000-4",
+      "type": "live",
+      "category": "llm",
+      "title": "When Correctness Feedback Erases Evidence: Phase-Separated Completeness Auditing in Verus",
+      "excerpt": "20676v1 Announce Type: new Abstract: Correctness feedback suppresses the very evidence that specification-completeness auditing is designed to uncover: programs that satisfy a written contract but violate intended beh...",
+      "source": "arXiv cs.AI",
+      "url": "https://arxiv.org/abs/2610.20676",
+      "publishedAt": "2026-10-16T04:00:00.000Z",
+      "impact": 58
+    },
+    {
+      "id": "arxiv-cs.ai-1792123200000-5",
+      "type": "live",
+      "category": "safety",
+      "title": "Counterfactual Neighborhood Risk Fields: Evidence-Grounded Selective Safety for Vision-Language Models",
+      "excerpt": "20679v1 Announce Type: new Abstract: Representation-based safety defenses for vision-language models (VLMs) often learn to separate harmful from benign inputs, but separation alone does not establish what a risk score...",
+      "source": "arXiv cs.AI",
+      "url": "https://arxiv.org/abs/2610.20679",
+      "publishedAt": "2026-10-16T04:00:00.000Z",
+      "impact": 58
+    },
+    {
+      "id": "marktechpost-1792117564000-0",
+      "type": "live",
+      "category": "robotics",
+      "title": "Meta Releases Muse Spark Open: 816B Open-Weight MoE With 1M Context",
+      "excerpt": "Meta released Muse Spark Open, an 816B-parameter open-weight MoE model with 42B active parameters and a 1M-token context.  It leads open models on MCP-Atlas and runs on 2 M5 Ultra Mac Studios",
+      "source": "MarkTechPost",
+      "url": "https://www.marktechpost.com/2026/10/15/meta-muse-spark-open-816b-open-weight-model/",
+      "publishedAt": "2026-10-16T02:26:04.000Z",
+      "impact": 65
+    },
+    {
+      "id": "hugging-face-1792115087000-0",
       "type": "live",
       "category": "research",
-      "title": "Granite Switch 4.1: Chat, Decisions, and Speech from One Endpoint",
+      "title": "Scaling Indic Pretraining: 2.8 Trillion Tokens and an Open Data Generation Pipeline",
       "excerpt": "New development from the frontier.",
       "source": "Hugging Face",
-      "url": "https://huggingface.co/blog/ibm-granite/granite-switch-4-1",
-      "publishedAt": "2026-10-15T20:34:01.000Z",
+      "url": "https://huggingface.co/blog/nvidia/scaling-indic-pretraining",
+      "publishedAt": "2026-10-16T01:44:47.000Z",
       "impact": 75
     },
     {
@@ -22,11 +99,44 @@
       "excerpt": "New model demonstrates 4.2× improvement on multi-step software engineering benchmarks and sustains coherent agent trajectories beyond 110k tokens.",
       "source": "xAI",
       "url": "https://x.ai/blog/grok-4.3",
-      "publishedAt": "2026-10-15T16:10:31.428Z",
+      "publishedAt": "2026-10-15T23:02:16.983Z",
       "impact": 96
     },
     {
-      "id": "marktechpost-1792073967000-0",
+      "id": "hugging-face-1792096441000-1",
+      "type": "live",
+      "category": "research",
+      "title": "Granite Switch 4.1: Chat, Decisions, and Speech from One Endpoint",
+      "excerpt": "New development from the frontier.",
+      "source": "Hugging Face",
+      "url": "https://huggingface.co/blog/ibm-granite/granite-switch-4-1",
+      "publishedAt": "2026-10-15T20:34:01.000Z",
+      "impact": 75
+    },
+    {
+      "id": "marktechpost-1792094030000-1",
+      "type": "live",
+      "category": "multimodal",
+      "title": "NVIDIA Releases Nemotron 3.5 Super VL, a 120B Open Multimodal Agent Model",
+      "excerpt": "NVIDIA released Nemotron 3. 5 Super VL, an open 120B-parameter multimodal MoE model with 12B active parameters, 1M-token context and NVFP4 weights that run on 1 DGX Spark, plus 2 Bolt edge models",
+      "source": "MarkTechPost",
+      "url": "https://www.marktechpost.com/2026/10/15/nvidia-nemotron-3-5-super-vl-release/",
+      "publishedAt": "2026-10-15T19:53:50.000Z",
+      "impact": 77
+    },
+    {
+      "id": "aether-figure03",
+      "type": "premium",
+      "category": "robotics",
+      "title": "Figure 03 completes 43-hour autonomous factory shift with zero interventions",
+      "excerpt": "Humanoid achieves new milestone in unsupervised operation, performing 1,240 unique tasks across three assembly lines at the BMW South Carolina plant.",
+      "source": "Figure AI",
+      "url": "https://figure.ai/news/03-milestone",
+      "publishedAt": "2026-10-15T19:02:16.983Z",
+      "impact": 89
+    },
+    {
+      "id": "marktechpost-1792073967000-2",
       "type": "live",
       "category": "llm",
       "title": "CopilotKit Releases CLiF: A Continual Learning Platform That Turns Agent Traces and User Actions into Skills, Evals, and Fine-Tuning Data",
@@ -37,7 +147,18 @@
       "impact": 77
     },
     {
-      "id": "marktechpost-1792070625000-1",
+      "id": "aether-interp",
+      "type": "premium",
+      "category": "safety",
+      "title": "Anthropic publishes unprecedented mechanistic interpretability map of Claude 4",
+      "excerpt": "Researchers reverse-engineered 312 million features inside the model, including the first clear \"deception circuit\" discovered in a frontier model.",
+      "source": "Anthropic",
+      "url": "https://anthropic.com/research/claude-4-interp",
+      "publishedAt": "2026-10-15T14:02:16.983Z",
+      "impact": 91
+    },
+    {
+      "id": "marktechpost-1792070625000-3",
       "type": "live",
       "category": "multimodal",
       "title": "openKylin Outlines Its Vision for Reimagining Linux in the AI Era at Open Source Summit Europe 2026",
@@ -46,127 +167,6 @@
       "url": "https://www.marktechpost.com/2026/10/15/openkylin-outlines-its-vision-for-reimagining-linux-in-the-ai-era-at-open-source-summit-europe-2026/",
       "publishedAt": "2026-10-15T13:23:45.000Z",
       "impact": 65
-    },
-    {
-      "id": "aether-figure03",
-      "type": "premium",
-      "category": "robotics",
-      "title": "Figure 03 completes 43-hour autonomous factory shift with zero interventions",
-      "excerpt": "Humanoid achieves new milestone in unsupervised operation, performing 1,240 unique tasks across three assembly lines at the BMW South Carolina plant.",
-      "source": "Figure AI",
-      "url": "https://figure.ai/news/03-milestone",
-      "publishedAt": "2026-10-15T12:10:31.429Z",
-      "impact": 89
-    },
-    {
-      "id": "hugging-face-1792055325000-1",
-      "type": "live",
-      "category": "research",
-      "title": "Apertus 1.5 Release Notes",
-      "excerpt": "New development from the frontier.",
-      "source": "Hugging Face",
-      "url": "https://huggingface.co/blog/swiss-ai/apertus-v15-release-notes",
-      "publishedAt": "2026-10-15T09:08:45.000Z",
-      "impact": 75
-    },
-    {
-      "id": "aether-interp",
-      "type": "premium",
-      "category": "safety",
-      "title": "Anthropic publishes unprecedented mechanistic interpretability map of Claude 4",
-      "excerpt": "Researchers reverse-engineered 312 million features inside the model, including the first clear \"deception circuit\" discovered in a frontier model.",
-      "source": "Anthropic",
-      "url": "https://anthropic.com/research/claude-4-interp",
-      "publishedAt": "2026-10-15T07:10:31.429Z",
-      "impact": 91
-    },
-    {
-      "id": "marktechpost-1792043103000-2",
-      "type": "live",
-      "category": "multimodal",
-      "title": "TypeSafe AI Releases Jev 1.14 With Images, Box Type and 262k Context",
-      "excerpt": "TypeSafe AI released Jev 1. 14 under the jev-preview alias",
-      "source": "MarkTechPost",
-      "url": "https://www.marktechpost.com/2026/10/14/typesafe-ai-jev-1-14-images-box-long-context/",
-      "publishedAt": "2026-10-15T05:45:03.000Z",
-      "impact": 65
-    },
-    {
-      "id": "marktechpost-1792041534000-3",
-      "type": "live",
-      "category": "llm",
-      "title": "Meet Grok Voice 3.0: SpaceXAI Voice Agent Model Ranks #1 on Artificial Analysis",
-      "excerpt": "SpaceXAI just released Grok Voice 3. 0 is a SpaceXAI speech-to-speech model that listens, reasons, calls tools and speaks",
-      "source": "MarkTechPost",
-      "url": "https://www.marktechpost.com/2026/10/14/meet-grok-voice-3-0-spacexai-voice-agent-model-ranks-1-on-artificial-analysis/",
-      "publishedAt": "2026-10-15T05:18:54.000Z",
-      "impact": 77
-    },
-    {
-      "id": "arxiv-cs.ai-1792036800000-0",
-      "type": "live",
-      "category": "llm",
-      "title": "Artificiality's First Exam: An LLM-Referenced C-test for Supraintelligence",
-      "excerpt": "14005v1 Announce Type: new Abstract: Under the accelerated pace of AI development, any benchmark whose difficulty is calibrated with humans or current AI systems becomes circular, or saturates soon.  How can we then e...",
-      "source": "arXiv cs.AI",
-      "url": "https://arxiv.org/abs/2610.14005",
-      "publishedAt": "2026-10-15T04:00:00.000Z",
-      "impact": 58
-    },
-    {
-      "id": "arxiv-cs.ai-1792036800000-1",
-      "type": "live",
-      "category": "llm",
-      "title": "The Silent Failures in Agentic Data Science",
-      "excerpt": "14115v1 Announce Type: new Abstract: Large language models have significantly lowered the barrier to writing code.  Naturally, this has also led to the development of data science agents that promise automating the de...",
-      "source": "arXiv cs.AI",
-      "url": "https://arxiv.org/abs/2610.14115",
-      "publishedAt": "2026-10-15T04:00:00.000Z",
-      "impact": 69
-    },
-    {
-      "id": "arxiv-cs.ai-1792036800000-2",
-      "type": "live",
-      "category": "llm",
-      "title": "ClawLoop: Self-Improving Agents via Harness-Native Training Loop",
-      "excerpt": "14118v1 Announce Type: new Abstract: The rapid advancement of Large Language Models (LLMs) has driven their deployment toward general-purpose harness environments, where LLM-based agents operate in sandbox workspaces ...",
-      "source": "arXiv cs.AI",
-      "url": "https://arxiv.org/abs/2610.14118",
-      "publishedAt": "2026-10-15T04:00:00.000Z",
-      "impact": 69
-    },
-    {
-      "id": "arxiv-cs.ai-1792036800000-3",
-      "type": "live",
-      "category": "multimodal",
-      "title": "Correction Training for Diffusion Models",
-      "excerpt": "14136v2 Announce Type: new Abstract: Iterative sampling in diffusion models can lead to error accumulation due to exposure bias.  The denoiser is trained on real images interpolated with noise, but at inference its in...",
-      "source": "arXiv cs.AI",
-      "url": "https://arxiv.org/abs/2610.14136",
-      "publishedAt": "2026-10-15T04:00:00.000Z",
-      "impact": 58
-    },
-    {
-      "id": "arxiv-cs.ai-1792036800000-4",
-      "type": "live",
-      "category": "llm",
-      "title": "Long-Horizon-Terminal-Bench 2.0: Automating Diverse Task Construction and Measuring Sustained Agent Progress",
-      "excerpt": "14146v1 Announce Type: new Abstract: Long-horizon terminal benchmarks measure whether an agent can sustain progress through extended workflows with process rewards, not only whether its final state passes a binary che...",
-      "source": "arXiv cs.AI",
-      "url": "https://arxiv.org/abs/2610.14146",
-      "publishedAt": "2026-10-15T04:00:00.000Z",
-      "impact": 69
-    },
-    {
-      "id": "arxiv-cs.ai-1792036800000-5",
-      "type": "live",
-      "category": "research",
-      "title": "VETNET: Assembling Benchmark Datasets for AI-Driven Veterinary Innovation",
-      "excerpt": "14149v1 Announce Type: new Abstract: VETNET represents an ecosystem of live benchmark datasets and evaluation frameworks designed to accelerate AI-driven innovation in animal science and veterinary medicine through st...",
-      "source": "arXiv cs.AI",
-      "url": "https://arxiv.org/abs/2610.14149",
-      "publishedAt": "2026-10-15T04:00:00.000Z",
-      "impact": 58
     },
     {
       "id": "hugging-face-1792022400000-2",

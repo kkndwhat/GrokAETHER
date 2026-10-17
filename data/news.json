@@ -1,10 +1,131 @@
 {
-  "lastUpdated": "2026-10-17T03:53:05.724Z",
+  "lastUpdated": "2026-10-17T10:25:52.533Z",
   "source": "AETHER + Public RSS (arXiv, Hugging Face, MarkTechPost, Ben's Bites)",
   "count": 16,
   "articles": [
     {
-      "id": "marktechpost-1792195752000-0",
+      "id": "marktechpost-1792227238000-0",
+      "type": "live",
+      "category": "llm",
+      "title": "DeepSeek Just Released V4.1-Flash-1017, Scores 77.0 on DeepSWE, Opens Search API",
+      "excerpt": "DeepSeek has just released DeepSeek-V4. 1-Flash-1017, a new checkpoint of its V4",
+      "source": "MarkTechPost",
+      "url": "https://www.marktechpost.com/2026/10/17/deepseek-just-released-v4-1-flash-1017-scores-77-0-on-deepswe-opens-search-api/",
+      "publishedAt": "2026-10-17T08:53:58.000Z",
+      "impact": 65
+    },
+    {
+      "id": "marktechpost-1792221999000-1",
+      "type": "live",
+      "category": "llm",
+      "title": "20 Jev Alternatives: The Decision Models Taking On TypeSafe in 2026",
+      "excerpt": "TypeSafe launched Jev on September 15, 2026.  It is a decision model, not a chatbot",
+      "source": "MarkTechPost",
+      "url": "https://www.marktechpost.com/2026/10/17/20-jev-alternatives-the-decision-models-taking-on-typesafe-in-2026/",
+      "publishedAt": "2026-10-17T07:26:39.000Z",
+      "impact": 65
+    },
+    {
+      "id": "marktechpost-1792218595000-2",
+      "type": "live",
+      "category": "llm",
+      "title": "StepFun Releases Step 5 Preview Open Weights: 600B MoE, 27B Active, 1M Context",
+      "excerpt": "StepFun has released Step 5 Preview as open weights.  FP8 and BF16 checkpoints are live on Hugging Face and ModelScope",
+      "source": "MarkTechPost",
+      "url": "https://www.marktechpost.com/2026/10/16/stepfun-releases-step-5-preview-open-weights-600b-moe-27b-active-1m-context/",
+      "publishedAt": "2026-10-17T06:29:55.000Z",
+      "impact": 65
+    },
+    {
+      "id": "aether-grok43",
+      "type": "premium",
+      "category": "llm",
+      "title": "xAI releases Grok-4.3 with native long-horizon agent scaffolding",
+      "excerpt": "New model demonstrates 4.2× improvement on multi-step software engineering benchmarks and sustains coherent agent trajectories beyond 110k tokens.",
+      "source": "xAI",
+      "url": "https://x.ai/blog/grok-4.3",
+      "publishedAt": "2026-10-17T05:25:52.017Z",
+      "impact": 96
+    },
+    {
+      "id": "arxiv-cs.ai-1792209600000-0",
+      "type": "live",
+      "category": "llm",
+      "title": "The World Won't Wait: Evaluating and Teaching Agents Under a Live Clock",
+      "excerpt": "20665v1 Announce Type: new Abstract: Large language model (LLM) agents can solve complex interactive tasks, yet reasoning and tool calls take time.  In continuously changing environments, an otherwise correct action m...",
+      "source": "arXiv cs.AI",
+      "url": "https://arxiv.org/abs/2610.20665",
+      "publishedAt": "2026-10-17T04:00:00.000Z",
+      "impact": 69
+    },
+    {
+      "id": "arxiv-cs.ai-1792209600000-1",
+      "type": "live",
+      "category": "safety",
+      "title": "Evaluating Model Capabilities After Benchmark Saturation",
+      "excerpt": "20667v1 Announce Type: new Abstract: Rapid advances in AI capabilities are causing benchmarks to saturate.  Once several models approach perfect scores, a benchmark loses its power to differentiate between them, and w...",
+      "source": "arXiv cs.AI",
+      "url": "https://arxiv.org/abs/2610.20667",
+      "publishedAt": "2026-10-17T04:00:00.000Z",
+      "impact": 58
+    },
+    {
+      "id": "arxiv-cs.ai-1792209600000-2",
+      "type": "live",
+      "category": "safety",
+      "title": "Value-Informed Schedule Trimming for Accelerated Sequential Monte Carlo Guidance in Discrete Diffusion",
+      "excerpt": "20669v1 Announce Type: new Abstract: Reward-guided discrete diffusion enables test-time alignment with downstream objectives, but applying Sequential Monte Carlo (SMC) guidance at every denoising step is computational...",
+      "source": "arXiv cs.AI",
+      "url": "https://arxiv.org/abs/2610.20669",
+      "publishedAt": "2026-10-17T04:00:00.000Z",
+      "impact": 58
+    },
+    {
+      "id": "arxiv-cs.ai-1792209600000-3",
+      "type": "live",
+      "category": "llm",
+      "title": "AlphaDiana: A Measurement System for Agents in Verifiable Reasoning Tasks",
+      "excerpt": "20675v1 Announce Type: new Abstract: Agents pair reasoning models with harnesses that organize model calls, execute tools, load skill instructions, and retain history in memory.  Understanding agent performance requir...",
+      "source": "arXiv cs.AI",
+      "url": "https://arxiv.org/abs/2610.20675",
+      "publishedAt": "2026-10-17T04:00:00.000Z",
+      "impact": 69
+    },
+    {
+      "id": "arxiv-cs.ai-1792209600000-4",
+      "type": "live",
+      "category": "llm",
+      "title": "When Correctness Feedback Erases Evidence: Phase-Separated Completeness Auditing in Verus",
+      "excerpt": "20676v1 Announce Type: new Abstract: Correctness feedback suppresses the very evidence that specification-completeness auditing is designed to uncover: programs that satisfy a written contract but violate intended beh...",
+      "source": "arXiv cs.AI",
+      "url": "https://arxiv.org/abs/2610.20676",
+      "publishedAt": "2026-10-17T04:00:00.000Z",
+      "impact": 58
+    },
+    {
+      "id": "arxiv-cs.ai-1792209600000-5",
+      "type": "live",
+      "category": "safety",
+      "title": "Counterfactual Neighborhood Risk Fields: Evidence-Grounded Selective Safety for Vision-Language Models",
+      "excerpt": "20679v1 Announce Type: new Abstract: Representation-based safety defenses for vision-language models (VLMs) often learn to separate harmful from benign inputs, but separation alone does not establish what a risk score...",
+      "source": "arXiv cs.AI",
+      "url": "https://arxiv.org/abs/2610.20679",
+      "publishedAt": "2026-10-17T04:00:00.000Z",
+      "impact": 58
+    },
+    {
+      "id": "aether-figure03",
+      "type": "premium",
+      "category": "robotics",
+      "title": "Figure 03 completes 43-hour autonomous factory shift with zero interventions",
+      "excerpt": "Humanoid achieves new milestone in unsupervised operation, performing 1,240 unique tasks across three assembly lines at the BMW South Carolina plant.",
+      "source": "Figure AI",
+      "url": "https://figure.ai/news/03-milestone",
+      "publishedAt": "2026-10-17T01:25:52.017Z",
+      "impact": 89
+    },
+    {
+      "id": "marktechpost-1792195752000-3",
       "type": "live",
       "category": "research",
       "title": "Perplexity Open-Sources SPACE, a Firecracker MicroVM Sandbox for AI Agents",
@@ -15,28 +136,6 @@
       "impact": 77
     },
     {
-      "id": "aether-grok43",
-      "type": "premium",
-      "category": "llm",
-      "title": "xAI releases Grok-4.3 with native long-horizon agent scaffolding",
-      "excerpt": "New model demonstrates 4.2× improvement on multi-step software engineering benchmarks and sustains coherent agent trajectories beyond 110k tokens.",
-      "source": "xAI",
-      "url": "https://x.ai/blog/grok-4.3",
-      "publishedAt": "2026-10-16T22:53:05.134Z",
-      "impact": 96
-    },
-    {
-      "id": "aether-figure03",
-      "type": "premium",
-      "category": "robotics",
-      "title": "Figure 03 completes 43-hour autonomous factory shift with zero interventions",
-      "excerpt": "Humanoid achieves new milestone in unsupervised operation, performing 1,240 unique tasks across three assembly lines at the BMW South Carolina plant.",
-      "source": "Figure AI",
-      "url": "https://figure.ai/news/03-milestone",
-      "publishedAt": "2026-10-16T18:53:05.134Z",
-      "impact": 89
-    },
-    {
       "id": "aether-interp",
       "type": "premium",
       "category": "safety",
@@ -44,96 +143,8 @@
       "excerpt": "Researchers reverse-engineered 312 million features inside the model, including the first clear \"deception circuit\" discovered in a frontier model.",
       "source": "Anthropic",
       "url": "https://anthropic.com/research/claude-4-interp",
-      "publishedAt": "2026-10-16T13:53:05.134Z",
+      "publishedAt": "2026-10-16T20:25:52.017Z",
       "impact": 91
-    },
-    {
-      "id": "marktechpost-1792132001000-1",
-      "type": "live",
-      "category": "multimodal",
-      "title": "Liquid AI Releases d1-ultra: A Multimodal Decision Model That Scores 65 on the AA Decision Index",
-      "excerpt": "Liquid AI released d1-ultra, a text and image decision model that returns calibrated probabilities in 1 forward pass.  It scores 65 on the Artificial Analysis Decision Index and costs $0",
-      "source": "MarkTechPost",
-      "url": "https://www.marktechpost.com/2026/10/15/liquid-ai-d1-ultra-decision-model/",
-      "publishedAt": "2026-10-16T06:26:41.000Z",
-      "impact": 65
-    },
-    {
-      "id": "arxiv-cs.ai-1792123200000-0",
-      "type": "live",
-      "category": "llm",
-      "title": "The World Won't Wait: Evaluating and Teaching Agents Under a Live Clock",
-      "excerpt": "20665v1 Announce Type: new Abstract: Large language model (LLM) agents can solve complex interactive tasks, yet reasoning and tool calls take time.  In continuously changing environments, an otherwise correct action m...",
-      "source": "arXiv cs.AI",
-      "url": "https://arxiv.org/abs/2610.20665",
-      "publishedAt": "2026-10-16T04:00:00.000Z",
-      "impact": 69
-    },
-    {
-      "id": "arxiv-cs.ai-1792123200000-1",
-      "type": "live",
-      "category": "safety",
-      "title": "Evaluating Model Capabilities After Benchmark Saturation",
-      "excerpt": "20667v1 Announce Type: new Abstract: Rapid advances in AI capabilities are causing benchmarks to saturate.  Once several models approach perfect scores, a benchmark loses its power to differentiate between them, and w...",
-      "source": "arXiv cs.AI",
-      "url": "https://arxiv.org/abs/2610.20667",
-      "publishedAt": "2026-10-16T04:00:00.000Z",
-      "impact": 58
-    },
-    {
-      "id": "arxiv-cs.ai-1792123200000-2",
-      "type": "live",
-      "category": "safety",
-      "title": "Value-Informed Schedule Trimming for Accelerated Sequential Monte Carlo Guidance in Discrete Diffusion",
-      "excerpt": "20669v1 Announce Type: new Abstract: Reward-guided discrete diffusion enables test-time alignment with downstream objectives, but applying Sequential Monte Carlo (SMC) guidance at every denoising step is computational...",
-      "source": "arXiv cs.AI",
-      "url": "https://arxiv.org/abs/2610.20669",
-      "publishedAt": "2026-10-16T04:00:00.000Z",
-      "impact": 58
-    },
-    {
-      "id": "arxiv-cs.ai-1792123200000-3",
-      "type": "live",
-      "category": "llm",
-      "title": "AlphaDiana: A Measurement System for Agents in Verifiable Reasoning Tasks",
-      "excerpt": "20675v1 Announce Type: new Abstract: Agents pair reasoning models with harnesses that organize model calls, execute tools, load skill instructions, and retain history in memory.  Understanding agent performance requir...",
-      "source": "arXiv cs.AI",
-      "url": "https://arxiv.org/abs/2610.20675",
-      "publishedAt": "2026-10-16T04:00:00.000Z",
-      "impact": 69
-    },
-    {
-      "id": "arxiv-cs.ai-1792123200000-4",
-      "type": "live",
-      "category": "llm",
-      "title": "When Correctness Feedback Erases Evidence: Phase-Separated Completeness Auditing in Verus",
-      "excerpt": "20676v1 Announce Type: new Abstract: Correctness feedback suppresses the very evidence that specification-completeness auditing is designed to uncover: programs that satisfy a written contract but violate intended beh...",
-      "source": "arXiv cs.AI",
-      "url": "https://arxiv.org/abs/2610.20676",
-      "publishedAt": "2026-10-16T04:00:00.000Z",
-      "impact": 58
-    },
-    {
-      "id": "arxiv-cs.ai-1792123200000-5",
-      "type": "live",
-      "category": "safety",
-      "title": "Counterfactual Neighborhood Risk Fields: Evidence-Grounded Selective Safety for Vision-Language Models",
-      "excerpt": "20679v1 Announce Type: new Abstract: Representation-based safety defenses for vision-language models (VLMs) often learn to separate harmful from benign inputs, but separation alone does not establish what a risk score...",
-      "source": "arXiv cs.AI",
-      "url": "https://arxiv.org/abs/2610.20679",
-      "publishedAt": "2026-10-16T04:00:00.000Z",
-      "impact": 58
-    },
-    {
-      "id": "marktechpost-1792117564000-2",
-      "type": "live",
-      "category": "robotics",
-      "title": "Meta Releases Muse Spark Open: 816B Open-Weight MoE With 1M Context",
-      "excerpt": "Meta released Muse Spark Open, an 816B-parameter open-weight MoE model with 42B active parameters and a 1M-token context.  It leads open models on MCP-Atlas and runs on 2 M5 Ultra Mac Studios",
-      "source": "MarkTechPost",
-      "url": "https://www.marktechpost.com/2026/10/15/meta-muse-spark-open-816b-open-weight-model/",
-      "publishedAt": "2026-10-16T02:26:04.000Z",
-      "impact": 65
     },
     {
       "id": "hugging-face-1792115087000-0",
@@ -167,17 +178,6 @@
       "url": "https://huggingface.co/blog/ibm-granite/granite-switch-4-1",
       "publishedAt": "2026-10-15T20:34:01.000Z",
       "impact": 75
-    },
-    {
-      "id": "marktechpost-1792094030000-3",
-      "type": "live",
-      "category": "multimodal",
-      "title": "NVIDIA Releases Nemotron 3.5 Super VL, a 120B Open Multimodal Agent Model",
-      "excerpt": "NVIDIA released Nemotron 3. 5 Super VL, an open 120B-parameter multimodal MoE model with 12B active parameters, 1M-token context and NVFP4 weights that run on 1 DGX Spark, plus 2 Bolt edge models",
-      "source": "MarkTechPost",
-      "url": "https://www.marktechpost.com/2026/10/15/nvidia-nemotron-3-5-super-vl-release/",
-      "publishedAt": "2026-10-15T19:53:50.000Z",
-      "impact": 77
     }
   ]
 }

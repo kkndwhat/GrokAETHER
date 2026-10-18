@@ -1,8 +1,30 @@
 {
-  "lastUpdated": "2026-10-18T03:59:40.979Z",
+  "lastUpdated": "2026-10-18T10:44:27.582Z",
   "source": "AETHER + Public RSS (arXiv, Hugging Face, MarkTechPost, Ben's Bites)",
-  "count": 16,
+  "count": 10,
   "articles": [
+    {
+      "id": "marktechpost-1792311304000-0",
+      "type": "live",
+      "category": "research",
+      "title": "Google Open-Sources Harness2, a Recursive Agent Harnessing Framework",
+      "excerpt": "Google Research released Harness2, an Apache-2. 0 framework that rewrites an agent's harness at test time",
+      "source": "MarkTechPost",
+      "url": "https://www.marktechpost.com/2026/10/18/google-harness2-recursive-agent-harnessing-framework/",
+      "publishedAt": "2026-10-18T08:15:04.000Z",
+      "impact": 77
+    },
+    {
+      "id": "marktechpost-1792302965000-1",
+      "type": "live",
+      "category": "llm",
+      "title": "How to Make Zero-Training Tabular Predictions with NVIDIA Structured Data Models",
+      "excerpt": "In this tutorial, we implement Structured Data Models, NVIDIA’s new library that puts several pretrained foundation models for tables behind one PyTorch interface, and use it to make predictions without training.  The...",
+      "source": "MarkTechPost",
+      "url": "https://www.marktechpost.com/2026/10/17/how-to-make-zero-training-tabular-predictions-with-nvidia-structured-data-models/",
+      "publishedAt": "2026-10-18T05:56:05.000Z",
+      "impact": 65
+    },
     {
       "id": "aether-grok43",
       "type": "premium",
@@ -11,18 +33,18 @@
       "excerpt": "New model demonstrates 4.2× improvement on multi-step software engineering benchmarks and sustains coherent agent trajectories beyond 110k tokens.",
       "source": "xAI",
       "url": "https://x.ai/blog/grok-4.3",
-      "publishedAt": "2026-10-17T22:59:40.689Z",
+      "publishedAt": "2026-10-18T05:44:27.168Z",
       "impact": 96
     },
     {
-      "id": "marktechpost-1792268531000-0",
+      "id": "marktechpost-1792296393000-2",
       "type": "live",
-      "category": "robotics",
-      "title": "Meet Kyutai REKI: The 2.4B VLA Model Bringing Efficient Memory to Robot Manipulation",
-      "excerpt": "Kyutai, with Inria and École des Ponts, has released REKI, a 2. 4B vision-language-action model (VLA) for robot manipulation",
+      "category": "multimodal",
+      "title": "Meet Voxel51 3.0: A Unified Multimodal Data Platform for Physical AI",
+      "excerpt": "0 merges search, curation, annotation and evaluation of multimodal sensor data into one platform for physical AI teams.  It adds Voxel51 Agent with 45+ MCP tools, dataset versioning, and a free self-service tier",
       "source": "MarkTechPost",
-      "url": "https://www.marktechpost.com/2026/10/17/meet-kyutai-reki-the-2-4b-vla-model-bringing-efficient-memory-to-robot-manipulation/",
-      "publishedAt": "2026-10-17T20:22:11.000Z",
+      "url": "https://www.marktechpost.com/2026/10/17/voxel51-3-0-physical-ai-data-platform/",
+      "publishedAt": "2026-10-18T04:06:33.000Z",
       "impact": 65
     },
     {
@@ -33,7 +55,7 @@
       "excerpt": "Humanoid achieves new milestone in unsupervised operation, performing 1,240 unique tasks across three assembly lines at the BMW South Carolina plant.",
       "source": "Figure AI",
       "url": "https://figure.ai/news/03-milestone",
-      "publishedAt": "2026-10-17T18:59:40.689Z",
+      "publishedAt": "2026-10-18T01:44:27.169Z",
       "impact": 89
     },
     {
@@ -44,107 +66,19 @@
       "excerpt": "Researchers reverse-engineered 312 million features inside the model, including the first clear \"deception circuit\" discovered in a frontier model.",
       "source": "Anthropic",
       "url": "https://anthropic.com/research/claude-4-interp",
-      "publishedAt": "2026-10-17T13:59:40.689Z",
+      "publishedAt": "2026-10-17T20:44:27.169Z",
       "impact": 91
     },
     {
-      "id": "marktechpost-1792227238000-1",
+      "id": "marktechpost-1792268531000-3",
       "type": "live",
-      "category": "llm",
-      "title": "DeepSeek Just Released V4.1-Flash-1017, Scores 77.0 on DeepSWE, Opens Search API",
-      "excerpt": "DeepSeek has just released DeepSeek-V4. 1-Flash-1017, a new checkpoint of its V4",
+      "category": "robotics",
+      "title": "Meet Kyutai REKI: The 2.4B VLA Model Bringing Efficient Memory to Robot Manipulation",
+      "excerpt": "Kyutai, with Inria and École des Ponts, has released REKI, a 2. 4B vision-language-action model (VLA) for robot manipulation",
       "source": "MarkTechPost",
-      "url": "https://www.marktechpost.com/2026/10/17/deepseek-just-released-v4-1-flash-1017-scores-77-0-on-deepswe-opens-search-api/",
-      "publishedAt": "2026-10-17T08:53:58.000Z",
+      "url": "https://www.marktechpost.com/2026/10/17/meet-kyutai-reki-the-2-4b-vla-model-bringing-efficient-memory-to-robot-manipulation/",
+      "publishedAt": "2026-10-17T20:22:11.000Z",
       "impact": 65
-    },
-    {
-      "id": "marktechpost-1792221999000-2",
-      "type": "live",
-      "category": "llm",
-      "title": "20 Jev Alternatives: The Decision Models Taking On TypeSafe in 2026",
-      "excerpt": "TypeSafe launched Jev on September 15, 2026.  It is a decision model, not a chatbot",
-      "source": "MarkTechPost",
-      "url": "https://www.marktechpost.com/2026/10/17/20-jev-alternatives-the-decision-models-taking-on-typesafe-in-2026/",
-      "publishedAt": "2026-10-17T07:26:39.000Z",
-      "impact": 65
-    },
-    {
-      "id": "marktechpost-1792218595000-3",
-      "type": "live",
-      "category": "llm",
-      "title": "StepFun Releases Step 5 Preview Open Weights: 600B MoE, 27B Active, 1M Context",
-      "excerpt": "StepFun has released Step 5 Preview as open weights.  FP8 and BF16 checkpoints are live on Hugging Face and ModelScope",
-      "source": "MarkTechPost",
-      "url": "https://www.marktechpost.com/2026/10/16/stepfun-releases-step-5-preview-open-weights-600b-moe-27b-active-1m-context/",
-      "publishedAt": "2026-10-17T06:29:55.000Z",
-      "impact": 65
-    },
-    {
-      "id": "arxiv-cs.ai-1792209600000-0",
-      "type": "live",
-      "category": "llm",
-      "title": "The World Won't Wait: Evaluating and Teaching Agents Under a Live Clock",
-      "excerpt": "20665v1 Announce Type: new Abstract: Large language model (LLM) agents can solve complex interactive tasks, yet reasoning and tool calls take time.  In continuously changing environments, an otherwise correct action m...",
-      "source": "arXiv cs.AI",
-      "url": "https://arxiv.org/abs/2610.20665",
-      "publishedAt": "2026-10-17T04:00:00.000Z",
-      "impact": 69
-    },
-    {
-      "id": "arxiv-cs.ai-1792209600000-1",
-      "type": "live",
-      "category": "safety",
-      "title": "Evaluating Model Capabilities After Benchmark Saturation",
-      "excerpt": "20667v1 Announce Type: new Abstract: Rapid advances in AI capabilities are causing benchmarks to saturate.  Once several models approach perfect scores, a benchmark loses its power to differentiate between them, and w...",
-      "source": "arXiv cs.AI",
-      "url": "https://arxiv.org/abs/2610.20667",
-      "publishedAt": "2026-10-17T04:00:00.000Z",
-      "impact": 58
-    },
-    {
-      "id": "arxiv-cs.ai-1792209600000-2",
-      "type": "live",
-      "category": "safety",
-      "title": "Value-Informed Schedule Trimming for Accelerated Sequential Monte Carlo Guidance in Discrete Diffusion",
-      "excerpt": "20669v1 Announce Type: new Abstract: Reward-guided discrete diffusion enables test-time alignment with downstream objectives, but applying Sequential Monte Carlo (SMC) guidance at every denoising step is computational...",
-      "source": "arXiv cs.AI",
-      "url": "https://arxiv.org/abs/2610.20669",
-      "publishedAt": "2026-10-17T04:00:00.000Z",
-      "impact": 58
-    },
-    {
-      "id": "arxiv-cs.ai-1792209600000-3",
-      "type": "live",
-      "category": "llm",
-      "title": "AlphaDiana: A Measurement System for Agents in Verifiable Reasoning Tasks",
-      "excerpt": "20675v1 Announce Type: new Abstract: Agents pair reasoning models with harnesses that organize model calls, execute tools, load skill instructions, and retain history in memory.  Understanding agent performance requir...",
-      "source": "arXiv cs.AI",
-      "url": "https://arxiv.org/abs/2610.20675",
-      "publishedAt": "2026-10-17T04:00:00.000Z",
-      "impact": 69
-    },
-    {
-      "id": "arxiv-cs.ai-1792209600000-4",
-      "type": "live",
-      "category": "llm",
-      "title": "When Correctness Feedback Erases Evidence: Phase-Separated Completeness Auditing in Verus",
-      "excerpt": "20676v1 Announce Type: new Abstract: Correctness feedback suppresses the very evidence that specification-completeness auditing is designed to uncover: programs that satisfy a written contract but violate intended beh...",
-      "source": "arXiv cs.AI",
-      "url": "https://arxiv.org/abs/2610.20676",
-      "publishedAt": "2026-10-17T04:00:00.000Z",
-      "impact": 58
-    },
-    {
-      "id": "arxiv-cs.ai-1792209600000-5",
-      "type": "live",
-      "category": "safety",
-      "title": "Counterfactual Neighborhood Risk Fields: Evidence-Grounded Selective Safety for Vision-Language Models",
-      "excerpt": "20679v1 Announce Type: new Abstract: Representation-based safety defenses for vision-language models (VLMs) often learn to separate harmful from benign inputs, but separation alone does not establish what a risk score...",
-      "source": "arXiv cs.AI",
-      "url": "https://arxiv.org/abs/2610.20679",
-      "publishedAt": "2026-10-17T04:00:00.000Z",
-      "impact": 58
     },
     {
       "id": "hugging-face-1792115087000-0",

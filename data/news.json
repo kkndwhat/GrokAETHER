@@ -1,18 +1,18 @@
 {
-  "lastUpdated": "2026-10-18T20:23:41.643Z",
+  "lastUpdated": "2026-10-19T04:08:38.115Z",
   "source": "AETHER + Public RSS (arXiv, Hugging Face, MarkTechPost, Ben's Bites)",
   "count": 10,
   "articles": [
     {
-      "id": "marktechpost-1792347628000-0",
+      "id": "marktechpost-1792372697000-0",
       "type": "live",
       "category": "llm",
-      "title": "TinyFish Makes Search Free: What It Really Costs an AI Agent to Read the Web",
-      "excerpt": "An AI agent that reads the web pays 2 kinds of cost.  The first is the retrieval charge: what a search or fetch API bills per request",
+      "title": "Mistral AI Releases Timestral: A 209M Forecasting Model Family That Outperforms Google’s TimesFM-3",
+      "excerpt": "Mistral released Timestral, a time series foundation model family from 5M to 209M parameters.  The 209M model leads GIFT-Eval, TIME and fev-bench among zero-shot models and runs on CPU",
       "source": "MarkTechPost",
-      "url": "https://www.marktechpost.com/2026/10/18/tinyfish-free-search-ai-agent-token-cost/",
-      "publishedAt": "2026-10-18T18:20:28.000Z",
-      "impact": 77
+      "url": "https://www.marktechpost.com/2026/10/18/mistral-timestral-time-series-foundation-model/",
+      "publishedAt": "2026-10-19T01:18:17.000Z",
+      "impact": 65
     },
     {
       "id": "aether-grok43",
@@ -22,7 +22,7 @@
       "excerpt": "New model demonstrates 4.2× improvement on multi-step software engineering benchmarks and sustains coherent agent trajectories beyond 110k tokens.",
       "source": "xAI",
       "url": "https://x.ai/blog/grok-4.3",
-      "publishedAt": "2026-10-18T15:23:41.161Z",
+      "publishedAt": "2026-10-18T23:08:37.592Z",
       "impact": 96
     },
     {
@@ -33,18 +33,18 @@
       "excerpt": "Humanoid achieves new milestone in unsupervised operation, performing 1,240 unique tasks across three assembly lines at the BMW South Carolina plant.",
       "source": "Figure AI",
       "url": "https://figure.ai/news/03-milestone",
-      "publishedAt": "2026-10-18T11:23:41.161Z",
+      "publishedAt": "2026-10-18T19:08:37.592Z",
       "impact": 89
     },
     {
-      "id": "marktechpost-1792311304000-1",
+      "id": "marktechpost-1792347628000-1",
       "type": "live",
-      "category": "research",
-      "title": "Google Open-Sources Harness2, a Recursive Agent Harnessing Framework",
-      "excerpt": "Google Research released Harness2, an Apache-2. 0 framework that rewrites an agent's harness at test time",
+      "category": "llm",
+      "title": "TinyFish Makes Search Free: What It Really Costs an AI Agent to Read the Web",
+      "excerpt": "An AI agent that reads the web pays 2 kinds of cost.  The first is the retrieval charge: what a search or fetch API bills per request",
       "source": "MarkTechPost",
-      "url": "https://www.marktechpost.com/2026/10/18/google-harness2-recursive-agent-harnessing-framework/",
-      "publishedAt": "2026-10-18T08:15:04.000Z",
+      "url": "https://www.marktechpost.com/2026/10/18/tinyfish-free-search-ai-agent-token-cost/",
+      "publishedAt": "2026-10-18T18:20:28.000Z",
       "impact": 77
     },
     {
@@ -55,11 +55,22 @@
       "excerpt": "Researchers reverse-engineered 312 million features inside the model, including the first clear \"deception circuit\" discovered in a frontier model.",
       "source": "Anthropic",
       "url": "https://anthropic.com/research/claude-4-interp",
-      "publishedAt": "2026-10-18T06:23:41.161Z",
+      "publishedAt": "2026-10-18T14:08:37.592Z",
       "impact": 91
     },
     {
-      "id": "marktechpost-1792302965000-2",
+      "id": "marktechpost-1792311304000-2",
+      "type": "live",
+      "category": "research",
+      "title": "Google Open-Sources Harness2, a Recursive Agent Harnessing Framework",
+      "excerpt": "Google Research released Harness2, an Apache-2. 0 framework that rewrites an agent's harness at test time",
+      "source": "MarkTechPost",
+      "url": "https://www.marktechpost.com/2026/10/18/google-harness2-recursive-agent-harnessing-framework/",
+      "publishedAt": "2026-10-18T08:15:04.000Z",
+      "impact": 77
+    },
+    {
+      "id": "marktechpost-1792302965000-3",
       "type": "live",
       "category": "llm",
       "title": "How to Make Zero-Training Tabular Predictions with NVIDIA Structured Data Models",
@@ -67,17 +78,6 @@
       "source": "MarkTechPost",
       "url": "https://www.marktechpost.com/2026/10/17/how-to-make-zero-training-tabular-predictions-with-nvidia-structured-data-models/",
       "publishedAt": "2026-10-18T05:56:05.000Z",
-      "impact": 65
-    },
-    {
-      "id": "marktechpost-1792296393000-3",
-      "type": "live",
-      "category": "multimodal",
-      "title": "Meet Voxel51 3.0: A Unified Multimodal Data Platform for Physical AI",
-      "excerpt": "0 merges search, curation, annotation and evaluation of multimodal sensor data into one platform for physical AI teams.  It adds Voxel51 Agent with 45+ MCP tools, dataset versioning, and a free self-service tier",
-      "source": "MarkTechPost",
-      "url": "https://www.marktechpost.com/2026/10/17/voxel51-3-0-physical-ai-data-platform/",
-      "publishedAt": "2026-10-18T04:06:33.000Z",
       "impact": 65
     },
     {

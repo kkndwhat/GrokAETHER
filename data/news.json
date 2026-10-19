@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-19T12:44:03.274Z",
+  "lastUpdated": "2026-10-19T22:11:35.031Z",
   "source": "AETHER + Public RSS (arXiv, Hugging Face, MarkTechPost, Ben's Bites)",
   "count": 10,
   "articles": [
@@ -11,7 +11,7 @@
       "excerpt": "New model demonstrates 4.2× improvement on multi-step software engineering benchmarks and sustains coherent agent trajectories beyond 110k tokens.",
       "source": "xAI",
       "url": "https://x.ai/blog/grok-4.3",
-      "publishedAt": "2026-10-19T07:44:02.920Z",
+      "publishedAt": "2026-10-19T17:11:34.741Z",
       "impact": 96
     },
     {
@@ -22,11 +22,33 @@
       "excerpt": "Humanoid achieves new milestone in unsupervised operation, performing 1,240 unique tasks across three assembly lines at the BMW South Carolina plant.",
       "source": "Figure AI",
       "url": "https://figure.ai/news/03-milestone",
-      "publishedAt": "2026-10-19T03:44:02.920Z",
+      "publishedAt": "2026-10-19T13:11:34.741Z",
       "impact": 89
     },
     {
-      "id": "marktechpost-1792379958000-0",
+      "id": "marktechpost-1792413478000-0",
+      "type": "live",
+      "category": "llm",
+      "title": "MiniMax Just Launched M3.1 Flash: 428B MoE Agentic Model at $0.15/M Input",
+      "excerpt": "MiniMax has released M3. 1 Flash, a 428B-parameter MoE model with about 23B active parameters and a 1M-token context",
+      "source": "MarkTechPost",
+      "url": "https://www.marktechpost.com/2026/10/19/minimax-m3-1-flash-release/",
+      "publishedAt": "2026-10-19T12:37:58.000Z",
+      "impact": 77
+    },
+    {
+      "id": "aether-interp",
+      "type": "premium",
+      "category": "safety",
+      "title": "Anthropic publishes unprecedented mechanistic interpretability map of Claude 4",
+      "excerpt": "Researchers reverse-engineered 312 million features inside the model, including the first clear \"deception circuit\" discovered in a frontier model.",
+      "source": "Anthropic",
+      "url": "https://anthropic.com/research/claude-4-interp",
+      "publishedAt": "2026-10-19T08:11:34.741Z",
+      "impact": 91
+    },
+    {
+      "id": "marktechpost-1792379958000-1",
       "type": "live",
       "category": "hardware",
       "title": "NVIDIA Open Sources Run:ai Under Apache 2.0 for Kubernetes GPU Orchestration",
@@ -37,7 +59,7 @@
       "impact": 65
     },
     {
-      "id": "marktechpost-1792372697000-1",
+      "id": "marktechpost-1792372697000-2",
       "type": "live",
       "category": "llm",
       "title": "Mistral AI Releases Timestral: A 209M Forecasting Model Family That Outperforms Google’s TimesFM-3",
@@ -48,18 +70,18 @@
       "impact": 65
     },
     {
-      "id": "aether-interp",
-      "type": "premium",
-      "category": "safety",
-      "title": "Anthropic publishes unprecedented mechanistic interpretability map of Claude 4",
-      "excerpt": "Researchers reverse-engineered 312 million features inside the model, including the first clear \"deception circuit\" discovered in a frontier model.",
-      "source": "Anthropic",
-      "url": "https://anthropic.com/research/claude-4-interp",
-      "publishedAt": "2026-10-18T22:44:02.920Z",
-      "impact": 91
+      "id": "hugging-face-1792368000000-0",
+      "type": "live",
+      "category": "hardware",
+      "title": "TorchNeuron: running HF models on AWS Trainium is easier than ever",
+      "excerpt": "New development from the frontier.",
+      "source": "Hugging Face",
+      "url": "https://huggingface.co/blog/hf-torchneuron",
+      "publishedAt": "2026-10-19T00:00:00.000Z",
+      "impact": 75
     },
     {
-      "id": "marktechpost-1792347628000-2",
+      "id": "marktechpost-1792347628000-3",
       "type": "live",
       "category": "llm",
       "title": "TinyFish Makes Search Free: What It Really Costs an AI Agent to Read the Web",
@@ -70,18 +92,7 @@
       "impact": 77
     },
     {
-      "id": "marktechpost-1792311304000-3",
-      "type": "live",
-      "category": "research",
-      "title": "Google Open-Sources Harness2, a Recursive Agent Harnessing Framework",
-      "excerpt": "Google Research released Harness2, an Apache-2. 0 framework that rewrites an agent's harness at test time",
-      "source": "MarkTechPost",
-      "url": "https://www.marktechpost.com/2026/10/18/google-harness2-recursive-agent-harnessing-framework/",
-      "publishedAt": "2026-10-18T08:15:04.000Z",
-      "impact": 77
-    },
-    {
-      "id": "hugging-face-1792115087000-0",
+      "id": "hugging-face-1792115087000-1",
       "type": "live",
       "category": "research",
       "title": "Scaling Indic Pretraining: 2.8 Trillion Tokens and an Open Data Generation Pipeline",
@@ -92,7 +103,7 @@
       "impact": 75
     },
     {
-      "id": "hugging-face-1792108800000-1",
+      "id": "hugging-face-1792108800000-2",
       "type": "live",
       "category": "llm",
       "title": "Welcome Beam: a 501B open model you can own, customize, and scale",
@@ -100,17 +111,6 @@
       "source": "Hugging Face",
       "url": "https://huggingface.co/blog/reflection-beam",
       "publishedAt": "2026-10-16T00:00:00.000Z",
-      "impact": 75
-    },
-    {
-      "id": "hugging-face-1792096441000-2",
-      "type": "live",
-      "category": "research",
-      "title": "Granite Switch 4.1: Chat, Decisions, and Speech from One Endpoint",
-      "excerpt": "New development from the frontier.",
-      "source": "Hugging Face",
-      "url": "https://huggingface.co/blog/ibm-granite/granite-switch-4-1",
-      "publishedAt": "2026-10-15T20:34:01.000Z",
       "impact": 75
     }
   ]

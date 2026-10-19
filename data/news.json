@@ -1,19 +1,8 @@
 {
-  "lastUpdated": "2026-10-19T04:08:38.115Z",
+  "lastUpdated": "2026-10-19T12:44:03.274Z",
   "source": "AETHER + Public RSS (arXiv, Hugging Face, MarkTechPost, Ben's Bites)",
   "count": 10,
   "articles": [
-    {
-      "id": "marktechpost-1792372697000-0",
-      "type": "live",
-      "category": "llm",
-      "title": "Mistral AI Releases Timestral: A 209M Forecasting Model Family That Outperforms Google’s TimesFM-3",
-      "excerpt": "Mistral released Timestral, a time series foundation model family from 5M to 209M parameters.  The 209M model leads GIFT-Eval, TIME and fev-bench among zero-shot models and runs on CPU",
-      "source": "MarkTechPost",
-      "url": "https://www.marktechpost.com/2026/10/18/mistral-timestral-time-series-foundation-model/",
-      "publishedAt": "2026-10-19T01:18:17.000Z",
-      "impact": 65
-    },
     {
       "id": "aether-grok43",
       "type": "premium",
@@ -22,7 +11,7 @@
       "excerpt": "New model demonstrates 4.2× improvement on multi-step software engineering benchmarks and sustains coherent agent trajectories beyond 110k tokens.",
       "source": "xAI",
       "url": "https://x.ai/blog/grok-4.3",
-      "publishedAt": "2026-10-18T23:08:37.592Z",
+      "publishedAt": "2026-10-19T07:44:02.920Z",
       "impact": 96
     },
     {
@@ -33,11 +22,44 @@
       "excerpt": "Humanoid achieves new milestone in unsupervised operation, performing 1,240 unique tasks across three assembly lines at the BMW South Carolina plant.",
       "source": "Figure AI",
       "url": "https://figure.ai/news/03-milestone",
-      "publishedAt": "2026-10-18T19:08:37.592Z",
+      "publishedAt": "2026-10-19T03:44:02.920Z",
       "impact": 89
     },
     {
-      "id": "marktechpost-1792347628000-1",
+      "id": "marktechpost-1792379958000-0",
+      "type": "live",
+      "category": "hardware",
+      "title": "NVIDIA Open Sources Run:ai Under Apache 2.0 for Kubernetes GPU Orchestration",
+      "excerpt": "NVIDIA has released the full Run:ai GPU orchestration platform as open source under Apache 2.  The release includes KAI Scheduler, CUDA 13",
+      "source": "MarkTechPost",
+      "url": "https://www.marktechpost.com/2026/10/18/nvidia-runai-open-source-gpu-orchestration-kubernetes/",
+      "publishedAt": "2026-10-19T03:19:18.000Z",
+      "impact": 65
+    },
+    {
+      "id": "marktechpost-1792372697000-1",
+      "type": "live",
+      "category": "llm",
+      "title": "Mistral AI Releases Timestral: A 209M Forecasting Model Family That Outperforms Google’s TimesFM-3",
+      "excerpt": "Mistral released Timestral, a time series foundation model family from 5M to 209M parameters.  The 209M model leads GIFT-Eval, TIME and fev-bench among zero-shot models and runs on CPU",
+      "source": "MarkTechPost",
+      "url": "https://www.marktechpost.com/2026/10/18/mistral-timestral-time-series-foundation-model/",
+      "publishedAt": "2026-10-19T01:18:17.000Z",
+      "impact": 65
+    },
+    {
+      "id": "aether-interp",
+      "type": "premium",
+      "category": "safety",
+      "title": "Anthropic publishes unprecedented mechanistic interpretability map of Claude 4",
+      "excerpt": "Researchers reverse-engineered 312 million features inside the model, including the first clear \"deception circuit\" discovered in a frontier model.",
+      "source": "Anthropic",
+      "url": "https://anthropic.com/research/claude-4-interp",
+      "publishedAt": "2026-10-18T22:44:02.920Z",
+      "impact": 91
+    },
+    {
+      "id": "marktechpost-1792347628000-2",
       "type": "live",
       "category": "llm",
       "title": "TinyFish Makes Search Free: What It Really Costs an AI Agent to Read the Web",
@@ -48,18 +70,7 @@
       "impact": 77
     },
     {
-      "id": "aether-interp",
-      "type": "premium",
-      "category": "safety",
-      "title": "Anthropic publishes unprecedented mechanistic interpretability map of Claude 4",
-      "excerpt": "Researchers reverse-engineered 312 million features inside the model, including the first clear \"deception circuit\" discovered in a frontier model.",
-      "source": "Anthropic",
-      "url": "https://anthropic.com/research/claude-4-interp",
-      "publishedAt": "2026-10-18T14:08:37.592Z",
-      "impact": 91
-    },
-    {
-      "id": "marktechpost-1792311304000-2",
+      "id": "marktechpost-1792311304000-3",
       "type": "live",
       "category": "research",
       "title": "Google Open-Sources Harness2, a Recursive Agent Harnessing Framework",
@@ -68,17 +79,6 @@
       "url": "https://www.marktechpost.com/2026/10/18/google-harness2-recursive-agent-harnessing-framework/",
       "publishedAt": "2026-10-18T08:15:04.000Z",
       "impact": 77
-    },
-    {
-      "id": "marktechpost-1792302965000-3",
-      "type": "live",
-      "category": "llm",
-      "title": "How to Make Zero-Training Tabular Predictions with NVIDIA Structured Data Models",
-      "excerpt": "In this tutorial, we implement Structured Data Models, NVIDIA’s new library that puts several pretrained foundation models for tables behind one PyTorch interface, and use it to make predictions without training.  The...",
-      "source": "MarkTechPost",
-      "url": "https://www.marktechpost.com/2026/10/17/how-to-make-zero-training-tabular-predictions-with-nvidia-structured-data-models/",
-      "publishedAt": "2026-10-18T05:56:05.000Z",
-      "impact": 65
     },
     {
       "id": "hugging-face-1792115087000-0",

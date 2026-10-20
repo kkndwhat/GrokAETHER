@@ -1,28 +1,39 @@
 {
-  "lastUpdated": "2026-10-20T11:14:54.498Z",
+  "lastUpdated": "2026-10-20T16:39:24.271Z",
   "source": "AETHER + Public RSS (arXiv, Hugging Face, MarkTechPost, Ben's Bites)",
   "count": 16,
   "articles": [
     {
-      "id": "marktechpost-1792483941000-0",
+      "id": "hugging-face-1792512559000-0",
       "type": "live",
       "category": "llm",
-      "title": "Exa 3.0 Search API Tops Perplexity, Brave and Parallel on 8 Benchmarks",
-      "excerpt": "0 is a search API upgrade from Exa.  It adds a larger embedding model, Exa Lite at $4 per 1,000 requests, and Dynamic Highlights, and leads 8 benchmarks Exa ran itself",
-      "source": "MarkTechPost",
-      "url": "https://www.marktechpost.com/2026/10/20/exa-3-0-search-api-lite/",
-      "publishedAt": "2026-10-20T08:12:21.000Z",
-      "impact": 65
+      "title": "FairStress: A deeper evaluation of fairness in LLM decision-making",
+      "excerpt": "New development from the frontier.",
+      "source": "Hugging Face",
+      "url": "https://huggingface.co/blog/allenai/fairstress",
+      "publishedAt": "2026-10-20T16:09:19.000Z",
+      "impact": 75
     },
     {
-      "id": "marktechpost-1792482341000-1",
+      "id": "hugging-face-1792509588000-1",
       "type": "live",
       "category": "llm",
-      "title": "Cloudflare Releases Clairic, a System One Extraction Model on Workers AI",
-      "excerpt": "Cloudflare has previewed Clairic, a System One extraction model on Workers AI that returns typed values with confidence scores in one forward pass. 10 per million input tokens and charges nothing for output",
+      "title": "ALTK-Evolve: How learned memory tops the τ²-bench leaderboard on customer service tasks without a frontier model",
+      "excerpt": "New development from the frontier.",
+      "source": "Hugging Face",
+      "url": "https://huggingface.co/blog/ibm-research/altk-evolve-bc",
+      "publishedAt": "2026-10-20T15:19:48.000Z",
+      "impact": 93
+    },
+    {
+      "id": "marktechpost-1792506719000-0",
+      "type": "live",
+      "category": "hardware",
+      "title": "DeepSeek Open-Sources DeepInfer, the Inference Framework Behind DeepSeek-V4.1-Flash",
+      "excerpt": "DeepSeek has open-sourced DeepInfer, the Apache 2. 0 inference framework that serves DeepSeek-V4",
       "source": "MarkTechPost",
-      "url": "https://www.marktechpost.com/2026/10/20/cloudflare-releases-clairic-a-system-one-extraction-model-on-workers-ai/",
-      "publishedAt": "2026-10-20T07:45:41.000Z",
+      "url": "https://www.marktechpost.com/2026/10/20/deepseek-deepinfer-open-source-inference-framework/",
+      "publishedAt": "2026-10-20T14:31:59.000Z",
       "impact": 65
     },
     {
@@ -33,8 +44,41 @@
       "excerpt": "New model demonstrates 4.2× improvement on multi-step software engineering benchmarks and sustains coherent agent trajectories beyond 110k tokens.",
       "source": "xAI",
       "url": "https://x.ai/blog/grok-4.3",
-      "publishedAt": "2026-10-20T06:14:54.106Z",
+      "publishedAt": "2026-10-20T11:39:23.755Z",
       "impact": 96
+    },
+    {
+      "id": "marktechpost-1792483941000-1",
+      "type": "live",
+      "category": "llm",
+      "title": "Exa 3.0 Search API Tops Perplexity, Brave and Parallel on 8 Benchmarks",
+      "excerpt": "0 is a search API upgrade from Exa.  It adds a larger embedding model, Exa Lite at $4 per 1,000 requests, and Dynamic Highlights, and leads 8 benchmarks Exa ran itself",
+      "source": "MarkTechPost",
+      "url": "https://www.marktechpost.com/2026/10/20/exa-3-0-search-api-lite/",
+      "publishedAt": "2026-10-20T08:12:21.000Z",
+      "impact": 65
+    },
+    {
+      "id": "marktechpost-1792482341000-2",
+      "type": "live",
+      "category": "llm",
+      "title": "Cloudflare Releases Clairic, a System One Extraction Model on Workers AI",
+      "excerpt": "Cloudflare has previewed Clairic, a System One extraction model on Workers AI that returns typed values with confidence scores in one forward pass. 10 per million input tokens and charges nothing for output",
+      "source": "MarkTechPost",
+      "url": "https://www.marktechpost.com/2026/10/20/cloudflare-releases-clairic-a-system-one-extraction-model-on-workers-ai/",
+      "publishedAt": "2026-10-20T07:45:41.000Z",
+      "impact": 65
+    },
+    {
+      "id": "aether-figure03",
+      "type": "premium",
+      "category": "robotics",
+      "title": "Figure 03 completes 43-hour autonomous factory shift with zero interventions",
+      "excerpt": "Humanoid achieves new milestone in unsupervised operation, performing 1,240 unique tasks across three assembly lines at the BMW South Carolina plant.",
+      "source": "Figure AI",
+      "url": "https://figure.ai/news/03-milestone",
+      "publishedAt": "2026-10-20T07:39:23.756Z",
+      "impact": 89
     },
     {
       "id": "arxiv-cs.ai-1792468800000-0",
@@ -103,7 +147,7 @@
       "impact": 58
     },
     {
-      "id": "marktechpost-1792467163000-2",
+      "id": "marktechpost-1792467163000-3",
       "type": "live",
       "category": "llm",
       "title": "Inception Releases Mercury 3 Diffusion LLM at 1,068 Tokens per Second",
@@ -114,39 +158,6 @@
       "impact": 65
     },
     {
-      "id": "aether-figure03",
-      "type": "premium",
-      "category": "robotics",
-      "title": "Figure 03 completes 43-hour autonomous factory shift with zero interventions",
-      "excerpt": "Humanoid achieves new milestone in unsupervised operation, performing 1,240 unique tasks across three assembly lines at the BMW South Carolina plant.",
-      "source": "Figure AI",
-      "url": "https://figure.ai/news/03-milestone",
-      "publishedAt": "2026-10-20T02:14:54.106Z",
-      "impact": 89
-    },
-    {
-      "id": "marktechpost-1792454618000-3",
-      "type": "live",
-      "category": "multimodal",
-      "title": "Meet Drex Max: Nace AI’s Multimodal Decision Model for Computer-Use Agents with a Score 67.59",
-      "excerpt": "Nace AI released Drex Max, a multimodal decision model that reads text and screenshots and returns calibrated probabilities. 59 on Decision Index 0",
-      "source": "MarkTechPost",
-      "url": "https://www.marktechpost.com/2026/10/19/nace-ai-drex-max-multimodal-decision-model/",
-      "publishedAt": "2026-10-20T00:03:38.000Z",
-      "impact": 77
-    },
-    {
-      "id": "hugging-face-1792454400000-0",
-      "type": "live",
-      "category": "research",
-      "title": "MPS in PyTorch 2.15",
-      "excerpt": "New development from the frontier.",
-      "source": "Hugging Face",
-      "url": "https://huggingface.co/blog/mps-pytorch-2-15",
-      "publishedAt": "2026-10-20T00:00:00.000Z",
-      "impact": 75
-    },
-    {
       "id": "aether-interp",
       "type": "premium",
       "category": "safety",
@@ -154,29 +165,18 @@
       "excerpt": "Researchers reverse-engineered 312 million features inside the model, including the first clear \"deception circuit\" discovered in a frontier model.",
       "source": "Anthropic",
       "url": "https://anthropic.com/research/claude-4-interp",
-      "publishedAt": "2026-10-19T21:14:54.106Z",
+      "publishedAt": "2026-10-20T02:39:23.756Z",
       "impact": 91
     },
     {
-      "id": "hugging-face-1792368000000-1",
-      "type": "live",
-      "category": "hardware",
-      "title": "TorchNeuron: running HF models on AWS Trainium is easier than ever",
-      "excerpt": "New development from the frontier.",
-      "source": "Hugging Face",
-      "url": "https://huggingface.co/blog/hf-torchneuron",
-      "publishedAt": "2026-10-19T00:00:00.000Z",
-      "impact": 75
-    },
-    {
-      "id": "hugging-face-1792115087000-2",
+      "id": "hugging-face-1792454400000-2",
       "type": "live",
       "category": "research",
-      "title": "Scaling Indic Pretraining: 2.8 Trillion Tokens and an Open Data Generation Pipeline",
+      "title": "Hugging Face ❤️ TorchTPU: TPUs, Natively",
       "excerpt": "New development from the frontier.",
       "source": "Hugging Face",
-      "url": "https://huggingface.co/blog/nvidia/scaling-indic-pretraining",
-      "publishedAt": "2026-10-16T01:44:47.000Z",
+      "url": "https://huggingface.co/blog/hf-torchtpu",
+      "publishedAt": "2026-10-20T00:00:00.000Z",
       "impact": 75
     }
   ]

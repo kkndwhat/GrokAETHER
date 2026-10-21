@@ -1,8 +1,85 @@
 {
-  "lastUpdated": "2026-10-21T04:10:28.464Z",
+  "lastUpdated": "2026-10-21T16:57:57.006Z",
   "source": "AETHER + Public RSS (arXiv, Hugging Face, MarkTechPost, Ben's Bites)",
   "count": 16,
   "articles": [
+    {
+      "id": "hugging-face-1792598683000-0",
+      "type": "live",
+      "category": "hardware",
+      "title": "Profiling TorchNeuron (Part 1): System-level profiling on AWS Trainium.",
+      "excerpt": "New development from the frontier.",
+      "source": "Hugging Face",
+      "url": "https://huggingface.co/blog/amazon/profiling-torchneuron-part-1",
+      "publishedAt": "2026-10-21T16:04:43.000Z",
+      "impact": 75
+    },
+    {
+      "id": "hugging-face-1792594698000-1",
+      "type": "live",
+      "category": "research",
+      "title": "Granite Speech 5.0: Transcribe, Translate, and Attribute more Accurately and Faster",
+      "excerpt": "New development from the frontier.",
+      "source": "Hugging Face",
+      "url": "https://huggingface.co/blog/ibm-granite/granite-speech-5",
+      "publishedAt": "2026-10-21T14:58:18.000Z",
+      "impact": 75
+    },
+    {
+      "id": "hugging-face-1792587084000-2",
+      "type": "live",
+      "category": "safety",
+      "title": "NVIDIA Kumo Forecast Combines Pretrained Time-Series Representations with Historical Pattern Retrieval and Interpretability",
+      "excerpt": "New development from the frontier.",
+      "source": "Hugging Face",
+      "url": "https://huggingface.co/blog/nvidia/kumo-forecast",
+      "publishedAt": "2026-10-21T12:51:24.000Z",
+      "impact": 75
+    },
+    {
+      "id": "aether-grok43",
+      "type": "premium",
+      "category": "llm",
+      "title": "xAI releases Grok-4.3 with native long-horizon agent scaffolding",
+      "excerpt": "New model demonstrates 4.2× improvement on multi-step software engineering benchmarks and sustains coherent agent trajectories beyond 110k tokens.",
+      "source": "xAI",
+      "url": "https://x.ai/blog/grok-4.3",
+      "publishedAt": "2026-10-21T11:57:56.721Z",
+      "impact": 96
+    },
+    {
+      "id": "aether-figure03",
+      "type": "premium",
+      "category": "robotics",
+      "title": "Figure 03 completes 43-hour autonomous factory shift with zero interventions",
+      "excerpt": "Humanoid achieves new milestone in unsupervised operation, performing 1,240 unique tasks across three assembly lines at the BMW South Carolina plant.",
+      "source": "Figure AI",
+      "url": "https://figure.ai/news/03-milestone",
+      "publishedAt": "2026-10-21T07:57:56.721Z",
+      "impact": 89
+    },
+    {
+      "id": "marktechpost-1792562592000-0",
+      "type": "live",
+      "category": "llm",
+      "title": "Mistral AI Releases Voxtral 3: Speech-to-Text, TTS and a Voice Agent SDK",
+      "excerpt": "Mistral AI released Voxtral 3, a family of 3 transcription models, 1 text-to-speech model and a LiveKit-based voice agent SDK.  Voxtral Small Transcribe 3 scores 2",
+      "source": "MarkTechPost",
+      "url": "https://www.marktechpost.com/2026/10/20/mistral-voxtral-3-speech-models-voice-agent-sdk/",
+      "publishedAt": "2026-10-21T06:03:12.000Z",
+      "impact": 77
+    },
+    {
+      "id": "marktechpost-1792557220000-1",
+      "type": "live",
+      "category": "hardware",
+      "title": "Google Cloud Ships llm-d 1.0 With Cache-Aware Routing for TPU and GPU Fleets",
+      "excerpt": "Google, Red Hat and IBM released llm-d 1. 0, an open-source Kubernetes-native stack for distributed LLM inference",
+      "source": "MarkTechPost",
+      "url": "https://www.marktechpost.com/2026/10/20/llm-d-1-0-open-source-distributed-inference-stack/",
+      "publishedAt": "2026-10-21T04:33:40.000Z",
+      "impact": 65
+    },
     {
       "id": "arxiv-cs.ai-1792555200000-0",
       "type": "live",
@@ -70,51 +147,18 @@
       "impact": 69
     },
     {
-      "id": "aether-grok43",
+      "id": "aether-interp",
       "type": "premium",
-      "category": "llm",
-      "title": "xAI releases Grok-4.3 with native long-horizon agent scaffolding",
-      "excerpt": "New model demonstrates 4.2× improvement on multi-step software engineering benchmarks and sustains coherent agent trajectories beyond 110k tokens.",
-      "source": "xAI",
-      "url": "https://x.ai/blog/grok-4.3",
-      "publishedAt": "2026-10-20T23:10:27.926Z",
-      "impact": 96
+      "category": "safety",
+      "title": "Anthropic publishes unprecedented mechanistic interpretability map of Claude 4",
+      "excerpt": "Researchers reverse-engineered 312 million features inside the model, including the first clear \"deception circuit\" discovered in a frontier model.",
+      "source": "Anthropic",
+      "url": "https://anthropic.com/research/claude-4-interp",
+      "publishedAt": "2026-10-21T02:57:56.721Z",
+      "impact": 91
     },
     {
-      "id": "aether-figure03",
-      "type": "premium",
-      "category": "robotics",
-      "title": "Figure 03 completes 43-hour autonomous factory shift with zero interventions",
-      "excerpt": "Humanoid achieves new milestone in unsupervised operation, performing 1,240 unique tasks across three assembly lines at the BMW South Carolina plant.",
-      "source": "Figure AI",
-      "url": "https://figure.ai/news/03-milestone",
-      "publishedAt": "2026-10-20T19:10:27.926Z",
-      "impact": 89
-    },
-    {
-      "id": "hugging-face-1792520267000-0",
-      "type": "live",
-      "category": "research",
-      "title": "NVIDIA Cosmos3-H-Dreams: Bringing Clinical Surgery to Life Through Generative Simulation",
-      "excerpt": "New development from the frontier.",
-      "source": "Hugging Face",
-      "url": "https://huggingface.co/blog/nvidia/cosmos3-h-dreams",
-      "publishedAt": "2026-10-20T18:17:47.000Z",
-      "impact": 75
-    },
-    {
-      "id": "hugging-face-1792512559000-1",
-      "type": "live",
-      "category": "llm",
-      "title": "FairStress: A deeper evaluation of fairness in LLM decision-making",
-      "excerpt": "New development from the frontier.",
-      "source": "Hugging Face",
-      "url": "https://huggingface.co/blog/allenai/fairstress",
-      "publishedAt": "2026-10-20T16:09:19.000Z",
-      "impact": 75
-    },
-    {
-      "id": "marktechpost-1792509723000-0",
+      "id": "marktechpost-1792509723000-2",
       "type": "live",
       "category": "research",
       "title": "Google Open-Sources TorchTPU, a Native PyTorch Backend for Cloud TPUs",
@@ -125,18 +169,7 @@
       "impact": 65
     },
     {
-      "id": "hugging-face-1792509588000-2",
-      "type": "live",
-      "category": "llm",
-      "title": "ALTK-Evolve: How learned memory tops the τ²-bench leaderboard on customer service tasks without a frontier model",
-      "excerpt": "New development from the frontier.",
-      "source": "Hugging Face",
-      "url": "https://huggingface.co/blog/ibm-research/altk-evolve-bc",
-      "publishedAt": "2026-10-20T15:19:48.000Z",
-      "impact": 93
-    },
-    {
-      "id": "marktechpost-1792506719000-1",
+      "id": "marktechpost-1792506719000-3",
       "type": "live",
       "category": "hardware",
       "title": "DeepSeek Open-Sources DeepInfer, the Inference Framework Behind DeepSeek-V4.1-Flash",
@@ -144,39 +177,6 @@
       "source": "MarkTechPost",
       "url": "https://www.marktechpost.com/2026/10/20/deepseek-deepinfer-open-source-inference-framework/",
       "publishedAt": "2026-10-20T14:31:59.000Z",
-      "impact": 65
-    },
-    {
-      "id": "aether-interp",
-      "type": "premium",
-      "category": "safety",
-      "title": "Anthropic publishes unprecedented mechanistic interpretability map of Claude 4",
-      "excerpt": "Researchers reverse-engineered 312 million features inside the model, including the first clear \"deception circuit\" discovered in a frontier model.",
-      "source": "Anthropic",
-      "url": "https://anthropic.com/research/claude-4-interp",
-      "publishedAt": "2026-10-20T14:10:27.926Z",
-      "impact": 91
-    },
-    {
-      "id": "marktechpost-1792483941000-2",
-      "type": "live",
-      "category": "llm",
-      "title": "Exa 3.0 Search API Tops Perplexity, Brave and Parallel on 8 Benchmarks",
-      "excerpt": "0 is a search API upgrade from Exa.  It adds a larger embedding model, Exa Lite at $4 per 1,000 requests, and Dynamic Highlights, and leads 8 benchmarks Exa ran itself",
-      "source": "MarkTechPost",
-      "url": "https://www.marktechpost.com/2026/10/20/exa-3-0-search-api-lite/",
-      "publishedAt": "2026-10-20T08:12:21.000Z",
-      "impact": 65
-    },
-    {
-      "id": "marktechpost-1792482341000-3",
-      "type": "live",
-      "category": "llm",
-      "title": "Cloudflare Releases Clairic, a System One Extraction Model on Workers AI",
-      "excerpt": "Cloudflare has previewed Clairic, a System One extraction model on Workers AI that returns typed values with confidence scores in one forward pass. 10 per million input tokens and charges nothing for output",
-      "source": "MarkTechPost",
-      "url": "https://www.marktechpost.com/2026/10/20/cloudflare-releases-clairic-a-system-one-extraction-model-on-workers-ai/",
-      "publishedAt": "2026-10-20T07:45:41.000Z",
       "impact": 65
     }
   ]

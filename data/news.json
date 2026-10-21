@@ -1,10 +1,109 @@
 {
-  "lastUpdated": "2026-10-20T16:39:24.271Z",
+  "lastUpdated": "2026-10-21T04:10:28.464Z",
   "source": "AETHER + Public RSS (arXiv, Hugging Face, MarkTechPost, Ben's Bites)",
   "count": 16,
   "articles": [
     {
-      "id": "hugging-face-1792512559000-0",
+      "id": "arxiv-cs.ai-1792555200000-0",
+      "type": "live",
+      "category": "llm",
+      "title": "Navalia: Advancing Cowork Agents through Verifiable Task Synthesis and Long-Horizon Post-Training",
+      "excerpt": "26887v1 Announce Type: new Abstract: Large language model (LLM) agents are evolving from conversational assistants into Cowork Agents capable of autonomous planning, tool use, and complex task execution.  Financial an...",
+      "source": "arXiv cs.AI",
+      "url": "https://arxiv.org/abs/2610.26887",
+      "publishedAt": "2026-10-21T04:00:00.000Z",
+      "impact": 69
+    },
+    {
+      "id": "arxiv-cs.ai-1792555200000-1",
+      "type": "live",
+      "category": "robotics",
+      "title": "Large language model and reinforcement learning based autonomous construction and progress updates",
+      "excerpt": "26899v1 Announce Type: new Abstract: Due to the rapid growth of the global population, traditional construction methods are gradually unable to meet the current housing demand.  The advancement of machine learning alg...",
+      "source": "arXiv cs.AI",
+      "url": "https://arxiv.org/abs/2610.26899",
+      "publishedAt": "2026-10-21T04:00:00.000Z",
+      "impact": 58
+    },
+    {
+      "id": "arxiv-cs.ai-1792555200000-2",
+      "type": "live",
+      "category": "llm",
+      "title": "Pareto-Optimal RTL Code Generation via Multi-Objective Reinforcement Learning with Large Language Models",
+      "excerpt": "26904v1 Announce Type: new Abstract: Recent studies have proposed reinforcement learning with verifiable rewards (RLVR) methods that enable LLMs to generate high-quality RTL circuits from natural-language specificatio...",
+      "source": "arXiv cs.AI",
+      "url": "https://arxiv.org/abs/2610.26904",
+      "publishedAt": "2026-10-21T04:00:00.000Z",
+      "impact": 58
+    },
+    {
+      "id": "arxiv-cs.ai-1792555200000-3",
+      "type": "live",
+      "category": "hardware",
+      "title": "MedPAO-Assist: Edge-Deployable, Modality-Aware Agentic AI for Radiology Report Structuring",
+      "excerpt": "26913v1 Announce Type: new Abstract: The adoption of Large Language Models for radiology report structuring has been largely dominated by either proprietary cloud-based models or large open models requiring high-end G...",
+      "source": "arXiv cs.AI",
+      "url": "https://arxiv.org/abs/2610.26913",
+      "publishedAt": "2026-10-21T04:00:00.000Z",
+      "impact": 69
+    },
+    {
+      "id": "arxiv-cs.ai-1792555200000-4",
+      "type": "live",
+      "category": "llm",
+      "title": "DataPraxis: Scaling Analytics Tasks via Verified Workspace Evolution",
+      "excerpt": "26924v1 Announce Type: new Abstract: General-purpose agents are increasingly expected to perform professional analytics work, which requires sustained reasoning, iterative investigation, and reliable evidence.  Traini...",
+      "source": "arXiv cs.AI",
+      "url": "https://arxiv.org/abs/2610.26924",
+      "publishedAt": "2026-10-21T04:00:00.000Z",
+      "impact": 58
+    },
+    {
+      "id": "arxiv-cs.ai-1792555200000-5",
+      "type": "live",
+      "category": "robotics",
+      "title": "Industrial Agentic AI: LLM-Driven New-Generation Agents for Smart Manufacturing",
+      "excerpt": "26941v1 Announce Type: new Abstract: Large language models (LLMs) are enabling agents to move beyond predefined workflows toward autonomous planning and execution, creating new opportunities for smart manufacturing.  ...",
+      "source": "arXiv cs.AI",
+      "url": "https://arxiv.org/abs/2610.26941",
+      "publishedAt": "2026-10-21T04:00:00.000Z",
+      "impact": 69
+    },
+    {
+      "id": "aether-grok43",
+      "type": "premium",
+      "category": "llm",
+      "title": "xAI releases Grok-4.3 with native long-horizon agent scaffolding",
+      "excerpt": "New model demonstrates 4.2× improvement on multi-step software engineering benchmarks and sustains coherent agent trajectories beyond 110k tokens.",
+      "source": "xAI",
+      "url": "https://x.ai/blog/grok-4.3",
+      "publishedAt": "2026-10-20T23:10:27.926Z",
+      "impact": 96
+    },
+    {
+      "id": "aether-figure03",
+      "type": "premium",
+      "category": "robotics",
+      "title": "Figure 03 completes 43-hour autonomous factory shift with zero interventions",
+      "excerpt": "Humanoid achieves new milestone in unsupervised operation, performing 1,240 unique tasks across three assembly lines at the BMW South Carolina plant.",
+      "source": "Figure AI",
+      "url": "https://figure.ai/news/03-milestone",
+      "publishedAt": "2026-10-20T19:10:27.926Z",
+      "impact": 89
+    },
+    {
+      "id": "hugging-face-1792520267000-0",
+      "type": "live",
+      "category": "research",
+      "title": "NVIDIA Cosmos3-H-Dreams: Bringing Clinical Surgery to Life Through Generative Simulation",
+      "excerpt": "New development from the frontier.",
+      "source": "Hugging Face",
+      "url": "https://huggingface.co/blog/nvidia/cosmos3-h-dreams",
+      "publishedAt": "2026-10-20T18:17:47.000Z",
+      "impact": 75
+    },
+    {
+      "id": "hugging-face-1792512559000-1",
       "type": "live",
       "category": "llm",
       "title": "FairStress: A deeper evaluation of fairness in LLM decision-making",
@@ -15,7 +114,18 @@
       "impact": 75
     },
     {
-      "id": "hugging-face-1792509588000-1",
+      "id": "marktechpost-1792509723000-0",
+      "type": "live",
+      "category": "research",
+      "title": "Google Open-Sources TorchTPU, a Native PyTorch Backend for Cloud TPUs",
+      "excerpt": "Google and Meta open-sourced TorchTPU, a native PyTorch backend for Cloud TPUs.  It runs eager by default, compiles through torch",
+      "source": "MarkTechPost",
+      "url": "https://www.marktechpost.com/2026/10/20/google-torchtpu-open-source-native-pytorch-tpu/",
+      "publishedAt": "2026-10-20T15:22:03.000Z",
+      "impact": 65
+    },
+    {
+      "id": "hugging-face-1792509588000-2",
       "type": "live",
       "category": "llm",
       "title": "ALTK-Evolve: How learned memory tops the τ²-bench leaderboard on customer service tasks without a frontier model",
@@ -26,7 +136,7 @@
       "impact": 93
     },
     {
-      "id": "marktechpost-1792506719000-0",
+      "id": "marktechpost-1792506719000-1",
       "type": "live",
       "category": "hardware",
       "title": "DeepSeek Open-Sources DeepInfer, the Inference Framework Behind DeepSeek-V4.1-Flash",
@@ -37,18 +147,18 @@
       "impact": 65
     },
     {
-      "id": "aether-grok43",
+      "id": "aether-interp",
       "type": "premium",
-      "category": "llm",
-      "title": "xAI releases Grok-4.3 with native long-horizon agent scaffolding",
-      "excerpt": "New model demonstrates 4.2× improvement on multi-step software engineering benchmarks and sustains coherent agent trajectories beyond 110k tokens.",
-      "source": "xAI",
-      "url": "https://x.ai/blog/grok-4.3",
-      "publishedAt": "2026-10-20T11:39:23.755Z",
-      "impact": 96
+      "category": "safety",
+      "title": "Anthropic publishes unprecedented mechanistic interpretability map of Claude 4",
+      "excerpt": "Researchers reverse-engineered 312 million features inside the model, including the first clear \"deception circuit\" discovered in a frontier model.",
+      "source": "Anthropic",
+      "url": "https://anthropic.com/research/claude-4-interp",
+      "publishedAt": "2026-10-20T14:10:27.926Z",
+      "impact": 91
     },
     {
-      "id": "marktechpost-1792483941000-1",
+      "id": "marktechpost-1792483941000-2",
       "type": "live",
       "category": "llm",
       "title": "Exa 3.0 Search API Tops Perplexity, Brave and Parallel on 8 Benchmarks",
@@ -59,7 +169,7 @@
       "impact": 65
     },
     {
-      "id": "marktechpost-1792482341000-2",
+      "id": "marktechpost-1792482341000-3",
       "type": "live",
       "category": "llm",
       "title": "Cloudflare Releases Clairic, a System One Extraction Model on Workers AI",
@@ -68,116 +178,6 @@
       "url": "https://www.marktechpost.com/2026/10/20/cloudflare-releases-clairic-a-system-one-extraction-model-on-workers-ai/",
       "publishedAt": "2026-10-20T07:45:41.000Z",
       "impact": 65
-    },
-    {
-      "id": "aether-figure03",
-      "type": "premium",
-      "category": "robotics",
-      "title": "Figure 03 completes 43-hour autonomous factory shift with zero interventions",
-      "excerpt": "Humanoid achieves new milestone in unsupervised operation, performing 1,240 unique tasks across three assembly lines at the BMW South Carolina plant.",
-      "source": "Figure AI",
-      "url": "https://figure.ai/news/03-milestone",
-      "publishedAt": "2026-10-20T07:39:23.756Z",
-      "impact": 89
-    },
-    {
-      "id": "arxiv-cs.ai-1792468800000-0",
-      "type": "live",
-      "category": "llm",
-      "title": "GardenBench: A lightweight, daily evaluation of LLM capabilities",
-      "excerpt": "23866v1 Announce Type: new Abstract: We introduce GardenBench, a benchmark with 11 test suites that evaluate the capabilities of Large Language Models (LLMs) across a range of tasks.  By systematically prompting LLMs ...",
-      "source": "arXiv cs.AI",
-      "url": "https://arxiv.org/abs/2610.23866",
-      "publishedAt": "2026-10-20T04:00:00.000Z",
-      "impact": 58
-    },
-    {
-      "id": "arxiv-cs.ai-1792468800000-1",
-      "type": "live",
-      "category": "llm",
-      "title": "Doing Less with More: A First-Principles Exploration of the Suitability of Agentic Computing over Alternative Architectural Choices",
-      "excerpt": "23921v1 Announce Type: new Abstract: There is growing interest in automating business activities with Agentic Artificial Intelligence (AI) due to latter's seeming ease of use.  Never has it been easier, or costlier, t...",
-      "source": "arXiv cs.AI",
-      "url": "https://arxiv.org/abs/2610.23921",
-      "publishedAt": "2026-10-20T04:00:00.000Z",
-      "impact": 69
-    },
-    {
-      "id": "arxiv-cs.ai-1792468800000-2",
-      "type": "live",
-      "category": "llm",
-      "title": "A Controlled LLM Workflow for Evidence-Grounded Diagnosis of Risk Score Differences",
-      "excerpt": "23962v1 Announce Type: new Abstract: We propose a controlled Large Language Model (LLM) workflow for explaining risk score differences using similar historical transactions.  The workflow combines reference retrieval ...",
-      "source": "arXiv cs.AI",
-      "url": "https://arxiv.org/abs/2610.23962",
-      "publishedAt": "2026-10-20T04:00:00.000Z",
-      "impact": 58
-    },
-    {
-      "id": "arxiv-cs.ai-1792468800000-3",
-      "type": "live",
-      "category": "safety",
-      "title": "What Social Media Teaches Us About Accumulative AI Risks",
-      "excerpt": "24006v1 Announce Type: new Abstract: Prominent AI safety discussions emphasize existential threats and catastrophic events, such as AI-enabled nuclear conflict or engineered biological outbreaks.  This position paper ...",
-      "source": "arXiv cs.AI",
-      "url": "https://arxiv.org/abs/2610.24006",
-      "publishedAt": "2026-10-20T04:00:00.000Z",
-      "impact": 58
-    },
-    {
-      "id": "arxiv-cs.ai-1792468800000-4",
-      "type": "live",
-      "category": "safety",
-      "title": "Beyond Explicit Intent: Discovering and Shaping Artistic Intent through Human-AI Co-Creation",
-      "excerpt": "24010v1 Announce Type: new Abstract: Generative AI is becoming an important medium for artistic creation, yet existing interactions often assume that creators can specify intentions in advance and accurately communica...",
-      "source": "arXiv cs.AI",
-      "url": "https://arxiv.org/abs/2610.24010",
-      "publishedAt": "2026-10-20T04:00:00.000Z",
-      "impact": 58
-    },
-    {
-      "id": "arxiv-cs.ai-1792468800000-5",
-      "type": "live",
-      "category": "safety",
-      "title": "Unified Multiparadigm Fusion Intelligence for Rare Disease Diagnosis",
-      "excerpt": "24024v1 Announce Type: new Abstract: Rare diseases (RDs) affect an estimated 300 million people globally, leaving patients to navigate a protracted diagnostic odyssey constrained by clinical scarcity and fragmented me...",
-      "source": "arXiv cs.AI",
-      "url": "https://arxiv.org/abs/2610.24024",
-      "publishedAt": "2026-10-20T04:00:00.000Z",
-      "impact": 58
-    },
-    {
-      "id": "marktechpost-1792467163000-3",
-      "type": "live",
-      "category": "llm",
-      "title": "Inception Releases Mercury 3 Diffusion LLM at 1,068 Tokens per Second",
-      "excerpt": "Inception released Mercury 3, a diffusion LLM it says runs at 1,068 tokens per second with a 1M-token context.  On Inception’s own table it leads GPT-6 Luna and Claude Haiku 5",
-      "source": "MarkTechPost",
-      "url": "https://www.marktechpost.com/2026/10/19/inception-mercury-3-diffusion-llm/",
-      "publishedAt": "2026-10-20T03:32:43.000Z",
-      "impact": 65
-    },
-    {
-      "id": "aether-interp",
-      "type": "premium",
-      "category": "safety",
-      "title": "Anthropic publishes unprecedented mechanistic interpretability map of Claude 4",
-      "excerpt": "Researchers reverse-engineered 312 million features inside the model, including the first clear \"deception circuit\" discovered in a frontier model.",
-      "source": "Anthropic",
-      "url": "https://anthropic.com/research/claude-4-interp",
-      "publishedAt": "2026-10-20T02:39:23.756Z",
-      "impact": 91
-    },
-    {
-      "id": "hugging-face-1792454400000-2",
-      "type": "live",
-      "category": "research",
-      "title": "Hugging Face ❤️ TorchTPU: TPUs, Natively",
-      "excerpt": "New development from the frontier.",
-      "source": "Hugging Face",
-      "url": "https://huggingface.co/blog/hf-torchtpu",
-      "publishedAt": "2026-10-20T00:00:00.000Z",
-      "impact": 75
     }
   ]
 }

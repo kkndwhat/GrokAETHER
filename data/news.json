@@ -1,10 +1,43 @@
 {
-  "lastUpdated": "2026-10-22T11:31:06.539Z",
+  "lastUpdated": "2026-10-22T16:57:01.790Z",
   "source": "AETHER + Public RSS (arXiv, Hugging Face, MarkTechPost, Ben's Bites)",
   "count": 16,
   "articles": [
     {
-      "id": "hugging-face-1792655491000-0",
+      "id": "hugging-face-1792685491000-0",
+      "type": "live",
+      "category": "research",
+      "title": "OlmoEarth v1.3: State-of-the-art embeddings for the whole planet",
+      "excerpt": "New development from the frontier.",
+      "source": "Hugging Face",
+      "url": "https://huggingface.co/blog/allenai/olmoearth-v1-3",
+      "publishedAt": "2026-10-22T16:11:31.000Z",
+      "impact": 75
+    },
+    {
+      "id": "aether-grok43",
+      "type": "premium",
+      "category": "llm",
+      "title": "xAI releases Grok-4.3 with native long-horizon agent scaffolding",
+      "excerpt": "New model demonstrates 4.2× improvement on multi-step software engineering benchmarks and sustains coherent agent trajectories beyond 110k tokens.",
+      "source": "xAI",
+      "url": "https://x.ai/blog/grok-4.3",
+      "publishedAt": "2026-10-22T11:57:01.385Z",
+      "impact": 96
+    },
+    {
+      "id": "aether-figure03",
+      "type": "premium",
+      "category": "robotics",
+      "title": "Figure 03 completes 43-hour autonomous factory shift with zero interventions",
+      "excerpt": "Humanoid achieves new milestone in unsupervised operation, performing 1,240 unique tasks across three assembly lines at the BMW South Carolina plant.",
+      "source": "Figure AI",
+      "url": "https://figure.ai/news/03-milestone",
+      "publishedAt": "2026-10-22T07:57:01.385Z",
+      "impact": 89
+    },
+    {
+      "id": "hugging-face-1792655491000-1",
       "type": "live",
       "category": "llm",
       "title": "Ensemble forecasting with IBM Granite time-series models",
@@ -24,17 +57,6 @@
       "url": "https://www.marktechpost.com/2026/10/22/ibm-granite-speech-5-0-2b-release/",
       "publishedAt": "2026-10-22T07:00:56.000Z",
       "impact": 65
-    },
-    {
-      "id": "aether-grok43",
-      "type": "premium",
-      "category": "llm",
-      "title": "xAI releases Grok-4.3 with native long-horizon agent scaffolding",
-      "excerpt": "New model demonstrates 4.2× improvement on multi-step software engineering benchmarks and sustains coherent agent trajectories beyond 110k tokens.",
-      "source": "xAI",
-      "url": "https://x.ai/blog/grok-4.3",
-      "publishedAt": "2026-10-22T06:31:06.206Z",
-      "impact": 96
     },
     {
       "id": "marktechpost-1792644991000-1",
@@ -136,17 +158,6 @@
       "impact": 65
     },
     {
-      "id": "aether-figure03",
-      "type": "premium",
-      "category": "robotics",
-      "title": "Figure 03 completes 43-hour autonomous factory shift with zero interventions",
-      "excerpt": "Humanoid achieves new milestone in unsupervised operation, performing 1,240 unique tasks across three assembly lines at the BMW South Carolina plant.",
-      "source": "Figure AI",
-      "url": "https://figure.ai/news/03-milestone",
-      "publishedAt": "2026-10-22T02:31:06.206Z",
-      "impact": 89
-    },
-    {
       "id": "aether-interp",
       "type": "premium",
       "category": "safety",
@@ -154,11 +165,11 @@
       "excerpt": "Researchers reverse-engineered 312 million features inside the model, including the first clear \"deception circuit\" discovered in a frontier model.",
       "source": "Anthropic",
       "url": "https://anthropic.com/research/claude-4-interp",
-      "publishedAt": "2026-10-21T21:31:06.206Z",
+      "publishedAt": "2026-10-22T02:57:01.385Z",
       "impact": 91
     },
     {
-      "id": "hugging-face-1792607190000-1",
+      "id": "hugging-face-1792607190000-2",
       "type": "live",
       "category": "research",
       "title": "NVIDIA Kumo Relational Outperforms Supervised Machine Learning on Relational Data, No Training Required",
@@ -166,17 +177,6 @@
       "source": "Hugging Face",
       "url": "https://huggingface.co/blog/nvidia/kumo-relational",
       "publishedAt": "2026-10-21T18:26:30.000Z",
-      "impact": 75
-    },
-    {
-      "id": "hugging-face-1792604136000-2",
-      "type": "live",
-      "category": "research",
-      "title": "How Specializing the Vocabulary of SLMs Can Cut Inference Cost by 77% in Real Applications",
-      "excerpt": "New development from the frontier.",
-      "source": "Hugging Face",
-      "url": "https://huggingface.co/blog/Dharma-AI/vocabx-vocabulary-specialization",
-      "publishedAt": "2026-10-21T17:35:36.000Z",
       "impact": 75
     }
   ]

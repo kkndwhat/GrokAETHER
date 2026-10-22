@@ -1,8 +1,63 @@
 {
-  "lastUpdated": "2026-10-22T04:11:01.841Z",
+  "lastUpdated": "2026-10-22T11:31:06.539Z",
   "source": "AETHER + Public RSS (arXiv, Hugging Face, MarkTechPost, Ben's Bites)",
   "count": 16,
   "articles": [
+    {
+      "id": "hugging-face-1792655491000-0",
+      "type": "live",
+      "category": "llm",
+      "title": "Ensemble forecasting with IBM Granite time-series models",
+      "excerpt": "New development from the frontier.",
+      "source": "Hugging Face",
+      "url": "https://huggingface.co/blog/ibm-research/granite-timeseries-ensemble-r1",
+      "publishedAt": "2026-10-22T07:51:31.000Z",
+      "impact": 75
+    },
+    {
+      "id": "marktechpost-1792652456000-0",
+      "type": "live",
+      "category": "llm",
+      "title": "IBM AI Releases Granite Speech 5.0 2B for Multilingual Transcription and Translation",
+      "excerpt": "IBM released Granite Speech 5. 0 speech recognition and translation model",
+      "source": "MarkTechPost",
+      "url": "https://www.marktechpost.com/2026/10/22/ibm-granite-speech-5-0-2b-release/",
+      "publishedAt": "2026-10-22T07:00:56.000Z",
+      "impact": 65
+    },
+    {
+      "id": "aether-grok43",
+      "type": "premium",
+      "category": "llm",
+      "title": "xAI releases Grok-4.3 with native long-horizon agent scaffolding",
+      "excerpt": "New model demonstrates 4.2× improvement on multi-step software engineering benchmarks and sustains coherent agent trajectories beyond 110k tokens.",
+      "source": "xAI",
+      "url": "https://x.ai/blog/grok-4.3",
+      "publishedAt": "2026-10-22T06:31:06.206Z",
+      "impact": 96
+    },
+    {
+      "id": "marktechpost-1792644991000-1",
+      "type": "live",
+      "category": "llm",
+      "title": "Perplexity and NVIDIA Researchers Introduce JOLT: a Joint Teacher-Student Reinforcement Learning Method",
+      "excerpt": "Perplexity and NVIDIA introduced JOLT, a post-training method that trains one model as both teacher and student.  On MATH it matched GRPO’s accuracy with 6",
+      "source": "MarkTechPost",
+      "url": "https://www.marktechpost.com/2026/10/21/perplexity-jolt-joint-on-policy-learning-teaching/",
+      "publishedAt": "2026-10-22T04:56:31.000Z",
+      "impact": 65
+    },
+    {
+      "id": "marktechpost-1792642657000-2",
+      "type": "live",
+      "category": "llm",
+      "title": "A Coding Guide to Cactus Whistle: Does a 16.9 MB Speech Model Hold Up Against Whisper Base? Word Error Rate, Speed, Streaming, Timestamps, Keywords, and Speech-to-Tool Calls on a CPU",
+      "excerpt": "Explore a comprehensive coding guide benchmarking Cactus Compute's 16. 9 MB speech model against Whisper base",
+      "source": "MarkTechPost",
+      "url": "https://www.marktechpost.com/2026/10/21/cactus-whistle-vs-whisper-base-speech-to-text-benchmark-cpu-guide/",
+      "publishedAt": "2026-10-22T04:17:37.000Z",
+      "impact": 65
+    },
     {
       "id": "arxiv-cs.ai-1792641600000-0",
       "type": "live",
@@ -70,37 +125,15 @@
       "impact": 58
     },
     {
-      "id": "aether-grok43",
-      "type": "premium",
-      "category": "llm",
-      "title": "xAI releases Grok-4.3 with native long-horizon agent scaffolding",
-      "excerpt": "New model demonstrates 4.2× improvement on multi-step software engineering benchmarks and sustains coherent agent trajectories beyond 110k tokens.",
-      "source": "xAI",
-      "url": "https://x.ai/blog/grok-4.3",
-      "publishedAt": "2026-10-21T23:11:01.230Z",
-      "impact": 96
-    },
-    {
-      "id": "marktechpost-1792622381000-0",
+      "id": "marktechpost-1792641552000-3",
       "type": "live",
-      "category": "llm",
-      "title": "Recursive Releases Flint, an Open-Weight 40B MoE Local Coding Model for Agents with 2.5B Active Params",
-      "excerpt": "Recursive has released Flint, an Apache 2. 0 local coding model with 40B total and 2",
+      "category": "hardware",
+      "title": "NVIDIA Nsight Python Tutorial: How to Profile GPU Kernels",
+      "excerpt": "Discover NVIDIA Nsight Python, an open-source interface that allows developers to profile GPU kernels, analyze hardware metrics, evaluate cache and clock controls, and measure kernel fusion directly from Python code. ...",
       "source": "MarkTechPost",
-      "url": "https://www.marktechpost.com/2026/10/21/recursive-flint-local-coding-model/",
-      "publishedAt": "2026-10-21T22:39:41.000Z",
-      "impact": 77
-    },
-    {
-      "id": "marktechpost-1792620939000-1",
-      "type": "live",
-      "category": "llm",
-      "title": "Vercel Open-Sources durable-harness for Crash-Proof Coding Agents",
-      "excerpt": "Vercel released durable-harness, an open-source package that logs every model and tool call so Pi, OpenCode, Claude Code and Codex sessions resume after crashes, timeouts and redeploys on Vercel, Postgres or a laptop....",
-      "source": "MarkTechPost",
-      "url": "https://www.marktechpost.com/2026/10/21/vercel-durable-harness-crash-proof-coding-agents/",
-      "publishedAt": "2026-10-21T22:15:39.000Z",
-      "impact": 77
+      "url": "https://www.marktechpost.com/2026/10/21/nvidia-nsight-python-tutorial-how-to-profile-gpu-kernels/",
+      "publishedAt": "2026-10-22T03:59:12.000Z",
+      "impact": 65
     },
     {
       "id": "aether-figure03",
@@ -110,11 +143,22 @@
       "excerpt": "Humanoid achieves new milestone in unsupervised operation, performing 1,240 unique tasks across three assembly lines at the BMW South Carolina plant.",
       "source": "Figure AI",
       "url": "https://figure.ai/news/03-milestone",
-      "publishedAt": "2026-10-21T19:11:01.231Z",
+      "publishedAt": "2026-10-22T02:31:06.206Z",
       "impact": 89
     },
     {
-      "id": "hugging-face-1792607190000-0",
+      "id": "aether-interp",
+      "type": "premium",
+      "category": "safety",
+      "title": "Anthropic publishes unprecedented mechanistic interpretability map of Claude 4",
+      "excerpt": "Researchers reverse-engineered 312 million features inside the model, including the first clear \"deception circuit\" discovered in a frontier model.",
+      "source": "Anthropic",
+      "url": "https://anthropic.com/research/claude-4-interp",
+      "publishedAt": "2026-10-21T21:31:06.206Z",
+      "impact": 91
+    },
+    {
+      "id": "hugging-face-1792607190000-1",
       "type": "live",
       "category": "research",
       "title": "NVIDIA Kumo Relational Outperforms Supervised Machine Learning on Relational Data, No Training Required",
@@ -125,7 +169,7 @@
       "impact": 75
     },
     {
-      "id": "hugging-face-1792604136000-1",
+      "id": "hugging-face-1792604136000-2",
       "type": "live",
       "category": "research",
       "title": "How Specializing the Vocabulary of SLMs Can Cut Inference Cost by 77% in Real Applications",
@@ -134,50 +178,6 @@
       "url": "https://huggingface.co/blog/Dharma-AI/vocabx-vocabulary-specialization",
       "publishedAt": "2026-10-21T17:35:36.000Z",
       "impact": 75
-    },
-    {
-      "id": "hugging-face-1792598683000-2",
-      "type": "live",
-      "category": "hardware",
-      "title": "Profiling TorchNeuron (Part 1): System-level profiling on AWS Trainium.",
-      "excerpt": "New development from the frontier.",
-      "source": "Hugging Face",
-      "url": "https://huggingface.co/blog/amazon/profiling-torchneuron-part-1",
-      "publishedAt": "2026-10-21T16:04:43.000Z",
-      "impact": 75
-    },
-    {
-      "id": "aether-interp",
-      "type": "premium",
-      "category": "safety",
-      "title": "Anthropic publishes unprecedented mechanistic interpretability map of Claude 4",
-      "excerpt": "Researchers reverse-engineered 312 million features inside the model, including the first clear \"deception circuit\" discovered in a frontier model.",
-      "source": "Anthropic",
-      "url": "https://anthropic.com/research/claude-4-interp",
-      "publishedAt": "2026-10-21T14:11:01.231Z",
-      "impact": 91
-    },
-    {
-      "id": "marktechpost-1792562592000-2",
-      "type": "live",
-      "category": "llm",
-      "title": "Mistral AI Releases Voxtral 3: Speech-to-Text, TTS and a Voice Agent SDK",
-      "excerpt": "Mistral AI released Voxtral 3, a family of 3 transcription models, 1 text-to-speech model and a LiveKit-based voice agent SDK.  Voxtral Small Transcribe 3 scores 2",
-      "source": "MarkTechPost",
-      "url": "https://www.marktechpost.com/2026/10/20/mistral-voxtral-3-speech-models-voice-agent-sdk/",
-      "publishedAt": "2026-10-21T06:03:12.000Z",
-      "impact": 77
-    },
-    {
-      "id": "marktechpost-1792557220000-3",
-      "type": "live",
-      "category": "hardware",
-      "title": "Google Cloud Ships llm-d 1.0 With Cache-Aware Routing for TPU and GPU Fleets",
-      "excerpt": "Google, Red Hat and IBM released llm-d 1. 0, an open-source Kubernetes-native stack for distributed LLM inference",
-      "source": "MarkTechPost",
-      "url": "https://www.marktechpost.com/2026/10/20/llm-d-1-0-open-source-distributed-inference-stack/",
-      "publishedAt": "2026-10-21T04:33:40.000Z",
-      "impact": 65
     }
   ]
 }

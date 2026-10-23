@@ -1,8 +1,52 @@
 {
-  "lastUpdated": "2026-10-23T04:14:36.948Z",
+  "lastUpdated": "2026-10-23T11:20:39.391Z",
   "source": "AETHER + Public RSS (arXiv, Hugging Face, MarkTechPost, Ben's Bites)",
   "count": 16,
   "articles": [
+    {
+      "id": "marktechpost-1792745927000-0",
+      "type": "live",
+      "category": "research",
+      "title": "TinyFish Breaks Down Agentic Search Architecture for Production AI Agents",
+      "excerpt": "TinyFish published two engineering research articles on agentic search.  One defines a 7-phase production architecture with evidence contracts and bounded retries",
+      "source": "MarkTechPost",
+      "url": "https://www.marktechpost.com/2026/10/23/tinyfish-agentic-search-architecture-deep-research/",
+      "publishedAt": "2026-10-23T08:58:47.000Z",
+      "impact": 77
+    },
+    {
+      "id": "aether-grok43",
+      "type": "premium",
+      "category": "llm",
+      "title": "xAI releases Grok-4.3 with native long-horizon agent scaffolding",
+      "excerpt": "New model demonstrates 4.2× improvement on multi-step software engineering benchmarks and sustains coherent agent trajectories beyond 110k tokens.",
+      "source": "xAI",
+      "url": "https://x.ai/blog/grok-4.3",
+      "publishedAt": "2026-10-23T06:20:38.876Z",
+      "impact": 96
+    },
+    {
+      "id": "marktechpost-1792735510000-1",
+      "type": "live",
+      "category": "hardware",
+      "title": "Google Cloud Launches Agent Compute Engine: A MicroVM per AI Agent",
+      "excerpt": "Google Cloud announced Agent Compute Engine, a compute service that gives every AI agent its own hardware-isolated microVM with no credentials inside.  It already runs Gemini agents and enters preview in the coming mo...",
+      "source": "MarkTechPost",
+      "url": "https://www.marktechpost.com/2026/10/22/google-cloud-agent-compute-engine-microvm-ai-agents/",
+      "publishedAt": "2026-10-23T06:05:10.000Z",
+      "impact": 77
+    },
+    {
+      "id": "marktechpost-1792733301000-2",
+      "type": "live",
+      "category": "llm",
+      "title": "You.com Launches Inference Router: 12 Open-Weight Models With 99.9% Uptime SLA",
+      "excerpt": "com launched Inference Router, an OpenAI-compatible API for 12 open-weight models with a 99. 9% uptime SLA, zero data retention, 100% US hosting, server-side web search and no platform fee",
+      "source": "MarkTechPost",
+      "url": "https://www.marktechpost.com/2026/10/22/you-com-inference-router-open-weight-models-uptime-sla/",
+      "publishedAt": "2026-10-23T05:28:21.000Z",
+      "impact": 65
+    },
     {
       "id": "arxiv-cs.ai-1792728000000-0",
       "type": "live",
@@ -70,15 +114,15 @@
       "impact": 58
     },
     {
-      "id": "aether-grok43",
+      "id": "aether-figure03",
       "type": "premium",
-      "category": "llm",
-      "title": "xAI releases Grok-4.3 with native long-horizon agent scaffolding",
-      "excerpt": "New model demonstrates 4.2× improvement on multi-step software engineering benchmarks and sustains coherent agent trajectories beyond 110k tokens.",
-      "source": "xAI",
-      "url": "https://x.ai/blog/grok-4.3",
-      "publishedAt": "2026-10-22T23:14:36.567Z",
-      "impact": 96
+      "category": "robotics",
+      "title": "Figure 03 completes 43-hour autonomous factory shift with zero interventions",
+      "excerpt": "Humanoid achieves new milestone in unsupervised operation, performing 1,240 unique tasks across three assembly lines at the BMW South Carolina plant.",
+      "source": "Figure AI",
+      "url": "https://figure.ai/news/03-milestone",
+      "publishedAt": "2026-10-23T02:20:38.876Z",
+      "impact": 89
     },
     {
       "id": "hugging-face-1792707874000-0",
@@ -92,18 +136,18 @@
       "impact": 87
     },
     {
-      "id": "aether-figure03",
+      "id": "aether-interp",
       "type": "premium",
-      "category": "robotics",
-      "title": "Figure 03 completes 43-hour autonomous factory shift with zero interventions",
-      "excerpt": "Humanoid achieves new milestone in unsupervised operation, performing 1,240 unique tasks across three assembly lines at the BMW South Carolina plant.",
-      "source": "Figure AI",
-      "url": "https://figure.ai/news/03-milestone",
-      "publishedAt": "2026-10-22T19:14:36.567Z",
-      "impact": 89
+      "category": "safety",
+      "title": "Anthropic publishes unprecedented mechanistic interpretability map of Claude 4",
+      "excerpt": "Researchers reverse-engineered 312 million features inside the model, including the first clear \"deception circuit\" discovered in a frontier model.",
+      "source": "Anthropic",
+      "url": "https://anthropic.com/research/claude-4-interp",
+      "publishedAt": "2026-10-22T21:20:38.876Z",
+      "impact": 91
     },
     {
-      "id": "marktechpost-1792690405000-0",
+      "id": "marktechpost-1792690405000-3",
       "type": "live",
       "category": "llm",
       "title": "Liquid AI Launches RIPL, a Real-Time Inference Engine for Sub-50 ms LFMs",
@@ -111,39 +155,6 @@
       "source": "MarkTechPost",
       "url": "https://www.marktechpost.com/2026/10/22/liquid-ai-ripl-real-time-inference-engine/",
       "publishedAt": "2026-10-22T17:33:25.000Z",
-      "impact": 65
-    },
-    {
-      "id": "marktechpost-1792688172000-1",
-      "type": "live",
-      "category": "llm",
-      "title": "Gradium Open-Sources Phonon, a 31M-Parameter On-Device TTS Model Under Apache 2.0",
-      "excerpt": "Gradium has open-sourced Phonon, a family of on-device text-to-speech models.  The English Phonon 31m ships under Apache 2",
-      "source": "MarkTechPost",
-      "url": "https://www.marktechpost.com/2026/10/22/gradium-phonon-31m-on-device-tts/",
-      "publishedAt": "2026-10-22T16:56:12.000Z",
-      "impact": 65
-    },
-    {
-      "id": "marktechpost-1792686691000-2",
-      "type": "live",
-      "category": "research",
-      "title": "Cohere Releases Rerank 5 With Passage-Level Context Focus and Calibrated Scores",
-      "excerpt": "Cohere Rerank 5 ships in Pro and Fast tiers with a 32K context window, Context Focus passage extraction and calibrated relevance scores. 2 on BRIGHT and costs $0",
-      "source": "MarkTechPost",
-      "url": "https://www.marktechpost.com/2026/10/22/cohere-rerank-5-context-focus/",
-      "publishedAt": "2026-10-22T16:31:31.000Z",
-      "impact": 65
-    },
-    {
-      "id": "marktechpost-1792685512000-3",
-      "type": "live",
-      "category": "research",
-      "title": "A Developer’s Guide to OmniParseBench: Leaderboard Benchmarks and OCR Testing",
-      "excerpt": "Explore how to audit and rebuild Datalab's OmniParseBench, test parser ranking certainty with document-level bootstrapping, and evaluate Tesseract and Indra OCR performance on a custom sample.  The post A Developer’s ...",
-      "source": "MarkTechPost",
-      "url": "https://www.marktechpost.com/2026/10/22/omniparsebench-document-parsing-leaderboard-guide/",
-      "publishedAt": "2026-10-22T16:11:52.000Z",
       "impact": 65
     },
     {
@@ -156,17 +167,6 @@
       "url": "https://huggingface.co/blog/allenai/olmoearth-v1-3",
       "publishedAt": "2026-10-22T16:11:31.000Z",
       "impact": 75
-    },
-    {
-      "id": "aether-interp",
-      "type": "premium",
-      "category": "safety",
-      "title": "Anthropic publishes unprecedented mechanistic interpretability map of Claude 4",
-      "excerpt": "Researchers reverse-engineered 312 million features inside the model, including the first clear \"deception circuit\" discovered in a frontier model.",
-      "source": "Anthropic",
-      "url": "https://anthropic.com/research/claude-4-interp",
-      "publishedAt": "2026-10-22T14:14:36.567Z",
-      "impact": 91
     },
     {
       "id": "hugging-face-1792655491000-2",

@@ -1,8 +1,19 @@
 {
-  "lastUpdated": "2026-10-24T10:39:44.601Z",
+  "lastUpdated": "2026-10-24T15:41:48.430Z",
   "source": "AETHER + Public RSS (arXiv, Hugging Face, MarkTechPost, Ben's Bites)",
   "count": 10,
   "articles": [
+    {
+      "id": "marktechpost-1792840347000-0",
+      "type": "live",
+      "category": "llm",
+      "title": "Meet Anthropic’s sandbox-runtime: OS-Level Sandboxing for AI Agents, No Containers",
+      "excerpt": "Anthropic sandbox-runtime (srt) is the open-source, OS-level sandbox behind Claude Code.  It restricts file and network access for agents, MCP servers and CLI tools with Seatbelt on macOS and bubblewrap on Linux, no c...",
+      "source": "MarkTechPost",
+      "url": "https://www.marktechpost.com/2026/10/24/anthropic-sandbox-runtime-ai-agent-sandbox/",
+      "publishedAt": "2026-10-24T11:12:27.000Z",
+      "impact": 77
+    },
     {
       "id": "aether-grok43",
       "type": "premium",
@@ -11,18 +22,18 @@
       "excerpt": "New model demonstrates 4.2× improvement on multi-step software engineering benchmarks and sustains coherent agent trajectories beyond 110k tokens.",
       "source": "xAI",
       "url": "https://x.ai/blog/grok-4.3",
-      "publishedAt": "2026-10-24T05:39:44.035Z",
+      "publishedAt": "2026-10-24T10:41:48.137Z",
       "impact": 96
     },
     {
-      "id": "marktechpost-1792814189000-0",
+      "id": "marktechpost-1792837771000-1",
       "type": "live",
-      "category": "robotics",
-      "title": "NVIDIA Releases Nemotron 3.5 Bolt E4B 4GB: An Open Small Language Model for Local Voice Agents, Game Characters and Robots",
-      "excerpt": "NVIDIA released Nemotron 3. 5 Bolt E4B 4GB, an open small language model post-trained from Gemma 4 E4B for local voice assistants, game characters and robots, targeting about 4GB of VRAM on RTX and Jetson",
+      "category": "research",
+      "title": "Stateful Agentic Engineering Copilots with Letta: Core Memory, Shared State, Semantic Retrieval, Custom Tools, Streaming, and Portable Agent Workflows",
+      "excerpt": "Discover how to extend agentic memory beyond basic prompts by building a stateful engineering copilot with Letta.  This comprehensive guide covers inspectable core memory, archival vector retrieval, multi-agent shared...",
       "source": "MarkTechPost",
-      "url": "https://www.marktechpost.com/2026/10/23/nvidia-nemotron-3-5-bolt-e4b-4gb/",
-      "publishedAt": "2026-10-24T03:56:29.000Z",
+      "url": "https://www.marktechpost.com/2026/10/24/stateful-engineering-copilots-letta-tutorial/",
+      "publishedAt": "2026-10-24T10:29:31.000Z",
       "impact": 77
     },
     {
@@ -33,30 +44,19 @@
       "excerpt": "Humanoid achieves new milestone in unsupervised operation, performing 1,240 unique tasks across three assembly lines at the BMW South Carolina plant.",
       "source": "Figure AI",
       "url": "https://figure.ai/news/03-milestone",
-      "publishedAt": "2026-10-24T01:39:44.035Z",
+      "publishedAt": "2026-10-24T06:41:48.137Z",
       "impact": 89
     },
     {
-      "id": "marktechpost-1792798013000-1",
+      "id": "marktechpost-1792814189000-2",
       "type": "live",
-      "category": "multimodal",
-      "title": "Kyutai CADRE: Video Autoencoders That Cut World Model Lag Below 230 ms",
-      "excerpt": "Kyutai released CADRE, a family of 7 open causal diffusion video autoencoders for interactive world models.  World models built on CADRE run at 20 fps on 1 H100 and react in under 230 ms",
+      "category": "robotics",
+      "title": "NVIDIA Releases Nemotron 3.5 Bolt E4B 4GB: An Open Small Language Model for Local Voice Agents, Game Characters and Robots",
+      "excerpt": "NVIDIA released Nemotron 3. 5 Bolt E4B 4GB, an open small language model post-trained from Gemma 4 E4B for local voice assistants, game characters and robots, targeting about 4GB of VRAM on RTX and Jetson",
       "source": "MarkTechPost",
-      "url": "https://www.marktechpost.com/2026/10/23/kyutai-cadre-video-autoencoders-interactive-world-models/",
-      "publishedAt": "2026-10-23T23:26:53.000Z",
-      "impact": 65
-    },
-    {
-      "id": "marktechpost-1792795960000-2",
-      "type": "live",
-      "category": "llm",
-      "title": "Moonshot AI Releases Kimi K3.1 Pro: A 2.8T Total/104B Active Params (MoE) Model with 1M Context",
-      "excerpt": "Moonshot AI released Kimi K3. 8T-parameter, 104B-active MoE model with 1M-token context",
-      "source": "MarkTechPost",
-      "url": "https://www.marktechpost.com/2026/10/23/moonshot-ai-kimi-k3-1-pro-open-weight-model/",
-      "publishedAt": "2026-10-23T22:52:40.000Z",
-      "impact": 65
+      "url": "https://www.marktechpost.com/2026/10/23/nvidia-nemotron-3-5-bolt-e4b-4gb/",
+      "publishedAt": "2026-10-24T03:56:29.000Z",
+      "impact": 77
     },
     {
       "id": "aether-interp",
@@ -66,8 +66,19 @@
       "excerpt": "Researchers reverse-engineered 312 million features inside the model, including the first clear \"deception circuit\" discovered in a frontier model.",
       "source": "Anthropic",
       "url": "https://anthropic.com/research/claude-4-interp",
-      "publishedAt": "2026-10-23T20:39:44.035Z",
+      "publishedAt": "2026-10-24T01:41:48.137Z",
       "impact": 91
+    },
+    {
+      "id": "marktechpost-1792798013000-3",
+      "type": "live",
+      "category": "multimodal",
+      "title": "Kyutai CADRE: Video Autoencoders That Cut World Model Lag Below 230 ms",
+      "excerpt": "Kyutai released CADRE, a family of 7 open causal diffusion video autoencoders for interactive world models.  World models built on CADRE run at 20 fps on 1 H100 and react in under 230 ms",
+      "source": "MarkTechPost",
+      "url": "https://www.marktechpost.com/2026/10/23/kyutai-cadre-video-autoencoders-interactive-world-models/",
+      "publishedAt": "2026-10-23T23:26:53.000Z",
+      "impact": 65
     },
     {
       "id": "hugging-face-1792772150000-0",
@@ -79,17 +90,6 @@
       "url": "https://huggingface.co/blog/allenai/litpivot",
       "publishedAt": "2026-10-23T16:15:50.000Z",
       "impact": 75
-    },
-    {
-      "id": "marktechpost-1792745927000-3",
-      "type": "live",
-      "category": "research",
-      "title": "TinyFish Breaks Down Agentic Search Architecture for Production AI Agents",
-      "excerpt": "TinyFish published two engineering research articles on agentic search.  One defines a 7-phase production architecture with evidence contracts and bounded retries",
-      "source": "MarkTechPost",
-      "url": "https://www.marktechpost.com/2026/10/23/tinyfish-agentic-search-architecture-deep-research/",
-      "publishedAt": "2026-10-23T08:58:47.000Z",
-      "impact": 77
     },
     {
       "id": "hugging-face-1792713600000-1",

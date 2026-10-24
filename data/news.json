@@ -1,8 +1,74 @@
 {
-  "lastUpdated": "2026-10-23T21:14:20.459Z",
+  "lastUpdated": "2026-10-24T10:39:44.601Z",
   "source": "AETHER + Public RSS (arXiv, Hugging Face, MarkTechPost, Ben's Bites)",
-  "count": 16,
+  "count": 10,
   "articles": [
+    {
+      "id": "aether-grok43",
+      "type": "premium",
+      "category": "llm",
+      "title": "xAI releases Grok-4.3 with native long-horizon agent scaffolding",
+      "excerpt": "New model demonstrates 4.2× improvement on multi-step software engineering benchmarks and sustains coherent agent trajectories beyond 110k tokens.",
+      "source": "xAI",
+      "url": "https://x.ai/blog/grok-4.3",
+      "publishedAt": "2026-10-24T05:39:44.035Z",
+      "impact": 96
+    },
+    {
+      "id": "marktechpost-1792814189000-0",
+      "type": "live",
+      "category": "robotics",
+      "title": "NVIDIA Releases Nemotron 3.5 Bolt E4B 4GB: An Open Small Language Model for Local Voice Agents, Game Characters and Robots",
+      "excerpt": "NVIDIA released Nemotron 3. 5 Bolt E4B 4GB, an open small language model post-trained from Gemma 4 E4B for local voice assistants, game characters and robots, targeting about 4GB of VRAM on RTX and Jetson",
+      "source": "MarkTechPost",
+      "url": "https://www.marktechpost.com/2026/10/23/nvidia-nemotron-3-5-bolt-e4b-4gb/",
+      "publishedAt": "2026-10-24T03:56:29.000Z",
+      "impact": 77
+    },
+    {
+      "id": "aether-figure03",
+      "type": "premium",
+      "category": "robotics",
+      "title": "Figure 03 completes 43-hour autonomous factory shift with zero interventions",
+      "excerpt": "Humanoid achieves new milestone in unsupervised operation, performing 1,240 unique tasks across three assembly lines at the BMW South Carolina plant.",
+      "source": "Figure AI",
+      "url": "https://figure.ai/news/03-milestone",
+      "publishedAt": "2026-10-24T01:39:44.035Z",
+      "impact": 89
+    },
+    {
+      "id": "marktechpost-1792798013000-1",
+      "type": "live",
+      "category": "multimodal",
+      "title": "Kyutai CADRE: Video Autoencoders That Cut World Model Lag Below 230 ms",
+      "excerpt": "Kyutai released CADRE, a family of 7 open causal diffusion video autoencoders for interactive world models.  World models built on CADRE run at 20 fps on 1 H100 and react in under 230 ms",
+      "source": "MarkTechPost",
+      "url": "https://www.marktechpost.com/2026/10/23/kyutai-cadre-video-autoencoders-interactive-world-models/",
+      "publishedAt": "2026-10-23T23:26:53.000Z",
+      "impact": 65
+    },
+    {
+      "id": "marktechpost-1792795960000-2",
+      "type": "live",
+      "category": "llm",
+      "title": "Moonshot AI Releases Kimi K3.1 Pro: A 2.8T Total/104B Active Params (MoE) Model with 1M Context",
+      "excerpt": "Moonshot AI released Kimi K3. 8T-parameter, 104B-active MoE model with 1M-token context",
+      "source": "MarkTechPost",
+      "url": "https://www.marktechpost.com/2026/10/23/moonshot-ai-kimi-k3-1-pro-open-weight-model/",
+      "publishedAt": "2026-10-23T22:52:40.000Z",
+      "impact": 65
+    },
+    {
+      "id": "aether-interp",
+      "type": "premium",
+      "category": "safety",
+      "title": "Anthropic publishes unprecedented mechanistic interpretability map of Claude 4",
+      "excerpt": "Researchers reverse-engineered 312 million features inside the model, including the first clear \"deception circuit\" discovered in a frontier model.",
+      "source": "Anthropic",
+      "url": "https://anthropic.com/research/claude-4-interp",
+      "publishedAt": "2026-10-23T20:39:44.035Z",
+      "impact": 91
+    },
     {
       "id": "hugging-face-1792772150000-0",
       "type": "live",
@@ -15,29 +81,7 @@
       "impact": 75
     },
     {
-      "id": "aether-grok43",
-      "type": "premium",
-      "category": "llm",
-      "title": "xAI releases Grok-4.3 with native long-horizon agent scaffolding",
-      "excerpt": "New model demonstrates 4.2× improvement on multi-step software engineering benchmarks and sustains coherent agent trajectories beyond 110k tokens.",
-      "source": "xAI",
-      "url": "https://x.ai/blog/grok-4.3",
-      "publishedAt": "2026-10-23T16:14:20.026Z",
-      "impact": 96
-    },
-    {
-      "id": "aether-figure03",
-      "type": "premium",
-      "category": "robotics",
-      "title": "Figure 03 completes 43-hour autonomous factory shift with zero interventions",
-      "excerpt": "Humanoid achieves new milestone in unsupervised operation, performing 1,240 unique tasks across three assembly lines at the BMW South Carolina plant.",
-      "source": "Figure AI",
-      "url": "https://figure.ai/news/03-milestone",
-      "publishedAt": "2026-10-23T12:14:20.026Z",
-      "impact": 89
-    },
-    {
-      "id": "marktechpost-1792745927000-0",
+      "id": "marktechpost-1792745927000-3",
       "type": "live",
       "category": "research",
       "title": "TinyFish Breaks Down Agentic Search Architecture for Production AI Agents",
@@ -46,105 +90,6 @@
       "url": "https://www.marktechpost.com/2026/10/23/tinyfish-agentic-search-architecture-deep-research/",
       "publishedAt": "2026-10-23T08:58:47.000Z",
       "impact": 77
-    },
-    {
-      "id": "aether-interp",
-      "type": "premium",
-      "category": "safety",
-      "title": "Anthropic publishes unprecedented mechanistic interpretability map of Claude 4",
-      "excerpt": "Researchers reverse-engineered 312 million features inside the model, including the first clear \"deception circuit\" discovered in a frontier model.",
-      "source": "Anthropic",
-      "url": "https://anthropic.com/research/claude-4-interp",
-      "publishedAt": "2026-10-23T07:14:20.026Z",
-      "impact": 91
-    },
-    {
-      "id": "marktechpost-1792735510000-1",
-      "type": "live",
-      "category": "hardware",
-      "title": "Google Cloud Launches Agent Compute Engine: A MicroVM per AI Agent",
-      "excerpt": "Google Cloud announced Agent Compute Engine, a compute service that gives every AI agent its own hardware-isolated microVM with no credentials inside.  It already runs Gemini agents and enters preview in the coming mo...",
-      "source": "MarkTechPost",
-      "url": "https://www.marktechpost.com/2026/10/22/google-cloud-agent-compute-engine-microvm-ai-agents/",
-      "publishedAt": "2026-10-23T06:05:10.000Z",
-      "impact": 77
-    },
-    {
-      "id": "marktechpost-1792733301000-2",
-      "type": "live",
-      "category": "llm",
-      "title": "You.com Launches Inference Router: 12 Open-Weight Models With 99.9% Uptime SLA",
-      "excerpt": "com launched Inference Router, an OpenAI-compatible API for 12 open-weight models with a 99. 9% uptime SLA, zero data retention, 100% US hosting, server-side web search and no platform fee",
-      "source": "MarkTechPost",
-      "url": "https://www.marktechpost.com/2026/10/22/you-com-inference-router-open-weight-models-uptime-sla/",
-      "publishedAt": "2026-10-23T05:28:21.000Z",
-      "impact": 65
-    },
-    {
-      "id": "arxiv-cs.ai-1792728000000-0",
-      "type": "live",
-      "category": "multimodal",
-      "title": "The Cost of Saying Hello: An Empirical Study of Handshake Overhead in AI Agent Communication Protocols",
-      "excerpt": "30151v1 Announce Type: new Abstract: Every interaction between AI agents begins with a handshake: the initiating agent must locate its counterpart, learn what it can do, and establish a session before the first useful...",
-      "source": "arXiv cs.AI",
-      "url": "https://arxiv.org/abs/2610.30151",
-      "publishedAt": "2026-10-23T04:00:00.000Z",
-      "impact": 69
-    },
-    {
-      "id": "arxiv-cs.ai-1792728000000-1",
-      "type": "live",
-      "category": "llm",
-      "title": "MCP vs CLI for AI Agents: A Comparative Analysis of Tool Integration Strategies for Autonomous Systems",
-      "excerpt": "30157v1 Announce Type: new Abstract: AI agents require interfaces to interact with external systems such as files, APIs, databases, and cloud services.  Two competing paradigms have emerged: CLI (Command Line Interfac...",
-      "source": "arXiv cs.AI",
-      "url": "https://arxiv.org/abs/2610.30157",
-      "publishedAt": "2026-10-23T04:00:00.000Z",
-      "impact": 69
-    },
-    {
-      "id": "arxiv-cs.ai-1792728000000-2",
-      "type": "live",
-      "category": "llm",
-      "title": "Accelerating Wildfire Hazard Mapping Across Canada with an AI Surrogate Modelling Framework",
-      "excerpt": "30170v1 Announce Type: new Abstract: Canada's increasing wildfire activity requires frequent national hazard mapping to guide proactive mitigation, including fuel management, land-use planning, infrastructure protecti...",
-      "source": "arXiv cs.AI",
-      "url": "https://arxiv.org/abs/2610.30170",
-      "publishedAt": "2026-10-23T04:00:00.000Z",
-      "impact": 58
-    },
-    {
-      "id": "arxiv-cs.ai-1792728000000-3",
-      "type": "live",
-      "category": "multimodal",
-      "title": "Neural Networks with Differentiable Belief-Function Layers",
-      "excerpt": "30173v1 Announce Type: new Abstract: Yager's 1987 rule of combination $\\boxplus$ was proposed on epistemic grounds: under high conflict, mass should be redistributed to ignorance rather than renormalised onto the clas...",
-      "source": "arXiv cs.AI",
-      "url": "https://arxiv.org/abs/2610.30173",
-      "publishedAt": "2026-10-23T04:00:00.000Z",
-      "impact": 58
-    },
-    {
-      "id": "arxiv-cs.ai-1792728000000-4",
-      "type": "live",
-      "category": "research",
-      "title": "When Stable and Preferred Semantics Agree: A Path-Based Approach",
-      "excerpt": "30176v1 Announce Type: new Abstract: We investigate structural conditions under which preferred and stable semantics agree in abstract argumentation frameworks.  Our approach is based on suitably chosen sets of paths ...",
-      "source": "arXiv cs.AI",
-      "url": "https://arxiv.org/abs/2610.30176",
-      "publishedAt": "2026-10-23T04:00:00.000Z",
-      "impact": 58
-    },
-    {
-      "id": "arxiv-cs.ai-1792728000000-5",
-      "type": "live",
-      "category": "hardware",
-      "title": "Feedback That Backfires in Games: Do LLM Players Repeat the Move They Just Watched Fail?",
-      "excerpt": "30205v1 Announce Type: new Abstract: When an LLM agent's move fails, the harness writes the move and the failure message into the transcript and asks again.  In tool calling, this record makes small models more likely...",
-      "source": "arXiv cs.AI",
-      "url": "https://arxiv.org/abs/2610.30205",
-      "publishedAt": "2026-10-23T04:00:00.000Z",
-      "impact": 58
     },
     {
       "id": "hugging-face-1792713600000-1",
@@ -167,17 +112,6 @@
       "url": "https://huggingface.co/blog/microsoft/thinkingbox-training",
       "publishedAt": "2026-10-22T22:24:34.000Z",
       "impact": 87
-    },
-    {
-      "id": "marktechpost-1792690405000-3",
-      "type": "live",
-      "category": "llm",
-      "title": "Liquid AI Launches RIPL, a Real-Time Inference Engine for Sub-50 ms LFMs",
-      "excerpt": "Liquid AI released RIPL, a real-time inference engine for its LFM models. 4x lower p95 latency than Qwen3",
-      "source": "MarkTechPost",
-      "url": "https://www.marktechpost.com/2026/10/22/liquid-ai-ripl-real-time-inference-engine/",
-      "publishedAt": "2026-10-22T17:33:25.000Z",
-      "impact": 65
     }
   ]
 }

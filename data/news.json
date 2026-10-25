@@ -1,8 +1,19 @@
 {
-  "lastUpdated": "2026-10-25T11:04:03.486Z",
+  "lastUpdated": "2026-10-25T20:39:05.141Z",
   "source": "AETHER + Public RSS (arXiv, Hugging Face, MarkTechPost, Ben's Bites)",
   "count": 10,
   "articles": [
+    {
+      "id": "marktechpost-1792947220000-0",
+      "type": "live",
+      "category": "llm",
+      "title": "Hugging Face Releases Carbon-X, a 14B Open DNA Language Model that Brings DNA and Natural Language Together for the First Time",
+      "excerpt": "Hugging Face released Carbon-X, an open 14. 8B DNA language model built on Qwen3-14B",
+      "source": "MarkTechPost",
+      "url": "https://www.marktechpost.com/2026/10/25/hugging-face-carbon-x-14b-dna-language-model/",
+      "publishedAt": "2026-10-25T16:53:40.000Z",
+      "impact": 65
+    },
     {
       "id": "aether-grok43",
       "type": "premium",
@@ -11,40 +22,18 @@
       "excerpt": "New model demonstrates 4.2× improvement on multi-step software engineering benchmarks and sustains coherent agent trajectories beyond 110k tokens.",
       "source": "xAI",
       "url": "https://x.ai/blog/grok-4.3",
-      "publishedAt": "2026-10-25T06:04:03.196Z",
+      "publishedAt": "2026-10-25T15:39:04.657Z",
       "impact": 96
     },
     {
-      "id": "marktechpost-1792899179000-0",
-      "type": "live",
-      "category": "research",
-      "title": "Microsoft Open-Sources Agensh: A Multi-Agent Harness for 1,024 Agents",
-      "excerpt": "Microsoft Research open-sourced Agensh, a multi-agent harness with no central orchestrator.  Self-organizing workers share a Git repo, chat and a findings board, scaling from 1 to 1,024 agents on ProgramBench under a ...",
-      "source": "MarkTechPost",
-      "url": "https://www.marktechpost.com/2026/10/24/microsoft-agensh-multi-agent-harness-1024-agents/",
-      "publishedAt": "2026-10-25T03:32:59.000Z",
-      "impact": 77
-    },
-    {
-      "id": "marktechpost-1792897148000-1",
-      "type": "live",
-      "category": "research",
-      "title": "Cognition Open-Sources an Agent Plugin that Helps Secure Systems against Recent Cybersecurity Threats",
-      "excerpt": "Cognition released the Devin Vulnerability Fixes plugin, 3 MIT-licensed agent skills that inventory, patch and test PHP, Node. js and self-managed GitLab deployments hit by this week’s critical RCE flaws, then open 1 ...",
-      "source": "MarkTechPost",
-      "url": "https://www.marktechpost.com/2026/10/24/cognition-devin-vulnerability-fixes-plugin-php2shell-nodejs-gitlab/",
-      "publishedAt": "2026-10-25T02:59:08.000Z",
-      "impact": 77
-    },
-    {
-      "id": "marktechpost-1792895418000-2",
+      "id": "marktechpost-1792930338000-1",
       "type": "live",
       "category": "llm",
-      "title": "How to Run Underdog Saluki 27B: 2-Bit Qwen3.8-27B Tool-Calling Guide",
-      "excerpt": "Explore a complete coding guide comparing Underdog Saluki 27B with ISTA's GSQ-RCO quantization, examining GGUF headers, memory usage, and BFCL tool-calling performance in stock llama. cpp The post How to Run Underdog ...",
+      "title": "Researchers from Stanford and UC Berkeley Introduce TokenGate: Token-Gated Attention Makes Long-Context Prefill Up to 11.3x Faster",
+      "excerpt": "Stanford and UC Berkeley researchers released TokenGate, a drop-in learned token pruning module for LLMs.  It cuts long-context prefill time-to-first-token by 1",
       "source": "MarkTechPost",
-      "url": "https://www.marktechpost.com/2026/10/24/underdog-saluki-27b-coding-guide-llama-cpp/",
-      "publishedAt": "2026-10-25T02:30:18.000Z",
+      "url": "https://www.marktechpost.com/2026/10/25/stanford-berkeley-tokengate-learned-token-pruning-llm-prefill/",
+      "publishedAt": "2026-10-25T12:12:18.000Z",
       "impact": 65
     },
     {
@@ -55,8 +44,19 @@
       "excerpt": "Humanoid achieves new milestone in unsupervised operation, performing 1,240 unique tasks across three assembly lines at the BMW South Carolina plant.",
       "source": "Figure AI",
       "url": "https://figure.ai/news/03-milestone",
-      "publishedAt": "2026-10-25T02:04:03.196Z",
+      "publishedAt": "2026-10-25T11:39:04.657Z",
       "impact": 89
+    },
+    {
+      "id": "marktechpost-1792927949000-2",
+      "type": "live",
+      "category": "llm",
+      "title": "Anthropic Launches OSS Scanner, a Free AI Vulnerability Scanner",
+      "excerpt": "Anthropic has launched OSS Scanner, a free, opt-in vulnerability scanner for critical open-source projects.  The Anthropic OSS Scanner runs the company’s strongest models, including Claude Mythos, against enrolled cod...",
+      "source": "MarkTechPost",
+      "url": "https://www.marktechpost.com/2026/10/25/anthropic-launches-oss-scanner-a-free-ai-vulnerability-scanner/",
+      "publishedAt": "2026-10-25T11:32:29.000Z",
+      "impact": 65
     },
     {
       "id": "aether-interp",
@@ -66,18 +66,18 @@
       "excerpt": "Researchers reverse-engineered 312 million features inside the model, including the first clear \"deception circuit\" discovered in a frontier model.",
       "source": "Anthropic",
       "url": "https://anthropic.com/research/claude-4-interp",
-      "publishedAt": "2026-10-24T21:04:03.196Z",
+      "publishedAt": "2026-10-25T06:39:04.657Z",
       "impact": 91
     },
     {
-      "id": "marktechpost-1792840347000-3",
+      "id": "marktechpost-1792899179000-3",
       "type": "live",
-      "category": "llm",
-      "title": "Meet Anthropic’s sandbox-runtime: OS-Level Sandboxing for AI Agents, No Containers",
-      "excerpt": "Anthropic sandbox-runtime (srt) is the open-source, OS-level sandbox behind Claude Code.  It restricts file and network access for agents, MCP servers and CLI tools with Seatbelt on macOS and bubblewrap on Linux, no c...",
+      "category": "research",
+      "title": "Microsoft Open-Sources Agensh: A Multi-Agent Harness for 1,024 Agents",
+      "excerpt": "Microsoft Research open-sourced Agensh, a multi-agent harness with no central orchestrator.  Self-organizing workers share a Git repo, chat and a findings board, scaling from 1 to 1,024 agents on ProgramBench under a ...",
       "source": "MarkTechPost",
-      "url": "https://www.marktechpost.com/2026/10/24/anthropic-sandbox-runtime-ai-agent-sandbox/",
-      "publishedAt": "2026-10-24T11:12:27.000Z",
+      "url": "https://www.marktechpost.com/2026/10/24/microsoft-agensh-multi-agent-harness-1024-agents/",
+      "publishedAt": "2026-10-25T03:32:59.000Z",
       "impact": 77
     },
     {

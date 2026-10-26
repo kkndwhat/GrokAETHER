@@ -1,10 +1,109 @@
 {
-  "lastUpdated": "2026-10-25T20:39:05.141Z",
+  "lastUpdated": "2026-10-26T04:12:12.035Z",
   "source": "AETHER + Public RSS (arXiv, Hugging Face, MarkTechPost, Ben's Bites)",
-  "count": 10,
+  "count": 16,
   "articles": [
     {
-      "id": "marktechpost-1792947220000-0",
+      "id": "arxiv-cs.ai-1792987200000-0",
+      "type": "live",
+      "category": "research",
+      "title": "Tradeoff-Aware Territory Design: A Multi-Objective Decision System for Enterprise Customer-to-Seller Allocation",
+      "excerpt": "31701v1 Announce Type: new Abstract: Enterprise customer journeys are shaped not only by product experiences and marketing, but also by recurring resource-allocation decisions.  In B2B go-to-market (GTM) organizations...",
+      "source": "arXiv cs.AI",
+      "url": "https://arxiv.org/abs/2610.31701",
+      "publishedAt": "2026-10-26T04:00:00.000Z",
+      "impact": 58
+    },
+    {
+      "id": "arxiv-cs.ai-1792987200000-1",
+      "type": "live",
+      "category": "llm",
+      "title": "Phronix: The Capability-Centric Learning Paradigm for Agents",
+      "excerpt": "31789v1 Announce Type: new Abstract: Scientific computing increasingly relies on large language model-based agents for performance engineering tasks such as instrumentation, analysis, and workflow porting.  However, a...",
+      "source": "arXiv cs.AI",
+      "url": "https://arxiv.org/abs/2610.31789",
+      "publishedAt": "2026-10-26T04:00:00.000Z",
+      "impact": 69
+    },
+    {
+      "id": "arxiv-cs.ai-1792987200000-2",
+      "type": "live",
+      "category": "research",
+      "title": "Patronizing and Condescending Language Detection in English and Mandarin",
+      "excerpt": "31808v1 Announce Type: new Abstract: Patronizing and condescending language (PCL) is a form of harmful language that belittles and assumes pity for vulnerable groups, reinforcing negative societal stereotypes.  Howeve...",
+      "source": "arXiv cs.AI",
+      "url": "https://arxiv.org/abs/2610.31808",
+      "publishedAt": "2026-10-26T04:00:00.000Z",
+      "impact": 58
+    },
+    {
+      "id": "arxiv-cs.ai-1792987200000-3",
+      "type": "live",
+      "category": "llm",
+      "title": "PaperFormalizer: Author-in-the-Loop Autoformalization of Research Papers in Lean",
+      "excerpt": "31810v1 Announce Type: new Abstract: Even a carefully proofread paper can leave small gaps in its proofs or its stated assumptions.  We introduce PaperFormalizer, a Lean-based agentic pipeline that helps authors find ...",
+      "source": "arXiv cs.AI",
+      "url": "https://arxiv.org/abs/2610.31810",
+      "publishedAt": "2026-10-26T04:00:00.000Z",
+      "impact": 58
+    },
+    {
+      "id": "arxiv-cs.ai-1792987200000-4",
+      "type": "live",
+      "category": "llm",
+      "title": "Don't Forget What You Just Learned: Self-Directed Repair Turns Agent Mistakes Into Lasting Lessons",
+      "excerpt": "31846v1 Announce Type: new Abstract: Intelligent agents should learn from their mistakes so that experience leads to continuous improvement.  Yet today's agents recover from a mistake only temporarily: in-context refl...",
+      "source": "arXiv cs.AI",
+      "url": "https://arxiv.org/abs/2610.31846",
+      "publishedAt": "2026-10-26T04:00:00.000Z",
+      "impact": 69
+    },
+    {
+      "id": "arxiv-cs.ai-1792987200000-5",
+      "type": "live",
+      "category": "hardware",
+      "title": "TACS-RF: Tool-driven Agentic Circuit Synthesis of RF and mmWave Modules",
+      "excerpt": "31882v1 Announce Type: new Abstract: We present the framework of TACS-RF - a Tool-driven Agentic Circuit Synthesis of RF and mmWave modules.  In this framework, a large-language-model (LLM) coding agent (Claude Opus 4",
+      "source": "arXiv cs.AI",
+      "url": "https://arxiv.org/abs/2610.31882",
+      "publishedAt": "2026-10-26T04:00:00.000Z",
+      "impact": 69
+    },
+    {
+      "id": "aether-grok43",
+      "type": "premium",
+      "category": "llm",
+      "title": "xAI releases Grok-4.3 with native long-horizon agent scaffolding",
+      "excerpt": "New model demonstrates 4.2× improvement on multi-step software engineering benchmarks and sustains coherent agent trajectories beyond 110k tokens.",
+      "source": "xAI",
+      "url": "https://x.ai/blog/grok-4.3",
+      "publishedAt": "2026-10-25T23:12:11.613Z",
+      "impact": 96
+    },
+    {
+      "id": "marktechpost-1792962921000-0",
+      "type": "live",
+      "category": "llm",
+      "title": "Nanbeige Releases Nanbeige4.3-33B, a 33B Open Agentic Coding Model",
+      "excerpt": "Nanbeige LLM Lab released Nanbeige4. 3-33B, a 33B dense Apache 2",
+      "source": "MarkTechPost",
+      "url": "https://www.marktechpost.com/2026/10/25/nanbeige-releases-nanbeige4-3-33b-open-agentic-coding-model/",
+      "publishedAt": "2026-10-25T21:15:21.000Z",
+      "impact": 77
+    },
+    {
+      "id": "aether-figure03",
+      "type": "premium",
+      "category": "robotics",
+      "title": "Figure 03 completes 43-hour autonomous factory shift with zero interventions",
+      "excerpt": "Humanoid achieves new milestone in unsupervised operation, performing 1,240 unique tasks across three assembly lines at the BMW South Carolina plant.",
+      "source": "Figure AI",
+      "url": "https://figure.ai/news/03-milestone",
+      "publishedAt": "2026-10-25T19:12:11.613Z",
+      "impact": 89
+    },
+    {
+      "id": "marktechpost-1792947220000-1",
       "type": "live",
       "category": "llm",
       "title": "Hugging Face Releases Carbon-X, a 14B Open DNA Language Model that Brings DNA and Natural Language Together for the First Time",
@@ -15,18 +114,18 @@
       "impact": 65
     },
     {
-      "id": "aether-grok43",
+      "id": "aether-interp",
       "type": "premium",
-      "category": "llm",
-      "title": "xAI releases Grok-4.3 with native long-horizon agent scaffolding",
-      "excerpt": "New model demonstrates 4.2× improvement on multi-step software engineering benchmarks and sustains coherent agent trajectories beyond 110k tokens.",
-      "source": "xAI",
-      "url": "https://x.ai/blog/grok-4.3",
-      "publishedAt": "2026-10-25T15:39:04.657Z",
-      "impact": 96
+      "category": "safety",
+      "title": "Anthropic publishes unprecedented mechanistic interpretability map of Claude 4",
+      "excerpt": "Researchers reverse-engineered 312 million features inside the model, including the first clear \"deception circuit\" discovered in a frontier model.",
+      "source": "Anthropic",
+      "url": "https://anthropic.com/research/claude-4-interp",
+      "publishedAt": "2026-10-25T14:12:11.613Z",
+      "impact": 91
     },
     {
-      "id": "marktechpost-1792930338000-1",
+      "id": "marktechpost-1792930338000-2",
       "type": "live",
       "category": "llm",
       "title": "Researchers from Stanford and UC Berkeley Introduce TokenGate: Token-Gated Attention Makes Long-Context Prefill Up to 11.3x Faster",
@@ -37,18 +136,7 @@
       "impact": 65
     },
     {
-      "id": "aether-figure03",
-      "type": "premium",
-      "category": "robotics",
-      "title": "Figure 03 completes 43-hour autonomous factory shift with zero interventions",
-      "excerpt": "Humanoid achieves new milestone in unsupervised operation, performing 1,240 unique tasks across three assembly lines at the BMW South Carolina plant.",
-      "source": "Figure AI",
-      "url": "https://figure.ai/news/03-milestone",
-      "publishedAt": "2026-10-25T11:39:04.657Z",
-      "impact": 89
-    },
-    {
-      "id": "marktechpost-1792927949000-2",
+      "id": "marktechpost-1792927949000-3",
       "type": "live",
       "category": "llm",
       "title": "Anthropic Launches OSS Scanner, a Free AI Vulnerability Scanner",
@@ -57,28 +145,6 @@
       "url": "https://www.marktechpost.com/2026/10/25/anthropic-launches-oss-scanner-a-free-ai-vulnerability-scanner/",
       "publishedAt": "2026-10-25T11:32:29.000Z",
       "impact": 65
-    },
-    {
-      "id": "aether-interp",
-      "type": "premium",
-      "category": "safety",
-      "title": "Anthropic publishes unprecedented mechanistic interpretability map of Claude 4",
-      "excerpt": "Researchers reverse-engineered 312 million features inside the model, including the first clear \"deception circuit\" discovered in a frontier model.",
-      "source": "Anthropic",
-      "url": "https://anthropic.com/research/claude-4-interp",
-      "publishedAt": "2026-10-25T06:39:04.657Z",
-      "impact": 91
-    },
-    {
-      "id": "marktechpost-1792899179000-3",
-      "type": "live",
-      "category": "research",
-      "title": "Microsoft Open-Sources Agensh: A Multi-Agent Harness for 1,024 Agents",
-      "excerpt": "Microsoft Research open-sourced Agensh, a multi-agent harness with no central orchestrator.  Self-organizing workers share a Git repo, chat and a findings board, scaling from 1 to 1,024 agents on ProgramBench under a ...",
-      "source": "MarkTechPost",
-      "url": "https://www.marktechpost.com/2026/10/24/microsoft-agensh-multi-agent-harness-1024-agents/",
-      "publishedAt": "2026-10-25T03:32:59.000Z",
-      "impact": 77
     },
     {
       "id": "hugging-face-1792772150000-0",

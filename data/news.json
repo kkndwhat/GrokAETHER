@@ -1,19 +1,8 @@
 {
-  "lastUpdated": "2026-10-26T12:37:43.229Z",
+  "lastUpdated": "2026-10-26T22:30:32.816Z",
   "source": "AETHER + Public RSS (arXiv, Hugging Face, MarkTechPost, Ben's Bites)",
   "count": 16,
   "articles": [
-    {
-      "id": "marktechpost-1793001405000-0",
-      "type": "live",
-      "category": "llm",
-      "title": "Tsinghua AI Open-Sources AKV, a Cache Engineering Server for LLM Agents on SGLang",
-      "excerpt": "Tsinghua researchers released AKV, an SGLang-based serving system for cache engineering.  LLM agents drop and reposition KV cache instead of summarizing history, cutting average cost 27",
-      "source": "MarkTechPost",
-      "url": "https://www.marktechpost.com/2026/10/26/tsinghua-akv-kv-cache-engineering-llm-agents/",
-      "publishedAt": "2026-10-26T07:56:45.000Z",
-      "impact": 77
-    },
     {
       "id": "aether-grok43",
       "type": "premium",
@@ -22,8 +11,52 @@
       "excerpt": "New model demonstrates 4.2× improvement on multi-step software engineering benchmarks and sustains coherent agent trajectories beyond 110k tokens.",
       "source": "xAI",
       "url": "https://x.ai/blog/grok-4.3",
-      "publishedAt": "2026-10-26T07:37:42.760Z",
+      "publishedAt": "2026-10-26T17:30:32.467Z",
       "impact": 96
+    },
+    {
+      "id": "marktechpost-1793033169000-0",
+      "type": "live",
+      "category": "llm",
+      "title": "Nace AI Releases Drex for Search for AI Agents: 92.05% on BrowseComp-Plus With 12.6 Search Calls",
+      "excerpt": "Nace AI has released Drex for Search, bringing its Drex decision models to document search for AI agents. 05% on BrowseComp-Plus with 12",
+      "source": "MarkTechPost",
+      "url": "https://www.marktechpost.com/2026/10/26/nace-ai-releases-drex-for-search-for-ai-agents/",
+      "publishedAt": "2026-10-26T16:46:09.000Z",
+      "impact": 77
+    },
+    {
+      "id": "aether-figure03",
+      "type": "premium",
+      "category": "robotics",
+      "title": "Figure 03 completes 43-hour autonomous factory shift with zero interventions",
+      "excerpt": "Humanoid achieves new milestone in unsupervised operation, performing 1,240 unique tasks across three assembly lines at the BMW South Carolina plant.",
+      "source": "Figure AI",
+      "url": "https://figure.ai/news/03-milestone",
+      "publishedAt": "2026-10-26T13:30:32.467Z",
+      "impact": 89
+    },
+    {
+      "id": "aether-interp",
+      "type": "premium",
+      "category": "safety",
+      "title": "Anthropic publishes unprecedented mechanistic interpretability map of Claude 4",
+      "excerpt": "Researchers reverse-engineered 312 million features inside the model, including the first clear \"deception circuit\" discovered in a frontier model.",
+      "source": "Anthropic",
+      "url": "https://anthropic.com/research/claude-4-interp",
+      "publishedAt": "2026-10-26T08:30:32.467Z",
+      "impact": 91
+    },
+    {
+      "id": "marktechpost-1793001405000-1",
+      "type": "live",
+      "category": "llm",
+      "title": "Tsinghua AI Open-Sources AKV, a Cache Engineering Server for LLM Agents on SGLang",
+      "excerpt": "Tsinghua researchers released AKV, an SGLang-based serving system for cache engineering.  LLM agents drop and reposition KV cache instead of summarizing history, cutting average cost 27",
+      "source": "MarkTechPost",
+      "url": "https://www.marktechpost.com/2026/10/26/tsinghua-akv-kv-cache-engineering-llm-agents/",
+      "publishedAt": "2026-10-26T07:56:45.000Z",
+      "impact": 77
     },
     {
       "id": "arxiv-cs.ai-1792987200000-0",
@@ -92,29 +125,7 @@
       "impact": 69
     },
     {
-      "id": "aether-figure03",
-      "type": "premium",
-      "category": "robotics",
-      "title": "Figure 03 completes 43-hour autonomous factory shift with zero interventions",
-      "excerpt": "Humanoid achieves new milestone in unsupervised operation, performing 1,240 unique tasks across three assembly lines at the BMW South Carolina plant.",
-      "source": "Figure AI",
-      "url": "https://figure.ai/news/03-milestone",
-      "publishedAt": "2026-10-26T03:37:42.760Z",
-      "impact": 89
-    },
-    {
-      "id": "aether-interp",
-      "type": "premium",
-      "category": "safety",
-      "title": "Anthropic publishes unprecedented mechanistic interpretability map of Claude 4",
-      "excerpt": "Researchers reverse-engineered 312 million features inside the model, including the first clear \"deception circuit\" discovered in a frontier model.",
-      "source": "Anthropic",
-      "url": "https://anthropic.com/research/claude-4-interp",
-      "publishedAt": "2026-10-25T22:37:42.760Z",
-      "impact": 91
-    },
-    {
-      "id": "marktechpost-1792962921000-1",
+      "id": "marktechpost-1792962921000-2",
       "type": "live",
       "category": "llm",
       "title": "Nanbeige Releases Nanbeige4.3-33B, a 33B Open Agentic Coding Model",
@@ -125,7 +136,7 @@
       "impact": 77
     },
     {
-      "id": "marktechpost-1792947220000-2",
+      "id": "marktechpost-1792947220000-3",
       "type": "live",
       "category": "llm",
       "title": "Hugging Face Releases Carbon-X, a 14B Open DNA Language Model that Brings DNA and Natural Language Together for the First Time",
@@ -133,17 +144,6 @@
       "source": "MarkTechPost",
       "url": "https://www.marktechpost.com/2026/10/25/hugging-face-carbon-x-14b-dna-language-model/",
       "publishedAt": "2026-10-25T16:53:40.000Z",
-      "impact": 65
-    },
-    {
-      "id": "marktechpost-1792930338000-3",
-      "type": "live",
-      "category": "llm",
-      "title": "Researchers from Stanford and UC Berkeley Introduce TokenGate: Token-Gated Attention Makes Long-Context Prefill Up to 11.3x Faster",
-      "excerpt": "Stanford and UC Berkeley researchers released TokenGate, a drop-in learned token pruning module for LLMs.  It cuts long-context prefill time-to-first-token by 1",
-      "source": "MarkTechPost",
-      "url": "https://www.marktechpost.com/2026/10/25/stanford-berkeley-tokengate-learned-token-pruning-llm-prefill/",
-      "publishedAt": "2026-10-25T12:12:18.000Z",
       "impact": 65
     },
     {

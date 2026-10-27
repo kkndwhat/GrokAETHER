@@ -1,8 +1,85 @@
 {
-  "lastUpdated": "2026-10-26T22:30:32.816Z",
+  "lastUpdated": "2026-10-27T04:31:26.778Z",
   "source": "AETHER + Public RSS (arXiv, Hugging Face, MarkTechPost, Ben's Bites)",
   "count": 16,
   "articles": [
+    {
+      "id": "arxiv-cs.ai-1793073600000-0",
+      "type": "live",
+      "category": "research",
+      "title": "Tradeoff-Aware Territory Design: A Multi-Objective Decision System for Enterprise Customer-to-Seller Allocation",
+      "excerpt": "31701v1 Announce Type: new Abstract: Enterprise customer journeys are shaped not only by product experiences and marketing, but also by recurring resource-allocation decisions.  In B2B go-to-market (GTM) organizations...",
+      "source": "arXiv cs.AI",
+      "url": "https://arxiv.org/abs/2610.31701",
+      "publishedAt": "2026-10-27T04:00:00.000Z",
+      "impact": 58
+    },
+    {
+      "id": "arxiv-cs.ai-1793073600000-1",
+      "type": "live",
+      "category": "llm",
+      "title": "Phronix: The Capability-Centric Learning Paradigm for Agents",
+      "excerpt": "31789v1 Announce Type: new Abstract: Scientific computing increasingly relies on large language model-based agents for performance engineering tasks such as instrumentation, analysis, and workflow porting.  However, a...",
+      "source": "arXiv cs.AI",
+      "url": "https://arxiv.org/abs/2610.31789",
+      "publishedAt": "2026-10-27T04:00:00.000Z",
+      "impact": 69
+    },
+    {
+      "id": "arxiv-cs.ai-1793073600000-2",
+      "type": "live",
+      "category": "research",
+      "title": "Patronizing and Condescending Language Detection in English and Mandarin",
+      "excerpt": "31808v1 Announce Type: new Abstract: Patronizing and condescending language (PCL) is a form of harmful language that belittles and assumes pity for vulnerable groups, reinforcing negative societal stereotypes.  Howeve...",
+      "source": "arXiv cs.AI",
+      "url": "https://arxiv.org/abs/2610.31808",
+      "publishedAt": "2026-10-27T04:00:00.000Z",
+      "impact": 58
+    },
+    {
+      "id": "arxiv-cs.ai-1793073600000-3",
+      "type": "live",
+      "category": "llm",
+      "title": "PaperFormalizer: Author-in-the-Loop Autoformalization of Research Papers in Lean",
+      "excerpt": "31810v1 Announce Type: new Abstract: Even a carefully proofread paper can leave small gaps in its proofs or its stated assumptions.  We introduce PaperFormalizer, a Lean-based agentic pipeline that helps authors find ...",
+      "source": "arXiv cs.AI",
+      "url": "https://arxiv.org/abs/2610.31810",
+      "publishedAt": "2026-10-27T04:00:00.000Z",
+      "impact": 58
+    },
+    {
+      "id": "arxiv-cs.ai-1793073600000-4",
+      "type": "live",
+      "category": "llm",
+      "title": "Don't Forget What You Just Learned: Self-Directed Repair Turns Agent Mistakes Into Lasting Lessons",
+      "excerpt": "31846v1 Announce Type: new Abstract: Intelligent agents should learn from their mistakes so that experience leads to continuous improvement.  Yet today's agents recover from a mistake only temporarily: in-context refl...",
+      "source": "arXiv cs.AI",
+      "url": "https://arxiv.org/abs/2610.31846",
+      "publishedAt": "2026-10-27T04:00:00.000Z",
+      "impact": 69
+    },
+    {
+      "id": "arxiv-cs.ai-1793073600000-5",
+      "type": "live",
+      "category": "hardware",
+      "title": "TACS-RF: Tool-driven Agentic Circuit Synthesis of RF and mmWave Modules",
+      "excerpt": "31882v1 Announce Type: new Abstract: We present the framework of TACS-RF - a Tool-driven Agentic Circuit Synthesis of RF and mmWave modules.  In this framework, a large-language-model (LLM) coding agent (Claude Opus 4",
+      "source": "arXiv cs.AI",
+      "url": "https://arxiv.org/abs/2610.31882",
+      "publishedAt": "2026-10-27T04:00:00.000Z",
+      "impact": 69
+    },
+    {
+      "id": "marktechpost-1793069127000-0",
+      "type": "live",
+      "category": "multimodal",
+      "title": "OpenAI Launches GPT-6.1 Terra, Halving GPT-6.1 Sol’s API Price for Agent Work",
+      "excerpt": "OpenAI released GPT-6. 1 Terra, a fast computer-use and vision model priced at $1/$5 per million tokens",
+      "source": "MarkTechPost",
+      "url": "https://www.marktechpost.com/2026/10/26/openai-gpt-6-1-terra/",
+      "publishedAt": "2026-10-27T02:45:27.000Z",
+      "impact": 77
+    },
     {
       "id": "aether-grok43",
       "type": "premium",
@@ -11,11 +88,22 @@
       "excerpt": "New model demonstrates 4.2× improvement on multi-step software engineering benchmarks and sustains coherent agent trajectories beyond 110k tokens.",
       "source": "xAI",
       "url": "https://x.ai/blog/grok-4.3",
-      "publishedAt": "2026-10-26T17:30:32.467Z",
+      "publishedAt": "2026-10-26T23:31:26.085Z",
       "impact": 96
     },
     {
-      "id": "marktechpost-1793033169000-0",
+      "id": "aether-figure03",
+      "type": "premium",
+      "category": "robotics",
+      "title": "Figure 03 completes 43-hour autonomous factory shift with zero interventions",
+      "excerpt": "Humanoid achieves new milestone in unsupervised operation, performing 1,240 unique tasks across three assembly lines at the BMW South Carolina plant.",
+      "source": "Figure AI",
+      "url": "https://figure.ai/news/03-milestone",
+      "publishedAt": "2026-10-26T19:31:26.085Z",
+      "impact": 89
+    },
+    {
+      "id": "marktechpost-1793033169000-1",
       "type": "live",
       "category": "llm",
       "title": "Nace AI Releases Drex for Search for AI Agents: 92.05% on BrowseComp-Plus With 12.6 Search Calls",
@@ -26,17 +114,6 @@
       "impact": 77
     },
     {
-      "id": "aether-figure03",
-      "type": "premium",
-      "category": "robotics",
-      "title": "Figure 03 completes 43-hour autonomous factory shift with zero interventions",
-      "excerpt": "Humanoid achieves new milestone in unsupervised operation, performing 1,240 unique tasks across three assembly lines at the BMW South Carolina plant.",
-      "source": "Figure AI",
-      "url": "https://figure.ai/news/03-milestone",
-      "publishedAt": "2026-10-26T13:30:32.467Z",
-      "impact": 89
-    },
-    {
       "id": "aether-interp",
       "type": "premium",
       "category": "safety",
@@ -44,11 +121,11 @@
       "excerpt": "Researchers reverse-engineered 312 million features inside the model, including the first clear \"deception circuit\" discovered in a frontier model.",
       "source": "Anthropic",
       "url": "https://anthropic.com/research/claude-4-interp",
-      "publishedAt": "2026-10-26T08:30:32.467Z",
+      "publishedAt": "2026-10-26T14:31:26.085Z",
       "impact": 91
     },
     {
-      "id": "marktechpost-1793001405000-1",
+      "id": "marktechpost-1793001405000-2",
       "type": "live",
       "category": "llm",
       "title": "Tsinghua AI Open-Sources AKV, a Cache Engineering Server for LLM Agents on SGLang",
@@ -59,73 +136,7 @@
       "impact": 77
     },
     {
-      "id": "arxiv-cs.ai-1792987200000-0",
-      "type": "live",
-      "category": "research",
-      "title": "Tradeoff-Aware Territory Design: A Multi-Objective Decision System for Enterprise Customer-to-Seller Allocation",
-      "excerpt": "31701v1 Announce Type: new Abstract: Enterprise customer journeys are shaped not only by product experiences and marketing, but also by recurring resource-allocation decisions.  In B2B go-to-market (GTM) organizations...",
-      "source": "arXiv cs.AI",
-      "url": "https://arxiv.org/abs/2610.31701",
-      "publishedAt": "2026-10-26T04:00:00.000Z",
-      "impact": 58
-    },
-    {
-      "id": "arxiv-cs.ai-1792987200000-1",
-      "type": "live",
-      "category": "llm",
-      "title": "Phronix: The Capability-Centric Learning Paradigm for Agents",
-      "excerpt": "31789v1 Announce Type: new Abstract: Scientific computing increasingly relies on large language model-based agents for performance engineering tasks such as instrumentation, analysis, and workflow porting.  However, a...",
-      "source": "arXiv cs.AI",
-      "url": "https://arxiv.org/abs/2610.31789",
-      "publishedAt": "2026-10-26T04:00:00.000Z",
-      "impact": 69
-    },
-    {
-      "id": "arxiv-cs.ai-1792987200000-2",
-      "type": "live",
-      "category": "research",
-      "title": "Patronizing and Condescending Language Detection in English and Mandarin",
-      "excerpt": "31808v1 Announce Type: new Abstract: Patronizing and condescending language (PCL) is a form of harmful language that belittles and assumes pity for vulnerable groups, reinforcing negative societal stereotypes.  Howeve...",
-      "source": "arXiv cs.AI",
-      "url": "https://arxiv.org/abs/2610.31808",
-      "publishedAt": "2026-10-26T04:00:00.000Z",
-      "impact": 58
-    },
-    {
-      "id": "arxiv-cs.ai-1792987200000-3",
-      "type": "live",
-      "category": "llm",
-      "title": "PaperFormalizer: Author-in-the-Loop Autoformalization of Research Papers in Lean",
-      "excerpt": "31810v1 Announce Type: new Abstract: Even a carefully proofread paper can leave small gaps in its proofs or its stated assumptions.  We introduce PaperFormalizer, a Lean-based agentic pipeline that helps authors find ...",
-      "source": "arXiv cs.AI",
-      "url": "https://arxiv.org/abs/2610.31810",
-      "publishedAt": "2026-10-26T04:00:00.000Z",
-      "impact": 58
-    },
-    {
-      "id": "arxiv-cs.ai-1792987200000-4",
-      "type": "live",
-      "category": "llm",
-      "title": "Don't Forget What You Just Learned: Self-Directed Repair Turns Agent Mistakes Into Lasting Lessons",
-      "excerpt": "31846v1 Announce Type: new Abstract: Intelligent agents should learn from their mistakes so that experience leads to continuous improvement.  Yet today's agents recover from a mistake only temporarily: in-context refl...",
-      "source": "arXiv cs.AI",
-      "url": "https://arxiv.org/abs/2610.31846",
-      "publishedAt": "2026-10-26T04:00:00.000Z",
-      "impact": 69
-    },
-    {
-      "id": "arxiv-cs.ai-1792987200000-5",
-      "type": "live",
-      "category": "hardware",
-      "title": "TACS-RF: Tool-driven Agentic Circuit Synthesis of RF and mmWave Modules",
-      "excerpt": "31882v1 Announce Type: new Abstract: We present the framework of TACS-RF - a Tool-driven Agentic Circuit Synthesis of RF and mmWave modules.  In this framework, a large-language-model (LLM) coding agent (Claude Opus 4",
-      "source": "arXiv cs.AI",
-      "url": "https://arxiv.org/abs/2610.31882",
-      "publishedAt": "2026-10-26T04:00:00.000Z",
-      "impact": 69
-    },
-    {
-      "id": "marktechpost-1792962921000-2",
+      "id": "marktechpost-1792962921000-3",
       "type": "live",
       "category": "llm",
       "title": "Nanbeige Releases Nanbeige4.3-33B, a 33B Open Agentic Coding Model",
@@ -134,17 +145,6 @@
       "url": "https://www.marktechpost.com/2026/10/25/nanbeige-releases-nanbeige4-3-33b-open-agentic-coding-model/",
       "publishedAt": "2026-10-25T21:15:21.000Z",
       "impact": 77
-    },
-    {
-      "id": "marktechpost-1792947220000-3",
-      "type": "live",
-      "category": "llm",
-      "title": "Hugging Face Releases Carbon-X, a 14B Open DNA Language Model that Brings DNA and Natural Language Together for the First Time",
-      "excerpt": "Hugging Face released Carbon-X, an open 14. 8B DNA language model built on Qwen3-14B",
-      "source": "MarkTechPost",
-      "url": "https://www.marktechpost.com/2026/10/25/hugging-face-carbon-x-14b-dna-language-model/",
-      "publishedAt": "2026-10-25T16:53:40.000Z",
-      "impact": 65
     },
     {
       "id": "hugging-face-1792772150000-0",

@@ -1,8 +1,41 @@
 {
-  "lastUpdated": "2026-10-28T05:02:55.275Z",
+  "lastUpdated": "2026-10-28T12:30:13.172Z",
   "source": "AETHER + Public RSS (arXiv, Hugging Face, MarkTechPost, Ben's Bites)",
   "count": 16,
   "articles": [
+    {
+      "id": "marktechpost-1793175483000-0",
+      "type": "live",
+      "category": "llm",
+      "title": "Polymathic AI and Princeton Researchers Release FlashMap, a Flow Map Drafter for 6.14x Faster LLM Decoding",
+      "excerpt": "FlashMap is a speculative decoding drafter from Polymathic AI, Princeton and USC ISI researchers.  It drafts 16 tokens jointly in one pass and reaches up to 6",
+      "source": "MarkTechPost",
+      "url": "https://www.marktechpost.com/2026/10/28/flashmap-flow-map-speculative-decoding/",
+      "publishedAt": "2026-10-28T08:18:03.000Z",
+      "impact": 65
+    },
+    {
+      "id": "marktechpost-1793172898000-1",
+      "type": "live",
+      "category": "multimodal",
+      "title": "Meet Google DeepMind’s Genie 4: Real-Time World Model With Native Audio",
+      "excerpt": "Google DeepMind released Genie 4 as a research preview.  The real-time world model adds native audio, live dialogue and text steering, with Gemini 3",
+      "source": "MarkTechPost",
+      "url": "https://www.marktechpost.com/2026/10/28/google-deepmind-genie-4-world-model/",
+      "publishedAt": "2026-10-28T07:34:58.000Z",
+      "impact": 65
+    },
+    {
+      "id": "aether-grok43",
+      "type": "premium",
+      "category": "llm",
+      "title": "xAI releases Grok-4.3 with native long-horizon agent scaffolding",
+      "excerpt": "New model demonstrates 4.2× improvement on multi-step software engineering benchmarks and sustains coherent agent trajectories beyond 110k tokens.",
+      "source": "xAI",
+      "url": "https://x.ai/blog/grok-4.3",
+      "publishedAt": "2026-10-28T07:30:12.817Z",
+      "impact": 96
+    },
     {
       "id": "arxiv-cs.ai-1793160000000-0",
       "type": "live",
@@ -70,18 +103,29 @@
       "impact": 58
     },
     {
-      "id": "aether-grok43",
+      "id": "aether-figure03",
       "type": "premium",
-      "category": "llm",
-      "title": "xAI releases Grok-4.3 with native long-horizon agent scaffolding",
-      "excerpt": "New model demonstrates 4.2× improvement on multi-step software engineering benchmarks and sustains coherent agent trajectories beyond 110k tokens.",
-      "source": "xAI",
-      "url": "https://x.ai/blog/grok-4.3",
-      "publishedAt": "2026-10-28T00:02:54.857Z",
-      "impact": 96
+      "category": "robotics",
+      "title": "Figure 03 completes 43-hour autonomous factory shift with zero interventions",
+      "excerpt": "Humanoid achieves new milestone in unsupervised operation, performing 1,240 unique tasks across three assembly lines at the BMW South Carolina plant.",
+      "source": "Figure AI",
+      "url": "https://figure.ai/news/03-milestone",
+      "publishedAt": "2026-10-28T03:30:12.817Z",
+      "impact": 89
     },
     {
-      "id": "marktechpost-1793138077000-0",
+      "id": "aether-interp",
+      "type": "premium",
+      "category": "safety",
+      "title": "Anthropic publishes unprecedented mechanistic interpretability map of Claude 4",
+      "excerpt": "Researchers reverse-engineered 312 million features inside the model, including the first clear \"deception circuit\" discovered in a frontier model.",
+      "source": "Anthropic",
+      "url": "https://anthropic.com/research/claude-4-interp",
+      "publishedAt": "2026-10-27T22:30:12.817Z",
+      "impact": 91
+    },
+    {
+      "id": "marktechpost-1793138077000-2",
       "type": "live",
       "category": "research",
       "title": "Meet LEANN: An Open-Source Vector Index that Shrinks a 60M-Chunk RAG Index from 201 GB to 6 GB",
@@ -92,7 +136,7 @@
       "impact": 65
     },
     {
-      "id": "marktechpost-1793135282000-1",
+      "id": "marktechpost-1793135282000-3",
       "type": "live",
       "category": "multimodal",
       "title": "Liquid AI Releases LFM3: 6 Open-Weight 2B-Class Multimodal Models",
@@ -101,17 +145,6 @@
       "url": "https://www.marktechpost.com/2026/10/27/liquid-ai-lfm3-open-weight-2b-multimodal-models/",
       "publishedAt": "2026-10-27T21:08:02.000Z",
       "impact": 65
-    },
-    {
-      "id": "aether-figure03",
-      "type": "premium",
-      "category": "robotics",
-      "title": "Figure 03 completes 43-hour autonomous factory shift with zero interventions",
-      "excerpt": "Humanoid achieves new milestone in unsupervised operation, performing 1,240 unique tasks across three assembly lines at the BMW South Carolina plant.",
-      "source": "Figure AI",
-      "url": "https://figure.ai/news/03-milestone",
-      "publishedAt": "2026-10-27T20:02:54.857Z",
-      "impact": 89
     },
     {
       "id": "hugging-face-1793121412000-0",
@@ -134,39 +167,6 @@
       "url": "https://huggingface.co/blog/allenai/novelty-bench",
       "publishedAt": "2026-10-27T16:12:42.000Z",
       "impact": 75
-    },
-    {
-      "id": "aether-interp",
-      "type": "premium",
-      "category": "safety",
-      "title": "Anthropic publishes unprecedented mechanistic interpretability map of Claude 4",
-      "excerpt": "Researchers reverse-engineered 312 million features inside the model, including the first clear \"deception circuit\" discovered in a frontier model.",
-      "source": "Anthropic",
-      "url": "https://anthropic.com/research/claude-4-interp",
-      "publishedAt": "2026-10-27T15:02:54.857Z",
-      "impact": 91
-    },
-    {
-      "id": "marktechpost-1793105866000-2",
-      "type": "live",
-      "category": "llm",
-      "title": "Mirendil Launches Fern 0.1, Its First Model, With 10M-Token Context",
-      "excerpt": "Mirendil released Fern 0. 1, its first model, pretrained from scratch with a 10M-token context window",
-      "source": "MarkTechPost",
-      "url": "https://www.marktechpost.com/2026/10/27/mirendil-fern-10m-token-context-model/",
-      "publishedAt": "2026-10-27T12:57:46.000Z",
-      "impact": 65
-    },
-    {
-      "id": "marktechpost-1793080257000-3",
-      "type": "live",
-      "category": "multimodal",
-      "title": "vLLM Semantic Router Releases d3-ultra: A 27B Open Multimodal Decision Model",
-      "excerpt": "vLLM Semantic Router released d3-ultra, a 27B open-weight multimodal decision model.  It reads text, images and video once, then returns probabilities for every answer, scoring 87",
-      "source": "MarkTechPost",
-      "url": "https://www.marktechpost.com/2026/10/26/vllm-semantic-router-d3-ultra-27b-multimodal-decision-model/",
-      "publishedAt": "2026-10-27T05:50:57.000Z",
-      "impact": 65
     },
     {
       "id": "hugging-face-1792713600000-2",

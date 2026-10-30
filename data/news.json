@@ -1,8 +1,41 @@
 {
-  "lastUpdated": "2026-10-30T05:15:03.289Z",
+  "lastUpdated": "2026-10-30T22:07:14.243Z",
   "source": "AETHER + Public RSS (arXiv, Hugging Face, MarkTechPost, Ben's Bites)",
-  "count": 10,
+  "count": 16,
   "articles": [
+    {
+      "id": "hugging-face-1793383044000-0",
+      "type": "live",
+      "category": "research",
+      "title": "nemotron-halloween",
+      "excerpt": "New development from the frontier.",
+      "source": "Hugging Face",
+      "url": "https://huggingface.co/blog/nvidia/nemotron-halloween",
+      "publishedAt": "2026-10-30T17:57:24.000Z",
+      "impact": 75
+    },
+    {
+      "id": "marktechpost-1793382817000-0",
+      "type": "live",
+      "category": "research",
+      "title": "Meet TokenEconomizer: Microsoft’s Plugin That Cuts Coding Agent Costs by Up to 30.9%",
+      "excerpt": "Microsoft Research and UC Berkeley released TokenEconomizer, an open-source plugin that learns from past sessions to cut coding agent token costs by 18. 9% on SWE-Bench, with no change to the agent",
+      "source": "MarkTechPost",
+      "url": "https://www.marktechpost.com/2026/10/30/microsoft-tokeneconomizer-coding-agent-cost-control/",
+      "publishedAt": "2026-10-30T17:53:37.000Z",
+      "impact": 77
+    },
+    {
+      "id": "marktechpost-1793381655000-1",
+      "type": "live",
+      "category": "llm",
+      "title": "AI Security Agents Compared: Claude, Codex, Mantis, Cloudflare",
+      "excerpt": "Anthropic, OpenAI, Cloudflare and Google each released an AI agent that hunts security bugs in source code.  All 4 use the same find, disprove, then patch loop",
+      "source": "MarkTechPost",
+      "url": "https://www.marktechpost.com/2026/10/30/ai-security-agents-claude-codex-mantis-cloudflare/",
+      "publishedAt": "2026-10-30T17:34:15.000Z",
+      "impact": 77
+    },
     {
       "id": "aether-grok43",
       "type": "premium",
@@ -11,19 +44,8 @@
       "excerpt": "New model demonstrates 4.2× improvement on multi-step software engineering benchmarks and sustains coherent agent trajectories beyond 110k tokens.",
       "source": "xAI",
       "url": "https://x.ai/blog/grok-4.3",
-      "publishedAt": "2026-10-30T00:15:03.000Z",
+      "publishedAt": "2026-10-30T17:07:13.868Z",
       "impact": 96
-    },
-    {
-      "id": "marktechpost-1793308829000-0",
-      "type": "live",
-      "category": "llm",
-      "title": "Baseten Releases joey-1, a 2B Decision Model at $0.01 per 1M Tokens",
-      "excerpt": "Baseten has released joey-1, a 2B open-weight decision model that returns calibrated probabilities instead of text.  It runs at 20 ms P50 latency and costs $0",
-      "source": "MarkTechPost",
-      "url": "https://www.marktechpost.com/2026/10/29/baseten-joey-1-2b-decision-model/",
-      "publishedAt": "2026-10-29T21:20:29.000Z",
-      "impact": 65
     },
     {
       "id": "aether-figure03",
@@ -33,19 +55,8 @@
       "excerpt": "Humanoid achieves new milestone in unsupervised operation, performing 1,240 unique tasks across three assembly lines at the BMW South Carolina plant.",
       "source": "Figure AI",
       "url": "https://figure.ai/news/03-milestone",
-      "publishedAt": "2026-10-29T20:15:03.000Z",
+      "publishedAt": "2026-10-30T13:07:13.868Z",
       "impact": 89
-    },
-    {
-      "id": "marktechpost-1793298537000-1",
-      "type": "live",
-      "category": "llm",
-      "title": "Prime Intellect Releases Prime Mega MoE: Trainable Fused MoE Kernel, 3.11x Faster Forward Pass",
-      "excerpt": "Prime Intellect released Prime Mega MoE, a backward pass for DeepSeek’s fused Mega MoE kernel.  It makes the kernel trainable and speeds Qwen3 MoE training steps by up to 34% in prime-rl",
-      "source": "MarkTechPost",
-      "url": "https://www.marktechpost.com/2026/10/29/prime-intellect-prime-mega-moe-fused-moe-kernel-training/",
-      "publishedAt": "2026-10-29T18:28:57.000Z",
-      "impact": 65
     },
     {
       "id": "aether-interp",
@@ -55,11 +66,99 @@
       "excerpt": "Researchers reverse-engineered 312 million features inside the model, including the first clear \"deception circuit\" discovered in a frontier model.",
       "source": "Anthropic",
       "url": "https://anthropic.com/research/claude-4-interp",
-      "publishedAt": "2026-10-29T15:15:03.000Z",
+      "publishedAt": "2026-10-30T08:07:13.868Z",
       "impact": 91
     },
     {
-      "id": "hugging-face-1793281027000-0",
+      "id": "marktechpost-1793345172000-2",
+      "type": "live",
+      "category": "llm",
+      "title": "Samaya AI Releases Sterling: A 3B-Active Finance Research Agent Model that Beats Claude Fable 5.1 on FrontierFinance at 11x Lower Cost",
+      "excerpt": "Samaya AI’s Sterling is a post-trained Nemotron 3. 5 Lightning model for financial research",
+      "source": "MarkTechPost",
+      "url": "https://www.marktechpost.com/2026/10/30/samaya-sterling-post-trained-finance-research-model-frontierfinance/",
+      "publishedAt": "2026-10-30T07:26:12.000Z",
+      "impact": 95
+    },
+    {
+      "id": "marktechpost-1793336572000-3",
+      "type": "live",
+      "category": "multimodal",
+      "title": "Edge0 Releases Audio8-TTS-Realistic, a 0.6B Voice Cloning TTS Model",
+      "excerpt": "Edge0 released Audio8-TTS-Realistic, a 0. 6B open-weight zero-shot voice cloning TTS model under Apache 2",
+      "source": "MarkTechPost",
+      "url": "https://www.marktechpost.com/2026/10/29/edge0-audio8-tts-realistic-0-6b-voice-cloning/",
+      "publishedAt": "2026-10-30T05:02:52.000Z",
+      "impact": 65
+    },
+    {
+      "id": "arxiv-cs.ai-1793332800000-0",
+      "type": "live",
+      "category": "hardware",
+      "title": "LRMoE: Demand-Side Load Re-Calibration for Efficient MoE Training on Memory-Constrained Nodes",
+      "excerpt": "37720v1 Announce Type: new Abstract: Sparse Mixture-of-Experts (MoE) models offer scalable capacity for Web applications, but uneven routing creates computation and communication bottlenecks.  Existing placement and r...",
+      "source": "arXiv cs.AI",
+      "url": "https://arxiv.org/abs/2610.37720",
+      "publishedAt": "2026-10-30T04:00:00.000Z",
+      "impact": 58
+    },
+    {
+      "id": "arxiv-cs.ai-1793332800000-1",
+      "type": "live",
+      "category": "llm",
+      "title": "Amortized Localized Posterior Inference for Model Calibration with Application to an Ocean Turbulence Closure",
+      "excerpt": "37731v1 Announce Type: new Abstract: Model discrepancy may prevent a single calibration parameter from reproducing a physical response across the context domain.  In addition, uncertainties in observations and context...",
+      "source": "arXiv cs.AI",
+      "url": "https://arxiv.org/abs/2610.37731",
+      "publishedAt": "2026-10-30T04:00:00.000Z",
+      "impact": 58
+    },
+    {
+      "id": "arxiv-cs.ai-1793332800000-2",
+      "type": "live",
+      "category": "llm",
+      "title": "ThinkJev: One Thought, Every Budget for Calibrated Typed Decisions",
+      "excerpt": "37732v1 Announce Type: new Abstract: Many uses of language models end in a typed decision: a choice among a closed set of options, whose probabilities code can act on.  Reading those probabilities from one forward pas...",
+      "source": "arXiv cs.AI",
+      "url": "https://arxiv.org/abs/2610.37732",
+      "publishedAt": "2026-10-30T04:00:00.000Z",
+      "impact": 58
+    },
+    {
+      "id": "arxiv-cs.ai-1793332800000-3",
+      "type": "live",
+      "category": "llm",
+      "title": "OpenFrontiers: A Collection of Open Research Problems and a Benchmark for Scientific Rediscovery",
+      "excerpt": "37739v1 Announce Type: new Abstract: Large language models (LLMs) have shown increasing promise in research-level problem solving, yet a comprehensive collection of such problems is still missing, and evaluating them ...",
+      "source": "arXiv cs.AI",
+      "url": "https://arxiv.org/abs/2610.37739",
+      "publishedAt": "2026-10-30T04:00:00.000Z",
+      "impact": 75
+    },
+    {
+      "id": "arxiv-cs.ai-1793332800000-4",
+      "type": "live",
+      "category": "research",
+      "title": "WebAnything: From the Wild Web to Scalable Agent Environments",
+      "excerpt": "37786v1 Announce Type: new Abstract: Web agents require diverse, executable, and resettable website environments for reproducible training and evaluation.  Human-assisted mirrors demand per-site engineering, while gen...",
+      "source": "arXiv cs.AI",
+      "url": "https://arxiv.org/abs/2610.37786",
+      "publishedAt": "2026-10-30T04:00:00.000Z",
+      "impact": 69
+    },
+    {
+      "id": "arxiv-cs.ai-1793332800000-5",
+      "type": "live",
+      "category": "llm",
+      "title": "What Does an Ontology Catch? Curated, LLM-Generated and Data-Derived Ontologies as Checkers of LLM Agents over Knowledge Graphs",
+      "excerpt": "37809v1 Announce Type: new Abstract: LLM agents that answer questions over Web knowledge graphs are increasingly wrapped in checks derived from the graph's ontology, on the assumption that a formal schema makes a reli...",
+      "source": "arXiv cs.AI",
+      "url": "https://arxiv.org/abs/2610.37809",
+      "publishedAt": "2026-10-30T04:00:00.000Z",
+      "impact": 69
+    },
+    {
+      "id": "hugging-face-1793281027000-1",
       "type": "live",
       "category": "llm",
       "title": "Granite Switch 4.1.1 — Update models like you update software",
@@ -70,46 +169,13 @@
       "impact": 75
     },
     {
-      "id": "marktechpost-1793262292000-2",
-      "type": "live",
-      "category": "llm",
-      "title": "Infini-AI-Lab Releases Hermit, an Open-Source Harness Adapter Framework for AI Agents",
-      "excerpt": "Infini-AI-Lab released Hermit, an Apache-2. 0 harness adapter framework that trains an external layer of instructions, skills, memory and tools from task feedback, leaving the agent’s model and harness unchanged",
-      "source": "MarkTechPost",
-      "url": "https://www.marktechpost.com/2026/10/29/infini-ai-lab-hermit-harness-adapter-framework/",
-      "publishedAt": "2026-10-29T08:24:52.000Z",
-      "impact": 77
-    },
-    {
-      "id": "marktechpost-1793260239000-3",
-      "type": "live",
-      "category": "multimodal",
-      "title": "Block Unveils Dessa, a Full-Duplex Speech Model Trained Only on Speech",
-      "excerpt": "Block’s AI lab released Dessa, a full-duplex speech-to-speech model trained only on human conversation audio.  It runs locally on a MacBook Pro M4 Max, but Block has published no size, benchmarks or weights",
-      "source": "MarkTechPost",
-      "url": "https://www.marktechpost.com/2026/10/29/block-dessa-full-duplex-speech-model/",
-      "publishedAt": "2026-10-29T07:50:39.000Z",
-      "impact": 65
-    },
-    {
-      "id": "hugging-face-1793232000000-1",
+      "id": "hugging-face-1793232000000-2",
       "type": "live",
       "category": "research",
       "title": "Announcing Project ProtoStar: Making Publicly Funded Science AI-Ready",
       "excerpt": "New development from the frontier.",
       "source": "Hugging Face",
       "url": "https://huggingface.co/blog/announcing-project-protostar",
-      "publishedAt": "2026-10-29T00:00:00.000Z",
-      "impact": 75
-    },
-    {
-      "id": "hugging-face-1793232000000-2",
-      "type": "live",
-      "category": "llm",
-      "title": "Welcome Le Chonk: Mistral Large 4 on Hugging Face",
-      "excerpt": "New development from the frontier.",
-      "source": "Hugging Face",
-      "url": "https://huggingface.co/blog/mistral-large4",
       "publishedAt": "2026-10-29T00:00:00.000Z",
       "impact": 75
     }

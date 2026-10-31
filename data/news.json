@@ -1,8 +1,96 @@
 {
-  "lastUpdated": "2026-10-30T22:07:14.243Z",
+  "lastUpdated": "2026-10-31T04:58:28.848Z",
   "source": "AETHER + Public RSS (arXiv, Hugging Face, MarkTechPost, Ben's Bites)",
   "count": 16,
   "articles": [
+    {
+      "id": "arxiv-cs.ai-1793419200000-0",
+      "type": "live",
+      "category": "hardware",
+      "title": "LRMoE: Demand-Side Load Re-Calibration for Efficient MoE Training on Memory-Constrained Nodes",
+      "excerpt": "37720v1 Announce Type: new Abstract: Sparse Mixture-of-Experts (MoE) models offer scalable capacity for Web applications, but uneven routing creates computation and communication bottlenecks.  Existing placement and r...",
+      "source": "arXiv cs.AI",
+      "url": "https://arxiv.org/abs/2610.37720",
+      "publishedAt": "2026-10-31T04:00:00.000Z",
+      "impact": 58
+    },
+    {
+      "id": "arxiv-cs.ai-1793419200000-1",
+      "type": "live",
+      "category": "llm",
+      "title": "Amortized Localized Posterior Inference for Model Calibration with Application to an Ocean Turbulence Closure",
+      "excerpt": "37731v1 Announce Type: new Abstract: Model discrepancy may prevent a single calibration parameter from reproducing a physical response across the context domain.  In addition, uncertainties in observations and context...",
+      "source": "arXiv cs.AI",
+      "url": "https://arxiv.org/abs/2610.37731",
+      "publishedAt": "2026-10-31T04:00:00.000Z",
+      "impact": 58
+    },
+    {
+      "id": "arxiv-cs.ai-1793419200000-2",
+      "type": "live",
+      "category": "llm",
+      "title": "ThinkJev: One Thought, Every Budget for Calibrated Typed Decisions",
+      "excerpt": "37732v1 Announce Type: new Abstract: Many uses of language models end in a typed decision: a choice among a closed set of options, whose probabilities code can act on.  Reading those probabilities from one forward pas...",
+      "source": "arXiv cs.AI",
+      "url": "https://arxiv.org/abs/2610.37732",
+      "publishedAt": "2026-10-31T04:00:00.000Z",
+      "impact": 58
+    },
+    {
+      "id": "arxiv-cs.ai-1793419200000-3",
+      "type": "live",
+      "category": "llm",
+      "title": "OpenFrontiers: A Collection of Open Research Problems and a Benchmark for Scientific Rediscovery",
+      "excerpt": "37739v1 Announce Type: new Abstract: Large language models (LLMs) have shown increasing promise in research-level problem solving, yet a comprehensive collection of such problems is still missing, and evaluating them ...",
+      "source": "arXiv cs.AI",
+      "url": "https://arxiv.org/abs/2610.37739",
+      "publishedAt": "2026-10-31T04:00:00.000Z",
+      "impact": 75
+    },
+    {
+      "id": "arxiv-cs.ai-1793419200000-4",
+      "type": "live",
+      "category": "research",
+      "title": "WebAnything: From the Wild Web to Scalable Agent Environments",
+      "excerpt": "37786v1 Announce Type: new Abstract: Web agents require diverse, executable, and resettable website environments for reproducible training and evaluation.  Human-assisted mirrors demand per-site engineering, while gen...",
+      "source": "arXiv cs.AI",
+      "url": "https://arxiv.org/abs/2610.37786",
+      "publishedAt": "2026-10-31T04:00:00.000Z",
+      "impact": 69
+    },
+    {
+      "id": "arxiv-cs.ai-1793419200000-5",
+      "type": "live",
+      "category": "llm",
+      "title": "What Does an Ontology Catch? Curated, LLM-Generated and Data-Derived Ontologies as Checkers of LLM Agents over Knowledge Graphs",
+      "excerpt": "37809v1 Announce Type: new Abstract: LLM agents that answer questions over Web knowledge graphs are increasingly wrapped in checks derived from the graph's ontology, on the assumption that a formal schema makes a reli...",
+      "source": "arXiv cs.AI",
+      "url": "https://arxiv.org/abs/2610.37809",
+      "publishedAt": "2026-10-31T04:00:00.000Z",
+      "impact": 69
+    },
+    {
+      "id": "aether-grok43",
+      "type": "premium",
+      "category": "llm",
+      "title": "xAI releases Grok-4.3 with native long-horizon agent scaffolding",
+      "excerpt": "New model demonstrates 4.2× improvement on multi-step software engineering benchmarks and sustains coherent agent trajectories beyond 110k tokens.",
+      "source": "xAI",
+      "url": "https://x.ai/blog/grok-4.3",
+      "publishedAt": "2026-10-30T23:58:28.313Z",
+      "impact": 96
+    },
+    {
+      "id": "aether-figure03",
+      "type": "premium",
+      "category": "robotics",
+      "title": "Figure 03 completes 43-hour autonomous factory shift with zero interventions",
+      "excerpt": "Humanoid achieves new milestone in unsupervised operation, performing 1,240 unique tasks across three assembly lines at the BMW South Carolina plant.",
+      "source": "Figure AI",
+      "url": "https://figure.ai/news/03-milestone",
+      "publishedAt": "2026-10-30T19:58:28.314Z",
+      "impact": 89
+    },
     {
       "id": "hugging-face-1793383044000-0",
       "type": "live",
@@ -37,28 +125,6 @@
       "impact": 77
     },
     {
-      "id": "aether-grok43",
-      "type": "premium",
-      "category": "llm",
-      "title": "xAI releases Grok-4.3 with native long-horizon agent scaffolding",
-      "excerpt": "New model demonstrates 4.2× improvement on multi-step software engineering benchmarks and sustains coherent agent trajectories beyond 110k tokens.",
-      "source": "xAI",
-      "url": "https://x.ai/blog/grok-4.3",
-      "publishedAt": "2026-10-30T17:07:13.868Z",
-      "impact": 96
-    },
-    {
-      "id": "aether-figure03",
-      "type": "premium",
-      "category": "robotics",
-      "title": "Figure 03 completes 43-hour autonomous factory shift with zero interventions",
-      "excerpt": "Humanoid achieves new milestone in unsupervised operation, performing 1,240 unique tasks across three assembly lines at the BMW South Carolina plant.",
-      "source": "Figure AI",
-      "url": "https://figure.ai/news/03-milestone",
-      "publishedAt": "2026-10-30T13:07:13.868Z",
-      "impact": 89
-    },
-    {
       "id": "aether-interp",
       "type": "premium",
       "category": "safety",
@@ -66,7 +132,7 @@
       "excerpt": "Researchers reverse-engineered 312 million features inside the model, including the first clear \"deception circuit\" discovered in a frontier model.",
       "source": "Anthropic",
       "url": "https://anthropic.com/research/claude-4-interp",
-      "publishedAt": "2026-10-30T08:07:13.868Z",
+      "publishedAt": "2026-10-30T14:58:28.314Z",
       "impact": 91
     },
     {
@@ -90,72 +156,6 @@
       "url": "https://www.marktechpost.com/2026/10/29/edge0-audio8-tts-realistic-0-6b-voice-cloning/",
       "publishedAt": "2026-10-30T05:02:52.000Z",
       "impact": 65
-    },
-    {
-      "id": "arxiv-cs.ai-1793332800000-0",
-      "type": "live",
-      "category": "hardware",
-      "title": "LRMoE: Demand-Side Load Re-Calibration for Efficient MoE Training on Memory-Constrained Nodes",
-      "excerpt": "37720v1 Announce Type: new Abstract: Sparse Mixture-of-Experts (MoE) models offer scalable capacity for Web applications, but uneven routing creates computation and communication bottlenecks.  Existing placement and r...",
-      "source": "arXiv cs.AI",
-      "url": "https://arxiv.org/abs/2610.37720",
-      "publishedAt": "2026-10-30T04:00:00.000Z",
-      "impact": 58
-    },
-    {
-      "id": "arxiv-cs.ai-1793332800000-1",
-      "type": "live",
-      "category": "llm",
-      "title": "Amortized Localized Posterior Inference for Model Calibration with Application to an Ocean Turbulence Closure",
-      "excerpt": "37731v1 Announce Type: new Abstract: Model discrepancy may prevent a single calibration parameter from reproducing a physical response across the context domain.  In addition, uncertainties in observations and context...",
-      "source": "arXiv cs.AI",
-      "url": "https://arxiv.org/abs/2610.37731",
-      "publishedAt": "2026-10-30T04:00:00.000Z",
-      "impact": 58
-    },
-    {
-      "id": "arxiv-cs.ai-1793332800000-2",
-      "type": "live",
-      "category": "llm",
-      "title": "ThinkJev: One Thought, Every Budget for Calibrated Typed Decisions",
-      "excerpt": "37732v1 Announce Type: new Abstract: Many uses of language models end in a typed decision: a choice among a closed set of options, whose probabilities code can act on.  Reading those probabilities from one forward pas...",
-      "source": "arXiv cs.AI",
-      "url": "https://arxiv.org/abs/2610.37732",
-      "publishedAt": "2026-10-30T04:00:00.000Z",
-      "impact": 58
-    },
-    {
-      "id": "arxiv-cs.ai-1793332800000-3",
-      "type": "live",
-      "category": "llm",
-      "title": "OpenFrontiers: A Collection of Open Research Problems and a Benchmark for Scientific Rediscovery",
-      "excerpt": "37739v1 Announce Type: new Abstract: Large language models (LLMs) have shown increasing promise in research-level problem solving, yet a comprehensive collection of such problems is still missing, and evaluating them ...",
-      "source": "arXiv cs.AI",
-      "url": "https://arxiv.org/abs/2610.37739",
-      "publishedAt": "2026-10-30T04:00:00.000Z",
-      "impact": 75
-    },
-    {
-      "id": "arxiv-cs.ai-1793332800000-4",
-      "type": "live",
-      "category": "research",
-      "title": "WebAnything: From the Wild Web to Scalable Agent Environments",
-      "excerpt": "37786v1 Announce Type: new Abstract: Web agents require diverse, executable, and resettable website environments for reproducible training and evaluation.  Human-assisted mirrors demand per-site engineering, while gen...",
-      "source": "arXiv cs.AI",
-      "url": "https://arxiv.org/abs/2610.37786",
-      "publishedAt": "2026-10-30T04:00:00.000Z",
-      "impact": 69
-    },
-    {
-      "id": "arxiv-cs.ai-1793332800000-5",
-      "type": "live",
-      "category": "llm",
-      "title": "What Does an Ontology Catch? Curated, LLM-Generated and Data-Derived Ontologies as Checkers of LLM Agents over Knowledge Graphs",
-      "excerpt": "37809v1 Announce Type: new Abstract: LLM agents that answer questions over Web knowledge graphs are increasingly wrapped in checks derived from the graph's ontology, on the assumption that a formal schema makes a reli...",
-      "source": "arXiv cs.AI",
-      "url": "https://arxiv.org/abs/2610.37809",
-      "publishedAt": "2026-10-30T04:00:00.000Z",
-      "impact": 69
     },
     {
       "id": "hugging-face-1793281027000-1",

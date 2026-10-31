@@ -1,8 +1,30 @@
 {
-  "lastUpdated": "2026-10-31T04:58:28.848Z",
+  "lastUpdated": "2026-10-31T11:59:00.422Z",
   "source": "AETHER + Public RSS (arXiv, Hugging Face, MarkTechPost, Ben's Bites)",
   "count": 16,
   "articles": [
+    {
+      "id": "marktechpost-1793441428000-0",
+      "type": "live",
+      "category": "research",
+      "title": "Vercel Labs Open-Sources agent-desktop for Agent Computer Use",
+      "excerpt": "Vercel Labs released agent-desktop, an Apache-2. 0 Rust CLI that gives any AI agent computer use on macOS, Windows and Linux by reading OS accessibility trees and acting on stable refs instead of pixels",
+      "source": "MarkTechPost",
+      "url": "https://www.marktechpost.com/2026/10/31/vercel-labs-agent-desktop-computer-use/",
+      "publishedAt": "2026-10-31T10:10:28.000Z",
+      "impact": 77
+    },
+    {
+      "id": "aether-grok43",
+      "type": "premium",
+      "category": "llm",
+      "title": "xAI releases Grok-4.3 with native long-horizon agent scaffolding",
+      "excerpt": "New model demonstrates 4.2× improvement on multi-step software engineering benchmarks and sustains coherent agent trajectories beyond 110k tokens.",
+      "source": "xAI",
+      "url": "https://x.ai/blog/grok-4.3",
+      "publishedAt": "2026-10-31T06:58:59.994Z",
+      "impact": 96
+    },
     {
       "id": "arxiv-cs.ai-1793419200000-0",
       "type": "live",
@@ -70,17 +92,6 @@
       "impact": 69
     },
     {
-      "id": "aether-grok43",
-      "type": "premium",
-      "category": "llm",
-      "title": "xAI releases Grok-4.3 with native long-horizon agent scaffolding",
-      "excerpt": "New model demonstrates 4.2× improvement on multi-step software engineering benchmarks and sustains coherent agent trajectories beyond 110k tokens.",
-      "source": "xAI",
-      "url": "https://x.ai/blog/grok-4.3",
-      "publishedAt": "2026-10-30T23:58:28.313Z",
-      "impact": 96
-    },
-    {
       "id": "aether-figure03",
       "type": "premium",
       "category": "robotics",
@@ -88,8 +99,19 @@
       "excerpt": "Humanoid achieves new milestone in unsupervised operation, performing 1,240 unique tasks across three assembly lines at the BMW South Carolina plant.",
       "source": "Figure AI",
       "url": "https://figure.ai/news/03-milestone",
-      "publishedAt": "2026-10-30T19:58:28.314Z",
+      "publishedAt": "2026-10-31T02:58:59.994Z",
       "impact": 89
+    },
+    {
+      "id": "aether-interp",
+      "type": "premium",
+      "category": "safety",
+      "title": "Anthropic publishes unprecedented mechanistic interpretability map of Claude 4",
+      "excerpt": "Researchers reverse-engineered 312 million features inside the model, including the first clear \"deception circuit\" discovered in a frontier model.",
+      "source": "Anthropic",
+      "url": "https://anthropic.com/research/claude-4-interp",
+      "publishedAt": "2026-10-30T21:58:59.994Z",
+      "impact": 91
     },
     {
       "id": "hugging-face-1793383044000-0",
@@ -103,7 +125,7 @@
       "impact": 75
     },
     {
-      "id": "marktechpost-1793382817000-0",
+      "id": "marktechpost-1793382817000-1",
       "type": "live",
       "category": "research",
       "title": "Meet TokenEconomizer: Microsoft’s Plugin That Cuts Coding Agent Costs by Up to 30.9%",
@@ -114,7 +136,7 @@
       "impact": 77
     },
     {
-      "id": "marktechpost-1793381655000-1",
+      "id": "marktechpost-1793381655000-2",
       "type": "live",
       "category": "llm",
       "title": "AI Security Agents Compared: Claude, Codex, Mantis, Cloudflare",
@@ -125,18 +147,7 @@
       "impact": 77
     },
     {
-      "id": "aether-interp",
-      "type": "premium",
-      "category": "safety",
-      "title": "Anthropic publishes unprecedented mechanistic interpretability map of Claude 4",
-      "excerpt": "Researchers reverse-engineered 312 million features inside the model, including the first clear \"deception circuit\" discovered in a frontier model.",
-      "source": "Anthropic",
-      "url": "https://anthropic.com/research/claude-4-interp",
-      "publishedAt": "2026-10-30T14:58:28.314Z",
-      "impact": 91
-    },
-    {
-      "id": "marktechpost-1793345172000-2",
+      "id": "marktechpost-1793345172000-3",
       "type": "live",
       "category": "llm",
       "title": "Samaya AI Releases Sterling: A 3B-Active Finance Research Agent Model that Beats Claude Fable 5.1 on FrontierFinance at 11x Lower Cost",
@@ -145,17 +156,6 @@
       "url": "https://www.marktechpost.com/2026/10/30/samaya-sterling-post-trained-finance-research-model-frontierfinance/",
       "publishedAt": "2026-10-30T07:26:12.000Z",
       "impact": 95
-    },
-    {
-      "id": "marktechpost-1793336572000-3",
-      "type": "live",
-      "category": "multimodal",
-      "title": "Edge0 Releases Audio8-TTS-Realistic, a 0.6B Voice Cloning TTS Model",
-      "excerpt": "Edge0 released Audio8-TTS-Realistic, a 0. 6B open-weight zero-shot voice cloning TTS model under Apache 2",
-      "source": "MarkTechPost",
-      "url": "https://www.marktechpost.com/2026/10/29/edge0-audio8-tts-realistic-0-6b-voice-cloning/",
-      "publishedAt": "2026-10-30T05:02:52.000Z",
-      "impact": 65
     },
     {
       "id": "hugging-face-1793281027000-1",

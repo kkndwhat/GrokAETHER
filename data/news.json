@@ -1,8 +1,19 @@
 {
-  "lastUpdated": "2026-11-01T05:28:45.700Z",
+  "lastUpdated": "2026-11-01T12:59:26.276Z",
   "source": "AETHER + Public RSS (arXiv, Hugging Face, MarkTechPost, Ben's Bites)",
   "count": 10,
   "articles": [
+    {
+      "id": "marktechpost-1793520607000-0",
+      "type": "live",
+      "category": "multimodal",
+      "title": "Nace AI Open-Sources Drex Max v1: A 27B Decision Model That Runs Locally on Apple Silicon",
+      "excerpt": "Nace AI open-sources Drex Max v1, a 27B multimodal decision model scoring 67. 52 that runs on Apple Silicon",
+      "source": "MarkTechPost",
+      "url": "https://www.marktechpost.com/2026/11/01/nace-ai-open-sources-drex-max-v1-local-inference/",
+      "publishedAt": "2026-11-01T08:10:07.000Z",
+      "impact": 65
+    },
     {
       "id": "aether-grok43",
       "type": "premium",
@@ -11,8 +22,19 @@
       "excerpt": "New model demonstrates 4.2× improvement on multi-step software engineering benchmarks and sustains coherent agent trajectories beyond 110k tokens.",
       "source": "xAI",
       "url": "https://x.ai/blog/grok-4.3",
-      "publishedAt": "2026-11-01T00:28:45.282Z",
+      "publishedAt": "2026-11-01T07:59:25.706Z",
       "impact": 96
+    },
+    {
+      "id": "marktechpost-1793519237000-1",
+      "type": "live",
+      "category": "llm",
+      "title": "DeepSeek Open-Sources dsh-superagent, a Router-Worker Coding Agent",
+      "excerpt": "DeepSeek released dsh-superagent, an MIT-licensed research prototype that turns GitHub and Feishu requests into parallel worker sessions.  In DeepSeek’s own simulation, p95 task completion fell to 15",
+      "source": "MarkTechPost",
+      "url": "https://www.marktechpost.com/2026/11/01/deepseek-dsh-superagent-router-worker-coding-agent/",
+      "publishedAt": "2026-11-01T07:47:17.000Z",
+      "impact": 77
     },
     {
       "id": "aether-figure03",
@@ -22,7 +44,7 @@
       "excerpt": "Humanoid achieves new milestone in unsupervised operation, performing 1,240 unique tasks across three assembly lines at the BMW South Carolina plant.",
       "source": "Figure AI",
       "url": "https://figure.ai/news/03-milestone",
-      "publishedAt": "2026-10-31T20:28:45.282Z",
+      "publishedAt": "2026-11-01T03:59:25.706Z",
       "impact": 89
     },
     {
@@ -33,11 +55,11 @@
       "excerpt": "Researchers reverse-engineered 312 million features inside the model, including the first clear \"deception circuit\" discovered in a frontier model.",
       "source": "Anthropic",
       "url": "https://anthropic.com/research/claude-4-interp",
-      "publishedAt": "2026-10-31T15:28:45.282Z",
+      "publishedAt": "2026-10-31T22:59:25.706Z",
       "impact": 91
     },
     {
-      "id": "marktechpost-1793443094000-0",
+      "id": "marktechpost-1793443094000-2",
       "type": "live",
       "category": "llm",
       "title": "Meet Factory Droid 1.0: A Model-Independent Coding Agent Harness Built on Script Mode",
@@ -48,7 +70,7 @@
       "impact": 77
     },
     {
-      "id": "marktechpost-1793441428000-1",
+      "id": "marktechpost-1793441428000-3",
       "type": "live",
       "category": "research",
       "title": "Vercel Labs Open-Sources agent-desktop for Agent Computer Use",
@@ -68,28 +90,6 @@
       "url": "https://huggingface.co/blog/nvidia/nemotron-halloween",
       "publishedAt": "2026-10-30T17:57:24.000Z",
       "impact": 75
-    },
-    {
-      "id": "marktechpost-1793382817000-2",
-      "type": "live",
-      "category": "research",
-      "title": "Meet TokenEconomizer: Microsoft’s Plugin That Cuts Coding Agent Costs by Up to 30.9%",
-      "excerpt": "Microsoft Research and UC Berkeley released TokenEconomizer, an open-source plugin that learns from past sessions to cut coding agent token costs by 18. 9% on SWE-Bench, with no change to the agent",
-      "source": "MarkTechPost",
-      "url": "https://www.marktechpost.com/2026/10/30/microsoft-tokeneconomizer-coding-agent-cost-control/",
-      "publishedAt": "2026-10-30T17:53:37.000Z",
-      "impact": 77
-    },
-    {
-      "id": "marktechpost-1793381655000-3",
-      "type": "live",
-      "category": "llm",
-      "title": "AI Security Agents Compared: Claude, Codex, Mantis, Cloudflare",
-      "excerpt": "Anthropic, OpenAI, Cloudflare and Google each released an AI agent that hunts security bugs in source code.  All 4 use the same find, disprove, then patch loop",
-      "source": "MarkTechPost",
-      "url": "https://www.marktechpost.com/2026/10/30/ai-security-agents-claude-codex-mantis-cloudflare/",
-      "publishedAt": "2026-10-30T17:34:15.000Z",
-      "impact": 77
     },
     {
       "id": "hugging-face-1793281027000-1",

@@ -1,7 +1,7 @@
 {
-  "lastUpdated": "2026-10-31T21:15:44.257Z",
+  "lastUpdated": "2026-11-01T05:28:45.700Z",
   "source": "AETHER + Public RSS (arXiv, Hugging Face, MarkTechPost, Ben's Bites)",
-  "count": 16,
+  "count": 10,
   "articles": [
     {
       "id": "aether-grok43",
@@ -11,7 +11,7 @@
       "excerpt": "New model demonstrates 4.2× improvement on multi-step software engineering benchmarks and sustains coherent agent trajectories beyond 110k tokens.",
       "source": "xAI",
       "url": "https://x.ai/blog/grok-4.3",
-      "publishedAt": "2026-10-31T16:15:43.672Z",
+      "publishedAt": "2026-11-01T00:28:45.282Z",
       "impact": 96
     },
     {
@@ -22,8 +22,19 @@
       "excerpt": "Humanoid achieves new milestone in unsupervised operation, performing 1,240 unique tasks across three assembly lines at the BMW South Carolina plant.",
       "source": "Figure AI",
       "url": "https://figure.ai/news/03-milestone",
-      "publishedAt": "2026-10-31T12:15:43.672Z",
+      "publishedAt": "2026-10-31T20:28:45.282Z",
       "impact": 89
+    },
+    {
+      "id": "aether-interp",
+      "type": "premium",
+      "category": "safety",
+      "title": "Anthropic publishes unprecedented mechanistic interpretability map of Claude 4",
+      "excerpt": "Researchers reverse-engineered 312 million features inside the model, including the first clear \"deception circuit\" discovered in a frontier model.",
+      "source": "Anthropic",
+      "url": "https://anthropic.com/research/claude-4-interp",
+      "publishedAt": "2026-10-31T15:28:45.282Z",
+      "impact": 91
     },
     {
       "id": "marktechpost-1793443094000-0",
@@ -46,83 +57,6 @@
       "url": "https://www.marktechpost.com/2026/10/31/vercel-labs-agent-desktop-computer-use/",
       "publishedAt": "2026-10-31T10:10:28.000Z",
       "impact": 77
-    },
-    {
-      "id": "aether-interp",
-      "type": "premium",
-      "category": "safety",
-      "title": "Anthropic publishes unprecedented mechanistic interpretability map of Claude 4",
-      "excerpt": "Researchers reverse-engineered 312 million features inside the model, including the first clear \"deception circuit\" discovered in a frontier model.",
-      "source": "Anthropic",
-      "url": "https://anthropic.com/research/claude-4-interp",
-      "publishedAt": "2026-10-31T07:15:43.672Z",
-      "impact": 91
-    },
-    {
-      "id": "arxiv-cs.ai-1793419200000-0",
-      "type": "live",
-      "category": "hardware",
-      "title": "LRMoE: Demand-Side Load Re-Calibration for Efficient MoE Training on Memory-Constrained Nodes",
-      "excerpt": "37720v1 Announce Type: new Abstract: Sparse Mixture-of-Experts (MoE) models offer scalable capacity for Web applications, but uneven routing creates computation and communication bottlenecks.  Existing placement and r...",
-      "source": "arXiv cs.AI",
-      "url": "https://arxiv.org/abs/2610.37720",
-      "publishedAt": "2026-10-31T04:00:00.000Z",
-      "impact": 58
-    },
-    {
-      "id": "arxiv-cs.ai-1793419200000-1",
-      "type": "live",
-      "category": "llm",
-      "title": "Amortized Localized Posterior Inference for Model Calibration with Application to an Ocean Turbulence Closure",
-      "excerpt": "37731v1 Announce Type: new Abstract: Model discrepancy may prevent a single calibration parameter from reproducing a physical response across the context domain.  In addition, uncertainties in observations and context...",
-      "source": "arXiv cs.AI",
-      "url": "https://arxiv.org/abs/2610.37731",
-      "publishedAt": "2026-10-31T04:00:00.000Z",
-      "impact": 58
-    },
-    {
-      "id": "arxiv-cs.ai-1793419200000-2",
-      "type": "live",
-      "category": "llm",
-      "title": "ThinkJev: One Thought, Every Budget for Calibrated Typed Decisions",
-      "excerpt": "37732v1 Announce Type: new Abstract: Many uses of language models end in a typed decision: a choice among a closed set of options, whose probabilities code can act on.  Reading those probabilities from one forward pas...",
-      "source": "arXiv cs.AI",
-      "url": "https://arxiv.org/abs/2610.37732",
-      "publishedAt": "2026-10-31T04:00:00.000Z",
-      "impact": 58
-    },
-    {
-      "id": "arxiv-cs.ai-1793419200000-3",
-      "type": "live",
-      "category": "llm",
-      "title": "OpenFrontiers: A Collection of Open Research Problems and a Benchmark for Scientific Rediscovery",
-      "excerpt": "37739v1 Announce Type: new Abstract: Large language models (LLMs) have shown increasing promise in research-level problem solving, yet a comprehensive collection of such problems is still missing, and evaluating them ...",
-      "source": "arXiv cs.AI",
-      "url": "https://arxiv.org/abs/2610.37739",
-      "publishedAt": "2026-10-31T04:00:00.000Z",
-      "impact": 75
-    },
-    {
-      "id": "arxiv-cs.ai-1793419200000-4",
-      "type": "live",
-      "category": "research",
-      "title": "WebAnything: From the Wild Web to Scalable Agent Environments",
-      "excerpt": "37786v1 Announce Type: new Abstract: Web agents require diverse, executable, and resettable website environments for reproducible training and evaluation.  Human-assisted mirrors demand per-site engineering, while gen...",
-      "source": "arXiv cs.AI",
-      "url": "https://arxiv.org/abs/2610.37786",
-      "publishedAt": "2026-10-31T04:00:00.000Z",
-      "impact": 69
-    },
-    {
-      "id": "arxiv-cs.ai-1793419200000-5",
-      "type": "live",
-      "category": "llm",
-      "title": "What Does an Ontology Catch? Curated, LLM-Generated and Data-Derived Ontologies as Checkers of LLM Agents over Knowledge Graphs",
-      "excerpt": "37809v1 Announce Type: new Abstract: LLM agents that answer questions over Web knowledge graphs are increasingly wrapped in checks derived from the graph's ontology, on the assumption that a formal schema makes a reli...",
-      "source": "arXiv cs.AI",
-      "url": "https://arxiv.org/abs/2610.37809",
-      "publishedAt": "2026-10-31T04:00:00.000Z",
-      "impact": 69
     },
     {
       "id": "hugging-face-1793383044000-0",

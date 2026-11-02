@@ -1,8 +1,74 @@
 {
-  "lastUpdated": "2026-11-01T21:53:32.630Z",
+  "lastUpdated": "2026-11-02T05:27:18.488Z",
   "source": "AETHER + Public RSS (arXiv, Hugging Face, MarkTechPost, Ben's Bites)",
-  "count": 10,
+  "count": 16,
   "articles": [
+    {
+      "id": "arxiv-cs.ai-1793595600000-0",
+      "type": "live",
+      "category": "llm",
+      "title": "More Rules, Longer Lists? Benchmarking Self-Evolving Agents on a Hidden-Rule Curriculum",
+      "excerpt": "40758v1 Announce Type: new Abstract: Self-evolving agents rewrite a persistent state from feedback, but it is largely untested whether this lets them learn a rule nobody told them.  An agent can also pass by writing d...",
+      "source": "arXiv cs.AI",
+      "url": "https://arxiv.org/abs/2610.40758",
+      "publishedAt": "2026-11-02T05:00:00.000Z",
+      "impact": 69
+    },
+    {
+      "id": "arxiv-cs.ai-1793595600000-1",
+      "type": "live",
+      "category": "safety",
+      "title": "Beyond Plausible Prediction: Safety Sufficiency in Web World Models",
+      "excerpt": "40798v1 Announce Type: new Abstract: Web world models increasingly predict the consequences of candidate actions before agents act, yet a plausible predicted future does not necessarily support the correct safety deci...",
+      "source": "arXiv cs.AI",
+      "url": "https://arxiv.org/abs/2610.40798",
+      "publishedAt": "2026-11-02T05:00:00.000Z",
+      "impact": 58
+    },
+    {
+      "id": "arxiv-cs.ai-1793595600000-2",
+      "type": "live",
+      "category": "llm",
+      "title": "Circumventing the Computational Hardness of Computational Arbitrage",
+      "excerpt": "40831v1 Announce Type: new Abstract: AI model marketplaces host providers with heterogeneous costs and capabilities.  These differences create an opportunity for computational arbitrage (Olmedo et al",
+      "source": "arXiv cs.AI",
+      "url": "https://arxiv.org/abs/2610.40831",
+      "publishedAt": "2026-11-02T05:00:00.000Z",
+      "impact": 58
+    },
+    {
+      "id": "arxiv-cs.ai-1793595600000-3",
+      "type": "live",
+      "category": "multimodal",
+      "title": "Incongruence-Aware Evaluation of Multimodal Speech Emotion Recognition in Audio Large Language Models",
+      "excerpt": "40883v1 Announce Type: new Abstract: Voice-interactive large language models process both what a speaker says and how they say it, yet the two channels do not always agree.  We ask whether that disagreement degrades s...",
+      "source": "arXiv cs.AI",
+      "url": "https://arxiv.org/abs/2610.40883",
+      "publishedAt": "2026-11-02T05:00:00.000Z",
+      "impact": 58
+    },
+    {
+      "id": "arxiv-cs.ai-1793595600000-4",
+      "type": "live",
+      "category": "llm",
+      "title": "ChatGPT as a Surveillance Assistant? An Exploratory Case Study of AI-Assisted Surveillance Risks",
+      "excerpt": "40890v1 Announce Type: new Abstract: Large language models (LLMs) can generate detailed guidance, functional code, and persuasive text at scale.  As one of the most widely used consumer language model products as of 2...",
+      "source": "arXiv cs.AI",
+      "url": "https://arxiv.org/abs/2610.40890",
+      "publishedAt": "2026-11-02T05:00:00.000Z",
+      "impact": 58
+    },
+    {
+      "id": "arxiv-cs.ai-1793595600000-5",
+      "type": "live",
+      "category": "llm",
+      "title": "Does Recursive Knowledge Construction Help Agents Verify Consensus Claims in Science?",
+      "excerpt": "40906v1 Announce Type: new Abstract: Recent scientific agents build knowledge recursively by retrieving evidence, constructing an intermediate state, and judging whether that state contains sufficient information.  Th...",
+      "source": "arXiv cs.AI",
+      "url": "https://arxiv.org/abs/2610.40906",
+      "publishedAt": "2026-11-02T05:00:00.000Z",
+      "impact": 69
+    },
     {
       "id": "aether-grok43",
       "type": "premium",
@@ -11,7 +77,7 @@
       "excerpt": "New model demonstrates 4.2× improvement on multi-step software engineering benchmarks and sustains coherent agent trajectories beyond 110k tokens.",
       "source": "xAI",
       "url": "https://x.ai/blog/grok-4.3",
-      "publishedAt": "2026-11-01T16:53:32.291Z",
+      "publishedAt": "2026-11-02T00:27:18.101Z",
       "impact": 96
     },
     {
@@ -22,8 +88,19 @@
       "excerpt": "Humanoid achieves new milestone in unsupervised operation, performing 1,240 unique tasks across three assembly lines at the BMW South Carolina plant.",
       "source": "Figure AI",
       "url": "https://figure.ai/news/03-milestone",
-      "publishedAt": "2026-11-01T12:53:32.291Z",
+      "publishedAt": "2026-11-01T20:27:18.101Z",
       "impact": 89
+    },
+    {
+      "id": "aether-interp",
+      "type": "premium",
+      "category": "safety",
+      "title": "Anthropic publishes unprecedented mechanistic interpretability map of Claude 4",
+      "excerpt": "Researchers reverse-engineered 312 million features inside the model, including the first clear \"deception circuit\" discovered in a frontier model.",
+      "source": "Anthropic",
+      "url": "https://anthropic.com/research/claude-4-interp",
+      "publishedAt": "2026-11-01T15:27:18.101Z",
+      "impact": 91
     },
     {
       "id": "marktechpost-1793520607000-0",
@@ -35,17 +112,6 @@
       "url": "https://www.marktechpost.com/2026/11/01/nace-ai-open-sources-drex-max-v1-local-inference/",
       "publishedAt": "2026-11-01T08:10:07.000Z",
       "impact": 65
-    },
-    {
-      "id": "aether-interp",
-      "type": "premium",
-      "category": "safety",
-      "title": "Anthropic publishes unprecedented mechanistic interpretability map of Claude 4",
-      "excerpt": "Researchers reverse-engineered 312 million features inside the model, including the first clear \"deception circuit\" discovered in a frontier model.",
-      "source": "Anthropic",
-      "url": "https://anthropic.com/research/claude-4-interp",
-      "publishedAt": "2026-11-01T07:53:32.291Z",
-      "impact": 91
     },
     {
       "id": "marktechpost-1793519237000-1",

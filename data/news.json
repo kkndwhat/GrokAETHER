@@ -1,8 +1,52 @@
 {
-  "lastUpdated": "2026-11-02T05:27:18.488Z",
+  "lastUpdated": "2026-11-02T15:20:03.161Z",
   "source": "AETHER + Public RSS (arXiv, Hugging Face, MarkTechPost, Ben's Bites)",
   "count": 16,
   "articles": [
+    {
+      "id": "aether-grok43",
+      "type": "premium",
+      "category": "llm",
+      "title": "xAI releases Grok-4.3 with native long-horizon agent scaffolding",
+      "excerpt": "New model demonstrates 4.2× improvement on multi-step software engineering benchmarks and sustains coherent agent trajectories beyond 110k tokens.",
+      "source": "xAI",
+      "url": "https://x.ai/blog/grok-4.3",
+      "publishedAt": "2026-11-02T10:20:02.743Z",
+      "impact": 96
+    },
+    {
+      "id": "marktechpost-1793605632000-0",
+      "type": "live",
+      "category": "research",
+      "title": "NVIDIA Releases Auto Ontology: An Open Semantic Layer That Grounds AI Agent SQL",
+      "excerpt": "NVIDIA released Auto Ontology, an Apache 2. 0 library that generates a semantic layer from enterprise metadata",
+      "source": "MarkTechPost",
+      "url": "https://www.marktechpost.com/2026/11/01/nvidia-auto-ontology-open-source-semantic-layer-ai-agents/",
+      "publishedAt": "2026-11-02T07:47:12.000Z",
+      "impact": 77
+    },
+    {
+      "id": "marktechpost-1793604509000-1",
+      "type": "live",
+      "category": "hardware",
+      "title": "Meet qwenGPU: Qwen3.5-2B With 45 Compiled GPU Layers That Run CUDA",
+      "excerpt": "qwenGPU compiles a 4-lane SIMT GPU into Qwen3. 5-2B as 45 untrained layers",
+      "source": "MarkTechPost",
+      "url": "https://www.marktechpost.com/2026/11/01/qwengpu-simt-gpu-compiled-into-qwen3-5-2b-weights-runs-cuda/",
+      "publishedAt": "2026-11-02T07:28:29.000Z",
+      "impact": 65
+    },
+    {
+      "id": "aether-figure03",
+      "type": "premium",
+      "category": "robotics",
+      "title": "Figure 03 completes 43-hour autonomous factory shift with zero interventions",
+      "excerpt": "Humanoid achieves new milestone in unsupervised operation, performing 1,240 unique tasks across three assembly lines at the BMW South Carolina plant.",
+      "source": "Figure AI",
+      "url": "https://figure.ai/news/03-milestone",
+      "publishedAt": "2026-11-02T06:20:02.744Z",
+      "impact": 89
+    },
     {
       "id": "arxiv-cs.ai-1793595600000-0",
       "type": "live",
@@ -70,28 +114,6 @@
       "impact": 69
     },
     {
-      "id": "aether-grok43",
-      "type": "premium",
-      "category": "llm",
-      "title": "xAI releases Grok-4.3 with native long-horizon agent scaffolding",
-      "excerpt": "New model demonstrates 4.2× improvement on multi-step software engineering benchmarks and sustains coherent agent trajectories beyond 110k tokens.",
-      "source": "xAI",
-      "url": "https://x.ai/blog/grok-4.3",
-      "publishedAt": "2026-11-02T00:27:18.101Z",
-      "impact": 96
-    },
-    {
-      "id": "aether-figure03",
-      "type": "premium",
-      "category": "robotics",
-      "title": "Figure 03 completes 43-hour autonomous factory shift with zero interventions",
-      "excerpt": "Humanoid achieves new milestone in unsupervised operation, performing 1,240 unique tasks across three assembly lines at the BMW South Carolina plant.",
-      "source": "Figure AI",
-      "url": "https://figure.ai/news/03-milestone",
-      "publishedAt": "2026-11-01T20:27:18.101Z",
-      "impact": 89
-    },
-    {
       "id": "aether-interp",
       "type": "premium",
       "category": "safety",
@@ -99,11 +121,11 @@
       "excerpt": "Researchers reverse-engineered 312 million features inside the model, including the first clear \"deception circuit\" discovered in a frontier model.",
       "source": "Anthropic",
       "url": "https://anthropic.com/research/claude-4-interp",
-      "publishedAt": "2026-11-01T15:27:18.101Z",
+      "publishedAt": "2026-11-02T01:20:02.744Z",
       "impact": 91
     },
     {
-      "id": "marktechpost-1793520607000-0",
+      "id": "marktechpost-1793520607000-2",
       "type": "live",
       "category": "multimodal",
       "title": "Nace AI Open-Sources Drex Max v1: A 27B Decision Model That Runs Locally on Apple Silicon",
@@ -114,7 +136,7 @@
       "impact": 65
     },
     {
-      "id": "marktechpost-1793519237000-1",
+      "id": "marktechpost-1793519237000-3",
       "type": "live",
       "category": "llm",
       "title": "DeepSeek Open-Sources dsh-superagent, a Router-Worker Coding Agent",
@@ -122,28 +144,6 @@
       "source": "MarkTechPost",
       "url": "https://www.marktechpost.com/2026/11/01/deepseek-dsh-superagent-router-worker-coding-agent/",
       "publishedAt": "2026-11-01T07:47:17.000Z",
-      "impact": 77
-    },
-    {
-      "id": "marktechpost-1793443094000-2",
-      "type": "live",
-      "category": "llm",
-      "title": "Meet Factory Droid 1.0: A Model-Independent Coding Agent Harness Built on Script Mode",
-      "excerpt": "Factory released Droid 1. 0, a model-independent coding agent harness that makes programmatic tool calling the default",
-      "source": "MarkTechPost",
-      "url": "https://www.marktechpost.com/2026/10/31/factory-droid-1-0-frontier-harness/",
-      "publishedAt": "2026-10-31T10:38:14.000Z",
-      "impact": 77
-    },
-    {
-      "id": "marktechpost-1793441428000-3",
-      "type": "live",
-      "category": "research",
-      "title": "Vercel Labs Open-Sources agent-desktop for Agent Computer Use",
-      "excerpt": "Vercel Labs released agent-desktop, an Apache-2. 0 Rust CLI that gives any AI agent computer use on macOS, Windows and Linux by reading OS accessibility trees and acting on stable refs instead of pixels",
-      "source": "MarkTechPost",
-      "url": "https://www.marktechpost.com/2026/10/31/vercel-labs-agent-desktop-computer-use/",
-      "publishedAt": "2026-10-31T10:10:28.000Z",
       "impact": 77
     },
     {

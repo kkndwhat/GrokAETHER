@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-11-03T00:48:31.232Z",
+  "lastUpdated": "2026-11-03T13:55:51.831Z",
   "source": "AETHER + Public RSS (arXiv, Hugging Face, MarkTechPost, Ben's Bites)",
   "count": 16,
   "articles": [
@@ -11,11 +11,143 @@
       "excerpt": "New model demonstrates 4.2× improvement on multi-step software engineering benchmarks and sustains coherent agent trajectories beyond 110k tokens.",
       "source": "xAI",
       "url": "https://x.ai/blog/grok-4.3",
-      "publishedAt": "2026-11-02T19:48:30.834Z",
+      "publishedAt": "2026-11-03T08:55:51.451Z",
       "impact": 96
     },
     {
-      "id": "marktechpost-1793644901000-0",
+      "id": "marktechpost-1793685066000-0",
+      "type": "live",
+      "category": "research",
+      "title": "OpenAI Introduces Pando: A Git Backend That Cuts Median Push Latency ~80%",
+      "excerpt": "OpenAI built Pando, a Git-compatible backend for its monorepo.  It handles branches independently, reuses stored packfiles across fetches, cut median push latency by nearly 80%, and now delivers nearly a petabyte of G...",
+      "source": "MarkTechPost",
+      "url": "https://www.marktechpost.com/2026/11/02/openai-pando-git-backend-monorepo/",
+      "publishedAt": "2026-11-03T05:51:06.000Z",
+      "impact": 65
+    },
+    {
+      "id": "arxiv-cs.ai-1793682000000-0",
+      "type": "live",
+      "category": "multimodal",
+      "title": "A Generalized Sparse Fuzzy Clustering Framework with Automated Cluster Cardinality Estimation Ability",
+      "excerpt": "00159v1 Announce Type: new Abstract: Fuzzy clustering provides a robust framework for handling ambiguous and overlapping data boundaries, yet its traditional formulation generates entirely dense membership assignments...",
+      "source": "arXiv cs.AI",
+      "url": "https://arxiv.org/abs/2611.00159",
+      "publishedAt": "2026-11-03T05:00:00.000Z",
+      "impact": 58
+    },
+    {
+      "id": "arxiv-cs.ai-1793682000000-1",
+      "type": "live",
+      "category": "research",
+      "title": "Learning to bid and bundle: a posterior-sampling agent for online retail",
+      "excerpt": "00165v1 Announce Type: new Abstract: An online retailer launching a perishable product bids for sponsored-search clicks, discounts a bundle with an always-stocked staple and displays its remaining stock, which raises ...",
+      "source": "arXiv cs.AI",
+      "url": "https://arxiv.org/abs/2611.00165",
+      "publishedAt": "2026-11-03T05:00:00.000Z",
+      "impact": 69
+    },
+    {
+      "id": "arxiv-cs.ai-1793682000000-2",
+      "type": "live",
+      "category": "llm",
+      "title": "Early Stopping in Large Reasoning Models: A Survey and Empirical Audit of Efficiency and Reliability",
+      "excerpt": "00166v1 Announce Type: new Abstract: Large reasoning models can improve accuracy by generating longer reasoning traces, but some of this computation may be unnecessary.  Early-stopping methods aim to stop once enough ...",
+      "source": "arXiv cs.AI",
+      "url": "https://arxiv.org/abs/2611.00166",
+      "publishedAt": "2026-11-03T05:00:00.000Z",
+      "impact": 58
+    },
+    {
+      "id": "arxiv-cs.ai-1793682000000-3",
+      "type": "live",
+      "category": "llm",
+      "title": "PatchScout: Thematic Web Data Collection via Information Foraging",
+      "excerpt": "00169v1 Announce Type: new Abstract: Researchers often need web corpora that are not answers to a single query, but reusable collections of documents spanning many decentralized sources.  We refer to this problem as t...",
+      "source": "arXiv cs.AI",
+      "url": "https://arxiv.org/abs/2611.00169",
+      "publishedAt": "2026-11-03T05:00:00.000Z",
+      "impact": 58
+    },
+    {
+      "id": "arxiv-cs.ai-1793682000000-4",
+      "type": "live",
+      "category": "multimodal",
+      "title": "Reimagining Text-to-SQL: A Survey of Large Language Model Architectures and Strategies",
+      "excerpt": "00171v1 Announce Type: new Abstract: Text-to-SQL systems translate natural language questions into executable SQL queries, democratizing access to relational data.  Early approaches relied on handcrafted rules and tem...",
+      "source": "arXiv cs.AI",
+      "url": "https://arxiv.org/abs/2611.00171",
+      "publishedAt": "2026-11-03T05:00:00.000Z",
+      "impact": 58
+    },
+    {
+      "id": "arxiv-cs.ai-1793682000000-5",
+      "type": "live",
+      "category": "robotics",
+      "title": "AuroraWorld: Structured 4D World Modeling for Exo-to-Ego Video Generation in Robot Manipulation",
+      "excerpt": "00177v1 Announce Type: new Abstract: Egocentric observations provide a robot-centric view of manipulation processes, capturing contact interactions and object-state changes that are important for visuomotor policy lea...",
+      "source": "arXiv cs.AI",
+      "url": "https://arxiv.org/abs/2611.00177",
+      "publishedAt": "2026-11-03T05:00:00.000Z",
+      "impact": 58
+    },
+    {
+      "id": "aether-figure03",
+      "type": "premium",
+      "category": "robotics",
+      "title": "Figure 03 completes 43-hour autonomous factory shift with zero interventions",
+      "excerpt": "Humanoid achieves new milestone in unsupervised operation, performing 1,240 unique tasks across three assembly lines at the BMW South Carolina plant.",
+      "source": "Figure AI",
+      "url": "https://figure.ai/news/03-milestone",
+      "publishedAt": "2026-11-03T04:55:51.451Z",
+      "impact": 89
+    },
+    {
+      "id": "marktechpost-1793668189000-1",
+      "type": "live",
+      "category": "llm",
+      "title": "Zyphra AI Introduces Zyphra Hierarchical Attention (ZHA): A Path to True Subquadratic Attention",
+      "excerpt": "Zyphra Hierarchical Attention (ZHA) is a tree-indexed sparse attention method that retrofits frozen LLMs with 4B tokens of distillation, matching dense attention on reasoning and 256K retrieval benchmarks.  The post Z...",
+      "source": "MarkTechPost",
+      "url": "https://www.marktechpost.com/2026/11/02/zyphra-hierarchical-attention-zha-sparse-attention/",
+      "publishedAt": "2026-11-03T01:09:49.000Z",
+      "impact": 65
+    },
+    {
+      "id": "marktechpost-1793666583000-2",
+      "type": "live",
+      "category": "research",
+      "title": "The Letter Company Releases Letterpress-1: A Coding Agent Built for Growth Engineering",
+      "excerpt": "Letter has released the beta of Letterpress-1, a coding agent, harness and IDE for growth engineering.  It reads a git-based site and its market, then opens pull requests for SEO, GEO and conversion work",
+      "source": "MarkTechPost",
+      "url": "https://www.marktechpost.com/2026/11/02/letter-letterpress-1-growth-engineering-coding-agent/",
+      "publishedAt": "2026-11-03T00:43:03.000Z",
+      "impact": 77
+    },
+    {
+      "id": "hugging-face-1793664000000-0",
+      "type": "live",
+      "category": "llm",
+      "title": "Transformers Model Integration Contracts",
+      "excerpt": "New development from the frontier.",
+      "source": "Hugging Face",
+      "url": "https://huggingface.co/blog/transformers-mic",
+      "publishedAt": "2026-11-03T00:00:00.000Z",
+      "impact": 75
+    },
+    {
+      "id": "aether-interp",
+      "type": "premium",
+      "category": "safety",
+      "title": "Anthropic publishes unprecedented mechanistic interpretability map of Claude 4",
+      "excerpt": "Researchers reverse-engineered 312 million features inside the model, including the first clear \"deception circuit\" discovered in a frontier model.",
+      "source": "Anthropic",
+      "url": "https://anthropic.com/research/claude-4-interp",
+      "publishedAt": "2026-11-02T23:55:51.451Z",
+      "impact": 91
+    },
+    {
+      "id": "marktechpost-1793644901000-3",
       "type": "live",
       "category": "llm",
       "title": "Deep Principle Releases Hydrogen-1.0: A 753B Open-Weight Model for Scientific Discovery",
@@ -26,128 +158,7 @@
       "impact": 65
     },
     {
-      "id": "aether-figure03",
-      "type": "premium",
-      "category": "robotics",
-      "title": "Figure 03 completes 43-hour autonomous factory shift with zero interventions",
-      "excerpt": "Humanoid achieves new milestone in unsupervised operation, performing 1,240 unique tasks across three assembly lines at the BMW South Carolina plant.",
-      "source": "Figure AI",
-      "url": "https://figure.ai/news/03-milestone",
-      "publishedAt": "2026-11-02T15:48:30.834Z",
-      "impact": 89
-    },
-    {
-      "id": "aether-interp",
-      "type": "premium",
-      "category": "safety",
-      "title": "Anthropic publishes unprecedented mechanistic interpretability map of Claude 4",
-      "excerpt": "Researchers reverse-engineered 312 million features inside the model, including the first clear \"deception circuit\" discovered in a frontier model.",
-      "source": "Anthropic",
-      "url": "https://anthropic.com/research/claude-4-interp",
-      "publishedAt": "2026-11-02T10:48:30.834Z",
-      "impact": 91
-    },
-    {
-      "id": "marktechpost-1793605632000-1",
-      "type": "live",
-      "category": "research",
-      "title": "NVIDIA Releases Auto Ontology: An Open Semantic Layer That Grounds AI Agent SQL",
-      "excerpt": "NVIDIA released Auto Ontology, an Apache 2. 0 library that generates a semantic layer from enterprise metadata",
-      "source": "MarkTechPost",
-      "url": "https://www.marktechpost.com/2026/11/01/nvidia-auto-ontology-open-source-semantic-layer-ai-agents/",
-      "publishedAt": "2026-11-02T07:47:12.000Z",
-      "impact": 77
-    },
-    {
-      "id": "marktechpost-1793604509000-2",
-      "type": "live",
-      "category": "hardware",
-      "title": "Meet qwenGPU: Qwen3.5-2B With 45 Compiled GPU Layers That Run CUDA",
-      "excerpt": "qwenGPU compiles a 4-lane SIMT GPU into Qwen3. 5-2B as 45 untrained layers",
-      "source": "MarkTechPost",
-      "url": "https://www.marktechpost.com/2026/11/01/qwengpu-simt-gpu-compiled-into-qwen3-5-2b-weights-runs-cuda/",
-      "publishedAt": "2026-11-02T07:28:29.000Z",
-      "impact": 65
-    },
-    {
-      "id": "arxiv-cs.ai-1793595600000-0",
-      "type": "live",
-      "category": "llm",
-      "title": "More Rules, Longer Lists? Benchmarking Self-Evolving Agents on a Hidden-Rule Curriculum",
-      "excerpt": "40758v1 Announce Type: new Abstract: Self-evolving agents rewrite a persistent state from feedback, but it is largely untested whether this lets them learn a rule nobody told them.  An agent can also pass by writing d...",
-      "source": "arXiv cs.AI",
-      "url": "https://arxiv.org/abs/2610.40758",
-      "publishedAt": "2026-11-02T05:00:00.000Z",
-      "impact": 69
-    },
-    {
-      "id": "arxiv-cs.ai-1793595600000-1",
-      "type": "live",
-      "category": "safety",
-      "title": "Beyond Plausible Prediction: Safety Sufficiency in Web World Models",
-      "excerpt": "40798v1 Announce Type: new Abstract: Web world models increasingly predict the consequences of candidate actions before agents act, yet a plausible predicted future does not necessarily support the correct safety deci...",
-      "source": "arXiv cs.AI",
-      "url": "https://arxiv.org/abs/2610.40798",
-      "publishedAt": "2026-11-02T05:00:00.000Z",
-      "impact": 58
-    },
-    {
-      "id": "arxiv-cs.ai-1793595600000-2",
-      "type": "live",
-      "category": "llm",
-      "title": "Circumventing the Computational Hardness of Computational Arbitrage",
-      "excerpt": "40831v1 Announce Type: new Abstract: AI model marketplaces host providers with heterogeneous costs and capabilities.  These differences create an opportunity for computational arbitrage (Olmedo et al",
-      "source": "arXiv cs.AI",
-      "url": "https://arxiv.org/abs/2610.40831",
-      "publishedAt": "2026-11-02T05:00:00.000Z",
-      "impact": 58
-    },
-    {
-      "id": "arxiv-cs.ai-1793595600000-3",
-      "type": "live",
-      "category": "multimodal",
-      "title": "Incongruence-Aware Evaluation of Multimodal Speech Emotion Recognition in Audio Large Language Models",
-      "excerpt": "40883v1 Announce Type: new Abstract: Voice-interactive large language models process both what a speaker says and how they say it, yet the two channels do not always agree.  We ask whether that disagreement degrades s...",
-      "source": "arXiv cs.AI",
-      "url": "https://arxiv.org/abs/2610.40883",
-      "publishedAt": "2026-11-02T05:00:00.000Z",
-      "impact": 58
-    },
-    {
-      "id": "arxiv-cs.ai-1793595600000-4",
-      "type": "live",
-      "category": "llm",
-      "title": "ChatGPT as a Surveillance Assistant? An Exploratory Case Study of AI-Assisted Surveillance Risks",
-      "excerpt": "40890v1 Announce Type: new Abstract: Large language models (LLMs) can generate detailed guidance, functional code, and persuasive text at scale.  As one of the most widely used consumer language model products as of 2...",
-      "source": "arXiv cs.AI",
-      "url": "https://arxiv.org/abs/2610.40890",
-      "publishedAt": "2026-11-02T05:00:00.000Z",
-      "impact": 58
-    },
-    {
-      "id": "arxiv-cs.ai-1793595600000-5",
-      "type": "live",
-      "category": "llm",
-      "title": "Does Recursive Knowledge Construction Help Agents Verify Consensus Claims in Science?",
-      "excerpt": "40906v1 Announce Type: new Abstract: Recent scientific agents build knowledge recursively by retrieving evidence, constructing an intermediate state, and judging whether that state contains sufficient information.  Th...",
-      "source": "arXiv cs.AI",
-      "url": "https://arxiv.org/abs/2610.40906",
-      "publishedAt": "2026-11-02T05:00:00.000Z",
-      "impact": 69
-    },
-    {
-      "id": "marktechpost-1793520607000-3",
-      "type": "live",
-      "category": "multimodal",
-      "title": "Nace AI Open-Sources Drex Max v1: A 27B Decision Model That Runs Locally on Apple Silicon",
-      "excerpt": "Nace AI open-sources Drex Max v1, a 27B multimodal decision model scoring 67. 52 that runs on Apple Silicon",
-      "source": "MarkTechPost",
-      "url": "https://www.marktechpost.com/2026/11/01/nace-ai-open-sources-drex-max-v1-local-inference/",
-      "publishedAt": "2026-11-01T08:10:07.000Z",
-      "impact": 65
-    },
-    {
-      "id": "hugging-face-1793383044000-0",
+      "id": "hugging-face-1793383044000-1",
       "type": "live",
       "category": "research",
       "title": "nemotron-halloween",
@@ -158,7 +169,7 @@
       "impact": 75
     },
     {
-      "id": "hugging-face-1793281027000-1",
+      "id": "hugging-face-1793281027000-2",
       "type": "live",
       "category": "llm",
       "title": "Granite Switch 4.1.1 — Update models like you update software",
@@ -166,17 +177,6 @@
       "source": "Hugging Face",
       "url": "https://huggingface.co/blog/ibm-granite/granite-switch-4-1-1",
       "publishedAt": "2026-10-29T13:37:07.000Z",
-      "impact": 75
-    },
-    {
-      "id": "hugging-face-1793232000000-2",
-      "type": "live",
-      "category": "research",
-      "title": "Announcing Project ProtoStar: Making Publicly Funded Science AI-Ready",
-      "excerpt": "New development from the frontier.",
-      "source": "Hugging Face",
-      "url": "https://huggingface.co/blog/announcing-project-protostar",
-      "publishedAt": "2026-10-29T00:00:00.000Z",
       "impact": 75
     }
   ]

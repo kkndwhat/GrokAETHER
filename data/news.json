@@ -1,10 +1,120 @@
 {
-  "lastUpdated": "2026-11-03T23:03:59.881Z",
+  "lastUpdated": "2026-11-04T14:08:36.229Z",
   "source": "AETHER + Public RSS (arXiv, Hugging Face, MarkTechPost, Ben's Bites)",
   "count": 16,
   "articles": [
     {
-      "id": "marktechpost-1793743702000-0",
+      "id": "aether-grok43",
+      "type": "premium",
+      "category": "llm",
+      "title": "xAI releases Grok-4.3 with native long-horizon agent scaffolding",
+      "excerpt": "New model demonstrates 4.2× improvement on multi-step software engineering benchmarks and sustains coherent agent trajectories beyond 110k tokens.",
+      "source": "xAI",
+      "url": "https://x.ai/blog/grok-4.3",
+      "publishedAt": "2026-11-04T09:08:35.175Z",
+      "impact": 96
+    },
+    {
+      "id": "aether-figure03",
+      "type": "premium",
+      "category": "robotics",
+      "title": "Figure 03 completes 43-hour autonomous factory shift with zero interventions",
+      "excerpt": "Humanoid achieves new milestone in unsupervised operation, performing 1,240 unique tasks across three assembly lines at the BMW South Carolina plant.",
+      "source": "Figure AI",
+      "url": "https://figure.ai/news/03-milestone",
+      "publishedAt": "2026-11-04T05:08:35.175Z",
+      "impact": 89
+    },
+    {
+      "id": "arxiv-cs.ai-1793768400000-0",
+      "type": "live",
+      "category": "safety",
+      "title": "Alignment Faking Depends on the Value, Not Just the Model",
+      "excerpt": "03650v1 Announce Type: new Abstract: Language models can follow a directive when they believe they are monitored and abandon it when they believe they are not, a pattern termed Alignment Faking.  Prior work establishe...",
+      "source": "arXiv cs.AI",
+      "url": "https://arxiv.org/abs/2611.03650",
+      "publishedAt": "2026-11-04T05:00:00.000Z",
+      "impact": 58
+    },
+    {
+      "id": "arxiv-cs.ai-1793768400000-1",
+      "type": "live",
+      "category": "robotics",
+      "title": "CARD: A Proof-Carrying Certificate-to-Action Interface for Relative-Measurement Graphs",
+      "excerpt": "03651v1 Announce Type: new Abstract: Geometric certificates make mathematical claims about specified estimator objects, while robotic action requires a physical transform, a service decision, and timely proof support....",
+      "source": "arXiv cs.AI",
+      "url": "https://arxiv.org/abs/2611.03651",
+      "publishedAt": "2026-11-04T05:00:00.000Z",
+      "impact": 58
+    },
+    {
+      "id": "arxiv-cs.ai-1793768400000-2",
+      "type": "live",
+      "category": "llm",
+      "title": "MCPGuard: Finding Conformance Gaps in MCP SDKs via Dual-Track Analysis and Dynamic Adjudication",
+      "excerpt": "03662v1 Announce Type: new Abstract: The Model Context Protocol (MCP) connects large language model agents to external tools and services through official SDKs that implement message validation and session logic.  Spe...",
+      "source": "arXiv cs.AI",
+      "url": "https://arxiv.org/abs/2611.03662",
+      "publishedAt": "2026-11-04T05:00:00.000Z",
+      "impact": 58
+    },
+    {
+      "id": "arxiv-cs.ai-1793768400000-3",
+      "type": "live",
+      "category": "safety",
+      "title": "Functional-Group Knowledge Is Structured in Language Models Before It Is Spoken",
+      "excerpt": "03684v1 Announce Type: new Abstract: Language models serve as the reasoning core of agents for chemistry and materials science, where they must interpret molecular structure before planning syntheses or proposing mate...",
+      "source": "arXiv cs.AI",
+      "url": "https://arxiv.org/abs/2611.03684",
+      "publishedAt": "2026-11-04T05:00:00.000Z",
+      "impact": 58
+    },
+    {
+      "id": "arxiv-cs.ai-1793768400000-4",
+      "type": "live",
+      "category": "llm",
+      "title": "LOLPlay: Benchmarking Real-Time Visual Agents in League of Legends",
+      "excerpt": "03685v1 Announce Type: new Abstract: Visual agents need to coordinate reasoning and action while their environment evolves during inference.  We introduce LOLPlay, a benchmark in native \\emph{League of Legends} with 3...",
+      "source": "arXiv cs.AI",
+      "url": "https://arxiv.org/abs/2611.03685",
+      "publishedAt": "2026-11-04T05:00:00.000Z",
+      "impact": 69
+    },
+    {
+      "id": "arxiv-cs.ai-1793768400000-5",
+      "type": "live",
+      "category": "llm",
+      "title": "Training LLM Agents to Automate LLM Post-Training with RSI-Dojo",
+      "excerpt": "03698v1 Announce Type: new Abstract: Recursive Self-Improvement (RSI) aims to enable AI systems to autonomously build and improve AI systems themselves, including models, harnesses, and underlying infrastructure.  Wit...",
+      "source": "arXiv cs.AI",
+      "url": "https://arxiv.org/abs/2611.03698",
+      "publishedAt": "2026-11-04T05:00:00.000Z",
+      "impact": 69
+    },
+    {
+      "id": "marktechpost-1793767167000-0",
+      "type": "live",
+      "category": "multimodal",
+      "title": "Tencent WeVisOne-VL Unifies Detection, OCR, Segmentation and Matting",
+      "excerpt": "Tencent’s WeChat Vision team released WeVisOne-VL, an Apache 2. 0 vision language model in 2B and 4B sizes",
+      "source": "MarkTechPost",
+      "url": "https://www.marktechpost.com/2026/11/03/tencent-wevisone-vl-vision-language-model/",
+      "publishedAt": "2026-11-04T04:39:27.000Z",
+      "impact": 65
+    },
+    {
+      "id": "aether-interp",
+      "type": "premium",
+      "category": "safety",
+      "title": "Anthropic publishes unprecedented mechanistic interpretability map of Claude 4",
+      "excerpt": "Researchers reverse-engineered 312 million features inside the model, including the first clear \"deception circuit\" discovered in a frontier model.",
+      "source": "Anthropic",
+      "url": "https://anthropic.com/research/claude-4-interp",
+      "publishedAt": "2026-11-04T00:08:35.175Z",
+      "impact": 91
+    },
+    {
+      "id": "marktechpost-1793743702000-1",
       "type": "live",
       "category": "llm",
       "title": "Anthropic Releases FlashProve: Cryptographic Proofs That a Reply Came From Committed Weights",
@@ -15,7 +125,7 @@
       "impact": 65
     },
     {
-      "id": "marktechpost-1793737702000-1",
+      "id": "marktechpost-1793737702000-2",
       "type": "live",
       "category": "research",
       "title": "NVIDIA Shows 3 Ways to Speed Up MoE Inference on DGX Spark, Lifting Ling-3.0-flash Throughput 42.5%",
@@ -26,7 +136,7 @@
       "impact": 65
     },
     {
-      "id": "marktechpost-1793737102000-2",
+      "id": "marktechpost-1793737102000-3",
       "type": "live",
       "category": "llm",
       "title": "Soniox STT v6 Adds Agent Text Input and Echo Filtering for Voice Agents",
@@ -35,17 +145,6 @@
       "url": "https://www.marktechpost.com/2026/11/03/soniox-stt-v6-agent-text-input-echo-cancellation/",
       "publishedAt": "2026-11-03T20:18:22.000Z",
       "impact": 77
-    },
-    {
-      "id": "aether-grok43",
-      "type": "premium",
-      "category": "llm",
-      "title": "xAI releases Grok-4.3 with native long-horizon agent scaffolding",
-      "excerpt": "New model demonstrates 4.2× improvement on multi-step software engineering benchmarks and sustains coherent agent trajectories beyond 110k tokens.",
-      "source": "xAI",
-      "url": "https://x.ai/blog/grok-4.3",
-      "publishedAt": "2026-11-03T18:03:59.409Z",
-      "impact": 96
     },
     {
       "id": "hugging-face-1793726121000-0",
@@ -68,105 +167,6 @@
       "url": "https://huggingface.co/blog/ibm-research/palette-deck-building",
       "publishedAt": "2026-11-03T16:35:36.000Z",
       "impact": 75
-    },
-    {
-      "id": "aether-figure03",
-      "type": "premium",
-      "category": "robotics",
-      "title": "Figure 03 completes 43-hour autonomous factory shift with zero interventions",
-      "excerpt": "Humanoid achieves new milestone in unsupervised operation, performing 1,240 unique tasks across three assembly lines at the BMW South Carolina plant.",
-      "source": "Figure AI",
-      "url": "https://figure.ai/news/03-milestone",
-      "publishedAt": "2026-11-03T14:03:59.409Z",
-      "impact": 89
-    },
-    {
-      "id": "aether-interp",
-      "type": "premium",
-      "category": "safety",
-      "title": "Anthropic publishes unprecedented mechanistic interpretability map of Claude 4",
-      "excerpt": "Researchers reverse-engineered 312 million features inside the model, including the first clear \"deception circuit\" discovered in a frontier model.",
-      "source": "Anthropic",
-      "url": "https://anthropic.com/research/claude-4-interp",
-      "publishedAt": "2026-11-03T09:03:59.409Z",
-      "impact": 91
-    },
-    {
-      "id": "marktechpost-1793685066000-3",
-      "type": "live",
-      "category": "research",
-      "title": "OpenAI Introduces Pando: A Git Backend That Cuts Median Push Latency ~80%",
-      "excerpt": "OpenAI built Pando, a Git-compatible backend for its monorepo.  It handles branches independently, reuses stored packfiles across fetches, cut median push latency by nearly 80%, and now delivers nearly a petabyte of G...",
-      "source": "MarkTechPost",
-      "url": "https://www.marktechpost.com/2026/11/02/openai-pando-git-backend-monorepo/",
-      "publishedAt": "2026-11-03T05:51:06.000Z",
-      "impact": 65
-    },
-    {
-      "id": "arxiv-cs.ai-1793682000000-0",
-      "type": "live",
-      "category": "multimodal",
-      "title": "A Generalized Sparse Fuzzy Clustering Framework with Automated Cluster Cardinality Estimation Ability",
-      "excerpt": "00159v1 Announce Type: new Abstract: Fuzzy clustering provides a robust framework for handling ambiguous and overlapping data boundaries, yet its traditional formulation generates entirely dense membership assignments...",
-      "source": "arXiv cs.AI",
-      "url": "https://arxiv.org/abs/2611.00159",
-      "publishedAt": "2026-11-03T05:00:00.000Z",
-      "impact": 58
-    },
-    {
-      "id": "arxiv-cs.ai-1793682000000-1",
-      "type": "live",
-      "category": "research",
-      "title": "Learning to bid and bundle: a posterior-sampling agent for online retail",
-      "excerpt": "00165v1 Announce Type: new Abstract: An online retailer launching a perishable product bids for sponsored-search clicks, discounts a bundle with an always-stocked staple and displays its remaining stock, which raises ...",
-      "source": "arXiv cs.AI",
-      "url": "https://arxiv.org/abs/2611.00165",
-      "publishedAt": "2026-11-03T05:00:00.000Z",
-      "impact": 69
-    },
-    {
-      "id": "arxiv-cs.ai-1793682000000-2",
-      "type": "live",
-      "category": "llm",
-      "title": "Early Stopping in Large Reasoning Models: A Survey and Empirical Audit of Efficiency and Reliability",
-      "excerpt": "00166v1 Announce Type: new Abstract: Large reasoning models can improve accuracy by generating longer reasoning traces, but some of this computation may be unnecessary.  Early-stopping methods aim to stop once enough ...",
-      "source": "arXiv cs.AI",
-      "url": "https://arxiv.org/abs/2611.00166",
-      "publishedAt": "2026-11-03T05:00:00.000Z",
-      "impact": 58
-    },
-    {
-      "id": "arxiv-cs.ai-1793682000000-3",
-      "type": "live",
-      "category": "llm",
-      "title": "PatchScout: Thematic Web Data Collection via Information Foraging",
-      "excerpt": "00169v1 Announce Type: new Abstract: Researchers often need web corpora that are not answers to a single query, but reusable collections of documents spanning many decentralized sources.  We refer to this problem as t...",
-      "source": "arXiv cs.AI",
-      "url": "https://arxiv.org/abs/2611.00169",
-      "publishedAt": "2026-11-03T05:00:00.000Z",
-      "impact": 58
-    },
-    {
-      "id": "arxiv-cs.ai-1793682000000-4",
-      "type": "live",
-      "category": "multimodal",
-      "title": "Reimagining Text-to-SQL: A Survey of Large Language Model Architectures and Strategies",
-      "excerpt": "00171v1 Announce Type: new Abstract: Text-to-SQL systems translate natural language questions into executable SQL queries, democratizing access to relational data.  Early approaches relied on handcrafted rules and tem...",
-      "source": "arXiv cs.AI",
-      "url": "https://arxiv.org/abs/2611.00171",
-      "publishedAt": "2026-11-03T05:00:00.000Z",
-      "impact": 58
-    },
-    {
-      "id": "arxiv-cs.ai-1793682000000-5",
-      "type": "live",
-      "category": "robotics",
-      "title": "AuroraWorld: Structured 4D World Modeling for Exo-to-Ego Video Generation in Robot Manipulation",
-      "excerpt": "00177v1 Announce Type: new Abstract: Egocentric observations provide a robot-centric view of manipulation processes, capturing contact interactions and object-state changes that are important for visuomotor policy lea...",
-      "source": "arXiv cs.AI",
-      "url": "https://arxiv.org/abs/2611.00177",
-      "publishedAt": "2026-11-03T05:00:00.000Z",
-      "impact": 58
     },
     {
       "id": "hugging-face-1793664000000-2",

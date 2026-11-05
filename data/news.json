@@ -1,8 +1,85 @@
 {
-  "lastUpdated": "2026-11-05T06:03:00.186Z",
+  "lastUpdated": "2026-11-05T19:45:34.207Z",
   "source": "AETHER + Public RSS (arXiv, Hugging Face, MarkTechPost, Ben's Bites)",
   "count": 16,
   "articles": [
+    {
+      "id": "hugging-face-1793907316000-0",
+      "type": "live",
+      "category": "llm",
+      "title": "New NVIDIA Cosmos 3 Open Models for Interactive World Simulation",
+      "excerpt": "New development from the frontier.",
+      "source": "Hugging Face",
+      "url": "https://huggingface.co/blog/nvidia/cosmos-interactive-world-simulation",
+      "publishedAt": "2026-11-05T19:35:16.000Z",
+      "impact": 75
+    },
+    {
+      "id": "aether-grok43",
+      "type": "premium",
+      "category": "llm",
+      "title": "xAI releases Grok-4.3 with native long-horizon agent scaffolding",
+      "excerpt": "New model demonstrates 4.2× improvement on multi-step software engineering benchmarks and sustains coherent agent trajectories beyond 110k tokens.",
+      "source": "xAI",
+      "url": "https://x.ai/blog/grok-4.3",
+      "publishedAt": "2026-11-05T14:45:33.775Z",
+      "impact": 96
+    },
+    {
+      "id": "aether-figure03",
+      "type": "premium",
+      "category": "robotics",
+      "title": "Figure 03 completes 43-hour autonomous factory shift with zero interventions",
+      "excerpt": "Humanoid achieves new milestone in unsupervised operation, performing 1,240 unique tasks across three assembly lines at the BMW South Carolina plant.",
+      "source": "Figure AI",
+      "url": "https://figure.ai/news/03-milestone",
+      "publishedAt": "2026-11-05T10:45:33.775Z",
+      "impact": 89
+    },
+    {
+      "id": "marktechpost-1793865778000-0",
+      "type": "live",
+      "category": "llm",
+      "title": "Together AI Releases Together Compiler: Agents Make Inference Up to 2.6x Faster",
+      "excerpt": "Together AI released Together Compiler, an agent-driven loop that keeps re-optimizing the inference forward pass as traffic shifts.  It beat the best InferenceX configurations by up to 2",
+      "source": "MarkTechPost",
+      "url": "https://www.marktechpost.com/2026/11/05/together-ai-together-compiler-continual-compilation-ai-inference/",
+      "publishedAt": "2026-11-05T08:02:58.000Z",
+      "impact": 77
+    },
+    {
+      "id": "marktechpost-1793862197000-1",
+      "type": "live",
+      "category": "multimodal",
+      "title": "OpenAI Launches GPT-Image-2.6 Flare and Sunburst: Adds GIFs, SVG Export and 6-Second API Generation",
+      "excerpt": "OpenAI released Images 2. 6 and the GPT-Image-2",
+      "source": "MarkTechPost",
+      "url": "https://www.marktechpost.com/2026/11/04/openai-gpt-image-2-6-flare-sunburst/",
+      "publishedAt": "2026-11-05T07:03:17.000Z",
+      "impact": 65
+    },
+    {
+      "id": "aether-interp",
+      "type": "premium",
+      "category": "safety",
+      "title": "Anthropic publishes unprecedented mechanistic interpretability map of Claude 4",
+      "excerpt": "Researchers reverse-engineered 312 million features inside the model, including the first clear \"deception circuit\" discovered in a frontier model.",
+      "source": "Anthropic",
+      "url": "https://anthropic.com/research/claude-4-interp",
+      "publishedAt": "2026-11-05T05:45:33.775Z",
+      "impact": 91
+    },
+    {
+      "id": "marktechpost-1793857338000-2",
+      "type": "live",
+      "category": "multimodal",
+      "title": "Google AI Research Releases Agile Deliberation Framework for Gray-Area Image Classifiers",
+      "excerpt": "Google Research released Agile Deliberation, a human-in-the-loop framework that helps users define subjective visual concepts through borderline images.  In 18 live sessions, it lifted Gemini-based classifier F1 by 10",
+      "source": "MarkTechPost",
+      "url": "https://www.marktechpost.com/2026/11/04/google-agile-deliberation-subjective-image-classifiers/",
+      "publishedAt": "2026-11-05T05:42:18.000Z",
+      "impact": 65
+    },
     {
       "id": "arxiv-cs.ai-1793854800000-0",
       "type": "live",
@@ -70,18 +147,18 @@
       "impact": 69
     },
     {
-      "id": "aether-grok43",
-      "type": "premium",
-      "category": "llm",
-      "title": "xAI releases Grok-4.3 with native long-horizon agent scaffolding",
-      "excerpt": "New model demonstrates 4.2× improvement on multi-step software engineering benchmarks and sustains coherent agent trajectories beyond 110k tokens.",
-      "source": "xAI",
-      "url": "https://x.ai/blog/grok-4.3",
-      "publishedAt": "2026-11-05T01:02:59.851Z",
-      "impact": 96
+      "id": "hugging-face-1793836800000-1",
+      "type": "live",
+      "category": "research",
+      "title": "A Closer Look at Phonon TTS. Launching High-Quality On-Device Speech That Tops the Benchmarks.",
+      "excerpt": "New development from the frontier.",
+      "source": "Hugging Face",
+      "url": "https://huggingface.co/blog/phonon-tts",
+      "publishedAt": "2026-11-05T00:00:00.000Z",
+      "impact": 75
     },
     {
-      "id": "marktechpost-1793831105000-0",
+      "id": "marktechpost-1793831105000-3",
       "type": "live",
       "category": "llm",
       "title": "webAI Releases TwIL-8B, an 8.8B Reasoning Model Scoring 98.2 on MATH-500",
@@ -92,29 +169,7 @@
       "impact": 65
     },
     {
-      "id": "aether-figure03",
-      "type": "premium",
-      "category": "robotics",
-      "title": "Figure 03 completes 43-hour autonomous factory shift with zero interventions",
-      "excerpt": "Humanoid achieves new milestone in unsupervised operation, performing 1,240 unique tasks across three assembly lines at the BMW South Carolina plant.",
-      "source": "Figure AI",
-      "url": "https://figure.ai/news/03-milestone",
-      "publishedAt": "2026-11-04T21:02:59.851Z",
-      "impact": 89
-    },
-    {
-      "id": "marktechpost-1793826066000-1",
-      "type": "live",
-      "category": "llm",
-      "title": "Ricursive AI Releases Ripple-65B Preview: A 65B Dense Open-Weight Model Scoring 80.5 on Terminal-Bench 2.1",
-      "excerpt": "Ricursive Intelligence released Ripple-65B Preview, a 65B dense open-weight LLM under Apache 2. 5 on Terminal-Bench 2",
-      "source": "MarkTechPost",
-      "url": "https://www.marktechpost.com/2026/11/04/ricursive-ripple-65b-preview-open-weight-model/",
-      "publishedAt": "2026-11-04T21:01:06.000Z",
-      "impact": 65
-    },
-    {
-      "id": "hugging-face-1793814610000-0",
+      "id": "hugging-face-1793814610000-2",
       "type": "live",
       "category": "research",
       "title": "Dharma Field Extractor: Any Document In, Structured Fields in JSON Out",
@@ -122,61 +177,6 @@
       "source": "Hugging Face",
       "url": "https://huggingface.co/blog/Dharma-AI/dharma-field-extractor",
       "publishedAt": "2026-11-04T17:50:10.000Z",
-      "impact": 75
-    },
-    {
-      "id": "aether-interp",
-      "type": "premium",
-      "category": "safety",
-      "title": "Anthropic publishes unprecedented mechanistic interpretability map of Claude 4",
-      "excerpt": "Researchers reverse-engineered 312 million features inside the model, including the first clear \"deception circuit\" discovered in a frontier model.",
-      "source": "Anthropic",
-      "url": "https://anthropic.com/research/claude-4-interp",
-      "publishedAt": "2026-11-04T16:02:59.851Z",
-      "impact": 91
-    },
-    {
-      "id": "marktechpost-1793767167000-2",
-      "type": "live",
-      "category": "multimodal",
-      "title": "Tencent WeVisOne-VL Unifies Detection, OCR, Segmentation and Matting",
-      "excerpt": "Tencent’s WeChat Vision team released WeVisOne-VL, an Apache 2. 0 vision language model in 2B and 4B sizes",
-      "source": "MarkTechPost",
-      "url": "https://www.marktechpost.com/2026/11/03/tencent-wevisone-vl-vision-language-model/",
-      "publishedAt": "2026-11-04T04:39:27.000Z",
-      "impact": 65
-    },
-    {
-      "id": "marktechpost-1793743702000-3",
-      "type": "live",
-      "category": "llm",
-      "title": "Anthropic Releases FlashProve: Cryptographic Proofs That a Reply Came From Committed Weights",
-      "excerpt": "Anthropic released FlashProve, an Apache 2. 0 zkSNARK prototype that proves a reply came from a committed model without revealing weights",
-      "source": "MarkTechPost",
-      "url": "https://www.marktechpost.com/2026/11/03/anthropic-flashprove-provable-inference-zksnark/",
-      "publishedAt": "2026-11-03T22:08:22.000Z",
-      "impact": 65
-    },
-    {
-      "id": "hugging-face-1793726121000-1",
-      "type": "live",
-      "category": "llm",
-      "title": "StateBench: Testing how language models track state changes over long documents",
-      "excerpt": "New development from the frontier.",
-      "source": "Hugging Face",
-      "url": "https://huggingface.co/blog/allenai/statebench",
-      "publishedAt": "2026-11-03T17:15:21.000Z",
-      "impact": 75
-    },
-    {
-      "id": "hugging-face-1793723736000-2",
-      "type": "live",
-      "category": "llm",
-      "title": "Palette: teaching a small model to build decks in your design language",
-      "excerpt": "New development from the frontier.",
-      "source": "Hugging Face",
-      "url": "https://huggingface.co/blog/ibm-research/palette-deck-building",
-      "publishedAt": "2026-11-03T16:35:36.000Z",
       "impact": 75
     }
   ]

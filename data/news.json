@@ -1,8 +1,85 @@
 {
-  "lastUpdated": "2026-11-04T23:27:53.225Z",
+  "lastUpdated": "2026-11-05T06:03:00.186Z",
   "source": "AETHER + Public RSS (arXiv, Hugging Face, MarkTechPost, Ben's Bites)",
   "count": 16,
   "articles": [
+    {
+      "id": "arxiv-cs.ai-1793854800000-0",
+      "type": "live",
+      "category": "llm",
+      "title": "Who May Overrule the Agent? Evidence-Gated Authority in LLM Review Institutions",
+      "excerpt": "05390v1 Announce Type: new Abstract: Multi-agent language-model systems often add a reviewer to improve an upstream agent's decision.  Yet a reviewer can both repair errors and replace decisions that were already correct",
+      "source": "arXiv cs.AI",
+      "url": "https://arxiv.org/abs/2611.05390",
+      "publishedAt": "2026-11-05T05:00:00.000Z",
+      "impact": 69
+    },
+    {
+      "id": "arxiv-cs.ai-1793854800000-1",
+      "type": "live",
+      "category": "hardware",
+      "title": "Agent Harness Awareness: Turning Verified Telemetry into Operational Control for Tool-Using Agents",
+      "excerpt": "05391v1 Announce Type: new Abstract: Tool descriptions tell an agent what an action can do, but they do not necessarily reveal whether that action is healthy or suitable at the moment of use.  Execution harnesses ofte...",
+      "source": "arXiv cs.AI",
+      "url": "https://arxiv.org/abs/2611.05391",
+      "publishedAt": "2026-11-05T05:00:00.000Z",
+      "impact": 69
+    },
+    {
+      "id": "arxiv-cs.ai-1793854800000-2",
+      "type": "live",
+      "category": "multimodal",
+      "title": "Uncertainty-Aware Resource Orchestration for Agentic AI Systems",
+      "excerpt": "05392v1 Announce Type: new Abstract: Agentic artificial intelligence (AI) systems powered by large language models (LLMs) execute as autonomous multi-step pipelines that dynamically invoke tools, integrate observation...",
+      "source": "arXiv cs.AI",
+      "url": "https://arxiv.org/abs/2611.05392",
+      "publishedAt": "2026-11-05T05:00:00.000Z",
+      "impact": 69
+    },
+    {
+      "id": "arxiv-cs.ai-1793854800000-3",
+      "type": "live",
+      "category": "multimodal",
+      "title": "Challenge-Aware Knowledge Recruitment with Meta-Agent Supervision for Medical Multi-Agent Reasoning",
+      "excerpt": "05393v1 Announce Type: new Abstract: Large language models perform strongly on standard medical QA but degrade on harder reasoning tasks, where multi-agent debate often fails to beat strong single-model prompting.  We...",
+      "source": "arXiv cs.AI",
+      "url": "https://arxiv.org/abs/2611.05393",
+      "publishedAt": "2026-11-05T05:00:00.000Z",
+      "impact": 69
+    },
+    {
+      "id": "arxiv-cs.ai-1793854800000-4",
+      "type": "live",
+      "category": "hardware",
+      "title": "A Feasibility Condition for Confidence-Gated Tiered LLM Inference",
+      "excerpt": "05394v1 Announce Type: new Abstract: Tiered inference distributes large language model computation across a hierarchy of devices, from on-device and edge hardware to the datacenter, and is increasingly offered as the ...",
+      "source": "arXiv cs.AI",
+      "url": "https://arxiv.org/abs/2611.05394",
+      "publishedAt": "2026-11-05T05:00:00.000Z",
+      "impact": 58
+    },
+    {
+      "id": "arxiv-cs.ai-1793854800000-5",
+      "type": "live",
+      "category": "llm",
+      "title": "Towards Robust Long-Lived Agents: Benchmarking Experience Lifecycles in Evolving Environments",
+      "excerpt": "05450v1 Announce Type: new Abstract: As agents become more capable, they are moving beyond one-off tasks toward sustained assistance across successive user goals.  Such assistance requires agents to discover how unfam...",
+      "source": "arXiv cs.AI",
+      "url": "https://arxiv.org/abs/2611.05450",
+      "publishedAt": "2026-11-05T05:00:00.000Z",
+      "impact": 69
+    },
+    {
+      "id": "aether-grok43",
+      "type": "premium",
+      "category": "llm",
+      "title": "xAI releases Grok-4.3 with native long-horizon agent scaffolding",
+      "excerpt": "New model demonstrates 4.2× improvement on multi-step software engineering benchmarks and sustains coherent agent trajectories beyond 110k tokens.",
+      "source": "xAI",
+      "url": "https://x.ai/blog/grok-4.3",
+      "publishedAt": "2026-11-05T01:02:59.851Z",
+      "impact": 96
+    },
     {
       "id": "marktechpost-1793831105000-0",
       "type": "live",
@@ -13,6 +90,17 @@
       "url": "https://www.marktechpost.com/2026/11/04/webai-twil-8b-reasoning-model/",
       "publishedAt": "2026-11-04T22:25:05.000Z",
       "impact": 65
+    },
+    {
+      "id": "aether-figure03",
+      "type": "premium",
+      "category": "robotics",
+      "title": "Figure 03 completes 43-hour autonomous factory shift with zero interventions",
+      "excerpt": "Humanoid achieves new milestone in unsupervised operation, performing 1,240 unique tasks across three assembly lines at the BMW South Carolina plant.",
+      "source": "Figure AI",
+      "url": "https://figure.ai/news/03-milestone",
+      "publishedAt": "2026-11-04T21:02:59.851Z",
+      "impact": 89
     },
     {
       "id": "marktechpost-1793826066000-1",
@@ -26,17 +114,6 @@
       "impact": 65
     },
     {
-      "id": "aether-grok43",
-      "type": "premium",
-      "category": "llm",
-      "title": "xAI releases Grok-4.3 with native long-horizon agent scaffolding",
-      "excerpt": "New model demonstrates 4.2× improvement on multi-step software engineering benchmarks and sustains coherent agent trajectories beyond 110k tokens.",
-      "source": "xAI",
-      "url": "https://x.ai/blog/grok-4.3",
-      "publishedAt": "2026-11-04T18:27:52.735Z",
-      "impact": 96
-    },
-    {
       "id": "hugging-face-1793814610000-0",
       "type": "live",
       "category": "research",
@@ -48,17 +125,6 @@
       "impact": 75
     },
     {
-      "id": "aether-figure03",
-      "type": "premium",
-      "category": "robotics",
-      "title": "Figure 03 completes 43-hour autonomous factory shift with zero interventions",
-      "excerpt": "Humanoid achieves new milestone in unsupervised operation, performing 1,240 unique tasks across three assembly lines at the BMW South Carolina plant.",
-      "source": "Figure AI",
-      "url": "https://figure.ai/news/03-milestone",
-      "publishedAt": "2026-11-04T14:27:52.736Z",
-      "impact": 89
-    },
-    {
       "id": "aether-interp",
       "type": "premium",
       "category": "safety",
@@ -66,74 +132,8 @@
       "excerpt": "Researchers reverse-engineered 312 million features inside the model, including the first clear \"deception circuit\" discovered in a frontier model.",
       "source": "Anthropic",
       "url": "https://anthropic.com/research/claude-4-interp",
-      "publishedAt": "2026-11-04T09:27:52.736Z",
+      "publishedAt": "2026-11-04T16:02:59.851Z",
       "impact": 91
-    },
-    {
-      "id": "arxiv-cs.ai-1793768400000-0",
-      "type": "live",
-      "category": "safety",
-      "title": "Alignment Faking Depends on the Value, Not Just the Model",
-      "excerpt": "03650v1 Announce Type: new Abstract: Language models can follow a directive when they believe they are monitored and abandon it when they believe they are not, a pattern termed Alignment Faking.  Prior work establishe...",
-      "source": "arXiv cs.AI",
-      "url": "https://arxiv.org/abs/2611.03650",
-      "publishedAt": "2026-11-04T05:00:00.000Z",
-      "impact": 58
-    },
-    {
-      "id": "arxiv-cs.ai-1793768400000-1",
-      "type": "live",
-      "category": "robotics",
-      "title": "CARD: A Proof-Carrying Certificate-to-Action Interface for Relative-Measurement Graphs",
-      "excerpt": "03651v1 Announce Type: new Abstract: Geometric certificates make mathematical claims about specified estimator objects, while robotic action requires a physical transform, a service decision, and timely proof support....",
-      "source": "arXiv cs.AI",
-      "url": "https://arxiv.org/abs/2611.03651",
-      "publishedAt": "2026-11-04T05:00:00.000Z",
-      "impact": 58
-    },
-    {
-      "id": "arxiv-cs.ai-1793768400000-2",
-      "type": "live",
-      "category": "llm",
-      "title": "MCPGuard: Finding Conformance Gaps in MCP SDKs via Dual-Track Analysis and Dynamic Adjudication",
-      "excerpt": "03662v1 Announce Type: new Abstract: The Model Context Protocol (MCP) connects large language model agents to external tools and services through official SDKs that implement message validation and session logic.  Spe...",
-      "source": "arXiv cs.AI",
-      "url": "https://arxiv.org/abs/2611.03662",
-      "publishedAt": "2026-11-04T05:00:00.000Z",
-      "impact": 58
-    },
-    {
-      "id": "arxiv-cs.ai-1793768400000-3",
-      "type": "live",
-      "category": "safety",
-      "title": "Functional-Group Knowledge Is Structured in Language Models Before It Is Spoken",
-      "excerpt": "03684v1 Announce Type: new Abstract: Language models serve as the reasoning core of agents for chemistry and materials science, where they must interpret molecular structure before planning syntheses or proposing mate...",
-      "source": "arXiv cs.AI",
-      "url": "https://arxiv.org/abs/2611.03684",
-      "publishedAt": "2026-11-04T05:00:00.000Z",
-      "impact": 58
-    },
-    {
-      "id": "arxiv-cs.ai-1793768400000-4",
-      "type": "live",
-      "category": "llm",
-      "title": "LOLPlay: Benchmarking Real-Time Visual Agents in League of Legends",
-      "excerpt": "03685v1 Announce Type: new Abstract: Visual agents need to coordinate reasoning and action while their environment evolves during inference.  We introduce LOLPlay, a benchmark in native \\emph{League of Legends} with 3...",
-      "source": "arXiv cs.AI",
-      "url": "https://arxiv.org/abs/2611.03685",
-      "publishedAt": "2026-11-04T05:00:00.000Z",
-      "impact": 69
-    },
-    {
-      "id": "arxiv-cs.ai-1793768400000-5",
-      "type": "live",
-      "category": "llm",
-      "title": "Training LLM Agents to Automate LLM Post-Training with RSI-Dojo",
-      "excerpt": "03698v1 Announce Type: new Abstract: Recursive Self-Improvement (RSI) aims to enable AI systems to autonomously build and improve AI systems themselves, including models, harnesses, and underlying infrastructure.  Wit...",
-      "source": "arXiv cs.AI",
-      "url": "https://arxiv.org/abs/2611.03698",
-      "publishedAt": "2026-11-04T05:00:00.000Z",
-      "impact": 69
     },
     {
       "id": "marktechpost-1793767167000-2",

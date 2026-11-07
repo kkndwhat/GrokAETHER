@@ -1,8 +1,19 @@
 {
-  "lastUpdated": "2026-11-07T05:29:57.718Z",
+  "lastUpdated": "2026-11-07T12:45:20.536Z",
   "source": "AETHER + Public RSS (arXiv, Hugging Face, MarkTechPost, Ben's Bites)",
   "count": 10,
   "articles": [
+    {
+      "id": "marktechpost-1794039393000-0",
+      "type": "live",
+      "category": "llm",
+      "title": "Buoyant Releases Kinference: An Open Source Inference Control Plane for Kubernetes and vLLM",
+      "excerpt": "Buoyant has released Kinference, an Apache 2. 0 inference control plane for vLLM on Kubernetes",
+      "source": "MarkTechPost",
+      "url": "https://www.marktechpost.com/2026/11/07/buoyant-kinference-open-source-inference-control-plane-kubernetes-vllm/",
+      "publishedAt": "2026-11-07T08:16:33.000Z",
+      "impact": 65
+    },
     {
       "id": "aether-grok43",
       "type": "premium",
@@ -11,7 +22,7 @@
       "excerpt": "New model demonstrates 4.2× improvement on multi-step software engineering benchmarks and sustains coherent agent trajectories beyond 110k tokens.",
       "source": "xAI",
       "url": "https://x.ai/blog/grok-4.3",
-      "publishedAt": "2026-11-07T00:29:57.376Z",
+      "publishedAt": "2026-11-07T07:45:20.199Z",
       "impact": 96
     },
     {
@@ -22,19 +33,8 @@
       "excerpt": "Humanoid achieves new milestone in unsupervised operation, performing 1,240 unique tasks across three assembly lines at the BMW South Carolina plant.",
       "source": "Figure AI",
       "url": "https://figure.ai/news/03-milestone",
-      "publishedAt": "2026-11-06T20:29:57.377Z",
+      "publishedAt": "2026-11-07T03:45:20.199Z",
       "impact": 89
-    },
-    {
-      "id": "marktechpost-1793986084000-0",
-      "type": "live",
-      "category": "llm",
-      "title": "Zyphra ZYFA: FP8 FlashAttention for AMD MI355X, Up to 1.76x Faster",
-      "excerpt": "Zyphra released ZYFA, open-source FP8 and BF16 prefill attention kernels for AMD Instinct MI355X.  On real model activations, its FP8 kernels run 1",
-      "source": "MarkTechPost",
-      "url": "https://www.marktechpost.com/2026/11/06/zyphra-zyfa-fp8-flashattention-amd-mi355x/",
-      "publishedAt": "2026-11-06T17:28:04.000Z",
-      "impact": 65
     },
     {
       "id": "aether-interp",
@@ -44,8 +44,19 @@
       "excerpt": "Researchers reverse-engineered 312 million features inside the model, including the first clear \"deception circuit\" discovered in a frontier model.",
       "source": "Anthropic",
       "url": "https://anthropic.com/research/claude-4-interp",
-      "publishedAt": "2026-11-06T15:29:57.377Z",
+      "publishedAt": "2026-11-06T22:45:20.199Z",
       "impact": 91
+    },
+    {
+      "id": "marktechpost-1793986084000-1",
+      "type": "live",
+      "category": "llm",
+      "title": "Zyphra ZYFA: FP8 FlashAttention for AMD MI355X, Up to 1.76x Faster",
+      "excerpt": "Zyphra released ZYFA, open-source FP8 and BF16 prefill attention kernels for AMD Instinct MI355X.  On real model activations, its FP8 kernels run 1",
+      "source": "MarkTechPost",
+      "url": "https://www.marktechpost.com/2026/11/06/zyphra-zyfa-fp8-flashattention-amd-mi355x/",
+      "publishedAt": "2026-11-06T17:28:04.000Z",
+      "impact": 65
     },
     {
       "id": "hugging-face-1793973648000-0",
@@ -59,7 +70,7 @@
       "impact": 75
     },
     {
-      "id": "marktechpost-1793939107000-1",
+      "id": "marktechpost-1793939107000-2",
       "type": "live",
       "category": "research",
       "title": "Thinking Machines Releases Inkling 2 Small, a 594B MoE With 17B Active",
@@ -81,7 +92,7 @@
       "impact": 75
     },
     {
-      "id": "marktechpost-1793919501000-2",
+      "id": "marktechpost-1793919501000-3",
       "type": "live",
       "category": "multimodal",
       "title": "Google Releases Gemini Omni 1.2 Flash: 15-Second AI Video at $0.07 per Second",
@@ -89,17 +100,6 @@
       "source": "MarkTechPost",
       "url": "https://www.marktechpost.com/2026/11/05/google-gemini-omni-1-2-flash-15-second-video/",
       "publishedAt": "2026-11-05T22:58:21.000Z",
-      "impact": 65
-    },
-    {
-      "id": "marktechpost-1793914380000-3",
-      "type": "live",
-      "category": "llm",
-      "title": "Baidu Releases ERNIE 5.5 Flash Base: A 280B MoE Base Model With 14B Active Parameters",
-      "excerpt": "Baidu has released ERNIE 5. 5 Flash Base, a 280B sparse MoE base model with 14B active parameters, trained on 33",
-      "source": "MarkTechPost",
-      "url": "https://www.marktechpost.com/2026/11/05/baidu-ernie-5-5-flash-base-280b-moe/",
-      "publishedAt": "2026-11-05T21:33:00.000Z",
       "impact": 65
     },
     {

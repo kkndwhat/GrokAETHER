@@ -1,7 +1,7 @@
 {
-  "lastUpdated": "2026-11-06T22:55:04.197Z",
+  "lastUpdated": "2026-11-07T05:29:57.718Z",
   "source": "AETHER + Public RSS (arXiv, Hugging Face, MarkTechPost, Ben's Bites)",
-  "count": 16,
+  "count": 10,
   "articles": [
     {
       "id": "aether-grok43",
@@ -11,8 +11,19 @@
       "excerpt": "New model demonstrates 4.2× improvement on multi-step software engineering benchmarks and sustains coherent agent trajectories beyond 110k tokens.",
       "source": "xAI",
       "url": "https://x.ai/blog/grok-4.3",
-      "publishedAt": "2026-11-06T17:55:03.670Z",
+      "publishedAt": "2026-11-07T00:29:57.376Z",
       "impact": 96
+    },
+    {
+      "id": "aether-figure03",
+      "type": "premium",
+      "category": "robotics",
+      "title": "Figure 03 completes 43-hour autonomous factory shift with zero interventions",
+      "excerpt": "Humanoid achieves new milestone in unsupervised operation, performing 1,240 unique tasks across three assembly lines at the BMW South Carolina plant.",
+      "source": "Figure AI",
+      "url": "https://figure.ai/news/03-milestone",
+      "publishedAt": "2026-11-06T20:29:57.377Z",
+      "impact": 89
     },
     {
       "id": "marktechpost-1793986084000-0",
@@ -26,6 +37,17 @@
       "impact": 65
     },
     {
+      "id": "aether-interp",
+      "type": "premium",
+      "category": "safety",
+      "title": "Anthropic publishes unprecedented mechanistic interpretability map of Claude 4",
+      "excerpt": "Researchers reverse-engineered 312 million features inside the model, including the first clear \"deception circuit\" discovered in a frontier model.",
+      "source": "Anthropic",
+      "url": "https://anthropic.com/research/claude-4-interp",
+      "publishedAt": "2026-11-06T15:29:57.377Z",
+      "impact": 91
+    },
+    {
       "id": "hugging-face-1793973648000-0",
       "type": "live",
       "category": "robotics",
@@ -35,94 +57,6 @@
       "url": "https://huggingface.co/blog/allenai/toyblocks",
       "publishedAt": "2026-11-06T14:00:48.000Z",
       "impact": 75
-    },
-    {
-      "id": "aether-figure03",
-      "type": "premium",
-      "category": "robotics",
-      "title": "Figure 03 completes 43-hour autonomous factory shift with zero interventions",
-      "excerpt": "Humanoid achieves new milestone in unsupervised operation, performing 1,240 unique tasks across three assembly lines at the BMW South Carolina plant.",
-      "source": "Figure AI",
-      "url": "https://figure.ai/news/03-milestone",
-      "publishedAt": "2026-11-06T13:55:03.671Z",
-      "impact": 89
-    },
-    {
-      "id": "aether-interp",
-      "type": "premium",
-      "category": "safety",
-      "title": "Anthropic publishes unprecedented mechanistic interpretability map of Claude 4",
-      "excerpt": "Researchers reverse-engineered 312 million features inside the model, including the first clear \"deception circuit\" discovered in a frontier model.",
-      "source": "Anthropic",
-      "url": "https://anthropic.com/research/claude-4-interp",
-      "publishedAt": "2026-11-06T08:55:03.671Z",
-      "impact": 91
-    },
-    {
-      "id": "arxiv-cs.ai-1793941200000-0",
-      "type": "live",
-      "category": "research",
-      "title": "Formalizing inverse problems in the age of AI: possibilities, pitfalls, and an invitation",
-      "excerpt": "06962v1 Announce Type: new Abstract: Proof assistants such as Lean check mathematical proofs down to the axioms, and AI agents have recently made writing such proofs cheap.  We describe AutoIP, a Lean library in which...",
-      "source": "arXiv cs.AI",
-      "url": "https://arxiv.org/abs/2611.06962",
-      "publishedAt": "2026-11-06T05:00:00.000Z",
-      "impact": 58
-    },
-    {
-      "id": "arxiv-cs.ai-1793941200000-1",
-      "type": "live",
-      "category": "safety",
-      "title": "KDASO: Knowledge-Data Dual-Driven Automated Skill Optimization for Liability Adjudication Tasks",
-      "excerpt": "06972v1 Announce Type: new Abstract: Liability adjudication tasks (e. , legal charge determination) require analyzing event descriptions against domain-specific skills to determine whether a party should bear liability",
-      "source": "arXiv cs.AI",
-      "url": "https://arxiv.org/abs/2611.06972",
-      "publishedAt": "2026-11-06T05:00:00.000Z",
-      "impact": 58
-    },
-    {
-      "id": "arxiv-cs.ai-1793941200000-2",
-      "type": "live",
-      "category": "hardware",
-      "title": "BlockLock: Reproducible LLM Inference with Fixed Batch Geometry",
-      "excerpt": "06977v1 Announce Type: new Abstract: Reproducible LLM inference requires that a request produces the same output regardless of the other requests in the batch.  Existing solutions pay for this in different ways: batch...",
-      "source": "arXiv cs.AI",
-      "url": "https://arxiv.org/abs/2611.06977",
-      "publishedAt": "2026-11-06T05:00:00.000Z",
-      "impact": 58
-    },
-    {
-      "id": "arxiv-cs.ai-1793941200000-3",
-      "type": "live",
-      "category": "llm",
-      "title": "Resource-Efficient Reinforcement Learning Post-Training through Elastic Expert Parallelism",
-      "excerpt": "06984v1 Announce Type: new Abstract: Reinforcement learning post-training improves the capabilities of large language models, but generating training responses is a major computational bottleneck.  In mixture-of-exper...",
-      "source": "arXiv cs.AI",
-      "url": "https://arxiv.org/abs/2611.06984",
-      "publishedAt": "2026-11-06T05:00:00.000Z",
-      "impact": 58
-    },
-    {
-      "id": "arxiv-cs.ai-1793941200000-4",
-      "type": "live",
-      "category": "llm",
-      "title": "The Two-Ledger Model: Transaction-Grain Cost Accounting for Multi-Agent AI Systems Across Clouds, Models, and Systems of Record",
-      "excerpt": "06989v1 Announce Type: new Abstract: Enterprises run business transactions through multi-agent AI systems spanning clouds, large language models (LLMs), orchestration harnesses, and systems of record.  Finance receive...",
-      "source": "arXiv cs.AI",
-      "url": "https://arxiv.org/abs/2611.06989",
-      "publishedAt": "2026-11-06T05:00:00.000Z",
-      "impact": 69
-    },
-    {
-      "id": "arxiv-cs.ai-1793941200000-5",
-      "type": "live",
-      "category": "research",
-      "title": "Autonomous AI Agents Systematically Diverge From Human Preferences in Proof Formalization",
-      "excerpt": "06995v1 Announce Type: new Abstract: Artificial intelligence (AI) systems have ushered in a new age of proof abundance, but helping humans understand these proofs requires new attention to the differences in how AI ag...",
-      "source": "arXiv cs.AI",
-      "url": "https://arxiv.org/abs/2611.06995",
-      "publishedAt": "2026-11-06T05:00:00.000Z",
-      "impact": 69
     },
     {
       "id": "marktechpost-1793939107000-1",

@@ -1,17 +1,17 @@
 {
-  "lastUpdated": "2026-11-07T21:39:11.473Z",
+  "lastUpdated": "2026-11-08T05:30:46.084Z",
   "source": "AETHER + Public RSS (arXiv, Hugging Face, MarkTechPost, Ben's Bites)",
   "count": 10,
   "articles": [
     {
-      "id": "marktechpost-1794079364000-0",
+      "id": "marktechpost-1794113159000-0",
       "type": "live",
-      "category": "llm",
-      "title": "How to Run NVIDIA Dory 4B with llama.cpp: Loop by Loop Guide",
-      "excerpt": "Explore a comprehensive coding guide for NVIDIA's Dory 1. 0 4B looped language model",
+      "category": "research",
+      "title": "Nous Research Releases Arete-27B that Cuts Qwen3.8-27B Propaganda From 22% to 0.9%",
+      "excerpt": "Nous Research released Arete-27B, an Apache 2.  On Nous’s 803-prompt eval, propaganda answers fell from 22% to 0",
       "source": "MarkTechPost",
-      "url": "https://www.marktechpost.com/2026/11/07/coding-guide-nvidia-dory-4b-llama-cpp/",
-      "publishedAt": "2026-11-07T19:22:44.000Z",
+      "url": "https://www.marktechpost.com/2026/11/07/nous-research-arete-27b-qwen3-8-27b-propaganda-fine-tune/",
+      "publishedAt": "2026-11-08T04:45:59.000Z",
       "impact": 65
     },
     {
@@ -22,7 +22,7 @@
       "excerpt": "New model demonstrates 4.2× improvement on multi-step software engineering benchmarks and sustains coherent agent trajectories beyond 110k tokens.",
       "source": "xAI",
       "url": "https://x.ai/blog/grok-4.3",
-      "publishedAt": "2026-11-07T16:39:11.225Z",
+      "publishedAt": "2026-11-08T00:30:45.700Z",
       "impact": 96
     },
     {
@@ -33,18 +33,18 @@
       "excerpt": "Humanoid achieves new milestone in unsupervised operation, performing 1,240 unique tasks across three assembly lines at the BMW South Carolina plant.",
       "source": "Figure AI",
       "url": "https://figure.ai/news/03-milestone",
-      "publishedAt": "2026-11-07T12:39:11.225Z",
+      "publishedAt": "2026-11-07T20:30:45.700Z",
       "impact": 89
     },
     {
-      "id": "marktechpost-1794039393000-1",
+      "id": "marktechpost-1794079364000-1",
       "type": "live",
       "category": "llm",
-      "title": "Buoyant Releases Kinference: An Open Source Inference Control Plane for Kubernetes and vLLM",
-      "excerpt": "Buoyant has released Kinference, an Apache 2. 0 inference control plane for vLLM on Kubernetes",
+      "title": "How to Run NVIDIA Dory 4B with llama.cpp: Loop by Loop Guide",
+      "excerpt": "Explore a comprehensive coding guide for NVIDIA's Dory 1. 0 4B looped language model",
       "source": "MarkTechPost",
-      "url": "https://www.marktechpost.com/2026/11/07/buoyant-kinference-open-source-inference-control-plane-kubernetes-vllm/",
-      "publishedAt": "2026-11-07T08:16:33.000Z",
+      "url": "https://www.marktechpost.com/2026/11/07/coding-guide-nvidia-dory-4b-llama-cpp/",
+      "publishedAt": "2026-11-07T19:22:44.000Z",
       "impact": 65
     },
     {
@@ -55,11 +55,22 @@
       "excerpt": "Researchers reverse-engineered 312 million features inside the model, including the first clear \"deception circuit\" discovered in a frontier model.",
       "source": "Anthropic",
       "url": "https://anthropic.com/research/claude-4-interp",
-      "publishedAt": "2026-11-07T07:39:11.225Z",
+      "publishedAt": "2026-11-07T15:30:45.700Z",
       "impact": 91
     },
     {
-      "id": "marktechpost-1793986084000-2",
+      "id": "marktechpost-1794039393000-2",
+      "type": "live",
+      "category": "llm",
+      "title": "Buoyant Releases Kinference: An Open Source Inference Control Plane for Kubernetes and vLLM",
+      "excerpt": "Buoyant has released Kinference, an Apache 2. 0 inference control plane for vLLM on Kubernetes",
+      "source": "MarkTechPost",
+      "url": "https://www.marktechpost.com/2026/11/07/buoyant-kinference-open-source-inference-control-plane-kubernetes-vllm/",
+      "publishedAt": "2026-11-07T08:16:33.000Z",
+      "impact": 65
+    },
+    {
+      "id": "marktechpost-1793986084000-3",
       "type": "live",
       "category": "llm",
       "title": "Zyphra ZYFA: FP8 FlashAttention for AMD MI355X, Up to 1.76x Faster",
@@ -79,17 +90,6 @@
       "url": "https://huggingface.co/blog/allenai/toyblocks",
       "publishedAt": "2026-11-06T14:00:48.000Z",
       "impact": 75
-    },
-    {
-      "id": "marktechpost-1793939107000-3",
-      "type": "live",
-      "category": "research",
-      "title": "Thinking Machines Releases Inkling 2 Small, a 594B MoE With 17B Active",
-      "excerpt": "Thinking Machines Lab released Inkling 2 Small, a 594B-parameter MoE with 17B active parameters.  It scores 31 on the Artificial Analysis Intelligence Index and runs on Tinker, with Apache 2",
-      "source": "MarkTechPost",
-      "url": "https://www.marktechpost.com/2026/11/05/thinking-machines-inkling-2-small-release/",
-      "publishedAt": "2026-11-06T04:25:07.000Z",
-      "impact": 65
     },
     {
       "id": "hugging-face-1793923200000-1",

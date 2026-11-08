@@ -1,17 +1,28 @@
 {
-  "lastUpdated": "2026-11-08T05:30:46.084Z",
+  "lastUpdated": "2026-11-08T13:03:35.958Z",
   "source": "AETHER + Public RSS (arXiv, Hugging Face, MarkTechPost, Ben's Bites)",
   "count": 10,
   "articles": [
     {
-      "id": "marktechpost-1794113159000-0",
+      "id": "marktechpost-1794134778000-0",
       "type": "live",
-      "category": "research",
-      "title": "Nous Research Releases Arete-27B that Cuts Qwen3.8-27B Propaganda From 22% to 0.9%",
-      "excerpt": "Nous Research released Arete-27B, an Apache 2.  On Nous’s 803-prompt eval, propaganda answers fell from 22% to 0",
+      "category": "llm",
+      "title": "Google AI Releases Elephant-Goldfish Model Plugin for Spec-First Coding",
+      "excerpt": "Google's Elephant-Goldfish Model plugin makes coding agents draft specs, then runs 5 zero-context review stages before any code.  The post Google AI Releases Elephant-Goldfish Model Plugin for Spec-First Coding appear...",
       "source": "MarkTechPost",
-      "url": "https://www.marktechpost.com/2026/11/07/nous-research-arete-27b-qwen3-8-27b-propaganda-fine-tune/",
-      "publishedAt": "2026-11-08T04:45:59.000Z",
+      "url": "https://www.marktechpost.com/2026/11/08/google-elephant-goldfish-model-plugin-spec-review-coding-agents/",
+      "publishedAt": "2026-11-08T10:46:18.000Z",
+      "impact": 65
+    },
+    {
+      "id": "marktechpost-1794133647000-1",
+      "type": "live",
+      "category": "llm",
+      "title": "Which Routing Does Each MoE Model Use? DeepSeek, Qwen, Mixtral, Llama 4, gpt-oss Compared",
+      "excerpt": "A config-verified comparison of how 10 open MoE models route tokens: total and active parameters, expert counts, top-k, shared experts, gating functions and load-balancing methods.  The post Which Routing Does Each Mo...",
+      "source": "MarkTechPost",
+      "url": "https://www.marktechpost.com/2026/11/08/moe-model-routing-comparison/",
+      "publishedAt": "2026-11-08T10:27:27.000Z",
       "impact": 65
     },
     {
@@ -22,8 +33,30 @@
       "excerpt": "New model demonstrates 4.2× improvement on multi-step software engineering benchmarks and sustains coherent agent trajectories beyond 110k tokens.",
       "source": "xAI",
       "url": "https://x.ai/blog/grok-4.3",
-      "publishedAt": "2026-11-08T00:30:45.700Z",
+      "publishedAt": "2026-11-08T08:03:35.655Z",
       "impact": 96
+    },
+    {
+      "id": "marktechpost-1794118713000-2",
+      "type": "live",
+      "category": "llm",
+      "title": "MoE Routing Strategies Explained: Top-K, Expert-Choice, Sigmoid Gating and Dynamic Routing (2026 Guide)",
+      "excerpt": "MoE routing strategies decide which experts process each token.  This guide explains 7 methods, from Mixtral's top-2 softmax to DeepSeek-V4's hash routing, with the models that use each one",
+      "source": "MarkTechPost",
+      "url": "https://www.marktechpost.com/2026/11/07/moe-routing-strategies-explained/",
+      "publishedAt": "2026-11-08T06:18:33.000Z",
+      "impact": 65
+    },
+    {
+      "id": "marktechpost-1794113159000-3",
+      "type": "live",
+      "category": "research",
+      "title": "Nous Research Releases Arete-27B that Cuts Qwen3.8-27B Propaganda From 22% to 0.9%",
+      "excerpt": "Nous Research released Arete-27B, an Apache 2.  On Nous’s 803-prompt eval, propaganda answers fell from 22% to 0",
+      "source": "MarkTechPost",
+      "url": "https://www.marktechpost.com/2026/11/07/nous-research-arete-27b-qwen3-8-27b-propaganda-fine-tune/",
+      "publishedAt": "2026-11-08T04:45:59.000Z",
+      "impact": 65
     },
     {
       "id": "aether-figure03",
@@ -33,19 +66,8 @@
       "excerpt": "Humanoid achieves new milestone in unsupervised operation, performing 1,240 unique tasks across three assembly lines at the BMW South Carolina plant.",
       "source": "Figure AI",
       "url": "https://figure.ai/news/03-milestone",
-      "publishedAt": "2026-11-07T20:30:45.700Z",
+      "publishedAt": "2026-11-08T04:03:35.655Z",
       "impact": 89
-    },
-    {
-      "id": "marktechpost-1794079364000-1",
-      "type": "live",
-      "category": "llm",
-      "title": "How to Run NVIDIA Dory 4B with llama.cpp: Loop by Loop Guide",
-      "excerpt": "Explore a comprehensive coding guide for NVIDIA's Dory 1. 0 4B looped language model",
-      "source": "MarkTechPost",
-      "url": "https://www.marktechpost.com/2026/11/07/coding-guide-nvidia-dory-4b-llama-cpp/",
-      "publishedAt": "2026-11-07T19:22:44.000Z",
-      "impact": 65
     },
     {
       "id": "aether-interp",
@@ -55,30 +77,8 @@
       "excerpt": "Researchers reverse-engineered 312 million features inside the model, including the first clear \"deception circuit\" discovered in a frontier model.",
       "source": "Anthropic",
       "url": "https://anthropic.com/research/claude-4-interp",
-      "publishedAt": "2026-11-07T15:30:45.700Z",
+      "publishedAt": "2026-11-07T23:03:35.655Z",
       "impact": 91
-    },
-    {
-      "id": "marktechpost-1794039393000-2",
-      "type": "live",
-      "category": "llm",
-      "title": "Buoyant Releases Kinference: An Open Source Inference Control Plane for Kubernetes and vLLM",
-      "excerpt": "Buoyant has released Kinference, an Apache 2. 0 inference control plane for vLLM on Kubernetes",
-      "source": "MarkTechPost",
-      "url": "https://www.marktechpost.com/2026/11/07/buoyant-kinference-open-source-inference-control-plane-kubernetes-vllm/",
-      "publishedAt": "2026-11-07T08:16:33.000Z",
-      "impact": 65
-    },
-    {
-      "id": "marktechpost-1793986084000-3",
-      "type": "live",
-      "category": "llm",
-      "title": "Zyphra ZYFA: FP8 FlashAttention for AMD MI355X, Up to 1.76x Faster",
-      "excerpt": "Zyphra released ZYFA, open-source FP8 and BF16 prefill attention kernels for AMD Instinct MI355X.  On real model activations, its FP8 kernels run 1",
-      "source": "MarkTechPost",
-      "url": "https://www.marktechpost.com/2026/11/06/zyphra-zyfa-fp8-flashattention-amd-mi355x/",
-      "publishedAt": "2026-11-06T17:28:04.000Z",
-      "impact": 65
     },
     {
       "id": "hugging-face-1793973648000-0",

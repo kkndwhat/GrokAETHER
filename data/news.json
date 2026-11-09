@@ -1,8 +1,74 @@
 {
-  "lastUpdated": "2026-11-09T05:41:32.633Z",
+  "lastUpdated": "2026-11-09T15:47:36.669Z",
   "source": "AETHER + Public RSS (arXiv, Hugging Face, MarkTechPost, Ben's Bites)",
   "count": 16,
   "articles": [
+    {
+      "id": "hugging-face-1794236757000-0",
+      "type": "live",
+      "category": "research",
+      "title": "Nemotron-Personas-Finance-Japan: A Synthetic Dataset Capturing Japan's Demographics and Financial Context",
+      "excerpt": "New development from the frontier.",
+      "source": "Hugging Face",
+      "url": "https://huggingface.co/blog/nvidia/nemotron-personas-finance-japan",
+      "publishedAt": "2026-11-09T15:05:57.000Z",
+      "impact": 75
+    },
+    {
+      "id": "hugging-face-1794227669000-1",
+      "type": "live",
+      "category": "research",
+      "title": "Your Experts Have Partners. There's HOPE for Keeping Them Together",
+      "excerpt": "New development from the frontier.",
+      "source": "Hugging Face",
+      "url": "https://huggingface.co/blog/amazon/higher-order-pruning-experts",
+      "publishedAt": "2026-11-09T12:34:29.000Z",
+      "impact": 75
+    },
+    {
+      "id": "aether-grok43",
+      "type": "premium",
+      "category": "llm",
+      "title": "xAI releases Grok-4.3 with native long-horizon agent scaffolding",
+      "excerpt": "New model demonstrates 4.2× improvement on multi-step software engineering benchmarks and sustains coherent agent trajectories beyond 110k tokens.",
+      "source": "xAI",
+      "url": "https://x.ai/blog/grok-4.3",
+      "publishedAt": "2026-11-09T10:47:36.212Z",
+      "impact": 96
+    },
+    {
+      "id": "marktechpost-1794212420000-0",
+      "type": "live",
+      "category": "research",
+      "title": "Reason Machines Open-Sources Aspen, a Git Server Built for AI Agents",
+      "excerpt": "Reason Machines has open-sourced Aspen, a self-hosted Git server for AI agents.  It follows OpenAI’s Pando design and sustained 567 pushes per second on one 8-core server in the company’s own test",
+      "source": "MarkTechPost",
+      "url": "https://www.marktechpost.com/2026/11/09/reason-machines-aspen-open-source-git-server-ai-agents/",
+      "publishedAt": "2026-11-09T08:20:20.000Z",
+      "impact": 77
+    },
+    {
+      "id": "marktechpost-1794210918000-1",
+      "type": "live",
+      "category": "llm",
+      "title": "0sec Labs Open-Sources 0, an AI Security Harness With Web UI, CLI and MCP",
+      "excerpt": "0sec Labs has open-sourced 0, an AI security harness for code review, pentesting, reverse engineering and fixes.  It runs locally through a browser console, a headless CLI and an MCP server, with your own model provider",
+      "source": "MarkTechPost",
+      "url": "https://www.marktechpost.com/2026/11/08/0sec-labs-open-sources-0-ai-security-harness/",
+      "publishedAt": "2026-11-09T07:55:18.000Z",
+      "impact": 65
+    },
+    {
+      "id": "aether-figure03",
+      "type": "premium",
+      "category": "robotics",
+      "title": "Figure 03 completes 43-hour autonomous factory shift with zero interventions",
+      "excerpt": "Humanoid achieves new milestone in unsupervised operation, performing 1,240 unique tasks across three assembly lines at the BMW South Carolina plant.",
+      "source": "Figure AI",
+      "url": "https://figure.ai/news/03-milestone",
+      "publishedAt": "2026-11-09T06:47:36.212Z",
+      "impact": 89
+    },
     {
       "id": "arxiv-cs.ai-1794200400000-0",
       "type": "live",
@@ -70,28 +136,6 @@
       "impact": 58
     },
     {
-      "id": "aether-grok43",
-      "type": "premium",
-      "category": "llm",
-      "title": "xAI releases Grok-4.3 with native long-horizon agent scaffolding",
-      "excerpt": "New model demonstrates 4.2× improvement on multi-step software engineering benchmarks and sustains coherent agent trajectories beyond 110k tokens.",
-      "source": "xAI",
-      "url": "https://x.ai/blog/grok-4.3",
-      "publishedAt": "2026-11-09T00:41:32.191Z",
-      "impact": 96
-    },
-    {
-      "id": "aether-figure03",
-      "type": "premium",
-      "category": "robotics",
-      "title": "Figure 03 completes 43-hour autonomous factory shift with zero interventions",
-      "excerpt": "Humanoid achieves new milestone in unsupervised operation, performing 1,240 unique tasks across three assembly lines at the BMW South Carolina plant.",
-      "source": "Figure AI",
-      "url": "https://figure.ai/news/03-milestone",
-      "publishedAt": "2026-11-08T20:41:32.191Z",
-      "impact": 89
-    },
-    {
       "id": "aether-interp",
       "type": "premium",
       "category": "safety",
@@ -99,11 +143,11 @@
       "excerpt": "Researchers reverse-engineered 312 million features inside the model, including the first clear \"deception circuit\" discovered in a frontier model.",
       "source": "Anthropic",
       "url": "https://anthropic.com/research/claude-4-interp",
-      "publishedAt": "2026-11-08T15:41:32.191Z",
+      "publishedAt": "2026-11-09T01:47:36.212Z",
       "impact": 91
     },
     {
-      "id": "marktechpost-1794134778000-0",
+      "id": "marktechpost-1794134778000-2",
       "type": "live",
       "category": "llm",
       "title": "Google AI Releases Elephant-Goldfish Model Plugin for Spec-First Coding",
@@ -114,7 +158,7 @@
       "impact": 65
     },
     {
-      "id": "marktechpost-1794133647000-1",
+      "id": "marktechpost-1794133647000-3",
       "type": "live",
       "category": "llm",
       "title": "Which Routing Does Each MoE Model Use? DeepSeek, Qwen, Mixtral, Llama 4, gpt-oss Compared",
@@ -125,29 +169,7 @@
       "impact": 65
     },
     {
-      "id": "marktechpost-1794118713000-2",
-      "type": "live",
-      "category": "llm",
-      "title": "MoE Routing Strategies Explained: Top-K, Expert-Choice, Sigmoid Gating and Dynamic Routing (2026 Guide)",
-      "excerpt": "MoE routing strategies decide which experts process each token.  This guide explains 7 methods, from Mixtral's top-2 softmax to DeepSeek-V4's hash routing, with the models that use each one",
-      "source": "MarkTechPost",
-      "url": "https://www.marktechpost.com/2026/11/07/moe-routing-strategies-explained/",
-      "publishedAt": "2026-11-08T06:18:33.000Z",
-      "impact": 65
-    },
-    {
-      "id": "marktechpost-1794113159000-3",
-      "type": "live",
-      "category": "research",
-      "title": "Nous Research Releases Arete-27B that Cuts Qwen3.8-27B Propaganda From 22% to 0.9%",
-      "excerpt": "Nous Research released Arete-27B, an Apache 2.  On Nous’s 803-prompt eval, propaganda answers fell from 22% to 0",
-      "source": "MarkTechPost",
-      "url": "https://www.marktechpost.com/2026/11/07/nous-research-arete-27b-qwen3-8-27b-propaganda-fine-tune/",
-      "publishedAt": "2026-11-08T04:45:59.000Z",
-      "impact": 65
-    },
-    {
-      "id": "hugging-face-1793973648000-0",
+      "id": "hugging-face-1793973648000-2",
       "type": "live",
       "category": "robotics",
       "title": "ToyBlocks: A controlled world for robot learning and evaluation",
@@ -155,28 +177,6 @@
       "source": "Hugging Face",
       "url": "https://huggingface.co/blog/allenai/toyblocks",
       "publishedAt": "2026-11-06T14:00:48.000Z",
-      "impact": 75
-    },
-    {
-      "id": "hugging-face-1793923200000-1",
-      "type": "live",
-      "category": "research",
-      "title": "Egyptian and Nigerian English join the Open ASR Leaderboard",
-      "excerpt": "New development from the frontier.",
-      "source": "Hugging Face",
-      "url": "https://huggingface.co/blog/open-asr-leaderboard-liva",
-      "publishedAt": "2026-11-06T00:00:00.000Z",
-      "impact": 75
-    },
-    {
-      "id": "hugging-face-1793907316000-2",
-      "type": "live",
-      "category": "llm",
-      "title": "New NVIDIA Cosmos 3 Open Models for Interactive World Simulation",
-      "excerpt": "New development from the frontier.",
-      "source": "Hugging Face",
-      "url": "https://huggingface.co/blog/nvidia/cosmos-interactive-world-simulation",
-      "publishedAt": "2026-11-05T19:35:16.000Z",
       "impact": 75
     }
   ]

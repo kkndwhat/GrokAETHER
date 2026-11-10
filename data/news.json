@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-11-10T14:39:09.055Z",
+  "lastUpdated": "2026-11-10T23:03:15.412Z",
   "source": "AETHER + Public RSS (arXiv, Hugging Face, MarkTechPost, Ben's Bites)",
   "count": 16,
   "articles": [
@@ -11,19 +11,30 @@
       "excerpt": "New model demonstrates 4.2× improvement on multi-step software engineering benchmarks and sustains coherent agent trajectories beyond 110k tokens.",
       "source": "xAI",
       "url": "https://x.ai/blog/grok-4.3",
-      "publishedAt": "2026-11-10T09:39:08.743Z",
+      "publishedAt": "2026-11-10T18:03:15.051Z",
       "impact": 96
     },
     {
-      "id": "marktechpost-1794292570000-0",
+      "id": "marktechpost-1794325375000-0",
       "type": "live",
       "category": "llm",
-      "title": "Meta Releases Muse Ember, a 1M-Context Model for High-Volume Agent Work",
-      "excerpt": "Meta Muse Ember is Meta’s smallest model, built for tool calls, coding subtasks and document parsing.  It ties Claude Haiku 5",
+      "title": "Zyphra Releases ZONOS3-Mini: Open-Source TTS With 100M Active Parameters",
+      "excerpt": "Zyphra released ZONOS3-Mini, an Apache 2. 0 text-to-speech model with 800M total and 100M active parameters",
       "source": "MarkTechPost",
-      "url": "https://www.marktechpost.com/2026/11/09/meta-muse-ember-small-agent-model/",
-      "publishedAt": "2026-11-10T06:36:10.000Z",
-      "impact": 77
+      "url": "https://www.marktechpost.com/2026/11/10/zyphra-zonos3-mini-open-source-tts/",
+      "publishedAt": "2026-11-10T15:42:55.000Z",
+      "impact": 65
+    },
+    {
+      "id": "marktechpost-1794322749000-1",
+      "type": "live",
+      "category": "llm",
+      "title": "Anthropic Launches Claude Fable 5.2 and Mythos 5.2: Same Model, Different Safeguards",
+      "excerpt": "Anthropic released Claude Fable 5. 2 and Claude Mythos 5",
+      "source": "MarkTechPost",
+      "url": "https://www.marktechpost.com/2026/11/10/anthropic-claude-fable-5-2-mythos-5-2-release/",
+      "publishedAt": "2026-11-10T14:59:09.000Z",
+      "impact": 65
     },
     {
       "id": "aether-figure03",
@@ -33,8 +44,30 @@
       "excerpt": "Humanoid achieves new milestone in unsupervised operation, performing 1,240 unique tasks across three assembly lines at the BMW South Carolina plant.",
       "source": "Figure AI",
       "url": "https://figure.ai/news/03-milestone",
-      "publishedAt": "2026-11-10T05:39:08.743Z",
+      "publishedAt": "2026-11-10T14:03:15.051Z",
       "impact": 89
+    },
+    {
+      "id": "aether-interp",
+      "type": "premium",
+      "category": "safety",
+      "title": "Anthropic publishes unprecedented mechanistic interpretability map of Claude 4",
+      "excerpt": "Researchers reverse-engineered 312 million features inside the model, including the first clear \"deception circuit\" discovered in a frontier model.",
+      "source": "Anthropic",
+      "url": "https://anthropic.com/research/claude-4-interp",
+      "publishedAt": "2026-11-10T09:03:15.051Z",
+      "impact": 91
+    },
+    {
+      "id": "marktechpost-1794292570000-2",
+      "type": "live",
+      "category": "llm",
+      "title": "Meta Releases Muse Ember, a 1M-Context Model for High-Volume Agent Work",
+      "excerpt": "Meta Muse Ember is Meta’s smallest model, built for tool calls, coding subtasks and document parsing.  It ties Claude Haiku 5",
+      "source": "MarkTechPost",
+      "url": "https://www.marktechpost.com/2026/11/09/meta-muse-ember-small-agent-model/",
+      "publishedAt": "2026-11-10T06:36:10.000Z",
+      "impact": 77
     },
     {
       "id": "arxiv-cs.ai-1794286800000-0",
@@ -103,18 +136,29 @@
       "impact": 58
     },
     {
-      "id": "aether-interp",
-      "type": "premium",
-      "category": "safety",
-      "title": "Anthropic publishes unprecedented mechanistic interpretability map of Claude 4",
-      "excerpt": "Researchers reverse-engineered 312 million features inside the model, including the first clear \"deception circuit\" discovered in a frontier model.",
-      "source": "Anthropic",
-      "url": "https://anthropic.com/research/claude-4-interp",
-      "publishedAt": "2026-11-10T00:39:08.743Z",
-      "impact": 91
+      "id": "hugging-face-1794268800000-0",
+      "type": "live",
+      "category": "research",
+      "title": "Pay for Hugging Face Hub with your Google Cloud Account",
+      "excerpt": "New development from the frontier.",
+      "source": "Hugging Face",
+      "url": "https://huggingface.co/blog/hub-gcp-marketplace",
+      "publishedAt": "2026-11-10T00:00:00.000Z",
+      "impact": 75
     },
     {
-      "id": "marktechpost-1794244194000-1",
+      "id": "hugging-face-1794268800000-1",
+      "type": "live",
+      "category": "llm",
+      "title": "Decision Models in Hugging Face",
+      "excerpt": "New development from the frontier.",
+      "source": "Hugging Face",
+      "url": "https://huggingface.co/blog/decision",
+      "publishedAt": "2026-11-10T00:00:00.000Z",
+      "impact": 75
+    },
+    {
+      "id": "marktechpost-1794244194000-3",
       "type": "live",
       "category": "hardware",
       "title": "Google Unveils TPU 8i Max and TPU 8tx: A Dual-Chip TPU and a Confidential TPU",
@@ -125,18 +169,7 @@
       "impact": 65
     },
     {
-      "id": "marktechpost-1794241919000-2",
-      "type": "live",
-      "category": "llm",
-      "title": "Baidu’s ERNIE Evolve Automated Research System Beats NanoChat and NanoGPT Records",
-      "excerpt": "Baidu’s ERNIE Evolve is an automated research system that edits code, runs experiments and keeps only verified gains.  It beat public bests on NanoChat and NanoGPT Speedrun and sped up ERNIE-5",
-      "source": "MarkTechPost",
-      "url": "https://www.marktechpost.com/2026/11/09/baidu-ernie-evolve-automated-research-system/",
-      "publishedAt": "2026-11-09T16:31:59.000Z",
-      "impact": 65
-    },
-    {
-      "id": "hugging-face-1794236757000-0",
+      "id": "hugging-face-1794236757000-2",
       "type": "live",
       "category": "research",
       "title": "Nemotron-Personas-Finance-Japan: A Synthetic Dataset Capturing Japan's Demographics and Financial Context",
@@ -144,39 +177,6 @@
       "source": "Hugging Face",
       "url": "https://huggingface.co/blog/nvidia/nemotron-personas-finance-japan",
       "publishedAt": "2026-11-09T15:05:57.000Z",
-      "impact": 75
-    },
-    {
-      "id": "hugging-face-1794227669000-1",
-      "type": "live",
-      "category": "research",
-      "title": "Your Experts Have Partners. There's HOPE for Keeping Them Together",
-      "excerpt": "New development from the frontier.",
-      "source": "Hugging Face",
-      "url": "https://huggingface.co/blog/amazon/higher-order-pruning-experts",
-      "publishedAt": "2026-11-09T12:34:29.000Z",
-      "impact": 75
-    },
-    {
-      "id": "marktechpost-1794212420000-3",
-      "type": "live",
-      "category": "research",
-      "title": "Reason Machines Open-Sources Aspen, a Git Server Built for AI Agents",
-      "excerpt": "Reason Machines has open-sourced Aspen, a self-hosted Git server for AI agents.  It follows OpenAI’s Pando design and sustained 567 pushes per second on one 8-core server in the company’s own test",
-      "source": "MarkTechPost",
-      "url": "https://www.marktechpost.com/2026/11/09/reason-machines-aspen-open-source-git-server-ai-agents/",
-      "publishedAt": "2026-11-09T08:20:20.000Z",
-      "impact": 77
-    },
-    {
-      "id": "hugging-face-1793973648000-2",
-      "type": "live",
-      "category": "robotics",
-      "title": "ToyBlocks: A controlled world for robot learning and evaluation",
-      "excerpt": "New development from the frontier.",
-      "source": "Hugging Face",
-      "url": "https://huggingface.co/blog/allenai/toyblocks",
-      "publishedAt": "2026-11-06T14:00:48.000Z",
       "impact": 75
     }
   ]

@@ -1,30 +1,8 @@
 {
-  "lastUpdated": "2026-11-12T00:21:22.573Z",
+  "lastUpdated": "2026-11-12T14:55:46.563Z",
   "source": "AETHER + Public RSS (arXiv, Hugging Face, MarkTechPost, Ben's Bites)",
-  "count": 16,
+  "count": 10,
   "articles": [
-    {
-      "id": "marktechpost-1794432102000-0",
-      "type": "live",
-      "category": "multimodal",
-      "title": "Google Launches Gemini Decisions API With Gemini Decision 1 at $0.10/M Tokens",
-      "excerpt": "Google launched the Gemini Decisions API, powered by Gemini Decision 1.  It returns calibrated probabilities for up to 1,000 yes/no, choice and rubric questions over text, images, audio, video and PDFs, at $0",
-      "source": "MarkTechPost",
-      "url": "https://www.marktechpost.com/2026/11/11/google-gemini-decisions-api-gemini-decision-1/",
-      "publishedAt": "2026-11-11T21:21:42.000Z",
-      "impact": 65
-    },
-    {
-      "id": "marktechpost-1794430316000-1",
-      "type": "live",
-      "category": "llm",
-      "title": "Google DeepMind Releases AlphaGenome 2 for Cell-Type-Specific Variant Effects",
-      "excerpt": "Google DeepMind released AlphaGenome 2, a conditional DNA sequence model that predicts regulatory activity and variant effects per cell type.  It is available via the AlphaGenome API for non-commercial research",
-      "source": "MarkTechPost",
-      "url": "https://www.marktechpost.com/2026/11/11/google-deepmind-alphagenome-2-cell-type-variant-effects/",
-      "publishedAt": "2026-11-11T20:51:56.000Z",
-      "impact": 65
-    },
     {
       "id": "aether-grok43",
       "type": "premium",
@@ -33,18 +11,18 @@
       "excerpt": "New model demonstrates 4.2× improvement on multi-step software engineering benchmarks and sustains coherent agent trajectories beyond 110k tokens.",
       "source": "xAI",
       "url": "https://x.ai/blog/grok-4.3",
-      "publishedAt": "2026-11-11T19:21:22.275Z",
+      "publishedAt": "2026-11-12T09:55:46.039Z",
       "impact": 96
     },
     {
-      "id": "marktechpost-1794412274000-2",
+      "id": "marktechpost-1794472941000-0",
       "type": "live",
       "category": "hardware",
-      "title": "Marktechpost AI Launches GPU Leaderboard and the Deploy It Chrome Extension",
-      "excerpt": "Marktechpost Launches GPU Leaderboard and the Deploy It Chrome Extension The post Marktechpost AI Launches GPU Leaderboard and the Deploy It Chrome Extension appeared first on MarkTechPost",
+      "title": "IBM Announces IBM Quantum Nighthawk r3: A New Processor to Support 10k Quantum Operations on 520 Programmable Qubits",
+      "excerpt": "IBM announced Quantum Nighthawk r3, a 520-qubit processor designed for 10,000 quantum operations.  2 r3 chips will link into a 1,040-qubit system in 2027, while Nighthawk r2 already posts up to 19x speedups over Heron",
       "source": "MarkTechPost",
-      "url": "https://www.marktechpost.com/2026/11/11/marktechpost-gpu-leaderboard-chrome-extension-launch/",
-      "publishedAt": "2026-11-11T15:51:14.000Z",
+      "url": "https://www.marktechpost.com/2026/11/12/ibm-quantum-nighthawk-r3-520-qubits-1040-qubit-system-2027/",
+      "publishedAt": "2026-11-12T08:42:21.000Z",
       "impact": 65
     },
     {
@@ -55,7 +33,7 @@
       "excerpt": "Humanoid achieves new milestone in unsupervised operation, performing 1,240 unique tasks across three assembly lines at the BMW South Carolina plant.",
       "source": "Figure AI",
       "url": "https://figure.ai/news/03-milestone",
-      "publishedAt": "2026-11-11T15:21:22.275Z",
+      "publishedAt": "2026-11-12T05:55:46.039Z",
       "impact": 89
     },
     {
@@ -66,22 +44,55 @@
       "excerpt": "Researchers reverse-engineered 312 million features inside the model, including the first clear \"deception circuit\" discovered in a frontier model.",
       "source": "Anthropic",
       "url": "https://anthropic.com/research/claude-4-interp",
-      "publishedAt": "2026-11-11T10:21:22.275Z",
+      "publishedAt": "2026-11-12T00:55:46.039Z",
       "impact": 91
     },
     {
-      "id": "marktechpost-1794382737000-3",
+      "id": "hugging-face-1794441600000-0",
+      "type": "live",
+      "category": "llm",
+      "title": "The Definitive Fine-Tuning Guide for 3D Generation Models",
+      "excerpt": "New development from the frontier.",
+      "source": "Hugging Face",
+      "url": "https://huggingface.co/blog/3d-lora-finetuning",
+      "publishedAt": "2026-11-12T00:00:00.000Z",
+      "impact": 75
+    },
+    {
+      "id": "marktechpost-1794432102000-1",
       "type": "live",
       "category": "multimodal",
-      "title": "MBZUAI’s IFM Releases PAN 2, an Open 29B World Model for Physical AI",
-      "excerpt": "The Institute of Foundation Models at MBZUAI released PAN 2, an Apache 2. 0 world model that couples an LLM planner with a 29B diffusion transformer to simulate up to 20 seconds of action outcomes as video",
+      "title": "Google Launches Gemini Decisions API With Gemini Decision 1 at $0.10/M Tokens",
+      "excerpt": "Google launched the Gemini Decisions API, powered by Gemini Decision 1.  It returns calibrated probabilities for up to 1,000 yes/no, choice and rubric questions over text, images, audio, video and PDFs, at $0",
       "source": "MarkTechPost",
-      "url": "https://www.marktechpost.com/2026/11/10/ifm-pan-2-open-world-model/",
-      "publishedAt": "2026-11-11T07:38:57.000Z",
+      "url": "https://www.marktechpost.com/2026/11/11/google-gemini-decisions-api-gemini-decision-1/",
+      "publishedAt": "2026-11-11T21:21:42.000Z",
       "impact": 65
     },
     {
-      "id": "hugging-face-1794373276000-0",
+      "id": "marktechpost-1794430316000-2",
+      "type": "live",
+      "category": "llm",
+      "title": "Google DeepMind Releases AlphaGenome 2 for Cell-Type-Specific Variant Effects",
+      "excerpt": "Google DeepMind released AlphaGenome 2, a conditional DNA sequence model that predicts regulatory activity and variant effects per cell type.  It is available via the AlphaGenome API for non-commercial research",
+      "source": "MarkTechPost",
+      "url": "https://www.marktechpost.com/2026/11/11/google-deepmind-alphagenome-2-cell-type-variant-effects/",
+      "publishedAt": "2026-11-11T20:51:56.000Z",
+      "impact": 65
+    },
+    {
+      "id": "marktechpost-1794412274000-3",
+      "type": "live",
+      "category": "hardware",
+      "title": "Marktechpost AI Launches GPU Leaderboard and the Deploy It Chrome Extension",
+      "excerpt": "Marktechpost Launches GPU Leaderboard and the Deploy It Chrome Extension The post Marktechpost AI Launches GPU Leaderboard and the Deploy It Chrome Extension appeared first on MarkTechPost",
+      "source": "MarkTechPost",
+      "url": "https://www.marktechpost.com/2026/11/11/marktechpost-gpu-leaderboard-chrome-extension-launch/",
+      "publishedAt": "2026-11-11T15:51:14.000Z",
+      "impact": 65
+    },
+    {
+      "id": "hugging-face-1794373276000-1",
       "type": "live",
       "category": "llm",
       "title": "BotPsy: On-Device Personal Assistant with a Sub-Billion-Parameter Agentic Language Model",
@@ -92,73 +103,7 @@
       "impact": 87
     },
     {
-      "id": "arxiv-cs.ai-1794373200000-0",
-      "type": "live",
-      "category": "safety",
-      "title": "Auditable Human-Agent Teams for Autonomous X-ray Experimentation",
-      "excerpt": "12933v1 Announce Type: new Abstract: Closed-loop autonomous experimentation can accelerate scientific discovery, but implementation effort limits accessibility.  Agentic systems may lower this barrier, although sustai...",
-      "source": "arXiv cs.AI",
-      "url": "https://arxiv.org/abs/2611.12933",
-      "publishedAt": "2026-11-11T05:00:00.000Z",
-      "impact": 69
-    },
-    {
-      "id": "arxiv-cs.ai-1794373200000-1",
-      "type": "live",
-      "category": "safety",
-      "title": "EarthRecord: From Pixels to Land Change with Multimodal Agents over Four Decades of Satellite Imagery",
-      "excerpt": "12934v1 Announce Type: new Abstract: While multimodal agents now carry out complex data analysis with tools, their ability to turn decades of satellite imagery into reliable land-change analysis, crucial for Earth obs...",
-      "source": "arXiv cs.AI",
-      "url": "https://arxiv.org/abs/2611.12934",
-      "publishedAt": "2026-11-11T05:00:00.000Z",
-      "impact": 69
-    },
-    {
-      "id": "arxiv-cs.ai-1794373200000-2",
-      "type": "live",
-      "category": "safety",
-      "title": "Train on prefill, monitor at decode: Using sparse autoencoders for topic monitoring",
-      "excerpt": "12935v1 Announce Type: new Abstract: Topic monitoring is the task of labelling the topic of each token in a model's response during generation.  Activation-based monitors that run at generation time have so far been t...",
-      "source": "arXiv cs.AI",
-      "url": "https://arxiv.org/abs/2611.12935",
-      "publishedAt": "2026-11-11T05:00:00.000Z",
-      "impact": 58
-    },
-    {
-      "id": "arxiv-cs.ai-1794373200000-3",
-      "type": "live",
-      "category": "safety",
-      "title": "LandslideFM: A Foundation Model Towards Unified Landslide Perception and Understanding",
-      "excerpt": "12936v1 Announce Type: new Abstract: Intelligent landslide detection is essential for disaster prevention.  However, existing models primarily focus on isolated visual tasks, require extensive labeled data, and lack d...",
-      "source": "arXiv cs.AI",
-      "url": "https://arxiv.org/abs/2611.12936",
-      "publishedAt": "2026-11-11T05:00:00.000Z",
-      "impact": 58
-    },
-    {
-      "id": "arxiv-cs.ai-1794373200000-4",
-      "type": "live",
-      "category": "safety",
-      "title": "Tracing Psychometric Inference in Large Language Models",
-      "excerpt": "12937v1 Announce Type: new Abstract: Do large language models represent psychological constructs internally, or do they only generate outputs that resemble psychometric structure.  We address this question using a cro...",
-      "source": "arXiv cs.AI",
-      "url": "https://arxiv.org/abs/2611.12937",
-      "publishedAt": "2026-11-11T05:00:00.000Z",
-      "impact": 58
-    },
-    {
-      "id": "arxiv-cs.ai-1794373200000-5",
-      "type": "live",
-      "category": "multimodal",
-      "title": "Graph Visualizations in Prompts for Knowledge Graph Question Answering",
-      "excerpt": "12938v1 Announce Type: new Abstract: We study when and how multimodal input improves knowledge graph question answering (KGQA) in large vision--language models.  Using a controlled evaluation over 1,500 WebQSP and CWQ...",
-      "source": "arXiv cs.AI",
-      "url": "https://arxiv.org/abs/2611.12938",
-      "publishedAt": "2026-11-11T05:00:00.000Z",
-      "impact": 58
-    },
-    {
-      "id": "hugging-face-1794355200000-1",
+      "id": "hugging-face-1794355200000-2",
       "type": "live",
       "category": "llm",
       "title": "Token Pooling-Aware Training for Multi-Vector Embedding Models",
@@ -166,17 +111,6 @@
       "source": "Hugging Face",
       "url": "https://huggingface.co/blog/token-pooling",
       "publishedAt": "2026-11-11T00:00:00.000Z",
-      "impact": 75
-    },
-    {
-      "id": "hugging-face-1794268800000-2",
-      "type": "live",
-      "category": "research",
-      "title": "Pay for Hugging Face Hub with your Google Cloud Account",
-      "excerpt": "New development from the frontier.",
-      "source": "Hugging Face",
-      "url": "https://huggingface.co/blog/hub-gcp-marketplace",
-      "publishedAt": "2026-11-10T00:00:00.000Z",
       "impact": 75
     }
   ]

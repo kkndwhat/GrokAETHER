@@ -1,8 +1,41 @@
 {
-  "lastUpdated": "2026-11-12T14:55:46.563Z",
+  "lastUpdated": "2026-11-12T23:24:57.674Z",
   "source": "AETHER + Public RSS (arXiv, Hugging Face, MarkTechPost, Ben's Bites)",
   "count": 10,
   "articles": [
+    {
+      "id": "marktechpost-1794523406000-0",
+      "type": "live",
+      "category": "multimodal",
+      "title": "Liquid AI Releases LiquidCodec, a 74M-Parameter Streaming Audio Codec",
+      "excerpt": "Liquid AI released LiquidCodec, a ~74M-parameter streaming audio codec that powers LFM3-Audio-2B and LFM3-Omni-2B. 5 Hz with 12 codebooks and encodes about 361x faster than real time on a single CPU thread",
+      "source": "MarkTechPost",
+      "url": "https://www.marktechpost.com/2026/11/12/liquid-ai-liquidcodec-streaming-audio-codec/",
+      "publishedAt": "2026-11-12T22:43:26.000Z",
+      "impact": 65
+    },
+    {
+      "id": "marktechpost-1794519936000-1",
+      "type": "live",
+      "category": "llm",
+      "title": "CopilotKit Releases OpenBot 1.0: An MIT-Licensed, Self-Hostable AI Coworker With Built-In Governance",
+      "excerpt": "CopilotKit released OpenBot 1. 0, an MIT-licensed, self-hostable AI coworker workspace",
+      "source": "MarkTechPost",
+      "url": "https://www.marktechpost.com/2026/11/12/copilotkit-openbot-1-0-open-source-ai-coworker/",
+      "publishedAt": "2026-11-12T21:45:36.000Z",
+      "impact": 65
+    },
+    {
+      "id": "hugging-face-1794510455000-0",
+      "type": "live",
+      "category": "llm",
+      "title": "LLMON: An LLM-Native Markup Language, now in Granite 4.1 3B and 8B",
+      "excerpt": "New development from the frontier.",
+      "source": "Hugging Face",
+      "url": "https://huggingface.co/blog/ibm-granite/llmon-an-llm-native-markup-language-now-in-granite",
+      "publishedAt": "2026-11-12T19:07:35.000Z",
+      "impact": 75
+    },
     {
       "id": "aether-grok43",
       "type": "premium",
@@ -11,19 +44,19 @@
       "excerpt": "New model demonstrates 4.2× improvement on multi-step software engineering benchmarks and sustains coherent agent trajectories beyond 110k tokens.",
       "source": "xAI",
       "url": "https://x.ai/blog/grok-4.3",
-      "publishedAt": "2026-11-12T09:55:46.039Z",
+      "publishedAt": "2026-11-12T18:24:57.438Z",
       "impact": 96
     },
     {
-      "id": "marktechpost-1794472941000-0",
+      "id": "marktechpost-1794504368000-2",
       "type": "live",
-      "category": "hardware",
-      "title": "IBM Announces IBM Quantum Nighthawk r3: A New Processor to Support 10k Quantum Operations on 520 Programmable Qubits",
-      "excerpt": "IBM announced Quantum Nighthawk r3, a 520-qubit processor designed for 10,000 quantum operations.  2 r3 chips will link into a 1,040-qubit system in 2027, while Nighthawk r2 already posts up to 19x speedups over Heron",
+      "category": "llm",
+      "title": "AWS Releases AWS Emulator: A Local Copy of 200+ AWS Services Built by AI Agents",
+      "excerpt": "AWS released AWS Emulator, a free, CC0-licensed local emulator of AWS APIs built from 438 API models.  Autonomous agents wrote all of its code",
       "source": "MarkTechPost",
-      "url": "https://www.marktechpost.com/2026/11/12/ibm-quantum-nighthawk-r3-520-qubits-1040-qubit-system-2027/",
-      "publishedAt": "2026-11-12T08:42:21.000Z",
-      "impact": 65
+      "url": "https://www.marktechpost.com/2026/11/12/aws-emulator-local-aws-api-emulator-ai-agents/",
+      "publishedAt": "2026-11-12T17:26:08.000Z",
+      "impact": 77
     },
     {
       "id": "aether-figure03",
@@ -33,7 +66,7 @@
       "excerpt": "Humanoid achieves new milestone in unsupervised operation, performing 1,240 unique tasks across three assembly lines at the BMW South Carolina plant.",
       "source": "Figure AI",
       "url": "https://figure.ai/news/03-milestone",
-      "publishedAt": "2026-11-12T05:55:46.039Z",
+      "publishedAt": "2026-11-12T14:24:57.438Z",
       "impact": 89
     },
     {
@@ -44,11 +77,22 @@
       "excerpt": "Researchers reverse-engineered 312 million features inside the model, including the first clear \"deception circuit\" discovered in a frontier model.",
       "source": "Anthropic",
       "url": "https://anthropic.com/research/claude-4-interp",
-      "publishedAt": "2026-11-12T00:55:46.039Z",
+      "publishedAt": "2026-11-12T09:24:57.438Z",
       "impact": 91
     },
     {
-      "id": "hugging-face-1794441600000-0",
+      "id": "marktechpost-1794472941000-3",
+      "type": "live",
+      "category": "hardware",
+      "title": "IBM Announces IBM Quantum Nighthawk r3: A New Processor to Support 10k Quantum Operations on 520 Programmable Qubits",
+      "excerpt": "IBM announced Quantum Nighthawk r3, a 520-qubit processor designed for 10,000 quantum operations.  2 r3 chips will link into a 1,040-qubit system in 2027, while Nighthawk r2 already posts up to 19x speedups over Heron",
+      "source": "MarkTechPost",
+      "url": "https://www.marktechpost.com/2026/11/12/ibm-quantum-nighthawk-r3-520-qubits-1040-qubit-system-2027/",
+      "publishedAt": "2026-11-12T08:42:21.000Z",
+      "impact": 65
+    },
+    {
+      "id": "hugging-face-1794441600000-1",
       "type": "live",
       "category": "llm",
       "title": "The Definitive Fine-Tuning Guide for 3D Generation Models",
@@ -59,40 +103,7 @@
       "impact": 75
     },
     {
-      "id": "marktechpost-1794432102000-1",
-      "type": "live",
-      "category": "multimodal",
-      "title": "Google Launches Gemini Decisions API With Gemini Decision 1 at $0.10/M Tokens",
-      "excerpt": "Google launched the Gemini Decisions API, powered by Gemini Decision 1.  It returns calibrated probabilities for up to 1,000 yes/no, choice and rubric questions over text, images, audio, video and PDFs, at $0",
-      "source": "MarkTechPost",
-      "url": "https://www.marktechpost.com/2026/11/11/google-gemini-decisions-api-gemini-decision-1/",
-      "publishedAt": "2026-11-11T21:21:42.000Z",
-      "impact": 65
-    },
-    {
-      "id": "marktechpost-1794430316000-2",
-      "type": "live",
-      "category": "llm",
-      "title": "Google DeepMind Releases AlphaGenome 2 for Cell-Type-Specific Variant Effects",
-      "excerpt": "Google DeepMind released AlphaGenome 2, a conditional DNA sequence model that predicts regulatory activity and variant effects per cell type.  It is available via the AlphaGenome API for non-commercial research",
-      "source": "MarkTechPost",
-      "url": "https://www.marktechpost.com/2026/11/11/google-deepmind-alphagenome-2-cell-type-variant-effects/",
-      "publishedAt": "2026-11-11T20:51:56.000Z",
-      "impact": 65
-    },
-    {
-      "id": "marktechpost-1794412274000-3",
-      "type": "live",
-      "category": "hardware",
-      "title": "Marktechpost AI Launches GPU Leaderboard and the Deploy It Chrome Extension",
-      "excerpt": "Marktechpost Launches GPU Leaderboard and the Deploy It Chrome Extension The post Marktechpost AI Launches GPU Leaderboard and the Deploy It Chrome Extension appeared first on MarkTechPost",
-      "source": "MarkTechPost",
-      "url": "https://www.marktechpost.com/2026/11/11/marktechpost-gpu-leaderboard-chrome-extension-launch/",
-      "publishedAt": "2026-11-11T15:51:14.000Z",
-      "impact": 65
-    },
-    {
-      "id": "hugging-face-1794373276000-1",
+      "id": "hugging-face-1794373276000-2",
       "type": "live",
       "category": "llm",
       "title": "BotPsy: On-Device Personal Assistant with a Sub-Billion-Parameter Agentic Language Model",
@@ -101,17 +112,6 @@
       "url": "https://huggingface.co/blog/qvac/botpsy",
       "publishedAt": "2026-11-11T05:01:16.000Z",
       "impact": 87
-    },
-    {
-      "id": "hugging-face-1794355200000-2",
-      "type": "live",
-      "category": "llm",
-      "title": "Token Pooling-Aware Training for Multi-Vector Embedding Models",
-      "excerpt": "New development from the frontier.",
-      "source": "Hugging Face",
-      "url": "https://huggingface.co/blog/token-pooling",
-      "publishedAt": "2026-11-11T00:00:00.000Z",
-      "impact": 75
     }
   ]
 }

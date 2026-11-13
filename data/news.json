@@ -1,8 +1,52 @@
 {
-  "lastUpdated": "2026-11-13T06:00:21.200Z",
+  "lastUpdated": "2026-11-13T19:26:40.923Z",
   "source": "AETHER + Public RSS (arXiv, Hugging Face, MarkTechPost, Ben's Bites)",
-  "count": 10,
+  "count": 16,
   "articles": [
+    {
+      "id": "hugging-face-1794592839000-0",
+      "type": "live",
+      "category": "robotics",
+      "title": "Build a Robot Pick-and-Place Simulation with SimReady Assets",
+      "excerpt": "New development from the frontier.",
+      "source": "Hugging Face",
+      "url": "https://huggingface.co/blog/nvidia/simready-assets-robot-pick-and-place",
+      "publishedAt": "2026-11-13T18:00:39.000Z",
+      "impact": 75
+    },
+    {
+      "id": "marktechpost-1794590631000-0",
+      "type": "live",
+      "category": "multimodal",
+      "title": "Best AI Video Generation Models in 2026: Elo, Price per Second, Open Weights",
+      "excerpt": "The AI video leaderboard looks very different from 12 months ago.  Native audio is now table stakes",
+      "source": "MarkTechPost",
+      "url": "https://www.marktechpost.com/2026/11/13/best-ai-video-generation-models-2026/",
+      "publishedAt": "2026-11-13T17:23:51.000Z",
+      "impact": 65
+    },
+    {
+      "id": "hugging-face-1794589355000-1",
+      "type": "live",
+      "category": "research",
+      "title": "XYBench: Helping with the problem behind the question",
+      "excerpt": "New development from the frontier.",
+      "source": "Hugging Face",
+      "url": "https://huggingface.co/blog/allenai/xybench",
+      "publishedAt": "2026-11-13T17:02:35.000Z",
+      "impact": 75
+    },
+    {
+      "id": "marktechpost-1794586202000-1",
+      "type": "live",
+      "category": "llm",
+      "title": "Perplexity Releases Decider v1.3: Open-Weight Decision Models Add Locate",
+      "excerpt": "Perplexity Decider v1. 3 are open-weight decision models that return probabilities, not text",
+      "source": "MarkTechPost",
+      "url": "https://www.marktechpost.com/2026/11/13/perplexity-decider-v1-3-open-weight-decision-models-locate/",
+      "publishedAt": "2026-11-13T16:10:02.000Z",
+      "impact": 65
+    },
     {
       "id": "aether-grok43",
       "type": "premium",
@@ -11,29 +55,29 @@
       "excerpt": "New model demonstrates 4.2× improvement on multi-step software engineering benchmarks and sustains coherent agent trajectories beyond 110k tokens.",
       "source": "xAI",
       "url": "https://x.ai/blog/grok-4.3",
-      "publishedAt": "2026-11-13T01:00:20.982Z",
+      "publishedAt": "2026-11-13T14:26:40.282Z",
       "impact": 96
     },
     {
-      "id": "marktechpost-1794523406000-0",
-      "type": "live",
-      "category": "multimodal",
-      "title": "Liquid AI Releases LiquidCodec, a 74M-Parameter Streaming Audio Codec",
-      "excerpt": "Liquid AI released LiquidCodec, a ~74M-parameter streaming audio codec that powers LFM3-Audio-2B and LFM3-Omni-2B. 5 Hz with 12 codebooks and encodes about 361x faster than real time on a single CPU thread",
-      "source": "MarkTechPost",
-      "url": "https://www.marktechpost.com/2026/11/12/liquid-ai-liquidcodec-streaming-audio-codec/",
-      "publishedAt": "2026-11-12T22:43:26.000Z",
-      "impact": 65
-    },
-    {
-      "id": "marktechpost-1794519936000-1",
+      "id": "hugging-face-1794578722000-2",
       "type": "live",
       "category": "llm",
-      "title": "CopilotKit Releases OpenBot 1.0: An MIT-Licensed, Self-Hostable AI Coworker With Built-In Governance",
-      "excerpt": "CopilotKit released OpenBot 1. 0, an MIT-licensed, self-hostable AI coworker workspace",
+      "title": "llama.cpp v1.0.0 : A stronger foundation for the local AI ecosystem",
+      "excerpt": "New development from the frontier.",
+      "source": "Hugging Face",
+      "url": "https://huggingface.co/blog/ggml-org/llama-cpp-v1",
+      "publishedAt": "2026-11-13T14:05:22.000Z",
+      "impact": 75
+    },
+    {
+      "id": "marktechpost-1794565946000-2",
+      "type": "live",
+      "category": "llm",
+      "title": "Google Releases TPU Sync: Open-Source KV Cache Transfer for TPUs",
+      "excerpt": "Google released TPU Sync, an open-source C++ library that moves KV caches and weights across TPU HBM, host DRAM, storage and network.  Google reports over 90% lower KV transfer latency on 235B to 480B MoE models",
       "source": "MarkTechPost",
-      "url": "https://www.marktechpost.com/2026/11/12/copilotkit-openbot-1-0-open-source-ai-coworker/",
-      "publishedAt": "2026-11-12T21:45:36.000Z",
+      "url": "https://www.marktechpost.com/2026/11/13/google-tpu-sync-kv-cache-transfer-library/",
+      "publishedAt": "2026-11-13T10:32:26.000Z",
       "impact": 65
     },
     {
@@ -44,30 +88,19 @@
       "excerpt": "Humanoid achieves new milestone in unsupervised operation, performing 1,240 unique tasks across three assembly lines at the BMW South Carolina plant.",
       "source": "Figure AI",
       "url": "https://figure.ai/news/03-milestone",
-      "publishedAt": "2026-11-12T21:00:20.982Z",
+      "publishedAt": "2026-11-13T10:26:40.282Z",
       "impact": 89
     },
     {
-      "id": "hugging-face-1794510455000-0",
+      "id": "marktechpost-1794563148000-3",
       "type": "live",
       "category": "llm",
-      "title": "LLMON: An LLM-Native Markup Language, now in Granite 4.1 3B and 8B",
-      "excerpt": "New development from the frontier.",
-      "source": "Hugging Face",
-      "url": "https://huggingface.co/blog/ibm-granite/llmon-an-llm-native-markup-language-now-in-granite",
-      "publishedAt": "2026-11-12T19:07:35.000Z",
-      "impact": 75
-    },
-    {
-      "id": "marktechpost-1794504368000-2",
-      "type": "live",
-      "category": "llm",
-      "title": "AWS Releases AWS Emulator: A Local Copy of 200+ AWS Services Built by AI Agents",
-      "excerpt": "AWS released AWS Emulator, a free, CC0-licensed local emulator of AWS APIs built from 438 API models.  Autonomous agents wrote all of its code",
+      "title": "Google Releases Gemini 4 Hydrogen: 2.5x Faster Than Gemini 3.8 Flash",
+      "excerpt": "Google released Gemini 4 Hydrogen, a fast agentic model with a 1M-token window, 4 thinking levels and $1.  Google reports a 51 Artificial Analysis score and 57% on Terminal-Bench 4",
       "source": "MarkTechPost",
-      "url": "https://www.marktechpost.com/2026/11/12/aws-emulator-local-aws-api-emulator-ai-agents/",
-      "publishedAt": "2026-11-12T17:26:08.000Z",
-      "impact": 77
+      "url": "https://www.marktechpost.com/2026/11/13/google-gemini-4-hydrogen/",
+      "publishedAt": "2026-11-13T09:45:48.000Z",
+      "impact": 65
     },
     {
       "id": "aether-interp",
@@ -77,41 +110,74 @@
       "excerpt": "Researchers reverse-engineered 312 million features inside the model, including the first clear \"deception circuit\" discovered in a frontier model.",
       "source": "Anthropic",
       "url": "https://anthropic.com/research/claude-4-interp",
-      "publishedAt": "2026-11-12T16:00:20.982Z",
+      "publishedAt": "2026-11-13T05:26:40.282Z",
       "impact": 91
     },
     {
-      "id": "marktechpost-1794472941000-3",
+      "id": "arxiv-cs.ai-1794546000000-0",
+      "type": "live",
+      "category": "research",
+      "title": "Zugwise: Domain-Aware Game Reconstruction for Digitizing Handwritten Chess Scoresheets",
+      "excerpt": "14544v1 Announce Type: new Abstract: Digitizing handwritten chess scoresheets has been studied as a handwriting-recognition problem: read the move in each box and check that it is legal.  This framing misses the error...",
+      "source": "arXiv cs.AI",
+      "url": "https://arxiv.org/abs/2611.14544",
+      "publishedAt": "2026-11-13T05:00:00.000Z",
+      "impact": 58
+    },
+    {
+      "id": "arxiv-cs.ai-1794546000000-1",
+      "type": "live",
+      "category": "llm",
+      "title": "Cleaning an Agent's History Hurts When the World Still Holds the Error",
+      "excerpt": "14654v1 Announce Type: new Abstract: Tool-using language-model agents accumulate histories of their own mistakes, and a system that compacts, repairs or hands off such a history decides what it says about those mistak...",
+      "source": "arXiv cs.AI",
+      "url": "https://arxiv.org/abs/2611.14654",
+      "publishedAt": "2026-11-13T05:00:00.000Z",
+      "impact": 69
+    },
+    {
+      "id": "arxiv-cs.ai-1794546000000-2",
       "type": "live",
       "category": "hardware",
-      "title": "IBM Announces IBM Quantum Nighthawk r3: A New Processor to Support 10k Quantum Operations on 520 Programmable Qubits",
-      "excerpt": "IBM announced Quantum Nighthawk r3, a 520-qubit processor designed for 10,000 quantum operations.  2 r3 chips will link into a 1,040-qubit system in 2027, while Nighthawk r2 already posts up to 19x speedups over Heron",
-      "source": "MarkTechPost",
-      "url": "https://www.marktechpost.com/2026/11/12/ibm-quantum-nighthawk-r3-520-qubits-1040-qubit-system-2027/",
-      "publishedAt": "2026-11-12T08:42:21.000Z",
-      "impact": 65
+      "title": "Together Compiler: Continual Compilation for AI Inference",
+      "excerpt": "14681v1 Announce Type: new Abstract: Today's AI workloads are rapidly changing: new models are released more often, model architectures are increasingly diverse, and traffic distributions change frequently.  The chall...",
+      "source": "arXiv cs.AI",
+      "url": "https://arxiv.org/abs/2611.14681",
+      "publishedAt": "2026-11-13T05:00:00.000Z",
+      "impact": 58
     },
     {
-      "id": "hugging-face-1794441600000-1",
+      "id": "arxiv-cs.ai-1794546000000-3",
       "type": "live",
       "category": "llm",
-      "title": "The Definitive Fine-Tuning Guide for 3D Generation Models",
-      "excerpt": "New development from the frontier.",
-      "source": "Hugging Face",
-      "url": "https://huggingface.co/blog/3d-lora-finetuning",
-      "publishedAt": "2026-11-12T00:00:00.000Z",
-      "impact": 75
+      "title": "When Should Semantic Priors Enter Partially-Identified Causal Discovery?",
+      "excerpt": "14736v1 Announce Type: new Abstract: Observational causal discovery often leaves causal di- rections unresolved or unstable.  Large language mod- els (LLMs) can provide semantic information to resolve these directions...",
+      "source": "arXiv cs.AI",
+      "url": "https://arxiv.org/abs/2611.14736",
+      "publishedAt": "2026-11-13T05:00:00.000Z",
+      "impact": 58
     },
     {
-      "id": "hugging-face-1794373276000-2",
+      "id": "arxiv-cs.ai-1794546000000-4",
       "type": "live",
       "category": "llm",
-      "title": "BotPsy: On-Device Personal Assistant with a Sub-Billion-Parameter Agentic Language Model",
-      "excerpt": "New development from the frontier.",
-      "source": "Hugging Face",
-      "url": "https://huggingface.co/blog/qvac/botpsy",
-      "publishedAt": "2026-11-11T05:01:16.000Z",
-      "impact": 87
+      "title": "SynthCorp: A Platform for Creating Benchmarks for Data Agents",
+      "excerpt": "14765v1 Announce Type: new Abstract: Current benchmarks for LLM-driven data agents saturate quickly and cannot target specific capabilities.  We present SynthCorp, a platform that creates customizable data estates and...",
+      "source": "arXiv cs.AI",
+      "url": "https://arxiv.org/abs/2611.14765",
+      "publishedAt": "2026-11-13T05:00:00.000Z",
+      "impact": 69
+    },
+    {
+      "id": "arxiv-cs.ai-1794546000000-5",
+      "type": "live",
+      "category": "safety",
+      "title": "Rational Use of Time for Social Coordination in Humans and AI",
+      "excerpt": "14766v1 Announce Type: new Abstract: All social interactions are situated in time.  Previous studies have shown that humans are able to use implicit temporal cues, such as the duration of a pause, to infer others' men...",
+      "source": "arXiv cs.AI",
+      "url": "https://arxiv.org/abs/2611.14766",
+      "publishedAt": "2026-11-13T05:00:00.000Z",
+      "impact": 58
     }
   ]
 }

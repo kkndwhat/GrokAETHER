@@ -1,8 +1,19 @@
 {
-  "lastUpdated": "2026-11-14T05:49:49.745Z",
+  "lastUpdated": "2026-11-14T13:17:02.292Z",
   "source": "AETHER + Public RSS (arXiv, Hugging Face, MarkTechPost, Ben's Bites)",
   "count": 10,
   "articles": [
+    {
+      "id": "marktechpost-1794651681000-0",
+      "type": "live",
+      "category": "llm",
+      "title": "Stanford Research Open-Sources Memorilla, a Latent Memory Module for Frozen LLMs",
+      "excerpt": "Stanford researchers released Memorilla, an open-source memory system that compresses a document collection into 16 memory tokens for a frozen Qwen3-8B. 33% on FactKG using 108x fewer document tokens than full context",
+      "source": "MarkTechPost",
+      "url": "https://www.marktechpost.com/2026/11/14/stanford-memorilla-memory-system-16-memory-tokens/",
+      "publishedAt": "2026-11-14T10:21:21.000Z",
+      "impact": 65
+    },
     {
       "id": "aether-grok43",
       "type": "premium",
@@ -11,8 +22,19 @@
       "excerpt": "New model demonstrates 4.2× improvement on multi-step software engineering benchmarks and sustains coherent agent trajectories beyond 110k tokens.",
       "source": "xAI",
       "url": "https://x.ai/blog/grok-4.3",
-      "publishedAt": "2026-11-14T00:49:49.475Z",
+      "publishedAt": "2026-11-14T08:17:01.990Z",
       "impact": 96
+    },
+    {
+      "id": "marktechpost-1794638294000-1",
+      "type": "live",
+      "category": "research",
+      "title": "Vercel Releases UI SDK: 50+ UI Behaviors for AI Coding Agents",
+      "excerpt": "Vercel Labs released Vercel UI SDK, an Apache-2. 0 beta library of 50+ UI behaviors",
+      "source": "MarkTechPost",
+      "url": "https://www.marktechpost.com/2026/11/13/vercel-ui-sdk-agent-ui-behaviors/",
+      "publishedAt": "2026-11-14T06:38:14.000Z",
+      "impact": 77
     },
     {
       "id": "aether-figure03",
@@ -22,8 +44,19 @@
       "excerpt": "Humanoid achieves new milestone in unsupervised operation, performing 1,240 unique tasks across three assembly lines at the BMW South Carolina plant.",
       "source": "Figure AI",
       "url": "https://figure.ai/news/03-milestone",
-      "publishedAt": "2026-11-13T20:49:49.475Z",
+      "publishedAt": "2026-11-14T04:17:01.990Z",
       "impact": 89
+    },
+    {
+      "id": "aether-interp",
+      "type": "premium",
+      "category": "safety",
+      "title": "Anthropic publishes unprecedented mechanistic interpretability map of Claude 4",
+      "excerpt": "Researchers reverse-engineered 312 million features inside the model, including the first clear \"deception circuit\" discovered in a frontier model.",
+      "source": "Anthropic",
+      "url": "https://anthropic.com/research/claude-4-interp",
+      "publishedAt": "2026-11-13T23:17:01.990Z",
+      "impact": 91
     },
     {
       "id": "hugging-face-1794592839000-0",
@@ -37,7 +70,7 @@
       "impact": 75
     },
     {
-      "id": "marktechpost-1794590631000-0",
+      "id": "marktechpost-1794590631000-2",
       "type": "live",
       "category": "multimodal",
       "title": "Best AI Video Generation Models in 2026: Elo, Price per Second, Open Weights",
@@ -59,7 +92,7 @@
       "impact": 75
     },
     {
-      "id": "marktechpost-1794586202000-1",
+      "id": "marktechpost-1794586202000-3",
       "type": "live",
       "category": "llm",
       "title": "Perplexity Releases Decider v1.3: Open-Weight Decision Models Add Locate",
@@ -68,17 +101,6 @@
       "url": "https://www.marktechpost.com/2026/11/13/perplexity-decider-v1-3-open-weight-decision-models-locate/",
       "publishedAt": "2026-11-13T16:10:02.000Z",
       "impact": 65
-    },
-    {
-      "id": "aether-interp",
-      "type": "premium",
-      "category": "safety",
-      "title": "Anthropic publishes unprecedented mechanistic interpretability map of Claude 4",
-      "excerpt": "Researchers reverse-engineered 312 million features inside the model, including the first clear \"deception circuit\" discovered in a frontier model.",
-      "source": "Anthropic",
-      "url": "https://anthropic.com/research/claude-4-interp",
-      "publishedAt": "2026-11-13T15:49:49.475Z",
-      "impact": 91
     },
     {
       "id": "hugging-face-1794578722000-2",
@@ -90,28 +112,6 @@
       "url": "https://huggingface.co/blog/ggml-org/llama-cpp-v1",
       "publishedAt": "2026-11-13T14:05:22.000Z",
       "impact": 75
-    },
-    {
-      "id": "marktechpost-1794565946000-2",
-      "type": "live",
-      "category": "llm",
-      "title": "Google Releases TPU Sync: Open-Source KV Cache Transfer for TPUs",
-      "excerpt": "Google released TPU Sync, an open-source C++ library that moves KV caches and weights across TPU HBM, host DRAM, storage and network.  Google reports over 90% lower KV transfer latency on 235B to 480B MoE models",
-      "source": "MarkTechPost",
-      "url": "https://www.marktechpost.com/2026/11/13/google-tpu-sync-kv-cache-transfer-library/",
-      "publishedAt": "2026-11-13T10:32:26.000Z",
-      "impact": 65
-    },
-    {
-      "id": "marktechpost-1794563148000-3",
-      "type": "live",
-      "category": "llm",
-      "title": "Google Releases Gemini 4 Hydrogen: 2.5x Faster Than Gemini 3.8 Flash",
-      "excerpt": "Google released Gemini 4 Hydrogen, a fast agentic model with a 1M-token window, 4 thinking levels and $1.  Google reports a 51 Artificial Analysis score and 57% on Terminal-Bench 4",
-      "source": "MarkTechPost",
-      "url": "https://www.marktechpost.com/2026/11/13/google-gemini-4-hydrogen/",
-      "publishedAt": "2026-11-13T09:45:48.000Z",
-      "impact": 65
     }
   ]
 }

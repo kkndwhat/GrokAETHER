@@ -1,10 +1,43 @@
 {
-  "lastUpdated": "2026-11-14T13:17:02.292Z",
+  "lastUpdated": "2026-11-14T22:10:51.602Z",
   "source": "AETHER + Public RSS (arXiv, Hugging Face, MarkTechPost, Ben's Bites)",
   "count": 10,
   "articles": [
     {
-      "id": "marktechpost-1794651681000-0",
+      "id": "aether-grok43",
+      "type": "premium",
+      "category": "llm",
+      "title": "xAI releases Grok-4.3 with native long-horizon agent scaffolding",
+      "excerpt": "New model demonstrates 4.2× improvement on multi-step software engineering benchmarks and sustains coherent agent trajectories beyond 110k tokens.",
+      "source": "xAI",
+      "url": "https://x.ai/blog/grok-4.3",
+      "publishedAt": "2026-11-14T17:10:51.216Z",
+      "impact": 96
+    },
+    {
+      "id": "marktechpost-1794674748000-0",
+      "type": "live",
+      "category": "llm",
+      "title": "Cmpnd Releases dspy-wsp: Weight-Space Programming Comes to DSPy",
+      "excerpt": "Cmpnd released dspy-wsp, a prototype DSPy optimizer for weight-space programming.  A frontier LLM reads a small model’s weights, edits them in a sandbox, and tests each change, with no gradients and about $5 to $10 pe...",
+      "source": "MarkTechPost",
+      "url": "https://www.marktechpost.com/2026/11/14/cmpnd-dspy-wsp-weight-space-programming/",
+      "publishedAt": "2026-11-14T16:45:48.000Z",
+      "impact": 65
+    },
+    {
+      "id": "aether-figure03",
+      "type": "premium",
+      "category": "robotics",
+      "title": "Figure 03 completes 43-hour autonomous factory shift with zero interventions",
+      "excerpt": "Humanoid achieves new milestone in unsupervised operation, performing 1,240 unique tasks across three assembly lines at the BMW South Carolina plant.",
+      "source": "Figure AI",
+      "url": "https://figure.ai/news/03-milestone",
+      "publishedAt": "2026-11-14T13:10:51.216Z",
+      "impact": 89
+    },
+    {
+      "id": "marktechpost-1794651681000-1",
       "type": "live",
       "category": "llm",
       "title": "Stanford Research Open-Sources Memorilla, a Latent Memory Module for Frozen LLMs",
@@ -15,18 +48,18 @@
       "impact": 65
     },
     {
-      "id": "aether-grok43",
+      "id": "aether-interp",
       "type": "premium",
-      "category": "llm",
-      "title": "xAI releases Grok-4.3 with native long-horizon agent scaffolding",
-      "excerpt": "New model demonstrates 4.2× improvement on multi-step software engineering benchmarks and sustains coherent agent trajectories beyond 110k tokens.",
-      "source": "xAI",
-      "url": "https://x.ai/blog/grok-4.3",
-      "publishedAt": "2026-11-14T08:17:01.990Z",
-      "impact": 96
+      "category": "safety",
+      "title": "Anthropic publishes unprecedented mechanistic interpretability map of Claude 4",
+      "excerpt": "Researchers reverse-engineered 312 million features inside the model, including the first clear \"deception circuit\" discovered in a frontier model.",
+      "source": "Anthropic",
+      "url": "https://anthropic.com/research/claude-4-interp",
+      "publishedAt": "2026-11-14T08:10:51.216Z",
+      "impact": 91
     },
     {
-      "id": "marktechpost-1794638294000-1",
+      "id": "marktechpost-1794638294000-2",
       "type": "live",
       "category": "research",
       "title": "Vercel Releases UI SDK: 50+ UI Behaviors for AI Coding Agents",
@@ -35,28 +68,6 @@
       "url": "https://www.marktechpost.com/2026/11/13/vercel-ui-sdk-agent-ui-behaviors/",
       "publishedAt": "2026-11-14T06:38:14.000Z",
       "impact": 77
-    },
-    {
-      "id": "aether-figure03",
-      "type": "premium",
-      "category": "robotics",
-      "title": "Figure 03 completes 43-hour autonomous factory shift with zero interventions",
-      "excerpt": "Humanoid achieves new milestone in unsupervised operation, performing 1,240 unique tasks across three assembly lines at the BMW South Carolina plant.",
-      "source": "Figure AI",
-      "url": "https://figure.ai/news/03-milestone",
-      "publishedAt": "2026-11-14T04:17:01.990Z",
-      "impact": 89
-    },
-    {
-      "id": "aether-interp",
-      "type": "premium",
-      "category": "safety",
-      "title": "Anthropic publishes unprecedented mechanistic interpretability map of Claude 4",
-      "excerpt": "Researchers reverse-engineered 312 million features inside the model, including the first clear \"deception circuit\" discovered in a frontier model.",
-      "source": "Anthropic",
-      "url": "https://anthropic.com/research/claude-4-interp",
-      "publishedAt": "2026-11-13T23:17:01.990Z",
-      "impact": 91
     },
     {
       "id": "hugging-face-1794592839000-0",
@@ -70,7 +81,7 @@
       "impact": 75
     },
     {
-      "id": "marktechpost-1794590631000-2",
+      "id": "marktechpost-1794590631000-3",
       "type": "live",
       "category": "multimodal",
       "title": "Best AI Video Generation Models in 2026: Elo, Price per Second, Open Weights",
@@ -90,17 +101,6 @@
       "url": "https://huggingface.co/blog/allenai/xybench",
       "publishedAt": "2026-11-13T17:02:35.000Z",
       "impact": 75
-    },
-    {
-      "id": "marktechpost-1794586202000-3",
-      "type": "live",
-      "category": "llm",
-      "title": "Perplexity Releases Decider v1.3: Open-Weight Decision Models Add Locate",
-      "excerpt": "Perplexity Decider v1. 3 are open-weight decision models that return probabilities, not text",
-      "source": "MarkTechPost",
-      "url": "https://www.marktechpost.com/2026/11/13/perplexity-decider-v1-3-open-weight-decision-models-locate/",
-      "publishedAt": "2026-11-13T16:10:02.000Z",
-      "impact": 65
     },
     {
       "id": "hugging-face-1794578722000-2",

@@ -1,8 +1,19 @@
 {
-  "lastUpdated": "2026-11-15T05:50:51.061Z",
+  "lastUpdated": "2026-11-15T13:45:17.156Z",
   "source": "AETHER + Public RSS (arXiv, Hugging Face, MarkTechPost, Ben's Bites)",
   "count": 10,
   "articles": [
+    {
+      "id": "marktechpost-1794737181000-0",
+      "type": "live",
+      "category": "llm",
+      "title": "Bland Launches Tofu-1, a Full-Duplex Speech-to-Speech Model for Calls",
+      "excerpt": "Bland has released Tofu-1, a full-duplex speech-to-speech model for noisy, high-stakes phone calls.  It is in enterprise research preview, with no published benchmarks, size or pricing yet",
+      "source": "MarkTechPost",
+      "url": "https://www.marktechpost.com/2026/11/15/bland-tofu-1-full-duplex-speech-to-speech-model/",
+      "publishedAt": "2026-11-15T10:06:21.000Z",
+      "impact": 65
+    },
     {
       "id": "aether-grok43",
       "type": "premium",
@@ -11,7 +22,7 @@
       "excerpt": "New model demonstrates 4.2× improvement on multi-step software engineering benchmarks and sustains coherent agent trajectories beyond 110k tokens.",
       "source": "xAI",
       "url": "https://x.ai/blog/grok-4.3",
-      "publishedAt": "2026-11-15T00:50:50.592Z",
+      "publishedAt": "2026-11-15T08:45:16.732Z",
       "impact": 96
     },
     {
@@ -22,11 +33,22 @@
       "excerpt": "Humanoid achieves new milestone in unsupervised operation, performing 1,240 unique tasks across three assembly lines at the BMW South Carolina plant.",
       "source": "Figure AI",
       "url": "https://figure.ai/news/03-milestone",
-      "publishedAt": "2026-11-14T20:50:50.592Z",
+      "publishedAt": "2026-11-15T04:45:16.733Z",
       "impact": 89
     },
     {
-      "id": "marktechpost-1794674748000-0",
+      "id": "aether-interp",
+      "type": "premium",
+      "category": "safety",
+      "title": "Anthropic publishes unprecedented mechanistic interpretability map of Claude 4",
+      "excerpt": "Researchers reverse-engineered 312 million features inside the model, including the first clear \"deception circuit\" discovered in a frontier model.",
+      "source": "Anthropic",
+      "url": "https://anthropic.com/research/claude-4-interp",
+      "publishedAt": "2026-11-14T23:45:16.733Z",
+      "impact": 91
+    },
+    {
+      "id": "marktechpost-1794674748000-1",
       "type": "live",
       "category": "llm",
       "title": "Cmpnd Releases dspy-wsp: Weight-Space Programming Comes to DSPy",
@@ -37,18 +59,7 @@
       "impact": 65
     },
     {
-      "id": "aether-interp",
-      "type": "premium",
-      "category": "safety",
-      "title": "Anthropic publishes unprecedented mechanistic interpretability map of Claude 4",
-      "excerpt": "Researchers reverse-engineered 312 million features inside the model, including the first clear \"deception circuit\" discovered in a frontier model.",
-      "source": "Anthropic",
-      "url": "https://anthropic.com/research/claude-4-interp",
-      "publishedAt": "2026-11-14T15:50:50.592Z",
-      "impact": 91
-    },
-    {
-      "id": "marktechpost-1794651681000-1",
+      "id": "marktechpost-1794651681000-2",
       "type": "live",
       "category": "llm",
       "title": "Stanford Research Open-Sources Memorilla, a Latent Memory Module for Frozen LLMs",
@@ -59,7 +70,7 @@
       "impact": 65
     },
     {
-      "id": "marktechpost-1794638294000-2",
+      "id": "marktechpost-1794638294000-3",
       "type": "live",
       "category": "research",
       "title": "Vercel Releases UI SDK: 50+ UI Behaviors for AI Coding Agents",
@@ -79,17 +90,6 @@
       "url": "https://huggingface.co/blog/nvidia/simready-assets-robot-pick-and-place",
       "publishedAt": "2026-11-13T18:00:39.000Z",
       "impact": 75
-    },
-    {
-      "id": "marktechpost-1794590631000-3",
-      "type": "live",
-      "category": "multimodal",
-      "title": "Best AI Video Generation Models in 2026: Elo, Price per Second, Open Weights",
-      "excerpt": "The AI video leaderboard looks very different from 12 months ago.  Native audio is now table stakes",
-      "source": "MarkTechPost",
-      "url": "https://www.marktechpost.com/2026/11/13/best-ai-video-generation-models-2026/",
-      "publishedAt": "2026-11-13T17:23:51.000Z",
-      "impact": 65
     },
     {
       "id": "hugging-face-1794589355000-1",

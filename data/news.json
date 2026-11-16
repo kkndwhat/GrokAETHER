@@ -1,8 +1,63 @@
 {
-  "lastUpdated": "2026-11-16T05:50:27.982Z",
+  "lastUpdated": "2026-11-16T15:22:57.437Z",
   "source": "AETHER + Public RSS (arXiv, Hugging Face, MarkTechPost, Ben's Bites)",
   "count": 16,
   "articles": [
+    {
+      "id": "marktechpost-1794825581000-0",
+      "type": "live",
+      "category": "llm",
+      "title": "Meet Meta’s JiTTests: LLM-Generated Tests Designed to Fail Before Risky Code Lands",
+      "excerpt": "Meta has moved Catching JiTTests into production.  The LLM system writes tests designed to fail on risky diffs, and caught 74 privacy SEVs before landing in H1 2026, with a 60% engineer-reported true-positive rate",
+      "source": "MarkTechPost",
+      "url": "https://www.marktechpost.com/2026/11/16/meta-jittests-llm-catching-tests-privacy-bugs/",
+      "publishedAt": "2026-11-16T10:39:41.000Z",
+      "impact": 65
+    },
+    {
+      "id": "aether-grok43",
+      "type": "premium",
+      "category": "llm",
+      "title": "xAI releases Grok-4.3 with native long-horizon agent scaffolding",
+      "excerpt": "New model demonstrates 4.2× improvement on multi-step software engineering benchmarks and sustains coherent agent trajectories beyond 110k tokens.",
+      "source": "xAI",
+      "url": "https://x.ai/blog/grok-4.3",
+      "publishedAt": "2026-11-16T10:22:57.053Z",
+      "impact": 96
+    },
+    {
+      "id": "marktechpost-1794822257000-1",
+      "type": "live",
+      "category": "multimodal",
+      "title": "Alibaba Releases Qwen4-Max: 2.4T MoE, 71B Active, 1M Context",
+      "excerpt": "Alibaba released Qwen4-Max, a proprietary 2. 4T-parameter MoE model with 71B active parameters, native vision and a 1M-token context",
+      "source": "MarkTechPost",
+      "url": "https://www.marktechpost.com/2026/11/16/alibaba-qwen4-max-release/",
+      "publishedAt": "2026-11-16T09:44:17.000Z",
+      "impact": 65
+    },
+    {
+      "id": "marktechpost-1794820117000-2",
+      "type": "live",
+      "category": "research",
+      "title": "Hark Releases Handoff², a 2x Faster Computer-Use Agent for Hark Pro",
+      "excerpt": "Hark has released Handoff², the computer-use agent inside Hark Pro.  It averages 2x faster than v1, completes 82% of 478 internal web tasks, and learned to batch actions through latency-penalized RL",
+      "source": "MarkTechPost",
+      "url": "https://www.marktechpost.com/2026/11/16/hark-handoff-2-computer-use-agent-2x-faster/",
+      "publishedAt": "2026-11-16T09:08:37.000Z",
+      "impact": 77
+    },
+    {
+      "id": "aether-figure03",
+      "type": "premium",
+      "category": "robotics",
+      "title": "Figure 03 completes 43-hour autonomous factory shift with zero interventions",
+      "excerpt": "Humanoid achieves new milestone in unsupervised operation, performing 1,240 unique tasks across three assembly lines at the BMW South Carolina plant.",
+      "source": "Figure AI",
+      "url": "https://figure.ai/news/03-milestone",
+      "publishedAt": "2026-11-16T06:22:57.053Z",
+      "impact": 89
+    },
     {
       "id": "arxiv-cs.ai-1794805200000-0",
       "type": "live",
@@ -70,28 +125,6 @@
       "impact": 58
     },
     {
-      "id": "aether-grok43",
-      "type": "premium",
-      "category": "llm",
-      "title": "xAI releases Grok-4.3 with native long-horizon agent scaffolding",
-      "excerpt": "New model demonstrates 4.2× improvement on multi-step software engineering benchmarks and sustains coherent agent trajectories beyond 110k tokens.",
-      "source": "xAI",
-      "url": "https://x.ai/blog/grok-4.3",
-      "publishedAt": "2026-11-16T00:50:27.658Z",
-      "impact": 96
-    },
-    {
-      "id": "aether-figure03",
-      "type": "premium",
-      "category": "robotics",
-      "title": "Figure 03 completes 43-hour autonomous factory shift with zero interventions",
-      "excerpt": "Humanoid achieves new milestone in unsupervised operation, performing 1,240 unique tasks across three assembly lines at the BMW South Carolina plant.",
-      "source": "Figure AI",
-      "url": "https://figure.ai/news/03-milestone",
-      "publishedAt": "2026-11-15T20:50:27.658Z",
-      "impact": 89
-    },
-    {
       "id": "aether-interp",
       "type": "premium",
       "category": "safety",
@@ -99,11 +132,11 @@
       "excerpt": "Researchers reverse-engineered 312 million features inside the model, including the first clear \"deception circuit\" discovered in a frontier model.",
       "source": "Anthropic",
       "url": "https://anthropic.com/research/claude-4-interp",
-      "publishedAt": "2026-11-15T15:50:27.658Z",
+      "publishedAt": "2026-11-16T01:22:57.053Z",
       "impact": 91
     },
     {
-      "id": "marktechpost-1794737181000-0",
+      "id": "marktechpost-1794737181000-3",
       "type": "live",
       "category": "llm",
       "title": "Bland Launches Tofu-1, a Full-Duplex Speech-to-Speech Model for Calls",
@@ -112,39 +145,6 @@
       "url": "https://www.marktechpost.com/2026/11/15/bland-tofu-1-full-duplex-speech-to-speech-model/",
       "publishedAt": "2026-11-15T10:06:21.000Z",
       "impact": 65
-    },
-    {
-      "id": "marktechpost-1794674748000-1",
-      "type": "live",
-      "category": "llm",
-      "title": "Cmpnd Releases dspy-wsp: Weight-Space Programming Comes to DSPy",
-      "excerpt": "Cmpnd released dspy-wsp, a prototype DSPy optimizer for weight-space programming.  A frontier LLM reads a small model’s weights, edits them in a sandbox, and tests each change, with no gradients and about $5 to $10 pe...",
-      "source": "MarkTechPost",
-      "url": "https://www.marktechpost.com/2026/11/14/cmpnd-dspy-wsp-weight-space-programming/",
-      "publishedAt": "2026-11-14T16:45:48.000Z",
-      "impact": 65
-    },
-    {
-      "id": "marktechpost-1794651681000-2",
-      "type": "live",
-      "category": "llm",
-      "title": "Stanford Research Open-Sources Memorilla, a Latent Memory Module for Frozen LLMs",
-      "excerpt": "Stanford researchers released Memorilla, an open-source memory system that compresses a document collection into 16 memory tokens for a frozen Qwen3-8B. 33% on FactKG using 108x fewer document tokens than full context",
-      "source": "MarkTechPost",
-      "url": "https://www.marktechpost.com/2026/11/14/stanford-memorilla-memory-system-16-memory-tokens/",
-      "publishedAt": "2026-11-14T10:21:21.000Z",
-      "impact": 65
-    },
-    {
-      "id": "marktechpost-1794638294000-3",
-      "type": "live",
-      "category": "research",
-      "title": "Vercel Releases UI SDK: 50+ UI Behaviors for AI Coding Agents",
-      "excerpt": "Vercel Labs released Vercel UI SDK, an Apache-2. 0 beta library of 50+ UI behaviors",
-      "source": "MarkTechPost",
-      "url": "https://www.marktechpost.com/2026/11/13/vercel-ui-sdk-agent-ui-behaviors/",
-      "publishedAt": "2026-11-14T06:38:14.000Z",
-      "impact": 77
     },
     {
       "id": "hugging-face-1794592839000-0",

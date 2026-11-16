@@ -1,8 +1,74 @@
 {
-  "lastUpdated": "2026-11-15T22:40:02.907Z",
+  "lastUpdated": "2026-11-16T05:50:27.982Z",
   "source": "AETHER + Public RSS (arXiv, Hugging Face, MarkTechPost, Ben's Bites)",
-  "count": 10,
+  "count": 16,
   "articles": [
+    {
+      "id": "arxiv-cs.ai-1794805200000-0",
+      "type": "live",
+      "category": "llm",
+      "title": "When Should LLM Agents Forget? Memory Filtering Under Query-Critical Resolver Errors",
+      "excerpt": "17338v1 Announce Type: new Abstract: LLM memory systems often delete facts classified as stale.  We show that this hard-filtering step can reduce downstream accuracy when resolver errors delete query-critical facts",
+      "source": "arXiv cs.AI",
+      "url": "https://arxiv.org/abs/2611.17338",
+      "publishedAt": "2026-11-16T05:00:00.000Z",
+      "impact": 69
+    },
+    {
+      "id": "arxiv-cs.ai-1794805200000-1",
+      "type": "live",
+      "category": "hardware",
+      "title": "Does the Ranking Hold? A Practitioner-Facing Audit of Hallucination Detectors on Small, Quantized, On-Device LLMs",
+      "excerpt": "17339v1 Announce Type: new Abstract: Hallucination detection for large language models is dominated by methods evaluated on 7B-70B research models with abundant sampling budgets and exact-match or ROUGE correctness la...",
+      "source": "arXiv cs.AI",
+      "url": "https://arxiv.org/abs/2611.17339",
+      "publishedAt": "2026-11-16T05:00:00.000Z",
+      "impact": 58
+    },
+    {
+      "id": "arxiv-cs.ai-1794805200000-2",
+      "type": "live",
+      "category": "safety",
+      "title": "LoRAWeaver: Directional Adapter Routing in LoRA Representation Space",
+      "excerpt": "17340v1 Announce Type: new Abstract: Large language models are expensive to update through full retraining.  Parameter-efficient fine-tuning reduces the cost of adaptation, but repeated adaptation creates a growing po...",
+      "source": "arXiv cs.AI",
+      "url": "https://arxiv.org/abs/2611.17340",
+      "publishedAt": "2026-11-16T05:00:00.000Z",
+      "impact": 58
+    },
+    {
+      "id": "arxiv-cs.ai-1794805200000-3",
+      "type": "live",
+      "category": "llm",
+      "title": "Tabular Population Priors as Structured Retrieval for EHR Medication Set Prediction",
+      "excerpt": "17341v1 Announce Type: new Abstract: Medication prediction from electronic health records is a fixed vocabulary structured prediction problem, yet recent clinical RAG systems often treat it like open ended case based ...",
+      "source": "arXiv cs.AI",
+      "url": "https://arxiv.org/abs/2611.17341",
+      "publishedAt": "2026-11-16T05:00:00.000Z",
+      "impact": 58
+    },
+    {
+      "id": "arxiv-cs.ai-1794805200000-4",
+      "type": "live",
+      "category": "safety",
+      "title": "An Operationalization of Opaque Serial Depth",
+      "excerpt": "17495v1 Announce Type: new Abstract: Chain-of-thought (CoT) is currently a valuable tool for overseeing AI models, but some architectural shifts could significantly reduce CoT monitorability.  We operationalize a meas...",
+      "source": "arXiv cs.AI",
+      "url": "https://arxiv.org/abs/2611.17495",
+      "publishedAt": "2026-11-16T05:00:00.000Z",
+      "impact": 58
+    },
+    {
+      "id": "arxiv-cs.ai-1794805200000-5",
+      "type": "live",
+      "category": "llm",
+      "title": "Advancing Quantization for R&R Models with Microscaling Formats",
+      "excerpt": "17501v1 Announce Type: new Abstract: Recommendation and Ranking (R&R) models, particularly in digital advertising, require massive inference throughput but exhibit extreme sensitivity to precision loss.  Unlike Large ...",
+      "source": "arXiv cs.AI",
+      "url": "https://arxiv.org/abs/2611.17501",
+      "publishedAt": "2026-11-16T05:00:00.000Z",
+      "impact": 58
+    },
     {
       "id": "aether-grok43",
       "type": "premium",
@@ -11,7 +77,7 @@
       "excerpt": "New model demonstrates 4.2× improvement on multi-step software engineering benchmarks and sustains coherent agent trajectories beyond 110k tokens.",
       "source": "xAI",
       "url": "https://x.ai/blog/grok-4.3",
-      "publishedAt": "2026-11-15T17:40:02.517Z",
+      "publishedAt": "2026-11-16T00:50:27.658Z",
       "impact": 96
     },
     {
@@ -22,8 +88,19 @@
       "excerpt": "Humanoid achieves new milestone in unsupervised operation, performing 1,240 unique tasks across three assembly lines at the BMW South Carolina plant.",
       "source": "Figure AI",
       "url": "https://figure.ai/news/03-milestone",
-      "publishedAt": "2026-11-15T13:40:02.517Z",
+      "publishedAt": "2026-11-15T20:50:27.658Z",
       "impact": 89
+    },
+    {
+      "id": "aether-interp",
+      "type": "premium",
+      "category": "safety",
+      "title": "Anthropic publishes unprecedented mechanistic interpretability map of Claude 4",
+      "excerpt": "Researchers reverse-engineered 312 million features inside the model, including the first clear \"deception circuit\" discovered in a frontier model.",
+      "source": "Anthropic",
+      "url": "https://anthropic.com/research/claude-4-interp",
+      "publishedAt": "2026-11-15T15:50:27.658Z",
+      "impact": 91
     },
     {
       "id": "marktechpost-1794737181000-0",
@@ -35,17 +112,6 @@
       "url": "https://www.marktechpost.com/2026/11/15/bland-tofu-1-full-duplex-speech-to-speech-model/",
       "publishedAt": "2026-11-15T10:06:21.000Z",
       "impact": 65
-    },
-    {
-      "id": "aether-interp",
-      "type": "premium",
-      "category": "safety",
-      "title": "Anthropic publishes unprecedented mechanistic interpretability map of Claude 4",
-      "excerpt": "Researchers reverse-engineered 312 million features inside the model, including the first clear \"deception circuit\" discovered in a frontier model.",
-      "source": "Anthropic",
-      "url": "https://anthropic.com/research/claude-4-interp",
-      "publishedAt": "2026-11-15T08:40:02.517Z",
-      "impact": 91
     },
     {
       "id": "marktechpost-1794674748000-1",

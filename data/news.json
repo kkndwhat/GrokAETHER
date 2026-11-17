@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-11-17T01:46:44.486Z",
+  "lastUpdated": "2026-11-17T15:46:21.890Z",
   "source": "AETHER + Public RSS (arXiv, Hugging Face, MarkTechPost, Ben's Bites)",
   "count": 16,
   "articles": [
@@ -11,8 +11,41 @@
       "excerpt": "New model demonstrates 4.2× improvement on multi-step software engineering benchmarks and sustains coherent agent trajectories beyond 110k tokens.",
       "source": "xAI",
       "url": "https://x.ai/blog/grok-4.3",
-      "publishedAt": "2026-11-16T20:46:44.167Z",
+      "publishedAt": "2026-11-17T10:46:21.479Z",
       "impact": 96
+    },
+    {
+      "id": "marktechpost-1794911831000-0",
+      "type": "live",
+      "category": "hardware",
+      "title": "NVIDIA Open-Sources NVKE and NVKR for Managed Kubernetes on GPU Infrastructure",
+      "excerpt": "NVIDIA has open-sourced NVIDIA Kubernetes Engine (NVKE) and NVIDIA Kubernetes Recipes (NVKR) under Apache 2.  Together they let AI factories run a managed Kubernetes service on their own bare-metal GPU servers",
+      "source": "MarkTechPost",
+      "url": "https://www.marktechpost.com/2026/11/17/nvidia-nvke-nvkr-managed-kubernetes-gpu/",
+      "publishedAt": "2026-11-17T10:37:11.000Z",
+      "impact": 65
+    },
+    {
+      "id": "marktechpost-1794909078000-1",
+      "type": "live",
+      "category": "hardware",
+      "title": "Sarvam Launches Sarvam Token Factory: Bringing India-Hosted Inference to 8 Open Models",
+      "excerpt": "Sarvam Token Factory is now open to everyone.  It serves Sarvam 105B, GLM 5",
+      "source": "MarkTechPost",
+      "url": "https://www.marktechpost.com/2026/11/17/sarvam-token-factory-india-inference-platform/",
+      "publishedAt": "2026-11-17T09:51:18.000Z",
+      "impact": 65
+    },
+    {
+      "id": "marktechpost-1794907257000-2",
+      "type": "live",
+      "category": "multimodal",
+      "title": "Liquid AI Releases d1.2 and d1.2-ultra: Omnimodal Decision Models That Top the AA Decision Index",
+      "excerpt": "Liquid AI released d1. 2-ultra, decision models that read text, images and audio and return calibrated probabilities with zero output tokens",
+      "source": "MarkTechPost",
+      "url": "https://www.marktechpost.com/2026/11/17/liquid-ai-d1-2-omnimodal-decision-models/",
+      "publishedAt": "2026-11-17T09:20:57.000Z",
+      "impact": 65
     },
     {
       "id": "aether-figure03",
@@ -22,8 +55,74 @@
       "excerpt": "Humanoid achieves new milestone in unsupervised operation, performing 1,240 unique tasks across three assembly lines at the BMW South Carolina plant.",
       "source": "Figure AI",
       "url": "https://figure.ai/news/03-milestone",
-      "publishedAt": "2026-11-16T16:46:44.168Z",
+      "publishedAt": "2026-11-17T06:46:21.479Z",
       "impact": 89
+    },
+    {
+      "id": "arxiv-cs.ai-1794891600000-0",
+      "type": "live",
+      "category": "llm",
+      "title": "Agents Cannot Hand Over What They Have Not Yet Understood",
+      "excerpt": "18642v1 Announce Type: new Abstract: Agents that work beyond a single context window, or in teams, hand their work to a successor as a short written summary.  Evaluation has focused on whether an agent can solve a tas...",
+      "source": "arXiv cs.AI",
+      "url": "https://arxiv.org/abs/2611.18642",
+      "publishedAt": "2026-11-17T05:00:00.000Z",
+      "impact": 69
+    },
+    {
+      "id": "arxiv-cs.ai-1794891600000-1",
+      "type": "live",
+      "category": "llm",
+      "title": "How to make a moral agent: sentimentalism and rationalism as lenses on AI",
+      "excerpt": "18714v1 Announce Type: new Abstract: Can AI systems be moral agents.  That is, can they undertake actions that can be correctly assessed as morally right or wrong",
+      "source": "arXiv cs.AI",
+      "url": "https://arxiv.org/abs/2611.18714",
+      "publishedAt": "2026-11-17T05:00:00.000Z",
+      "impact": 69
+    },
+    {
+      "id": "arxiv-cs.ai-1794891600000-2",
+      "type": "live",
+      "category": "multimodal",
+      "title": "Video-as-Experience: Learning Computer Use via Audio-Visual Understanding",
+      "excerpt": "18747v1 Announce Type: new Abstract: Multimodal large language models (LLMs) have enabled capable computer-use agents that perceive graphical user interfaces, reason over instructions, and execute actions.  However, e...",
+      "source": "arXiv cs.AI",
+      "url": "https://arxiv.org/abs/2611.18747",
+      "publishedAt": "2026-11-17T05:00:00.000Z",
+      "impact": 58
+    },
+    {
+      "id": "arxiv-cs.ai-1794891600000-3",
+      "type": "live",
+      "category": "safety",
+      "title": "Multimodal Fusion: A Review of Breast Cancer Advanced and Traditional Modalities",
+      "excerpt": "18793v1 Announce Type: new Abstract: Purpose: Multimodal medical imaging fusion (MMIF) is an increasingly important approach to breast cancer detection (BCD), as different imaging modalities rely on different physical...",
+      "source": "arXiv cs.AI",
+      "url": "https://arxiv.org/abs/2611.18793",
+      "publishedAt": "2026-11-17T05:00:00.000Z",
+      "impact": 58
+    },
+    {
+      "id": "arxiv-cs.ai-1794891600000-4",
+      "type": "live",
+      "category": "multimodal",
+      "title": "D\\'ecoupage: Directorial Audio-Visual Control for Long Multi-Shot Video Generation",
+      "excerpt": "18866v1 Announce Type: new Abstract: In cinematic storytelling, sound and visual transitions do not always coincide in lockstep: dialogue frequently bridges across cuts to reveal reactions or introduces new scenes via...",
+      "source": "arXiv cs.AI",
+      "url": "https://arxiv.org/abs/2611.18866",
+      "publishedAt": "2026-11-17T05:00:00.000Z",
+      "impact": 58
+    },
+    {
+      "id": "arxiv-cs.ai-1794891600000-5",
+      "type": "live",
+      "category": "safety",
+      "title": "SPLICE: Structured Prompt Local Iterative Combinatorial Evolution",
+      "excerpt": "18883v1 Announce Type: new Abstract: Natural language optimization (NLO) improves an agent by having a model critique and rewrite its natural language policy parameters: system prompts, tool instructions, reasoning di...",
+      "source": "arXiv cs.AI",
+      "url": "https://arxiv.org/abs/2611.18883",
+      "publishedAt": "2026-11-17T05:00:00.000Z",
+      "impact": 58
     },
     {
       "id": "aether-interp",
@@ -33,11 +132,11 @@
       "excerpt": "Researchers reverse-engineered 312 million features inside the model, including the first clear \"deception circuit\" discovered in a frontier model.",
       "source": "Anthropic",
       "url": "https://anthropic.com/research/claude-4-interp",
-      "publishedAt": "2026-11-16T11:46:44.168Z",
+      "publishedAt": "2026-11-17T01:46:21.479Z",
       "impact": 91
     },
     {
-      "id": "marktechpost-1794825581000-0",
+      "id": "marktechpost-1794825581000-3",
       "type": "live",
       "category": "llm",
       "title": "Meet Meta’s JiTTests: LLM-Generated Tests Designed to Fail Before Risky Code Lands",
@@ -46,94 +145,6 @@
       "url": "https://www.marktechpost.com/2026/11/16/meta-jittests-llm-catching-tests-privacy-bugs/",
       "publishedAt": "2026-11-16T10:39:41.000Z",
       "impact": 65
-    },
-    {
-      "id": "marktechpost-1794822257000-1",
-      "type": "live",
-      "category": "multimodal",
-      "title": "Alibaba Releases Qwen4-Max: 2.4T MoE, 71B Active, 1M Context",
-      "excerpt": "Alibaba released Qwen4-Max, a proprietary 2. 4T-parameter MoE model with 71B active parameters, native vision and a 1M-token context",
-      "source": "MarkTechPost",
-      "url": "https://www.marktechpost.com/2026/11/16/alibaba-qwen4-max-release/",
-      "publishedAt": "2026-11-16T09:44:17.000Z",
-      "impact": 65
-    },
-    {
-      "id": "marktechpost-1794820117000-2",
-      "type": "live",
-      "category": "research",
-      "title": "Hark Releases Handoff², a 2x Faster Computer-Use Agent for Hark Pro",
-      "excerpt": "Hark has released Handoff², the computer-use agent inside Hark Pro.  It averages 2x faster than v1, completes 82% of 478 internal web tasks, and learned to batch actions through latency-penalized RL",
-      "source": "MarkTechPost",
-      "url": "https://www.marktechpost.com/2026/11/16/hark-handoff-2-computer-use-agent-2x-faster/",
-      "publishedAt": "2026-11-16T09:08:37.000Z",
-      "impact": 77
-    },
-    {
-      "id": "arxiv-cs.ai-1794805200000-0",
-      "type": "live",
-      "category": "llm",
-      "title": "When Should LLM Agents Forget? Memory Filtering Under Query-Critical Resolver Errors",
-      "excerpt": "17338v1 Announce Type: new Abstract: LLM memory systems often delete facts classified as stale.  We show that this hard-filtering step can reduce downstream accuracy when resolver errors delete query-critical facts",
-      "source": "arXiv cs.AI",
-      "url": "https://arxiv.org/abs/2611.17338",
-      "publishedAt": "2026-11-16T05:00:00.000Z",
-      "impact": 69
-    },
-    {
-      "id": "arxiv-cs.ai-1794805200000-1",
-      "type": "live",
-      "category": "hardware",
-      "title": "Does the Ranking Hold? A Practitioner-Facing Audit of Hallucination Detectors on Small, Quantized, On-Device LLMs",
-      "excerpt": "17339v1 Announce Type: new Abstract: Hallucination detection for large language models is dominated by methods evaluated on 7B-70B research models with abundant sampling budgets and exact-match or ROUGE correctness la...",
-      "source": "arXiv cs.AI",
-      "url": "https://arxiv.org/abs/2611.17339",
-      "publishedAt": "2026-11-16T05:00:00.000Z",
-      "impact": 58
-    },
-    {
-      "id": "arxiv-cs.ai-1794805200000-2",
-      "type": "live",
-      "category": "safety",
-      "title": "LoRAWeaver: Directional Adapter Routing in LoRA Representation Space",
-      "excerpt": "17340v1 Announce Type: new Abstract: Large language models are expensive to update through full retraining.  Parameter-efficient fine-tuning reduces the cost of adaptation, but repeated adaptation creates a growing po...",
-      "source": "arXiv cs.AI",
-      "url": "https://arxiv.org/abs/2611.17340",
-      "publishedAt": "2026-11-16T05:00:00.000Z",
-      "impact": 58
-    },
-    {
-      "id": "arxiv-cs.ai-1794805200000-3",
-      "type": "live",
-      "category": "llm",
-      "title": "Tabular Population Priors as Structured Retrieval for EHR Medication Set Prediction",
-      "excerpt": "17341v1 Announce Type: new Abstract: Medication prediction from electronic health records is a fixed vocabulary structured prediction problem, yet recent clinical RAG systems often treat it like open ended case based ...",
-      "source": "arXiv cs.AI",
-      "url": "https://arxiv.org/abs/2611.17341",
-      "publishedAt": "2026-11-16T05:00:00.000Z",
-      "impact": 58
-    },
-    {
-      "id": "arxiv-cs.ai-1794805200000-4",
-      "type": "live",
-      "category": "safety",
-      "title": "An Operationalization of Opaque Serial Depth",
-      "excerpt": "17495v1 Announce Type: new Abstract: Chain-of-thought (CoT) is currently a valuable tool for overseeing AI models, but some architectural shifts could significantly reduce CoT monitorability.  We operationalize a meas...",
-      "source": "arXiv cs.AI",
-      "url": "https://arxiv.org/abs/2611.17495",
-      "publishedAt": "2026-11-16T05:00:00.000Z",
-      "impact": 58
-    },
-    {
-      "id": "arxiv-cs.ai-1794805200000-5",
-      "type": "live",
-      "category": "llm",
-      "title": "Advancing Quantization for R&R Models with Microscaling Formats",
-      "excerpt": "17501v1 Announce Type: new Abstract: Recommendation and Ranking (R&R) models, particularly in digital advertising, require massive inference throughput but exhibit extreme sensitivity to precision loss.  Unlike Large ...",
-      "source": "arXiv cs.AI",
-      "url": "https://arxiv.org/abs/2611.17501",
-      "publishedAt": "2026-11-16T05:00:00.000Z",
-      "impact": 58
     },
     {
       "id": "hugging-face-1794787200000-0",
@@ -145,17 +156,6 @@
       "url": "https://huggingface.co/blog/openrouter",
       "publishedAt": "2026-11-16T00:00:00.000Z",
       "impact": 75
-    },
-    {
-      "id": "marktechpost-1794737181000-3",
-      "type": "live",
-      "category": "llm",
-      "title": "Bland Launches Tofu-1, a Full-Duplex Speech-to-Speech Model for Calls",
-      "excerpt": "Bland has released Tofu-1, a full-duplex speech-to-speech model for noisy, high-stakes phone calls.  It is in enterprise research preview, with no published benchmarks, size or pricing yet",
-      "source": "MarkTechPost",
-      "url": "https://www.marktechpost.com/2026/11/15/bland-tofu-1-full-duplex-speech-to-speech-model/",
-      "publishedAt": "2026-11-15T10:06:21.000Z",
-      "impact": 65
     },
     {
       "id": "hugging-face-1794592839000-1",

@@ -1,8 +1,41 @@
 {
-  "lastUpdated": "2026-11-16T15:22:57.437Z",
+  "lastUpdated": "2026-11-17T01:46:44.486Z",
   "source": "AETHER + Public RSS (arXiv, Hugging Face, MarkTechPost, Ben's Bites)",
   "count": 16,
   "articles": [
+    {
+      "id": "aether-grok43",
+      "type": "premium",
+      "category": "llm",
+      "title": "xAI releases Grok-4.3 with native long-horizon agent scaffolding",
+      "excerpt": "New model demonstrates 4.2× improvement on multi-step software engineering benchmarks and sustains coherent agent trajectories beyond 110k tokens.",
+      "source": "xAI",
+      "url": "https://x.ai/blog/grok-4.3",
+      "publishedAt": "2026-11-16T20:46:44.167Z",
+      "impact": 96
+    },
+    {
+      "id": "aether-figure03",
+      "type": "premium",
+      "category": "robotics",
+      "title": "Figure 03 completes 43-hour autonomous factory shift with zero interventions",
+      "excerpt": "Humanoid achieves new milestone in unsupervised operation, performing 1,240 unique tasks across three assembly lines at the BMW South Carolina plant.",
+      "source": "Figure AI",
+      "url": "https://figure.ai/news/03-milestone",
+      "publishedAt": "2026-11-16T16:46:44.168Z",
+      "impact": 89
+    },
+    {
+      "id": "aether-interp",
+      "type": "premium",
+      "category": "safety",
+      "title": "Anthropic publishes unprecedented mechanistic interpretability map of Claude 4",
+      "excerpt": "Researchers reverse-engineered 312 million features inside the model, including the first clear \"deception circuit\" discovered in a frontier model.",
+      "source": "Anthropic",
+      "url": "https://anthropic.com/research/claude-4-interp",
+      "publishedAt": "2026-11-16T11:46:44.168Z",
+      "impact": 91
+    },
     {
       "id": "marktechpost-1794825581000-0",
       "type": "live",
@@ -13,17 +46,6 @@
       "url": "https://www.marktechpost.com/2026/11/16/meta-jittests-llm-catching-tests-privacy-bugs/",
       "publishedAt": "2026-11-16T10:39:41.000Z",
       "impact": 65
-    },
-    {
-      "id": "aether-grok43",
-      "type": "premium",
-      "category": "llm",
-      "title": "xAI releases Grok-4.3 with native long-horizon agent scaffolding",
-      "excerpt": "New model demonstrates 4.2× improvement on multi-step software engineering benchmarks and sustains coherent agent trajectories beyond 110k tokens.",
-      "source": "xAI",
-      "url": "https://x.ai/blog/grok-4.3",
-      "publishedAt": "2026-11-16T10:22:57.053Z",
-      "impact": 96
     },
     {
       "id": "marktechpost-1794822257000-1",
@@ -46,17 +68,6 @@
       "url": "https://www.marktechpost.com/2026/11/16/hark-handoff-2-computer-use-agent-2x-faster/",
       "publishedAt": "2026-11-16T09:08:37.000Z",
       "impact": 77
-    },
-    {
-      "id": "aether-figure03",
-      "type": "premium",
-      "category": "robotics",
-      "title": "Figure 03 completes 43-hour autonomous factory shift with zero interventions",
-      "excerpt": "Humanoid achieves new milestone in unsupervised operation, performing 1,240 unique tasks across three assembly lines at the BMW South Carolina plant.",
-      "source": "Figure AI",
-      "url": "https://figure.ai/news/03-milestone",
-      "publishedAt": "2026-11-16T06:22:57.053Z",
-      "impact": 89
     },
     {
       "id": "arxiv-cs.ai-1794805200000-0",
@@ -125,15 +136,15 @@
       "impact": 58
     },
     {
-      "id": "aether-interp",
-      "type": "premium",
-      "category": "safety",
-      "title": "Anthropic publishes unprecedented mechanistic interpretability map of Claude 4",
-      "excerpt": "Researchers reverse-engineered 312 million features inside the model, including the first clear \"deception circuit\" discovered in a frontier model.",
-      "source": "Anthropic",
-      "url": "https://anthropic.com/research/claude-4-interp",
-      "publishedAt": "2026-11-16T01:22:57.053Z",
-      "impact": 91
+      "id": "hugging-face-1794787200000-0",
+      "type": "live",
+      "category": "llm",
+      "title": "Hugging Face and OpenRouter join forces to make open-weight models easy to run",
+      "excerpt": "New development from the frontier.",
+      "source": "Hugging Face",
+      "url": "https://huggingface.co/blog/openrouter",
+      "publishedAt": "2026-11-16T00:00:00.000Z",
+      "impact": 75
     },
     {
       "id": "marktechpost-1794737181000-3",
@@ -147,7 +158,7 @@
       "impact": 65
     },
     {
-      "id": "hugging-face-1794592839000-0",
+      "id": "hugging-face-1794592839000-1",
       "type": "live",
       "category": "robotics",
       "title": "Build a Robot Pick-and-Place Simulation with SimReady Assets",
@@ -158,7 +169,7 @@
       "impact": 75
     },
     {
-      "id": "hugging-face-1794589355000-1",
+      "id": "hugging-face-1794589355000-2",
       "type": "live",
       "category": "research",
       "title": "XYBench: Helping with the problem behind the question",
@@ -166,17 +177,6 @@
       "source": "Hugging Face",
       "url": "https://huggingface.co/blog/allenai/xybench",
       "publishedAt": "2026-11-13T17:02:35.000Z",
-      "impact": 75
-    },
-    {
-      "id": "hugging-face-1794578722000-2",
-      "type": "live",
-      "category": "llm",
-      "title": "llama.cpp v1.0.0 : A stronger foundation for the local AI ecosystem",
-      "excerpt": "New development from the frontier.",
-      "source": "Hugging Face",
-      "url": "https://huggingface.co/blog/ggml-org/llama-cpp-v1",
-      "publishedAt": "2026-11-13T14:05:22.000Z",
       "impact": 75
     }
   ]

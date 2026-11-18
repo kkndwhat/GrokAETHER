@@ -1,8 +1,41 @@
 {
-  "lastUpdated": "2026-11-17T15:46:21.890Z",
+  "lastUpdated": "2026-11-18T00:48:40.570Z",
   "source": "AETHER + Public RSS (arXiv, Hugging Face, MarkTechPost, Ben's Bites)",
   "count": 16,
   "articles": [
+    {
+      "id": "marktechpost-1794955924000-0",
+      "type": "live",
+      "category": "llm",
+      "title": "Perplexity Computer Adds Multiagent: Up to 16 AI Agents That Cross-Check Work",
+      "excerpt": "Perplexity added Multiagent to Computer, an effort level above Ultra where a lead agent runs up to 16 agents on Claude, GPT and Gemini models that share findings and check each other’s work.  The post Perplexity Compu...",
+      "source": "MarkTechPost",
+      "url": "https://www.marktechpost.com/2026/11/17/perplexity-computer-multiagent-effort-level/",
+      "publishedAt": "2026-11-17T22:52:04.000Z",
+      "impact": 77
+    },
+    {
+      "id": "marktechpost-1794953250000-1",
+      "type": "live",
+      "category": "llm",
+      "title": "OpenAI Releases GPT-6.2 Astra and Sol With a 20% Cheaper Astra API",
+      "excerpt": "OpenAI released GPT-6. 2 Sol on November 17, 2026",
+      "source": "MarkTechPost",
+      "url": "https://www.marktechpost.com/2026/11/17/openai-gpt-6-2-astra-sol-release/",
+      "publishedAt": "2026-11-17T22:07:30.000Z",
+      "impact": 65
+    },
+    {
+      "id": "marktechpost-1794948585000-2",
+      "type": "live",
+      "category": "research",
+      "title": "Clearing Up the Confusion on AI Data Retention: Two Standard Designs Explained",
+      "excerpt": "Zero data retention applies to specific AI endpoints, not whole vendors.  This guide explains the 2 standard API designs for data retention, who manages deletion in each, and 6 checks for developers",
+      "source": "MarkTechPost",
+      "url": "https://www.marktechpost.com/2026/11/17/zero-data-retention-ai-apis-explained/",
+      "publishedAt": "2026-11-17T20:49:45.000Z",
+      "impact": 65
+    },
     {
       "id": "aether-grok43",
       "type": "premium",
@@ -11,41 +44,8 @@
       "excerpt": "New model demonstrates 4.2× improvement on multi-step software engineering benchmarks and sustains coherent agent trajectories beyond 110k tokens.",
       "source": "xAI",
       "url": "https://x.ai/blog/grok-4.3",
-      "publishedAt": "2026-11-17T10:46:21.479Z",
+      "publishedAt": "2026-11-17T19:48:40.135Z",
       "impact": 96
-    },
-    {
-      "id": "marktechpost-1794911831000-0",
-      "type": "live",
-      "category": "hardware",
-      "title": "NVIDIA Open-Sources NVKE and NVKR for Managed Kubernetes on GPU Infrastructure",
-      "excerpt": "NVIDIA has open-sourced NVIDIA Kubernetes Engine (NVKE) and NVIDIA Kubernetes Recipes (NVKR) under Apache 2.  Together they let AI factories run a managed Kubernetes service on their own bare-metal GPU servers",
-      "source": "MarkTechPost",
-      "url": "https://www.marktechpost.com/2026/11/17/nvidia-nvke-nvkr-managed-kubernetes-gpu/",
-      "publishedAt": "2026-11-17T10:37:11.000Z",
-      "impact": 65
-    },
-    {
-      "id": "marktechpost-1794909078000-1",
-      "type": "live",
-      "category": "hardware",
-      "title": "Sarvam Launches Sarvam Token Factory: Bringing India-Hosted Inference to 8 Open Models",
-      "excerpt": "Sarvam Token Factory is now open to everyone.  It serves Sarvam 105B, GLM 5",
-      "source": "MarkTechPost",
-      "url": "https://www.marktechpost.com/2026/11/17/sarvam-token-factory-india-inference-platform/",
-      "publishedAt": "2026-11-17T09:51:18.000Z",
-      "impact": 65
-    },
-    {
-      "id": "marktechpost-1794907257000-2",
-      "type": "live",
-      "category": "multimodal",
-      "title": "Liquid AI Releases d1.2 and d1.2-ultra: Omnimodal Decision Models That Top the AA Decision Index",
-      "excerpt": "Liquid AI released d1. 2-ultra, decision models that read text, images and audio and return calibrated probabilities with zero output tokens",
-      "source": "MarkTechPost",
-      "url": "https://www.marktechpost.com/2026/11/17/liquid-ai-d1-2-omnimodal-decision-models/",
-      "publishedAt": "2026-11-17T09:20:57.000Z",
-      "impact": 65
     },
     {
       "id": "aether-figure03",
@@ -55,8 +55,30 @@
       "excerpt": "Humanoid achieves new milestone in unsupervised operation, performing 1,240 unique tasks across three assembly lines at the BMW South Carolina plant.",
       "source": "Figure AI",
       "url": "https://figure.ai/news/03-milestone",
-      "publishedAt": "2026-11-17T06:46:21.479Z",
+      "publishedAt": "2026-11-17T15:48:40.135Z",
       "impact": 89
+    },
+    {
+      "id": "aether-interp",
+      "type": "premium",
+      "category": "safety",
+      "title": "Anthropic publishes unprecedented mechanistic interpretability map of Claude 4",
+      "excerpt": "Researchers reverse-engineered 312 million features inside the model, including the first clear \"deception circuit\" discovered in a frontier model.",
+      "source": "Anthropic",
+      "url": "https://anthropic.com/research/claude-4-interp",
+      "publishedAt": "2026-11-17T10:48:40.135Z",
+      "impact": 91
+    },
+    {
+      "id": "marktechpost-1794911831000-3",
+      "type": "live",
+      "category": "hardware",
+      "title": "NVIDIA Open-Sources NVKE and NVKR for Managed Kubernetes on GPU Infrastructure",
+      "excerpt": "NVIDIA has open-sourced NVIDIA Kubernetes Engine (NVKE) and NVIDIA Kubernetes Recipes (NVKR) under Apache 2.  Together they let AI factories run a managed Kubernetes service on their own bare-metal GPU servers",
+      "source": "MarkTechPost",
+      "url": "https://www.marktechpost.com/2026/11/17/nvidia-nvke-nvkr-managed-kubernetes-gpu/",
+      "publishedAt": "2026-11-17T10:37:11.000Z",
+      "impact": 65
     },
     {
       "id": "arxiv-cs.ai-1794891600000-0",
@@ -123,28 +145,6 @@
       "url": "https://arxiv.org/abs/2611.18883",
       "publishedAt": "2026-11-17T05:00:00.000Z",
       "impact": 58
-    },
-    {
-      "id": "aether-interp",
-      "type": "premium",
-      "category": "safety",
-      "title": "Anthropic publishes unprecedented mechanistic interpretability map of Claude 4",
-      "excerpt": "Researchers reverse-engineered 312 million features inside the model, including the first clear \"deception circuit\" discovered in a frontier model.",
-      "source": "Anthropic",
-      "url": "https://anthropic.com/research/claude-4-interp",
-      "publishedAt": "2026-11-17T01:46:21.479Z",
-      "impact": 91
-    },
-    {
-      "id": "marktechpost-1794825581000-3",
-      "type": "live",
-      "category": "llm",
-      "title": "Meet Meta’s JiTTests: LLM-Generated Tests Designed to Fail Before Risky Code Lands",
-      "excerpt": "Meta has moved Catching JiTTests into production.  The LLM system writes tests designed to fail on risky diffs, and caught 74 privacy SEVs before landing in H1 2026, with a 60% engineer-reported true-positive rate",
-      "source": "MarkTechPost",
-      "url": "https://www.marktechpost.com/2026/11/16/meta-jittests-llm-catching-tests-privacy-bugs/",
-      "publishedAt": "2026-11-16T10:39:41.000Z",
-      "impact": 65
     },
     {
       "id": "hugging-face-1794787200000-0",

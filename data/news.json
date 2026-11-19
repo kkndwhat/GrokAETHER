@@ -1,39 +1,17 @@
 {
-  "lastUpdated": "2026-11-18T00:48:40.570Z",
+  "lastUpdated": "2026-11-19T15:31:37.757Z",
   "source": "AETHER + Public RSS (arXiv, Hugging Face, MarkTechPost, Ben's Bites)",
   "count": 16,
   "articles": [
     {
-      "id": "marktechpost-1794955924000-0",
-      "type": "live",
-      "category": "llm",
-      "title": "Perplexity Computer Adds Multiagent: Up to 16 AI Agents That Cross-Check Work",
-      "excerpt": "Perplexity added Multiagent to Computer, an effort level above Ultra where a lead agent runs up to 16 agents on Claude, GPT and Gemini models that share findings and check each other’s work.  The post Perplexity Compu...",
-      "source": "MarkTechPost",
-      "url": "https://www.marktechpost.com/2026/11/17/perplexity-computer-multiagent-effort-level/",
-      "publishedAt": "2026-11-17T22:52:04.000Z",
-      "impact": 77
-    },
-    {
-      "id": "marktechpost-1794953250000-1",
-      "type": "live",
-      "category": "llm",
-      "title": "OpenAI Releases GPT-6.2 Astra and Sol With a 20% Cheaper Astra API",
-      "excerpt": "OpenAI released GPT-6. 2 Sol on November 17, 2026",
-      "source": "MarkTechPost",
-      "url": "https://www.marktechpost.com/2026/11/17/openai-gpt-6-2-astra-sol-release/",
-      "publishedAt": "2026-11-17T22:07:30.000Z",
-      "impact": 65
-    },
-    {
-      "id": "marktechpost-1794948585000-2",
+      "id": "marktechpost-1795085157000-0",
       "type": "live",
       "category": "research",
-      "title": "Clearing Up the Confusion on AI Data Retention: Two Standard Designs Explained",
-      "excerpt": "Zero data retention applies to specific AI endpoints, not whole vendors.  This guide explains the 2 standard API designs for data retention, who manages deletion in each, and 6 checks for developers",
+      "title": "Not If, But How: Responding to Security Incidents in the Age of AI Attackers",
+      "excerpt": "AI-powered attackers are driving more frequent attacks on AI infrastructure.  This guide reviews 6 months of incidents, sets out a 4-pillar incident response playbook, and shows it in practice through Fireworks AI and...",
       "source": "MarkTechPost",
-      "url": "https://www.marktechpost.com/2026/11/17/zero-data-retention-ai-apis-explained/",
-      "publishedAt": "2026-11-17T20:49:45.000Z",
+      "url": "https://www.marktechpost.com/2026/11/19/ai-security-incident-response-playbook-2026/",
+      "publishedAt": "2026-11-19T10:45:57.000Z",
       "impact": 65
     },
     {
@@ -44,8 +22,19 @@
       "excerpt": "New model demonstrates 4.2× improvement on multi-step software engineering benchmarks and sustains coherent agent trajectories beyond 110k tokens.",
       "source": "xAI",
       "url": "https://x.ai/blog/grok-4.3",
-      "publishedAt": "2026-11-17T19:48:40.135Z",
+      "publishedAt": "2026-11-19T10:31:37.295Z",
       "impact": 96
+    },
+    {
+      "id": "marktechpost-1795071146000-1",
+      "type": "live",
+      "category": "llm",
+      "title": "Google DeepMind Releases Gemini 4 Neon: 1M Context, #1 on AA Coding Agent Index",
+      "excerpt": "Google released Gemini 4 Neon, a 1M-context Gemini 4 model priced at $3/$15 per million tokens.  It scores 61 on the AA Intelligence Index and ranks #1 on AA’s Coding Agent Index",
+      "source": "MarkTechPost",
+      "url": "https://www.marktechpost.com/2026/11/18/google-gemini-4-neon-release/",
+      "publishedAt": "2026-11-19T06:52:26.000Z",
+      "impact": 77
     },
     {
       "id": "aether-figure03",
@@ -55,8 +44,85 @@
       "excerpt": "Humanoid achieves new milestone in unsupervised operation, performing 1,240 unique tasks across three assembly lines at the BMW South Carolina plant.",
       "source": "Figure AI",
       "url": "https://figure.ai/news/03-milestone",
-      "publishedAt": "2026-11-17T15:48:40.135Z",
+      "publishedAt": "2026-11-19T06:31:37.295Z",
       "impact": 89
+    },
+    {
+      "id": "arxiv-cs.ai-1795064400000-0",
+      "type": "live",
+      "category": "safety",
+      "title": "Human-AI Mutualism Is Unstable under Capability Asymmetry",
+      "excerpt": "23322v1 Announce Type: new Abstract: One hope for a good human future alongside advanced AI rests on enduring mutualism: humans and AI will need each other, so the relationship will stay good for both.  We argue that ...",
+      "source": "arXiv cs.AI",
+      "url": "https://arxiv.org/abs/2611.23322",
+      "publishedAt": "2026-11-19T05:00:00.000Z",
+      "impact": 58
+    },
+    {
+      "id": "arxiv-cs.ai-1795064400000-1",
+      "type": "live",
+      "category": "safety",
+      "title": "Training Language Models for Introspective Oversight",
+      "excerpt": "23365v1 Announce Type: new Abstract: Language models increasingly exhibit behaviors that are difficult to detect in transcripts, such as reward hacking, deception, and sycophancy.  Asking the assistant follow-up quest...",
+      "source": "arXiv cs.AI",
+      "url": "https://arxiv.org/abs/2611.23365",
+      "publishedAt": "2026-11-19T05:00:00.000Z",
+      "impact": 58
+    },
+    {
+      "id": "arxiv-cs.ai-1795064400000-2",
+      "type": "live",
+      "category": "llm",
+      "title": "Where the Tokens Go: Heat, Entropy and Error in Agentic Coding",
+      "excerpt": "23375v1 Announce Type: new Abstract: Coding agents are billed by the token, yet software engineering says nothing about what a token actually buys.  Here we introduce a theory of software thermodynamics",
+      "source": "arXiv cs.AI",
+      "url": "https://arxiv.org/abs/2611.23375",
+      "publishedAt": "2026-11-19T05:00:00.000Z",
+      "impact": 69
+    },
+    {
+      "id": "arxiv-cs.ai-1795064400000-3",
+      "type": "live",
+      "category": "hardware",
+      "title": "HardwareDx: A Foundational Graph Model System for Datacenter Machine Repairs",
+      "excerpt": "23398v1 Announce Type: new Abstract: The rapid scale-up of AI infrastructure has made datacenter reliability a cornerstone of the cloud business economy.  Since hardware failures in hyper-scale AI clusters can stall m...",
+      "source": "arXiv cs.AI",
+      "url": "https://arxiv.org/abs/2611.23398",
+      "publishedAt": "2026-11-19T05:00:00.000Z",
+      "impact": 58
+    },
+    {
+      "id": "arxiv-cs.ai-1795064400000-4",
+      "type": "live",
+      "category": "safety",
+      "title": "RFBench: A Simulator-Grounded Multimodal Benchmark for Passive RF Layout Design and Understanding",
+      "excerpt": "23410v1 Announce Type: new Abstract: While multimodal language models can interpret diagrams and generate structured outputs, their capacity to connect passive radio-frequency (RF) design intent, layout geometry, and ...",
+      "source": "arXiv cs.AI",
+      "url": "https://arxiv.org/abs/2611.23410",
+      "publishedAt": "2026-11-19T05:00:00.000Z",
+      "impact": 58
+    },
+    {
+      "id": "arxiv-cs.ai-1795064400000-5",
+      "type": "live",
+      "category": "hardware",
+      "title": "Why Sub-4-Bit Vision CNNs Collapse and Where Mixed-Precision Recovery Stops",
+      "excerpt": "23445v1 Announce Type: new Abstract: Deep vision models operating in resource-constrained environments depend heavily on low-bit quantization, yet compressing weights below 4 bits frequently induces catastrophic accur...",
+      "source": "arXiv cs.AI",
+      "url": "https://arxiv.org/abs/2611.23445",
+      "publishedAt": "2026-11-19T05:00:00.000Z",
+      "impact": 58
+    },
+    {
+      "id": "marktechpost-1795058630000-2",
+      "type": "live",
+      "category": "research",
+      "title": "Nutrient Data Extraction API: JSON Matching Your Schema With Per-Field Citations and Confidence",
+      "excerpt": "Nutrient Data Extraction API parses PDFs, scans and Office files into JSON matching your schema.  Fields carry page, region and match-label citations, and Studio lets teams test before writing code",
+      "source": "MarkTechPost",
+      "url": "https://www.marktechpost.com/2026/11/18/nutrient-data-extraction-api-citations-confidence/",
+      "publishedAt": "2026-11-19T03:23:50.000Z",
+      "impact": 65
     },
     {
       "id": "aether-interp",
@@ -66,118 +132,52 @@
       "excerpt": "Researchers reverse-engineered 312 million features inside the model, including the first clear \"deception circuit\" discovered in a frontier model.",
       "source": "Anthropic",
       "url": "https://anthropic.com/research/claude-4-interp",
-      "publishedAt": "2026-11-17T10:48:40.135Z",
+      "publishedAt": "2026-11-19T01:31:37.295Z",
       "impact": 91
     },
     {
-      "id": "marktechpost-1794911831000-3",
+      "id": "hugging-face-1795031696000-0",
       "type": "live",
-      "category": "hardware",
-      "title": "NVIDIA Open-Sources NVKE and NVKR for Managed Kubernetes on GPU Infrastructure",
-      "excerpt": "NVIDIA has open-sourced NVIDIA Kubernetes Engine (NVKE) and NVIDIA Kubernetes Recipes (NVKR) under Apache 2.  Together they let AI factories run a managed Kubernetes service on their own bare-metal GPU servers",
+      "category": "research",
+      "title": "DaisyRose-27B: Pushing the Frontier of Post-Training Efficiency",
+      "excerpt": "New development from the frontier.",
+      "source": "Hugging Face",
+      "url": "https://huggingface.co/blog/RadixArk/daisyrose-27b-pushing-the-frontier-of-post-trainin",
+      "publishedAt": "2026-11-18T19:54:56.000Z",
+      "impact": 93
+    },
+    {
+      "id": "hugging-face-1795028023000-1",
+      "type": "live",
+      "category": "research",
+      "title": "Why your fine-tuning job takes longer than the FLOPs say",
+      "excerpt": "New development from the frontier.",
+      "source": "Hugging Face",
+      "url": "https://huggingface.co/blog/Dharma-AI/predicting-fine-tuning-time",
+      "publishedAt": "2026-11-18T18:53:43.000Z",
+      "impact": 75
+    },
+    {
+      "id": "marktechpost-1795018070000-3",
+      "type": "live",
+      "category": "research",
+      "title": "New LoRA Adapter Lifts Qwen3.8 Coding Success From 39% to 65%",
+      "excerpt": "Hugging Face released Qwen3. 8-27B-pi-adapted, an Apache-2",
       "source": "MarkTechPost",
-      "url": "https://www.marktechpost.com/2026/11/17/nvidia-nvke-nvkr-managed-kubernetes-gpu/",
-      "publishedAt": "2026-11-17T10:37:11.000Z",
+      "url": "https://www.marktechpost.com/2026/11/18/hugging-face-qwen3-8-27b-pi-adapted-lora/",
+      "publishedAt": "2026-11-18T16:07:50.000Z",
       "impact": 65
     },
     {
-      "id": "arxiv-cs.ai-1794891600000-0",
+      "id": "hugging-face-1795014023000-2",
       "type": "live",
       "category": "llm",
-      "title": "Agents Cannot Hand Over What They Have Not Yet Understood",
-      "excerpt": "18642v1 Announce Type: new Abstract: Agents that work beyond a single context window, or in teams, hand their work to a successor as a short written summary.  Evaluation has focused on whether an agent can solve a tas...",
-      "source": "arXiv cs.AI",
-      "url": "https://arxiv.org/abs/2611.18642",
-      "publishedAt": "2026-11-17T05:00:00.000Z",
-      "impact": 69
-    },
-    {
-      "id": "arxiv-cs.ai-1794891600000-1",
-      "type": "live",
-      "category": "llm",
-      "title": "How to make a moral agent: sentimentalism and rationalism as lenses on AI",
-      "excerpt": "18714v1 Announce Type: new Abstract: Can AI systems be moral agents.  That is, can they undertake actions that can be correctly assessed as morally right or wrong",
-      "source": "arXiv cs.AI",
-      "url": "https://arxiv.org/abs/2611.18714",
-      "publishedAt": "2026-11-17T05:00:00.000Z",
-      "impact": 69
-    },
-    {
-      "id": "arxiv-cs.ai-1794891600000-2",
-      "type": "live",
-      "category": "multimodal",
-      "title": "Video-as-Experience: Learning Computer Use via Audio-Visual Understanding",
-      "excerpt": "18747v1 Announce Type: new Abstract: Multimodal large language models (LLMs) have enabled capable computer-use agents that perceive graphical user interfaces, reason over instructions, and execute actions.  However, e...",
-      "source": "arXiv cs.AI",
-      "url": "https://arxiv.org/abs/2611.18747",
-      "publishedAt": "2026-11-17T05:00:00.000Z",
-      "impact": 58
-    },
-    {
-      "id": "arxiv-cs.ai-1794891600000-3",
-      "type": "live",
-      "category": "safety",
-      "title": "Multimodal Fusion: A Review of Breast Cancer Advanced and Traditional Modalities",
-      "excerpt": "18793v1 Announce Type: new Abstract: Purpose: Multimodal medical imaging fusion (MMIF) is an increasingly important approach to breast cancer detection (BCD), as different imaging modalities rely on different physical...",
-      "source": "arXiv cs.AI",
-      "url": "https://arxiv.org/abs/2611.18793",
-      "publishedAt": "2026-11-17T05:00:00.000Z",
-      "impact": 58
-    },
-    {
-      "id": "arxiv-cs.ai-1794891600000-4",
-      "type": "live",
-      "category": "multimodal",
-      "title": "D\\'ecoupage: Directorial Audio-Visual Control for Long Multi-Shot Video Generation",
-      "excerpt": "18866v1 Announce Type: new Abstract: In cinematic storytelling, sound and visual transitions do not always coincide in lockstep: dialogue frequently bridges across cuts to reveal reactions or introduces new scenes via...",
-      "source": "arXiv cs.AI",
-      "url": "https://arxiv.org/abs/2611.18866",
-      "publishedAt": "2026-11-17T05:00:00.000Z",
-      "impact": 58
-    },
-    {
-      "id": "arxiv-cs.ai-1794891600000-5",
-      "type": "live",
-      "category": "safety",
-      "title": "SPLICE: Structured Prompt Local Iterative Combinatorial Evolution",
-      "excerpt": "18883v1 Announce Type: new Abstract: Natural language optimization (NLO) improves an agent by having a model critique and rewrite its natural language policy parameters: system prompts, tool instructions, reasoning di...",
-      "source": "arXiv cs.AI",
-      "url": "https://arxiv.org/abs/2611.18883",
-      "publishedAt": "2026-11-17T05:00:00.000Z",
-      "impact": 58
-    },
-    {
-      "id": "hugging-face-1794787200000-0",
-      "type": "live",
-      "category": "llm",
-      "title": "Hugging Face and OpenRouter join forces to make open-weight models easy to run",
+      "title": "Time-Series Models in the Streamhouse: A New Frontier and Use Cases",
       "excerpt": "New development from the frontier.",
       "source": "Hugging Face",
-      "url": "https://huggingface.co/blog/openrouter",
-      "publishedAt": "2026-11-16T00:00:00.000Z",
-      "impact": 75
-    },
-    {
-      "id": "hugging-face-1794592839000-1",
-      "type": "live",
-      "category": "robotics",
-      "title": "Build a Robot Pick-and-Place Simulation with SimReady Assets",
-      "excerpt": "New development from the frontier.",
-      "source": "Hugging Face",
-      "url": "https://huggingface.co/blog/nvidia/simready-assets-robot-pick-and-place",
-      "publishedAt": "2026-11-13T18:00:39.000Z",
-      "impact": 75
-    },
-    {
-      "id": "hugging-face-1794589355000-2",
-      "type": "live",
-      "category": "research",
-      "title": "XYBench: Helping with the problem behind the question",
-      "excerpt": "New development from the frontier.",
-      "source": "Hugging Face",
-      "url": "https://huggingface.co/blog/allenai/xybench",
-      "publishedAt": "2026-11-13T17:02:35.000Z",
-      "impact": 75
+      "url": "https://huggingface.co/blog/ibm-research/time-series-powered-streamhouse",
+      "publishedAt": "2026-11-18T15:00:23.000Z",
+      "impact": 93
     }
   ]
 }

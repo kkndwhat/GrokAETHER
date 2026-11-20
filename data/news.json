@@ -1,10 +1,43 @@
 {
-  "lastUpdated": "2026-11-20T15:11:09.995Z",
+  "lastUpdated": "2026-11-20T23:52:09.249Z",
   "source": "AETHER + Public RSS (arXiv, Hugging Face, MarkTechPost, Ben's Bites)",
   "count": 16,
   "articles": [
     {
-      "id": "marktechpost-1795185892000-0",
+      "id": "aether-grok43",
+      "type": "premium",
+      "category": "llm",
+      "title": "xAI releases Grok-4.3 with native long-horizon agent scaffolding",
+      "excerpt": "New model demonstrates 4.2× improvement on multi-step software engineering benchmarks and sustains coherent agent trajectories beyond 110k tokens.",
+      "source": "xAI",
+      "url": "https://x.ai/blog/grok-4.3",
+      "publishedAt": "2026-11-20T18:52:09.009Z",
+      "impact": 96
+    },
+    {
+      "id": "marktechpost-1795196549000-0",
+      "type": "live",
+      "category": "hardware",
+      "title": "RadixArk Ships DaisyRose-27B, a 27B Agentic Coding Model Trained With Reinforcement Learning Only",
+      "excerpt": "RadixArk released DaisyRose-27B, an Apache 2. 0 agentic coding model post-trained from Qwen3",
+      "source": "MarkTechPost",
+      "url": "https://www.marktechpost.com/2026/11/20/radixark-daisyrose-27b-agentic-model/",
+      "publishedAt": "2026-11-20T17:42:29.000Z",
+      "impact": 77
+    },
+    {
+      "id": "aether-figure03",
+      "type": "premium",
+      "category": "robotics",
+      "title": "Figure 03 completes 43-hour autonomous factory shift with zero interventions",
+      "excerpt": "Humanoid achieves new milestone in unsupervised operation, performing 1,240 unique tasks across three assembly lines at the BMW South Carolina plant.",
+      "source": "Figure AI",
+      "url": "https://figure.ai/news/03-milestone",
+      "publishedAt": "2026-11-20T14:52:09.010Z",
+      "impact": 89
+    },
+    {
+      "id": "marktechpost-1795185892000-1",
       "type": "live",
       "category": "llm",
       "title": "NVIDIA AI Releases Nemotron-Labs-Sigma, a Continuous Diffusion Language Model with 14 checkpoints at 3B/8B",
@@ -15,26 +48,15 @@
       "impact": 65
     },
     {
-      "id": "aether-grok43",
+      "id": "aether-interp",
       "type": "premium",
-      "category": "llm",
-      "title": "xAI releases Grok-4.3 with native long-horizon agent scaffolding",
-      "excerpt": "New model demonstrates 4.2× improvement on multi-step software engineering benchmarks and sustains coherent agent trajectories beyond 110k tokens.",
-      "source": "xAI",
-      "url": "https://x.ai/blog/grok-4.3",
-      "publishedAt": "2026-11-20T10:11:09.460Z",
-      "impact": 96
-    },
-    {
-      "id": "aether-figure03",
-      "type": "premium",
-      "category": "robotics",
-      "title": "Figure 03 completes 43-hour autonomous factory shift with zero interventions",
-      "excerpt": "Humanoid achieves new milestone in unsupervised operation, performing 1,240 unique tasks across three assembly lines at the BMW South Carolina plant.",
-      "source": "Figure AI",
-      "url": "https://figure.ai/news/03-milestone",
-      "publishedAt": "2026-11-20T06:11:09.460Z",
-      "impact": 89
+      "category": "safety",
+      "title": "Anthropic publishes unprecedented mechanistic interpretability map of Claude 4",
+      "excerpt": "Researchers reverse-engineered 312 million features inside the model, including the first clear \"deception circuit\" discovered in a frontier model.",
+      "source": "Anthropic",
+      "url": "https://anthropic.com/research/claude-4-interp",
+      "publishedAt": "2026-11-20T09:52:09.010Z",
+      "impact": 91
     },
     {
       "id": "arxiv-cs.ai-1795150800000-0",
@@ -103,18 +125,18 @@
       "impact": 69
     },
     {
-      "id": "aether-interp",
-      "type": "premium",
-      "category": "safety",
-      "title": "Anthropic publishes unprecedented mechanistic interpretability map of Claude 4",
-      "excerpt": "Researchers reverse-engineered 312 million features inside the model, including the first clear \"deception circuit\" discovered in a frontier model.",
-      "source": "Anthropic",
-      "url": "https://anthropic.com/research/claude-4-interp",
-      "publishedAt": "2026-11-20T01:11:09.460Z",
-      "impact": 91
+      "id": "hugging-face-1795132800000-0",
+      "type": "live",
+      "category": "research",
+      "title": "Welcome Inkling 2 Mini, Cutting-edge Performance for your Local Setup",
+      "excerpt": "New development from the frontier.",
+      "source": "Hugging Face",
+      "url": "https://huggingface.co/blog/inkling2mini",
+      "publishedAt": "2026-11-20T00:00:00.000Z",
+      "impact": 75
     },
     {
-      "id": "hugging-face-1795132800000-0",
+      "id": "hugging-face-1795132800000-1",
       "type": "live",
       "category": "llm",
       "title": "Introducing harness adapters: adapt your favorite model to your harness to improve performance and cost",
@@ -125,7 +147,7 @@
       "impact": 75
     },
     {
-      "id": "marktechpost-1795124782000-1",
+      "id": "marktechpost-1795124782000-2",
       "type": "live",
       "category": "research",
       "title": "Meta FAIR Self-Improving Memory Hits 56.0 on Continual Learning Bench",
@@ -136,7 +158,7 @@
       "impact": 65
     },
     {
-      "id": "marktechpost-1795112001000-2",
+      "id": "marktechpost-1795112001000-3",
       "type": "live",
       "category": "llm",
       "title": "13 Best Agent Gateways in 2026 for MCP, A2A and LLM Traffic: Kong, Bifrost, AgentCore, Arcade",
@@ -147,18 +169,7 @@
       "impact": 77
     },
     {
-      "id": "marktechpost-1795110420000-3",
-      "type": "live",
-      "category": "llm",
-      "title": "Perplexity Launches Orchestrator API for Failover and Model Routing",
-      "excerpt": "Perplexity’s Orchestrator API serves OpenAI, Anthropic, Google, xAI and open-weight models through 1 endpoint, with same-model provider failover, unified billing and a preview perplexity/auto router that sends each re...",
-      "source": "MarkTechPost",
-      "url": "https://www.marktechpost.com/2026/11/19/perplexity-orchestrator-api-failover-model-routing/",
-      "publishedAt": "2026-11-19T17:47:00.000Z",
-      "impact": 65
-    },
-    {
-      "id": "hugging-face-1795031696000-1",
+      "id": "hugging-face-1795031696000-2",
       "type": "live",
       "category": "research",
       "title": "DaisyRose-27B: Pushing the Frontier of Post-Training Efficiency",
@@ -167,17 +178,6 @@
       "url": "https://huggingface.co/blog/RadixArk/daisyrose-27b-pushing-the-frontier-of-post-trainin",
       "publishedAt": "2026-11-18T19:54:56.000Z",
       "impact": 93
-    },
-    {
-      "id": "hugging-face-1795028023000-2",
-      "type": "live",
-      "category": "research",
-      "title": "Why your fine-tuning job takes longer than the FLOPs say",
-      "excerpt": "New development from the frontier.",
-      "source": "Hugging Face",
-      "url": "https://huggingface.co/blog/Dharma-AI/predicting-fine-tuning-time",
-      "publishedAt": "2026-11-18T18:53:43.000Z",
-      "impact": 75
     }
   ]
 }

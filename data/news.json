@@ -1,17 +1,17 @@
 {
-  "lastUpdated": "2026-11-19T15:31:37.757Z",
+  "lastUpdated": "2026-11-20T00:28:48.790Z",
   "source": "AETHER + Public RSS (arXiv, Hugging Face, MarkTechPost, Ben's Bites)",
   "count": 16,
   "articles": [
     {
-      "id": "marktechpost-1795085157000-0",
+      "id": "marktechpost-1795124782000-0",
       "type": "live",
       "category": "research",
-      "title": "Not If, But How: Responding to Security Incidents in the Age of AI Attackers",
-      "excerpt": "AI-powered attackers are driving more frequent attacks on AI infrastructure.  This guide reviews 6 months of incidents, sets out a 4-pillar incident response playbook, and shows it in practice through Fireworks AI and...",
+      "title": "Meta FAIR Self-Improving Memory Hits 56.0 on Continual Learning Bench",
+      "excerpt": "Meta FAIR’s Self-Improving Memory lets Kimi-K2. 6 write its own LOAD and OFFLOAD memory prompts, then distills them into its weights",
       "source": "MarkTechPost",
-      "url": "https://www.marktechpost.com/2026/11/19/ai-security-incident-response-playbook-2026/",
-      "publishedAt": "2026-11-19T10:45:57.000Z",
+      "url": "https://www.marktechpost.com/2026/11/19/meta-fair-self-improving-memory-harness-distillation/",
+      "publishedAt": "2026-11-19T21:46:22.000Z",
       "impact": 65
     },
     {
@@ -22,19 +22,30 @@
       "excerpt": "New model demonstrates 4.2× improvement on multi-step software engineering benchmarks and sustains coherent agent trajectories beyond 110k tokens.",
       "source": "xAI",
       "url": "https://x.ai/blog/grok-4.3",
-      "publishedAt": "2026-11-19T10:31:37.295Z",
+      "publishedAt": "2026-11-19T19:28:48.361Z",
       "impact": 96
     },
     {
-      "id": "marktechpost-1795071146000-1",
+      "id": "marktechpost-1795112001000-1",
       "type": "live",
       "category": "llm",
-      "title": "Google DeepMind Releases Gemini 4 Neon: 1M Context, #1 on AA Coding Agent Index",
-      "excerpt": "Google released Gemini 4 Neon, a 1M-context Gemini 4 model priced at $3/$15 per million tokens.  It scores 61 on the AA Intelligence Index and ranks #1 on AA’s Coding Agent Index",
+      "title": "13 Best Agent Gateways in 2026 for MCP, A2A and LLM Traffic: Kong, Bifrost, AgentCore, Arcade",
+      "excerpt": "We ranked the 13 best agent gateways of 2026 by how they govern model, MCP tool and agent-to-agent traffic, with verified pricing, deployment options and the trade-offs each vendor's marketing leaves out.  The post 13...",
       "source": "MarkTechPost",
-      "url": "https://www.marktechpost.com/2026/11/18/google-gemini-4-neon-release/",
-      "publishedAt": "2026-11-19T06:52:26.000Z",
+      "url": "https://www.marktechpost.com/2026/11/19/best-agent-gateways-2026/",
+      "publishedAt": "2026-11-19T18:13:21.000Z",
       "impact": 77
+    },
+    {
+      "id": "marktechpost-1795110420000-2",
+      "type": "live",
+      "category": "llm",
+      "title": "Perplexity Launches Orchestrator API for Failover and Model Routing",
+      "excerpt": "Perplexity’s Orchestrator API serves OpenAI, Anthropic, Google, xAI and open-weight models through 1 endpoint, with same-model provider failover, unified billing and a preview perplexity/auto router that sends each re...",
+      "source": "MarkTechPost",
+      "url": "https://www.marktechpost.com/2026/11/19/perplexity-orchestrator-api-failover-model-routing/",
+      "publishedAt": "2026-11-19T17:47:00.000Z",
+      "impact": 65
     },
     {
       "id": "aether-figure03",
@@ -44,8 +55,30 @@
       "excerpt": "Humanoid achieves new milestone in unsupervised operation, performing 1,240 unique tasks across three assembly lines at the BMW South Carolina plant.",
       "source": "Figure AI",
       "url": "https://figure.ai/news/03-milestone",
-      "publishedAt": "2026-11-19T06:31:37.295Z",
+      "publishedAt": "2026-11-19T15:28:48.362Z",
       "impact": 89
+    },
+    {
+      "id": "marktechpost-1795085157000-3",
+      "type": "live",
+      "category": "research",
+      "title": "Not If, But How: Responding to Security Incidents in the Age of AI Attackers",
+      "excerpt": "AI-powered attackers are driving more frequent attacks on AI infrastructure.  This guide reviews 6 months of incidents, sets out a 4-pillar incident response playbook, and shows it in practice through Fireworks AI and...",
+      "source": "MarkTechPost",
+      "url": "https://www.marktechpost.com/2026/11/19/ai-security-incident-response-playbook-2026/",
+      "publishedAt": "2026-11-19T10:45:57.000Z",
+      "impact": 65
+    },
+    {
+      "id": "aether-interp",
+      "type": "premium",
+      "category": "safety",
+      "title": "Anthropic publishes unprecedented mechanistic interpretability map of Claude 4",
+      "excerpt": "Researchers reverse-engineered 312 million features inside the model, including the first clear \"deception circuit\" discovered in a frontier model.",
+      "source": "Anthropic",
+      "url": "https://anthropic.com/research/claude-4-interp",
+      "publishedAt": "2026-11-19T10:28:48.362Z",
+      "impact": 91
     },
     {
       "id": "arxiv-cs.ai-1795064400000-0",
@@ -114,28 +147,6 @@
       "impact": 58
     },
     {
-      "id": "marktechpost-1795058630000-2",
-      "type": "live",
-      "category": "research",
-      "title": "Nutrient Data Extraction API: JSON Matching Your Schema With Per-Field Citations and Confidence",
-      "excerpt": "Nutrient Data Extraction API parses PDFs, scans and Office files into JSON matching your schema.  Fields carry page, region and match-label citations, and Studio lets teams test before writing code",
-      "source": "MarkTechPost",
-      "url": "https://www.marktechpost.com/2026/11/18/nutrient-data-extraction-api-citations-confidence/",
-      "publishedAt": "2026-11-19T03:23:50.000Z",
-      "impact": 65
-    },
-    {
-      "id": "aether-interp",
-      "type": "premium",
-      "category": "safety",
-      "title": "Anthropic publishes unprecedented mechanistic interpretability map of Claude 4",
-      "excerpt": "Researchers reverse-engineered 312 million features inside the model, including the first clear \"deception circuit\" discovered in a frontier model.",
-      "source": "Anthropic",
-      "url": "https://anthropic.com/research/claude-4-interp",
-      "publishedAt": "2026-11-19T01:31:37.295Z",
-      "impact": 91
-    },
-    {
       "id": "hugging-face-1795031696000-0",
       "type": "live",
       "category": "research",
@@ -156,17 +167,6 @@
       "url": "https://huggingface.co/blog/Dharma-AI/predicting-fine-tuning-time",
       "publishedAt": "2026-11-18T18:53:43.000Z",
       "impact": 75
-    },
-    {
-      "id": "marktechpost-1795018070000-3",
-      "type": "live",
-      "category": "research",
-      "title": "New LoRA Adapter Lifts Qwen3.8 Coding Success From 39% to 65%",
-      "excerpt": "Hugging Face released Qwen3. 8-27B-pi-adapted, an Apache-2",
-      "source": "MarkTechPost",
-      "url": "https://www.marktechpost.com/2026/11/18/hugging-face-qwen3-8-27b-pi-adapted-lora/",
-      "publishedAt": "2026-11-18T16:07:50.000Z",
-      "impact": 65
     },
     {
       "id": "hugging-face-1795014023000-2",

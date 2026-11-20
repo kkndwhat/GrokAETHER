@@ -1,17 +1,17 @@
 {
-  "lastUpdated": "2026-11-20T00:28:48.790Z",
+  "lastUpdated": "2026-11-20T15:11:09.995Z",
   "source": "AETHER + Public RSS (arXiv, Hugging Face, MarkTechPost, Ben's Bites)",
   "count": 16,
   "articles": [
     {
-      "id": "marktechpost-1795124782000-0",
+      "id": "marktechpost-1795185892000-0",
       "type": "live",
-      "category": "research",
-      "title": "Meta FAIR Self-Improving Memory Hits 56.0 on Continual Learning Bench",
-      "excerpt": "Meta FAIR’s Self-Improving Memory lets Kimi-K2. 6 write its own LOAD and OFFLOAD memory prompts, then distills them into its weights",
+      "category": "llm",
+      "title": "NVIDIA AI Releases Nemotron-Labs-Sigma, a Continuous Diffusion Language Model with 14 checkpoints at 3B/8B",
+      "excerpt": "NVIDIA released Nemotron-Labs-Sigma, 14 open 3B and 8B continuous diffusion language model checkpoints.  Sigma denoises text in a learned 16-D embedding space, distills to few-step samplers, and decodes up to 4",
       "source": "MarkTechPost",
-      "url": "https://www.marktechpost.com/2026/11/19/meta-fair-self-improving-memory-harness-distillation/",
-      "publishedAt": "2026-11-19T21:46:22.000Z",
+      "url": "https://www.marktechpost.com/2026/11/20/nvidia-nemotron-labs-sigma-continuous-diffusion-language-model/",
+      "publishedAt": "2026-11-20T14:44:52.000Z",
       "impact": 65
     },
     {
@@ -22,11 +22,121 @@
       "excerpt": "New model demonstrates 4.2× improvement on multi-step software engineering benchmarks and sustains coherent agent trajectories beyond 110k tokens.",
       "source": "xAI",
       "url": "https://x.ai/blog/grok-4.3",
-      "publishedAt": "2026-11-19T19:28:48.361Z",
+      "publishedAt": "2026-11-20T10:11:09.460Z",
       "impact": 96
     },
     {
-      "id": "marktechpost-1795112001000-1",
+      "id": "aether-figure03",
+      "type": "premium",
+      "category": "robotics",
+      "title": "Figure 03 completes 43-hour autonomous factory shift with zero interventions",
+      "excerpt": "Humanoid achieves new milestone in unsupervised operation, performing 1,240 unique tasks across three assembly lines at the BMW South Carolina plant.",
+      "source": "Figure AI",
+      "url": "https://figure.ai/news/03-milestone",
+      "publishedAt": "2026-11-20T06:11:09.460Z",
+      "impact": 89
+    },
+    {
+      "id": "arxiv-cs.ai-1795150800000-0",
+      "type": "live",
+      "category": "safety",
+      "title": "Closing the Analyze-to-Design Gap: An Authorization-Bounded Agent for Self-Driving Laboratories",
+      "excerpt": "25043v1 Announce Type: new Abstract: Artificial intelligence (AI) agents are increasingly integrated into self-driving laboratories (SDLs) to plan experiments and interpret results.  However, analytical reasoning alon...",
+      "source": "arXiv cs.AI",
+      "url": "https://arxiv.org/abs/2611.25043",
+      "publishedAt": "2026-11-20T05:00:00.000Z",
+      "impact": 69
+    },
+    {
+      "id": "arxiv-cs.ai-1795150800000-1",
+      "type": "live",
+      "category": "safety",
+      "title": "An LLM-Agentic Framework for Intelligent Work Order Management in Industrial Maintenance",
+      "excerpt": "25070v1 Announce Type: new Abstract: This paper presents an AI-driven framework, CodeReAct agent, designed to enhance industrial equipment maintenance through natural language (NL) interactions.  The framework employs...",
+      "source": "arXiv cs.AI",
+      "url": "https://arxiv.org/abs/2611.25070",
+      "publishedAt": "2026-11-20T05:00:00.000Z",
+      "impact": 69
+    },
+    {
+      "id": "arxiv-cs.ai-1795150800000-2",
+      "type": "live",
+      "category": "llm",
+      "title": "SailSearch: Agent-Assisted Discovery in Combinatorial Optimization",
+      "excerpt": "25087v1 Announce Type: new Abstract: We present SailSearch, a human-guided workflow for algorithmic research with two language-model agents, and report results on Market Split and maximum independent set (MIS).  For M...",
+      "source": "arXiv cs.AI",
+      "url": "https://arxiv.org/abs/2611.25087",
+      "publishedAt": "2026-11-20T05:00:00.000Z",
+      "impact": 69
+    },
+    {
+      "id": "arxiv-cs.ai-1795150800000-3",
+      "type": "live",
+      "category": "llm",
+      "title": "BuggyMLE: Scaling Machine Learning Engineering Difficulty with Bug Injection",
+      "excerpt": "25088v1 Announce Type: new Abstract: Enabling AI systems to autonomously improve AI models requires agents capable of performing machine learning engineering (MLE).  In practice, designing, training, and evaluating co...",
+      "source": "arXiv cs.AI",
+      "url": "https://arxiv.org/abs/2611.25088",
+      "publishedAt": "2026-11-20T05:00:00.000Z",
+      "impact": 58
+    },
+    {
+      "id": "arxiv-cs.ai-1795150800000-4",
+      "type": "live",
+      "category": "llm",
+      "title": "CoMPASS: A Multi-Turn Benchmark for Measuring LLM Reinforcement of Parasocial Behavior",
+      "excerpt": "25109v1 Announce Type: new Abstract: Users of conversational LLMs sometimes anthropomorphize these systems, form emotional attachments to them, and become dependent on them.  This behavior, known as parasocial attachm...",
+      "source": "arXiv cs.AI",
+      "url": "https://arxiv.org/abs/2611.25109",
+      "publishedAt": "2026-11-20T05:00:00.000Z",
+      "impact": 58
+    },
+    {
+      "id": "arxiv-cs.ai-1795150800000-5",
+      "type": "live",
+      "category": "safety",
+      "title": "DSFlow: A Neuro-Symbolic Data Workflow Agent with Statistical Diagnostic Guardrails",
+      "excerpt": "25111v1 Announce Type: new Abstract: Data science workflows often require tools that presume non-trivial technical knowledge.  Large language models (LLMs) reduce this barrier, but a gap remains between flexible gener...",
+      "source": "arXiv cs.AI",
+      "url": "https://arxiv.org/abs/2611.25111",
+      "publishedAt": "2026-11-20T05:00:00.000Z",
+      "impact": 69
+    },
+    {
+      "id": "aether-interp",
+      "type": "premium",
+      "category": "safety",
+      "title": "Anthropic publishes unprecedented mechanistic interpretability map of Claude 4",
+      "excerpt": "Researchers reverse-engineered 312 million features inside the model, including the first clear \"deception circuit\" discovered in a frontier model.",
+      "source": "Anthropic",
+      "url": "https://anthropic.com/research/claude-4-interp",
+      "publishedAt": "2026-11-20T01:11:09.460Z",
+      "impact": 91
+    },
+    {
+      "id": "hugging-face-1795132800000-0",
+      "type": "live",
+      "category": "llm",
+      "title": "Introducing harness adapters: adapt your favorite model to your harness to improve performance and cost",
+      "excerpt": "New development from the frontier.",
+      "source": "Hugging Face",
+      "url": "https://huggingface.co/blog/harness-adapters-at-scale",
+      "publishedAt": "2026-11-20T00:00:00.000Z",
+      "impact": 75
+    },
+    {
+      "id": "marktechpost-1795124782000-1",
+      "type": "live",
+      "category": "research",
+      "title": "Meta FAIR Self-Improving Memory Hits 56.0 on Continual Learning Bench",
+      "excerpt": "Meta FAIR’s Self-Improving Memory lets Kimi-K2. 6 write its own LOAD and OFFLOAD memory prompts, then distills them into its weights",
+      "source": "MarkTechPost",
+      "url": "https://www.marktechpost.com/2026/11/19/meta-fair-self-improving-memory-harness-distillation/",
+      "publishedAt": "2026-11-19T21:46:22.000Z",
+      "impact": 65
+    },
+    {
+      "id": "marktechpost-1795112001000-2",
       "type": "live",
       "category": "llm",
       "title": "13 Best Agent Gateways in 2026 for MCP, A2A and LLM Traffic: Kong, Bifrost, AgentCore, Arcade",
@@ -37,7 +147,7 @@
       "impact": 77
     },
     {
-      "id": "marktechpost-1795110420000-2",
+      "id": "marktechpost-1795110420000-3",
       "type": "live",
       "category": "llm",
       "title": "Perplexity Launches Orchestrator API for Failover and Model Routing",
@@ -48,106 +158,7 @@
       "impact": 65
     },
     {
-      "id": "aether-figure03",
-      "type": "premium",
-      "category": "robotics",
-      "title": "Figure 03 completes 43-hour autonomous factory shift with zero interventions",
-      "excerpt": "Humanoid achieves new milestone in unsupervised operation, performing 1,240 unique tasks across three assembly lines at the BMW South Carolina plant.",
-      "source": "Figure AI",
-      "url": "https://figure.ai/news/03-milestone",
-      "publishedAt": "2026-11-19T15:28:48.362Z",
-      "impact": 89
-    },
-    {
-      "id": "marktechpost-1795085157000-3",
-      "type": "live",
-      "category": "research",
-      "title": "Not If, But How: Responding to Security Incidents in the Age of AI Attackers",
-      "excerpt": "AI-powered attackers are driving more frequent attacks on AI infrastructure.  This guide reviews 6 months of incidents, sets out a 4-pillar incident response playbook, and shows it in practice through Fireworks AI and...",
-      "source": "MarkTechPost",
-      "url": "https://www.marktechpost.com/2026/11/19/ai-security-incident-response-playbook-2026/",
-      "publishedAt": "2026-11-19T10:45:57.000Z",
-      "impact": 65
-    },
-    {
-      "id": "aether-interp",
-      "type": "premium",
-      "category": "safety",
-      "title": "Anthropic publishes unprecedented mechanistic interpretability map of Claude 4",
-      "excerpt": "Researchers reverse-engineered 312 million features inside the model, including the first clear \"deception circuit\" discovered in a frontier model.",
-      "source": "Anthropic",
-      "url": "https://anthropic.com/research/claude-4-interp",
-      "publishedAt": "2026-11-19T10:28:48.362Z",
-      "impact": 91
-    },
-    {
-      "id": "arxiv-cs.ai-1795064400000-0",
-      "type": "live",
-      "category": "safety",
-      "title": "Human-AI Mutualism Is Unstable under Capability Asymmetry",
-      "excerpt": "23322v1 Announce Type: new Abstract: One hope for a good human future alongside advanced AI rests on enduring mutualism: humans and AI will need each other, so the relationship will stay good for both.  We argue that ...",
-      "source": "arXiv cs.AI",
-      "url": "https://arxiv.org/abs/2611.23322",
-      "publishedAt": "2026-11-19T05:00:00.000Z",
-      "impact": 58
-    },
-    {
-      "id": "arxiv-cs.ai-1795064400000-1",
-      "type": "live",
-      "category": "safety",
-      "title": "Training Language Models for Introspective Oversight",
-      "excerpt": "23365v1 Announce Type: new Abstract: Language models increasingly exhibit behaviors that are difficult to detect in transcripts, such as reward hacking, deception, and sycophancy.  Asking the assistant follow-up quest...",
-      "source": "arXiv cs.AI",
-      "url": "https://arxiv.org/abs/2611.23365",
-      "publishedAt": "2026-11-19T05:00:00.000Z",
-      "impact": 58
-    },
-    {
-      "id": "arxiv-cs.ai-1795064400000-2",
-      "type": "live",
-      "category": "llm",
-      "title": "Where the Tokens Go: Heat, Entropy and Error in Agentic Coding",
-      "excerpt": "23375v1 Announce Type: new Abstract: Coding agents are billed by the token, yet software engineering says nothing about what a token actually buys.  Here we introduce a theory of software thermodynamics",
-      "source": "arXiv cs.AI",
-      "url": "https://arxiv.org/abs/2611.23375",
-      "publishedAt": "2026-11-19T05:00:00.000Z",
-      "impact": 69
-    },
-    {
-      "id": "arxiv-cs.ai-1795064400000-3",
-      "type": "live",
-      "category": "hardware",
-      "title": "HardwareDx: A Foundational Graph Model System for Datacenter Machine Repairs",
-      "excerpt": "23398v1 Announce Type: new Abstract: The rapid scale-up of AI infrastructure has made datacenter reliability a cornerstone of the cloud business economy.  Since hardware failures in hyper-scale AI clusters can stall m...",
-      "source": "arXiv cs.AI",
-      "url": "https://arxiv.org/abs/2611.23398",
-      "publishedAt": "2026-11-19T05:00:00.000Z",
-      "impact": 58
-    },
-    {
-      "id": "arxiv-cs.ai-1795064400000-4",
-      "type": "live",
-      "category": "safety",
-      "title": "RFBench: A Simulator-Grounded Multimodal Benchmark for Passive RF Layout Design and Understanding",
-      "excerpt": "23410v1 Announce Type: new Abstract: While multimodal language models can interpret diagrams and generate structured outputs, their capacity to connect passive radio-frequency (RF) design intent, layout geometry, and ...",
-      "source": "arXiv cs.AI",
-      "url": "https://arxiv.org/abs/2611.23410",
-      "publishedAt": "2026-11-19T05:00:00.000Z",
-      "impact": 58
-    },
-    {
-      "id": "arxiv-cs.ai-1795064400000-5",
-      "type": "live",
-      "category": "hardware",
-      "title": "Why Sub-4-Bit Vision CNNs Collapse and Where Mixed-Precision Recovery Stops",
-      "excerpt": "23445v1 Announce Type: new Abstract: Deep vision models operating in resource-constrained environments depend heavily on low-bit quantization, yet compressing weights below 4 bits frequently induces catastrophic accur...",
-      "source": "arXiv cs.AI",
-      "url": "https://arxiv.org/abs/2611.23445",
-      "publishedAt": "2026-11-19T05:00:00.000Z",
-      "impact": 58
-    },
-    {
-      "id": "hugging-face-1795031696000-0",
+      "id": "hugging-face-1795031696000-1",
       "type": "live",
       "category": "research",
       "title": "DaisyRose-27B: Pushing the Frontier of Post-Training Efficiency",
@@ -158,7 +169,7 @@
       "impact": 93
     },
     {
-      "id": "hugging-face-1795028023000-1",
+      "id": "hugging-face-1795028023000-2",
       "type": "live",
       "category": "research",
       "title": "Why your fine-tuning job takes longer than the FLOPs say",
@@ -167,17 +178,6 @@
       "url": "https://huggingface.co/blog/Dharma-AI/predicting-fine-tuning-time",
       "publishedAt": "2026-11-18T18:53:43.000Z",
       "impact": 75
-    },
-    {
-      "id": "hugging-face-1795014023000-2",
-      "type": "live",
-      "category": "llm",
-      "title": "Time-Series Models in the Streamhouse: A New Frontier and Use Cases",
-      "excerpt": "New development from the frontier.",
-      "source": "Hugging Face",
-      "url": "https://huggingface.co/blog/ibm-research/time-series-powered-streamhouse",
-      "publishedAt": "2026-11-18T15:00:23.000Z",
-      "impact": 93
     }
   ]
 }

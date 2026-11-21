@@ -1,8 +1,19 @@
 {
-  "lastUpdated": "2026-11-20T23:52:09.249Z",
+  "lastUpdated": "2026-11-21T06:35:36.326Z",
   "source": "AETHER + Public RSS (arXiv, Hugging Face, MarkTechPost, Ben's Bites)",
-  "count": 16,
+  "count": 10,
   "articles": [
+    {
+      "id": "marktechpost-1795233664000-0",
+      "type": "live",
+      "category": "multimodal",
+      "title": "Baseten Releases Bison-1 and Groundhog-1, Topping Decision Model Index",
+      "excerpt": "Baseten released bison-1 and groundhog-1, open-weight decision models built on Gemma 4.  bison-1 scores 76 on the AA Decision Index v2",
+      "source": "MarkTechPost",
+      "url": "https://www.marktechpost.com/2026/11/20/baseten-bison-1-groundhog-1-gemma-4-decision-models/",
+      "publishedAt": "2026-11-21T04:01:04.000Z",
+      "impact": 65
+    },
     {
       "id": "aether-grok43",
       "type": "premium",
@@ -11,11 +22,22 @@
       "excerpt": "New model demonstrates 4.2× improvement on multi-step software engineering benchmarks and sustains coherent agent trajectories beyond 110k tokens.",
       "source": "xAI",
       "url": "https://x.ai/blog/grok-4.3",
-      "publishedAt": "2026-11-20T18:52:09.009Z",
+      "publishedAt": "2026-11-21T01:35:36.038Z",
       "impact": 96
     },
     {
-      "id": "marktechpost-1795196549000-0",
+      "id": "aether-figure03",
+      "type": "premium",
+      "category": "robotics",
+      "title": "Figure 03 completes 43-hour autonomous factory shift with zero interventions",
+      "excerpt": "Humanoid achieves new milestone in unsupervised operation, performing 1,240 unique tasks across three assembly lines at the BMW South Carolina plant.",
+      "source": "Figure AI",
+      "url": "https://figure.ai/news/03-milestone",
+      "publishedAt": "2026-11-20T21:35:36.038Z",
+      "impact": 89
+    },
+    {
+      "id": "marktechpost-1795196549000-1",
       "type": "live",
       "category": "hardware",
       "title": "RadixArk Ships DaisyRose-27B, a 27B Agentic Coding Model Trained With Reinforcement Learning Only",
@@ -26,18 +48,18 @@
       "impact": 77
     },
     {
-      "id": "aether-figure03",
+      "id": "aether-interp",
       "type": "premium",
-      "category": "robotics",
-      "title": "Figure 03 completes 43-hour autonomous factory shift with zero interventions",
-      "excerpt": "Humanoid achieves new milestone in unsupervised operation, performing 1,240 unique tasks across three assembly lines at the BMW South Carolina plant.",
-      "source": "Figure AI",
-      "url": "https://figure.ai/news/03-milestone",
-      "publishedAt": "2026-11-20T14:52:09.010Z",
-      "impact": 89
+      "category": "safety",
+      "title": "Anthropic publishes unprecedented mechanistic interpretability map of Claude 4",
+      "excerpt": "Researchers reverse-engineered 312 million features inside the model, including the first clear \"deception circuit\" discovered in a frontier model.",
+      "source": "Anthropic",
+      "url": "https://anthropic.com/research/claude-4-interp",
+      "publishedAt": "2026-11-20T16:35:36.038Z",
+      "impact": 91
     },
     {
-      "id": "marktechpost-1795185892000-1",
+      "id": "marktechpost-1795185892000-2",
       "type": "live",
       "category": "llm",
       "title": "NVIDIA AI Releases Nemotron-Labs-Sigma, a Continuous Diffusion Language Model with 14 checkpoints at 3B/8B",
@@ -46,83 +68,6 @@
       "url": "https://www.marktechpost.com/2026/11/20/nvidia-nemotron-labs-sigma-continuous-diffusion-language-model/",
       "publishedAt": "2026-11-20T14:44:52.000Z",
       "impact": 65
-    },
-    {
-      "id": "aether-interp",
-      "type": "premium",
-      "category": "safety",
-      "title": "Anthropic publishes unprecedented mechanistic interpretability map of Claude 4",
-      "excerpt": "Researchers reverse-engineered 312 million features inside the model, including the first clear \"deception circuit\" discovered in a frontier model.",
-      "source": "Anthropic",
-      "url": "https://anthropic.com/research/claude-4-interp",
-      "publishedAt": "2026-11-20T09:52:09.010Z",
-      "impact": 91
-    },
-    {
-      "id": "arxiv-cs.ai-1795150800000-0",
-      "type": "live",
-      "category": "safety",
-      "title": "Closing the Analyze-to-Design Gap: An Authorization-Bounded Agent for Self-Driving Laboratories",
-      "excerpt": "25043v1 Announce Type: new Abstract: Artificial intelligence (AI) agents are increasingly integrated into self-driving laboratories (SDLs) to plan experiments and interpret results.  However, analytical reasoning alon...",
-      "source": "arXiv cs.AI",
-      "url": "https://arxiv.org/abs/2611.25043",
-      "publishedAt": "2026-11-20T05:00:00.000Z",
-      "impact": 69
-    },
-    {
-      "id": "arxiv-cs.ai-1795150800000-1",
-      "type": "live",
-      "category": "safety",
-      "title": "An LLM-Agentic Framework for Intelligent Work Order Management in Industrial Maintenance",
-      "excerpt": "25070v1 Announce Type: new Abstract: This paper presents an AI-driven framework, CodeReAct agent, designed to enhance industrial equipment maintenance through natural language (NL) interactions.  The framework employs...",
-      "source": "arXiv cs.AI",
-      "url": "https://arxiv.org/abs/2611.25070",
-      "publishedAt": "2026-11-20T05:00:00.000Z",
-      "impact": 69
-    },
-    {
-      "id": "arxiv-cs.ai-1795150800000-2",
-      "type": "live",
-      "category": "llm",
-      "title": "SailSearch: Agent-Assisted Discovery in Combinatorial Optimization",
-      "excerpt": "25087v1 Announce Type: new Abstract: We present SailSearch, a human-guided workflow for algorithmic research with two language-model agents, and report results on Market Split and maximum independent set (MIS).  For M...",
-      "source": "arXiv cs.AI",
-      "url": "https://arxiv.org/abs/2611.25087",
-      "publishedAt": "2026-11-20T05:00:00.000Z",
-      "impact": 69
-    },
-    {
-      "id": "arxiv-cs.ai-1795150800000-3",
-      "type": "live",
-      "category": "llm",
-      "title": "BuggyMLE: Scaling Machine Learning Engineering Difficulty with Bug Injection",
-      "excerpt": "25088v1 Announce Type: new Abstract: Enabling AI systems to autonomously improve AI models requires agents capable of performing machine learning engineering (MLE).  In practice, designing, training, and evaluating co...",
-      "source": "arXiv cs.AI",
-      "url": "https://arxiv.org/abs/2611.25088",
-      "publishedAt": "2026-11-20T05:00:00.000Z",
-      "impact": 58
-    },
-    {
-      "id": "arxiv-cs.ai-1795150800000-4",
-      "type": "live",
-      "category": "llm",
-      "title": "CoMPASS: A Multi-Turn Benchmark for Measuring LLM Reinforcement of Parasocial Behavior",
-      "excerpt": "25109v1 Announce Type: new Abstract: Users of conversational LLMs sometimes anthropomorphize these systems, form emotional attachments to them, and become dependent on them.  This behavior, known as parasocial attachm...",
-      "source": "arXiv cs.AI",
-      "url": "https://arxiv.org/abs/2611.25109",
-      "publishedAt": "2026-11-20T05:00:00.000Z",
-      "impact": 58
-    },
-    {
-      "id": "arxiv-cs.ai-1795150800000-5",
-      "type": "live",
-      "category": "safety",
-      "title": "DSFlow: A Neuro-Symbolic Data Workflow Agent with Statistical Diagnostic Guardrails",
-      "excerpt": "25111v1 Announce Type: new Abstract: Data science workflows often require tools that presume non-trivial technical knowledge.  Large language models (LLMs) reduce this barrier, but a gap remains between flexible gener...",
-      "source": "arXiv cs.AI",
-      "url": "https://arxiv.org/abs/2611.25111",
-      "publishedAt": "2026-11-20T05:00:00.000Z",
-      "impact": 69
     },
     {
       "id": "hugging-face-1795132800000-0",
@@ -147,7 +92,7 @@
       "impact": 75
     },
     {
-      "id": "marktechpost-1795124782000-2",
+      "id": "marktechpost-1795124782000-3",
       "type": "live",
       "category": "research",
       "title": "Meta FAIR Self-Improving Memory Hits 56.0 on Continual Learning Bench",
@@ -156,17 +101,6 @@
       "url": "https://www.marktechpost.com/2026/11/19/meta-fair-self-improving-memory-harness-distillation/",
       "publishedAt": "2026-11-19T21:46:22.000Z",
       "impact": 65
-    },
-    {
-      "id": "marktechpost-1795112001000-3",
-      "type": "live",
-      "category": "llm",
-      "title": "13 Best Agent Gateways in 2026 for MCP, A2A and LLM Traffic: Kong, Bifrost, AgentCore, Arcade",
-      "excerpt": "We ranked the 13 best agent gateways of 2026 by how they govern model, MCP tool and agent-to-agent traffic, with verified pricing, deployment options and the trade-offs each vendor's marketing leaves out.  The post 13...",
-      "source": "MarkTechPost",
-      "url": "https://www.marktechpost.com/2026/11/19/best-agent-gateways-2026/",
-      "publishedAt": "2026-11-19T18:13:21.000Z",
-      "impact": 77
     },
     {
       "id": "hugging-face-1795031696000-2",

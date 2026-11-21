@@ -1,10 +1,65 @@
 {
-  "lastUpdated": "2026-11-21T06:35:36.326Z",
+  "lastUpdated": "2026-11-21T18:57:15.981Z",
   "source": "AETHER + Public RSS (arXiv, Hugging Face, MarkTechPost, Ben's Bites)",
   "count": 10,
   "articles": [
     {
-      "id": "marktechpost-1795233664000-0",
+      "id": "aether-grok43",
+      "type": "premium",
+      "category": "llm",
+      "title": "xAI releases Grok-4.3 with native long-horizon agent scaffolding",
+      "excerpt": "New model demonstrates 4.2× improvement on multi-step software engineering benchmarks and sustains coherent agent trajectories beyond 110k tokens.",
+      "source": "xAI",
+      "url": "https://x.ai/blog/grok-4.3",
+      "publishedAt": "2026-11-21T13:57:15.694Z",
+      "impact": 96
+    },
+    {
+      "id": "marktechpost-1795263230000-0",
+      "type": "live",
+      "category": "research",
+      "title": "Meet Thinking Machines Inkling 2 Mini: 26B Looped MoE Runs on a 32GB Mac",
+      "excerpt": "Thinking Machines released Inkling 2 Mini, a 26. 4B-parameter looped MoE transformer with 3",
+      "source": "MarkTechPost",
+      "url": "https://www.marktechpost.com/2026/11/21/thinking-machines-inkling-2-mini-looped-transformer/",
+      "publishedAt": "2026-11-21T12:13:50.000Z",
+      "impact": 65
+    },
+    {
+      "id": "marktechpost-1795261577000-1",
+      "type": "live",
+      "category": "llm",
+      "title": "OpenAI Ships GPT-Live-1.1 for Voice Agents, Cuts Idle Cost to $0.02/Min",
+      "excerpt": "OpenAI has released GPT-Live-1.  The full-duplex voice model improves multilingual accents and transcription, and a new standby mode bills idle WebRTC time at $0",
+      "source": "MarkTechPost",
+      "url": "https://www.marktechpost.com/2026/11/21/openai-gpt-live-1-1-api-standby-mode/",
+      "publishedAt": "2026-11-21T11:46:17.000Z",
+      "impact": 77
+    },
+    {
+      "id": "aether-figure03",
+      "type": "premium",
+      "category": "robotics",
+      "title": "Figure 03 completes 43-hour autonomous factory shift with zero interventions",
+      "excerpt": "Humanoid achieves new milestone in unsupervised operation, performing 1,240 unique tasks across three assembly lines at the BMW South Carolina plant.",
+      "source": "Figure AI",
+      "url": "https://figure.ai/news/03-milestone",
+      "publishedAt": "2026-11-21T09:57:15.694Z",
+      "impact": 89
+    },
+    {
+      "id": "aether-interp",
+      "type": "premium",
+      "category": "safety",
+      "title": "Anthropic publishes unprecedented mechanistic interpretability map of Claude 4",
+      "excerpt": "Researchers reverse-engineered 312 million features inside the model, including the first clear \"deception circuit\" discovered in a frontier model.",
+      "source": "Anthropic",
+      "url": "https://anthropic.com/research/claude-4-interp",
+      "publishedAt": "2026-11-21T04:57:15.694Z",
+      "impact": 91
+    },
+    {
+      "id": "marktechpost-1795233664000-2",
       "type": "live",
       "category": "multimodal",
       "title": "Baseten Releases Bison-1 and Groundhog-1, Topping Decision Model Index",
@@ -15,29 +70,7 @@
       "impact": 65
     },
     {
-      "id": "aether-grok43",
-      "type": "premium",
-      "category": "llm",
-      "title": "xAI releases Grok-4.3 with native long-horizon agent scaffolding",
-      "excerpt": "New model demonstrates 4.2× improvement on multi-step software engineering benchmarks and sustains coherent agent trajectories beyond 110k tokens.",
-      "source": "xAI",
-      "url": "https://x.ai/blog/grok-4.3",
-      "publishedAt": "2026-11-21T01:35:36.038Z",
-      "impact": 96
-    },
-    {
-      "id": "aether-figure03",
-      "type": "premium",
-      "category": "robotics",
-      "title": "Figure 03 completes 43-hour autonomous factory shift with zero interventions",
-      "excerpt": "Humanoid achieves new milestone in unsupervised operation, performing 1,240 unique tasks across three assembly lines at the BMW South Carolina plant.",
-      "source": "Figure AI",
-      "url": "https://figure.ai/news/03-milestone",
-      "publishedAt": "2026-11-20T21:35:36.038Z",
-      "impact": 89
-    },
-    {
-      "id": "marktechpost-1795196549000-1",
+      "id": "marktechpost-1795196549000-3",
       "type": "live",
       "category": "hardware",
       "title": "RadixArk Ships DaisyRose-27B, a 27B Agentic Coding Model Trained With Reinforcement Learning Only",
@@ -46,28 +79,6 @@
       "url": "https://www.marktechpost.com/2026/11/20/radixark-daisyrose-27b-agentic-model/",
       "publishedAt": "2026-11-20T17:42:29.000Z",
       "impact": 77
-    },
-    {
-      "id": "aether-interp",
-      "type": "premium",
-      "category": "safety",
-      "title": "Anthropic publishes unprecedented mechanistic interpretability map of Claude 4",
-      "excerpt": "Researchers reverse-engineered 312 million features inside the model, including the first clear \"deception circuit\" discovered in a frontier model.",
-      "source": "Anthropic",
-      "url": "https://anthropic.com/research/claude-4-interp",
-      "publishedAt": "2026-11-20T16:35:36.038Z",
-      "impact": 91
-    },
-    {
-      "id": "marktechpost-1795185892000-2",
-      "type": "live",
-      "category": "llm",
-      "title": "NVIDIA AI Releases Nemotron-Labs-Sigma, a Continuous Diffusion Language Model with 14 checkpoints at 3B/8B",
-      "excerpt": "NVIDIA released Nemotron-Labs-Sigma, 14 open 3B and 8B continuous diffusion language model checkpoints.  Sigma denoises text in a learned 16-D embedding space, distills to few-step samplers, and decodes up to 4",
-      "source": "MarkTechPost",
-      "url": "https://www.marktechpost.com/2026/11/20/nvidia-nemotron-labs-sigma-continuous-diffusion-language-model/",
-      "publishedAt": "2026-11-20T14:44:52.000Z",
-      "impact": 65
     },
     {
       "id": "hugging-face-1795132800000-0",
@@ -90,17 +101,6 @@
       "url": "https://huggingface.co/blog/harness-adapters-at-scale",
       "publishedAt": "2026-11-20T00:00:00.000Z",
       "impact": 75
-    },
-    {
-      "id": "marktechpost-1795124782000-3",
-      "type": "live",
-      "category": "research",
-      "title": "Meta FAIR Self-Improving Memory Hits 56.0 on Continual Learning Bench",
-      "excerpt": "Meta FAIR’s Self-Improving Memory lets Kimi-K2. 6 write its own LOAD and OFFLOAD memory prompts, then distills them into its weights",
-      "source": "MarkTechPost",
-      "url": "https://www.marktechpost.com/2026/11/19/meta-fair-self-improving-memory-harness-distillation/",
-      "publishedAt": "2026-11-19T21:46:22.000Z",
-      "impact": 65
     },
     {
       "id": "hugging-face-1795031696000-2",

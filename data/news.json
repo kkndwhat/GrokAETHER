@@ -1,17 +1,17 @@
 {
-  "lastUpdated": "2026-11-22T06:03:24.899Z",
+  "lastUpdated": "2026-11-22T19:17:59.088Z",
   "source": "AETHER + Public RSS (arXiv, Hugging Face, MarkTechPost, Ben's Bites)",
   "count": 10,
   "articles": [
     {
-      "id": "marktechpost-1795312303000-0",
+      "id": "marktechpost-1795372677000-0",
       "type": "live",
-      "category": "hardware",
-      "title": "A Team of Researchers from Columbia and CertiK Introduce TensorLean for Formal Verification of GPU Kernels",
-      "excerpt": "TensorLean, from Columbia University and CertiK, formally verifies production GPU kernels at the PTX level using Lean.  It checked 149 kernel instances, proved 83 correct, and found 38 bugs in FlashAttention, DeepGEMM...",
+      "category": "multimodal",
+      "title": "NVIDIA Releases Alpamayo 2 Edge: A 2B Reasoning VLA for DRIVE Thor",
+      "excerpt": "NVIDIA released Alpamayo 2 Edge, a 2B-class reasoning vision-language-action model that plans driving trajectories and explains them on DRIVE AGX Thor, at 160 to 190 ms pixel-to-trajectory latency.  The post NVIDIA Re...",
       "source": "MarkTechPost",
-      "url": "https://www.marktechpost.com/2026/11/21/columbia-certik-tensorlean-formal-verification-gpu-kernels/",
-      "publishedAt": "2026-11-22T01:51:43.000Z",
+      "url": "https://www.marktechpost.com/2026/11/22/nvidia-alpamayo-2-edge-2b-reasoning-vla-drive-thor/",
+      "publishedAt": "2026-11-22T18:37:57.000Z",
       "impact": 65
     },
     {
@@ -22,8 +22,19 @@
       "excerpt": "New model demonstrates 4.2× improvement on multi-step software engineering benchmarks and sustains coherent agent trajectories beyond 110k tokens.",
       "source": "xAI",
       "url": "https://x.ai/blog/grok-4.3",
-      "publishedAt": "2026-11-22T01:03:24.623Z",
+      "publishedAt": "2026-11-22T14:17:58.761Z",
       "impact": 96
+    },
+    {
+      "id": "marktechpost-1795343777000-1",
+      "type": "live",
+      "category": "research",
+      "title": "Best Personal AI Agents in 2026: OpenClaw, Hermes Agent, Gemini Spark and More, Compared on Memory, Security and Cost",
+      "excerpt": "Hermes Agent, OpenClaw, Gemini Spark, OpenAI dots, Meta Muse and Perplexity Personal Computer ranked on memory, security defaults and real cost.  The post Best Personal AI Agents in 2026: OpenClaw, Hermes Agent, Gemin...",
+      "source": "MarkTechPost",
+      "url": "https://www.marktechpost.com/2026/11/22/best-personal-ai-agents-2026/",
+      "publishedAt": "2026-11-22T10:36:17.000Z",
+      "impact": 77
     },
     {
       "id": "aether-figure03",
@@ -33,8 +44,19 @@
       "excerpt": "Humanoid achieves new milestone in unsupervised operation, performing 1,240 unique tasks across three assembly lines at the BMW South Carolina plant.",
       "source": "Figure AI",
       "url": "https://figure.ai/news/03-milestone",
-      "publishedAt": "2026-11-21T21:03:24.623Z",
+      "publishedAt": "2026-11-22T10:17:58.762Z",
       "impact": 89
+    },
+    {
+      "id": "marktechpost-1795341834000-2",
+      "type": "live",
+      "category": "research",
+      "title": "Google AI Previews Tool Retrieval in the Gemini API for Large Tool Libraries",
+      "excerpt": "Google launched Gemini API Tool Retrieval in preview.  Agents keep a large tool library on standby and load each parameter schema only when needed, inside one Interactions API request",
+      "source": "MarkTechPost",
+      "url": "https://www.marktechpost.com/2026/11/22/google-gemini-api-tool-retrieval/",
+      "publishedAt": "2026-11-22T10:03:54.000Z",
+      "impact": 65
     },
     {
       "id": "aether-interp",
@@ -44,40 +66,18 @@
       "excerpt": "Researchers reverse-engineered 312 million features inside the model, including the first clear \"deception circuit\" discovered in a frontier model.",
       "source": "Anthropic",
       "url": "https://anthropic.com/research/claude-4-interp",
-      "publishedAt": "2026-11-21T16:03:24.623Z",
+      "publishedAt": "2026-11-22T05:17:58.762Z",
       "impact": 91
     },
     {
-      "id": "marktechpost-1795263230000-1",
+      "id": "marktechpost-1795312303000-3",
       "type": "live",
-      "category": "research",
-      "title": "Meet Thinking Machines Inkling 2 Mini: 26B Looped MoE Runs on a 32GB Mac",
-      "excerpt": "Thinking Machines released Inkling 2 Mini, a 26. 4B-parameter looped MoE transformer with 3",
+      "category": "hardware",
+      "title": "A Team of Researchers from Columbia and CertiK Introduce TensorLean for Formal Verification of GPU Kernels",
+      "excerpt": "TensorLean, from Columbia University and CertiK, formally verifies production GPU kernels at the PTX level using Lean.  It checked 149 kernel instances, proved 83 correct, and found 38 bugs in FlashAttention, DeepGEMM...",
       "source": "MarkTechPost",
-      "url": "https://www.marktechpost.com/2026/11/21/thinking-machines-inkling-2-mini-looped-transformer/",
-      "publishedAt": "2026-11-21T12:13:50.000Z",
-      "impact": 65
-    },
-    {
-      "id": "marktechpost-1795261577000-2",
-      "type": "live",
-      "category": "llm",
-      "title": "OpenAI Ships GPT-Live-1.1 for Voice Agents, Cuts Idle Cost to $0.02/Min",
-      "excerpt": "OpenAI has released GPT-Live-1.  The full-duplex voice model improves multilingual accents and transcription, and a new standby mode bills idle WebRTC time at $0",
-      "source": "MarkTechPost",
-      "url": "https://www.marktechpost.com/2026/11/21/openai-gpt-live-1-1-api-standby-mode/",
-      "publishedAt": "2026-11-21T11:46:17.000Z",
-      "impact": 77
-    },
-    {
-      "id": "marktechpost-1795233664000-3",
-      "type": "live",
-      "category": "multimodal",
-      "title": "Baseten Releases Bison-1 and Groundhog-1, Topping Decision Model Index",
-      "excerpt": "Baseten released bison-1 and groundhog-1, open-weight decision models built on Gemma 4.  bison-1 scores 76 on the AA Decision Index v2",
-      "source": "MarkTechPost",
-      "url": "https://www.marktechpost.com/2026/11/20/baseten-bison-1-groundhog-1-gemma-4-decision-models/",
-      "publishedAt": "2026-11-21T04:01:04.000Z",
+      "url": "https://www.marktechpost.com/2026/11/21/columbia-certik-tensorlean-formal-verification-gpu-kernels/",
+      "publishedAt": "2026-11-22T01:51:43.000Z",
       "impact": 65
     },
     {

@@ -1,8 +1,19 @@
 {
-  "lastUpdated": "2026-11-21T18:57:15.981Z",
+  "lastUpdated": "2026-11-22T06:03:24.899Z",
   "source": "AETHER + Public RSS (arXiv, Hugging Face, MarkTechPost, Ben's Bites)",
   "count": 10,
   "articles": [
+    {
+      "id": "marktechpost-1795312303000-0",
+      "type": "live",
+      "category": "hardware",
+      "title": "A Team of Researchers from Columbia and CertiK Introduce TensorLean for Formal Verification of GPU Kernels",
+      "excerpt": "TensorLean, from Columbia University and CertiK, formally verifies production GPU kernels at the PTX level using Lean.  It checked 149 kernel instances, proved 83 correct, and found 38 bugs in FlashAttention, DeepGEMM...",
+      "source": "MarkTechPost",
+      "url": "https://www.marktechpost.com/2026/11/21/columbia-certik-tensorlean-formal-verification-gpu-kernels/",
+      "publishedAt": "2026-11-22T01:51:43.000Z",
+      "impact": 65
+    },
     {
       "id": "aether-grok43",
       "type": "premium",
@@ -11,30 +22,8 @@
       "excerpt": "New model demonstrates 4.2× improvement on multi-step software engineering benchmarks and sustains coherent agent trajectories beyond 110k tokens.",
       "source": "xAI",
       "url": "https://x.ai/blog/grok-4.3",
-      "publishedAt": "2026-11-21T13:57:15.694Z",
+      "publishedAt": "2026-11-22T01:03:24.623Z",
       "impact": 96
-    },
-    {
-      "id": "marktechpost-1795263230000-0",
-      "type": "live",
-      "category": "research",
-      "title": "Meet Thinking Machines Inkling 2 Mini: 26B Looped MoE Runs on a 32GB Mac",
-      "excerpt": "Thinking Machines released Inkling 2 Mini, a 26. 4B-parameter looped MoE transformer with 3",
-      "source": "MarkTechPost",
-      "url": "https://www.marktechpost.com/2026/11/21/thinking-machines-inkling-2-mini-looped-transformer/",
-      "publishedAt": "2026-11-21T12:13:50.000Z",
-      "impact": 65
-    },
-    {
-      "id": "marktechpost-1795261577000-1",
-      "type": "live",
-      "category": "llm",
-      "title": "OpenAI Ships GPT-Live-1.1 for Voice Agents, Cuts Idle Cost to $0.02/Min",
-      "excerpt": "OpenAI has released GPT-Live-1.  The full-duplex voice model improves multilingual accents and transcription, and a new standby mode bills idle WebRTC time at $0",
-      "source": "MarkTechPost",
-      "url": "https://www.marktechpost.com/2026/11/21/openai-gpt-live-1-1-api-standby-mode/",
-      "publishedAt": "2026-11-21T11:46:17.000Z",
-      "impact": 77
     },
     {
       "id": "aether-figure03",
@@ -44,7 +33,7 @@
       "excerpt": "Humanoid achieves new milestone in unsupervised operation, performing 1,240 unique tasks across three assembly lines at the BMW South Carolina plant.",
       "source": "Figure AI",
       "url": "https://figure.ai/news/03-milestone",
-      "publishedAt": "2026-11-21T09:57:15.694Z",
+      "publishedAt": "2026-11-21T21:03:24.623Z",
       "impact": 89
     },
     {
@@ -55,11 +44,33 @@
       "excerpt": "Researchers reverse-engineered 312 million features inside the model, including the first clear \"deception circuit\" discovered in a frontier model.",
       "source": "Anthropic",
       "url": "https://anthropic.com/research/claude-4-interp",
-      "publishedAt": "2026-11-21T04:57:15.694Z",
+      "publishedAt": "2026-11-21T16:03:24.623Z",
       "impact": 91
     },
     {
-      "id": "marktechpost-1795233664000-2",
+      "id": "marktechpost-1795263230000-1",
+      "type": "live",
+      "category": "research",
+      "title": "Meet Thinking Machines Inkling 2 Mini: 26B Looped MoE Runs on a 32GB Mac",
+      "excerpt": "Thinking Machines released Inkling 2 Mini, a 26. 4B-parameter looped MoE transformer with 3",
+      "source": "MarkTechPost",
+      "url": "https://www.marktechpost.com/2026/11/21/thinking-machines-inkling-2-mini-looped-transformer/",
+      "publishedAt": "2026-11-21T12:13:50.000Z",
+      "impact": 65
+    },
+    {
+      "id": "marktechpost-1795261577000-2",
+      "type": "live",
+      "category": "llm",
+      "title": "OpenAI Ships GPT-Live-1.1 for Voice Agents, Cuts Idle Cost to $0.02/Min",
+      "excerpt": "OpenAI has released GPT-Live-1.  The full-duplex voice model improves multilingual accents and transcription, and a new standby mode bills idle WebRTC time at $0",
+      "source": "MarkTechPost",
+      "url": "https://www.marktechpost.com/2026/11/21/openai-gpt-live-1-1-api-standby-mode/",
+      "publishedAt": "2026-11-21T11:46:17.000Z",
+      "impact": 77
+    },
+    {
+      "id": "marktechpost-1795233664000-3",
       "type": "live",
       "category": "multimodal",
       "title": "Baseten Releases Bison-1 and Groundhog-1, Topping Decision Model Index",
@@ -68,17 +79,6 @@
       "url": "https://www.marktechpost.com/2026/11/20/baseten-bison-1-groundhog-1-gemma-4-decision-models/",
       "publishedAt": "2026-11-21T04:01:04.000Z",
       "impact": 65
-    },
-    {
-      "id": "marktechpost-1795196549000-3",
-      "type": "live",
-      "category": "hardware",
-      "title": "RadixArk Ships DaisyRose-27B, a 27B Agentic Coding Model Trained With Reinforcement Learning Only",
-      "excerpt": "RadixArk released DaisyRose-27B, an Apache 2. 0 agentic coding model post-trained from Qwen3",
-      "source": "MarkTechPost",
-      "url": "https://www.marktechpost.com/2026/11/20/radixark-daisyrose-27b-agentic-model/",
-      "publishedAt": "2026-11-20T17:42:29.000Z",
-      "impact": 77
     },
     {
       "id": "hugging-face-1795132800000-0",

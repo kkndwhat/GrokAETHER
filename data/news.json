@@ -1,8 +1,96 @@
 {
-  "lastUpdated": "2026-11-23T06:55:55.519Z",
+  "lastUpdated": "2026-11-23T23:40:11.689Z",
   "source": "AETHER + Public RSS (arXiv, Hugging Face, MarkTechPost, Ben's Bites)",
   "count": 16,
   "articles": [
+    {
+      "id": "marktechpost-1795461100000-0",
+      "type": "live",
+      "category": "safety",
+      "title": "Z AI Releases GLM-5.4: A 750B Loop Transformer That Runs 28 Layers Twice",
+      "excerpt": "4, its first Loop Transformer flagship.  The 750B-scale model runs 28 GLM-5 layers twice for deeper reasoning, with API access and open weights planned after safety work",
+      "source": "MarkTechPost",
+      "url": "https://www.marktechpost.com/2026/11/23/zai-glm-5-4-loop-transformer/",
+      "publishedAt": "2026-11-23T19:11:40.000Z",
+      "impact": 65
+    },
+    {
+      "id": "aether-grok43",
+      "type": "premium",
+      "category": "llm",
+      "title": "xAI releases Grok-4.3 with native long-horizon agent scaffolding",
+      "excerpt": "New model demonstrates 4.2× improvement on multi-step software engineering benchmarks and sustains coherent agent trajectories beyond 110k tokens.",
+      "source": "xAI",
+      "url": "https://x.ai/blog/grok-4.3",
+      "publishedAt": "2026-11-23T18:40:11.387Z",
+      "impact": 96
+    },
+    {
+      "id": "hugging-face-1795454437000-0",
+      "type": "live",
+      "category": "robotics",
+      "title": "RoboTrack: Point tracking for real-world robotic manipulation",
+      "excerpt": "New development from the frontier.",
+      "source": "Hugging Face",
+      "url": "https://huggingface.co/blog/allenai/robotrack",
+      "publishedAt": "2026-11-23T17:20:37.000Z",
+      "impact": 75
+    },
+    {
+      "id": "aether-figure03",
+      "type": "premium",
+      "category": "robotics",
+      "title": "Figure 03 completes 43-hour autonomous factory shift with zero interventions",
+      "excerpt": "Humanoid achieves new milestone in unsupervised operation, performing 1,240 unique tasks across three assembly lines at the BMW South Carolina plant.",
+      "source": "Figure AI",
+      "url": "https://figure.ai/news/03-milestone",
+      "publishedAt": "2026-11-23T14:40:11.387Z",
+      "impact": 89
+    },
+    {
+      "id": "marktechpost-1795430416000-1",
+      "type": "live",
+      "category": "research",
+      "title": "27 Cybersecurity Terms to Prepare You for the Age of AI",
+      "excerpt": "AI now sits on both sides of the security fight, and the vocabulary has changed with it.  IBM’s 2026 Cost of a Data Breach Report found that 1 in 4 malicious breaches were AI-enabled, up 56% year over year",
+      "source": "MarkTechPost",
+      "url": "https://www.marktechpost.com/2026/11/23/27-ai-cybersecurity-terms/",
+      "publishedAt": "2026-11-23T10:40:16.000Z",
+      "impact": 65
+    },
+    {
+      "id": "marktechpost-1795428347000-2",
+      "type": "live",
+      "category": "hardware",
+      "title": "Architect Labs Unveils Frostbite, an Interaction Net CPU Designed by AI",
+      "excerpt": "Architect Labs introduced Frostbite, an AI-designed CPU that runs interaction nets in hardware.  Agents took it from theory to 7 nm GDS, and pre-silicon tests show 4",
+      "source": "MarkTechPost",
+      "url": "https://www.marktechpost.com/2026/11/23/architect-labs-frostbite-ai-designed-cpu-interaction-nets/",
+      "publishedAt": "2026-11-23T10:05:47.000Z",
+      "impact": 65
+    },
+    {
+      "id": "aether-interp",
+      "type": "premium",
+      "category": "safety",
+      "title": "Anthropic publishes unprecedented mechanistic interpretability map of Claude 4",
+      "excerpt": "Researchers reverse-engineered 312 million features inside the model, including the first clear \"deception circuit\" discovered in a frontier model.",
+      "source": "Anthropic",
+      "url": "https://anthropic.com/research/claude-4-interp",
+      "publishedAt": "2026-11-23T09:40:11.387Z",
+      "impact": 91
+    },
+    {
+      "id": "marktechpost-1795422297000-3",
+      "type": "live",
+      "category": "hardware",
+      "title": "Meta TLX Brings Warp-Group GPU Control to Triton on Hopper, Blackwell, AMD",
+      "excerpt": "Meta has detailed TLX, its Triton Low-Level Extensions that add warp-group, barrier, TMA and cluster control to Python Triton kernels.  It runs Meta's ads and LLM workloads on Hopper, Blackwell and AMD MI350 GPUs",
+      "source": "MarkTechPost",
+      "url": "https://www.marktechpost.com/2026/11/23/meta-tlx-triton-low-level-extensions/",
+      "publishedAt": "2026-11-23T08:24:57.000Z",
+      "impact": 65
+    },
     {
       "id": "arxiv-cs.ai-1795410000000-0",
       "type": "live",
@@ -70,84 +158,18 @@
       "impact": 58
     },
     {
-      "id": "aether-grok43",
-      "type": "premium",
-      "category": "llm",
-      "title": "xAI releases Grok-4.3 with native long-horizon agent scaffolding",
-      "excerpt": "New model demonstrates 4.2× improvement on multi-step software engineering benchmarks and sustains coherent agent trajectories beyond 110k tokens.",
-      "source": "xAI",
-      "url": "https://x.ai/blog/grok-4.3",
-      "publishedAt": "2026-11-23T01:55:55.123Z",
-      "impact": 96
-    },
-    {
-      "id": "aether-figure03",
-      "type": "premium",
-      "category": "robotics",
-      "title": "Figure 03 completes 43-hour autonomous factory shift with zero interventions",
-      "excerpt": "Humanoid achieves new milestone in unsupervised operation, performing 1,240 unique tasks across three assembly lines at the BMW South Carolina plant.",
-      "source": "Figure AI",
-      "url": "https://figure.ai/news/03-milestone",
-      "publishedAt": "2026-11-22T21:55:55.123Z",
-      "impact": 89
-    },
-    {
-      "id": "marktechpost-1795372677000-0",
-      "type": "live",
-      "category": "multimodal",
-      "title": "NVIDIA Releases Alpamayo 2 Edge: A 2B Reasoning VLA for DRIVE Thor",
-      "excerpt": "NVIDIA released Alpamayo 2 Edge, a 2B-class reasoning vision-language-action model that plans driving trajectories and explains them on DRIVE AGX Thor, at 160 to 190 ms pixel-to-trajectory latency.  The post NVIDIA Re...",
-      "source": "MarkTechPost",
-      "url": "https://www.marktechpost.com/2026/11/22/nvidia-alpamayo-2-edge-2b-reasoning-vla-drive-thor/",
-      "publishedAt": "2026-11-22T18:37:57.000Z",
-      "impact": 65
-    },
-    {
-      "id": "aether-interp",
-      "type": "premium",
-      "category": "safety",
-      "title": "Anthropic publishes unprecedented mechanistic interpretability map of Claude 4",
-      "excerpt": "Researchers reverse-engineered 312 million features inside the model, including the first clear \"deception circuit\" discovered in a frontier model.",
-      "source": "Anthropic",
-      "url": "https://anthropic.com/research/claude-4-interp",
-      "publishedAt": "2026-11-22T16:55:55.123Z",
-      "impact": 91
-    },
-    {
-      "id": "marktechpost-1795343777000-1",
+      "id": "hugging-face-1795392000000-1",
       "type": "live",
       "category": "research",
-      "title": "Best Personal AI Agents in 2026: OpenClaw, Hermes Agent, Gemini Spark and More, Compared on Memory, Security and Cost",
-      "excerpt": "Hermes Agent, OpenClaw, Gemini Spark, OpenAI dots, Meta Muse and Perplexity Personal Computer ranked on memory, security defaults and real cost.  The post Best Personal AI Agents in 2026: OpenClaw, Hermes Agent, Gemin...",
-      "source": "MarkTechPost",
-      "url": "https://www.marktechpost.com/2026/11/22/best-personal-ai-agents-2026/",
-      "publishedAt": "2026-11-22T10:36:17.000Z",
-      "impact": 77
+      "title": "How to build and maintain an agentic evaluation",
+      "excerpt": "New development from the frontier.",
+      "source": "Hugging Face",
+      "url": "https://huggingface.co/blog/agentic-evals",
+      "publishedAt": "2026-11-23T00:00:00.000Z",
+      "impact": 87
     },
     {
-      "id": "marktechpost-1795341834000-2",
-      "type": "live",
-      "category": "research",
-      "title": "Google AI Previews Tool Retrieval in the Gemini API for Large Tool Libraries",
-      "excerpt": "Google launched Gemini API Tool Retrieval in preview.  Agents keep a large tool library on standby and load each parameter schema only when needed, inside one Interactions API request",
-      "source": "MarkTechPost",
-      "url": "https://www.marktechpost.com/2026/11/22/google-gemini-api-tool-retrieval/",
-      "publishedAt": "2026-11-22T10:03:54.000Z",
-      "impact": 65
-    },
-    {
-      "id": "marktechpost-1795312303000-3",
-      "type": "live",
-      "category": "hardware",
-      "title": "A Team of Researchers from Columbia and CertiK Introduce TensorLean for Formal Verification of GPU Kernels",
-      "excerpt": "TensorLean, from Columbia University and CertiK, formally verifies production GPU kernels at the PTX level using Lean.  It checked 149 kernel instances, proved 83 correct, and found 38 bugs in FlashAttention, DeepGEMM...",
-      "source": "MarkTechPost",
-      "url": "https://www.marktechpost.com/2026/11/21/columbia-certik-tensorlean-formal-verification-gpu-kernels/",
-      "publishedAt": "2026-11-22T01:51:43.000Z",
-      "impact": 65
-    },
-    {
-      "id": "hugging-face-1795132800000-0",
+      "id": "hugging-face-1795132800000-2",
       "type": "live",
       "category": "research",
       "title": "Welcome Inkling 2 Mini, Cutting-edge Performance for your Local Setup",
@@ -156,28 +178,6 @@
       "url": "https://huggingface.co/blog/inkling2mini",
       "publishedAt": "2026-11-20T00:00:00.000Z",
       "impact": 75
-    },
-    {
-      "id": "hugging-face-1795132800000-1",
-      "type": "live",
-      "category": "llm",
-      "title": "Introducing harness adapters: adapt your favorite model to your harness to improve performance and cost",
-      "excerpt": "New development from the frontier.",
-      "source": "Hugging Face",
-      "url": "https://huggingface.co/blog/harness-adapters-at-scale",
-      "publishedAt": "2026-11-20T00:00:00.000Z",
-      "impact": 75
-    },
-    {
-      "id": "hugging-face-1795031696000-2",
-      "type": "live",
-      "category": "research",
-      "title": "DaisyRose-27B: Pushing the Frontier of Post-Training Efficiency",
-      "excerpt": "New development from the frontier.",
-      "source": "Hugging Face",
-      "url": "https://huggingface.co/blog/RadixArk/daisyrose-27b-pushing-the-frontier-of-post-trainin",
-      "publishedAt": "2026-11-18T19:54:56.000Z",
-      "impact": 93
     }
   ]
 }

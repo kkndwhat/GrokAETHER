@@ -1,8 +1,63 @@
 {
-  "lastUpdated": "2026-11-24T09:22:07.399Z",
+  "lastUpdated": "2026-11-24T22:11:16.803Z",
   "source": "AETHER + Public RSS (arXiv, Hugging Face, MarkTechPost, Ben's Bites)",
   "count": 16,
   "articles": [
+    {
+      "id": "aether-grok43",
+      "type": "premium",
+      "category": "llm",
+      "title": "xAI releases Grok-4.3 with native long-horizon agent scaffolding",
+      "excerpt": "New model demonstrates 4.2× improvement on multi-step software engineering benchmarks and sustains coherent agent trajectories beyond 110k tokens.",
+      "source": "xAI",
+      "url": "https://x.ai/blog/grok-4.3",
+      "publishedAt": "2026-11-24T17:11:16.176Z",
+      "impact": 96
+    },
+    {
+      "id": "hugging-face-1795538053000-0",
+      "type": "live",
+      "category": "research",
+      "title": "Microduck Obstacle Avoidance: A Sim2Real Workflow with Isaac Lab and Newton",
+      "excerpt": "New development from the frontier.",
+      "source": "Hugging Face",
+      "url": "https://huggingface.co/blog/nvidia/microduck-obstacle-avoidance",
+      "publishedAt": "2026-11-24T16:34:13.000Z",
+      "impact": 75
+    },
+    {
+      "id": "marktechpost-1795529813000-0",
+      "type": "live",
+      "category": "research",
+      "title": "OpenAI and Cisco Releases Shirudo: An Open-Source Linux Runtime Allowing Agents to Defend Systems Without Downtime",
+      "excerpt": "OpenAI and Cisco released Shirudo, a pre-release, BSD-licensed eBPF runtime for Linux.  AI agents write signed \"shields\" that block exploit paths on running systems while teams test and roll out real patches",
+      "source": "MarkTechPost",
+      "url": "https://www.marktechpost.com/2026/11/24/openai-cisco-shirudo-ebpf-linux-runtime/",
+      "publishedAt": "2026-11-24T14:16:53.000Z",
+      "impact": 77
+    },
+    {
+      "id": "aether-figure03",
+      "type": "premium",
+      "category": "robotics",
+      "title": "Figure 03 completes 43-hour autonomous factory shift with zero interventions",
+      "excerpt": "Humanoid achieves new milestone in unsupervised operation, performing 1,240 unique tasks across three assembly lines at the BMW South Carolina plant.",
+      "source": "Figure AI",
+      "url": "https://figure.ai/news/03-milestone",
+      "publishedAt": "2026-11-24T13:11:16.176Z",
+      "impact": 89
+    },
+    {
+      "id": "aether-interp",
+      "type": "premium",
+      "category": "safety",
+      "title": "Anthropic publishes unprecedented mechanistic interpretability map of Claude 4",
+      "excerpt": "Researchers reverse-engineered 312 million features inside the model, including the first clear \"deception circuit\" discovered in a frontier model.",
+      "source": "Anthropic",
+      "url": "https://anthropic.com/research/claude-4-interp",
+      "publishedAt": "2026-11-24T08:11:16.176Z",
+      "impact": 91
+    },
     {
       "id": "arxiv-cs.ai-1795496400000-0",
       "type": "live",
@@ -70,29 +125,7 @@
       "impact": 69
     },
     {
-      "id": "aether-grok43",
-      "type": "premium",
-      "category": "llm",
-      "title": "xAI releases Grok-4.3 with native long-horizon agent scaffolding",
-      "excerpt": "New model demonstrates 4.2× improvement on multi-step software engineering benchmarks and sustains coherent agent trajectories beyond 110k tokens.",
-      "source": "xAI",
-      "url": "https://x.ai/blog/grok-4.3",
-      "publishedAt": "2026-11-24T04:22:06.970Z",
-      "impact": 96
-    },
-    {
-      "id": "aether-figure03",
-      "type": "premium",
-      "category": "robotics",
-      "title": "Figure 03 completes 43-hour autonomous factory shift with zero interventions",
-      "excerpt": "Humanoid achieves new milestone in unsupervised operation, performing 1,240 unique tasks across three assembly lines at the BMW South Carolina plant.",
-      "source": "Figure AI",
-      "url": "https://figure.ai/news/03-milestone",
-      "publishedAt": "2026-11-24T00:22:06.970Z",
-      "impact": 89
-    },
-    {
-      "id": "marktechpost-1795478559000-0",
+      "id": "marktechpost-1795478559000-1",
       "type": "live",
       "category": "llm",
       "title": "Anthropic Launches Claude Ship for GitHub Pull Request Review and Fixes",
@@ -103,18 +136,7 @@
       "impact": 65
     },
     {
-      "id": "aether-interp",
-      "type": "premium",
-      "category": "safety",
-      "title": "Anthropic publishes unprecedented mechanistic interpretability map of Claude 4",
-      "excerpt": "Researchers reverse-engineered 312 million features inside the model, including the first clear \"deception circuit\" discovered in a frontier model.",
-      "source": "Anthropic",
-      "url": "https://anthropic.com/research/claude-4-interp",
-      "publishedAt": "2026-11-23T19:22:06.970Z",
-      "impact": 91
-    },
-    {
-      "id": "marktechpost-1795461100000-1",
+      "id": "marktechpost-1795461100000-2",
       "type": "live",
       "category": "safety",
       "title": "Z AI Releases GLM-5.4: A 750B Loop Transformer That Runs 28 Layers Twice",
@@ -125,7 +147,7 @@
       "impact": 65
     },
     {
-      "id": "hugging-face-1795454437000-0",
+      "id": "hugging-face-1795454437000-1",
       "type": "live",
       "category": "robotics",
       "title": "RoboTrack: Point tracking for real-world robotic manipulation",
@@ -136,7 +158,7 @@
       "impact": 75
     },
     {
-      "id": "marktechpost-1795430416000-2",
+      "id": "marktechpost-1795430416000-3",
       "type": "live",
       "category": "research",
       "title": "27 Cybersecurity Terms to Prepare You for the Age of AI",
@@ -147,18 +169,7 @@
       "impact": 65
     },
     {
-      "id": "marktechpost-1795428347000-3",
-      "type": "live",
-      "category": "hardware",
-      "title": "Architect Labs Unveils Frostbite, an Interaction Net CPU Designed by AI",
-      "excerpt": "Architect Labs introduced Frostbite, an AI-designed CPU that runs interaction nets in hardware.  Agents took it from theory to 7 nm GDS, and pre-silicon tests show 4",
-      "source": "MarkTechPost",
-      "url": "https://www.marktechpost.com/2026/11/23/architect-labs-frostbite-ai-designed-cpu-interaction-nets/",
-      "publishedAt": "2026-11-23T10:05:47.000Z",
-      "impact": 65
-    },
-    {
-      "id": "hugging-face-1795392000000-1",
+      "id": "hugging-face-1795392000000-2",
       "type": "live",
       "category": "research",
       "title": "How to build and maintain an agentic evaluation",
@@ -167,17 +178,6 @@
       "url": "https://huggingface.co/blog/agentic-evals",
       "publishedAt": "2026-11-23T00:00:00.000Z",
       "impact": 87
-    },
-    {
-      "id": "hugging-face-1795132800000-2",
-      "type": "live",
-      "category": "research",
-      "title": "Welcome Inkling 2 Mini, Cutting-edge Performance for your Local Setup",
-      "excerpt": "New development from the frontier.",
-      "source": "Hugging Face",
-      "url": "https://huggingface.co/blog/inkling2mini",
-      "publishedAt": "2026-11-20T00:00:00.000Z",
-      "impact": 75
     }
   ]
 }

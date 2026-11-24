@@ -1,18 +1,73 @@
 {
-  "lastUpdated": "2026-11-23T23:40:11.689Z",
+  "lastUpdated": "2026-11-24T09:22:07.399Z",
   "source": "AETHER + Public RSS (arXiv, Hugging Face, MarkTechPost, Ben's Bites)",
   "count": 16,
   "articles": [
     {
-      "id": "marktechpost-1795461100000-0",
+      "id": "arxiv-cs.ai-1795496400000-0",
+      "type": "live",
+      "category": "robotics",
+      "title": "SAMA: Training-Free Consensus Ridge Tracking for Camera-Based Heart Rate on Five Public Datasets",
+      "excerpt": "28185v1 Announce Type: new Abstract: Remote photoplethysmography (rPPG) is usually benchmarked by one heart rate per video, a figure that hides the short windows in which a tele-consultation would actually read the pu...",
+      "source": "arXiv cs.AI",
+      "url": "https://arxiv.org/abs/2611.28185",
+      "publishedAt": "2026-11-24T05:00:00.000Z",
+      "impact": 58
+    },
+    {
+      "id": "arxiv-cs.ai-1795496400000-1",
       "type": "live",
       "category": "safety",
-      "title": "Z AI Releases GLM-5.4: A 750B Loop Transformer That Runs 28 Layers Twice",
-      "excerpt": "4, its first Loop Transformer flagship.  The 750B-scale model runs 28 GLM-5 layers twice for deeper reasoning, with API access and open weights planned after safety work",
-      "source": "MarkTechPost",
-      "url": "https://www.marktechpost.com/2026/11/23/zai-glm-5-4-loop-transformer/",
-      "publishedAt": "2026-11-23T19:11:40.000Z",
-      "impact": 65
+      "title": "torchtsetlin: Fast, Interpretable Tsetlin Machines for PyTorch",
+      "excerpt": "28195v1 Announce Type: new Abstract: The Tsetlin machine learns propositional rules with teams of Tsetlin automata that are driven by reward and penalty rather than gradients, so its models are interpretable by constr...",
+      "source": "arXiv cs.AI",
+      "url": "https://arxiv.org/abs/2611.28195",
+      "publishedAt": "2026-11-24T05:00:00.000Z",
+      "impact": 58
+    },
+    {
+      "id": "arxiv-cs.ai-1795496400000-2",
+      "type": "live",
+      "category": "safety",
+      "title": "From Point Clouds to Engineering Models: Benchmarking Agentic 3D Reconstruction in the Built Environment",
+      "excerpt": "28197v1 Announce Type: new Abstract: Coding agents can translate 3D measurements into CAD geometry, but reconstructing engineering models for the built environment demands semantic interpretation and consistent constr...",
+      "source": "arXiv cs.AI",
+      "url": "https://arxiv.org/abs/2611.28197",
+      "publishedAt": "2026-11-24T05:00:00.000Z",
+      "impact": 69
+    },
+    {
+      "id": "arxiv-cs.ai-1795496400000-3",
+      "type": "live",
+      "category": "multimodal",
+      "title": "AutoPILOT: A Visual Agent Harness for Real-Time Gameplay",
+      "excerpt": "28202v1 Announce Type: new Abstract: Multimodal foundation models can play video games well when the game waits for them, but often fail when it keeps running.  We find that much of this gap lies in the harness, which...",
+      "source": "arXiv cs.AI",
+      "url": "https://arxiv.org/abs/2611.28202",
+      "publishedAt": "2026-11-24T05:00:00.000Z",
+      "impact": 69
+    },
+    {
+      "id": "arxiv-cs.ai-1795496400000-4",
+      "type": "live",
+      "category": "llm",
+      "title": "FinEvo: Recursive Self-Improvement for Long-Horizon Financial Modeling",
+      "excerpt": "28239v1 Announce Type: new Abstract: Advances in large language models (LLMs) have expanded their role in high-value productivity tasks, including financial analysis and modeling, while enabling models to play an incr...",
+      "source": "arXiv cs.AI",
+      "url": "https://arxiv.org/abs/2611.28239",
+      "publishedAt": "2026-11-24T05:00:00.000Z",
+      "impact": 69
+    },
+    {
+      "id": "arxiv-cs.ai-1795496400000-5",
+      "type": "live",
+      "category": "llm",
+      "title": "Demystifying the Autoresearch Harness: How Context and Skills Shape Self-Evolving Agents",
+      "excerpt": "28244v1 Announce Type: new Abstract: Autoresearch agents, which autonomously design, run, and refine experiments, are accelerating scientific progress, particularly in AI research.  However, existing agents rely on ha...",
+      "source": "arXiv cs.AI",
+      "url": "https://arxiv.org/abs/2611.28244",
+      "publishedAt": "2026-11-24T05:00:00.000Z",
+      "impact": 69
     },
     {
       "id": "aether-grok43",
@@ -22,8 +77,52 @@
       "excerpt": "New model demonstrates 4.2× improvement on multi-step software engineering benchmarks and sustains coherent agent trajectories beyond 110k tokens.",
       "source": "xAI",
       "url": "https://x.ai/blog/grok-4.3",
-      "publishedAt": "2026-11-23T18:40:11.387Z",
+      "publishedAt": "2026-11-24T04:22:06.970Z",
       "impact": 96
+    },
+    {
+      "id": "aether-figure03",
+      "type": "premium",
+      "category": "robotics",
+      "title": "Figure 03 completes 43-hour autonomous factory shift with zero interventions",
+      "excerpt": "Humanoid achieves new milestone in unsupervised operation, performing 1,240 unique tasks across three assembly lines at the BMW South Carolina plant.",
+      "source": "Figure AI",
+      "url": "https://figure.ai/news/03-milestone",
+      "publishedAt": "2026-11-24T00:22:06.970Z",
+      "impact": 89
+    },
+    {
+      "id": "marktechpost-1795478559000-0",
+      "type": "live",
+      "category": "llm",
+      "title": "Anthropic Launches Claude Ship for GitHub Pull Request Review and Fixes",
+      "excerpt": "Anthropic's Claude Ship bundles Code Review, PR Steward and Claude Approvals to review, fix and approve GitHub pull requests.  Code Review is GA; the other 2 agents are in public beta for Team and Enterprise",
+      "source": "MarkTechPost",
+      "url": "https://www.marktechpost.com/2026/11/23/anthropic-claude-ship-pull-request-agents/",
+      "publishedAt": "2026-11-24T00:02:39.000Z",
+      "impact": 65
+    },
+    {
+      "id": "aether-interp",
+      "type": "premium",
+      "category": "safety",
+      "title": "Anthropic publishes unprecedented mechanistic interpretability map of Claude 4",
+      "excerpt": "Researchers reverse-engineered 312 million features inside the model, including the first clear \"deception circuit\" discovered in a frontier model.",
+      "source": "Anthropic",
+      "url": "https://anthropic.com/research/claude-4-interp",
+      "publishedAt": "2026-11-23T19:22:06.970Z",
+      "impact": 91
+    },
+    {
+      "id": "marktechpost-1795461100000-1",
+      "type": "live",
+      "category": "safety",
+      "title": "Z AI Releases GLM-5.4: A 750B Loop Transformer That Runs 28 Layers Twice",
+      "excerpt": "4, its first Loop Transformer flagship.  The 750B-scale model runs 28 GLM-5 layers twice for deeper reasoning, with API access and open weights planned after safety work",
+      "source": "MarkTechPost",
+      "url": "https://www.marktechpost.com/2026/11/23/zai-glm-5-4-loop-transformer/",
+      "publishedAt": "2026-11-23T19:11:40.000Z",
+      "impact": 65
     },
     {
       "id": "hugging-face-1795454437000-0",
@@ -37,18 +136,7 @@
       "impact": 75
     },
     {
-      "id": "aether-figure03",
-      "type": "premium",
-      "category": "robotics",
-      "title": "Figure 03 completes 43-hour autonomous factory shift with zero interventions",
-      "excerpt": "Humanoid achieves new milestone in unsupervised operation, performing 1,240 unique tasks across three assembly lines at the BMW South Carolina plant.",
-      "source": "Figure AI",
-      "url": "https://figure.ai/news/03-milestone",
-      "publishedAt": "2026-11-23T14:40:11.387Z",
-      "impact": 89
-    },
-    {
-      "id": "marktechpost-1795430416000-1",
+      "id": "marktechpost-1795430416000-2",
       "type": "live",
       "category": "research",
       "title": "27 Cybersecurity Terms to Prepare You for the Age of AI",
@@ -59,7 +147,7 @@
       "impact": 65
     },
     {
-      "id": "marktechpost-1795428347000-2",
+      "id": "marktechpost-1795428347000-3",
       "type": "live",
       "category": "hardware",
       "title": "Architect Labs Unveils Frostbite, an Interaction Net CPU Designed by AI",
@@ -68,94 +156,6 @@
       "url": "https://www.marktechpost.com/2026/11/23/architect-labs-frostbite-ai-designed-cpu-interaction-nets/",
       "publishedAt": "2026-11-23T10:05:47.000Z",
       "impact": 65
-    },
-    {
-      "id": "aether-interp",
-      "type": "premium",
-      "category": "safety",
-      "title": "Anthropic publishes unprecedented mechanistic interpretability map of Claude 4",
-      "excerpt": "Researchers reverse-engineered 312 million features inside the model, including the first clear \"deception circuit\" discovered in a frontier model.",
-      "source": "Anthropic",
-      "url": "https://anthropic.com/research/claude-4-interp",
-      "publishedAt": "2026-11-23T09:40:11.387Z",
-      "impact": 91
-    },
-    {
-      "id": "marktechpost-1795422297000-3",
-      "type": "live",
-      "category": "hardware",
-      "title": "Meta TLX Brings Warp-Group GPU Control to Triton on Hopper, Blackwell, AMD",
-      "excerpt": "Meta has detailed TLX, its Triton Low-Level Extensions that add warp-group, barrier, TMA and cluster control to Python Triton kernels.  It runs Meta's ads and LLM workloads on Hopper, Blackwell and AMD MI350 GPUs",
-      "source": "MarkTechPost",
-      "url": "https://www.marktechpost.com/2026/11/23/meta-tlx-triton-low-level-extensions/",
-      "publishedAt": "2026-11-23T08:24:57.000Z",
-      "impact": 65
-    },
-    {
-      "id": "arxiv-cs.ai-1795410000000-0",
-      "type": "live",
-      "category": "research",
-      "title": "Adding One More Agent: How AI Team Size and Formation Shape Productivity and Diversity in Human-AI Brainstorming Teams",
-      "excerpt": "26663v1 Announce Type: new Abstract: Generative AI has improved individual productivity, but whether adding a plurality of AI partners helps or hurts remains open.  We crossed AI partnership (one versus two) with beha...",
-      "source": "arXiv cs.AI",
-      "url": "https://arxiv.org/abs/2611.26663",
-      "publishedAt": "2026-11-23T05:00:00.000Z",
-      "impact": 69
-    },
-    {
-      "id": "arxiv-cs.ai-1795410000000-1",
-      "type": "live",
-      "category": "llm",
-      "title": "Coherence by Construction: Synthesizing CTI Knowledge Graphs and the Formal Limits of Coherence Validation",
-      "excerpt": "26717v1 Announce Type: new Abstract: Synthesizing relational training data such as knowledge graphs with a large language model typically emits structured objects one at a time, which keeps each object valid but leave...",
-      "source": "arXiv cs.AI",
-      "url": "https://arxiv.org/abs/2611.26717",
-      "publishedAt": "2026-11-23T05:00:00.000Z",
-      "impact": 58
-    },
-    {
-      "id": "arxiv-cs.ai-1795410000000-2",
-      "type": "live",
-      "category": "llm",
-      "title": "TOUMAII: A 4.5M-Pair Tool-Calling Preference Dataset and Its Source-Agnostic Generator",
-      "excerpt": "26722v1 Announce Type: new Abstract: To autonomously execute multi-step tasks, enterprise agents must reliably interact with tools, call APIs, or query databases, making tool-calling a fundamental capability of AI mod...",
-      "source": "arXiv cs.AI",
-      "url": "https://arxiv.org/abs/2611.26722",
-      "publishedAt": "2026-11-23T05:00:00.000Z",
-      "impact": 58
-    },
-    {
-      "id": "arxiv-cs.ai-1795410000000-3",
-      "type": "live",
-      "category": "safety",
-      "title": "ChatAtom: A Multi-Agent LLM System for Molecular Dynamics Simulation and Visualization",
-      "excerpt": "26782v1 Announce Type: new Abstract: Molecular dynamics (MD) simulation resolves atomic-scale motion and predicts the structural, mechanical, and dynamic properties of materials, making it cen- tral to materials desig...",
-      "source": "arXiv cs.AI",
-      "url": "https://arxiv.org/abs/2611.26782",
-      "publishedAt": "2026-11-23T05:00:00.000Z",
-      "impact": 69
-    },
-    {
-      "id": "arxiv-cs.ai-1795410000000-4",
-      "type": "live",
-      "category": "safety",
-      "title": "Beyond Final Answers: Interpretable Tumor Immune Microenvironment Reasoning from H&E and mIF",
-      "excerpt": "26794v1 Announce Type: new Abstract: Readouts of the tumor immune microenvironment (TIME), such as CD8+ T-cell density, intra-epithelial infiltration and the Ki67 index, combine tissue architecture from H&E with cell ...",
-      "source": "arXiv cs.AI",
-      "url": "https://arxiv.org/abs/2611.26794",
-      "publishedAt": "2026-11-23T05:00:00.000Z",
-      "impact": 58
-    },
-    {
-      "id": "arxiv-cs.ai-1795410000000-5",
-      "type": "live",
-      "category": "multimodal",
-      "title": "Memorization and Generalization in Generative Models: A Perspective From Energy-based Modeling and Associative Memory",
-      "excerpt": "26797v1 Announce Type: new Abstract: Generative models now write working code, produce realistic images, and hold long conversations, yet the mechanisms behind their intelligence still evade our understanding.  This t...",
-      "source": "arXiv cs.AI",
-      "url": "https://arxiv.org/abs/2611.26797",
-      "publishedAt": "2026-11-23T05:00:00.000Z",
-      "impact": 58
     },
     {
       "id": "hugging-face-1795392000000-1",

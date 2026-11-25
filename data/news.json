@@ -1,8 +1,85 @@
 {
-  "lastUpdated": "2026-11-24T22:11:16.803Z",
+  "lastUpdated": "2026-11-25T07:55:29.167Z",
   "source": "AETHER + Public RSS (arXiv, Hugging Face, MarkTechPost, Ben's Bites)",
   "count": 16,
   "articles": [
+    {
+      "id": "marktechpost-1795585325000-0",
+      "type": "live",
+      "category": "research",
+      "title": "ByteDance Researchers Open-Sources Laminar, an Async Reinforcement Learning RL Post-Training Framework",
+      "excerpt": "Laminar is an open-source asynchronous RL post-training framework from HKU and ByteDance Seed researchers.  It decouples rollout, training and weight sync, and lifted Qwen3-Coder-30B-A3B to 52",
+      "source": "MarkTechPost",
+      "url": "https://www.marktechpost.com/2026/11/24/bytedance-seed-laminar-async-rl-post-training-framework/",
+      "publishedAt": "2026-11-25T05:42:05.000Z",
+      "impact": 65
+    },
+    {
+      "id": "arxiv-cs.ai-1795582800000-0",
+      "type": "live",
+      "category": "research",
+      "title": "Irreducible Governance Structure for Autonomous Agent Systems: Fair Allocation, Strategy-Proofness, and Multi-Scale Composition",
+      "excerpt": "31284v1 Announce Type: new Abstract: Autonomous agent governance is commonly framed as a problem of enforcing correct execution.  However, in multi-agent systems, an equally fundamental question precedes execution: wh...",
+      "source": "arXiv cs.AI",
+      "url": "https://arxiv.org/abs/2611.31284",
+      "publishedAt": "2026-11-25T05:00:00.000Z",
+      "impact": 69
+    },
+    {
+      "id": "arxiv-cs.ai-1795582800000-1",
+      "type": "live",
+      "category": "multimodal",
+      "title": "MOZAIC: An Audio-Video Deepfake Benchmark for Telling What Is Fake",
+      "excerpt": "31301v1 Announce Type: new Abstract: Audio-video (AV) deepfakes can fake the face, the voice, or both.  Most benchmarks only ask whether a clip is real or fake, so they cannot show whether a detector relies on the pic...",
+      "source": "arXiv cs.AI",
+      "url": "https://arxiv.org/abs/2611.31301",
+      "publishedAt": "2026-11-25T05:00:00.000Z",
+      "impact": 58
+    },
+    {
+      "id": "arxiv-cs.ai-1795582800000-2",
+      "type": "live",
+      "category": "llm",
+      "title": "Conservative Overlap Fuzzy Rough Sets for Incomplete Data",
+      "excerpt": "31329v1 Announce Type: new Abstract: Attribute reduction in incomplete information systems is difficult because missing values break the equivalence-class structure of rough set theory.  We propose the Conservative Ov...",
+      "source": "arXiv cs.AI",
+      "url": "https://arxiv.org/abs/2611.31329",
+      "publishedAt": "2026-11-25T05:00:00.000Z",
+      "impact": 58
+    },
+    {
+      "id": "arxiv-cs.ai-1795582800000-3",
+      "type": "live",
+      "category": "multimodal",
+      "title": "Beyond Static Charts: Benchmarking Interactive Chart-to-Code Generation for MLLMs",
+      "excerpt": "31345v1 Announce Type: new Abstract: In recent years, multimodal large language models (MLLMs) have achieved significant progress in chart-to-code generation.  However, existing benchmarks mainly focus on static chart...",
+      "source": "arXiv cs.AI",
+      "url": "https://arxiv.org/abs/2611.31345",
+      "publishedAt": "2026-11-25T05:00:00.000Z",
+      "impact": 58
+    },
+    {
+      "id": "arxiv-cs.ai-1795582800000-4",
+      "type": "live",
+      "category": "safety",
+      "title": "What People Choose Not to Say: A Multimodal Benchmark for Fine-Grained Information Manipulation in Conversations",
+      "excerpt": "31346v1 Announce Type: new Abstract: Recent advances in MLLMs have improved social understanding, enabling models to recognize emotions and distinguish truthful from deceptive behaviors.  However, existing benchmarks ...",
+      "source": "arXiv cs.AI",
+      "url": "https://arxiv.org/abs/2611.31346",
+      "publishedAt": "2026-11-25T05:00:00.000Z",
+      "impact": 58
+    },
+    {
+      "id": "arxiv-cs.ai-1795582800000-5",
+      "type": "live",
+      "category": "llm",
+      "title": "Antares-Smaug: Adversarial Names, Tokens and Attack Rewrites: Sanitisers Miss Unseen Generalisations",
+      "excerpt": "31347v1 Announce Type: new Abstract: Laya is an open decision model: given a text, a question and K named options with descriptions, it returns one probability per option in a single pass, and software may act on the ...",
+      "source": "arXiv cs.AI",
+      "url": "https://arxiv.org/abs/2611.31347",
+      "publishedAt": "2026-11-25T05:00:00.000Z",
+      "impact": 58
+    },
     {
       "id": "aether-grok43",
       "type": "premium",
@@ -11,8 +88,41 @@
       "excerpt": "New model demonstrates 4.2× improvement on multi-step software engineering benchmarks and sustains coherent agent trajectories beyond 110k tokens.",
       "source": "xAI",
       "url": "https://x.ai/blog/grok-4.3",
-      "publishedAt": "2026-11-24T17:11:16.176Z",
+      "publishedAt": "2026-11-25T02:55:28.766Z",
       "impact": 96
+    },
+    {
+      "id": "marktechpost-1795561577000-1",
+      "type": "live",
+      "category": "llm",
+      "title": "Meet Facebook’s Your Algorithm: How Meta Turns Plain-Language Preferences Into Ranking",
+      "excerpt": "Meta's engineering team explains how Facebook's Your Algorithm turns plain-language interests into ranking signals for Feed and Reels, using LLM validation, 4 retrieval sources, layered filtering and a fine-tuned LLM ...",
+      "source": "MarkTechPost",
+      "url": "https://www.marktechpost.com/2026/11/24/meta-facebook-your-algorithm-llm-recommendations/",
+      "publishedAt": "2026-11-24T23:06:17.000Z",
+      "impact": 65
+    },
+    {
+      "id": "aether-figure03",
+      "type": "premium",
+      "category": "robotics",
+      "title": "Figure 03 completes 43-hour autonomous factory shift with zero interventions",
+      "excerpt": "Humanoid achieves new milestone in unsupervised operation, performing 1,240 unique tasks across three assembly lines at the BMW South Carolina plant.",
+      "source": "Figure AI",
+      "url": "https://figure.ai/news/03-milestone",
+      "publishedAt": "2026-11-24T22:55:28.766Z",
+      "impact": 89
+    },
+    {
+      "id": "aether-interp",
+      "type": "premium",
+      "category": "safety",
+      "title": "Anthropic publishes unprecedented mechanistic interpretability map of Claude 4",
+      "excerpt": "Researchers reverse-engineered 312 million features inside the model, including the first clear \"deception circuit\" discovered in a frontier model.",
+      "source": "Anthropic",
+      "url": "https://anthropic.com/research/claude-4-interp",
+      "publishedAt": "2026-11-24T17:55:28.766Z",
+      "impact": 91
     },
     {
       "id": "hugging-face-1795538053000-0",
@@ -26,7 +136,7 @@
       "impact": 75
     },
     {
-      "id": "marktechpost-1795529813000-0",
+      "id": "marktechpost-1795529813000-2",
       "type": "live",
       "category": "research",
       "title": "OpenAI and Cisco Releases Shirudo: An Open-Source Linux Runtime Allowing Agents to Defend Systems Without Downtime",
@@ -37,95 +147,7 @@
       "impact": 77
     },
     {
-      "id": "aether-figure03",
-      "type": "premium",
-      "category": "robotics",
-      "title": "Figure 03 completes 43-hour autonomous factory shift with zero interventions",
-      "excerpt": "Humanoid achieves new milestone in unsupervised operation, performing 1,240 unique tasks across three assembly lines at the BMW South Carolina plant.",
-      "source": "Figure AI",
-      "url": "https://figure.ai/news/03-milestone",
-      "publishedAt": "2026-11-24T13:11:16.176Z",
-      "impact": 89
-    },
-    {
-      "id": "aether-interp",
-      "type": "premium",
-      "category": "safety",
-      "title": "Anthropic publishes unprecedented mechanistic interpretability map of Claude 4",
-      "excerpt": "Researchers reverse-engineered 312 million features inside the model, including the first clear \"deception circuit\" discovered in a frontier model.",
-      "source": "Anthropic",
-      "url": "https://anthropic.com/research/claude-4-interp",
-      "publishedAt": "2026-11-24T08:11:16.176Z",
-      "impact": 91
-    },
-    {
-      "id": "arxiv-cs.ai-1795496400000-0",
-      "type": "live",
-      "category": "robotics",
-      "title": "SAMA: Training-Free Consensus Ridge Tracking for Camera-Based Heart Rate on Five Public Datasets",
-      "excerpt": "28185v1 Announce Type: new Abstract: Remote photoplethysmography (rPPG) is usually benchmarked by one heart rate per video, a figure that hides the short windows in which a tele-consultation would actually read the pu...",
-      "source": "arXiv cs.AI",
-      "url": "https://arxiv.org/abs/2611.28185",
-      "publishedAt": "2026-11-24T05:00:00.000Z",
-      "impact": 58
-    },
-    {
-      "id": "arxiv-cs.ai-1795496400000-1",
-      "type": "live",
-      "category": "safety",
-      "title": "torchtsetlin: Fast, Interpretable Tsetlin Machines for PyTorch",
-      "excerpt": "28195v1 Announce Type: new Abstract: The Tsetlin machine learns propositional rules with teams of Tsetlin automata that are driven by reward and penalty rather than gradients, so its models are interpretable by constr...",
-      "source": "arXiv cs.AI",
-      "url": "https://arxiv.org/abs/2611.28195",
-      "publishedAt": "2026-11-24T05:00:00.000Z",
-      "impact": 58
-    },
-    {
-      "id": "arxiv-cs.ai-1795496400000-2",
-      "type": "live",
-      "category": "safety",
-      "title": "From Point Clouds to Engineering Models: Benchmarking Agentic 3D Reconstruction in the Built Environment",
-      "excerpt": "28197v1 Announce Type: new Abstract: Coding agents can translate 3D measurements into CAD geometry, but reconstructing engineering models for the built environment demands semantic interpretation and consistent constr...",
-      "source": "arXiv cs.AI",
-      "url": "https://arxiv.org/abs/2611.28197",
-      "publishedAt": "2026-11-24T05:00:00.000Z",
-      "impact": 69
-    },
-    {
-      "id": "arxiv-cs.ai-1795496400000-3",
-      "type": "live",
-      "category": "multimodal",
-      "title": "AutoPILOT: A Visual Agent Harness for Real-Time Gameplay",
-      "excerpt": "28202v1 Announce Type: new Abstract: Multimodal foundation models can play video games well when the game waits for them, but often fail when it keeps running.  We find that much of this gap lies in the harness, which...",
-      "source": "arXiv cs.AI",
-      "url": "https://arxiv.org/abs/2611.28202",
-      "publishedAt": "2026-11-24T05:00:00.000Z",
-      "impact": 69
-    },
-    {
-      "id": "arxiv-cs.ai-1795496400000-4",
-      "type": "live",
-      "category": "llm",
-      "title": "FinEvo: Recursive Self-Improvement for Long-Horizon Financial Modeling",
-      "excerpt": "28239v1 Announce Type: new Abstract: Advances in large language models (LLMs) have expanded their role in high-value productivity tasks, including financial analysis and modeling, while enabling models to play an incr...",
-      "source": "arXiv cs.AI",
-      "url": "https://arxiv.org/abs/2611.28239",
-      "publishedAt": "2026-11-24T05:00:00.000Z",
-      "impact": 69
-    },
-    {
-      "id": "arxiv-cs.ai-1795496400000-5",
-      "type": "live",
-      "category": "llm",
-      "title": "Demystifying the Autoresearch Harness: How Context and Skills Shape Self-Evolving Agents",
-      "excerpt": "28244v1 Announce Type: new Abstract: Autoresearch agents, which autonomously design, run, and refine experiments, are accelerating scientific progress, particularly in AI research.  However, existing agents rely on ha...",
-      "source": "arXiv cs.AI",
-      "url": "https://arxiv.org/abs/2611.28244",
-      "publishedAt": "2026-11-24T05:00:00.000Z",
-      "impact": 69
-    },
-    {
-      "id": "marktechpost-1795478559000-1",
+      "id": "marktechpost-1795478559000-3",
       "type": "live",
       "category": "llm",
       "title": "Anthropic Launches Claude Ship for GitHub Pull Request Review and Fixes",
@@ -133,17 +155,6 @@
       "source": "MarkTechPost",
       "url": "https://www.marktechpost.com/2026/11/23/anthropic-claude-ship-pull-request-agents/",
       "publishedAt": "2026-11-24T00:02:39.000Z",
-      "impact": 65
-    },
-    {
-      "id": "marktechpost-1795461100000-2",
-      "type": "live",
-      "category": "safety",
-      "title": "Z AI Releases GLM-5.4: A 750B Loop Transformer That Runs 28 Layers Twice",
-      "excerpt": "4, its first Loop Transformer flagship.  The 750B-scale model runs 28 GLM-5 layers twice for deeper reasoning, with API access and open weights planned after safety work",
-      "source": "MarkTechPost",
-      "url": "https://www.marktechpost.com/2026/11/23/zai-glm-5-4-loop-transformer/",
-      "publishedAt": "2026-11-23T19:11:40.000Z",
       "impact": 65
     },
     {
@@ -156,17 +167,6 @@
       "url": "https://huggingface.co/blog/allenai/robotrack",
       "publishedAt": "2026-11-23T17:20:37.000Z",
       "impact": 75
-    },
-    {
-      "id": "marktechpost-1795430416000-3",
-      "type": "live",
-      "category": "research",
-      "title": "27 Cybersecurity Terms to Prepare You for the Age of AI",
-      "excerpt": "AI now sits on both sides of the security fight, and the vocabulary has changed with it.  IBM’s 2026 Cost of a Data Breach Report found that 1 in 4 malicious breaches were AI-enabled, up 56% year over year",
-      "source": "MarkTechPost",
-      "url": "https://www.marktechpost.com/2026/11/23/27-ai-cybersecurity-terms/",
-      "publishedAt": "2026-11-23T10:40:16.000Z",
-      "impact": 65
     },
     {
       "id": "hugging-face-1795392000000-2",

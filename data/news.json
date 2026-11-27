@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-11-26T21:14:39.139Z",
+  "lastUpdated": "2026-11-27T20:57:01.704Z",
   "source": "AETHER + Public RSS (arXiv, Hugging Face, MarkTechPost, Ben's Bites)",
   "count": 16,
   "articles": [
@@ -11,7 +11,7 @@
       "excerpt": "New model demonstrates 4.2× improvement on multi-step software engineering benchmarks and sustains coherent agent trajectories beyond 110k tokens.",
       "source": "xAI",
       "url": "https://x.ai/blog/grok-4.3",
-      "publishedAt": "2026-11-26T16:14:38.855Z",
+      "publishedAt": "2026-11-27T15:57:01.162Z",
       "impact": 96
     },
     {
@@ -22,11 +22,132 @@
       "excerpt": "Humanoid achieves new milestone in unsupervised operation, performing 1,240 unique tasks across three assembly lines at the BMW South Carolina plant.",
       "source": "Figure AI",
       "url": "https://figure.ai/news/03-milestone",
-      "publishedAt": "2026-11-26T12:14:38.855Z",
+      "publishedAt": "2026-11-27T11:57:01.162Z",
       "impact": 89
     },
     {
-      "id": "hugging-face-1795693037000-0",
+      "id": "aether-interp",
+      "type": "premium",
+      "category": "safety",
+      "title": "Anthropic publishes unprecedented mechanistic interpretability map of Claude 4",
+      "excerpt": "Researchers reverse-engineered 312 million features inside the model, including the first clear \"deception circuit\" discovered in a frontier model.",
+      "source": "Anthropic",
+      "url": "https://anthropic.com/research/claude-4-interp",
+      "publishedAt": "2026-11-27T06:57:01.162Z",
+      "impact": 91
+    },
+    {
+      "id": "arxiv-cs.ai-1795755600000-0",
+      "type": "live",
+      "category": "safety",
+      "title": "Context Scaling: A New Frontier of AI Scaling",
+      "excerpt": "33160v1 Announce Type: new Abstract: Many failures of deployed AI arise not from weak inference but from a mismatch between the state a task depends on and the context available when the system acts.  Relevant user st...",
+      "source": "arXiv cs.AI",
+      "url": "https://arxiv.org/abs/2611.33160",
+      "publishedAt": "2026-11-27T05:00:00.000Z",
+      "impact": 75
+    },
+    {
+      "id": "arxiv-cs.ai-1795755600000-1",
+      "type": "live",
+      "category": "robotics",
+      "title": "Constraint-Aware Test-Time Scoring for LLM and VLM Candidate Selection",
+      "excerpt": "33161v1 Announce Type: new Abstract: When an LLM or VLM produces several candidate answers, picking the best one usually relies on the model's own confidence, a learned judge model, or a domain check.  Each has a know...",
+      "source": "arXiv cs.AI",
+      "url": "https://arxiv.org/abs/2611.33161",
+      "publishedAt": "2026-11-27T05:00:00.000Z",
+      "impact": 58
+    },
+    {
+      "id": "arxiv-cs.ai-1795755600000-2",
+      "type": "live",
+      "category": "llm",
+      "title": "AutoformBench: A Lean Formalization Benchmark for Advanced Mathematics",
+      "excerpt": "33165v1 Announce Type: new Abstract: AI systems are increasingly capable of producing machine-checked Lean proofs of advanced mathematical results.  Real mathematical formalization, however, is not isolated theorem pr...",
+      "source": "arXiv cs.AI",
+      "url": "https://arxiv.org/abs/2611.33165",
+      "publishedAt": "2026-11-27T05:00:00.000Z",
+      "impact": 58
+    },
+    {
+      "id": "arxiv-cs.ai-1795755600000-3",
+      "type": "live",
+      "category": "llm",
+      "title": "General-Purpose Decision Models for AI Configuration Tuning",
+      "excerpt": "33190v1 Announce Type: new Abstract: AI configuration tuning searches for settings that improve the performance of AI systems under a limited budget.  Existing tuners use different sampling and search policies, making...",
+      "source": "arXiv cs.AI",
+      "url": "https://arxiv.org/abs/2611.33190",
+      "publishedAt": "2026-11-27T05:00:00.000Z",
+      "impact": 58
+    },
+    {
+      "id": "arxiv-cs.ai-1795755600000-4",
+      "type": "live",
+      "category": "safety",
+      "title": "What, Who, and When: Structured Harm Assessment for Mental Health Safety via Short Reasoning",
+      "excerpt": "33263v1 Announce Type: new Abstract: The growing use of large language models (LLMs) for mental health support raises important safety concerns.  Existing guard models primarily identify categories of harmful content,...",
+      "source": "arXiv cs.AI",
+      "url": "https://arxiv.org/abs/2611.33263",
+      "publishedAt": "2026-11-27T05:00:00.000Z",
+      "impact": 58
+    },
+    {
+      "id": "arxiv-cs.ai-1795755600000-5",
+      "type": "live",
+      "category": "llm",
+      "title": "Certify What You Plant: Shortcut-Free Proof Depth in Logical Reasoning Data",
+      "excerpt": "33303v1 Announce Type: new Abstract: Procedurally generated logic problems are used to both evaluate and train reasoning in language models.  Their difficulty is usually set by planting a proof, that is, by sampling a...",
+      "source": "arXiv cs.AI",
+      "url": "https://arxiv.org/abs/2611.33303",
+      "publishedAt": "2026-11-27T05:00:00.000Z",
+      "impact": 58
+    },
+    {
+      "id": "marktechpost-1795751015000-0",
+      "type": "live",
+      "category": "llm",
+      "title": "nexos.ai AI Adoption Platform puts 200+ models behind one AI Gateway, with budget limits and governance built in",
+      "excerpt": "ai AI Adoption Platform puts 200+ models behind one AI Gateway, with budget limits and governance built in The post nexos. ai AI Adoption Platform puts 200+ models behind one AI Gateway, with budget limits and governa...",
+      "source": "MarkTechPost",
+      "url": "https://www.marktechpost.com/2026/11/26/nexos-ai-ai-gateway-200-models-governance/",
+      "publishedAt": "2026-11-27T03:43:35.000Z",
+      "impact": 65
+    },
+    {
+      "id": "marktechpost-1795750290000-1",
+      "type": "live",
+      "category": "llm",
+      "title": "Tencent Open-Sources DFly2: Speculative Decoding That Reuses the Target’s Sparse KV Cache",
+      "excerpt": "Tencent open-sourced DFly2, a speculative decoding drafter for sparse-attention LLMs.  Each draft layer reuses the target's KV cache and top-k indexer picks, adding no draft KV memory and lifting 64K serving throughpu...",
+      "source": "MarkTechPost",
+      "url": "https://www.marktechpost.com/2026/11/26/tencent-dfly2-speculative-decoding-sparse-models/",
+      "publishedAt": "2026-11-27T03:31:30.000Z",
+      "impact": 65
+    },
+    {
+      "id": "hugging-face-1795737600000-0",
+      "type": "live",
+      "category": "hardware",
+      "title": "Taking Trainium3 to the Track: Generating Videos with LTX-2.5",
+      "excerpt": "New development from the frontier.",
+      "source": "Hugging Face",
+      "url": "https://huggingface.co/blog/video-trainium3",
+      "publishedAt": "2026-11-27T00:00:00.000Z",
+      "impact": 75
+    },
+    {
+      "id": "marktechpost-1795730800000-2",
+      "type": "live",
+      "category": "llm",
+      "title": "Sakana AI Releases Namazu Small, a 30B Model Built on Nemotron 3 Nano",
+      "excerpt": "Sakana AI released Sakana Namazu Small, a 30B-A3B reasoning model built on NVIDIA Nemotron 3 Nano. 1 across 25 benchmarks, ahead of the 120B Nemotron 3 Super at 56",
+      "source": "MarkTechPost",
+      "url": "https://www.marktechpost.com/2026/11/26/sakana-ai-namazu-small-30b-nemotron-3-nano/",
+      "publishedAt": "2026-11-26T22:06:40.000Z",
+      "impact": 65
+    },
+    {
+      "id": "hugging-face-1795693037000-1",
       "type": "live",
       "category": "llm",
       "title": "Introducing the llama.cpp benchmark dashboard for AMD Ryzen and Radeon",
@@ -37,18 +158,7 @@
       "impact": 75
     },
     {
-      "id": "aether-interp",
-      "type": "premium",
-      "category": "safety",
-      "title": "Anthropic publishes unprecedented mechanistic interpretability map of Claude 4",
-      "excerpt": "Researchers reverse-engineered 312 million features inside the model, including the first clear \"deception circuit\" discovered in a frontier model.",
-      "source": "Anthropic",
-      "url": "https://anthropic.com/research/claude-4-interp",
-      "publishedAt": "2026-11-26T07:14:38.855Z",
-      "impact": 91
-    },
-    {
-      "id": "hugging-face-1795669536000-1",
+      "id": "hugging-face-1795669536000-2",
       "type": "live",
       "category": "research",
       "title": "Building on Nemotron 3.5 Parse: Open Data, Fine-Tuning, and Faster Inference",
@@ -59,84 +169,7 @@
       "impact": 75
     },
     {
-      "id": "arxiv-cs.ai-1795669200000-0",
-      "type": "live",
-      "category": "safety",
-      "title": "Context Scaling: A New Frontier of AI Scaling",
-      "excerpt": "33160v1 Announce Type: new Abstract: Many failures of deployed AI arise not from weak inference but from a mismatch between the state a task depends on and the context available when the system acts.  Relevant user st...",
-      "source": "arXiv cs.AI",
-      "url": "https://arxiv.org/abs/2611.33160",
-      "publishedAt": "2026-11-26T05:00:00.000Z",
-      "impact": 75
-    },
-    {
-      "id": "arxiv-cs.ai-1795669200000-1",
-      "type": "live",
-      "category": "robotics",
-      "title": "Constraint-Aware Test-Time Scoring for LLM and VLM Candidate Selection",
-      "excerpt": "33161v1 Announce Type: new Abstract: When an LLM or VLM produces several candidate answers, picking the best one usually relies on the model's own confidence, a learned judge model, or a domain check.  Each has a know...",
-      "source": "arXiv cs.AI",
-      "url": "https://arxiv.org/abs/2611.33161",
-      "publishedAt": "2026-11-26T05:00:00.000Z",
-      "impact": 58
-    },
-    {
-      "id": "arxiv-cs.ai-1795669200000-2",
-      "type": "live",
-      "category": "llm",
-      "title": "AutoformBench: A Lean Formalization Benchmark for Advanced Mathematics",
-      "excerpt": "33165v1 Announce Type: new Abstract: AI systems are increasingly capable of producing machine-checked Lean proofs of advanced mathematical results.  Real mathematical formalization, however, is not isolated theorem pr...",
-      "source": "arXiv cs.AI",
-      "url": "https://arxiv.org/abs/2611.33165",
-      "publishedAt": "2026-11-26T05:00:00.000Z",
-      "impact": 58
-    },
-    {
-      "id": "arxiv-cs.ai-1795669200000-3",
-      "type": "live",
-      "category": "llm",
-      "title": "General-Purpose Decision Models for AI Configuration Tuning",
-      "excerpt": "33190v1 Announce Type: new Abstract: AI configuration tuning searches for settings that improve the performance of AI systems under a limited budget.  Existing tuners use different sampling and search policies, making...",
-      "source": "arXiv cs.AI",
-      "url": "https://arxiv.org/abs/2611.33190",
-      "publishedAt": "2026-11-26T05:00:00.000Z",
-      "impact": 58
-    },
-    {
-      "id": "arxiv-cs.ai-1795669200000-4",
-      "type": "live",
-      "category": "safety",
-      "title": "What, Who, and When: Structured Harm Assessment for Mental Health Safety via Short Reasoning",
-      "excerpt": "33263v1 Announce Type: new Abstract: The growing use of large language models (LLMs) for mental health support raises important safety concerns.  Existing guard models primarily identify categories of harmful content,...",
-      "source": "arXiv cs.AI",
-      "url": "https://arxiv.org/abs/2611.33263",
-      "publishedAt": "2026-11-26T05:00:00.000Z",
-      "impact": 58
-    },
-    {
-      "id": "arxiv-cs.ai-1795669200000-5",
-      "type": "live",
-      "category": "llm",
-      "title": "Certify What You Plant: Shortcut-Free Proof Depth in Logical Reasoning Data",
-      "excerpt": "33303v1 Announce Type: new Abstract: Procedurally generated logic problems are used to both evaluate and train reasoning in language models.  Their difficulty is usually set by planting a proof, that is, by sampling a...",
-      "source": "arXiv cs.AI",
-      "url": "https://arxiv.org/abs/2611.33303",
-      "publishedAt": "2026-11-26T05:00:00.000Z",
-      "impact": 58
-    },
-    {
-      "id": "hugging-face-1795651200000-2",
-      "type": "live",
-      "category": "research",
-      "title": "Swarms, Flocks, Gangs: How to build, train, and evaluate multi-agent systems",
-      "excerpt": "New development from the frontier.",
-      "source": "Hugging Face",
-      "url": "https://huggingface.co/blog/training-swarms",
-      "publishedAt": "2026-11-26T00:00:00.000Z",
-      "impact": 87
-    },
-    {
-      "id": "marktechpost-1795585325000-0",
+      "id": "marktechpost-1795585325000-3",
       "type": "live",
       "category": "research",
       "title": "ByteDance Researchers Open-Sources Laminar, an Async Reinforcement Learning RL Post-Training Framework",
@@ -144,39 +177,6 @@
       "source": "MarkTechPost",
       "url": "https://www.marktechpost.com/2026/11/24/bytedance-seed-laminar-async-rl-post-training-framework/",
       "publishedAt": "2026-11-25T05:42:05.000Z",
-      "impact": 65
-    },
-    {
-      "id": "marktechpost-1795561577000-1",
-      "type": "live",
-      "category": "llm",
-      "title": "Meet Facebook’s Your Algorithm: How Meta Turns Plain-Language Preferences Into Ranking",
-      "excerpt": "Meta's engineering team explains how Facebook's Your Algorithm turns plain-language interests into ranking signals for Feed and Reels, using LLM validation, 4 retrieval sources, layered filtering and a fine-tuned LLM ...",
-      "source": "MarkTechPost",
-      "url": "https://www.marktechpost.com/2026/11/24/meta-facebook-your-algorithm-llm-recommendations/",
-      "publishedAt": "2026-11-24T23:06:17.000Z",
-      "impact": 65
-    },
-    {
-      "id": "marktechpost-1795529813000-2",
-      "type": "live",
-      "category": "research",
-      "title": "OpenAI and Cisco Releases Shirudo: An Open-Source Linux Runtime Allowing Agents to Defend Systems Without Downtime",
-      "excerpt": "OpenAI and Cisco released Shirudo, a pre-release, BSD-licensed eBPF runtime for Linux.  AI agents write signed \"shields\" that block exploit paths on running systems while teams test and roll out real patches",
-      "source": "MarkTechPost",
-      "url": "https://www.marktechpost.com/2026/11/24/openai-cisco-shirudo-ebpf-linux-runtime/",
-      "publishedAt": "2026-11-24T14:16:53.000Z",
-      "impact": 77
-    },
-    {
-      "id": "marktechpost-1795478559000-3",
-      "type": "live",
-      "category": "llm",
-      "title": "Anthropic Launches Claude Ship for GitHub Pull Request Review and Fixes",
-      "excerpt": "Anthropic's Claude Ship bundles Code Review, PR Steward and Claude Approvals to review, fix and approve GitHub pull requests.  Code Review is GA; the other 2 agents are in public beta for Team and Enterprise",
-      "source": "MarkTechPost",
-      "url": "https://www.marktechpost.com/2026/11/23/anthropic-claude-ship-pull-request-agents/",
-      "publishedAt": "2026-11-24T00:02:39.000Z",
       "impact": 65
     }
   ]
